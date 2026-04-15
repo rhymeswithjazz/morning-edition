@@ -237,7 +237,7 @@ def build_index(editions):
     {rows if rows else '<div class="empty">No editions yet. Check back tomorrow morning.</div>'}
   </div>
   <div class="footer">
-    <p>Curated daily at 7am from Hacker News + Pinboard Popular</p>
+    <p>Curated daily at 4am from Hacker News + Pinboard Popular</p>
   </div>
 </body>
 </html>"""
