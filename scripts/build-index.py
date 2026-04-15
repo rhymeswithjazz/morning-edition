@@ -26,12 +26,56 @@ def get_editions():
             content = f.read_text(encoding="utf-8")
             title_match = re.search(r"<title>(.*?)</title>", content)
             title = title_match.group(1) if title_match else f"Morning Edition — {date_str}"
+            # Extract story headlines and links from spread sections only
+            # (skip section-divider h2 by requiring a read-link in the same spread)
+            stories = []
+            for m in re.finditer(
+                r'<section\s+class="spread[^"]*">.*?<h2[^>]*>(.*?)</h2>.*?<a\s+class="read-link"\s+href="([^"]+)"',
+                content,
+                re.DOTALL,
+            ):
+                headline = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+                url = m.group(2)
+                stories.append({"headline": headline, "url": url})
+
+            # Extract blurbs paired with headlines
+            for i, m in enumerate(re.finditer(
+                r'<p\s+class="blurb"[^>]*>(.*?)</p>',
+                content,
+                re.DOTALL,
+            )):
+                if i < len(stories):
+                    blurb = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+                    blurb = re.sub(r"\s+", " ", blurb)
+                    stories[i]["blurb"] = blurb
+
+            # Detect which stories have "Directly Applies" tags
+            applies_positions = set()
+            for j, m in enumerate(re.finditer(r'class="spread[^"]*"', content)):
+                spread_start = m.start()
+                next_spread = content.find('class="spread', spread_start + 1)
+                section = content[spread_start:next_spread] if next_spread > 0 else content[spread_start:]
+                if "applies-tag" in section:
+                    applies_positions.add(j)
+
+            for j, s in enumerate(stories):
+                s["applies"] = j in applies_positions
+
+            # Detect Pinboard stories (have source-pinboard badge)
+            for j, m in enumerate(re.finditer(r'class="spread[^"]*"', content)):
+                spread_start = m.start()
+                next_spread = content.find('class="spread', spread_start + 1)
+                section = content[spread_start:next_spread] if next_spread > 0 else content[spread_start:]
+                if j < len(stories):
+                    stories[j]["source"] = "pinboard" if "source-pinboard" in section else "hn"
+
             editions.append({
                 "date": dt,
                 "date_str": date_str,
                 "filename": f.name,
                 "title": title,
                 "path": f"magazines/{f.name}",
+                "stories": stories,
             })
         except ValueError:
             continue
@@ -201,18 +245,71 @@ def build_index(editions):
     print(f"  index.html: {len(editions)} editions listed")
 
 
+def _xml_escape(text):
+    """Escape special XML characters."""
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
+def _build_feed_description(ed):
+    """Build rich HTML description for an RSS item from extracted stories."""
+    stories = ed.get("stories", [])
+    if not stories:
+        return f"20 curated stories for {ed['date'].strftime('%B %-d, %Y')}."
+
+    hn_stories = [s for s in stories if s.get("source") != "pinboard"]
+    pb_stories = [s for s in stories if s.get("source") == "pinboard"]
+
+    html_parts = []
+
+    if hn_stories:
+        html_parts.append("<h3>From Hacker News</h3><ol>")
+        for s in hn_stories:
+            flag = " ⚡" if s.get("applies") else ""
+            blurb = s.get("blurb", "")
+            blurb_html = f"<br/><small>{_xml_escape(blurb)}</small>" if blurb else ""
+            html_parts.append(
+                f'<li><a href="{_xml_escape(s["url"])}">'
+                f'{_xml_escape(s["headline"])}</a>{flag}{blurb_html}</li>'
+            )
+        html_parts.append("</ol>")
+
+    if pb_stories:
+        html_parts.append("<h3>Pinboard Picks</h3><ol>")
+        for s in pb_stories:
+            flag = " ⚡" if s.get("applies") else ""
+            blurb = s.get("blurb", "")
+            blurb_html = f"<br/><small>{_xml_escape(blurb)}</small>" if blurb else ""
+            html_parts.append(
+                f'<li><a href="{_xml_escape(s["url"])}">'
+                f'{_xml_escape(s["headline"])}</a>{flag}{blurb_html}</li>'
+            )
+        html_parts.append("</ol>")
+
+    html_parts.append(
+        f'<p><a href="{DOMAIN}/{ed["path"]}">Read the full magazine edition →</a></p>'
+    )
+    return "\n".join(html_parts)
+
+
 def build_feed(editions):
-    """Generate RSS feed.xml."""
+    """Generate RSS feed.xml with rich story descriptions."""
     items = ""
     for ed in editions[:20]:  # last 20 editions in feed
         pub_date = ed["date"].strftime("%a, %d %b %Y 07:00:00 +0000")
+        description = _build_feed_description(ed)
         items += f"""
     <item>
-      <title>{ed['title']}</title>
+      <title>{_xml_escape(ed['title'])}</title>
       <link>{DOMAIN}/{ed['path']}</link>
       <guid>{DOMAIN}/{ed['path']}</guid>
       <pubDate>{pub_date}</pubDate>
-      <description>20 curated stories from Hacker News and Pinboard Popular for {ed['date'].strftime('%B %-d, %Y')}.</description>
+      <description><![CDATA[{description}]]></description>
     </item>"""
 
     now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
