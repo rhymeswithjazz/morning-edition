@@ -112,6 +112,7 @@ def build_index(editions):
 <meta property="og:description" content="20 curated stories daily from Hacker News + Pinboard Popular">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{DOMAIN}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="{DOMAIN}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -322,6 +323,11 @@ def build_feed(editions):
     <language>en-us</language>
     <lastBuildDate>{now}</lastBuildDate>
     <atom:link href="{DOMAIN}/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>{DOMAIN}/favicon.svg</url>
+      <title>Morning Edition</title>
+      <link>{DOMAIN}</link>
+    </image>
     {items}
   </channel>
 </rss>"""
@@ -344,6 +350,7 @@ def build_latest_redirect(editions):
 <head>
 <meta http-equiv="refresh" content="0;url={target}">
 <link rel="canonical" href="{DOMAIN}{target}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <title>Redirecting to latest edition...</title>
 </head>
 <body><a href="{target}">Latest edition</a></body>
