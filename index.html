@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Daily Tech Magazine</title>
+<meta name="description" content="A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, and more.">
+<meta property="og:title" content="Morning Edition — Daily Tech Magazine">
+<meta property="og:description" content="20 curated stories daily from Hacker News + Pinboard Popular">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 18px; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #0a0a0a;
+    color: #fafaf9;
+    min-height: 100vh;
+  }
+  .header {
+    padding: clamp(3rem, 10vw, 6rem) clamp(2rem, 6vw, 5rem);
+    max-width: 52rem;
+    margin: 0 auto;
+  }
+  .header .label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fb923c;
+    margin-bottom: 1.5rem;
+  }
+  .header h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .header p {
+    font-size: 1.1rem;
+    color: #a8a29e;
+    line-height: 1.6;
+    max-width: 36rem;
+  }
+  .header .rss-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #fb923c;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .header .rss-link:hover { text-decoration: underline; }
+  .editions {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 0 clamp(2rem, 6vw, 5rem) 4rem;
+  }
+  .edition-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid #292524;
+    text-decoration: none;
+    color: #fafaf9;
+    transition: background 0.15s;
+  }
+  .edition-row:hover {
+    background: rgba(251,146,60,0.04);
+  }
+  .edition-date {
+    font-size: 0.85rem;
+    color: #78716c;
+    min-width: 10rem;
+    line-height: 1.4;
+  }
+  .edition-date strong {
+    color: #a8a29e;
+    font-weight: 600;
+  }
+  .edition-title {
+    flex: 1;
+    font-family: 'Fraunces', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .edition-arrow {
+    font-size: 1.2rem;
+    color: #57534e;
+    transition: color 0.15s, transform 0.15s;
+  }
+  .edition-row:hover .edition-arrow {
+    color: #fb923c;
+    transform: translateX(4px);
+  }
+  .empty {
+    padding: 4rem 0;
+    text-align: center;
+    color: #57534e;
+    font-size: 1.1rem;
+  }
+  .footer {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 3rem clamp(2rem, 6vw, 5rem);
+    border-top: 1px solid #1c1917;
+    font-size: 0.8rem;
+    color: #57534e;
+  }
+  @media (max-width: 640px) {
+    .edition-row { flex-wrap: wrap; gap: 0.5rem; }
+    .edition-date { min-width: 100%; }
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">Archive</div>
+    <h1>Morning Edition</h1>
+    <p>A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, weird science, and Apple.</p>
+    <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
+  </div>
+  <div class="editions">
+    
+    <a href="magazines/2026-04-15.html" class="edition-row">
+      <span class="edition-date">Wednesday<br><strong>April 15, 2026</strong></span>
+      <span class="edition-title">Morning Edition — April 15, 2026<span style="background:#fb923c;color:white;padding:0.2rem 0.6rem;border-radius:100px;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-left:0.75rem;">Latest</span></span>
+      <span class="edition-arrow">&rarr;</span>
+    </a>
+  </div>
+  <div class="footer">
+    <p>Curated daily at 7am from Hacker News + Pinboard Popular</p>
+  </div>
+</body>
+</html>

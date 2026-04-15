@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — April 15, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for April 15, 2026. AI tools, creative software, dev tools, privacy, and more.">
+<meta property="og:title" content="Morning Edition — April 15, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-04-15.html">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --ff-display: 'Fraunces', serif;
+    --ff-body: 'Inter', sans-serif;
+  }
+
+  html { font-size: 18px; scroll-behavior: smooth; }
+  body { font-family: var(--ff-body); line-height: 1.6; }
+
+  /* ── Cover ── */
+  .cover {
+    min-height: 100vh;
+    background: #0a0a0a;
+    color: #fafaf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
+    animation: drift 20s ease-in-out infinite alternate;
+  }
+  @keyframes drift {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to { transform: translate(-3%, 2%) rotate(2deg); }
+  }
+  .cover-content { position: relative; z-index: 1; }
+  .cover .edition-label {
+    font-family: var(--ff-body);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fb923c;
+    margin-bottom: 2rem;
+  }
+  .cover h1 {
+    font-family: var(--ff-display);
+    font-size: clamp(3.5rem, 10vw, 8rem);
+    font-weight: 900;
+    line-height: 0.95;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  .cover .date {
+    font-family: var(--ff-body);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #a8a29e;
+    letter-spacing: 0.1em;
+  }
+  .cover .story-count {
+    margin-top: 3rem;
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    color: #78716c;
+  }
+  .cover .scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: #57534e;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+
+  /* ── Shared spread styles ── */
+  .spread {
+    min-height: 100vh;
+    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .spread .numeral {
+    font-family: var(--ff-display);
+    font-weight: 900;
+    line-height: 1;
+    display: block;
+  }
+  .spread h2 {
+    font-family: var(--ff-display);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .spread .byline {
+    font-family: var(--ff-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+  .spread .blurb {
+    font-family: var(--ff-body);
+    font-size: 1.15rem;
+    line-height: 1.7;
+    max-width: 42rem;
+  }
+  .spread .tag {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border-radius: 100px;
+    font-family: var(--ff-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .spread .applies-tag {
+    background: #fbbf24;
+    color: #1c1917;
+    font-weight: 800;
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .spread a.read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--ff-body);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: gap 0.2s;
+  }
+  .spread a.read-link:hover { gap: 1rem; }
+  .spread a.hn-link {
+    font-family: var(--ff-body);
+    font-size: 0.85rem;
+    text-decoration: none;
+    opacity: 0.6;
+    margin-top: 0.75rem;
+    display: inline-block;
+  }
+  .spread a.hn-link:hover { opacity: 1; }
+  .score-badge {
+    font-family: var(--ff-body);
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  /* ── 1: HERO — warm cream, massive numeral ── */
+  .spread-1 {
+    background: #fffbeb;
+    color: #1c1917;
+  }
+  .spread-1 .numeral {
+    font-size: clamp(8rem, 25vw, 18rem);
+    color: rgba(251,146,60,0.12);
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+  }
+  .spread-1 .tag { background: #fb923c; color: white; }
+  .spread-1 h2 { font-size: clamp(2.5rem, 6vw, 4.5rem); max-width: 38rem; }
+  .spread-1 a.read-link { color: #ea580c; }
+  .spread-1 a.hn-link { color: #9a3412; }
+  .spread-1 .score-badge { color: #ea580c; }
+
+  /* ── 2: DARK / MIDNIGHT — deep purple-black ── */
+  .spread-2 {
+    background: #1a1025;
+    color: #f5f3ff;
+  }
+  .spread-2 .numeral {
+    font-size: clamp(6rem, 20vw, 14rem);
+    color: rgba(167,139,250,0.1);
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+  }
+  .spread-2 .tag { background: #8b5cf6; color: white; }
+  .spread-2 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 40rem; }
+  .spread-2 .blurb { color: #c4b5fd; }
+  .spread-2 a.read-link { color: #a78bfa; }
+  .spread-2 a.hn-link { color: #7c3aed; }
+  .spread-2 .score-badge { color: #a78bfa; }
+
+  /* ── 3: ROSE ALERT STAMP — red alert feel ── */
+  .spread-3 {
+    background: #fef2f2;
+    color: #1c1917;
+  }
+  .spread-3::before {
+    content: 'ALERT';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    font-family: var(--ff-display);
+    font-size: clamp(8rem, 30vw, 20rem);
+    font-weight: 900;
+    color: rgba(239,68,68,0.04);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  .spread-3 .numeral {
+    font-size: clamp(5rem, 15vw, 10rem);
+    color: rgba(239,68,68,0.12);
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+  }
+  .spread-3 .tag { background: #ef4444; color: white; }
+  .spread-3 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-3 a.read-link { color: #dc2626; }
+  .spread-3 a.hn-link { color: #991b1b; }
+  .spread-3 .score-badge { color: #dc2626; }
+
+  /* ── 4: TERMINAL — green on black ── */
+  .spread-4 {
+    background: #0c0c0c;
+    color: #4ade80;
+    font-family: 'Courier New', monospace;
+  }
+  .spread-4 .numeral {
+    font-size: clamp(6rem, 18vw, 12rem);
+    color: rgba(74,222,128,0.08);
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-family: 'Courier New', monospace;
+  }
+  .spread-4 .tag { background: #22c55e; color: #0c0c0c; font-family: 'Courier New', monospace; }
+  .spread-4 h2 {
+    font-family: 'Courier New', monospace;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    max-width: 40rem;
+  }
+  .spread-4 .blurb { color: #86efac; font-family: 'Courier New', monospace; }
+  .spread-4 .byline { font-family: 'Courier New', monospace; color: #166534; }
+  .spread-4 a.read-link { color: #4ade80; font-family: 'Courier New', monospace; }
+  .spread-4 a.hn-link { color: #166534; font-family: 'Courier New', monospace; }
+  .spread-4 .score-badge { color: #4ade80; }
+  .spread-4 .cursor-blink::after {
+    content: '█';
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+
+  /* ── 5: ACADEMIC — warm stone, drop-cap feeling ── */
+  .spread-5 {
+    background: #f5f0e8;
+    color: #292524;
+  }
+  .spread-5 .numeral {
+    font-size: clamp(10rem, 30vw, 20rem);
+    color: rgba(120,113,108,0.08);
+    position: absolute;
+    bottom: -3rem;
+    right: 0;
+    font-style: italic;
+  }
+  .spread-5 .tag { background: #78716c; color: white; }
+  .spread-5 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; font-style: italic; }
+  .spread-5 .blurb { color: #57534e; }
+  .spread-5 .blurb::first-letter {
+    font-family: var(--ff-display);
+    font-size: 3.5rem;
+    font-weight: 900;
+    float: left;
+    line-height: 0.8;
+    margin-right: 0.5rem;
+    margin-top: 0.15rem;
+    color: #292524;
+  }
+  .spread-5 a.read-link { color: #78716c; }
+  .spread-5 a.hn-link { color: #a8a29e; }
+  .spread-5 .score-badge { color: #78716c; }
+
+  /* ── 6: ELECTRIC BLUE — bold tech ── */
+  .spread-6 {
+    background: #0f172a;
+    color: #e0f2fe;
+  }
+  .spread-6 .numeral {
+    font-size: clamp(7rem, 22vw, 16rem);
+    color: rgba(56,189,248,0.08);
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+  .spread-6 .tag { background: #0ea5e9; color: white; }
+  .spread-6 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-6 .blurb { color: #7dd3fc; }
+  .spread-6 a.read-link { color: #38bdf8; }
+  .spread-6 a.hn-link { color: #0369a1; }
+  .spread-6 .score-badge { color: #38bdf8; }
+
+  /* ── 7: APPLE — clean white with subtle gradient ── */
+  .spread-7 {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 50%, #e8ecf0 100%);
+    color: #1d1d1f;
+  }
+  .spread-7 .numeral {
+    font-size: clamp(8rem, 25vw, 18rem);
+    background: linear-gradient(135deg, #fb923c, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    opacity: 0.15;
+  }
+  .spread-7 .tag {
+    background: linear-gradient(135deg, #fb923c, #ec4899);
+    color: white;
+  }
+  .spread-7 h2 { font-size: clamp(2.5rem, 6vw, 4.5rem); max-width: 38rem; font-weight: 700; }
+  .spread-7 .blurb { color: #6e6e73; }
+  .spread-7 a.read-link { color: #0071e3; }
+  .spread-7 a.hn-link { color: #86868b; }
+  .spread-7 .score-badge { color: #0071e3; }
+
+  /* ── 8: NEWSPRINT — gritty, protest poster vibe ── */
+  .spread-8 {
+    background: #fefce8;
+    color: #1c1917;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' fill='%23d4d4d4' fill-opacity='0.3'/%3E%3C/svg%3E");
+  }
+  .spread-8 .numeral {
+    font-size: clamp(8rem, 25vw, 16rem);
+    color: rgba(202,138,4,0.1);
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+  }
+  .spread-8 .tag { background: #ca8a04; color: white; }
+  .spread-8 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; text-transform: uppercase; }
+  .spread-8 .blurb { color: #57534e; }
+  .spread-8 a.read-link { color: #a16207; }
+  .spread-8 a.hn-link { color: #854d0e; }
+  .spread-8 .score-badge { color: #a16207; }
+
+  /* ── 9: GRADIENT — warm peach-to-violet ── */
+  .spread-9 {
+    background: linear-gradient(160deg, #fef3c7 0%, #fce7f3 40%, #ede9fe 100%);
+    color: #1c1917;
+  }
+  .spread-9 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(168,85,247,0.1);
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+  }
+  .spread-9 .tag { background: #a855f7; color: white; }
+  .spread-9 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-9 .blurb { color: #57534e; }
+  .spread-9 a.read-link { color: #9333ea; }
+  .spread-9 a.hn-link { color: #7e22ce; }
+  .spread-9 .score-badge { color: #9333ea; }
+
+  /* ── 10: BIG-STAT FINISH — dark with giant stat ── */
+  .spread-10 {
+    background: #18181b;
+    color: #fafafa;
+    text-align: center;
+  }
+  .spread-10 .numeral {
+    font-size: clamp(3rem, 8vw, 5rem);
+    color: #71717a;
+    margin-bottom: 1rem;
+  }
+  .spread-10 .big-stat {
+    font-family: var(--ff-display);
+    font-size: clamp(5rem, 15vw, 12rem);
+    font-weight: 900;
+    line-height: 1;
+    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+  }
+  .spread-10 .tag { background: #f43f5e; color: white; }
+  .spread-10 h2 { font-size: clamp(2rem, 5vw, 3.5rem); max-width: 38rem; margin: 0 auto; }
+  .spread-10 .blurb { color: #a1a1aa; margin: 0 auto; }
+  .spread-10 a.read-link { color: #fb923c; }
+  .spread-10 a.hn-link { color: #71717a; }
+  .spread-10 .score-badge { color: #fb923c; }
+
+  /* ── Section Divider ── */
+  .section-divider {
+    min-height: 40vh;
+    background: linear-gradient(180deg, #18181b 0%, #1e1b4b 100%);
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    position: relative;
+  }
+  .section-divider h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  .section-divider .sub {
+    font-family: var(--ff-body);
+    font-size: 1rem;
+    color: #a78bfa;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .section-divider .pin-icon {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    opacity: 0.6;
+  }
+
+  /* ── P1: CORK BOARD — warm tan, pinned note feel ── */
+  .spread-p1 {
+    background: #fef3c7;
+    color: #1c1917;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(217,119,6,0.06) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, rgba(217,119,6,0.04) 0%, transparent 50%);
+  }
+  .spread-p1 .numeral {
+    font-size: clamp(6rem, 18vw, 12rem);
+    color: rgba(217,119,6,0.1);
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+  }
+  .spread-p1 .tag { background: #d97706; color: white; }
+  .spread-p1 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p1 .blurb { color: #57534e; }
+  .spread-p1 a.read-link { color: #b45309; }
+  .spread-p1 a.hn-link { color: #92400e; }
+  .spread-p1 .score-badge { color: #b45309; }
+  .spread-p1 .source-badge {
+    background: #d97706;
+    color: white;
+  }
+
+  /* ── P2: DEEP TEAL — dark ocean ── */
+  .spread-p2 {
+    background: #042f2e;
+    color: #ccfbf1;
+  }
+  .spread-p2 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(20,184,166,0.08);
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+  }
+  .spread-p2 .tag { background: #14b8a6; color: white; }
+  .spread-p2 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p2 .blurb { color: #5eead4; }
+  .spread-p2 a.read-link { color: #2dd4bf; }
+  .spread-p2 a.hn-link { color: #0d9488; }
+  .spread-p2 .score-badge { color: #2dd4bf; }
+
+  /* ── P3: BLUEPRINT — technical drawing feel ── */
+  .spread-p3 {
+    background: #172554;
+    color: #dbeafe;
+  }
+  .spread-p3::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(59,130,246,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+  .spread-p3 .numeral {
+    font-size: clamp(7rem, 20vw, 14rem);
+    color: rgba(59,130,246,0.1);
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+  }
+  .spread-p3 .tag { background: #3b82f6; color: white; }
+  .spread-p3 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p3 .blurb { color: #93c5fd; }
+  .spread-p3 a.read-link { color: #60a5fa; }
+  .spread-p3 a.hn-link { color: #2563eb; }
+  .spread-p3 .score-badge { color: #60a5fa; }
+
+  /* ── P4: SAKURA — soft pink Apple vibes ── */
+  .spread-p4 {
+    background: linear-gradient(160deg, #fff1f2 0%, #fce7f3 50%, #faf5ff 100%);
+    color: #1c1917;
+  }
+  .spread-p4 .numeral {
+    font-size: clamp(8rem, 25vw, 16rem);
+    color: rgba(236,72,153,0.08);
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+  .spread-p4 .tag { background: #ec4899; color: white; }
+  .spread-p4 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p4 .blurb { color: #6b7280; }
+  .spread-p4 a.read-link { color: #db2777; }
+  .spread-p4 a.hn-link { color: #be185d; }
+  .spread-p4 .score-badge { color: #db2777; }
+
+  /* ── P5: OBSIDIAN — deep charcoal with purple glow ── */
+  .spread-p5 {
+    background: #1c1917;
+    color: #e8e0f0;
+    position: relative;
+  }
+  .spread-p5::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(ellipse, rgba(147,51,234,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .spread-p5 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(147,51,234,0.08);
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+  }
+  .spread-p5 .tag { background: #9333ea; color: white; }
+  .spread-p5 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p5 .blurb { color: #c4b5fd; }
+  .spread-p5 a.read-link { color: #a78bfa; }
+  .spread-p5 a.hn-link { color: #7c3aed; }
+  .spread-p5 .score-badge { color: #a78bfa; }
+
+  /* ── P6: COPPER — warm metallic feel ── */
+  .spread-p6 {
+    background: linear-gradient(160deg, #1c1917 0%, #292524 100%);
+    color: #fde68a;
+  }
+  .spread-p6 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(253,230,138,0.06);
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+  }
+  .spread-p6 .tag { background: #f59e0b; color: #1c1917; }
+  .spread-p6 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p6 .blurb { color: #fcd34d; }
+  .spread-p6 a.read-link { color: #fbbf24; }
+  .spread-p6 a.hn-link { color: #d97706; }
+  .spread-p6 .score-badge { color: #fbbf24; }
+
+  /* ── P7: FOREST — dark green dev vibe ── */
+  .spread-p7 {
+    background: #052e16;
+    color: #dcfce7;
+  }
+  .spread-p7 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(34,197,94,0.07);
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+  }
+  .spread-p7 .tag { background: #22c55e; color: #052e16; }
+  .spread-p7 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p7 .blurb { color: #86efac; }
+  .spread-p7 a.read-link { color: #4ade80; }
+  .spread-p7 a.hn-link { color: #16a34a; }
+  .spread-p7 .score-badge { color: #4ade80; }
+
+  /* ── P8: GRAPH PAPER — light with fine grid, creative tool feel ── */
+  .spread-p8 {
+    background: #fafafa;
+    color: #18181b;
+  }
+  .spread-p8::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(161,161,170,0.15) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(161,161,170,0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+  }
+  .spread-p8 .numeral {
+    font-size: clamp(8rem, 25vw, 16rem);
+    color: rgba(24,24,27,0.04);
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+  .spread-p8 .tag { background: #18181b; color: white; }
+  .spread-p8 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p8 .blurb { color: #52525b; }
+  .spread-p8 a.read-link { color: #18181b; }
+  .spread-p8 a.hn-link { color: #71717a; }
+  .spread-p8 .score-badge { color: #18181b; }
+
+  /* ── P9: INFRARED — dark with red privacy glow ── */
+  .spread-p9 {
+    background: #1a0a0a;
+    color: #fecaca;
+  }
+  .spread-p9::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(ellipse, rgba(239,68,68,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .spread-p9 .numeral {
+    font-size: clamp(7rem, 22vw, 15rem);
+    color: rgba(239,68,68,0.06);
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+  }
+  .spread-p9 .tag { background: #ef4444; color: white; }
+  .spread-p9 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p9 .blurb { color: #fca5a5; }
+  .spread-p9 a.read-link { color: #f87171; }
+  .spread-p9 a.hn-link { color: #dc2626; }
+  .spread-p9 .score-badge { color: #f87171; }
+
+  /* ── P10: FROSTED — light blur, macOS window chrome feel ── */
+  .spread-p10 {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);
+    color: #0f172a;
+  }
+  .spread-p10 .numeral {
+    font-size: clamp(8rem, 25vw, 16rem);
+    color: rgba(15,23,42,0.04);
+    position: absolute;
+    bottom: -2rem;
+    right: 2rem;
+  }
+  .spread-p10 .tag { background: #475569; color: white; }
+  .spread-p10 h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); max-width: 38rem; }
+  .spread-p10 .blurb { color: #475569; }
+  .spread-p10 a.read-link { color: #334155; }
+  .spread-p10 a.hn-link { color: #64748b; }
+  .spread-p10 .score-badge { color: #334155; }
+
+  /* shared pinboard source badge */
+  .source-pinboard {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-family: var(--ff-body);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.12);
+    color: inherit;
+    opacity: 0.7;
+    margin-left: 0.5rem;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    background: #0a0a0a;
+    color: #57534e;
+    text-align: center;
+    padding: 4rem 2rem;
+    font-family: var(--ff-body);
+    font-size: 0.85rem;
+  }
+  .footer a { color: #78716c; }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .spread { padding: 2.5rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ COVER ═══════════ -->
+<section class="cover">
+  <div class="cover-content">
+    <div class="edition-label">Morning Edition</div>
+    <h1>Today's<br>Front Page</h1>
+    <div class="date">Tuesday, April 15, 2026</div>
+    <div class="story-count">20 stories curated from Hacker News + Pinboard Popular</div>
+  </div>
+  <div class="scroll-hint">Scroll to begin ↓</div>
+</section>
+
+<!-- ═══════════ 1: HERO — Claude Code Routines ═══════════ -->
+<section class="spread spread-1">
+  <span class="numeral">01</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI Tools</span>
+    <h2 style="margin-top:1.5rem;">Claude Code Routines</h2>
+    <div class="byline">
+      by matthieu_bl &nbsp;·&nbsp;
+      <span class="score-badge">▲ 646 &nbsp;·&nbsp; 370 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Anthropic shipped official documentation for Claude Code routines — reusable, composable workflows you can embed directly into your dev environment. This is the scaffolding for turning AI pair-programming from ad-hoc prompting into repeatable automation. If you use Claude Code daily, this changes how you structure your work.
+    </p>
+    <a class="read-link" href="https://code.claude.com/docs/en/routines" target="_blank">Read the docs →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47768133" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 2: DARK — DaVinci Resolve Photo ═══════════ -->
+<section class="spread spread-2">
+  <span class="numeral">02</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Creative Software</span>
+    <h2 style="margin-top:1.5rem;">DaVinci Resolve Launches a Full Photo Editor</h2>
+    <div class="byline">
+      by thebiblelover7 &nbsp;·&nbsp;
+      <span class="score-badge">▲ 1,104 &nbsp;·&nbsp; 284 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Blackmagic Design expands Resolve beyond video with a dedicated photo editing module. RAW processing, color grading with the same tools filmmakers use, and it's free. The most upvoted story on HN today — the creative community is paying attention. A serious Lightroom alternative from a company that doesn't do subscriptions.
+    </p>
+    <a class="read-link" href="https://www.blackmagicdesign.com/products/davinciresolve/photo" target="_blank">See DaVinci Resolve Photo →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47760529" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 3: ROSE ALERT — WordPress Backdoors ═══════════ -->
+<section class="spread spread-3">
+  <span class="numeral">03</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Security Alert</span>
+    <h2 style="margin-top:1.5rem;">Someone Bought 30 WordPress Plugins and Planted Backdoors in All of Them</h2>
+    <div class="byline">
+      by speckx &nbsp;·&nbsp;
+      <span class="score-badge">▲ 1,166 &nbsp;·&nbsp; 326 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      A threat actor purchased 30 popular WordPress plugins through legitimate marketplace transactions, then pushed updates containing backdoors to every user who had them installed. A supply-chain attack hiding in plain sight. If you manage any WordPress sites or advise clients who do, audit your plugin list today.
+    </p>
+    <a class="read-link" href="https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/" target="_blank">Read the breakdown →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47755629" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 4: TERMINAL — Jujutsu CLI ═══════════ -->
+<section class="spread spread-4">
+  <span class="numeral">04</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Dev Tools</span>
+    <h2 style="margin-top:1.5rem;" class="cursor-blink">jj — the CLI for Jujutsu Version Control</h2>
+    <div class="byline">
+      by tigerlily &nbsp;·&nbsp;
+      <span class="score-badge">▲ 525 &nbsp;·&nbsp; 459 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      $ jj init — Jujutsu is the Git replacement that treats every working copy state as a commit. No staging area, automatic rebasing, first-class conflict resolution. This tutorial by Steve Klabnik is the on-ramp the project needed. 459 comments says the dev community is seriously evaluating the switch.
+    </p>
+    <a class="read-link" href="https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html" target="_blank">$ cat tutorial.md →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47763759" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 5: ACADEMIC — Stop Flock / Privacy ═══════════ -->
+<section class="spread spread-5">
+  <span class="numeral">05</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Privacy</span>
+    <h2 style="margin-top:1.5rem;">Stop Flock: The Fight Against Neighborhood Surveillance</h2>
+    <div class="byline">
+      by cdrnsf + speckx &nbsp;·&nbsp;
+      <span class="score-badge">▲ 754 + 619 &nbsp;·&nbsp; 430+ comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Two stories dominating HN today: a campaign to stop Flock Safety's license-plate surveillance cameras from spreading through neighborhoods, and one person's account of writing to Flock's privacy contact to opt out of their domestic monitoring program. Together they paint a picture of growing grassroots resistance to automated surveillance infrastructure being deployed without meaningful consent.
+    </p>
+    <a class="read-link" href="https://stopflock.com" target="_blank">Visit StopFlock.com →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47772012" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 6: ELECTRIC BLUE — Chrome AI Skills ═══════════ -->
+<section class="spread spread-6">
+  <span class="numeral">06</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI Tools</span>
+    <h2 style="margin-top:1.5rem;">Turn Your Best AI Prompts into One-Click Tools in Chrome</h2>
+    <div class="byline">
+      by xnx &nbsp;·&nbsp;
+      <span class="score-badge">▲ 173 &nbsp;·&nbsp; 90 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Google is baking "Skills" directly into Chrome — save your most-used AI prompts as reusable one-click tools accessible from the browser toolbar. This bridges the gap between power-user prompt engineering and everyday browser workflows. If you're already building AI-assisted workflows, this is a new distribution channel for your best prompts.
+    </p>
+    <a class="read-link" href="https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/" target="_blank">Read Google's announcement →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47768339" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 7: APPLE — Gemma 4 on iPhone ═══════════ -->
+<section class="spread spread-7">
+  <span class="numeral">07</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI + Apple</span>
+    <h2 style="margin-top:1.5rem;">Google Gemma 4 Runs Natively on iPhone with Full Offline AI</h2>
+    <div class="byline">
+      by takumi123 &nbsp;·&nbsp;
+      <span class="score-badge">▲ 73 &nbsp;·&nbsp; 48 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Google's Gemma 4 model now runs fully offline on iPhone hardware — no cloud, no API calls, no data leaving the device. This is the inflection point for on-device AI: capable enough to be useful, private enough to be trustworthy. Opens up entirely new categories of iOS apps that can reason locally.
+    </p>
+    <a class="read-link" href="https://www.gizmoweek.com/gemma-4-runs-iphone/" target="_blank">See the details →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47774971" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 8: NEWSPRINT — 3D Printing Censorship ═══════════ -->
+<section class="spread spread-8">
+  <span class="numeral">08</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Privacy &amp; Rights</span>
+    <h2 style="margin-top:1.5rem;">The Dangers of California's Legislation to Censor 3D Printing</h2>
+    <div class="byline">
+      by salkahfi &nbsp;·&nbsp;
+      <span class="score-badge">▲ 431 &nbsp;·&nbsp; 380 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      The EFF sounds the alarm on proposed California legislation that would require 3D printers to refuse certain print jobs — essentially building censorship into hardware. The bill's scope is broad enough to affect hobbyists, makers, and small manufacturers. A collision between safety regulation and the right to general-purpose computing.
+    </p>
+    <a class="read-link" href="https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing" target="_blank">Read the EFF analysis →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47759420" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 9: GRADIENT — AI-Assisted Workflow ═══════════ -->
+<section class="spread spread-9">
+  <span class="numeral">09</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI Workflow</span>
+    <h2 style="margin-top:1.5rem;">My AI-Assisted Development Workflow</h2>
+    <div class="byline">
+      by maiobarbero &nbsp;·&nbsp;
+      <span class="score-badge">▲ 67 &nbsp;·&nbsp; 52 comments</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      A developer shares their complete AI-assisted workflow — how they integrate LLMs into their daily coding practice, what works, what doesn't, and where the productivity gains actually land. Practical, opinionated, and full of specific tool choices. The kind of "show your setup" post that reveals real patterns.
+    </p>
+    <a class="read-link" href="https://www.maiobarbero.dev/articles/ai-assisted-workflow/" target="_blank">Read the workflow →</a><br>
+    <a class="hn-link" href="https://news.ycombinator.com/item?id=47775653" target="_blank">Discuss on HN</a>
+  </div>
+</section>
+
+<!-- ═══════════ 10: BIG-STAT FINISH — Distributed DuckDB ═══════════ -->
+<section class="spread spread-10">
+  <span class="numeral">10</span>
+  <div class="big-stat">∞ nodes</div>
+  <span class="tag" style="margin-bottom:2rem;">Dev Tools</span>
+  <h2 style="margin-top:1.5rem;">OpenDuck: Distributed DuckDB Instance</h2>
+  <div class="byline" style="color:#a1a1aa;">
+    by citguru &nbsp;·&nbsp;
+    <span class="score-badge">▲ 178 &nbsp;·&nbsp; 33 comments</span>
+  </div>
+  <p class="blurb" style="margin-top:1.5rem;">
+    DuckDB is already the Swiss Army knife of local analytics. OpenDuck scales it horizontally — run distributed queries across multiple DuckDB instances as if they were one database. For anyone processing datasets that outgrew a single machine but don't warrant a full data warehouse, this fills an important gap.
+  </p>
+  <a class="read-link" href="https://github.com/citguru/openduck" target="_blank">View on GitHub →</a><br>
+  <a class="hn-link" href="https://news.ycombinator.com/item?id=47761997" target="_blank">Discuss on HN</a>
+</section>
+
+<!-- ═══════════ PINBOARD DIVIDER ═══════════ -->
+<section class="section-divider">
+  <div class="pin-icon">📌</div>
+  <h2>Pinboard Picks</h2>
+  <div class="sub">10 exclusives from Pinboard Popular</div>
+</section>
+
+<!-- ═══════════ P1: CORK BOARD — Superpowers for Claude Code ═══════════ -->
+<section class="spread spread-p1">
+  <span class="numeral">11</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI Tools</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Superpowers — a Skills Framework for Claude Code</h2>
+    <div class="byline">
+      by obra (Jesse Vincent) &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      An open-source skills framework that layers reusable, composable capabilities on top of Claude Code — TDD workflows, brainstorming protocols, debugging skills, and more. You're already running it. Worth tracking upstream changes and new community skills as they land.
+    </p>
+    <a class="read-link" href="https://github.com/obra/superpowers" target="_blank">View on GitHub →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P2: DEEP TEAL — Apple Frames 4 ═══════════ -->
+<section class="spread spread-p2">
+  <span class="numeral">12</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Apple</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Apple Frames 4 — Device Mockups via Shortcuts, Now with a CLI</h2>
+    <div class="byline">
+      MacStories &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Federico Viticci's legendary Shortcut for wrapping screenshots in pixel-perfect Apple device frames gets a major overhaul: frame color options, proportional scaling, and — the big one — an Apple Frames CLI for developers. Automate device mockups from the terminal or CI pipeline. If you ship iOS or Mac apps, this just saved you hours in Figma.
+    </p>
+    <a class="read-link" href="https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/" target="_blank">Read on MacStories →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P3: BLUEPRINT — Claude Cowork 2.0 ═══════════ -->
+<section class="spread spread-p3">
+  <span class="numeral">13</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI Tools</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Claude Cowork 2.0 — Pair Programming Evolved</h2>
+    <div class="byline">
+      Ruben Hassid &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      A deep look at the next iteration of Claude's cowork mode — how the collaborative coding experience has evolved, what patterns power users have discovered, and where it fits in a multi-agent workflow. If you run Claude Code sessions daily, this maps the frontier of what's possible with the latest capabilities.
+    </p>
+    <a class="read-link" href="https://ruben.substack.com/p/claude-cowork-20" target="_blank">Read the breakdown →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P4: SAKURA — Native Space Switching on macOS ═══════════ -->
+<section class="spread spread-p4">
+  <span class="numeral">14</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">macOS</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Native Instant Space Switching on macOS</h2>
+    <div class="byline">
+      arhan.sh &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Kill the macOS space-switching animation entirely and get instant workspace transitions — using native APIs, no hacks. If you juggle multiple desktops (and who doesn't with a tiling window manager), this one tweak removes the single most annoying friction point in the macOS workspace flow. Tiny change, outsized quality-of-life gain.
+    </p>
+    <a class="read-link" href="https://arhan.sh/blog/native-instant-space-switching-on-macos/" target="_blank">Read the guide →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P5: OBSIDIAN — Obsidian Skills by Kepano ═══════════ -->
+<section class="spread spread-p5">
+  <span class="numeral">15</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">Dev Tools</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Obsidian Skills — Kepano's Plugin for AI-Powered Note Workflows</h2>
+    <div class="byline">
+      Steph Ango (kepano) &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      The creator of Obsidian ships a new plugin that brings "skills" — reusable AI-powered actions — directly into the note-taking workflow. Summarize, extract, transform, and generate content within your vault using composable prompts. If Obsidian is your second brain, this gives it agency.
+    </p>
+    <a class="read-link" href="https://github.com/kepano/obsidian-skills" target="_blank">View on GitHub →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P6: COPPER — Apfel: Free AI on Mac ═══════════ -->
+<section class="spread spread-p6">
+  <span class="numeral">16</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag applies-tag">⚡ Directly Applies to You</span><br>
+    <span class="tag" style="margin-bottom:2rem;">AI + Apple</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Apfel — Free AI Running Natively on Your Mac</h2>
+    <div class="byline">
+      franzai.com &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      A free macOS-native AI app that runs local models on Apple Silicon with zero cloud dependency. No account, no API key, no data leaving your machine. The intersection of on-device AI and Mac-first design — exactly the kind of privacy-respecting tool that's hard to find through mainstream channels.
+    </p>
+    <a class="read-link" href="https://apfel.franzai.com/" target="_blank">Try Apfel →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P7: FOREST — gh-stack: GitHub Stacked PRs ═══════════ -->
+<section class="spread spread-p7">
+  <span class="numeral">17</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Dev Tools</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">gh-stack — First-Class Stacked PRs for GitHub</h2>
+    <div class="byline">
+      GitHub &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      GitHub ships an official CLI extension for stacked pull requests — break large changes into reviewable, dependent PR chains that stay in sync automatically. This has been the most-requested workflow gap for teams doing trunk-based development. No more rebasing nightmare when the base PR changes.
+    </p>
+    <a class="read-link" href="https://github.github.com/gh-stack/" target="_blank">See gh-stack →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P8: GRAPH PAPER — Wiretext ═══════════ -->
+<section class="spread spread-p8">
+  <span class="numeral">18</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Creative Software</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">Wiretext — Design Wireframes with Unicode Characters</h2>
+    <div class="byline">
+      wiretext.app &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      A design tool that lets you build wireframes entirely from Unicode box-drawing characters — copy-paste the result into any text document, terminal, or code comment. Delightfully constrained: when your wireframe is pure text, it lives everywhere your code does. Perfect for READMEs, architecture docs, and quick prototyping without leaving the editor.
+    </p>
+    <a class="read-link" href="https://wiretext.app/" target="_blank">Try Wiretext →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P9: INFRARED — They See Your Photos ═══════════ -->
+<section class="spread spread-p9">
+  <span class="numeral">19</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">Privacy + AI</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">They See Your Photos — What AI Extracts from Your Images</h2>
+    <div class="byline">
+      theyseeyourphotos.com &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Upload a photo and see exactly what modern AI vision models extract: location estimates, emotional state, relationships, wealth indicators, brand affiliations, and more. A visceral demonstration of how much metadata-free images still reveal to machine learning. The kind of thing that makes you rethink what you post.
+    </p>
+    <a class="read-link" href="https://theyseeyourphotos.com/" target="_blank">See what AI sees →</a>
+  </div>
+</section>
+
+<!-- ═══════════ P10: FROSTED — boringBar macOS Dock ═══════════ -->
+<section class="spread spread-p10">
+  <span class="numeral">20</span>
+  <div style="position:relative; z-index:1;">
+    <span class="tag" style="margin-bottom:2rem;">macOS</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2 style="margin-top:1.5rem;">boringBar — A Taskbar Dock Replacement for macOS</h2>
+    <div class="byline">
+      boringbar.app &nbsp;·&nbsp;
+      <span class="score-badge">Pinboard Popular</span>
+    </div>
+    <p class="blurb" style="margin-top:1.5rem;">
+      Replaces the macOS Dock with a Windows-style taskbar that shows open windows, workspace indicators, and system stats in a compact strip. For power users who find the Dock more decorative than functional, this reclaims vertical screen space and puts active-window management front and center. One of those "why didn't Apple do this" utilities.
+    </p>
+    <a class="read-link" href="https://boringbar.app/" target="_blank">Try boringBar →</a>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <p>Morning Edition — April 15, 2026</p>
+  <p style="margin-top:0.5rem;">Curated from <a href="https://news.ycombinator.com" target="_blank">Hacker News</a> + <a href="https://pinboard.in/popular/" target="_blank">Pinboard Popular</a></p>
+  <p style="margin-top:0.5rem; font-size:0.75rem;">AI Tools · Creative Software · Dev Tools · Privacy · Weird Science · Apple</p>
+</footer>
+
+</body>
+</html>
