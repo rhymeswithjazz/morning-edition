@@ -10,7 +10,17 @@ python3 -c "from datetime import datetime; d=datetime.now(); print(d.strftime('%
 
 Save the output as YYYY-MM-DD for use in filenames.
 
-## Step 2: Fetch Stories from BOTH Sources
+## Step 2: Check Recent URLs for Deduplication
+
+Run this script to get URLs from the last 7 days of editions. Do NOT include any of these URLs in today's edition:
+
+```bash
+python3 scripts/recent-urls.py
+```
+
+Save this list and check against it when curating stories in Step 4. Exclude any URL that appears in this list.
+
+## Step 3: Fetch Stories from BOTH Sources
 
 ### Hacker News
 Fetch the top 40 story IDs from the Hacker News API, then fetch each story's details:
@@ -32,7 +42,7 @@ curl -s "https://feeds.pinboard.in/rss/popular/"
 
 Parse it as XML/RDF. Each `<item>` has a URL (rdf:about attribute), title, optional description, and tags (dc:subject or taxo:topics). Many Pinboard items have cryptic titles — infer relevance from URL, tags, and title together.
 
-## Step 3: Curate Stories
+## Step 4: Curate Stories
 
 ### From Hacker News: Pick the Top 10
 Filter and rank stories by these interest categories (in priority order):
@@ -55,7 +65,7 @@ Find the 10 best Pinboard Popular items that:
 ### Flag Stories
 Flag stories that directly apply to the reader (they are a developer who uses Claude Code, builds with AI tools, works with Angular/TypeScript/.NET, uses Obsidian, and cares about privacy and Apple/macOS).
 
-## Step 4: Write the JSON File
+## Step 5: Write the JSON File
 
 Save a JSON file to `magazines/YYYY-MM-DD.json` with this exact structure:
 
@@ -85,7 +95,7 @@ Save a JSON file to `magazines/YYYY-MM-DD.json` with this exact structure:
 - Opinionated and informed, like a tech-savvy editor's picks
 - For Pinboard items with vague titles, explain what the link is actually about
 
-## Step 5: Render and Build
+## Step 6: Render and Build
 
 Run the template renderer to generate the HTML magazine from your JSON:
 
@@ -99,7 +109,7 @@ Then run the build script to regenerate the index page, RSS feed, and latest red
 python3 scripts/build-index.py
 ```
 
-## Step 6: Commit and Push DIRECTLY to main
+## Step 7: Commit and Push DIRECTLY to main
 
 IMPORTANT: Do NOT create a branch. Do NOT create a pull request. Commit and push directly to the main branch. This site deploys automatically via GitHub Pages on push to main, so a PR would block deployment and require manual approval, which defeats the purpose of this automated routine.
 
@@ -118,6 +128,7 @@ Do NOT run `git checkout -b`, do NOT use `gh pr create`, do NOT create any branc
 - Write editorial blurbs that explain WHY a story matters, not just what it is
 - Each blurb should be 2-3 sentences, punchy, no filler
 - Deduplicate: if a URL appears in both HN and Pinboard, only include it once (in the HN section)
+- Deduplicate across days: exclude any URL that appeared in the last 7 days (from Step 2 output)
 - Always run both build scripts after creating the JSON
 - Always commit and push directly to main so the site deploys automatically via GitHub Pages
 - Do NOT create a pull request. Do NOT create a branch. Push directly to main.
