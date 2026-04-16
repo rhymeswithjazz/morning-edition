@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-16",
+  "stories": [
+    {
+      "title": "Google broke its promise to me \u2013 now ICE has my data",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "hn_link": "https://news.ycombinator.com/item?id=47782570",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Brajeshwar \u00b7 1487 points \u00b7 636 comments",
+      "blurb": "Google promised not to sell user location data to law enforcement\u2014then did anyway, handing over data that helped ICE locate undocumented immigrants. The EFF piece lays out exactly how the promise was broken and what it means for every Google user. If you assumed privacy settings meant privacy, this is a gut-punch reality check."
+    },
+    {
+      "title": "Cybersecurity looks like proof of work now",
+      "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47769089",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dbreunig \u00b7 429 points \u00b7 154 comments",
+      "blurb": "Drew Breunig argues that modern cybersecurity has evolved into a proof-of-work system where attackers are worn down by cost and detection\u2014not actually stopped. The implication: real security advantage goes to organizations that make attacks prohibitively expensive rather than impossible. A tight, provocative read for anyone thinking about defensive posture."
+    },
+    {
+      "title": "Darkbloom \u2013 Private inference on idle Macs",
+      "url": "https://darkbloom.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=47788542",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by twapi \u00b7 249 points \u00b7 129 comments",
+      "blurb": "Darkbloom turns idle Apple Silicon Macs into a private LLM inference cluster\u2014no cloud, no data leaving your hardware. For developers nervous about sending code or sensitive context to external APIs, this is a local-first alternative worth testing today. The privacy angle is real: your inference, your machine."
+    },
+    {
+      "title": "Cal.com is going closed source",
+      "url": "https://cal.com/blog/cal-com-goes-closed-source-why",
+      "hn_link": "https://news.ycombinator.com/item?id=47780456",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Benjamin_Dobell \u00b7 313 points \u00b7 239 comments",
+      "blurb": "Cal.com, one of the most prominent open-source scheduling tools, is switching to a closed-source model, citing sustainability pressures and cloud-hosted forks that commoditize the product without contributing back. It\u2019s a case study in the limits of the open-core business model and raises uncomfortable questions about which open-source projects can survive. The comment thread is full of productive anger."
+    },
+    {
+      "title": "ChatGPT for Excel",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "hn_link": "https://news.ycombinator.com/item?id=47785397",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by armcat \u00b7 212 points \u00b7 144 comments",
+      "blurb": "OpenAI shipped a native ChatGPT integration for Excel, letting you generate formulas, clean data, and manipulate spreadsheets through chat. The real story is what it says about Microsoft\u2019s strategy: Excel is where business software goes to live forever, and putting AI directly in that surface reaches hundreds of millions of non-technical users in ways coding assistants never will."
+    },
+    {
+      "title": "Do you even need a database?",
+      "url": "https://www.dbpro.app/blog/do-you-even-need-a-database",
+      "hn_link": "https://news.ycombinator.com/item?id=47778086",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by upmostly \u00b7 240 points \u00b7 268 comments",
+      "blurb": "A provocative take on when SQLite, flat files, or even just JSON on disk outperforms a full relational database for small-to-medium apps. The comments are a goldmine of real-world experiences where teams over-engineered their data layer and paid for it in complexity and ops burden. A useful gut-check before spinning up your next Postgres instance."
+    },
+    {
+      "title": "US v. Heppner: no attorney-client privilege for AI chats [pdf]",
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=47778920",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 1vuio0pswjnm7 \u00b7 139 points \u00b7 99 comments",
+      "blurb": "A federal judge ruled that conversations between a client and attorney lose attorney-client privilege when facilitated through an AI chat interface. This is a landmark precedent: discuss legal strategy via an AI tool and it\u2019s discoverable. Every enterprise deploying AI chat for internal legal work needs to read this ruling before their next sensitive conversation."
+    },
+    {
+      "title": "The Gemini app is now on Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "hn_link": "https://news.ycombinator.com/item?id=47782256",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thm \u00b7 141 points \u00b7 75 comments",
+      "blurb": "Google\u2019s Gemini finally has a native macOS app, joining Claude and ChatGPT in the desktop AI assistant arms race. Native integration means keyboard shortcuts, system-level access, and one less browser tab\u2014the battleground for developer mindshare has shifted from the web to the dock. The race for default AI assistant on Mac is on."
+    },
+    {
+      "title": "CRISPR takes important step toward silencing Down syndrome\u2019s extra chromosome",
+      "url": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47781286",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by amichail \u00b7 161 points \u00b7 96 comments",
+      "blurb": "Researchers used CRISPR to silence the extra copy of chromosome 21 in cell models of Down syndrome, reversing some of its molecular signatures. Most CRISPR work targets individual genes; editing an entire chromosome is a different scale of ambition. Years from clinical use, but this proof-of-concept is the kind of result that opens a new category of possible treatments."
+    },
+    {
+      "title": "IPv6 traffic crosses the 50% mark",
+      "url": "https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197",
+      "hn_link": "https://news.ycombinator.com/item?id=47777894",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Aaronmacaron \u00b7 267 points \u00b7 163 comments",
+      "blurb": "Google\u2019s measurement shows IPv6 now carries more than half of all internet traffic\u2014a milestone twenty years in the making. If you\u2019re still defaulting to IPv4-only in infrastructure configs, DNS setups, and load balancer rules, the tipping point has arrived. Now is a good time to audit your stack and make sure IPv6 isn\u2019t an afterthought."
+    },
+    {
+      "title": "What is jj and why should I care? \u2013 Steve\u2019s Jujutsu Tutorial",
+      "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular",
+      "blurb": "Jujutsu (jj) is a git-compatible version control system redesigned from scratch: no detached HEAD state, conflicts are first-class objects you resolve on your own schedule, and every operation is undoable. Steve Klabnik\u2019s tutorial is the clearest entry point. If you use git daily and have ever cursed at rebases, give this a weekend read."
+    },
+    {
+      "title": "Introducing Apple Frames 4: A Revamped Shortcut, Support for Frame Colors, Proportional Scaling, and the Apple Frames CLI for Developers",
+      "url": "https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular",
+      "blurb": "Apple Frames 4 is a major update to the popular Shortcuts-based screenshot framing tool, now with a command-line interface designed specifically for developers who want to automate device framing in scripts and CI pipelines. The CLI alone is worth the upgrade if you ship screenshots in app documentation or marketing automation."
+    },
+    {
+      "title": "My AI-Assisted Workflow",
+      "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: llm, workflow",
+      "blurb": "A Tech Lead\u2019s detailed writeup on structuring AI-assisted development so that the real thinking happens before you open a chat window\u2014turning AI into a force multiplier rather than a crutch. The key insight is separating requirements thinking from implementation, which keeps the AI grounded in intent rather than inventing its own. Practical and immediately applicable."
+    },
+    {
+      "title": "Google, Microsoft, Meta All Tracking You Even When You Opt Out, According to an Independent Audit",
+      "url": "https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: cookies, data-privacy",
+      "blurb": "An independent audit found that Google, Microsoft, and Meta routinely set tracking cookies even after users invoke Global Privacy Control\u2014a legally binding opt-out in California. Companies appear to be calculating that regulatory fines are cheaper than compliance. A concrete reason to trust opt-out signals even less and audit your own apps\u2019 cookie behavior."
+    },
+    {
+      "title": "Backblaze has quietly stopped backing up your data",
+      "url": "https://rareese.com/posts/backblaze/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: backup",
+      "blurb": "Robert Reese discovered that Backblaze silently started excluding .git folders and Dropbox directories from backups without clear notice or user consent. If Backblaze is part of your backup strategy, log in now and verify what\u2019s actually being protected. This is exactly the kind of silent change that only becomes a crisis after a drive failure."
+    },
+    {
+      "title": "The AI Revolution in Math Has Arrived",
+      "url": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular \u00b7 tagged: ai, math",
+      "blurb": "Quanta Magazine\u2019s deep-dive on how AI tools are reshaping mathematical research\u2014not replacing mathematicians but dramatically accelerating how they find and verify proofs. The shift is subtle: AI handles the mechanical search space while humans set direction. Experts expect some open problems of decades to fall within years, which says something striking about the nature of mathematical difficulty."
+    },
+    {
+      "title": "The peril of laziness lost",
+      "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: programming, llm, ai, design, culture",
+      "blurb": "Bryan Cantrill (Oxide Computer) argues that productive laziness\u2014the programmer instinct to build good abstractions rather than repeat work\u2014is being eroded by AI that just does the repetition for you. When you can always generate more code, the incentive to make code unnecessary disappears. A provocation about what we might be optimizing away from software culture."
+    },
+    {
+      "title": "GitHub Stacked PRs",
+      "url": "https://github.github.com/gh-stack/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: github, git",
+      "blurb": "GitHub\u2019s official gh-stack extension brings Graphite/Phabricator-style stacked pull requests to native GitHub, letting you chain PRs that depend on each other without waiting for sequential merges. If your team struggles with large PRs or long review queues, stacked reviews cut feedback cycles dramatically and are worth adopting today."
+    },
+    {
+      "title": "AISI evaluation of Claude Mythos Preview\u2019s cyber capabilities",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: artificial_intelligence, security, analysis",
+      "blurb": "The UK AI Safety Institute found that Claude Mythos Preview can autonomously attack small, weakly defended enterprise systems once network access is established\u2014without real defenders or alerting present, making these already-concerning results conservative. This is the most concrete public benchmark yet of where frontier AI-assisted offense is heading, and it matters for anyone thinking about infrastructure hardening."
+    },
+    {
+      "title": "Caveman \u2013 Claude Code skill that cuts ~75% of tokens",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: llm, humour",
+      "blurb": "A Claude Code skill that makes Claude respond in caveman-speak (\u201cme fix bug, no touch other code\u201d), cutting token usage by roughly 75% while preserving full technical accuracy. Based on the viral observation that LLMs can convey complex ideas with far fewer tokens when freed from formal prose. One-line install\u2014genuinely useful for long sessions where you\u2019re burning through context windows."
+    }
+  ]
+}
