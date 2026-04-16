@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-16",
+  "stories": [
+    {
+      "title": "Google broke its promise to me – now ICE has my data",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "hn_link": "https://news.ycombinator.com/item?id=47782570",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Brajeshwar · 1506 points · 636 comments",
+      "blurb": "Google's 2020 pledge not to hand location data to law enforcement without a warrant turned out to be worthless — ICE got the data anyway, likely via third-party brokers who bought it from Google. This is the most important privacy story of the year: the surveillance infrastructure is already built, it's just changing hands. If you ever believed Google's privacy promises, this is a cold shower."
+    },
+    {
+      "title": "Cybersecurity Looks Like Proof of Work Now",
+      "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47769089",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dbreunig · 439 points · 161 comments",
+      "blurb": "Drew Breunig's sharp argument: AI has made phishing, malware, and social engineering attacks essentially free to generate, so real security now requires spending more human attention than attackers do. The arms race has shifted from technical barriers to economic attrition — and defenders are structurally losing. A must-read framing for anyone thinking about threat models in 2026."
+    },
+    {
+      "title": "Cal.com is going closed source",
+      "url": "https://cal.com/blog/cal-com-goes-closed-source-why",
+      "hn_link": "https://news.ycombinator.com/item?id=47780456",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Benjamin_Dobell · 317 points · 243 comments",
+      "blurb": "Cal.com — the open-source Calendly alternative with 33k GitHub stars — is closing its source code, citing the impossibility of competing with cloud vendors who take without contributing. The move has ignited fierce debate about whether open-source is sustainable as a business model. If a well-funded, beloved OSS project can't make it work, the whole model deserves scrutiny."
+    },
+    {
+      "title": "IPv6 traffic crosses the 50% mark",
+      "url": "https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197",
+      "hn_link": "https://news.ycombinator.com/item?id=47777894",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Aaronmacaron · 308 points · 190 comments",
+      "blurb": "Google's statistics now show more than half of all traffic to its services arriving over IPv6 — a milestone 20+ years in the making. Mobile carriers deserve most of the credit for dragging the industry across the line. The internet's underlying plumbing is finally catching up to its own future."
+    },
+    {
+      "title": "Darkbloom – Private inference on idle Macs",
+      "url": "https://darkbloom.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=47788542",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by twapi · 260 points · 145 comments",
+      "blurb": "Darkbloom runs LLM inference locally on M-series Macs by pooling idle machines into a private compute cluster. No data leaves your network, no cloud bills, no API keys. For developers who want self-hosted AI without spinning up cloud infra, this is the most interesting privacy-first AI project in months."
+    },
+    {
+      "title": "Do you even need a database?",
+      "url": "https://www.dbpro.app/blog/do-you-even-need-a-database",
+      "hn_link": "https://news.ycombinator.com/item?id=47778086",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by upmostly · 242 points · 268 comments",
+      "blurb": "A direct challenge to the reflex that every app needs a relational database. The author walks through cases where SQLite, flat files, or even JSON gets you 90% of the way with 10% of the operational complexity. Worth 10 minutes of honest reflection before you scaffold your next Postgres instance."
+    },
+    {
+      "title": "ChatGPT for Excel (Spreadsheets)",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "hn_link": "https://news.ycombinator.com/item?id=47785397",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by armcat · 218 points · 144 comments",
+      "blurb": "OpenAI has launched a native ChatGPT integration for spreadsheets — describe what you want in plain English, and it handles formulas, data cleaning, and chart generation. This is the most practical AI product launch of the month: it will reach millions of non-developers who never touch a terminal. The office productivity category is about to be disrupted hard."
+    },
+    {
+      "title": "CRISPR takes important step toward silencing Down syndrome's extra chromosome",
+      "url": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47781286",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by amichail · 167 points · 96 comments",
+      "blurb": "Researchers used CRISPR to silence the extra copy of chromosome 21 in human cells in vitro — a proof-of-concept demonstrating that chromosome-level editing is becoming tractable. This isn't a cure, but it's a meaningful scientific milestone that may one day lead to actual treatments. Gene editing is moving faster than most people realize."
+    },
+    {
+      "title": "The Gemini app is now on Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "hn_link": "https://news.ycombinator.com/item?id=47782256",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thm · 144 points · 77 comments",
+      "blurb": "Google has shipped a native macOS app for Gemini, joining Claude and ChatGPT in the Mac dock. The AI assistant arms race has officially moved from mobile and web to the desktop. Worth trying if you want a side-by-side comparison against Claude's mac app."
+    },
+    {
+      "title": "US v. Heppner: No attorney-client privilege for AI chats",
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=47778920",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 1vuio0pswjnm7 · 140 points · 101 comments",
+      "blurb": "Judge Rakoff has ruled that attorney communications with AI tools are not protected by attorney-client privilege and are therefore discoverable. Lawyers who used ChatGPT or similar tools for case strategy may have fully discoverable conversations. This ruling will reshape how legal professionals use AI — and is a warning to anyone who assumes AI chat history is private."
+    },
+    {
+      "title": "AISI evaluation of Claude Mythos Preview's cyber capabilities",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial_intelligence, security, analysis",
+      "blurb": "The UK's AI Safety Institute tested Claude Mythos Preview on a cyber range and found it capable of autonomously attacking small, weakly defended enterprise systems. This is a significant capability threshold being crossed in the open: not a hypothetical, but a documented evaluation. Essential reading for anyone thinking about AI safety and offensive security risk."
+    },
+    {
+      "title": "Google, Microsoft, Meta All Tracking You Even When You Opt Out",
+      "url": "https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cookies, data-privacy",
+      "blurb": "An independent audit found all three tech giants routinely ignore opt-out requests for tracking cookies, violating California privacy law. They set tracking cookies even after users explicitly opt out. The CCPA has teeth on paper but apparently not in practice — these companies have clearly calculated the compliance risk is worth it."
+    },
+    {
+      "title": "Claude Code's Source: 3,167-Line Function, Regex Sentiment Analysis",
+      "url": "https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: revision, process, methodology, LLMs",
+      "blurb": "A deep dive into Claude Code's architecture uncovers a single 3,167-line function and regex-based sentiment analysis — very different from what you'd expect from a polished production tool. The piece argues this is intentional: the team treats AI-generated code as disposable and regenerates from specs rather than reviewing it. A fascinating window into how Anthropic itself builds with AI."
+    },
+    {
+      "title": "RTK: CLI proxy that reduces LLM token consumption by 60–90%",
+      "url": "https://github.com/rtk-ai/rtk",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agentic-coding, claude-code, cli, cost-reduction, rust",
+      "blurb": "A single Rust binary that sits between your dev tools and LLM APIs, compressing common command outputs before they reach the model. Claims 60–90% token reduction on real agentic coding workflows. For heavy Claude Code users watching monthly API costs creep up, this is worth benchmarking immediately."
+    },
+    {
+      "title": "The Git Commands I Run Before Reading Any Code",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git",
+      "blurb": "A concise, opinionated list of git commands to orient yourself in an unfamiliar codebase before touching a single file. Things like git log --oneline, blame on key files, and branch topology checks. The kind of practical muscle memory that separates developers who move fast in new codebases from those who flounder."
+    },
+    {
+      "title": "Codeburn: Interactive TUI dashboard for Claude Code and Codex cost observability",
+      "url": "https://github.com/AgentSeal/codeburn",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: (via GitHub)",
+      "blurb": "Codeburn is a terminal dashboard that shows exactly where your AI coding tokens go — per-file and per-operation breakdowns for Claude Code and Codex. Given how quickly agentic coding costs can compound across a workday, having real visibility into your token burn is genuinely useful for managing spend."
+    },
+    {
+      "title": "Things you didn't know about indexes",
+      "url": "https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: database, postgresql, indexing",
+      "blurb": "A practical deep-dive into database index behavior that goes beyond the basics — covering partial indexes, expression indexes, covering indexes, and when the planner ignores your indexes entirely. The kind of post that explains a class of mysterious query performance bugs you've probably hit but couldn't diagnose."
+    },
+    {
+      "title": "Pretty Fish — A Better Mermaid Diagram Editor",
+      "url": "https://pretty.fish/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mermaid, diagram, tools",
+      "blurb": "A polished web editor for Mermaid diagrams with live preview, syntax highlighting, and a cleaner export experience than the official tooling. Mermaid has become the default for architecture diagrams in docs and READMEs — this makes authoring them significantly less painful."
+    },
+    {
+      "title": "Skills.sh – The Agent Skills Directory",
+      "url": "https://skills.sh/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, agents, skills, workflow, resource",
+      "blurb": "A curated directory of installable skills for AI agents — effectively an app store for agent capabilities. Browse and install reusable skills that extend what coding agents can do. The Claude Code skills ecosystem in particular is maturing fast, and this is a useful place to discover what others have built."
+    },
+    {
+      "title": "Saying Goodbye to Agile",
+      "url": "https://lewiscampbell.tech/blog/260414.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: bestpractices, agile",
+      "blurb": "A clear-eyed post-mortem on why Agile's moment has passed: the rituals calcified into bureaucracy, the principles were forgotten, and the consultancy industry hollowed it out. Not a rant but a sober argument that the software industry has moved on — and should stop pretending otherwise. The replies will be lively."
+    }
+  ]
+}
