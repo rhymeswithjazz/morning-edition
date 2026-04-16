@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Morning Edition — Daily Tech Magazine</title>
-<meta name="description" content="A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, and more.">
-<meta property="og:title" content="Morning Edition — Daily Tech Magazine">
-<meta property="og:description" content="20 curated stories daily from Hacker News + Pinboard Popular">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://daily.rhymeswithjazz.com">
+<title>Morning Edition — April 16, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for April 16, 2026.">
+<meta property="og:title" content="Morning Edition — April 16, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-04-16.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,136 +16,734 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  html { font-size: 18px; }
-  body {
-    font-family: 'Inter', sans-serif;
+
+  :root {
+    --ff-display: 'Fraunces', serif;
+    --ff-body: 'Inter', sans-serif;
+  }
+
+  html { font-size: 18px; scroll-behavior: smooth; }
+  body { font-family: var(--ff-body); line-height: 1.6; }
+
+  .cover {
+    min-height: 100vh;
     background: #0a0a0a;
     color: #fafaf9;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
   }
-  .header {
-    padding: clamp(3rem, 10vw, 6rem) clamp(2rem, 6vw, 5rem);
-    max-width: 52rem;
-    margin: 0 auto;
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
+    animation: drift 20s ease-in-out infinite alternate;
   }
-  .header .label {
-    font-size: 0.85rem;
+  @keyframes drift {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to { transform: translate(-3%, 2%) rotate(2deg); }
+  }
+  .cover-content { position: relative; z-index: 1; }
+  .cover .edition-label {
+    font-family: var(--ff-body);
     font-weight: 600;
+    font-size: 0.85rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: #fb923c;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
-  .header h1 {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(2.5rem, 7vw, 5rem);
+  .cover h1 {
+    font-family: var(--ff-display);
+    font-size: clamp(3.5rem, 10vw, 8rem);
     font-weight: 900;
+    line-height: 0.95;
+    margin-bottom: 1.5rem;
     font-style: italic;
-    line-height: 1;
-    margin-bottom: 1rem;
   }
-  .header p {
-    font-size: 1.1rem;
+  .cover .date {
+    font-family: var(--ff-body);
+    font-size: 1.2rem;
+    font-weight: 300;
     color: #a8a29e;
-    line-height: 1.6;
-    max-width: 36rem;
+    letter-spacing: 0.1em;
   }
-  .header .rss-link {
+  .cover .story-count {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #78716c;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .cover .archive-link {
     display: inline-block;
     margin-top: 1.5rem;
     font-size: 0.85rem;
-    color: #fb923c;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .header .rss-link:hover { text-decoration: underline; }
-  .editions {
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 0 clamp(2rem, 6vw, 5rem) 4rem;
-  }
-  .edition-row {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1.5rem 0;
-    border-top: 1px solid #292524;
-    text-decoration: none;
-    color: #fafaf9;
-    transition: background 0.15s;
-  }
-  .edition-row:hover {
-    background: rgba(251,146,60,0.04);
-  }
-  .edition-date {
-    font-size: 0.85rem;
-    color: #78716c;
-    min-width: 10rem;
-    line-height: 1.4;
-  }
-  .edition-date strong {
     color: #a8a29e;
-    font-weight: 600;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    transition: color 0.15s;
   }
-  .edition-title {
-    flex: 1;
-    font-family: 'Fraunces', serif;
-    font-size: 1.15rem;
-    font-weight: 600;
+  .cover .archive-link:hover { color: #fb923c; }
+
+  .spread {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
+    position: relative;
+    overflow: hidden;
   }
-  .edition-arrow {
-    font-size: 1.2rem;
-    color: #57534e;
-    transition: color 0.15s, transform 0.15s;
-  }
-  .edition-row:hover .edition-arrow {
-    color: #fb923c;
-    transform: translateX(4px);
-  }
-  .empty {
-    padding: 4rem 0;
-    text-align: center;
-    color: #57534e;
-    font-size: 1.1rem;
-  }
-  .footer {
-    max-width: 52rem;
+  .spread-inner {
+    max-width: 48rem;
     margin: 0 auto;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    border-top: 1px solid #1c1917;
-    font-size: 0.8rem;
-    color: #57534e;
+    width: 100%;
+    position: relative;
+    z-index: 1;
   }
+  .ghost-num {
+    position: absolute;
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(10rem, 30vw, 22rem);
+    line-height: 1;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .category-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    margin-bottom: 1.5rem;
+  }
+  .applies-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    background: #fbbf24;
+    color: #1c1917;
+    margin-left: 0.5rem;
+  }
+  .spread h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+  .byline {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+  }
+  .blurb {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 38rem;
+  }
+  .read-link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 100px;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .read-link:hover { transform: translateY(-2px); }
+  .discuss-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    opacity: 0.7;
+  }
+  .discuss-link:hover { opacity: 1; }
+  .source-pinboard {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    margin-left: 0.75rem;
+    vertical-align: middle;
+  }
+
+  .section-divider {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1a1025, #0f172a);
+    color: #fafaf9;
+  }
+  .section-divider .emoji { font-size: 3rem; margin-bottom: 1.5rem; }
+  .section-divider h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  .section-divider p {
+    font-size: 1.1rem;
+    color: #a8a29e;
+  }
+
+  .footer {
+    background: #0a0a0a;
+    color: #57534e;
+    padding: 3rem clamp(2rem, 6vw, 5rem);
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.8;
+  }
+
+  /* ── 1. HERO ── */
+  .spread-hero { background: #fffbeb; color: #1c1917; }
+  .spread-hero .ghost-num { color: #fb923c; }
+  .spread-hero .category-tag { background: #fed7aa; color: #9a3412; }
+  .spread-hero .read-link { background: #fb923c; color: white; }
+  .spread-hero .discuss-link { color: #9a3412; }
+
+  /* ── 2. MIDNIGHT ── */
+  .spread-midnight { background: #1a1025; color: #e8e0f0; }
+  .spread-midnight .ghost-num { color: #8b5cf6; }
+  .spread-midnight .category-tag { background: rgba(139,92,246,0.2); color: #c4b5fd; }
+  .spread-midnight .read-link { background: #8b5cf6; color: white; }
+  .spread-midnight .discuss-link { color: #c4b5fd; }
+
+  /* ── 3. ROSE ALERT ── */
+  .spread-rose { background: #fef2f2; color: #1c1917; position: relative; }
+  .spread-rose::after {
+    content: 'ALERT';
+    position: absolute;
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(8rem, 25vw, 18rem);
+    color: rgba(239,68,68,0.04);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    pointer-events: none;
+  }
+  .spread-rose .ghost-num { color: #ef4444; }
+  .spread-rose .category-tag { background: #fecaca; color: #991b1b; }
+  .spread-rose .read-link { background: #ef4444; color: white; }
+  .spread-rose .discuss-link { color: #991b1b; }
+
+  /* ── 4. TERMINAL ── */
+  .spread-terminal { background: #0c0c0c; color: #4ade80; font-family: 'Courier New', monospace; }
+  .spread-terminal .ghost-num { color: #4ade80; }
+  .spread-terminal h2 { font-family: 'Courier New', monospace; }
+  .spread-terminal .category-tag { background: rgba(74,222,128,0.15); color: #4ade80; border: 1px solid #4ade80; }
+  .spread-terminal .read-link { background: #4ade80; color: #0c0c0c; font-family: 'Courier New', monospace; }
+  .spread-terminal .discuss-link { color: #4ade80; }
+  .spread-terminal .blurb::after { content: '█'; animation: blink 1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* ── 5. ACADEMIC ── */
+  .spread-academic { background: #f5f0e8; color: #292524; }
+  .spread-academic h2 { font-style: italic; }
+  .spread-academic .blurb::first-letter {
+    font-family: var(--ff-display);
+    font-size: 3.5rem;
+    font-weight: 900;
+    float: left;
+    line-height: 0.8;
+    margin-right: 0.5rem;
+    margin-top: 0.15rem;
+    color: #78716c;
+  }
+  .spread-academic .ghost-num { color: #a8a29e; }
+  .spread-academic .category-tag { background: #d6d3d1; color: #44403c; }
+  .spread-academic .read-link { background: #57534e; color: white; }
+  .spread-academic .discuss-link { color: #57534e; }
+
+  /* ── 6. ELECTRIC BLUE ── */
+  .spread-electric { background: #0f172a; color: #e0f2fe; }
+  .spread-electric .ghost-num { color: #06b6d4; }
+  .spread-electric .category-tag { background: rgba(6,182,212,0.15); color: #67e8f9; }
+  .spread-electric .read-link { background: #06b6d4; color: #0f172a; }
+  .spread-electric .discuss-link { color: #67e8f9; }
+
+  /* ── 7. APPLE ── */
+  .spread-apple { background: linear-gradient(180deg, #ffffff, #f5f5f7); color: #1d1d1f; }
+  .spread-apple .ghost-num {
+    background: linear-gradient(135deg, #ff3b30, #ff9500, #ffcc00, #34c759, #007aff, #5856d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.12;
+  }
+  .spread-apple .category-tag { background: #e8e8ed; color: #1d1d1f; }
+  .spread-apple .read-link { background: #007aff; color: white; }
+  .spread-apple .discuss-link { color: #007aff; }
+
+  /* ── 8. NEWSPRINT ── */
+  .spread-newsprint {
+    background: #fefce8;
+    color: #1c1917;
+    background-image: radial-gradient(circle, #d4d4d4 0.5px, transparent 0.5px);
+    background-size: 12px 12px;
+  }
+  .spread-newsprint h2 { text-transform: uppercase; letter-spacing: 0.02em; }
+  .spread-newsprint .ghost-num { color: #a16207; }
+  .spread-newsprint .category-tag { background: #fde68a; color: #92400e; }
+  .spread-newsprint .read-link { background: #a16207; color: white; }
+  .spread-newsprint .discuss-link { color: #92400e; }
+
+  /* ── 9. GRADIENT ── */
+  .spread-gradient { background: linear-gradient(135deg, #fecdd3, #c4b5fd, #a78bfa); color: #1c1917; }
+  .spread-gradient .ghost-num { color: rgba(0,0,0,0.08); }
+  .spread-gradient .category-tag { background: rgba(255,255,255,0.4); color: #581c87; }
+  .spread-gradient .read-link { background: #7c3aed; color: white; }
+  .spread-gradient .discuss-link { color: #581c87; }
+
+  /* ── 10. BIG-STAT ── */
+  .spread-bigstat { background: #18181b; color: #fafaf9; text-align: center; }
+  .spread-bigstat .spread-inner { display: flex; flex-direction: column; align-items: center; }
+  .spread-bigstat .stat-num {
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(5rem, 18vw, 12rem);
+    line-height: 1;
+    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+  }
+  .spread-bigstat .category-tag { background: rgba(251,146,60,0.15); color: #fb923c; }
+  .spread-bigstat .read-link { background: linear-gradient(135deg, #fb923c, #f43f5e); color: white; }
+  .spread-bigstat .discuss-link { color: #fb923c; }
+
+  /* ── 11. CORK BOARD ── */
+  .spread-cork {
+    background: #fef3c7;
+    color: #1c1917;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px),
+                       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px);
+  }
+  .spread-cork .ghost-num { color: #d97706; }
+  .spread-cork .category-tag { background: #fde68a; color: #92400e; }
+  .spread-cork .read-link { background: #d97706; color: white; }
+  .spread-cork .source-pinboard { background: rgba(217,119,6,0.15); color: #92400e; }
+
+  /* ── 12. DEEP TEAL ── */
+  .spread-teal { background: #042f2e; color: #ccfbf1; }
+  .spread-teal .ghost-num { color: #14b8a6; }
+  .spread-teal .category-tag { background: rgba(20,184,166,0.15); color: #5eead4; }
+  .spread-teal .read-link { background: #14b8a6; color: #042f2e; }
+  .spread-teal .source-pinboard { background: rgba(20,184,166,0.15); color: #5eead4; }
+
+  /* ── 13. BLUEPRINT ── */
+  .spread-blueprint {
+    background: #172554;
+    color: #dbeafe;
+    background-image:
+      linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  .spread-blueprint .ghost-num { color: #3b82f6; }
+  .spread-blueprint .category-tag { background: rgba(59,130,246,0.2); color: #93c5fd; }
+  .spread-blueprint .read-link { background: #3b82f6; color: white; }
+  .spread-blueprint .source-pinboard { background: rgba(59,130,246,0.15); color: #93c5fd; }
+
+  /* ── 14. SAKURA ── */
+  .spread-sakura { background: linear-gradient(135deg, #fff1f2, #faf5ff); color: #1c1917; }
+  .spread-sakura .ghost-num { color: #ec4899; }
+  .spread-sakura .category-tag { background: #fce7f3; color: #9d174d; }
+  .spread-sakura .read-link { background: #ec4899; color: white; }
+  .spread-sakura .source-pinboard { background: rgba(236,72,153,0.1); color: #9d174d; }
+
+  /* ── 15. OBSIDIAN ── */
+  .spread-obsidian { background: #1c1917; color: #e7e5e4; }
+  .spread-obsidian .ghost-num { color: #a855f7; }
+  .spread-obsidian h2 { text-shadow: 0 0 30px rgba(168,85,247,0.3); }
+  .spread-obsidian .category-tag { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .spread-obsidian .read-link { background: #a855f7; color: white; }
+  .spread-obsidian .source-pinboard { background: rgba(168,85,247,0.15); color: #c084fc; }
+
+  /* ── 16. COPPER ── */
+  .spread-copper { background: linear-gradient(180deg, #1c1917, #292524); color: #fde68a; }
+  .spread-copper .ghost-num { color: #d97706; }
+  .spread-copper h2 { color: #fbbf24; }
+  .spread-copper .category-tag { background: rgba(251,191,36,0.15); color: #fbbf24; }
+  .spread-copper .read-link { background: #d97706; color: #1c1917; }
+  .spread-copper .source-pinboard { background: rgba(217,119,6,0.15); color: #fbbf24; }
+
+  /* ── 17. FOREST ── */
+  .spread-forest { background: #052e16; color: #dcfce7; }
+  .spread-forest .ghost-num { color: #22c55e; }
+  .spread-forest .category-tag { background: rgba(34,197,94,0.15); color: #86efac; }
+  .spread-forest .read-link { background: #22c55e; color: #052e16; }
+  .spread-forest .source-pinboard { background: rgba(34,197,94,0.15); color: #86efac; }
+
+  /* ── 18. GRAPH PAPER ── */
+  .spread-graph {
+    background: #fafafa;
+    color: #1c1917;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .spread-graph .ghost-num { color: #a8a29e; }
+  .spread-graph .category-tag { background: #e7e5e4; color: #44403c; }
+  .spread-graph .read-link { background: #44403c; color: white; }
+  .spread-graph .source-pinboard { background: rgba(0,0,0,0.06); color: #44403c; }
+
+  /* ── 19. INFRARED ── */
+  .spread-infrared { background: #1a0a0a; color: #fecaca; }
+  .spread-infrared .ghost-num { color: #ef4444; text-shadow: 0 0 40px rgba(239,68,68,0.3); }
+  .spread-infrared h2 { text-shadow: 0 0 20px rgba(239,68,68,0.2); }
+  .spread-infrared .category-tag { background: rgba(239,68,68,0.15); color: #fca5a5; }
+  .spread-infrared .read-link { background: #ef4444; color: white; }
+  .spread-infrared .source-pinboard { background: rgba(239,68,68,0.15); color: #fca5a5; }
+
+  /* ── 20. FROSTED ── */
+  .spread-frosted {
+    background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #e2e8f0);
+    color: #1e293b;
+  }
+  .spread-frosted .spread-inner {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.8);
+    padding: 3rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  }
+  .spread-frosted .ghost-num { color: #94a3b8; }
+  .spread-frosted .category-tag { background: rgba(100,116,139,0.1); color: #475569; }
+  .spread-frosted .read-link { background: #475569; color: white; }
+  .spread-frosted .source-pinboard { background: rgba(100,116,139,0.1); color: #475569; }
+
   @media (max-width: 640px) {
-    .edition-row { flex-wrap: wrap; gap: 0.5rem; }
-    .edition-date { min-width: 100%; }
+    .spread { padding: clamp(2rem, 6vw, 4rem) 1.5rem; }
+    .ghost-num { font-size: clamp(6rem, 20vw, 10rem); }
+    .spread-frosted .spread-inner { padding: 1.5rem; }
   }
 </style>
 </head>
 <body>
-  <div class="header">
-    <div class="label">Archive</div>
-    <h1>Morning Edition</h1>
-    <p>A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, weird science, and Apple.</p>
-    <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
+
+<section class="cover">
+  <div class="cover-content">
+    <div class="edition-label">Morning Edition</div>
+    <h1>April 16,<br>2026</h1>
+    <div class="date">Thursday</div>
+    <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
+    <a class="archive-link" href="/archive/">Previous Issues →</a>
   </div>
-  <div class="editions">
+</section>
+
+
+<section class="spread spread-hero">
+  <div class="ghost-num">01</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
     
-    <a href="magazines/2026-04-16.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>April 16, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 16, 2026<span style="background:#fb923c;color:white;padding:0.2rem 0.6rem;border-radius:100px;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-left:0.75rem;">Latest</span></span>
-      <span class="edition-arrow">&rarr;</span>
-    </a>
-    <a href="magazines/2026-04-15.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>April 15, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 15, 2026</span>
-      <span class="edition-arrow">&rarr;</span>
-    </a>
+    <h2>Google broke its promise to me – now ICE has my data</h2>
+    <div class="byline">by Brajeshwar · 1506 points · 636 comments</div>
+    <p class="blurb">Google&#x27;s 2020 pledge not to hand location data to law enforcement without a warrant turned out to be worthless — ICE got the data anyway, likely via third-party brokers who bought it from Google. This is the most important privacy story of the year: the surveillance infrastructure is already built, it&#x27;s just changing hands. If you ever believed Google&#x27;s privacy promises, this is a cold shower.</p>
+    <a class="read-link" href="https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47782570">HN Discussion →</a>
   </div>
-  <div class="footer">
-    <p>Curated daily at 4am from Hacker News + Pinboard Popular</p>
+</section>
+<section class="spread spread-midnight">
+  <div class="ghost-num">02</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    
+    <h2>Cybersecurity Looks Like Proof of Work Now</h2>
+    <div class="byline">by dbreunig · 439 points · 161 comments</div>
+    <p class="blurb">Drew Breunig&#x27;s sharp argument: AI has made phishing, malware, and social engineering attacks essentially free to generate, so real security now requires spending more human attention than attackers do. The arms race has shifted from technical barriers to economic attrition — and defenders are structurally losing. A must-read framing for anyone thinking about threat models in 2026.</p>
+    <a class="read-link" href="https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47769089">HN Discussion →</a>
   </div>
+</section>
+<section class="spread spread-rose">
+  <div class="ghost-num">03</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    
+    <h2>Cal.com is going closed source</h2>
+    <div class="byline">by Benjamin_Dobell · 317 points · 243 comments</div>
+    <p class="blurb">Cal.com — the open-source Calendly alternative with 33k GitHub stars — is closing its source code, citing the impossibility of competing with cloud vendors who take without contributing. The move has ignited fierce debate about whether open-source is sustainable as a business model. If a well-funded, beloved OSS project can&#x27;t make it work, the whole model deserves scrutiny.</p>
+    <a class="read-link" href="https://cal.com/blog/cal-com-goes-closed-source-why">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47780456">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-terminal">
+  <div class="ghost-num">04</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    
+    
+    <h2>IPv6 traffic crosses the 50% mark</h2>
+    <div class="byline">by Aaronmacaron · 308 points · 190 comments</div>
+    <p class="blurb">Google&#x27;s statistics now show more than half of all traffic to its services arriving over IPv6 — a milestone 20+ years in the making. Mobile carriers deserve most of the credit for dragging the industry across the line. The internet&#x27;s underlying plumbing is finally catching up to its own future.</p>
+    <a class="read-link" href="https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47777894">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-academic">
+  <div class="ghost-num">05</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    
+    <h2>Darkbloom – Private inference on idle Macs</h2>
+    <div class="byline">by twapi · 260 points · 145 comments</div>
+    <p class="blurb">Darkbloom runs LLM inference locally on M-series Macs by pooling idle machines into a private compute cluster. No data leaves your network, no cloud bills, no API keys. For developers who want self-hosted AI without spinning up cloud infra, this is the most interesting privacy-first AI project in months.</p>
+    <a class="read-link" href="https://darkbloom.dev">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47788542">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-electric">
+  <div class="ghost-num">06</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    
+    <h2>Do you even need a database?</h2>
+    <div class="byline">by upmostly · 242 points · 268 comments</div>
+    <p class="blurb">A direct challenge to the reflex that every app needs a relational database. The author walks through cases where SQLite, flat files, or even JSON gets you 90% of the way with 10% of the operational complexity. Worth 10 minutes of honest reflection before you scaffold your next Postgres instance.</p>
+    <a class="read-link" href="https://www.dbpro.app/blog/do-you-even-need-a-database">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47778086">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-apple">
+  <div class="ghost-num">07</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    
+    
+    <h2>ChatGPT for Excel (Spreadsheets)</h2>
+    <div class="byline">by armcat · 218 points · 144 comments</div>
+    <p class="blurb">OpenAI has launched a native ChatGPT integration for spreadsheets — describe what you want in plain English, and it handles formulas, data cleaning, and chart generation. This is the most practical AI product launch of the month: it will reach millions of non-developers who never touch a terminal. The office productivity category is about to be disrupted hard.</p>
+    <a class="read-link" href="https://chatgpt.com/apps/spreadsheets/">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47785397">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-newsprint">
+  <div class="ghost-num">08</div>
+  <div class="spread-inner">
+    <span class="category-tag">Weird Science</span>
+    
+    
+    <h2>CRISPR takes important step toward silencing Down syndrome&#x27;s extra chromosome</h2>
+    <div class="byline">by amichail · 167 points · 96 comments</div>
+    <p class="blurb">Researchers used CRISPR to silence the extra copy of chromosome 21 in human cells in vitro — a proof-of-concept demonstrating that chromosome-level editing is becoming tractable. This isn&#x27;t a cure, but it&#x27;s a meaningful scientific milestone that may one day lead to actual treatments. Gene editing is moving faster than most people realize.</p>
+    <a class="read-link" href="https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47781286">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-gradient">
+  <div class="ghost-num">09</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    
+    <h2>The Gemini app is now on Mac</h2>
+    <div class="byline">by thm · 144 points · 77 comments</div>
+    <p class="blurb">Google has shipped a native macOS app for Gemini, joining Claude and ChatGPT in the Mac dock. The AI assistant arms race has officially moved from mobile and web to the desktop. Worth trying if you want a side-by-side comparison against Claude&#x27;s mac app.</p>
+    <a class="read-link" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47782256">HN Discussion →</a>
+  </div>
+</section>
+<section class="spread spread-bigstat">
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <div class="stat-num">10</div>
+    <h2>US v. Heppner: No attorney-client privilege for AI chats</h2>
+    <div class="byline">by 1vuio0pswjnm7 · 140 points · 101 comments</div>
+    <p class="blurb">Judge Rakoff has ruled that attorney communications with AI tools are not protected by attorney-client privilege and are therefore discoverable. Lawyers who used ChatGPT or similar tools for case strategy may have fully discoverable conversations. This ruling will reshape how legal professionals use AI — and is a warning to anyone who assumes AI chat history is private.</p>
+    <a class="read-link" href="https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47778920">HN Discussion →</a>
+  </div>
+</section>
+
+<section class="section-divider">
+  <div class="emoji">📌</div>
+  <h2>Pinboard Picks</h2>
+  <p>10 exclusives from Pinboard Popular</p>
+</section>
+
+
+<section class="spread spread-cork">
+  <div class="ghost-num">11</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>AISI evaluation of Claude Mythos Preview&#x27;s cyber capabilities</h2>
+    <div class="byline">Pinboard Popular · tagged: artificial_intelligence, security, analysis</div>
+    <p class="blurb">The UK&#x27;s AI Safety Institute tested Claude Mythos Preview on a cyber range and found it capable of autonomously attacking small, weakly defended enterprise systems. This is a significant capability threshold being crossed in the open: not a hypothetical, but a documented evaluation. Essential reading for anyone thinking about AI safety and offensive security risk.</p>
+    <a class="read-link" href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-teal">
+  <div class="ghost-num">12</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Google, Microsoft, Meta All Tracking You Even When You Opt Out</h2>
+    <div class="byline">Pinboard Popular · tagged: cookies, data-privacy</div>
+    <p class="blurb">An independent audit found all three tech giants routinely ignore opt-out requests for tracking cookies, violating California privacy law. They set tracking cookies even after users explicitly opt out. The CCPA has teeth on paper but apparently not in practice — these companies have clearly calculated the compliance risk is worth it.</p>
+    <a class="read-link" href="https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-blueprint">
+  <div class="ghost-num">13</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Claude Code&#x27;s Source: 3,167-Line Function, Regex Sentiment Analysis</h2>
+    <div class="byline">Pinboard Popular · tagged: revision, process, methodology, LLMs</div>
+    <p class="blurb">A deep dive into Claude Code&#x27;s architecture uncovers a single 3,167-line function and regex-based sentiment analysis — very different from what you&#x27;d expect from a polished production tool. The piece argues this is intentional: the team treats AI-generated code as disposable and regenerates from specs rather than reviewing it. A fascinating window into how Anthropic itself builds with AI.</p>
+    <a class="read-link" href="https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-sakura">
+  <div class="ghost-num">14</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>RTK: CLI proxy that reduces LLM token consumption by 60–90%</h2>
+    <div class="byline">Pinboard Popular · tagged: agentic-coding, claude-code, cli, cost-reduction, rust</div>
+    <p class="blurb">A single Rust binary that sits between your dev tools and LLM APIs, compressing common command outputs before they reach the model. Claims 60–90% token reduction on real agentic coding workflows. For heavy Claude Code users watching monthly API costs creep up, this is worth benchmarking immediately.</p>
+    <a class="read-link" href="https://github.com/rtk-ai/rtk">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-obsidian">
+  <div class="ghost-num">15</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>The Git Commands I Run Before Reading Any Code</h2>
+    <div class="byline">Pinboard Popular · tagged: git</div>
+    <p class="blurb">A concise, opinionated list of git commands to orient yourself in an unfamiliar codebase before touching a single file. Things like git log --oneline, blame on key files, and branch topology checks. The kind of practical muscle memory that separates developers who move fast in new codebases from those who flounder.</p>
+    <a class="read-link" href="https://piechowski.io/post/git-commands-before-reading-code/">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-copper">
+  <div class="ghost-num">16</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Codeburn: Interactive TUI dashboard for Claude Code and Codex cost observability</h2>
+    <div class="byline">Pinboard Popular · tagged: (via GitHub)</div>
+    <p class="blurb">Codeburn is a terminal dashboard that shows exactly where your AI coding tokens go — per-file and per-operation breakdowns for Claude Code and Codex. Given how quickly agentic coding costs can compound across a workday, having real visibility into your token burn is genuinely useful for managing spend.</p>
+    <a class="read-link" href="https://github.com/AgentSeal/codeburn">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-forest">
+  <div class="ghost-num">17</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Things you didn&#x27;t know about indexes</h2>
+    <div class="byline">Pinboard Popular · tagged: database, postgresql, indexing</div>
+    <p class="blurb">A practical deep-dive into database index behavior that goes beyond the basics — covering partial indexes, expression indexes, covering indexes, and when the planner ignores your indexes entirely. The kind of post that explains a class of mysterious query performance bugs you&#x27;ve probably hit but couldn&#x27;t diagnose.</p>
+    <a class="read-link" href="https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-graph">
+  <div class="ghost-num">18</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Pretty Fish — A Better Mermaid Diagram Editor</h2>
+    <div class="byline">Pinboard Popular · tagged: mermaid, diagram, tools</div>
+    <p class="blurb">A polished web editor for Mermaid diagrams with live preview, syntax highlighting, and a cleaner export experience than the official tooling. Mermaid has become the default for architecture diagrams in docs and READMEs — this makes authoring them significantly less painful.</p>
+    <a class="read-link" href="https://pretty.fish/">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-infrared">
+  <div class="ghost-num">19</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Skills.sh – The Agent Skills Directory</h2>
+    <div class="byline">Pinboard Popular · tagged: ai, agents, skills, workflow, resource</div>
+    <p class="blurb">A curated directory of installable skills for AI agents — effectively an app store for agent capabilities. Browse and install reusable skills that extend what coding agents can do. The Claude Code skills ecosystem in particular is maturing fast, and this is a useful place to discover what others have built.</p>
+    <a class="read-link" href="https://skills.sh/">Read Article →</a>
+    
+  </div>
+</section>
+<section class="spread spread-frosted">
+  <div class="ghost-num">20</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Saying Goodbye to Agile</h2>
+    <div class="byline">Pinboard Popular · tagged: bestpractices, agile</div>
+    <p class="blurb">A clear-eyed post-mortem on why Agile&#x27;s moment has passed: the rituals calcified into bureaucracy, the principles were forgotten, and the consultancy industry hollowed it out. Not a rant but a sober argument that the software industry has moved on — and should stop pretending otherwise. The replies will be lively.</p>
+    <a class="read-link" href="https://lewiscampbell.tech/blog/260414.html">Read Article →</a>
+    
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Morning Edition — Thursday, April 16, 2026</p>
+  <p>Curated from Hacker News + Pinboard Popular</p>
+  <p style="margin-top:1rem;"><a href="/archive/" style="color:#a8a29e;text-decoration:none;">Previous Issues →</a></p>
+</footer>
+
 </body>
 </html>
