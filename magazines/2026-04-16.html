@@ -25,7 +25,6 @@
   html { font-size: 18px; scroll-behavior: smooth; }
   body { font-family: var(--ff-body); line-height: 1.6; }
 
-  /* ── Cover ── */
   .cover {
     min-height: 100vh;
     background: #0a0a0a;
@@ -87,7 +86,6 @@
     text-transform: uppercase;
   }
 
-  /* ── Spreads ── */
   .spread {
     min-height: 100vh;
     display: flex;
@@ -187,7 +185,6 @@
     vertical-align: middle;
   }
 
-  /* ── Section Divider ── */
   .section-divider {
     min-height: 60vh;
     display: flex;
@@ -212,7 +209,6 @@
     color: #a8a29e;
   }
 
-  /* ── Footer ── */
   .footer {
     background: #0a0a0a;
     color: #57534e;
@@ -229,7 +225,7 @@
   .spread-hero .read-link { background: #fb923c; color: white; }
   .spread-hero .discuss-link { color: #9a3412; }
 
-  /* ── 2. DARK/MIDNIGHT ── */
+  /* ── 2. MIDNIGHT ── */
   .spread-midnight { background: #1a1025; color: #e8e0f0; }
   .spread-midnight .ghost-num { color: #8b5cf6; }
   .spread-midnight .category-tag { background: rgba(139,92,246,0.2); color: #c4b5fd; }
@@ -453,7 +449,6 @@
 </head>
 <body>
 
-<!-- ════════════════ COVER ════════════════ -->
 <section class="cover">
   <div class="cover-content">
     <div class="edition-label">Morning Edition</div>
@@ -463,132 +458,124 @@
   </div>
 </section>
 
-<!-- ════════════════ HN STORIES ════════════════ -->
 
-<!-- 01 · HERO -->
 <section class="spread spread-hero">
   <div class="ghost-num">01</div>
   <div class="spread-inner">
     <span class="category-tag">Privacy &amp; Security</span>
     <span class="applies-tag">Directly Applies to You</span>
+    
     <h2>Google Broke Its Promise to Me — Now ICE Has My Data</h2>
     <div class="byline">by Brajeshwar · 1,472 points · 626 comments</div>
-    <p class="blurb">The EFF details how Google reversed its commitment to protect user data, handing location history to immigration enforcement despite explicit opt-out settings. This is the privacy story of the week — if you use any Google services, this is a concrete case study in why "trust us" doesn't scale. The implications for anyone storing sensitive data in cloud services are immediate and chilling.</p>
+    <p class="blurb">The EFF details how Google reversed its commitment to protect user data, handing location history to immigration enforcement despite explicit opt-out settings. If you use any Google services, this is a concrete case study in why trust us doesn&#x27;t scale. The implications for anyone storing sensitive data in cloud services are immediate and chilling.</p>
     <a class="read-link" href="https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47782570">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 02 · MIDNIGHT -->
 <section class="spread spread-midnight">
   <div class="ghost-num">02</div>
   <div class="spread-inner">
     <span class="category-tag">AI Tools</span>
     <span class="applies-tag">Directly Applies to You</span>
-    <h2>The Local LLM Ecosystem Doesn't Need Ollama</h2>
+    
+    <h2>The Local LLM Ecosystem Doesn&#x27;t Need Ollama</h2>
     <div class="byline">by Zetaphor · 501 points · 140 comments</div>
-    <p class="blurb">A provocative argument that Ollama has become an unnecessary abstraction layer for running local models. The author walks through llama.cpp, vLLM, and other backends that give you more control with less overhead. If you're running local models on your Mac, this is worth reading before your next setup — there may be a faster, leaner path than the one you're on.</p>
+    <p class="blurb">A provocative argument that Ollama has become an unnecessary abstraction layer for running local models. The author walks through llama.cpp, vLLM, and other backends that give you more control with less overhead. If you&#x27;re running local models on your Mac, this is worth reading before your next setup.</p>
     <a class="read-link" href="https://sleepingrobots.com/dreams/stop-using-ollama/">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47788385">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 03 · ROSE ALERT -->
 <section class="spread spread-rose">
   <div class="ghost-num">03</div>
   <div class="spread-inner">
     <span class="category-tag">Security</span>
     <span class="applies-tag">Directly Applies to You</span>
+    
     <h2>Cybersecurity Looks Like Proof of Work Now</h2>
     <div class="byline">by dbreunig · 408 points · 147 comments</div>
-    <p class="blurb">Drew Breunig argues that AI-powered attacks have made cybersecurity an arms race where defense now costs more than offense. Every endpoint is a surface, every model a potential tool for the attacker. The conclusion is bleak but actionable: treat security like infrastructure, not insurance. If you ship software, this reframes how you should think about every dependency you pull in.</p>
+    <p class="blurb">Drew Breunig argues that AI-powered attacks have made cybersecurity an arms race where defense now costs more than offense. Treat security like infrastructure, not insurance. If you ship software, this reframes how you should think about every dependency you pull in.</p>
     <a class="read-link" href="https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47769089">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 04 · TERMINAL -->
 <section class="spread spread-terminal">
   <div class="ghost-num">04</div>
   <div class="spread-inner">
     <span class="category-tag">AI + Apple + Privacy</span>
     <span class="applies-tag">Directly Applies to You</span>
+    
     <h2>Darkbloom — Private Inference on Idle Macs</h2>
     <div class="byline">by twapi · 240 points · 123 comments</div>
-    <p class="blurb">Darkbloom turns your idle Mac into a private inference node — run LLM workloads locally with no data leaving your machine. It's the intersection of three things you care about: AI tooling, macOS, and keeping your data private. Think of it as a self-hosted alternative to cloud inference that actually respects the silicon sitting on your desk.</p>
+    <p class="blurb">Darkbloom turns your idle Mac into a private inference node — run LLM workloads locally with no data leaving your machine. Think of it as a self-hosted alternative to cloud inference that actually respects the silicon sitting on your desk.</p>
     <a class="read-link" href="https://darkbloom.dev">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47788542">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 05 · ACADEMIC -->
 <section class="spread spread-academic">
   <div class="ghost-num">05</div>
   <div class="spread-inner">
     <span class="category-tag">AI Tools</span>
+    
+    
     <h2>ChatGPT for Excel</h2>
     <div class="byline">by armcat · 206 points · 141 comments</div>
-    <p class="blurb">OpenAI launched a native spreadsheet interface for ChatGPT, blurring the line between conversational AI and structured data tools. The HN comments are split between "this is the future of business software" and "this is a trojan horse for lock-in." Either way, it signals that AI companies are coming for the productivity suite, not just the chat window.</p>
+    <p class="blurb">OpenAI launched a native spreadsheet interface for ChatGPT, blurring the line between conversational AI and structured data tools. It signals that AI companies are coming for the productivity suite, not just the chat window.</p>
     <a class="read-link" href="https://chatgpt.com/apps/spreadsheets/">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47785397">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 06 · ELECTRIC BLUE -->
 <section class="spread spread-electric">
   <div class="ghost-num">06</div>
   <div class="spread-inner">
     <span class="category-tag">Dev Tools / Open Source</span>
+    
+    
     <h2>Cal.com Is Going Closed Source</h2>
     <div class="byline">by Benjamin_Dobell · 307 points · 235 comments</div>
-    <p class="blurb">Another open-source company pulls up the drawbridge. Cal.com's blog post explains the economics, but the HN thread is where the real debate lives: is the open-core model fundamentally broken, or did Cal just fail to execute? This matters for anyone who depends on OSS tools that could make the same pivot overnight.</p>
+    <p class="blurb">Another open-source company pulls up the drawbridge. Is the open-core model fundamentally broken, or did Cal just fail to execute? This matters for anyone who depends on OSS tools that could make the same pivot overnight.</p>
     <a class="read-link" href="https://cal.com/blog/cal-com-goes-closed-source-why">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47780456">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 07 · APPLE -->
 <section class="spread spread-apple">
   <div class="ghost-num">07</div>
   <div class="spread-inner">
     <span class="category-tag">Dev Tools</span>
+    
+    
     <h2>Do You Even Need a Database?</h2>
     <div class="byline">by upmostly · 238 points · 268 comments</div>
-    <p class="blurb">A refreshingly honest examination of when a database is overkill. For small projects, side hustles, and prototypes, flat files, SQLite, or even localStorage might be all you need. The 268-comment HN thread is a masterclass in "it depends" — worth browsing for the real-world architecture stories alone.</p>
+    <p class="blurb">A refreshingly honest examination of when a database is overkill. For small projects, side hustles, and prototypes, flat files, SQLite, or even localStorage might be all you need.</p>
     <a class="read-link" href="https://www.dbpro.app/blog/do-you-even-need-a-database">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47778086">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 08 · NEWSPRINT -->
 <section class="spread spread-newsprint">
   <div class="ghost-num">08</div>
   <div class="spread-inner">
     <span class="category-tag">Dev Tools / CLI</span>
     <span class="applies-tag">Directly Applies to You</span>
+    
     <h2>I Made a Terminal Pager</h2>
     <div class="byline">by speckx · 132 points · 30 comments</div>
-    <p class="blurb">A developer's love letter to the terminal, built into a modern pager that aims to replace less. It supports syntax highlighting, search, and mouse scrolling out of the box. If you live in the terminal — and you do — this is the kind of small, sharp tool that quietly improves your daily workflow.</p>
+    <p class="blurb">A modern pager that aims to replace less, with syntax highlighting, search, and mouse scrolling out of the box. The kind of small, sharp tool that quietly improves your daily workflow.</p>
     <a class="read-link" href="https://theleo.zone/posts/pager/">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47786164">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 09 · GRADIENT -->
 <section class="spread spread-gradient">
   <div class="ghost-num">09</div>
   <div class="spread-inner">
     <span class="category-tag">AI Tools</span>
     <span class="applies-tag">Directly Applies to You</span>
+    
     <h2>Libretto — Making AI Browser Automations Deterministic</h2>
     <div class="byline">by muchael · 102 points · 36 comments</div>
-    <p class="blurb">Saffron Health open-sourced Libretto, a framework for building browser automations that are reproducible rather than probabilistic. Instead of hoping the LLM clicks the right button, Libretto records and replays structured interaction plans. For anyone building AI-powered testing or scraping, this solves the "it worked on my machine" problem at the agent level.</p>
+    <p class="blurb">Saffron Health open-sourced Libretto, a framework for building browser automations that are reproducible rather than probabilistic. Solves the it worked on my machine problem at the agent level.</p>
     <a class="read-link" href="https://github.com/saffron-health/libretto">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47780971">HN Discussion →</a>
   </div>
 </section>
-
-<!-- 10 · BIG-STAT -->
 <section class="spread spread-bigstat">
   <div class="spread-inner">
     <span class="category-tag">Apple + Dev Tools</span>
@@ -596,22 +583,19 @@
     <div class="stat-num">10</div>
     <h2>Agent — Native macOS Coding IDE</h2>
     <div class="byline">by jv22222 · 49 points · 20 comments</div>
-    <p class="blurb">A new native Mac coding environment built around agentic AI workflows — think Cursor but designed as a proper macOS citizen from day one. It uses Apple's native frameworks instead of Electron, which means it's fast, uses less memory, and integrates with the OS the way Mac apps should. Early but worth watching.</p>
+    <p class="blurb">A new native Mac coding environment built around agentic AI workflows. Uses Apple native frameworks instead of Electron, which means it&#x27;s fast, uses less memory, and integrates with the OS properly.</p>
     <a class="read-link" href="https://github.com/macOS26/Agent">Read Article →</a>
     <a class="discuss-link" href="https://news.ycombinator.com/item?id=47787127">HN Discussion →</a>
   </div>
 </section>
 
-<!-- ════════════════ DIVIDER ════════════════ -->
 <section class="section-divider">
   <div class="emoji">📌</div>
   <h2>Pinboard Picks</h2>
   <p>10 exclusives from Pinboard Popular</p>
 </section>
 
-<!-- ════════════════ PINBOARD STORIES ════════════════ -->
 
-<!-- 11 · CORK BOARD -->
 <section class="spread spread-cork">
   <div class="ghost-num">11</div>
   <div class="spread-inner">
@@ -620,12 +604,11 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>Automate Work with Claude Code Routines</h2>
     <div class="byline">Pinboard Popular · tagged: claude</div>
-    <p class="blurb">The official Claude Code documentation for Routines hit Pinboard Popular — which means the broader dev community is paying attention. Routines let you schedule recurring Claude Code tasks with a prompt file, exactly like this magazine is built. If you're already using Claude Code daily, routines are the next step toward genuine automation of your repetitive workflows.</p>
+    <p class="blurb">The official Claude Code documentation for Routines hit Pinboard Popular. Routines let you schedule recurring Claude Code tasks with a prompt file, exactly like this magazine is built.</p>
     <a class="read-link" href="https://code.claude.com/docs/en/routines">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 12 · DEEP TEAL -->
 <section class="spread spread-teal">
   <div class="ghost-num">12</div>
   <div class="spread-inner">
@@ -634,12 +617,11 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>They See Your Photos</h2>
     <div class="byline">Pinboard Popular · tagged: ai, google</div>
-    <p class="blurb">A visual demonstration of what AI can extract from the photos you upload — metadata, faces, locations, relationships, patterns. It's a visceral reminder that "sharing a photo" in 2026 means handing over a structured dataset about your life. Pair this with the Google/ICE story above and the picture gets uncomfortable fast.</p>
+    <p class="blurb">A visual demonstration of what AI can extract from the photos you upload. A visceral reminder that sharing a photo in 2026 means handing over a structured dataset about your life.</p>
     <a class="read-link" href="https://theyseeyourphotos.com/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 13 · BLUEPRINT -->
 <section class="spread spread-blueprint">
   <div class="ghost-num">13</div>
   <div class="spread-inner">
@@ -648,12 +630,11 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>Google, Microsoft, Meta All Tracking You Even When You Opt Out</h2>
     <div class="byline">Pinboard Popular · tagged: cookies, data-privacy · 404 Media</div>
-    <p class="blurb">An independent audit found that the biggest tech platforms ignore Global Privacy Control signals and set tracking cookies regardless of user preferences, violating California law. The companies keep paying fines because it's cheaper than compliance. If you've been relying on browser privacy controls, this is evidence that enforcement — not settings — is the only thing that works.</p>
+    <p class="blurb">An independent audit found that the biggest tech platforms ignore Global Privacy Control signals and set tracking cookies regardless of user preferences, violating California law.</p>
     <a class="read-link" href="https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 14 · SAKURA -->
 <section class="spread spread-sakura">
   <div class="ghost-num">14</div>
   <div class="spread-inner">
@@ -662,39 +643,37 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>Pretty Fish — A Better Mermaid Diagram Editor</h2>
     <div class="byline">Pinboard Popular · tagged: mermaid, diagram, tools</div>
-    <p class="blurb">Mermaid diagrams are everywhere in docs and READMEs, but the editing experience has always been rough. Pretty Fish gives you a proper visual editor with live preview, drag-and-drop, and export. If you write technical documentation or architecture diagrams, this replaces the "edit text, reload, squint" loop with something that actually feels like a design tool.</p>
+    <p class="blurb">Mermaid diagrams are everywhere in docs, but the editing experience has always been rough. Pretty Fish gives you a proper visual editor with live preview, drag-and-drop, and export.</p>
     <a class="read-link" href="https://pretty.fish/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 15 · OBSIDIAN -->
 <section class="spread spread-obsidian">
   <div class="ghost-num">15</div>
   <div class="spread-inner">
     <span class="category-tag">Dev Tools / VCS</span>
     <span class="applies-tag">Directly Applies to You</span>
     <span class="source-pinboard">Pinboard</span>
-    <h2>Steve Klabnik's Jujutsu (jj) Tutorial</h2>
+    <h2>Steve Klabnik&#x27;s Jujutsu (jj) Tutorial</h2>
     <div class="byline">Pinboard Popular · Steve Klabnik</div>
-    <p class="blurb">Steve Klabnik wrote a comprehensive tutorial for jj, the Git-compatible version control system that's gaining traction among developers tired of Git's footguns. Jujutsu offers anonymous branches, automatic rebasing, and undo for everything. If you've been curious about jj but didn't know where to start, this is the tutorial — from one of the best technical writers in the ecosystem.</p>
+    <p class="blurb">A comprehensive tutorial for jj, the Git-compatible version control system. Offers anonymous branches, automatic rebasing, and undo for everything. From one of the best technical writers in the ecosystem.</p>
     <a class="read-link" href="https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 16 · COPPER -->
 <section class="spread spread-copper">
   <div class="ghost-num">16</div>
   <div class="spread-inner">
     <span class="category-tag">Creative Software</span>
+    
     <span class="source-pinboard">Pinboard</span>
-    <h2>DaVinci Resolve Photo — Blackmagic's Free Photo Editor</h2>
+    <h2>DaVinci Resolve Photo — Blackmagic&#x27;s Free Photo Editor</h2>
     <div class="byline">Pinboard Popular · tagged: photo · Blackmagic Design</div>
-    <p class="blurb">Blackmagic added a full photo editing module to DaVinci Resolve, bringing their color science and grading tools to stills for free. The same company that gives filmmakers a professional video editor for $0 is now doing the same for photographers. If you do any photo work and don't want to pay Adobe, this just became the most interesting free option available.</p>
+    <p class="blurb">Blackmagic added a full photo editing module to DaVinci Resolve, bringing their color science and grading tools to stills for free. The most interesting free option for photographers who don&#x27;t want to pay Adobe.</p>
     <a class="read-link" href="https://www.blackmagicdesign.com/products/davinciresolve/photo">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 17 · FOREST -->
 <section class="spread spread-forest">
   <div class="ghost-num">17</div>
   <div class="spread-inner">
@@ -703,12 +682,11 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>Apple Frames 4 — Screenshot Framing Tool with CLI</h2>
     <div class="byline">Pinboard Popular · MacStories</div>
-    <p class="blurb">MacStories released Apple Frames 4, a revamped Shortcut that wraps your screenshots in realistic Apple device frames — now with a CLI for developers. You can automate screenshot framing in your build pipeline or documentation workflow. If you publish anything that includes Mac or iPhone screenshots, this is the polish tool you didn't know you needed.</p>
+    <p class="blurb">MacStories released Apple Frames 4, a revamped Shortcut that wraps your screenshots in realistic Apple device frames — now with a CLI for developers. Automate screenshot framing in your build pipeline or documentation workflow.</p>
     <a class="read-link" href="https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 18 · GRAPH PAPER -->
 <section class="spread spread-graph">
   <div class="ghost-num">18</div>
   <div class="spread-inner">
@@ -717,12 +695,11 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>The Git Commands I Run Before Reading Any Code</h2>
     <div class="byline">Pinboard Popular · tagged: git · piechowski.io</div>
-    <p class="blurb">A practical walkthrough of the git commands that help you understand a codebase before reading a single line of source. Think git log --oneline --graph, git shortlog for contributor patterns, and git diff --stat for recent activity. Simple, immediately useful, and the kind of workflow that separates "I cloned it" from "I understand the shape of this project."</p>
+    <p class="blurb">A practical walkthrough of the git commands that help you understand a codebase before reading a single line of source. Simple, immediately useful, and separates I cloned it from I understand the shape of this project.</p>
     <a class="read-link" href="https://piechowski.io/post/git-commands-before-reading-code/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 19 · INFRARED -->
 <section class="spread spread-infrared">
   <div class="ghost-num">19</div>
   <div class="spread-inner">
@@ -731,25 +708,25 @@
     <span class="source-pinboard">Pinboard</span>
     <h2>Bryan Cantrill: The Peril of Laziness Lost</h2>
     <div class="byline">Pinboard Popular · tagged: programming, llm, ai, design, culture</div>
-    <p class="blurb">Bryan Cantrill — the DTrace creator and Oxide Computer co-founder — argues that AI coding tools are eroding the productive laziness that drove good engineering. The "laziness" that made programmers automate, abstract, and simplify is being replaced by "just let the AI write it." It's a sharp, experience-backed counterpoint to the "10x productivity" narrative that everyone building with AI should sit with.</p>
+    <p class="blurb">Bryan Cantrill argues that AI coding tools are eroding the productive laziness that drove good engineering. A sharp, experience-backed counterpoint to the 10x productivity narrative that everyone building with AI should sit with.</p>
     <a class="read-link" href="https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/">Read Article →</a>
+    
   </div>
 </section>
-
-<!-- 20 · FROSTED -->
 <section class="spread spread-frosted">
   <div class="ghost-num">20</div>
   <div class="spread-inner">
     <span class="category-tag">AI / Developer Health</span>
+    
     <span class="source-pinboard">Pinboard</span>
     <h2>The Human Cost of 10x AI Productivity</h2>
     <div class="byline">Pinboard Popular · tagged: ai, llm, softwareengineering, burnout · Denis Stetskov</div>
-    <p class="blurb">AI shifts the bottleneck onto senior engineers whose job is validating what looks correct but may be structurally wrong. Output rises at machine speed while review, trust calibration, and accountability stay stuck at human speed. The result: worse decisions, worse sleep, more burnout, and a dangerous illusion of productivity. A necessary read for anyone leading a team that's going all-in on AI tooling.</p>
+    <p class="blurb">AI shifts the bottleneck onto senior engineers whose job is validating what looks correct but may be structurally wrong. Output rises at machine speed while review, trust calibration, and accountability stay stuck at human speed.</p>
     <a class="read-link" href="https://techtrenches.dev/p/the-human-cost-of-10x-how-ai-is-physically">Read Article →</a>
+    
   </div>
 </section>
 
-<!-- ════════════════ FOOTER ════════════════ -->
 <footer class="footer">
   <p>Morning Edition — Thursday, April 16, 2026</p>
   <p>Curated from Hacker News + Pinboard Popular</p>
