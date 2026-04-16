@@ -99,13 +99,18 @@ Then run the build script to regenerate the index page, RSS feed, and latest red
 python3 scripts/build-index.py
 ```
 
-## Step 6: Commit and Push
+## Step 6: Commit and Push DIRECTLY to main
+
+IMPORTANT: Do NOT create a branch. Do NOT create a pull request. Commit and push directly to the main branch. This site deploys automatically via GitHub Pages on push to main, so a PR would block deployment and require manual approval, which defeats the purpose of this automated routine.
 
 ```bash
+git checkout main
 git add magazines/YYYY-MM-DD.json magazines/YYYY-MM-DD.html index.html feed.xml latest/index.html
 git commit -m "Morning Edition — {DayName}, {Month} {Day}, {Year}"
 git push origin main
 ```
+
+Do NOT run `git checkout -b`, do NOT use `gh pr create`, do NOT create any branch other than main. Push directly to main.
 
 ## Important Notes
 - ALWAYS compute the correct day name — use Python `strftime("%A")` — never guess
@@ -114,4 +119,5 @@ git push origin main
 - Each blurb should be 2-3 sentences, punchy, no filler
 - Deduplicate: if a URL appears in both HN and Pinboard, only include it once (in the HN section)
 - Always run both build scripts after creating the JSON
-- Always commit and push so the site deploys automatically via GitHub Pages
+- Always commit and push directly to main so the site deploys automatically via GitHub Pages
+- Do NOT create a pull request. Do NOT create a branch. Push directly to main.
