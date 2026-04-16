@@ -211,6 +211,17 @@ def render_magazine(data):
     letter-spacing: 0.15em;
     text-transform: uppercase;
   }}
+  .cover .archive-link {{
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #a8a29e;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    transition: color 0.15s;
+  }}
+  .cover .archive-link:hover {{ color: #fb923c; }}
 
   .spread {{
     min-height: 100vh;
@@ -581,6 +592,7 @@ def render_magazine(data):
     <h1>{dt.strftime('%B')} {dt.day},<br>{year}</h1>
     <div class="date">{day_name}</div>
     <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
+    <a class="archive-link" href="/archive/">Previous Issues →</a>
   </div>
 </section>
 
@@ -597,6 +609,7 @@ def render_magazine(data):
 <footer class="footer">
   <p>Morning Edition — {day_name}, {month_day_year}</p>
   <p>Curated from Hacker News + Pinboard Popular</p>
+  <p style="margin-top:1rem;"><a href="/archive/" style="color:#a8a29e;text-decoration:none;">Previous Issues →</a></p>
 </footer>
 
 </body>

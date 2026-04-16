@@ -83,7 +83,37 @@ def get_editions():
 
 
 def build_index(editions):
-    """Generate the archive index.html."""
+    """Copy the latest edition to index.html as the homepage."""
+    if editions:
+        latest_html = (MAG_DIR / editions[0]["filename"]).read_text(encoding="utf-8")
+        (ROOT / "index.html").write_text(latest_html, encoding="utf-8")
+        print(f"  index.html: latest edition ({editions[0]['date_str']})")
+    else:
+        # Placeholder when no editions exist
+        html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Daily Tech Magazine</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>
+  body { font-family: sans-serif; background: #0a0a0a; color: #fafaf9;
+         display: flex; justify-content: center; align-items: center;
+         min-height: 100vh; text-align: center; }
+</style>
+</head>
+<body><p>No editions yet. Check back tomorrow morning.</p></body>
+</html>"""
+        (ROOT / "index.html").write_text(html, encoding="utf-8")
+        print("  index.html: placeholder (no editions)")
+
+
+def build_archive(editions):
+    """Generate the archive listing at archive/index.html."""
+    archive_dir = ROOT / "archive"
+    archive_dir.mkdir(exist_ok=True)
+
     rows = ""
     for i, ed in enumerate(editions):
         day_name = ed["date"].strftime("%A")
@@ -95,7 +125,7 @@ def build_index(editions):
             if i == 0 else ""
         )
         rows += f"""
-    <a href="{ed['path']}" class="edition-row">
+    <a href="/{ed['path']}" class="edition-row">
       <span class="edition-date">{day_name}<br><strong>{month_day}</strong></span>
       <span class="edition-title">{ed['title']}{latest_badge}</span>
       <span class="edition-arrow">&rarr;</span>
@@ -106,12 +136,8 @@ def build_index(editions):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Morning Edition — Daily Tech Magazine</title>
-<meta name="description" content="A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, and more.">
-<meta property="og:title" content="Morning Edition — Daily Tech Magazine">
-<meta property="og:description" content="20 curated stories daily from Hacker News + Pinboard Popular">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{DOMAIN}">
+<title>Previous Issues — Morning Edition</title>
+<meta name="description" content="Archive of all Morning Edition issues. A daily curated magazine from Hacker News and Pinboard Popular.">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="{DOMAIN}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -153,14 +179,19 @@ def build_index(editions):
     line-height: 1.6;
     max-width: 36rem;
   }}
-  .header .rss-link {{
-    display: inline-block;
+  .header .nav-links {{
     margin-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+  }}
+  .header .nav-links a {{
     font-size: 0.85rem;
-    color: #fb923c;
     text-decoration: none;
     font-weight: 600;
   }}
+  .header .home-link {{ color: #a8a29e; }}
+  .header .home-link:hover {{ color: #fb923c; }}
+  .header .rss-link {{ color: #fb923c; }}
   .header .rss-link:hover {{ text-decoration: underline; }}
   .editions {{
     max-width: 52rem;
@@ -230,20 +261,23 @@ def build_index(editions):
 <body>
   <div class="header">
     <div class="label">Archive</div>
-    <h1>Morning Edition</h1>
-    <p>A daily curated magazine of the best stories from Hacker News and Pinboard Popular. AI tools, creative software, dev tools, privacy, weird science, and Apple.</p>
-    <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
+    <h1>Previous Issues</h1>
+    <p>Every Morning Edition, from newest to oldest.</p>
+    <div class="nav-links">
+      <a class="home-link" href="/">&larr; Latest Issue</a>
+      <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
+    </div>
   </div>
   <div class="editions">
     {rows if rows else '<div class="empty">No editions yet. Check back tomorrow morning.</div>'}
   </div>
   <div class="footer">
-    <p>Curated daily at 4am from Hacker News + Pinboard Popular</p>
+    <p>Curated daily from Hacker News + Pinboard Popular</p>
   </div>
 </body>
 </html>"""
-    (ROOT / "index.html").write_text(html, encoding="utf-8")
-    print(f"  index.html: {len(editions)} editions listed")
+    (archive_dir / "index.html").write_text(html, encoding="utf-8")
+    print(f"  archive/index.html: {len(editions)} editions listed")
 
 
 def _xml_escape(text):
@@ -363,6 +397,7 @@ if __name__ == "__main__":
     print("Building Morning Edition site...")
     editions = get_editions()
     build_index(editions)
+    build_archive(editions)
     build_feed(editions)
     build_latest_redirect(editions)
     print("Done.")

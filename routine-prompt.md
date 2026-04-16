@@ -115,7 +115,7 @@ IMPORTANT: Do NOT create a branch. Do NOT create a pull request. Commit and push
 
 ```bash
 git checkout main
-git add magazines/YYYY-MM-DD.json magazines/YYYY-MM-DD.html index.html feed.xml latest/index.html
+git add magazines/YYYY-MM-DD.json magazines/YYYY-MM-DD.html index.html archive/index.html feed.xml latest/index.html
 git commit -m "Morning Edition — {DayName}, {Month} {Day}, {Year}"
 git push origin main
 ```
