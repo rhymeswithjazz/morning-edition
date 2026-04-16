@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — April 16, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for April 16, 2026.">
+<meta property="og:title" content="Morning Edition — April 16, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-04-16.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --ff-display: 'Fraunces', serif;
+    --ff-body: 'Inter', sans-serif;
+  }
+
+  html { font-size: 18px; scroll-behavior: smooth; }
+  body { font-family: var(--ff-body); line-height: 1.6; }
+
+  /* ── Cover ── */
+  .cover {
+    min-height: 100vh;
+    background: #0a0a0a;
+    color: #fafaf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
+    animation: drift 20s ease-in-out infinite alternate;
+  }
+  @keyframes drift {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to { transform: translate(-3%, 2%) rotate(2deg); }
+  }
+  .cover-content { position: relative; z-index: 1; }
+  .cover .edition-label {
+    font-family: var(--ff-body);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fb923c;
+    margin-bottom: 2rem;
+  }
+  .cover h1 {
+    font-family: var(--ff-display);
+    font-size: clamp(3.5rem, 10vw, 8rem);
+    font-weight: 900;
+    line-height: 0.95;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  .cover .date {
+    font-family: var(--ff-body);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #a8a29e;
+    letter-spacing: 0.1em;
+  }
+  .cover .story-count {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #78716c;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  /* ── Spreads ── */
+  .spread {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
+    position: relative;
+    overflow: hidden;
+  }
+  .spread-inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .ghost-num {
+    position: absolute;
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(10rem, 30vw, 22rem);
+    line-height: 1;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .category-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    margin-bottom: 1.5rem;
+  }
+  .applies-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    background: #fbbf24;
+    color: #1c1917;
+    margin-left: 0.5rem;
+  }
+  .spread h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+  .byline {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+  }
+  .blurb {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 38rem;
+  }
+  .read-link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 100px;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .read-link:hover { transform: translateY(-2px); }
+  .discuss-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    opacity: 0.7;
+  }
+  .discuss-link:hover { opacity: 1; }
+  .source-pinboard {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    margin-left: 0.75rem;
+    vertical-align: middle;
+  }
+
+  /* ── Section Divider ── */
+  .section-divider {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1a1025, #0f172a);
+    color: #fafaf9;
+  }
+  .section-divider .emoji { font-size: 3rem; margin-bottom: 1.5rem; }
+  .section-divider h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  .section-divider p {
+    font-size: 1.1rem;
+    color: #a8a29e;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    background: #0a0a0a;
+    color: #57534e;
+    padding: 3rem clamp(2rem, 6vw, 5rem);
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.8;
+  }
+
+  /* ── 1. HERO ── */
+  .spread-hero { background: #fffbeb; color: #1c1917; }
+  .spread-hero .ghost-num { color: #fb923c; }
+  .spread-hero .category-tag { background: #fed7aa; color: #9a3412; }
+  .spread-hero .read-link { background: #fb923c; color: white; }
+  .spread-hero .discuss-link { color: #9a3412; }
+
+  /* ── 2. DARK/MIDNIGHT ── */
+  .spread-midnight { background: #1a1025; color: #e8e0f0; }
+  .spread-midnight .ghost-num { color: #8b5cf6; }
+  .spread-midnight .category-tag { background: rgba(139,92,246,0.2); color: #c4b5fd; }
+  .spread-midnight .read-link { background: #8b5cf6; color: white; }
+  .spread-midnight .discuss-link { color: #c4b5fd; }
+
+  /* ── 3. ROSE ALERT ── */
+  .spread-rose { background: #fef2f2; color: #1c1917; position: relative; }
+  .spread-rose::after {
+    content: 'ALERT';
+    position: absolute;
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(8rem, 25vw, 18rem);
+    color: rgba(239,68,68,0.04);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    pointer-events: none;
+  }
+  .spread-rose .ghost-num { color: #ef4444; }
+  .spread-rose .category-tag { background: #fecaca; color: #991b1b; }
+  .spread-rose .read-link { background: #ef4444; color: white; }
+  .spread-rose .discuss-link { color: #991b1b; }
+
+  /* ── 4. TERMINAL ── */
+  .spread-terminal { background: #0c0c0c; color: #4ade80; font-family: 'Courier New', monospace; }
+  .spread-terminal .ghost-num { color: #4ade80; }
+  .spread-terminal h2 { font-family: 'Courier New', monospace; }
+  .spread-terminal .category-tag { background: rgba(74,222,128,0.15); color: #4ade80; border: 1px solid #4ade80; }
+  .spread-terminal .read-link { background: #4ade80; color: #0c0c0c; font-family: 'Courier New', monospace; }
+  .spread-terminal .discuss-link { color: #4ade80; }
+  .spread-terminal .blurb::after { content: '█'; animation: blink 1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* ── 5. ACADEMIC ── */
+  .spread-academic { background: #f5f0e8; color: #292524; }
+  .spread-academic h2 { font-style: italic; }
+  .spread-academic .blurb::first-letter {
+    font-family: var(--ff-display);
+    font-size: 3.5rem;
+    font-weight: 900;
+    float: left;
+    line-height: 0.8;
+    margin-right: 0.5rem;
+    margin-top: 0.15rem;
+    color: #78716c;
+  }
+  .spread-academic .ghost-num { color: #a8a29e; }
+  .spread-academic .category-tag { background: #d6d3d1; color: #44403c; }
+  .spread-academic .read-link { background: #57534e; color: white; }
+  .spread-academic .discuss-link { color: #57534e; }
+
+  /* ── 6. ELECTRIC BLUE ── */
+  .spread-electric { background: #0f172a; color: #e0f2fe; }
+  .spread-electric .ghost-num { color: #06b6d4; }
+  .spread-electric .category-tag { background: rgba(6,182,212,0.15); color: #67e8f9; }
+  .spread-electric .read-link { background: #06b6d4; color: #0f172a; }
+  .spread-electric .discuss-link { color: #67e8f9; }
+
+  /* ── 7. APPLE ── */
+  .spread-apple { background: linear-gradient(180deg, #ffffff, #f5f5f7); color: #1d1d1f; }
+  .spread-apple .ghost-num {
+    background: linear-gradient(135deg, #ff3b30, #ff9500, #ffcc00, #34c759, #007aff, #5856d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.12;
+  }
+  .spread-apple .category-tag { background: #e8e8ed; color: #1d1d1f; }
+  .spread-apple .read-link { background: #007aff; color: white; }
+  .spread-apple .discuss-link { color: #007aff; }
+
+  /* ── 8. NEWSPRINT ── */
+  .spread-newsprint {
+    background: #fefce8;
+    color: #1c1917;
+    background-image: radial-gradient(circle, #d4d4d4 0.5px, transparent 0.5px);
+    background-size: 12px 12px;
+  }
+  .spread-newsprint h2 { text-transform: uppercase; letter-spacing: 0.02em; }
+  .spread-newsprint .ghost-num { color: #a16207; }
+  .spread-newsprint .category-tag { background: #fde68a; color: #92400e; }
+  .spread-newsprint .read-link { background: #a16207; color: white; }
+  .spread-newsprint .discuss-link { color: #92400e; }
+
+  /* ── 9. GRADIENT ── */
+  .spread-gradient { background: linear-gradient(135deg, #fecdd3, #c4b5fd, #a78bfa); color: #1c1917; }
+  .spread-gradient .ghost-num { color: rgba(0,0,0,0.08); }
+  .spread-gradient .category-tag { background: rgba(255,255,255,0.4); color: #581c87; }
+  .spread-gradient .read-link { background: #7c3aed; color: white; }
+  .spread-gradient .discuss-link { color: #581c87; }
+
+  /* ── 10. BIG-STAT ── */
+  .spread-bigstat { background: #18181b; color: #fafaf9; text-align: center; }
+  .spread-bigstat .spread-inner { display: flex; flex-direction: column; align-items: center; }
+  .spread-bigstat .stat-num {
+    font-family: var(--ff-display);
+    font-weight: 900;
+    font-size: clamp(5rem, 18vw, 12rem);
+    line-height: 1;
+    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+  }
+  .spread-bigstat .category-tag { background: rgba(251,146,60,0.15); color: #fb923c; }
+  .spread-bigstat .read-link { background: linear-gradient(135deg, #fb923c, #f43f5e); color: white; }
+  .spread-bigstat .discuss-link { color: #fb923c; }
+
+  /* ── 11. CORK BOARD ── */
+  .spread-cork {
+    background: #fef3c7;
+    color: #1c1917;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px),
+                       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px);
+  }
+  .spread-cork .ghost-num { color: #d97706; }
+  .spread-cork .category-tag { background: #fde68a; color: #92400e; }
+  .spread-cork .read-link { background: #d97706; color: white; }
+  .spread-cork .source-pinboard { background: rgba(217,119,6,0.15); color: #92400e; }
+
+  /* ── 12. DEEP TEAL ── */
+  .spread-teal { background: #042f2e; color: #ccfbf1; }
+  .spread-teal .ghost-num { color: #14b8a6; }
+  .spread-teal .category-tag { background: rgba(20,184,166,0.15); color: #5eead4; }
+  .spread-teal .read-link { background: #14b8a6; color: #042f2e; }
+  .spread-teal .source-pinboard { background: rgba(20,184,166,0.15); color: #5eead4; }
+
+  /* ── 13. BLUEPRINT ── */
+  .spread-blueprint {
+    background: #172554;
+    color: #dbeafe;
+    background-image:
+      linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  .spread-blueprint .ghost-num { color: #3b82f6; }
+  .spread-blueprint .category-tag { background: rgba(59,130,246,0.2); color: #93c5fd; }
+  .spread-blueprint .read-link { background: #3b82f6; color: white; }
+  .spread-blueprint .source-pinboard { background: rgba(59,130,246,0.15); color: #93c5fd; }
+
+  /* ── 14. SAKURA ── */
+  .spread-sakura { background: linear-gradient(135deg, #fff1f2, #faf5ff); color: #1c1917; }
+  .spread-sakura .ghost-num { color: #ec4899; }
+  .spread-sakura .category-tag { background: #fce7f3; color: #9d174d; }
+  .spread-sakura .read-link { background: #ec4899; color: white; }
+  .spread-sakura .source-pinboard { background: rgba(236,72,153,0.1); color: #9d174d; }
+
+  /* ── 15. OBSIDIAN ── */
+  .spread-obsidian { background: #1c1917; color: #e7e5e4; }
+  .spread-obsidian .ghost-num { color: #a855f7; }
+  .spread-obsidian h2 { text-shadow: 0 0 30px rgba(168,85,247,0.3); }
+  .spread-obsidian .category-tag { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .spread-obsidian .read-link { background: #a855f7; color: white; }
+  .spread-obsidian .source-pinboard { background: rgba(168,85,247,0.15); color: #c084fc; }
+
+  /* ── 16. COPPER ── */
+  .spread-copper { background: linear-gradient(180deg, #1c1917, #292524); color: #fde68a; }
+  .spread-copper .ghost-num { color: #d97706; }
+  .spread-copper h2 { color: #fbbf24; }
+  .spread-copper .category-tag { background: rgba(251,191,36,0.15); color: #fbbf24; }
+  .spread-copper .read-link { background: #d97706; color: #1c1917; }
+  .spread-copper .source-pinboard { background: rgba(217,119,6,0.15); color: #fbbf24; }
+
+  /* ── 17. FOREST ── */
+  .spread-forest { background: #052e16; color: #dcfce7; }
+  .spread-forest .ghost-num { color: #22c55e; }
+  .spread-forest .category-tag { background: rgba(34,197,94,0.15); color: #86efac; }
+  .spread-forest .read-link { background: #22c55e; color: #052e16; }
+  .spread-forest .source-pinboard { background: rgba(34,197,94,0.15); color: #86efac; }
+
+  /* ── 18. GRAPH PAPER ── */
+  .spread-graph {
+    background: #fafafa;
+    color: #1c1917;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .spread-graph .ghost-num { color: #a8a29e; }
+  .spread-graph .category-tag { background: #e7e5e4; color: #44403c; }
+  .spread-graph .read-link { background: #44403c; color: white; }
+  .spread-graph .source-pinboard { background: rgba(0,0,0,0.06); color: #44403c; }
+
+  /* ── 19. INFRARED ── */
+  .spread-infrared { background: #1a0a0a; color: #fecaca; }
+  .spread-infrared .ghost-num { color: #ef4444; text-shadow: 0 0 40px rgba(239,68,68,0.3); }
+  .spread-infrared h2 { text-shadow: 0 0 20px rgba(239,68,68,0.2); }
+  .spread-infrared .category-tag { background: rgba(239,68,68,0.15); color: #fca5a5; }
+  .spread-infrared .read-link { background: #ef4444; color: white; }
+  .spread-infrared .source-pinboard { background: rgba(239,68,68,0.15); color: #fca5a5; }
+
+  /* ── 20. FROSTED ── */
+  .spread-frosted {
+    background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #e2e8f0);
+    color: #1e293b;
+  }
+  .spread-frosted .spread-inner {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.8);
+    padding: 3rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  }
+  .spread-frosted .ghost-num { color: #94a3b8; }
+  .spread-frosted .category-tag { background: rgba(100,116,139,0.1); color: #475569; }
+  .spread-frosted .read-link { background: #475569; color: white; }
+  .spread-frosted .source-pinboard { background: rgba(100,116,139,0.1); color: #475569; }
+
+  @media (max-width: 640px) {
+    .spread { padding: clamp(2rem, 6vw, 4rem) 1.5rem; }
+    .ghost-num { font-size: clamp(6rem, 20vw, 10rem); }
+    .spread-frosted .spread-inner { padding: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════════════ COVER ════════════════ -->
+<section class="cover">
+  <div class="cover-content">
+    <div class="edition-label">Morning Edition</div>
+    <h1>April 16,<br>2026</h1>
+    <div class="date">Thursday</div>
+    <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
+  </div>
+</section>
+
+<!-- ════════════════ HN STORIES ════════════════ -->
+
+<!-- 01 · HERO -->
+<section class="spread spread-hero">
+  <div class="ghost-num">01</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>Google Broke Its Promise to Me — Now ICE Has My Data</h2>
+    <div class="byline">by Brajeshwar · 1,472 points · 626 comments</div>
+    <p class="blurb">The EFF details how Google reversed its commitment to protect user data, handing location history to immigration enforcement despite explicit opt-out settings. This is the privacy story of the week — if you use any Google services, this is a concrete case study in why "trust us" doesn't scale. The implications for anyone storing sensitive data in cloud services are immediate and chilling.</p>
+    <a class="read-link" href="https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47782570">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 02 · MIDNIGHT -->
+<section class="spread spread-midnight">
+  <div class="ghost-num">02</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>The Local LLM Ecosystem Doesn't Need Ollama</h2>
+    <div class="byline">by Zetaphor · 501 points · 140 comments</div>
+    <p class="blurb">A provocative argument that Ollama has become an unnecessary abstraction layer for running local models. The author walks through llama.cpp, vLLM, and other backends that give you more control with less overhead. If you're running local models on your Mac, this is worth reading before your next setup — there may be a faster, leaner path than the one you're on.</p>
+    <a class="read-link" href="https://sleepingrobots.com/dreams/stop-using-ollama/">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47788385">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 03 · ROSE ALERT -->
+<section class="spread spread-rose">
+  <div class="ghost-num">03</div>
+  <div class="spread-inner">
+    <span class="category-tag">Security</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>Cybersecurity Looks Like Proof of Work Now</h2>
+    <div class="byline">by dbreunig · 408 points · 147 comments</div>
+    <p class="blurb">Drew Breunig argues that AI-powered attacks have made cybersecurity an arms race where defense now costs more than offense. Every endpoint is a surface, every model a potential tool for the attacker. The conclusion is bleak but actionable: treat security like infrastructure, not insurance. If you ship software, this reframes how you should think about every dependency you pull in.</p>
+    <a class="read-link" href="https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47769089">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 04 · TERMINAL -->
+<section class="spread spread-terminal">
+  <div class="ghost-num">04</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI + Apple + Privacy</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>Darkbloom — Private Inference on Idle Macs</h2>
+    <div class="byline">by twapi · 240 points · 123 comments</div>
+    <p class="blurb">Darkbloom turns your idle Mac into a private inference node — run LLM workloads locally with no data leaving your machine. It's the intersection of three things you care about: AI tooling, macOS, and keeping your data private. Think of it as a self-hosted alternative to cloud inference that actually respects the silicon sitting on your desk.</p>
+    <a class="read-link" href="https://darkbloom.dev">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47788542">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 05 · ACADEMIC -->
+<section class="spread spread-academic">
+  <div class="ghost-num">05</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <h2>ChatGPT for Excel</h2>
+    <div class="byline">by armcat · 206 points · 141 comments</div>
+    <p class="blurb">OpenAI launched a native spreadsheet interface for ChatGPT, blurring the line between conversational AI and structured data tools. The HN comments are split between "this is the future of business software" and "this is a trojan horse for lock-in." Either way, it signals that AI companies are coming for the productivity suite, not just the chat window.</p>
+    <a class="read-link" href="https://chatgpt.com/apps/spreadsheets/">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47785397">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 06 · ELECTRIC BLUE -->
+<section class="spread spread-electric">
+  <div class="ghost-num">06</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools / Open Source</span>
+    <h2>Cal.com Is Going Closed Source</h2>
+    <div class="byline">by Benjamin_Dobell · 307 points · 235 comments</div>
+    <p class="blurb">Another open-source company pulls up the drawbridge. Cal.com's blog post explains the economics, but the HN thread is where the real debate lives: is the open-core model fundamentally broken, or did Cal just fail to execute? This matters for anyone who depends on OSS tools that could make the same pivot overnight.</p>
+    <a class="read-link" href="https://cal.com/blog/cal-com-goes-closed-source-why">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47780456">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 07 · APPLE -->
+<section class="spread spread-apple">
+  <div class="ghost-num">07</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <h2>Do You Even Need a Database?</h2>
+    <div class="byline">by upmostly · 238 points · 268 comments</div>
+    <p class="blurb">A refreshingly honest examination of when a database is overkill. For small projects, side hustles, and prototypes, flat files, SQLite, or even localStorage might be all you need. The 268-comment HN thread is a masterclass in "it depends" — worth browsing for the real-world architecture stories alone.</p>
+    <a class="read-link" href="https://www.dbpro.app/blog/do-you-even-need-a-database">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47778086">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 08 · NEWSPRINT -->
+<section class="spread spread-newsprint">
+  <div class="ghost-num">08</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools / CLI</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>I Made a Terminal Pager</h2>
+    <div class="byline">by speckx · 132 points · 30 comments</div>
+    <p class="blurb">A developer's love letter to the terminal, built into a modern pager that aims to replace less. It supports syntax highlighting, search, and mouse scrolling out of the box. If you live in the terminal — and you do — this is the kind of small, sharp tool that quietly improves your daily workflow.</p>
+    <a class="read-link" href="https://theleo.zone/posts/pager/">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47786164">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 09 · GRADIENT -->
+<section class="spread spread-gradient">
+  <div class="ghost-num">09</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <h2>Libretto — Making AI Browser Automations Deterministic</h2>
+    <div class="byline">by muchael · 102 points · 36 comments</div>
+    <p class="blurb">Saffron Health open-sourced Libretto, a framework for building browser automations that are reproducible rather than probabilistic. Instead of hoping the LLM clicks the right button, Libretto records and replays structured interaction plans. For anyone building AI-powered testing or scraping, this solves the "it worked on my machine" problem at the agent level.</p>
+    <a class="read-link" href="https://github.com/saffron-health/libretto">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47780971">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- 10 · BIG-STAT -->
+<section class="spread spread-bigstat">
+  <div class="spread-inner">
+    <span class="category-tag">Apple + Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <div class="stat-num">10</div>
+    <h2>Agent — Native macOS Coding IDE</h2>
+    <div class="byline">by jv22222 · 49 points · 20 comments</div>
+    <p class="blurb">A new native Mac coding environment built around agentic AI workflows — think Cursor but designed as a proper macOS citizen from day one. It uses Apple's native frameworks instead of Electron, which means it's fast, uses less memory, and integrates with the OS the way Mac apps should. Early but worth watching.</p>
+    <a class="read-link" href="https://github.com/macOS26/Agent">Read Article →</a>
+    <a class="discuss-link" href="https://news.ycombinator.com/item?id=47787127">HN Discussion →</a>
+  </div>
+</section>
+
+<!-- ════════════════ DIVIDER ════════════════ -->
+<section class="section-divider">
+  <div class="emoji">📌</div>
+  <h2>Pinboard Picks</h2>
+  <p>10 exclusives from Pinboard Popular</p>
+</section>
+
+<!-- ════════════════ PINBOARD STORIES ════════════════ -->
+
+<!-- 11 · CORK BOARD -->
+<section class="spread spread-cork">
+  <div class="ghost-num">11</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Automate Work with Claude Code Routines</h2>
+    <div class="byline">Pinboard Popular · tagged: claude</div>
+    <p class="blurb">The official Claude Code documentation for Routines hit Pinboard Popular — which means the broader dev community is paying attention. Routines let you schedule recurring Claude Code tasks with a prompt file, exactly like this magazine is built. If you're already using Claude Code daily, routines are the next step toward genuine automation of your repetitive workflows.</p>
+    <a class="read-link" href="https://code.claude.com/docs/en/routines">Read Article →</a>
+  </div>
+</section>
+
+<!-- 12 · DEEP TEAL -->
+<section class="spread spread-teal">
+  <div class="ghost-num">12</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy &amp; AI</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>They See Your Photos</h2>
+    <div class="byline">Pinboard Popular · tagged: ai, google</div>
+    <p class="blurb">A visual demonstration of what AI can extract from the photos you upload — metadata, faces, locations, relationships, patterns. It's a visceral reminder that "sharing a photo" in 2026 means handing over a structured dataset about your life. Pair this with the Google/ICE story above and the picture gets uncomfortable fast.</p>
+    <a class="read-link" href="https://theyseeyourphotos.com/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 13 · BLUEPRINT -->
+<section class="spread spread-blueprint">
+  <div class="ghost-num">13</div>
+  <div class="spread-inner">
+    <span class="category-tag">Privacy</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Google, Microsoft, Meta All Tracking You Even When You Opt Out</h2>
+    <div class="byline">Pinboard Popular · tagged: cookies, data-privacy · 404 Media</div>
+    <p class="blurb">An independent audit found that the biggest tech platforms ignore Global Privacy Control signals and set tracking cookies regardless of user preferences, violating California law. The companies keep paying fines because it's cheaper than compliance. If you've been relying on browser privacy controls, this is evidence that enforcement — not settings — is the only thing that works.</p>
+    <a class="read-link" href="https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 14 · SAKURA -->
+<section class="spread spread-sakura">
+  <div class="ghost-num">14</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Pretty Fish — A Better Mermaid Diagram Editor</h2>
+    <div class="byline">Pinboard Popular · tagged: mermaid, diagram, tools</div>
+    <p class="blurb">Mermaid diagrams are everywhere in docs and READMEs, but the editing experience has always been rough. Pretty Fish gives you a proper visual editor with live preview, drag-and-drop, and export. If you write technical documentation or architecture diagrams, this replaces the "edit text, reload, squint" loop with something that actually feels like a design tool.</p>
+    <a class="read-link" href="https://pretty.fish/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 15 · OBSIDIAN -->
+<section class="spread spread-obsidian">
+  <div class="ghost-num">15</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools / VCS</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Steve Klabnik's Jujutsu (jj) Tutorial</h2>
+    <div class="byline">Pinboard Popular · Steve Klabnik</div>
+    <p class="blurb">Steve Klabnik wrote a comprehensive tutorial for jj, the Git-compatible version control system that's gaining traction among developers tired of Git's footguns. Jujutsu offers anonymous branches, automatic rebasing, and undo for everything. If you've been curious about jj but didn't know where to start, this is the tutorial — from one of the best technical writers in the ecosystem.</p>
+    <a class="read-link" href="https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html">Read Article →</a>
+  </div>
+</section>
+
+<!-- 16 · COPPER -->
+<section class="spread spread-copper">
+  <div class="ghost-num">16</div>
+  <div class="spread-inner">
+    <span class="category-tag">Creative Software</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>DaVinci Resolve Photo — Blackmagic's Free Photo Editor</h2>
+    <div class="byline">Pinboard Popular · tagged: photo · Blackmagic Design</div>
+    <p class="blurb">Blackmagic added a full photo editing module to DaVinci Resolve, bringing their color science and grading tools to stills for free. The same company that gives filmmakers a professional video editor for $0 is now doing the same for photographers. If you do any photo work and don't want to pay Adobe, this just became the most interesting free option available.</p>
+    <a class="read-link" href="https://www.blackmagicdesign.com/products/davinciresolve/photo">Read Article →</a>
+  </div>
+</section>
+
+<!-- 17 · FOREST -->
+<section class="spread spread-forest">
+  <div class="ghost-num">17</div>
+  <div class="spread-inner">
+    <span class="category-tag">Apple / macOS</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Apple Frames 4 — Screenshot Framing Tool with CLI</h2>
+    <div class="byline">Pinboard Popular · MacStories</div>
+    <p class="blurb">MacStories released Apple Frames 4, a revamped Shortcut that wraps your screenshots in realistic Apple device frames — now with a CLI for developers. You can automate screenshot framing in your build pipeline or documentation workflow. If you publish anything that includes Mac or iPhone screenshots, this is the polish tool you didn't know you needed.</p>
+    <a class="read-link" href="https://www.macstories.net/stories/introducing-apple-frames-4-a-revamped-shortcut-support-for-frame-colors-proportional-scaling-and-the-apple-frames-cli-for-developers/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 18 · GRAPH PAPER -->
+<section class="spread spread-graph">
+  <div class="ghost-num">18</div>
+  <div class="spread-inner">
+    <span class="category-tag">Dev Tools / Git</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>The Git Commands I Run Before Reading Any Code</h2>
+    <div class="byline">Pinboard Popular · tagged: git · piechowski.io</div>
+    <p class="blurb">A practical walkthrough of the git commands that help you understand a codebase before reading a single line of source. Think git log --oneline --graph, git shortlog for contributor patterns, and git diff --stat for recent activity. Simple, immediately useful, and the kind of workflow that separates "I cloned it" from "I understand the shape of this project."</p>
+    <a class="read-link" href="https://piechowski.io/post/git-commands-before-reading-code/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 19 · INFRARED -->
+<section class="spread spread-infrared">
+  <div class="ghost-num">19</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI / Programming Culture</span>
+    <span class="applies-tag">Directly Applies to You</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>Bryan Cantrill: The Peril of Laziness Lost</h2>
+    <div class="byline">Pinboard Popular · tagged: programming, llm, ai, design, culture</div>
+    <p class="blurb">Bryan Cantrill — the DTrace creator and Oxide Computer co-founder — argues that AI coding tools are eroding the productive laziness that drove good engineering. The "laziness" that made programmers automate, abstract, and simplify is being replaced by "just let the AI write it." It's a sharp, experience-backed counterpoint to the "10x productivity" narrative that everyone building with AI should sit with.</p>
+    <a class="read-link" href="https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/">Read Article →</a>
+  </div>
+</section>
+
+<!-- 20 · FROSTED -->
+<section class="spread spread-frosted">
+  <div class="ghost-num">20</div>
+  <div class="spread-inner">
+    <span class="category-tag">AI / Developer Health</span>
+    <span class="source-pinboard">Pinboard</span>
+    <h2>The Human Cost of 10x AI Productivity</h2>
+    <div class="byline">Pinboard Popular · tagged: ai, llm, softwareengineering, burnout · Denis Stetskov</div>
+    <p class="blurb">AI shifts the bottleneck onto senior engineers whose job is validating what looks correct but may be structurally wrong. Output rises at machine speed while review, trust calibration, and accountability stay stuck at human speed. The result: worse decisions, worse sleep, more burnout, and a dangerous illusion of productivity. A necessary read for anyone leading a team that's going all-in on AI tooling.</p>
+    <a class="read-link" href="https://techtrenches.dev/p/the-human-cost-of-10x-how-ai-is-physically">Read Article →</a>
+  </div>
+</section>
+
+<!-- ════════════════ FOOTER ════════════════ -->
+<footer class="footer">
+  <p>Morning Edition — Thursday, April 16, 2026</p>
+  <p>Curated from Hacker News + Pinboard Popular</p>
+</footer>
+
+</body>
+</html>
