@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-16",
+  "stories": [
+    {
+      "title": "Google broke its promise to me \u2013 now ICE has my data",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "hn_link": "https://news.ycombinator.com/item?id=47782570",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Brajeshwar \u00b7 1483 points \u00b7 632 comments",
+      "blurb": "An EFF deep dive into how Google handed location history data to ICE despite explicit promises that account deletion would protect users. This isn't a bug \u2014 it's the architecture of surveillance capitalism colliding with immigration enforcement at the worst possible moment. If you haven't audited your Google data retention settings today, you're overdue."
+    },
+    {
+      "title": "Cybersecurity looks like proof of work now",
+      "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47769089",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dbreunig \u00b7 420 points \u00b7 151 comments",
+      "blurb": "Drew Breunig argues that modern security has become performative busy-work: layered defenses that raise costs for defenders more than attackers, creating a compliance theater that burns out security teams. The proof-of-work framing is sharply observed \u2014 it explains why so many security postures look impressive on paper but keep failing in practice."
+    },
+    {
+      "title": "Darkbloom \u2013 Private inference on idle Macs",
+      "url": "https://darkbloom.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=47788542",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by twapi \u00b7 247 points \u00b7 126 comments",
+      "blurb": "Darkbloom turns your Mac's idle cycles into a private AI inference node \u2014 no cloud calls, no data leaving the machine. It's the intersection of Apple Silicon's raw performance and the growing demand for local LLM inference, and the privacy angle is genuinely compelling for anyone tired of prompts living on someone else's servers."
+    },
+    {
+      "title": "Cal.com is going closed source",
+      "url": "https://cal.com/blog/cal-com-goes-closed-source-why",
+      "hn_link": "https://news.ycombinator.com/item?id=47780456",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Benjamin_Dobell \u00b7 312 points \u00b7 237 comments",
+      "blurb": "The popular open-source scheduling platform is shutting its public repo after competitors built profitable businesses on its codebase without contributing back. It's the latest flashpoint in the open-core sustainability debate, and the HN thread has one of the sharper arguments about whether 'open source' as a go-to-market strategy is finally running out of road."
+    },
+    {
+      "title": "YouTube users get option to set their Shorts time limit to zero minutes",
+      "url": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
+      "hn_link": "https://news.ycombinator.com/item?id=47786791",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by pentagrama \u00b7 283 points \u00b7 130 comments",
+      "blurb": "YouTube is finally letting users kill the Shorts feed entirely \u2014 setting the timer to zero effectively removes it from the app. This is the most actionable attention-reclamation feature a major platform has shipped in years, and it sets a precedent for what design-level regulation could look like going forward."
+    },
+    {
+      "title": "Do you even need a database?",
+      "url": "https://www.dbpro.app/blog/do-you-even-need-a-database",
+      "hn_link": "https://news.ycombinator.com/item?id=47778086",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by upmostly \u00b7 240 points \u00b7 268 comments",
+      "blurb": "A genuinely useful architectural reality check on which workloads actually need a full RDBMS versus flat files, SQLite, or well-structured JSON. The 268-comment thread is a goldmine of war stories from developers who over-engineered small projects and those who catastrophically under-engineered large ones."
+    },
+    {
+      "title": "ChatGPT for Excel",
+      "url": "https://chatgpt.com/apps/spreadsheets/",
+      "hn_link": "https://news.ycombinator.com/item?id=47785397",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by armcat \u00b7 209 points \u00b7 144 comments",
+      "blurb": "OpenAI launched a native ChatGPT integration for Excel that writes formulas, cleans data, and builds pivot tables through natural language. The HN thread debates whether this finally makes AI genuinely useful for non-technical users \u2014 or just adds a hallucination vector to your CFO's financial models."
+    },
+    {
+      "title": "US v. Heppner: No attorney-client privilege for AI chats",
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=47778920",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 1vuio0pswjnm7 \u00b7 138 points \u00b7 98 comments",
+      "blurb": "Judge Rakoff ruled that conversations with AI chatbots don't qualify for attorney-client privilege, even when used to draft legal strategy. This matters for anyone using Claude or ChatGPT for anything legally sensitive \u2014 the assumption that 'private session' means 'legally protected' just got judicially invalidated."
+    },
+    {
+      "title": "Agent \u2013 Native macOS Coding IDE/Harness",
+      "url": "https://github.com/macOS26/Agent",
+      "hn_link": "https://news.ycombinator.com/item?id=47787127",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by jv22222 \u00b7 51 points \u00b7 21 comments",
+      "blurb": "A macOS-native coding agent harness wrapping LLMs in a desktop IDE designed specifically for Apple Silicon \u2014 no Electron, no web wrapper. It's early-stage but the native-first approach to AI coding tooling is a real gap, especially as Claude Code and Cursor race to own developer workflow without caring much about platform fit."
+    },
+    {
+      "title": "CRISPR takes important step toward silencing Down syndrome's extra chromosome",
+      "url": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47781286",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by amichail \u00b7 160 points \u00b7 96 comments",
+      "blurb": "Researchers epigenetically silenced the extra chromosome 21 in Down syndrome cells using CRISPR \u2014 not deleting it, but turning it off. It's a conceptual leap from 'fix a gene' to 'quiet an entire chromosome,' and the ethical and therapeutic implications are orders of magnitude larger."
+    },
+    {
+      "title": "The peril of laziness lost",
+      "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: programming, llm, ai, design, culture",
+      "blurb": "Bryan Cantrill (dtrace, Oxide Computer) argues that productive 'laziness' \u2014 the programmer's art of refusing to do unnecessary work \u2014 is being eroded by AI tools that make it frictionless to generate code without understanding it. It's a sharp counter-narrative to 10x productivity claims: what we might be losing could matter more than what we're gaining."
+    },
+    {
+      "title": "Claude Code's Source: 3,167-Line Function, Regex Sentiment",
+      "url": "https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: revision, process, LLMs, methodology",
+      "blurb": "Someone dug into Claude Code's own source code and found a 3,167-line function and sentiment analysis implemented with regex \u2014 classic signs of AI-generated code that skipped a human review pass. The snake-eating-itself angle is hard to ignore: the tool designed to help you write better code at scale has the same quality problems it's supposed to help you avoid."
+    },
+    {
+      "title": "rtk \u2013 CLI Proxy Cutting LLM Token Costs by 60\u201390%",
+      "url": "https://github.com/rtk-ai/rtk",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: ai-coding, anthropic, claude-code, cost-reduction, token-optimization",
+      "blurb": "rtk is a CLI proxy that sits between your coding agent and the LLM API, pre-processing verbose shell output before it hits the context window. The 60\u201390% token reduction claim is aggressive, but the approach \u2014 stripping noise from dev commands at the source rather than hoping the model ignores it \u2014 is directionally correct. Worth a look if you're burning through Claude Code tokens on CI logs."
+    },
+    {
+      "title": "codeburn \u2013 TUI Dashboard for Claude Code & Codex Cost Observability",
+      "url": "https://github.com/AgentSeal/codeburn",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: claude-code, cost, observability",
+      "blurb": "codeburn is a terminal dashboard showing you exactly where your Claude Code and Codex API spend is going \u2014 by file, session, and command. Flying blind on AI coding costs is a genuine problem at scale, and this is the observability layer that makes it possible to actually optimize your workflow rather than just hoping the bill comes down."
+    },
+    {
+      "title": "Google, Microsoft, Meta All Tracking You Even When You Opt Out",
+      "url": "https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: cookies, data-privacy",
+      "blurb": "An independent audit found all three platforms set tracking cookies after users explicitly opt out, in violation of California privacy law. This isn't vague 'big tech bad' coverage \u2014 the findings are specific: documented technical violations with cookie names and timestamps that regulators can act on."
+    },
+    {
+      "title": "My AI-Assisted Workflow",
+      "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: llm, workflow",
+      "blurb": "A developer's structured approach where the real planning \u2014 spec, architecture, edge cases \u2014 happens before a single line of AI-generated code is written. The core insight is that most AI coding failures stem from under-specified prompts, not model limitations, and the workflow is immediately adoptable."
+    },
+    {
+      "title": "boringBar \u2013 Taskbar Dock Replacement for macOS",
+      "url": "https://boringbar.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: taskbar, ui, osx, dock",
+      "blurb": "boringBar replaces macOS's dock and menu bar with a unified taskbar-style interface for those who prefer a more Windows-adjacent layout on the Mac. It's a genuine design alternative \u2014 not just a theme \u2014 and the 'boring' branding is a deliberate bet that some Mac users are done with the animated, bubbly defaults."
+    },
+    {
+      "title": "GitHub Stacked PRs (gh-stack)",
+      "url": "https://github.github.com/gh-stack/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: github, git",
+      "blurb": "GitHub's official stacked PR tool is now part of the gh CLI, letting you create and manage dependent pull request chains without third-party services like Graphite or Aviator. Stacked diffs are the secret workflow of high-velocity engineering teams \u2014 this makes the approach accessible without any platform lock-in."
+    },
+    {
+      "title": "Backblaze Has Quietly Stopped Backing Up Your Data",
+      "url": "https://rareese.com/posts/backblaze/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: backup, via:HackerNews",
+      "blurb": "Backblaze silently excludes .git folders and Dropbox from backups without prominent disclosure \u2014 meaning developers relying on it for full-disk backup may have completely unprotected repos. This is a critical data hygiene finding: if Backblaze is in your backup strategy, verify what's actually being captured before you need it."
+    },
+    {
+      "title": "Things You Didn't Know About Indexes",
+      "url": "https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular \u00b7 tagged: database, postgresql, indexing",
+      "blurb": "A concise walkthrough of PostgreSQL indexing nuances that even experienced developers miss \u2014 partial indexes, index-only scans, and the conditions under which the query planner ignores your carefully constructed index entirely. The kind of post that saves you hours of debugging the next time a production query mysteriously slow-rolls under load."
+    }
+  ]
+}
