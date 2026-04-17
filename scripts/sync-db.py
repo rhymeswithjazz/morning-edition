@@ -52,6 +52,8 @@ def build_candidate_index(candidates):
 
 
 def build_rows(date_str, edition, candidates, commit_sha=None):
+    # published_at is re-stamped on every re-run; catch-up editions land with
+    # today's timestamp, not their original publish date. Accepted limitation.
     published_at = datetime.now(timezone.utc).isoformat()
     fetched_at = (candidates or {}).get("fetched_at")
 
