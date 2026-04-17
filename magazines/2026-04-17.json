@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-17",
+  "stories": [
+    {
+      "title": "Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "hn_link": "https://news.ycombinator.com/item?id=47793411",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 1926 points · 1408 comments",
+      "blurb": "Anthropic drops Claude Opus 4.7, the biggest model release of the year so far — and the HN discussion is absolutely on fire with 1,400+ comments. If you live in Claude Code, this is your new engine. Read the release notes carefully before upgrading your workflows."
+    },
+    {
+      "title": "Claude Opus 4.7 costs 20–30% more per session",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "hn_link": "https://news.ycombinator.com/item?id=47807006",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aray07 · 367 points · 221 comments",
+      "blurb": "The new tokenizer in Opus 4.7 quietly inflates session costs by 20–30% — someone did the math so you don't get surprised by your bill. Essential reading before you roll out 4.7 across your Claude Code sessions or any high-volume agentic workflow."
+    },
+    {
+      "title": "Claude Design",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "hn_link": "https://news.ycombinator.com/item?id=47806725",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 586 points · 399 comments",
+      "blurb": "Anthropic debuts Claude Design, a new Labs product aimed squarely at creative and design workflows. If you've been waiting for an AI tool that bridges the gap between generative ideas and production-ready design artifacts, this is worth watching closely."
+    },
+    {
+      "title": "Ban the sale of precise geolocation",
+      "url": "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation",
+      "hn_link": "https://news.ycombinator.com/item?id=47806304",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hn_acker · 435 points · 133 comments",
+      "blurb": "Lawfare makes the legal and policy case for banning the commercial sale of precise geolocation data — the data broker ecosystem that tracks everyone's phones in near real-time. A well-argued piece that pairs perfectly with the Penlink surveillance story below."
+    },
+    {
+      "title": "Show HN: SPICE simulation → oscilloscope → verification with Claude Code",
+      "url": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
+      "hn_link": "https://news.ycombinator.com/item?id=47801255",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by _fizz_buzz_ · 113 points · 31 comments",
+      "blurb": "A beautiful Show HN: someone wired Claude Code up via MCP to drive a real oscilloscope, run SPICE simulations, and automatically verify circuit behavior. A compelling demonstration of Claude Code as a general-purpose engineering agent far beyond web dev."
+    },
+    {
+      "title": "Android CLI: Build Android apps 3x faster using any agent",
+      "url": "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47797665",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ingve · 298 points · 122 comments",
+      "blurb": "Google ships an official Android CLI designed to slot into any AI coding agent, claiming 3x development speed. This is directly relevant to anyone building mobile-adjacent tooling or exploring what agentic dev pipelines look like at the platform level."
+    },
+    {
+      "title": "NIST gives up enriching most CVEs",
+      "url": "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/",
+      "hn_link": "https://news.ycombinator.com/item?id=47806777",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by mooreds · 119 points · 28 comments",
+      "blurb": "NIST has quietly stopped adding enrichment metadata to the majority of CVEs in the National Vulnerability Database — a significant blow to the security tooling ecosystem that relies on that data. Expect downstream gaps in vulnerability scanners and SBOMs."
+    },
+    {
+      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "url": "https://github.com/paniclock/paniclock/",
+      "hn_link": "https://news.ycombinator.com/item?id=47807809",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by seanieb · 61 points · 23 comments",
+      "blurb": "A tidy macOS utility that forces password-only unlock when you close your MacBook lid, disabling TouchID for that session. Perfect for crossing borders, court appearances, or any situation where you want to quickly drop to a higher authentication bar."
+    },
+    {
+      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+      "url": "https://github.com/gainsec/autoprober",
+      "hn_link": "https://news.ycombinator.com/item?id=47800033",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by scaredpelican · 217 points · 46 comments",
+      "blurb": "AutoProber is a gloriously scrappy AI-driven hardware probing arm built from duct tape and a salvaged CNC machine — it uses computer vision to autonomously poke circuit boards and map their secrets. Peak hacker ingenuity and a genuinely novel application of vision models."
+    },
+    {
+      "title": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
+      "url": "https://github.com/smol-machines/smolvm",
+      "hn_link": "https://news.ycombinator.com/item?id=47808268",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by binsquare · 93 points · 36 comments",
+      "blurb": "SmolVM promises subsecond cold starts for portable virtual machines — the kind of primitive that makes serverless sandboxing, edge compute, and AI tool isolation actually practical. Early days, but the architecture is worth understanding now."
+    },
+    {
+      "title": "Automate work with routines",
+      "url": "https://code.claude.com/docs/en/routines",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "Official Claude Code documentation on routines — the mechanism for automating repeated multi-step workflows inside your coding sessions. If you're still triggering everything manually, this is the feature that turns Claude Code from a chat box into a real automation layer."
+    },
+    {
+      "title": "Using Claude Code: session management and 1M context | Claude",
+      "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, tips",
+      "blurb": "Anthropic's own guide on managing long Claude Code sessions with the 1M context window — covering when to compact, how to structure context hand-offs, and patterns that keep large codebases coherent across sessions. Required reading given the Opus 4.7 launch."
+    },
+    {
+      "title": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "A curated core skills library for Claude Code — pre-built capabilities you can drop into your setup to extend what Claude Code can do out of the box. Pairs perfectly with the new routines docs; think of it as a community stdlib for your AI coding agent."
+    },
+    {
+      "title": "My AI-Assisted workflow | maiobarbero.dev",
+      "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, workflow",
+      "blurb": "A Tech Lead shares a structured pre-code-generation workflow where the real work — spec writing, context loading, constraint definition — happens before Claude writes a single line. Practical and opinionated, this is the antidote to vibe-coding disasters."
+    },
+    {
+      "title": "Friends Don't Let Friends Use Ollama | Sleeping Robots",
+      "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "A pointed critique of Ollama as the default local LLM serving layer — arguing that its convenience hides serious reliability and performance gotchas for production use. Whether you agree or not, it's a useful forcing function to examine your local model stack."
+    },
+    {
+      "title": "What is jj and why should I care? - Steve's Jujutsu Tutorial",
+      "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Steve Klabnik's intro to Jujutsu (jj), the Git-compatible version control system that rethinks branching and history editing from first principles. If you've ever wished Git's mental model was less painful, this tutorial is the on-ramp you've been waiting for."
+    },
+    {
+      "title": "GitHub Stacked PRs | GitHub Stacked PRs",
+      "url": "https://github.github.com/gh-stack/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, git",
+      "blurb": "GitHub's official stacked PRs feature (via gh-stack) finally makes trunk-based development with small, reviewable changesets a first-class workflow on GitHub. If you've been manually managing stacked branches, this is the tooling you've wanted."
+    },
+    {
+      "title": "Backblaze has quietly stopped backing up your data | Robert Reese's Website",
+      "url": "https://rareese.com/posts/backblaze/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: via:HackerNews, backup",
+      "blurb": "Backblaze silently started excluding .git folders and Dropbox directories from backups without clearly communicating the change — the kind of silent regression that can leave you exposed when you least expect it. Time to audit what your backup software is actually backing up."
+    },
+    {
+      "title": "Netflix ruined its Apple TV app by switching to a custom video player - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Netflix ditched AVFoundation for a custom video player in its Apple TV app and the result is a noticeably worse experience: broken system controls, no Picture-in-Picture, degraded HDR. A cautionary tale about the hidden costs of abandoning platform-native APIs."
+    },
+    {
+      "title": "DaVinci Resolve – Photo | Blackmagic Design",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: photo",
+      "blurb": "Blackmagic has extended DaVinci Resolve into a full photo editing application — bringing the same colour science and node-based grading workflow from professional video into stills. A genuine Lightroom alternative with serious pro pedigree worth evaluating."
+    }
+  ]
+}
