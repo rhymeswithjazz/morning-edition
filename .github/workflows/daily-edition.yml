@@ -38,6 +38,17 @@ jobs:
           DATE=$(date -u +%F)
           python3 scripts/publish-edition.py "magazines/${DATE}.json"
 
+      - name: Notify Slack on success
+        if: success()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          DATE=$(date -u +%F)
+          EDITION_URL="https://daily.rhymeswithjazz.com/magazines/${DATE}.html"
+          curl -sS -X POST -H 'Content-Type: application/json' \
+            --data "{\"text\":\":newspaper: Morning Edition published — <${EDITION_URL}|${DATE}>\"}" \
+            "$SLACK_WEBHOOK_URL"
+
       - name: Notify Slack on failure
         if: failure()
         env:

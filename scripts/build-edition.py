@@ -77,14 +77,12 @@ def render_spread(story, index, style, is_pinboard):
         return f"""
 <section class="spread {style['class']}">
   <div class="spread-inner">
-    {category_tag}
-    {applies_tag}
+    <div class="tag-row">{category_tag}{applies_tag}</div>
     <div class="stat-num">{num}</div>
     <h2>{headline}</h2>
     <div class="byline">{byline}</div>
     <p class="blurb">{blurb}</p>
-    <a class="read-link" href="{url}">Read Article →</a>
-    {discuss_html}
+    <div class="action-row"><a class="read-link" href="{url}">Read Article →</a>{discuss_html}</div>
   </div>
 </section>"""
 
@@ -92,14 +90,11 @@ def render_spread(story, index, style, is_pinboard):
 <section class="spread {style['class']}">
   <div class="ghost-num">{num}</div>
   <div class="spread-inner">
-    {category_tag}
-    {applies_tag}
-    {pinboard_badge}
+    <div class="tag-row">{category_tag}{applies_tag}{pinboard_badge}</div>
     <h2>{headline}</h2>
     <div class="byline">{byline}</div>
     <p class="blurb">{blurb}</p>
-    <a class="read-link" href="{url}">Read Article →</a>
-    {discuss_html}
+    <div class="action-row"><a class="read-link" href="{url}">Read Article →</a>{discuss_html}</div>
   </div>
 </section>"""
 
@@ -252,6 +247,19 @@ def render_magazine(data):
     top: 50%;
     transform: translateY(-50%);
   }}
+  .tag-row {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }}
+  .action-row {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    align-items: center;
+  }}
   .category-tag {{
     display: inline-block;
     font-size: 0.75rem;
@@ -260,7 +268,6 @@ def render_magazine(data):
     text-transform: uppercase;
     padding: 0.25rem 0.75rem;
     border-radius: 100px;
-    margin-bottom: 1.5rem;
   }}
   .applies-tag {{
     display: inline-block;
@@ -272,7 +279,6 @@ def render_magazine(data):
     border-radius: 100px;
     background: #fbbf24;
     color: #1c1917;
-    margin-left: 0.5rem;
   }}
   .spread h2 {{
     font-family: var(--ff-display);
@@ -307,7 +313,6 @@ def render_magazine(data):
     font-weight: 500;
     font-size: 0.85rem;
     text-decoration: none;
-    margin-left: 1rem;
     opacity: 0.7;
   }}
   .discuss-link:hover {{ opacity: 1; }}
@@ -318,8 +323,6 @@ def render_magazine(data):
     padding: 0.2rem 0.6rem;
     border-radius: 4px;
     background: rgba(255,255,255,0.1);
-    margin-left: 0.75rem;
-    vertical-align: middle;
   }}
 
   .section-divider {{
