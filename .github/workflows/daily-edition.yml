@@ -1,0 +1,49 @@
+name: Daily Morning Edition
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Configure git
+        run: |
+          git config user.name  "Ras Fincher"
+          git config user.email "claude@rhymeswithjazz.com"
+
+      - name: Fetch candidates
+        run: python3 scripts/fetch-stories.py
+
+      - name: Curate edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DATE=$(date -u +%F)
+          python3 scripts/curate-edition.py "magazines/candidates-${DATE}.json"
+
+      - name: Publish
+        run: |
+          DATE=$(date -u +%F)
+          python3 scripts/publish-edition.py "magazines/${DATE}.json"
+
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          curl -sS -X POST -H 'Content-Type: application/json' \
+            --data "{\"text\":\":rotating_light: Morning Edition failed — <${RUN_URL}|run log>\"}" \
+            "$SLACK_WEBHOOK_URL"
