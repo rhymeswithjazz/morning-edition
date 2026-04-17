@@ -600,15 +600,24 @@ No commit for this task (no code change).
 ### Task 8: Wire `sync-db.py` into `publish-edition.py`
 
 **Files:**
+- Modify: `.gitignore`
 - Modify: `scripts/publish-edition.py`
 
 Read the current file first. The changes are:
 
-1. **Add candidates file to the `git add` list** (inside `git_commit_and_push`).
-2. **Have `git_commit_and_push` return the pushed commit SHA** (from `git rev-parse HEAD`).
-3. **Add a new `sync_db(date_str, commit_sha)` function** that invokes `scripts/sync-db.py` and tolerates failure.
-4. **Remove `cleanup_candidates` and its call** (plus the `--keep-candidates` flag).
-5. **In `main()`, call `sync_db()` after `git_commit_and_push()` returns** (skip when `--dry-run` or `--no-push`).
+1. **Stop ignoring candidates files** — the existing `.gitignore` has `magazines/candidates-*.json`, which would make the next step silently fail.
+2. **Add candidates file to the `git add` list** (inside `git_commit_and_push`).
+3. **Have `git_commit_and_push` return the pushed commit SHA** (from `git rev-parse HEAD`).
+4. **Add a new `sync_db(date_str, commit_sha)` function** that invokes `scripts/sync-db.py` and tolerates failure.
+5. **Remove `cleanup_candidates` and its call** (plus the `--keep-candidates` flag).
+6. **In `main()`, call `sync_db()` after `git_commit_and_push()` returns** (skip when `--dry-run` or `--no-push`).
+
+- [ ] **Step 0: Remove `magazines/candidates-*.json` from `.gitignore`**
+
+Open `.gitignore` and delete the line `magazines/candidates-*.json`. Leave all other entries alone. Verify:
+
+Run: `grep -c 'candidates' /Users/ras/Documents/Magazines/.gitignore || echo "clean"`
+Expected: `clean` (or `0`).
 
 - [ ] **Step 1: Read the current file**
 
@@ -716,7 +725,7 @@ Expected: `Building edition...`, `Build complete`, then `Done!`. No git operatio
 - [ ] **Step 7: Commit**
 
 ```bash
-git add scripts/publish-edition.py
+git add .gitignore scripts/publish-edition.py
 git commit -m "Retain candidates files and sync editions to Supabase"
 ```
 
