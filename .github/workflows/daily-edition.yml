@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
       - name: Configure git
         run: |
           git config user.name  "Ras Fincher"
@@ -34,6 +37,9 @@ jobs:
           python3 scripts/curate-edition.py "magazines/candidates-${DATE}.json"
 
       - name: Publish
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           DATE=$(date -u +%F)
           python3 scripts/publish-edition.py "magazines/${DATE}.json"
