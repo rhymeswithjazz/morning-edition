@@ -6,7 +6,6 @@ Usage:
     python3 scripts/publish-edition.py magazines/YYYY-MM-DD.json
     python3 scripts/publish-edition.py magazines/YYYY-MM-DD.json --dry-run
     python3 scripts/publish-edition.py magazines/YYYY-MM-DD.json --no-push
-    python3 scripts/publish-edition.py magazines/YYYY-MM-DD.json --keep-candidates
 """
 
 import argparse
