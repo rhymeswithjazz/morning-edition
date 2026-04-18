@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-18",
+  "stories": [
+    {
+      "title": "Isaac Asimov: The Last Question (1956)",
+      "url": "https://hex.ooo/library/last_question.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47804965",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ColinWright · 619 points · 256 comments",
+      "blurb": "Asimov's most beloved short story resurfaces on HN with 619 points and 256 comments — a perennial reminder of why the question of entropy and intelligence endures. If you've never read it, drop everything. If you have, read it again; it hits differently in the age of LLMs."
+    },
+    {
+      "title": "Spending 3 months coding by hand",
+      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
+      "hn_link": "https://news.ycombinator.com/item?id=47807583",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by evakhoury · 132 points · 138 comments",
+      "blurb": "A developer deliberately puts down AI coding assistants for a quarter and reports back. Directly relevant if you're a Claude Code user wondering whether vibe-coding is eroding your fundamentals. The 138-comment thread is a genuine debate, not a pile-on."
+    },
+    {
+      "title": "Show HN: Stage – Putting humans back in control of code review",
+      "url": "https://stagereview.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=47796818",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by cpan22 · 98 points · 91 comments",
+      "blurb": "Stage is a new code-review tool that layers human oversight back onto AI-generated PRs — exactly the workflow gap Claude Code users bump into when their agent churns out 500-line diffs. Worth a look if your review process hasn't caught up to your generation speed."
+    },
+    {
+      "title": "Are the costs of AI agents also rising exponentially? (2025)",
+      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
+      "hn_link": "https://news.ycombinator.com/item?id=47778922",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by louiereederson · 93 points · 12 comments",
+      "blurb": "Toby Ord plots the cost-per-hour of AI agents against capability improvements and finds a familiar exponential curve — but on the spend side. Essential reading for anyone budgeting Claude Code or autonomous agent workflows; the economics matter as much as the benchmarks."
+    },
+    {
+      "title": "Even \"cat readme.txt\" is not safe",
+      "url": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
+      "hn_link": "https://news.ycombinator.com/item?id=47809190",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by arkadiyt · 85 points · 42 comments",
+      "blurb": "A deep dive into terminal escape-sequence injection attacks that can turn a simple `cat` into a code-execution vector. If you're piping AI-generated files to your terminal — and you are — this is a must-read security hygiene piece."
+    },
+    {
+      "title": "Webloc: Analysis of Penlink's Ad-Based Geolocation Surveillance Tech",
+      "url": "https://citizenlab.ca/research/analysis-of-penlinks-ad-based-geolocation-surveillance-tech/",
+      "hn_link": "https://news.ycombinator.com/item?id=47758309",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 56 points · 0 comments",
+      "blurb": "Citizen Lab tears apart Penlink's product, which uses the mobile ad-bidding ecosystem to silently geolocate targets without a warrant. The mechanism is the same ad infrastructure your apps call home with every impression — a detailed and alarming technical breakdown."
+    },
+    {
+      "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+      "hn_link": "https://news.ycombinator.com/item?id=47808913",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by cybermango · 228 points · 132 comments",
+      "blurb": "Every astronaut who walked on the Moon came back sneezing, with eyes watering and lungs coated in nano-sharp regolith particles. ESA's write-up is a sobering reminder that the Moon's lack of weathering makes its dust a genuine health hazard for future missions."
+    },
+    {
+      "title": "Healthchecks.io now uses self-hosted object storage",
+      "url": "https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/",
+      "hn_link": "https://news.ycombinator.com/item?id=47806348",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zdw · 144 points · 64 comments",
+      "blurb": "The Healthchecks.io team migrated off S3 to self-hosted object storage and wrote up exactly how and why. A transparent indie-SaaS ops post with real cost and architecture details — the kind of engineering blog content worth bookmarking for your own infra decisions."
+    },
+    {
+      "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
+      "url": "https://www.nature.com/articles/d41586-026-01204-5",
+      "hn_link": "https://news.ycombinator.com/item?id=47811283",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by unsuspecting · 49 points · 30 comments",
+      "blurb": "A massive ancient-DNA study finds human evolution has been speeding up over the past few thousand years — not slowing down. Nature covers the surprise findings that upend conventional wisdom about how quickly selection acts on complex traits."
+    },
+    {
+      "title": "Introducing: ShaderPad",
+      "url": "https://rileyjshaw.com/blog/introducing-shaderpad/",
+      "hn_link": "https://news.ycombinator.com/item?id=47781889",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by evakhoury · 41 points · 6 comments",
+      "blurb": "ShaderPad is a new in-browser GLSL playground focused on a minimal, distraction-free creative coding experience. If you do any generative art or GPU shader work, this is a clean alternative to Shadertoy worth adding to your toolkit today."
+    },
+    {
+      "title": "They See Your Photos",
+      "url": "https://theyseeyourphotos.com/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, google",
+      "blurb": "An interactive demo that runs your photos through AI vision models and shows exactly what metadata and inferences they extract — location, faces, objects, text. A visceral privacy wake-up call, especially relevant for Apple Photos users who assume on-device means private."
+    },
+    {
+      "title": "https://github.com/JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, humour",
+      "blurb": "A Claude Code skill that makes Claude respond in caveman-speak, reportedly cutting token usage by ~75% while preserving full technical accuracy. Based on the viral observation that stripped-down prompts dramatically reduce LLM verbosity — one-line install, actually useful."
+    },
+    {
+      "title": "The Human Cost of 10x AI Productivity - by Denis Stetskov",
+      "url": "https://techtrenches.dev/p/the-human-cost-of-10x-how-ai-is-physically",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, softwareengineering, management, psychology, burnout",
+      "blurb": "AI shifts the bottleneck to senior engineers who must validate machine-speed output at human speed — the result is cognitive overload, worse sleep, and burnout. A data-backed argument that the organizational productivity gains from AI tools may not actually materialize the way the hype suggests."
+    },
+    {
+      "title": "Want to understand the current state of AI? Check out these charts.",
+      "url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, innovation, technology, GPT",
+      "blurb": "Stanford's 2026 AI Index distilled into charts by MIT Tech Review — capability curves, investment flows, energy costs, and adoption rates all in one place. The canonical annual snapshot; bookmark it before someone asks you to explain where AI is at."
+    },
+    {
+      "title": "The AI Revolution in Math Has Arrived | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, math",
+      "blurb": "Quanta reports that AI is now helping mathematicians crack problems in weeks that would have taken years, while experts caution it won't replace human insight. The clearest account yet of where LLM-assisted theorem proving actually stands in 2026."
+    },
+    {
+      "title": "apfel - Free AI on Your Mac",
+      "url": "https://apfel.franzai.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apfel is a native macOS app that routes AI queries through free-tier model APIs so you get a polished Mac interface without a subscription. For Apple-ecosystem developers who want a lightweight Claude/GPT frontend that feels at home on macOS, this is worth a spin."
+    },
+    {
+      "title": "Getting the Flock out",
+      "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Governance, Ethics",
+      "blurb": "A California resident invokes CCPA to demand Flock Safety delete their license-plate-reader data — and gets stonewalled with a legal non-answer. The response letter is a masterclass in surveillance-vendor doublespeak; the author's legal rebuttal is sharp and worth reading."
+    },
+    {
+      "title": "Wiretext — Unicode Wireframe Design Tool",
+      "url": "https://wiretext.app/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: wireframe, prototyping, ascii, text",
+      "blurb": "Wiretext lets you sketch UI wireframes using Unicode box-drawing characters that render perfectly in Markdown, Obsidian notes, or any plain-text environment. For developers who live in their editor and want to share layout ideas without leaving their notes app, this is an instant grab."
+    },
+    {
+      "title": "GitHub - google/magika: Detect file content types with deep learning",
+      "url": "https://github.com/google/magika",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: deeplearning, file, ai",
+      "blurb": "Google's Magika uses a small deep-learning model to identify file types with far higher accuracy than `file` or MIME sniffing — it's open source and pip-installable. Essential utility for any pipeline that processes untrusted uploads or needs robust content-type detection."
+    },
+    {
+      "title": "Shell Tricks That Actually Make Life Easier (And Save Your Sanity)",
+      "url": "https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: #til, bash, zsh",
+      "blurb": "A well-organized rundown of shell productivity tricks grouped by portability — what works everywhere versus what's Bash/Zsh-specific. The kind of post where you'll learn at least two things you didn't know, even if you've been living in a terminal for years."
+    }
+  ]
+}
