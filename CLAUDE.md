@@ -24,7 +24,7 @@ python3 scripts/publish-edition.py FILE --dry-run             # build only, no g
 python3 scripts/publish-edition.py FILE --no-push             # commit but don't push
 ```
 
-No dependencies beyond Python 3 standard library.
+Dependencies: `requirements.txt` has a single line, `supabase>=2.0`, needed only by `scripts/sync-db.py` and `scripts/backfill-db.py`. Everything else (fetch, curate, build, publish) is Python 3 stdlib.
 
 ## Data Flow
 
@@ -48,6 +48,8 @@ The GitHub Actions workflow at `.github/workflows/daily-edition.yml` runs this p
 - **scripts/build-edition.py** — Template engine. Takes a JSON file, produces a full HTML page with inline CSS. Each of the 20 stories gets a unique visual "spread" theme (10 HN styles, 10 Pinboard styles). All styles are embedded inline — no external CSS.
 - **scripts/build-index.py** — Site generator. Scans `magazines/*.html`, extracts metadata from rendered HTML, produces homepage, archive, RSS feed, and redirect page.
 - **scripts/recent-urls.py** — Standalone dedup helper. Reads JSON files from recent days, outputs URLs. Logic is also inlined in fetch-stories.py.
+- **scripts/sync-db.py** — Post-publish step. Reads `magazines/YYYY-MM-DD.json` + `magazines/candidates-YYYY-MM-DD.json`, upserts to Supabase (`editions` + `stories` tables). Idempotent via `(edition_date, url)`. Failures do not fail the publish. Supports `--dry-run`. Requires `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY`.
+- **scripts/backfill-db.py** — One-shot helper for importing existing published editions into Supabase (published stories only; historical rejects are gone). Run once after the initial schema is created.
 - **prompts/curation-system.md** — Editorial instructions, reader profile, interest categories, and blurb guidelines. Loaded as the system prompt by `curate-edition.py`.
 
 ## JSON Schema for Editions
@@ -77,7 +79,7 @@ The GitHub Actions workflow at `.github/workflows/daily-edition.yml` runs this p
 
 The scheduled GitHub Actions workflow (`.github/workflows/daily-edition.yml`) runs the full fetch → curate → publish pipeline on cron at 08:00 UTC and on manual dispatch. It commits directly to main; GitHub Pages auto-deploys. On any failure it POSTs a Slack webhook with a link to the run log.
 
-Required repo secrets: `ANTHROPIC_API_KEY`, `SLACK_WEBHOOK_URL`.
+Required repo secrets: `ANTHROPIC_API_KEY`, `SLACK_WEBHOOK_URL`, `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`.
 
 Manual runs (local) follow the same three commands in Build Commands. Push directly to main — no branches, no PRs. Commit message format: `Morning Edition — {DayOfWeek}, {Month} {Day}, {Year}`.
 
