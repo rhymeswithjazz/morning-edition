@@ -78,6 +78,7 @@ def git_commit_and_push(date_str, push=True):
 
     files = [
         f"magazines/{date_str}.json",
+        f"magazines/candidates-{date_str}.json",
         f"magazines/{date_str}.html",
         "index.html",
         "archive/index.html",
@@ -93,12 +94,25 @@ def git_commit_and_push(date_str, push=True):
     else:
         print(f"  Committed (not pushed): {msg}", file=sys.stderr)
 
+    sha_result = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        capture_output=True, text=True, cwd=str(ROOT),
+    )
+    return sha_result.stdout.strip() if sha_result.returncode == 0 else None
 
-def cleanup_candidates(date_str):
-    candidates = MAG_DIR / f"candidates-{date_str}.json"
-    if candidates.exists():
-        candidates.unlink()
-        print(f"  Cleaned up {candidates.name}", file=sys.stderr)
+
+def sync_db(date_str, commit_sha):
+    print("Syncing to Supabase...", file=sys.stderr)
+    cmd = [sys.executable, str(SCRIPTS / "sync-db.py"), date_str]
+    if commit_sha:
+        cmd += ["--commit-sha", commit_sha]
+    result = subprocess.run(cmd, cwd=str(ROOT))
+    if result.returncode != 0:
+        print(
+            f"  Warning: sync-db exited {result.returncode}; "
+            "edition is live, DB will catch up on next run.",
+            file=sys.stderr,
+        )
 
 
 def main():
@@ -106,7 +120,6 @@ def main():
     parser.add_argument("json_file", help="Path to the curated JSON file")
     parser.add_argument("--dry-run", action="store_true", help="Build only, no git operations")
     parser.add_argument("--no-push", action="store_true", help="Commit but do not push")
-    parser.add_argument("--keep-candidates", action="store_true", help="Do not delete candidates file")
     args = parser.parse_args()
 
     json_path = Path(args.json_file).resolve()
@@ -120,9 +133,9 @@ def main():
     build(json_path)
 
     if not args.dry_run:
-        git_commit_and_push(date_str, push=not args.no_push)
-        if not args.keep_candidates:
-            cleanup_candidates(date_str)
+        commit_sha = git_commit_and_push(date_str, push=not args.no_push)
+        if not args.no_push:
+            sync_db(date_str, commit_sha)
 
     print("\nDone!", file=sys.stderr)
 
