@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-19",
+  "stories": [
+    {
+      "title": "Migrating from DigitalOcean to Hetzner",
+      "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+      "hn_link": "https://news.ycombinator.com/item?id=47815774",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by yusufusta · 756 points · 383 comments",
+      "blurb": "The most-upvoted story of the day is a detailed war story on escaping DigitalOcean's pricing and moving workloads to Hetzner, with 383 comments of corroborating experience. Hetzner has become the de-facto \"sensible developer cloud\" and this post lays out the practical steps — networking, DNS, S3-compatible storage and all. If you're still paying DO prices, this is your weekend project."
+    },
+    {
+      "title": "Anonymous request-token comparisons from Opus 4.6 and Opus 4.7",
+      "url": "https://tokens.billchambers.me/leaderboard",
+      "hn_link": "https://news.ycombinator.com/item?id=47816960",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by anabranch · 509 points · 498 comments",
+      "blurb": "A live leaderboard letting anyone blind-compare Claude Opus 4.6 vs 4.7 responses token-by-token — no sign-in, no hype, just the model outputs. With nearly 500 HN comments, the community is already surfacing surprising regressions. Essential if you're building on top of Claude and need to know whether to upgrade."
+    },
+    {
+      "title": "State of Kdenlive",
+      "url": "https://kdenlive.org/news/2026/state-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=47815118",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by f_r_d · 388 points · 122 comments",
+      "blurb": "The Kdenlive team drops their annual State of the Project post, detailing what shipped in 2025 and what's on the roadmap for 2026 — new rendering pipeline, better proxy clip handling, and a revamped UI. The open-source video editor has quietly become a serious Premiere alternative for Linux and macOS power users."
+    },
+    {
+      "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+      "url": "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47817132",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by NelsonMinar · 323 points · 89 comments",
+      "blurb": "Ken Shirriff does it again — a meticulous teardown of the analog gear inside a Cold War-era B-52 star tracker, explaining how resolver chains and sine-cosine transformers computed navigation angles before silicon existed. It's a stunning reminder that mechanical computers were themselves a kind of software. Pure righto.com gold."
+    },
+    {
+      "title": "Thoughts and feelings around Claude Design",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
+      "hn_link": "https://news.ycombinator.com/item?id=47818700",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cdrnsf · 296 points · 193 comments",
+      "blurb": "A thoughtful essay reacting to Anthropic's design language choices for Claude — covering why the aesthetic decisions feel either refreshingly different or slightly off, depending on your priors. With 193 comments, HN is having a real debate about whether AI products should look \"neutral\" or expressive. Relevant reading if you ship UI on top of Claude APIs."
+    },
+    {
+      "title": "NIST scientists create 'any wavelength' lasers",
+      "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+      "hn_link": "https://news.ycombinator.com/item?id=47819453",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rbanffy · 291 points · 132 comments",
+      "blurb": "NIST researchers have built tiny on-chip lasers tunable to literally any visible wavelength — a potential breakthrough for optical computing, sensing, and communications. The fabrication trick involves a new nonlinear photonic process that sidesteps traditional material constraints. This is the kind of photonics news that quietly reshapes what chips can do in five years."
+    },
+    {
+      "title": "College instructor turns to typewriters to curb AI-written work",
+      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
+      "hn_link": "https://news.ycombinator.com/item?id=47818485",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by gnabgib · 259 points · 244 comments",
+      "blurb": "A Colorado college instructor is having students write on physical typewriters to prove authorship, generating a heated 244-comment HN thread. The story is really about the impossibility of AI detection and the pedagogical arms race it's created. Worth reading alongside the Opus 4.7 comparison leaderboard above."
+    },
+    {
+      "title": "It's OK to compare floating-points for equality",
+      "url": "https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47767398",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by coinfused · 200 points · 124 comments",
+      "blurb": "A contrarian but well-argued post dismantling the blanket \"never compare floats for equality\" advice that's been cargo-culted for decades. The author walks through cases — integer-valued floats, sentinel values, NaN checks — where exact equality is exactly what you want. A must-read for any TypeScript or .NET dev who's ever written `=== 0.0` and felt vaguely guilty."
+    },
+    {
+      "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
+      "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+      "hn_link": "https://news.ycombinator.com/item?id=47822356",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by nobody9999 · 31 points · 3 comments",
+      "blurb": "EFF is sounding the alarm on a closing window to push for reforms to Section 702 — the surveillance authority that permits warrantless collection of Americans' communications. Ten days is a short runway; if you care about digital rights, this is an actionable call to contact your representative. Low score on HN doesn't mean low importance."
+    },
+    {
+      "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+      "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/",
+      "hn_link": "https://news.ycombinator.com/item?id=47820195",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by agambrahma · 70 points · 27 comments",
+      "blurb": "A clever deep-dive on running LLM inference inside WebAssembly while still hitting the Apple Silicon GPU with zero memory copies — no Metal overhead, no bridge penalty. The author explains how shared memory mapping makes this possible and benchmarks it against native runtimes. Directly relevant if you're building AI tooling for the Mac."
+    },
+    {
+      "title": "Unsloth Qwen3.6",
+      "url": "https://unsloth.ai/docs/models/qwen3.6",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: +, ai, localllama, coding, qwen, agents, claudecode",
+      "blurb": "Unsloth's optimized quantization guide for the new Qwen3.6-35B-A3B coding model — the one that's turning heads as a local alternative to Claude Code. Tagged explicitly with `claudecode` by the bookmarker, which tells you where the community is aiming. If you run AI coding agents locally, this is your setup guide."
+    },
+    {
+      "title": "OpenAI's New Codex App Has the Best 'Computer Use' Feature I've Ever Tested - MacStories",
+      "url": "https://www.macstories.net/notes/openais-new-codex-app-has-the-best-computer-use-feature-ive-ever-tested/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacStories — the authoritative voice on iOS/macOS software — gives OpenAI's new Codex app a glowing hands-on review, specifically calling out its computer-use feature as best-in-class. A direct competitive signal for Claude Code users: the ecosystem is heating up fast. Read this alongside the Opus 4.6/4.7 comparison."
+    },
+    {
+      "title": "Vibe Check: Opus 4.7 Stopped Reading Between the Lines",
+      "url": "https://every.to/vibe-check/opus-4-7",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: anthropic",
+      "blurb": "Every.to's qualitative review finds that Opus 4.7 has become more literal and less inferential than its predecessor — it answers what you asked, not what you meant. A useful pairing with the token-comparison leaderboard: numbers tell one story, vibe tells another. If Claude Code is your daily driver, this informs how you'll need to adjust your prompts."
+    },
+    {
+      "title": "MAD Bugs: Even \"cat readme.txt\" is not safe - Calif",
+      "url": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, MacOS, ssh",
+      "blurb": "A macOS and SSH security post documenting how seemingly innocuous commands like `cat readme.txt` can be weaponized through terminal escape sequences to execute arbitrary code. This class of attack (ANSI injection / terminal escape injection) is underappreciated and directly relevant to developers who clone repos or SSH into untrusted hosts. Read it before your next `git clone`."
+    },
+    {
+      "title": "We beat Google's zero-knowledge proof of quantum cryptanalysis - The Trail of Bits Blog",
+      "url": "https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: qc, crypto",
+      "blurb": "Trail of Bits unpacks how they found flaws in Google's zero-knowledge proof system for quantum cryptanalysis claims — essentially catching an error in the proof that was meant to establish security guarantees. It's a reminder that ZK proofs are only as good as their verifiers, and that \"Google published it\" is not a proof of correctness."
+    },
+    {
+      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+      "url": "https://blog.cloudflare.com/ai-platform/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: CloudFlare",
+      "blurb": "Cloudflare announces a new AI inference platform purpose-built for agentic workloads — low-latency routing, model-agnostic APIs, and built-in rate limiting designed for multi-step agent loops rather than one-shot completions. As Claude Code and similar tools move toward multi-agent architectures, infrastructure like this becomes load-bearing. Worth evaluating now."
+    },
+    {
+      "title": "smol machines",
+      "url": "https://smolmachines.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: +, vm, via:hackernews, agent, os, linux",
+      "blurb": "Smol Machines offers disposable Linux VMs that boot in under one second — designed specifically for AI agent sandboxing and ephemeral task execution. When your Claude Code agent needs to run untrusted code, this is the infrastructure answer. The sub-second cold start changes what's architecturally possible."
+    },
+    {
+      "title": "Age verification is a mess but we're doing it anyway | The Verge",
+      "url": "https://www.theverge.com/policy/913038/age-verification-flaws",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A clear-eyed Verge investigation into the wave of age-verification laws rolling out across the US and EU — and why every proposed implementation is a privacy disaster dressed up as child safety. As a developer, you may soon be legally required to implement one of these systems. Know what you're walking into."
+    },
+    {
+      "title": "A ridiculously-lightweight push notification service | Codakuma",
+      "url": "https://codakuma.com/pushy/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cool, ios, resource",
+      "blurb": "Pushy is a bare-bones self-hostable push notification server for iOS that strips away the complexity of setting up APNs infrastructure for personal or small-scale projects. If you've ever wanted to send push notifications from a weekend project without wiring up Firebase, this is the answer. Pinboard's niche-tool radar at its best."
+    },
+    {
+      "title": "llmfit: Right-sizes LLM models to your system's RAM, CPU, and GPU",
+      "url": "https://www.llmfit.org/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "LLMfit is a practical tool that takes your hardware specs and tells you exactly which LLM models will run comfortably — accounting for RAM, VRAM, and quantization. Stop guessing whether a 35B Q4 model will OOM your machine; just ask LLMfit. Perfect companion to the Unsloth Qwen3.6 item above."
+    }
+  ]
+}
