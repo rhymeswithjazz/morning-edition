@@ -5,6 +5,7 @@ from whatever .html files exist in magazines/.
 Run after adding a new edition.
 """
 
+import html
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,7 +26,7 @@ def get_editions():
             # Extract title from <title> tag
             content = f.read_text(encoding="utf-8")
             title_match = re.search(r"<title>(.*?)</title>", content)
-            title = title_match.group(1) if title_match else f"Morning Edition — {date_str}"
+            title = html.unescape(title_match.group(1)) if title_match else f"Morning Edition — {date_str}"
             # Extract story headlines and links from spread sections only
             # (skip section-divider h2 by requiring a read-link in the same spread)
             stories = []
@@ -34,8 +35,8 @@ def get_editions():
                 content,
                 re.DOTALL,
             ):
-                headline = re.sub(r"<[^>]+>", "", m.group(1)).strip()
-                url = m.group(2)
+                headline = html.unescape(re.sub(r"<[^>]+>", "", m.group(1)).strip())
+                url = html.unescape(m.group(2))
                 stories.append({"headline": headline, "url": url})
 
             # Extract blurbs paired with headlines
@@ -47,7 +48,7 @@ def get_editions():
                 if i < len(stories):
                     blurb = re.sub(r"<[^>]+>", "", m.group(1)).strip()
                     blurb = re.sub(r"\s+", " ", blurb)
-                    stories[i]["blurb"] = blurb
+                    stories[i]["blurb"] = html.unescape(blurb)
 
             # Detect which stories have "Directly Applies" tags
             applies_positions = set()
