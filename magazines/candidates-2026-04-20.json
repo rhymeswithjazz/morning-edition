@@ -1,0 +1,1233 @@
+{
+  "date": "2026-04-20",
+  "fetched_at": "2026-04-20T08:54:28",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Vercel April 2026 security incident",
+        "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+        "hn_id": 47824463,
+        "hn_link": "https://news.ycombinator.com/item?id=47824463",
+        "score": 728,
+        "author": "colesantiago",
+        "comments": 418,
+        "byline_hint": "by colesantiago · 728 points · 418 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Notion leaks email addresses of all editors of any public page",
+        "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+        "hn_id": 47824945,
+        "hn_link": "https://news.ycombinator.com/item?id=47824945",
+        "score": 367,
+        "author": "Tiberium",
+        "comments": 134,
+        "byline_hint": "by Tiberium · 367 points · 134 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+        "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+        "hn_id": 47823270,
+        "hn_link": "https://news.ycombinator.com/item?id=47823270",
+        "score": 310,
+        "author": "pretext",
+        "comments": 177,
+        "byline_hint": "by pretext · 310 points · 177 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The RAM shortage could last years",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+        "hn_id": 47822414,
+        "hn_link": "https://news.ycombinator.com/item?id=47822414",
+        "score": 286,
+        "author": "omer_k",
+        "comments": 327,
+        "byline_hint": "by omer_k · 286 points · 327 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
+        "hn_id": 47825160,
+        "hn_link": "https://news.ycombinator.com/item?id=47825160",
+        "score": 222,
+        "author": "Brajeshwar",
+        "comments": 190,
+        "byline_hint": "by Brajeshwar · 222 points · 190 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The creative software industry has declared war on Adobe",
+        "url": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+        "hn_id": 47824403,
+        "hn_link": "https://news.ycombinator.com/item?id=47824403",
+        "score": 216,
+        "author": "tambourine_man",
+        "comments": 163,
+        "byline_hint": "by tambourine_man · 216 points · 163 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Stop trying to engineer your way out of listening to people",
+        "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+        "hn_id": 47827259,
+        "hn_link": "https://news.ycombinator.com/item?id=47827259",
+        "score": 199,
+        "author": "walterbell",
+        "comments": 84,
+        "byline_hint": "by walterbell · 199 points · 84 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Bromine Chokepoint",
+        "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+        "hn_id": 47826100,
+        "hn_link": "https://news.ycombinator.com/item?id=47826100",
+        "score": 197,
+        "author": "crescit_eundo",
+        "comments": 102,
+        "byline_hint": "by crescit_eundo · 197 points · 102 comments"
+      },
+      {
+        "source": "hn",
+        "title": "SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)",
+        "url": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+        "hn_id": 47822805,
+        "hn_link": "https://news.ycombinator.com/item?id=47822805",
+        "score": 179,
+        "author": "Eridanus2",
+        "comments": 69,
+        "byline_hint": "by Eridanus2 · 179 points · 69 comments"
+      },
+      {
+        "source": "hn",
+        "title": "2,100 Swiss municipalities showing which provider handles their official email",
+        "url": "https://mxmap.ch/",
+        "hn_id": 47828420,
+        "hn_link": "https://news.ycombinator.com/item?id=47828420",
+        "score": 178,
+        "author": "doener",
+        "comments": 50,
+        "byline_hint": "by doener · 178 points · 50 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A Brief History of Fish Sauce",
+        "url": "https://www.legalnomads.com/fish-sauce/",
+        "hn_id": 47822734,
+        "hn_link": "https://news.ycombinator.com/item?id=47822734",
+        "score": 175,
+        "author": "vinhnx",
+        "comments": 69,
+        "byline_hint": "by vinhnx · 175 points · 69 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+        "url": "https://github.com/shivampkumar/trellis-mac",
+        "hn_id": 47828896,
+        "hn_link": "https://news.ycombinator.com/item?id=47828896",
+        "score": 156,
+        "author": "shivampkumar",
+        "comments": 25,
+        "byline_hint": "by shivampkumar · 156 points · 25 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Nanopass Framework: Clean Compiler Creation Language",
+        "url": "https://nanopass.org/",
+        "hn_id": 47777715,
+        "hn_link": "https://news.ycombinator.com/item?id=47777715",
+        "score": 133,
+        "author": "NordStreamYacht",
+        "comments": 32,
+        "byline_hint": "by NordStreamYacht · 133 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+        "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+        "hn_id": 47823460,
+        "hn_link": "https://news.ycombinator.com/item?id=47823460",
+        "score": 130,
+        "author": "teamchong",
+        "comments": 48,
+        "byline_hint": "by teamchong · 130 points · 48 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Mechanical Keyboard Sounds – A listening Museum",
+        "url": "https://sheets.works/data-viz/keyboard-sounds",
+        "hn_id": 47780743,
+        "hn_link": "https://news.ycombinator.com/item?id=47780743",
+        "score": 118,
+        "author": "akashwadhwani35",
+        "comments": 36,
+        "byline_hint": "by akashwadhwani35 · 118 points · 36 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Faceoff – A terminal UI for following NHL games",
+        "url": "https://www.vincentgregoire.com/faceoff/",
+        "hn_id": 47826104,
+        "hn_link": "https://news.ycombinator.com/item?id=47826104",
+        "score": 114,
+        "author": "vcf",
+        "comments": 38,
+        "byline_hint": "by vcf · 114 points · 38 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Prove you are a robot: CAPTCHAs for agents",
+        "url": "https://browser-use.com/posts/prove-you-are-a-robot",
+        "hn_id": 47781950,
+        "hn_link": "https://news.ycombinator.com/item?id=47781950",
+        "score": 101,
+        "author": "lukasec",
+        "comments": 47,
+        "byline_hint": "by lukasec · 101 points · 47 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Scientific datasets are riddled with copy-paste errors",
+        "url": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/",
+        "hn_id": 47826834,
+        "hn_link": "https://news.ycombinator.com/item?id=47826834",
+        "score": 96,
+        "author": "jruohonen",
+        "comments": 26,
+        "byline_hint": "by jruohonen · 96 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Claude Token Counter, now with model comparisons",
+        "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+        "hn_id": 47829178,
+        "hn_link": "https://news.ycombinator.com/item?id=47829178",
+        "score": 95,
+        "author": "twapi",
+        "comments": 33,
+        "byline_hint": "by twapi · 95 points · 33 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Six Levels of Dark Mode (2024)",
+        "url": "https://cssence.com/2024/six-levels-of-dark-mode/",
+        "hn_id": 47826502,
+        "hn_link": "https://news.ycombinator.com/item?id=47826502",
+        "score": 87,
+        "author": "Akcium",
+        "comments": 37,
+        "byline_hint": "by Akcium · 87 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "4-bit floating point FP4",
+        "url": "https://www.johndcook.com/blog/2026/04/17/fp4/",
+        "hn_id": 47817639,
+        "hn_link": "https://news.ycombinator.com/item?id=47817639",
+        "score": 83,
+        "author": "chmaynard",
+        "comments": 59,
+        "byline_hint": "by chmaynard · 83 points · 59 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I wrote a CHIP-8 emulator in my own programming language",
+        "url": "https://github.com/navid-m/chip8emu",
+        "hn_id": 47826852,
+        "hn_link": "https://news.ycombinator.com/item?id=47826852",
+        "score": 70,
+        "author": "pizza_man",
+        "comments": 17,
+        "byline_hint": "by pizza_man · 70 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Sudo for Windows (2024)",
+        "url": "https://github.com/microsoft/sudo",
+        "hn_id": 47828853,
+        "hn_link": "https://news.ycombinator.com/item?id=47828853",
+        "score": 69,
+        "author": "luispa",
+        "comments": 59,
+        "byline_hint": "by luispa · 69 points · 59 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Swiss AI Initiative (2023)",
+        "url": "https://www.swiss-ai.org",
+        "hn_id": 47828444,
+        "hn_link": "https://news.ycombinator.com/item?id=47828444",
+        "score": 65,
+        "author": "doener",
+        "comments": 25,
+        "byline_hint": "by doener · 65 points · 25 comments"
+      },
+      {
+        "source": "hn",
+        "title": "SDF Public Access Unix System",
+        "url": "https://sdf.org/?ssh",
+        "hn_id": 47819410,
+        "hn_link": "https://news.ycombinator.com/item?id=47819410",
+        "score": 56,
+        "author": "neehao",
+        "comments": 19,
+        "byline_hint": "by neehao · 56 points · 19 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Monumental ship burial beneath ancient Norwegian mound predates the Viking Age",
+        "url": "https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html",
+        "hn_id": 47804178,
+        "hn_link": "https://news.ycombinator.com/item?id=47804178",
+        "score": 51,
+        "author": "pseudolus",
+        "comments": 15,
+        "byline_hint": "by pseudolus · 51 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Zero-copy protobuf and ConnectRPC for Rust",
+        "url": "https://medium.com/@iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-69bda8ac0f02",
+        "hn_id": 47801200,
+        "hn_link": "https://news.ycombinator.com/item?id=47801200",
+        "score": 46,
+        "author": "PaulHoule",
+        "comments": 15,
+        "byline_hint": "by PaulHoule · 46 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Hot-wiring the Lisp machine",
+        "url": "https://scheatkode.com/blog/019d463d-38b3-7e63-80fd-6ed97bd8815e/hot-wiring-the-lisp-machine/",
+        "hn_id": 47825698,
+        "hn_link": "https://news.ycombinator.com/item?id=47825698",
+        "score": 39,
+        "author": "spudlyo",
+        "comments": 5,
+        "byline_hint": "by spudlyo · 39 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Long Poop Stays in Your Body May Impact Your Health, Study Finds",
+        "url": "https://www.sciencealert.com/how-long-poop-stays-in-your-body-may-impact-your-health-study-finds",
+        "hn_id": 47831205,
+        "hn_link": "https://news.ycombinator.com/item?id=47831205",
+        "score": 38,
+        "author": "mikhael",
+        "comments": 22,
+        "byline_hint": "by mikhael · 38 points · 22 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: A lightweight way to make agents talk without paying for API usage",
+        "url": "https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/",
+        "hn_id": 47828968,
+        "hn_link": "https://news.ycombinator.com/item?id=47828968",
+        "score": 35,
+        "author": "juanpabloaj",
+        "comments": 7,
+        "byline_hint": "by juanpabloaj · 35 points · 7 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Stripe's Payment APIs: the first 10 years (2020)",
+        "url": "https://stripe.dev/blog/payment-api-design",
+        "hn_id": 47830575,
+        "hn_link": "https://news.ycombinator.com/item?id=47830575",
+        "score": 34,
+        "author": "tibbar",
+        "comments": 12,
+        "byline_hint": "by tibbar · 34 points · 12 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Up to 8M Bees Are Living in an Underground Network Beneath This Cemetery",
+        "url": "https://www.discovermagazine.com/up-to-8-million-bees-are-living-in-an-underground-network-beneath-this-cemetery-48977",
+        "hn_id": 47810101,
+        "hn_link": "https://news.ycombinator.com/item?id=47810101",
+        "score": 30,
+        "author": "janandonly",
+        "comments": 3,
+        "byline_hint": "by janandonly · 30 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "OpenClaw isn't fooling me. I remember MS-DOS",
+        "url": "https://www.flyingpenguin.com/build-an-openclaw-free-secure-always-on-local-ai-agent/",
+        "hn_id": 47831437,
+        "hn_link": "https://news.ycombinator.com/item?id=47831437",
+        "score": 27,
+        "author": "feigewalnuss",
+        "comments": 4,
+        "byline_hint": "by feigewalnuss · 27 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+        "url": "https://github.com/esutcu/planb-lpm",
+        "hn_id": 47830071,
+        "hn_link": "https://news.ycombinator.com/item?id=47830071",
+        "score": 26,
+        "author": "debugga",
+        "comments": 9,
+        "byline_hint": "by debugga · 26 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Interesting Map Geometry and Mathematics",
+        "url": "https://www.markrjohnsongames.com/2026/04/11/ultima-ratio-regum-0-11-update-57-interesting-map-geometry-and-mathematics/",
+        "hn_id": 47813597,
+        "hn_link": "https://news.ycombinator.com/item?id=47813597",
+        "score": 25,
+        "author": "Hooke",
+        "comments": 0,
+        "byline_hint": "by Hooke · 25 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ben Lerner's Big Feelings",
+        "url": "https://www.vulture.com/article/ben-lerner-transcription-interview.html",
+        "hn_id": 47789087,
+        "hn_link": "https://news.ycombinator.com/item?id=47789087",
+        "score": 24,
+        "author": "prismatic",
+        "comments": 5,
+        "byline_hint": "by prismatic · 24 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Knitout and Kniterate 3",
+        "url": "https://soup.agnescameron.info//2026/04/01/transfers.html",
+        "hn_id": 47793758,
+        "hn_link": "https://news.ycombinator.com/item?id=47793758",
+        "score": 22,
+        "author": "surprisetalk",
+        "comments": 0,
+        "byline_hint": "by surprisetalk · 22 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Two Motorola Transistors Became the Default NPNs",
+        "url": "https://www.allaboutcircuits.com/news/how-two-motorola-transistors-became-the-worlds-default-npns/",
+        "hn_id": 47810211,
+        "hn_link": "https://news.ycombinator.com/item?id=47810211",
+        "score": 19,
+        "author": "ChuckMcM",
+        "comments": 8,
+        "byline_hint": "by ChuckMcM · 19 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A Common MVP Evolution: Service to System Integration to Product (2017)",
+        "url": "https://www.skmurphy.com/blog/2017/08/07/a-common-evolution-service-to-system-integration-to-product/",
+        "hn_id": 47810109,
+        "hn_link": "https://news.ycombinator.com/item?id=47810109",
+        "score": 12,
+        "author": "skmurphy",
+        "comments": 2,
+        "byline_hint": "by skmurphy · 12 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "IEA: Solar overtakes all energy sources in a major global first",
+        "url": "https://electrek.co/2026/04/19/iea-solar-overtakes-all-energy-sources-in-a-major-global-first/",
+        "hn_id": 47831272,
+        "hn_link": "https://news.ycombinator.com/item?id=47831272",
+        "score": 10,
+        "author": "Klaster_1",
+        "comments": 1,
+        "byline_hint": "by Klaster_1 · 10 points · 1 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "Why Japan has such good railways - Works in Progress Magazine",
+        "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Isaac Asimov: The Last Question",
+        "url": "https://hex.ooo/library/last_question.html",
+        "description": "",
+        "tags": [
+          "asimov"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: asimov"
+      },
+      {
+        "source": "pinboard",
+        "title": "(500) https://www.lighterra.com/papers/modernmicroprocessors/",
+        "url": "https://www.lighterra.com/papers/modernmicroprocessors/",
+        "description": "RT @kakashiliu:  \n1/ 一篇來自 2016 年很棒的文章，講解 microprocessor 的演進過程，從 pipeline 和 ILP 講起，一路涵蓋到 superpipeline，superscalar，VLIW，branch prediction，SMT，並講解遇到的困難和解法，",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Category Theory Illustrated - Orders",
+        "url": "https://abuseofnotation.github.io/category-theory-illustrated/04_order/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "madhadron - The seven programming ur-languages",
+        "url": "https://madhadron.com/programming/seven_ur_languages.html",
+        "description": "",
+        "tags": [
+          "pl"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: pl"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - NikolayS/pgque: PgQue – Zero-bloat Postgres queue. One SQL file to install, pg_cron to tick. · GitHub",
+        "url": "https://github.com/NikolayS/pgque",
+        "description": "",
+        "tags": [
+          "postgresql_tips"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: postgresql_tips"
+      },
+      {
+        "source": "pinboard",
+        "title": "delphitools: Handmade Developer Tools",
+        "url": "https://tools.rmv.fyi/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Clojure - Documentary",
+        "url": "https://clojure.org/about/documentary",
+        "description": "",
+        "tags": [
+          "clojure",
+          "documentary",
+          "documents"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: clojure, documentary, documents"
+      },
+      {
+        "source": "pinboard",
+        "title": "Top (Modern Common Lisp with FSet)",
+        "url": "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Every train, a note.",
+        "url": "https://www.trainjazz.com/",
+        "description": "\"Every dot is a real subway train. Eight hundred of them, give or take, form a small jazz combo (walking bass, piano, sax, vibes, brushes) that has been playing without pause for over a hundred years. On the platforms they are hot, screaming, full of complaint. This is the music inside the noise.\n\nThe harmony moves through a slow chorus. A note is placed precisely where the train happens to be along its route. Rush hour fills the band with held tones; at 3 a.m. the silences grow longer. Whatever is playing now has not played before and will not play again.\n\nShare your location and the trains nearest you grow louder. The piece rearranges itself around your body. You are listening to a portrait of where you stand, played by the city you are standing in.\"",
+        "tags": [
+          "nyc",
+          "trains",
+          "subways",
+          "music",
+          "jazz",
+          "maps"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: nyc, trains, subways, music, jazz, maps"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Aadam Jacobs Collection at the Internet Archive",
+        "url": "https://archive.org/details/@aadam_jacobs_collection",
+        "description": "On July 8, 1989, a young music fan named Aadam Jacobs, with a compact Sony cassette recorder in his pocket, went to see an up-and-coming rock band from Washington for their debut show in Chicago.\n\nAfter a blast of guitar feedback, 22-year-old Kurt Cobain politely announced to the crowd at the small club called Dreamerz: “Hello, we’re Nirvana. We’re from Seattle.” With that, the band, then a quartet, launched into the riff-heavy first song, “School.”\n\nJacobs surreptitiously recorded the performance, documenting the fledgling band in raw, fiery form more than two years before Nirvana’s global breakthrough with the album “Nevermind.”\n\nJacobs went on to record more than 10,000 concerts, with increasingly sophisticated equipment, over four decades in Chicago and other cities. Now a group of devoted volunteers in the U.S. and Europe is methodically cataloging, digitizing and uploading them one by one.\n\n\nThe growing Aadam Jacobs Collection is an internet treasure trove for music lovers, especially for fans of indie and punk rock during the 1980s through the early 2000s, when the scene blossomed and became mainstream. The collection features early-in-their-career performances from alternative and experimental artists like R.E.M., The Cure, The Pixies, The Replacements, Depeche Mode, Stereolab, Sonic Youth and Björk.\n\nAt the time of bookmarking, the collecyion has over 2400 recordings from 1984 through 2019",
+        "tags": [
+          "music",
+          "live",
+          "recording",
+          "cooltech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: music, live, recording, cooltech"
+      },
+      {
+        "source": "pinboard",
+        "title": "Good sleep, good learning, good life",
+        "url": "https://super-memory.com/articles/sleep.htm",
+        "description": "",
+        "tags": [
+          "sleep"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sleep"
+      },
+      {
+        "source": "pinboard",
+        "title": "Casus Belli Engineering",
+        "url": "https://marcosmagueta.com/blog/casus-belli-engineering/",
+        "description": "Dark-side analysis of all-too-typical mechanisms of paradigm shift. Applicable to far more than Software Engineering. Indeed, the author has derived their pattern from distant sources, which deserve their own regard.",
+        "tags": [
+          "softwareengineering",
+          "sociology",
+          "pattern",
+          "culture"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: softwareengineering, sociology, pattern, culture"
+      },
+      {
+        "source": "pinboard",
+        "title": "The birth of the Supreme Court’s shadow docket has long been a mystery.",
+        "url": "https://www.nytimes.com/2026/04/18/us/politics/supreme-court-shadow-docket.html",
+        "description": "Just after 6 p.m. on a February evening in 2016, the Supreme Court issued a cryptic, one paragraph ruling that sent both climate policy and the court itself spinning in new directions.\n\nFor two centuries, the court had generally handled major cases at a stately pace that encouraged care and deliberation, relying on written briefs, oral arguments and in-person discussions. The justices composed detailed opinions that explained their thinking to the public and rendered judgment only after other courts had weighed in.\n\nBut this time, the justices were sprinting to block a major presidential initiative. By a 5-to-4 vote along partisan lines, the order halted President Barack Obama’s Clean Power Plan, his signature environmental policy. They acted before any other court had addressed the plan’s lawfulness. The decision consisted of only legal boilerplate, without a word of reasoning.\n\nAt the time, the ruling seemed like a curious one-off. But that single paragraph turned out to be a sharp and lasting break. That night marks the birth, many legal experts believe, of the court’s modern “shadow docket,” the secretive track that the Supreme Court has since used to make many major decisions, including granting President Trump more than 20 key victories on issues from immigration to agency power.\n\nSince that night a decade ago, the logic behind the Supreme Court’s pivotal 2016 order has remained a mystery. Why did a majority of the justices bypass time-tested procedures and opt for a new way of doing business?\n\nThe answer would remain secret for generations, legal experts predicted. “We’ll never know (at least, until our grandkids can read the justices’ internal papers from that time period),” Stephen Vladeck, a law professor at Georgetown, wrote in a newsletter in February marking the anniversary of the order.\n\nThe New York Times has obtained those papers and is now publishing them, bringing the origins of the Supreme Court’s shadow docket into the light.\n\nThe 16 pages of memos, exchanged in a five-day dash, provide an extraordinarily rare window into the court, showing how the justices talk to one another outside of public view.\n\nWriting on formal letterhead, but addressing one another by their first names and signing off with their initials, they sound notes of irritation, air grievances and plead for more time. In addition to the usual legal materials, they cite a blog post and, twice, a television interview. They sometimes engage with one another’s arguments. But they often simply talk past each other.\n\nIn public, Chief Justice John G. Roberts Jr. has cultivated a reputation for care and caution. The papers reveal a different side of him. At a critical moment for the country and the court, the papers show, he acted as a bulldozer in pushing to stop Mr. Obama’s plan to address the global climate crisis.\n\nWhen colleagues warned the chief justice that he was proposing an unprecedented move, he was dismissive. “I recognize that the posture of this stay request is not typical,” he wrote. But he argued that the Obama plan, which aimed to regulate coal-fired plants, was “the most expensive regulation ever imposed on the power sector,” and too big, costly and consequential for the court not to act immediately.\n\nIn the Trump era, he and the other conservative justices have repeatedly empowered the president through their shadow docket rulings. By contrast, the papers reveal a court wielding those same powers to block Mr. Obama. Justice Samuel A. Alito Jr. warned that if the court failed to stop the president, its own “institutional legitimacy” would be threatened.\n\nSince that breakneck February 2016 exchange, the emergency docket has swelled into a major part of the court’s business, as the justices have short-circuited the deliberations of lower courts. The decisions are technically temporary, but are often hugely consequential.\n\nRulings with no explanation or reasoning, like the sparse paragraph from that February night, have become routine. The emergency docket is now a central legacy of the court led by Chief Justice Roberts.\n\nRead a decade later, the memos suggest that none of the justices fully appreciated what they were doing: embarking on a questionable new way of operating.\n\nThe 2016 case was a collision between the principles and personalities of Mr. Obama and Chief Justice Roberts.\n\nThe president was under enormous pressure to address the global climate crisis. He had campaigned on that promise, then for eight years as the planet heated, he failed to get major environmental legislation through Congress. With his term about to end, this was his last chance to act.\n\nThe chief justice was eager to assert his institution’s authority and to rein in Mr. Obama’s Environmental Protection Agency, which he believed had sidestepped a recent ruling.\n\nThe two men, both cerebral, polished Harvard Law graduates, had long posed a puzzle: How could such smooth personalities create so much friction?\n\nMr. Obama had been one of just 22 senators to vote against Chief Justice Roberts’s confirmation in 2005, saying that the nominee had “far more often used his formidable skills on behalf of the strong in opposition to the weak.” Four years later, the two men managed to botch the simple task of reciting the presidential oath at Mr. Obama’s first inauguration.\n\nTrue, Chief Justice Roberts had cast the decisive vote in 2012 to save the centerpiece of the Affordable Care Act, Mr. Obama’s signature legislative achievement. But that was approved by Congress.\n\nAfter Republicans won control of Congress, Mr. Obama responded by pushing the boundaries of presidential authority, promising that his administration would act on pressing problems “with or without Congress.” He tightened gun regulations and granted deportation relief to millions of undocumented immigrants.\n\nThe chief justice and some of his colleagues were watching warily, concerned the president was going past what the Constitution allowed him to do on his own. In a 2014 opinion written by Justice Antonin Scalia, the court warned Mr. Obama that he needed to tread carefully in setting environmental policy without congressional approval.\n\nThat statement was one of the early articulations of what would come to be known as the major questions doctrine, saying that on important matters, executive branch agencies could act only with clear direction from Congress.",
+        "tags": [
+          "US",
+          "Supreme",
+          "Court",
+          "SCOTUS",
+          "shadow",
+          "docket",
+          "judgements",
+          "without",
+          "care",
+          "or",
+          "deliberation",
+          "no",
+          "explanations"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: US, Supreme, Court, SCOTUS, shadow, docket, judgements, without, care, or, deliberation, no, explanations"
+      },
+      {
+        "source": "pinboard",
+        "title": "Kdenlive",
+        "url": "https://kdenlive.org/",
+        "description": "\"Free and open source video editor for GNU/Linux, Mac OS X and FreeBSD\"",
+        "tags": [
+          "video",
+          "editor",
+          "Linux",
+          "OSX",
+          "FreeBSD",
+          "Kdenlive",
+          "opensource"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: video, editor, Linux, OSX, FreeBSD, Kdenlive, opensource"
+      },
+      {
+        "source": "pinboard",
+        "title": "Google Has a Secret Reference Desk. Here's How to Use It.",
+        "url": "https://cardcatalogforlife.substack.com/p/google-has-a-secret-reference-desk",
+        "description": "",
+        "tags": [
+          "howto",
+          "google"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: howto, google"
+      },
+      {
+        "source": "pinboard",
+        "title": "Macs Adventure Walking Tours and Cycling Tours",
+        "url": "https://www.macsadventure.com/us/",
+        "description": "",
+        "tags": [
+          "travel",
+          "Scotland"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: travel, Scotland"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | You Can’t Game Your Way to a Real Education",
+        "url": "https://www.nytimes.com/2026/04/19/opinion/schools-edtech-laptops-games-learning.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Amiga Graphics Archive",
+        "url": "https://amiga.lychesis.net/",
+        "description": "",
+        "tags": [
+          "demoscene",
+          "retro",
+          "pixel",
+          "gamedev"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: demoscene, retro, pixel, gamedev"
+      },
+      {
+        "source": "pinboard",
+        "title": "Wiretext — Unicode Wireframe Design Tool",
+        "url": "https://wiretext.app/",
+        "description": "",
+        "tags": [
+          "wireframe",
+          "prototyping",
+          "ascii",
+          "text"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: wireframe, prototyping, ascii, text"
+      },
+      {
+        "source": "pinboard",
+        "title": "ShaderPad | Get creative with shaders",
+        "url": "https://misery.co/shaderpad/",
+        "description": "",
+        "tags": [
+          "shader",
+          "js",
+          "javascript",
+          "package",
+          "fragment",
+          "pixel",
+          "glsl",
+          "opengl",
+          "webgl",
+          "webdev"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: shader, js, javascript, package, fragment, pixel, glsl, opengl, webgl, webdev"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Death of a Superman - Believer Magazine",
+        "url": "https://www.thebeliever.net/the-death-of-a-superman/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "30 Years of HPC: many hardware advances, little adoption of new languages | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47759436",
+        "description": "",
+        "tags": [
+          "hpc",
+          "c++"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: hpc, c++"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mythos di Anthropic: potere, rischi e la necessità di regole per la cybersecurity",
+        "url": "https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html",
+        "description": "Anthropic ha rivelato Claude Mythos, un'IA in grado di identificare ed exploitare vulnerabilità software; l'accesso è limitato a ~50 grandi aziende via Project Glasswing. Schneier denuncia la scarsa trasparenza: mancano dati su falsi positivi, limiti su software non‑standard e la concentrazione del potere difensivo in una privata. Propone audit indipendenti, disclosure aggregata e accesso finanziato per ricercatori prima di lasciar decidere solo le aziende.",
+        "tags": [
+          "N8N",
+          "#TechPolicy",
+          "POLICY",
+          "TW2026-16"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #TechPolicy, POLICY, TW2026-16"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - gsd-build/get-shit-done: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.",
+        "url": "https://github.com/gsd-build/get-shit-done",
+        "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode. - gsd-build/get-shit-done",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Growing Shadow of Autocracy | Freedom House",
+        "url": "https://freedomhouse.org/report/freedom-world/2026/growing-shadow-autocracy",
+        "description": "Global freedom declined for the 20th consecutive year in 2025. A total of 54 countries experienced deterioration in their political rights and civil liberties, while only 35 countries registered improvements.",
+        "tags": [
+          "politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
+        "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+        "description": "https://news.ycombinator.com/item?id=47792764",
+        "tags": [
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Our Longing for Inconvenience | The New Yorker",
+        "url": "https://www.newyorker.com/culture/essay/our-longing-for-inconvenience",
+        "description": "",
+        "tags": [
+          "technological-history",
+          "societal-impact"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: technological-history, societal-impact"
+      },
+      {
+        "source": "pinboard",
+        "title": "Thunderbolt — AI You Control",
+        "url": "https://www.thunderbolt.io/",
+        "description": "Thunderbolt — AI You Control https://ift.tt/WN7LrVE ai, open.source, tools",
+        "tags": [
+          "ai",
+          "open.source",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, open.source, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "The seven programming ur-languages (2022) | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47822486",
+        "description": "",
+        "tags": [
+          "programming",
+          "languages"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, languages"
+      },
+      {
+        "source": "pinboard",
+        "title": "Category Theory Illustrated – Orders | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47813668",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "ESA - The toxic side of the Moon",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+        "description": "",
+        "tags": [
+          "space",
+          "science",
+          "moon",
+          "esa"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: space, science, moon, esa"
+      },
+      {
+        "source": "pinboard",
+        "title": "Hundreds of Fake Pro-Trump Avatars Emerge on Social Media - The New York Times",
+        "url": "https://www.nytimes.com/2026/04/17/business/media/artificial-intelligence-trump-social-media.html",
+        "description": "",
+        "tags": [
+          "deepfake",
+          "IND-politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: deepfake, IND-politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "llm-wiki · GitHub",
+        "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "description": "Comments",
+        "tags": [
+          "s"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: s"
+      },
+      {
+        "source": "pinboard",
+        "title": "Inside the Supreme Court’s Risky New Way of Doing Business",
+        "url": "https://www.nytimes.com/2026/04/18/us/politics/supreme-court-shadow-docket.html?smid=nytcore-ios-share",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Codex for (almost) everything | OpenAI",
+        "url": "https://openai.com/index/codex-for-almost-everything/",
+        "description": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pancreatic cancer mRNA vaccine shows lasting results in an early trial",
+        "url": "https://www.nbcnews.com/health/cancer/pancreatic-cancer-mrna-vaccine-shows-lasting-results-early-trial-rcna331969",
+        "description": "Scientists caution that more research is needed, but nearly all of the patients who responded to the personalized vaccine are still alive six years later.",
+        "tags": [
+          "cancer"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cancer"
+      },
+      {
+        "source": "pinboard",
+        "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47792764",
+        "description": "",
+        "tags": [
+          "local",
+          "llm",
+          "qwen",
+          "agentic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: local, llm, qwen, agentic"
+      },
+      {
+        "source": "pinboard",
+        "title": "That's Not What Unc Means",
+        "url": "https://aftermath.site/unc-aave-african-american-vernacular-english-slang-gen-z/",
+        "description": "via @dlakelan@mastodon.sdf.org boost of https://flipboard.social/@CultureDesk/116427499132368942",
+        "tags": [
+          "antira",
+          "vocabulary",
+          "culture"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: antira, vocabulary, culture"
+      },
+      {
+        "source": "pinboard",
+        "title": "waves & particles",
+        "url": "https://taylor.town/waves",
+        "description": "waves & particles https://ift.tt/MGFgQEu via:feedbin",
+        "tags": [
+          "via:feedbin"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: via:feedbin"
+      },
+      {
+        "source": "pinboard",
+        "title": "What are skiplists good for?",
+        "url": "https://antithesis.com/blog/2026/skiptrees/",
+        "description": "A skiplist is a randomized data structure that’s basically a drop-in replacement for a binary search tree with the same interface and the same asymptotic complexity on each of its operations. Some people like them because you can produce relatively simple and understandable lock-free concurrent implementations, and others like them as a matter of taste, or because they enjoy listening to bands that you’ve totally never heard of.",
+        "tags": [
+          "datastructure",
+          "skiplist"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: datastructure, skiplist"
+      },
+      {
+        "source": "pinboard",
+        "title": "Dad brains: How fatherhood rewires the male mind - BBC Future",
+        "url": "https://www.bbc.com/future/article/20260417-fatherhood-how-the-male-brain-and-body-prepare-for-childcare",
+        "description": "",
+        "tags": [
+          "Parenting"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Parenting"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why are Harvard’s slavery researchers quitting or being fired? | Race | The Guardian",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/apr/18/harvard-university-antigua-slavery-history",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Betting on the news raises ethical questions for journalists | The Verge",
+        "url": "https://www.theverge.com/report/914157/prediction-markets-news-outlet-ethics-policy-propublica-kalshi-polymarket",
+        "description": "via The Verge https://ift.tt/OcZwX3W",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "OpenAI’s former Sora boss is leaving | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+        "description": "via The Verge https://ift.tt/OcZwX3W",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | The Last Thing Democrats Need Is More Policy Plans - The New York Times",
+        "url": "https://www.nytimes.com/2026/04/08/opinion/democrats-politics-policy.html",
+        "description": "",
+        "tags": [
+          "partyism"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: partyism"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Happened to the 3D-Printed Homes Meant for Cairo, Illinois? — ProPublica",
+        "url": "https://www.propublica.org/article/3d-printed-affordable-housing-cairo-illinois-prestige",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ronan Farrow on Sam Altman’s ‘unconstrained’ relationship with the truth | The Verge",
+        "url": "https://www.theverge.com/podcast/911753/sam-altman-openai-ronan-farrow-new-yorker-feature-trust-liar-ai-industry",
+        "description": "via The Verge https://ift.tt/yCuR0Yt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tech Giants and Giant Slayers: The case for Digital Sovereignty and the Digital Commons | Open Rights Group",
+        "url": "https://www.openrightsgroup.org/publications/tech-giants-and-giant-slayers-the-case-for-digital-sovereignty-and-the-digital-commons/",
+        "description": "An important paper on digital sovereignty.",
+        "tags": [
+          "sovereignty",
+          "digital",
+          "policy",
+          "politics",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sovereignty, digital, policy, politics, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ada, Its Design, and the Language That Built the Languages | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47803844",
+        "description": "",
+        "tags": [
+          "ada"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ada"
+      },
+      {
+        "source": "pinboard",
+        "title": "Claude Codeで実際に起きたセキュリティ事故7選と防止策 #AI - Qiita",
+        "url": "https://qiita.com/masa_ClaudeCodeLab/items/8c22966fbd3c125c53dc",
+        "description": "",
+        "tags": [
+          "Claude"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Claude"
+      },
+      {
+        "source": "pinboard",
+        "title": "Category Theory Illustrated - Sets",
+        "url": "https://abuseofnotation.github.io/category-theory-illustrated/01_set/",
+        "description": "",
+        "tags": [
+          "knihovna"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: knihovna"
+      },
+      {
+        "source": "pinboard",
+        "title": "ByeDoom — Give a Link → Get a Feed",
+        "url": "https://byedoom.com/",
+        "description": "",
+        "tags": [
+          "rss",
+          "fb",
+          "facebook"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: rss, fb, facebook"
+      },
+      {
+        "source": "pinboard",
+        "title": "Cloud development platform Vercel was hacked | The Verge",
+        "url": "https://www.theverge.com/tech/914723/vercel-hacked",
+        "description": "via The Verge https://ift.tt/EotjcaF",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "qmd",
+        "url": "https://github.com/tobi/qmd",
+        "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+        "tags": [
+          "github-starred"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: github-starred"
+      },
+      {
+        "source": "pinboard",
+        "title": "Blank Page",
+        "url": "https://blank.page/welcome",
+        "description": "",
+        "tags": [
+          "editors",
+          "markdown"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: editors, markdown"
+      },
+      {
+        "source": "pinboard",
+        "title": "BrowserLeaks.com - Web Browser Security Checklist for Identity Theft Protection",
+        "url": "https://browserleaks.com/",
+        "description": "",
+        "tags": [
+          "security",
+          "browser",
+          "privacy"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security, browser, privacy"
+      },
+      {
+        "source": "pinboard",
+        "title": "SI Units for Request Rate",
+        "url": "https://entropicthoughts.com/si-units-for-request-rate",
+        "description": "The Becquerel, which measures the average frequency of random events",
+        "tags": [
+          "units",
+          "radioactivity",
+          "devops",
+          "networking",
+          "computers"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: units, radioactivity, devops, networking, computers"
+      },
+      {
+        "source": "pinboard",
+        "title": "構文認識でGitコンフリクトを自動解決するMergirafが良さげかも | kawarimidoll.com",
+        "url": "https://kawarimidoll.com/posts/202604191/",
+        "description": "",
+        "tags": [
+          "git"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: git"
+      },
+      {
+        "source": "pinboard",
+        "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
+        "description": "via The Verge https://ift.tt/OcZwX3W",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "409_conflict - A Well-Organized Life - Heated Rivalry (TV) [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/80912241",
+        "description": "Shane Hollander is a man who thrives on structure, routine, the solid ground of a ten-year plan. Ilya likes that about him, likes the embracing squeeze of having a life organized in tandem with Shane.\n\nNo one would call Ilya a man who thrives on structure. But it’s there, if not in his DNA then in the patterns of his brain. A call-and-response of: they do this, I do that.\n\nWhen Ilya’s life is flayed open for the world to dissect, how will they push-and-pull their way back towards what was once a well-organized life?\n\n<blockquote>“I thought we could go through the schedules and figure out what days we’ll be in the same cities this season, or when either of us have a couple of days off in a row. Maybe make a shared calendar, so we c—”\n\n“A sex calendar? Your parents are arriving in thirty minutes, and you are proposing making a sex calendar?” Oh, this was delicious. He’d be able to eat out on this for years, if Shane was willing to give him that long.\n\n“It’s not a sex calendar! It’s just … when we might be able to see each other,” he finished, already sounding defeated.\n\n“And what are you planning on doing when we are seeing each other? Not fucking?”</blockquote> (Words: 47,948)",
+        "tags": [
+          "!!!fandom",
+          "!!fic",
+          "|site:ao3",
+          "+fandom:heated.rivalry.(tv)",
+          "::rating:mature",
+          "::category:m/m",
+          "character:shane.hollander",
+          "character:ilya.rozanov",
+          "character:yuna.hollander",
+          "character:david.hollander",
+          "relationship:shane.hollander/ilya.rozanov",
+          "~ao3:shane.hollander.is.a.research.queen",
+          "~ao3:shane.hollander.is.brave",
+          "~ao3:supportive.boston.bears.|.boston.raiders.(game.changers)",
+          "~ao3:supportive.ottawa.centaurs.(game.changers)",
+          "~ao3:post-episode:.s01e06.the.cottage.(heated.rivalry)",
+          "~ao3:post-season/series.01",
+          "~ao3:because.russia",
+          "~ao3:boring.as.a.love.language",
+          "~ao3:character.study",
+          "~ao3:coming.out",
+          "~ao3:fade.to.black",
+          "~ao3:gratuitous.use.of.shane’s.glasses",
+          "~ao3:hacking",
+          "~ao3:homesickness",
+          "~ao3:ilya.x.justin.trudeau.conspiracy.theories",
+          "~ao3:immigration.&.emigration",
+          "~ao3:mental.health.issues",
+          "~ao3:outing",
+          "~ao3:therapy",
+          "~ao3:light.angst",
+          "~ao3:mainly.mental.health.related",
+          "~ao3:not.between.our.boys",
+          "~ao3:author.doesn’t.fuck.with.third.act.breakups",
+          "~ao3:author.is.allergic.to.miscommunication.as.a.trope",
+          "~author:409_conflict"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: !!!fandom, !!fic, |site:ao3, +fandom:heated.rivalry.(tv), ::rating:mature, ::category:m/m, character:shane.hollander, character:ilya.rozanov, character:yuna.hollander, character:david.hollander, relationship:shane.hollander/ilya.rozanov, ~ao3:shane.hollander.is.a.research.queen, ~ao3:shane.hollander.is.brave, ~ao3:supportive.boston.bears.|.boston.raiders.(game.changers), ~ao3:supportive.ottawa.centaurs.(game.changers), ~ao3:post-episode:.s01e06.the.cottage.(heated.rivalry), ~ao3:post-season/series.01, ~ao3:because.russia, ~ao3:boring.as.a.love.language, ~ao3:character.study, ~ao3:coming.out, ~ao3:fade.to.black, ~ao3:gratuitous.use.of.shane’s.glasses, ~ao3:hacking, ~ao3:homesickness, ~ao3:ilya.x.justin.trudeau.conspiracy.theories, ~ao3:immigration.&.emigration, ~ao3:mental.health.issues, ~ao3:outing, ~ao3:therapy, ~ao3:light.angst, ~ao3:mainly.mental.health.related, ~ao3:not.between.our.boys, ~ao3:author.doesn’t.fuck.with.third.act.breakups, ~ao3:author.is.allergic.to.miscommunication.as.a.trope, ~author:409_conflict"
+      },
+      {
+        "source": "pinboard",
+        "title": "We've Been Here Before",
+        "url": "https://thejaymo.net/2026/04/16/weve-been-here-before/",
+        "description": "",
+        "tags": [
+          "ai",
+          "writing",
+          "enterpiseai",
+          ".processed:diane"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, writing, enterpiseai, .processed:diane"
+      },
+      {
+        "source": "pinboard",
+        "title": "How a Tiny Yellow Handheld Changed How Duke University Teaches Game Design - Playdate News",
+        "url": "https://news.play.date/news/duke-playdate-education/",
+        "description": "",
+        "tags": [
+          "gamedesign",
+          "personal_net",
+          "via:HackerNews"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: gamedesign, personal_net, via:HackerNews"
+      },
+      {
+        "source": "pinboard",
+        "title": "The President vs. the Pope vs. the Slop Messiah - The Ringer",
+        "url": "https://www.theringer.com/2026/04/17/politics/donald-trump-pope-ai-jesus-image-jd-vance",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Social traffic kinda stinks for news publishers now, in 3 charts | Nieman Journalism Lab",
+        "url": "https://www.niemanlab.org/2026/04/social-traffic-kinda-stinks-for-news-publishers-now-in-3-charts/",
+        "description": "",
+        "tags": [
+          "social.media",
+          "news"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: social.media, news"
+      },
+      {
+        "source": "pinboard",
+        "title": "Kash Patel’s Erratic Behavior Could Cost Him His Job - The Atlantic",
+        "url": "https://www.theatlantic.com/politics/2026/04/kash-patel-fbi-director-drinking-absences/686839/",
+        "description": "\"they described Patel’s tenure as a management failure and his personal behavior as a national-security vulnerability.\"\n\n\"he won support from the White House for his eager participation in Trump’s effort to turn federal law enforcement against the president’s perceived political enemies.\"\n\n\"One former senior intelligence official told me that there is a lack of experience at FBI headquarters and that the turnover rate is high in field offices, because of both voluntary departures and Patel-ordered purges. The result is an FBI workforce being asked to accomplish more with fewer resources, and with less direction from the top.\"\n\n\"Days before the United States launched its war with Iran, Patel fired members of a counterintelligence squad that was devoted, in part, to Iran.\"",
+        "tags": [
+          "politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "heygen-com/hyperframes: Write HTML. Render video. Built for agents.",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "description": "for presentations as video?",
+        "tags": [
+          "ai",
+          "web",
+          "video"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, web, video"
+      },
+      {
+        "source": "pinboard",
+        "title": "Gemini 3.1 Flash TTS: New text-to-speech AI model",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "description": "Apr 15, 2026\n\n8 min read\n\nOur newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation. \n\n...\n\n\nImproved speech quality and controllability\n\nWe’ve improved the overall speech quality of Gemini 3.1 Flash TTS, making it our most natural and expressive model to date. On the Artificial Analysis TTS leaderboard, a benchmark that captures thousands of blind human preferences, 3.1 Flash TTS achieved an impressive Elo score of 1,211.\na gif showing artificial analysis text to speech arena quality elo\n\nArtificial Analysis has also positioned Gemini 3.1 Flash TTS within its “most attractive quadrant” for its ideal blend of high-quality speech generation and low cost. The model stands out further with native multi-speaker dialogue, support for 70+ languages, and granular creative control via natural language.\nNew audio tags for more expressive speech generation\n\n3.1 Flash TTS also introduces audio tags — an intuitive way to control vocal style, pace and delivery. By embedding natural language commands directly into the text input, you can steer AI-speech output with improved levels of granularity.\nSorry, your browser doesn't support embedded videos, but don't worry, you can and watch it with your favorite video player!\n\n3.1 Flash TTS enables enterprises to utilize audio tags within Vertex AI, empowering the next generation of enterprise applications.\nSorry, your browser doesn't support embedded videos, but don't worry, you can and watch it with your favorite video player! Sorry, your browser doesn't support embedded videos, but don't worry, you can and watch it with your favorite video player! Sorry, your browser doesn't support embedded videos, but don't worry, you can and watch it with your favorite video player!\n\nYou can start experimenting with these audio tags along with other updates to the developer experience in Google AI Studio with configurable controls that place the developer in the “director’s chair”:\n\n    Scene direction: Set the stage by defining the environment and providing specific dialogue instructions. This world-building context helps characters remain “in-character” and react to one another naturally across multiple turns.\n    Speaker-level specificity: Cast characters using unique Audio Profiles, then specify Director’s Notes to toggle pace, tone and accent. Using inline tags, speakers can pivot from these high-level settings to change expression mid-sentence.\n    Seamless export: Once the performance is perfected, these exact parameters can be exported as Gemini API code to ensure consistent, recognizable voices across various projects and platforms.\n\nWith these new configurations, developers can enhance precision for specific scenarios, creating memorable characters and immersive audio experiences.",
+        "tags": [
+          "XDN",
+          "Foundation-Models",
+          "AI-Art-Research",
+          "Ethics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Foundation-Models, AI-Art-Research, Ethics"
+      },
+      {
+        "source": "pinboard",
+        "title": "Artemis II pilot talks about what it was really like to fly and land in Orion - Ars Technica",
+        "url": "https://arstechnica.com/space/2026/04/artemis-ii-pilot-describes-landing-in-orion-from-intense-to-pure-elation/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 40,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 69
+  }
+}

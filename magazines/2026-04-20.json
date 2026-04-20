@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-20",
+  "stories": [
+    {
+      "title": "Vercel April 2026 security incident",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "hn_link": "https://news.ycombinator.com/item?id=47824463",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by colesantiago · 728 points · 418 comments",
+      "blurb": "Vercel has confirmed a breach with hackers claiming to sell stolen data — a direct hit to anyone deploying on the platform. With 418 comments, the HN thread is packed with threat assessments and mitigation steps. If you're hosting anything on Vercel, this is mandatory reading today."
+    },
+    {
+      "title": "Notion leaks email addresses of all editors of any public page",
+      "url": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+      "hn_link": "https://news.ycombinator.com/item?id=47824945",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Tiberium · 367 points · 134 comments",
+      "blurb": "A serious privacy foot-gun: Notion has been silently exposing the email addresses of every collaborator on any public page — including people who never intended to be public-facing. If your team uses Notion for wikis or shared docs, audit your public pages now."
+    },
+    {
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "hn_link": "https://news.ycombinator.com/item?id=47823270",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 310 points · 177 comments",
+      "blurb": "Simon Willison does his usual forensic diff on Anthropic's system prompt changes between Opus versions, surfacing what's actually changed in the model's default behavior. Essential reading if you build on Claude Code or the API — subtle prompt shifts can break your workflows in unexpected ways."
+    },
+    {
+      "title": "The RAM shortage could last years",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+      "hn_link": "https://news.ycombinator.com/item?id=47822414",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by omer_k · 286 points · 327 comments",
+      "blurb": "AI's insatiable appetite for HBM is creating a prolonged RAM crunch that will ripple through consumer hardware pricing for years. The 327-comment HN thread digs into whether this accelerates or stifles local AI adoption — directly relevant to anyone running models on Apple Silicon."
+    },
+    {
+      "title": "The creative software industry has declared war on Adobe",
+      "url": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+      "hn_link": "https://news.ycombinator.com/item?id=47824403",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by tambourine_man · 216 points · 163 comments",
+      "blurb": "Affinity, DaVinci Resolve, and a wave of challengers are using Adobe's customer resentment as rocket fuel, rolling out free tiers and aggressive feature updates. The subscription-fatigue revolt is real and the alternatives are genuinely compelling now — worth reassessing your creative stack."
+    },
+    {
+      "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "hn_link": "https://news.ycombinator.com/item?id=47828896",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by shivampkumar · 156 points · 25 comments",
+      "blurb": "TRELLIS.2 — one of the best image-to-3D models around — now runs natively on Apple Silicon without any cloud dependency. For anyone doing creative prototyping or 3D asset generation on a Mac, this is something you can clone and try today."
+    },
+    {
+      "title": "Prove you are a robot: CAPTCHAs for agents",
+      "url": "https://browser-use.com/posts/prove-you-are-a-robot",
+      "hn_link": "https://news.ycombinator.com/item?id=47781950",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lukasec · 101 points · 47 comments",
+      "blurb": "As AI agents get better at solving human CAPTCHAs, the web is inverting the challenge — designing puzzles that only bots can pass to verify they're legitimate automation. A thought-provoking look at the infrastructure challenges of agentic AI workflows."
+    },
+    {
+      "title": "Claude Token Counter, now with model comparisons",
+      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+      "hn_link": "https://news.ycombinator.com/item?id=47829178",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by twapi · 95 points · 33 comments",
+      "blurb": "Willison's Claude token counter now lets you compare token counts across multiple models side-by-side — an immediately actionable tool for anyone optimizing prompts and managing API costs across Opus, Sonnet, and Haiku. Bookmark this one."
+    },
+    {
+      "title": "SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)",
+      "url": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=47822805",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Eridanus2 · 179 points · 69 comments",
+      "blurb": "A resurfaces classic: researchers demonstrated that headphone/speaker jacks can be repurposed as microphones via audio driver manipulation — even on air-gapped machines. Disturbing and technically fascinating in equal measure, and newly relevant as physical-layer attacks get more attention."
+    },
+    {
+      "title": "The Bromine Chokepoint",
+      "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+      "hn_link": "https://news.ycombinator.com/item?id=47826100",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by crescit_eundo · 197 points · 102 comments",
+      "blurb": "Israel controls ~40% of global bromine production — a critical ingredient in memory chip manufacturing — making regional instability a direct threat to the semiconductor supply chain. A geopolitics-meets-chemistry explainer that puts the RAM shortage story in starker context."
+    },
+    {
+      "title": "GitHub - gsd-build/get-shit-done: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "A meta-prompting framework purpose-built for Claude Code that brings spec-driven development and structured context engineering to your AI coding sessions. If you're already using Claude Code daily, this is a productivity layer worth wiring in immediately."
+    },
+    {
+      "title": "Codex for (almost) everything | OpenAI",
+      "url": "https://openai.com/index/codex-for-almost-everything/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "OpenAI's updated Codex app for macOS and Windows now adds computer use, in-app browsing, image generation, memory, and plugin support. Direct competition to Claude Code — worth benchmarking against your current AI coding workflow."
+    },
+    {
+      "title": "Mythos di Anthropic: potere, rischi e la necessità di regole per la cybersecurity",
+      "url": "https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: N8N, #TechPolicy, POLICY, TW2026-16",
+      "blurb": "Bruce Schneier's sharp critique of Anthropic's Claude Mythos — an AI capable of finding and exploiting software vulnerabilities, currently gated to ~50 large companies via Project Glasswing. He demands independent audits and broader researcher access before letting one private company control defensive AI power. Directly relevant to anyone building on Anthropic's stack."
+    },
+    {
+      "title": "Claude Codeで実際に起きたセキュリティ事故7選と防止策 #AI - Qiita",
+      "url": "https://qiita.com/masa_ClaudeCodeLab/items/8c22966fbd3c125c53dc",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Claude",
+      "blurb": "A Japanese developer catalogs 7 real security incidents that occurred while using Claude Code — including credential leaks, unintended file writes, and prompt injection via repo contents. Even if you can't read Japanese, the incident patterns are readable and the prevention checklist is worth internalizing."
+    },
+    {
+      "title": "GitHub - NikolayS/pgque: PgQue – Zero-bloat Postgres queue. One SQL file to install, pg_cron to tick. · GitHub",
+      "url": "https://github.com/NikolayS/pgque",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: postgresql_tips",
+      "blurb": "A dead-simple Postgres-native job queue: one SQL file to install, no external dependencies, pg_cron to tick. For .NET backend devs who want reliable background jobs without bolting on Redis or a separate service, this is a genuinely elegant solution."
+    },
+    {
+      "title": "qmd",
+      "url": "https://github.com/tobi/qmd",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "A local-first CLI search engine for your docs, knowledge bases, and meeting notes — tracking current SOTA approaches while keeping everything on-device. Perfect complement to an Obsidian vault: fast semantic search without sending your notes to the cloud."
+    },
+    {
+      "title": "Wiretext — Unicode Wireframe Design Tool",
+      "url": "https://wiretext.app/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: wireframe, prototyping, ascii, text",
+      "blurb": "A browser-based tool for building wireframes entirely from Unicode box-drawing characters — paste the result directly into markdown, Obsidian notes, or code comments. Surprisingly powerful for quick UI sketches without leaving your keyboard."
+    },
+    {
+      "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
+      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "Alibaba's Qwen3.6-35B-A3B is a mixture-of-experts model with only 3.6B active parameters, optimized specifically for agentic coding tasks and now fully open. Punches well above its weight class for local inference — a strong option on Apple Silicon for offline coding workflows."
+    },
+    {
+      "title": "BrowserLeaks.com - Web Browser Security Checklist for Identity Theft Protection",
+      "url": "https://browserleaks.com/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, browser, privacy",
+      "blurb": "A comprehensive fingerprinting and leak-testing suite that shows exactly what your browser is broadcasting — canvas, WebGL, font, timezone, and more. An actionable privacy audit you can run right now to see how identifiable your setup is."
+    },
+    {
+      "title": "Artemis II pilot talks about what it was really like to fly and land in Orion - Ars Technica",
+      "url": "https://arstechnica.com/space/2026/04/artemis-ii-pilot-describes-landing-in-orion-from-intense-to-pure-elation/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "First-person account from the Artemis II pilot on what it actually felt like to fly and splash down in the Orion capsule — from the violence of reentry to the elation of recovery. A rare, detailed human window into a historic mission that doesn't get enough coverage."
+    }
+  ]
+}
