@@ -30,7 +30,7 @@ PROMPT_PATH = ROOT / "prompts" / "curation-system.md"
 API_URL = "https://api.anthropic.com/v1/messages"
 API_VERSION = "2023-06-01"
 DEFAULT_MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 8000
+MAX_TOKENS = 16000
 REQUEST_TIMEOUT = 120
 
 REQUIRED_STORY_FIELDS = {"title", "url", "category", "blurb", "byline", "applies"}
@@ -59,6 +59,7 @@ SUBMIT_EDITION_TOOL = {
             },
             "stories": {
                 "type": "array",
+                "description": "The 20 story objects as a native JSON array. Do NOT serialize this to a string.",
                 "minItems": 20,
                 "maxItems": 20,
                 "items": {
@@ -86,6 +87,8 @@ def call_anthropic(api_key, model, system_prompt, candidates_payload):
                 "content": (
                     "Here are today's deduplicated story candidates. "
                     "Curate the 20-story edition and call submit_edition.\n\n"
+                    "IMPORTANT: Pass `stories` as a native JSON array of objects, "
+                    "not as a JSON-encoded string. Do not serialize the array.\n\n"
                     + candidates_payload
                 ),
             }
@@ -136,6 +139,53 @@ def extract_tool_input(response):
     )
 
 
+def _repair_json_string(s):
+    """Fix common encoding errors in a model-generated JSON string: unescaped
+    double quotes and raw control characters inside string values. Uses a state
+    machine that tracks whether we're inside a string and escapes problematic
+    chars accordingly."""
+    out = []
+    in_string = False
+    i = 0
+    n = len(s)
+    while i < n:
+        c = s[i]
+        if not in_string:
+            out.append(c)
+            if c == '"':
+                in_string = True
+            i += 1
+            continue
+        if c == '\\' and i + 1 < n:
+            out.append(c)
+            out.append(s[i + 1])
+            i += 2
+            continue
+        if c == '"':
+            j = i + 1
+            while j < n and s[j] in ' \t\r\n':
+                j += 1
+            if j >= n or s[j] in ',}]:':
+                out.append(c)
+                in_string = False
+            else:
+                out.append('\\"')
+            i += 1
+            continue
+        if c == '\n':
+            out.append('\\n')
+        elif c == '\r':
+            out.append('\\r')
+        elif c == '\t':
+            out.append('\\t')
+        elif ord(c) < 0x20:
+            out.append(f'\\u{ord(c):04x}')
+        else:
+            out.append(c)
+        i += 1
+    return ''.join(out)
+
+
 def validate_edition(edition, expected_date):
     if not isinstance(edition, dict):
         raise ValueError("Tool output is not an object")
@@ -149,6 +199,18 @@ def validate_edition(edition, expected_date):
         edition["date"] = expected_date
 
     stories = edition.get("stories")
+    if isinstance(stories, str):
+        try:
+            stories = json.loads(stories)
+            edition["stories"] = stories
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"  stories string parse failed ({e}); repairing...", file=sys.stderr)
+            try:
+                stories = json.loads(_repair_json_string(stories))
+                edition["stories"] = stories
+                print(f"  repair succeeded: {len(stories)} stories", file=sys.stderr)
+            except (json.JSONDecodeError, ValueError) as e2:
+                print(f"  repair failed: {e2}", file=sys.stderr)
     if not isinstance(stories, list) or len(stories) != 20:
         raise ValueError(f"Expected 20 stories, got {len(stories) if isinstance(stories, list) else 'none'}")
 
@@ -169,6 +231,14 @@ def main():
     args = parser.parse_args()
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        env_file = ROOT / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                line = line.strip()
+                if line.startswith("ANTHROPIC_API_KEY=") and not line.startswith("#"):
+                    api_key = line.split("=", 1)[1].strip()
+                    break
     if not api_key:
         print("Error: ANTHROPIC_API_KEY is not set", file=sys.stderr)
         sys.exit(1)
@@ -198,8 +268,26 @@ def main():
         file=sys.stderr,
     )
 
-    edition = extract_tool_input(response)
-    edition = validate_edition(edition, date_str)
+    edition = None
+    for attempt in range(3):
+        if attempt > 0:
+            print(f"  Retrying API call (attempt {attempt + 1}/3)...", file=sys.stderr)
+            response = call_with_retry(api_key, model, system_prompt, candidates_payload)
+            usage = response.get("usage", {})
+            print(
+                f"  Tokens: input={usage.get('input_tokens')} output={usage.get('output_tokens')}",
+                file=sys.stderr,
+            )
+        try:
+            edition = extract_tool_input(response)
+            edition = validate_edition(edition, date_str)
+            break
+        except (RuntimeError, ValueError) as e:
+            print(f"  Validation error (attempt {attempt + 1}): {e}", file=sys.stderr)
+            print(f"  Raw tool input: {json.dumps(edition, ensure_ascii=False)[:500] if isinstance(edition, dict) else repr(edition)[:500]}", file=sys.stderr)
+            if attempt == 2:
+                raise
+    assert edition is not None
 
     out_path = MAG_DIR / f"{date_str}.json"
     out_path.write_text(
