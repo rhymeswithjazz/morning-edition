@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-21",
+  "stories": [
+    {
+      "title": "John Ternus to become Apple CEO",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "hn_link": "https://news.ycombinator.com/item?id=47840219",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by schappim · 1777 points · 933 comments",
+      "blurb": "The biggest Apple leadership shake-up in over a decade: Tim Cook transitions to Executive Chairman while hardware engineering chief John Ternus steps up as CEO. Ternus led the Apple Silicon transition and the M-series chip era — his ascent signals Apple doubling down on hardware excellence. Huge implications for the macOS and iOS ecosystem you live in every day."
+    },
+    {
+      "title": "All phones sold in the EU to have replaceable batteries from 2027",
+      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+      "hn_link": "https://news.ycombinator.com/item?id=47834195",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ramonga · 1244 points · 1044 comments",
+      "blurb": "The EU mandates user-replaceable batteries in all phones and tablets by 2027 — a landmark right-to-repair ruling that will force Apple and others to fundamentally redesign their devices. This is the biggest regulatory pressure on device longevity since the Lightning-to-USB-C mandate. Watch for Apple's compliance strategy closely."
+    },
+    {
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+      "hn_link": "https://news.ycombinator.com/item?id=47834565",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 620 points · 330 comments",
+      "blurb": "Alibaba's Qwen team drops a new frontier model preview that benchmarks competitively with the top closed-source models. The open-weights space is accelerating fast, and Qwen models are increasingly viable as local or self-hosted alternatives for AI coding workflows. Worth evaluating as a Claude/GPT complement."
+    },
+    {
+      "title": "Atlassian enables default data collection to train AI",
+      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+      "hn_link": "https://news.ycombinator.com/item?id=47833247",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by kevcampb · 568 points · 125 comments",
+      "blurb": "Atlassian quietly opted all users into AI training data collection by default — meaning your Jira tickets, Confluence docs, and Bitbucket code could feed their models unless you opt out. If you use any Atlassian product at work, check your org's privacy settings today. This is the 'enshittification by default' pattern playing out in enterprise tooling."
+    },
+    {
+      "title": "OpenAI ad partner now selling ChatGPT ad placements based on \"prompt relevance\"",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+      "hn_link": "https://news.ycombinator.com/item?id=47840980",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jlark77777 · 266 points · 133 comments",
+      "blurb": "A leaked deck reveals OpenAI's ad partner StackAdapt is selling ChatGPT ad slots keyed to what users are literally asking about in prompts. The ad-supported AI era is here, and it's more invasive than banner ads ever were — your queries are the targeting signal. Critical context for anyone thinking about which AI tools to trust with sensitive work."
+    },
+    {
+      "title": "Kimi vendor verifier – verify accuracy of inference providers",
+      "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+      "hn_link": "https://news.ycombinator.com/item?id=47838703",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Alifatisk · 254 points · 24 comments",
+      "blurb": "Kimi releases a tool to cryptographically verify that inference API providers are actually running the model they claim — a huge trust issue as the third-party LLM hosting market explodes. If you're routing Claude Code or other AI workflows through proxy providers, this kind of verification matters. Actionable tool for any AI-heavy dev stack."
+    },
+    {
+      "title": "Brussels launched an age checking app. Hackers took 2 minutes to break it",
+      "url": "https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/",
+      "hn_link": "https://news.ycombinator.com/item?id=47831742",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by axbyte · 226 points · 121 comments",
+      "blurb": "The EU's mandated age-verification app was broken in under two minutes by security researchers — a case study in what happens when regulation outruns engineering competence. The app was collecting far more data than needed, on top of being trivially bypassable. A cautionary tale about compliance theater vs. actual privacy-preserving design."
+    },
+    {
+      "title": "Jujutsu megamerges for fun and profit",
+      "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
+      "hn_link": "https://news.ycombinator.com/item?id=47841129",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by icorbrey · 225 points · 110 comments",
+      "blurb": "A practical deep-dive into Jujutsu's megamerge workflow — a technique that makes integrating long-running feature branches dramatically less painful than Git rebasing. If you've been curious about jj but haven't found the killer workflow yet, this is it. Especially relevant for teams managing complex TypeScript or .NET monorepos."
+    },
+    {
+      "title": "Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys",
+      "url": "https://words.filippo.io/128-bits/",
+      "hn_link": "https://news.ycombinator.com/item?id=47836784",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hasheddan · 223 points · 79 comments",
+      "blurb": "Cryptographer Filippo Valsorda cuts through quantum FUD: Grover's algorithm only halves the effective key space, making 128-bit symmetric keys still computationally safe even against large quantum computers. Clear, rigorous, and corrects a lot of half-baked takes in the \"post-quantum\" discourse. Essential reading before you over-engineer your encryption stack."
+    },
+    {
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "hn_link": "https://news.ycombinator.com/item?id=47844269",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jmsflknr · 179 points · 102 comments",
+      "blurb": "Anthropic reverses course and explicitly permits OpenClaw-style CLI wrappers that route to Claude — huge news for developers building custom AI coding workflows. This unblocks an entire ecosystem of Claude Code alternatives and extensions. If you're building or using a Claude-powered CLI tool, your usage is now officially sanctioned."
+    },
+    {
+      "title": "mvanhorn/last30days-skill: Claude Code skill that researches any topic across Reddit + X from the last 30 days, then writes copy-paste-ready prompts",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "A Claude Code skill that auto-researches Reddit and X for the last 30 days on any topic and synthesizes copy-paste-ready prompts. Directly plugs into the Claude Code ecosystem this reader uses daily. Install it in one line and immediately level up your prompt research workflow."
+    },
+    {
+      "title": "Codex for Mac gains Chronicle for enhancing context using recent screen content - 9to5Mac",
+      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Codex for Mac adds Chronicle — a feature that uses your recent screen activity to enrich AI context, similar to what Rewind and Apple Intelligence promised. This is exactly the kind of macOS-native AI tooling that matters for developers who want their coding assistant to actually know what they've been working on. Worth a close look for your AI workflow."
+    },
+    {
+      "title": "Anthropic secretly installs spyware when you install Claude Desktop — That Privacy Guy!",
+      "url": "https://www.thatprivacyguy.com/blog/anthropic-spyware/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: anthropic, security, wtf",
+      "blurb": "A privacy researcher alleges that Claude Desktop silently installs monitoring components not disclosed in Anthropic's privacy policy — explosive claims that directly affect daily Claude users. The post is making rounds and Anthropic hasn't issued a clear rebuttal yet. If you run Claude Desktop on your Mac, read this and check your system today."
+    },
+    {
+      "title": "Vercel April 2026 security incident | Vercel Knowledge Base",
+      "url": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, security",
+      "blurb": "Vercel's official post-mortem on the April 2026 outage triggered by a Roblox cheat tool and an AI agent run amok. The incident exposed how AI-generated traffic can cascade into platform-wide failures at a scale nobody planned for. Essential reading if you deploy anything on Vercel or use AI agents that make outbound requests."
+    },
+    {
+      "title": "Johny Srouji named Apple's Chief Hardware Officer - Apple",
+      "url": "https://www.apple.com/newsroom/2026/04/johny-srouji-named-apples-chief-hardware-officer/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "With Ternus elevated to CEO, Apple creates a new Chief Hardware Officer role and taps silicon genius Johny Srouji. This is the second major Apple org announcement of the week and reshapes who controls the M-series and future chip roadmap. The Apple ecosystem you rely on is being steered by new hands — pay attention to this transition."
+    },
+    {
+      "title": "ShaderPad | Get creative with shaders",
+      "url": "https://misery.co/shaderpad/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: shader, js, javascript, package, fragment, pixel, glsl, opengl, webgl, webdev",
+      "blurb": "ShaderPad is a polished browser-based GLSL shader editor — write fragment shaders, see results instantly, and share them as URLs. Cleaner and more approachable than Shadertoy for newcomers to creative coding. A great sandbox for experimenting with visual effects without any local setup."
+    },
+    {
+      "title": "DeFlock",
+      "url": "https://deflock.org/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ALPRs, mapper, mapping, search, project, open-source, DeFlock, Flock, automatic, license, plate, readers, automatic-license-plate-readers, license-plate-readers, ALPR, dangers, privacy, misuse, civil, civic, liberty, liberties, civil-liberty, civil-liberties, DeFlock.org, OpenSource, tool",
+      "blurb": "DeFlock is an open-source crowdsourced map of Flock Safety automatic license plate readers (ALPRs) in your area. These cameras are proliferating invisibly in neighborhoods and log every vehicle's movement — DeFlock makes the surveillance network visible. An essential tool for privacy-conscious citizens and a fascinating civic tech project."
+    },
+    {
+      "title": "Amiga Graphics Archive",
+      "url": "https://amiga.lychesis.net/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: demoscene, retro, pixel, gamedev",
+      "blurb": "A lovingly curated archive of Amiga demoscene pixel art spanning the late 1980s and 1990s — some of the most technically constrained and artistically inventive digital graphics ever made. Incredible reference material for anyone interested in pixel art, color palette mastery, or the history of creative computing. Prepare to lose an hour."
+    },
+    {
+      "title": "madhadron - The seven programming ur-languages",
+      "url": "https://madhadron.com/programming/seven_ur_languages.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: pl",
+      "blurb": "A compelling essay arguing that all programming languages descend from seven fundamental paradigms — and that learning one representative of each is more valuable than accumulating syntax. Thought-provoking mental model for any developer evaluating new tools or trying to understand why certain languages feel the way they do."
+    },
+    {
+      "title": "firecrawl/web-agent",
+      "url": "https://github.com/firecrawl/web-agent",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, crawl, scraping, search",
+      "blurb": "Firecrawl open-sources the foundation of their autonomous web research agent — fork it, swap in your own models, add custom skills, and self-host. This is exactly the kind of AI agent scaffolding that complements Claude Code for tasks requiring live web data. The architecture is clean and the swap-model design means you can plug in any LLM backend."
+    }
+  ]
+}
