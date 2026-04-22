@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-22",
+  "stories": [
+    {
+      "title": "Framework Laptop 13 Pro",
+      "url": "https://frame.work/laptop13pro",
+      "hn_link": "https://news.ycombinator.com/item?id=47852177",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Trollmann · 1224 points · 612 comments",
+      "blurb": "Framework's highest-scoring launch ever signals the modular laptop movement is hitting its stride. A Pro tier means more RAM, better display, and pro-grade specs without sacrificing repairability. 612 comments worth of opinion on whether this is finally the Linux/Windows dev laptop to ditch Apple for."
+    },
+    {
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com",
+      "hn_link": "https://news.ycombinator.com/item?id=47847179",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by milanm081 · 979 points · 464 comments",
+      "blurb": "A curated compendium of named laws, heuristics, and aphorisms that govern software development — from Conway's Law to Hyrum's Law. Essential reading for senior devs who want shared vocabulary with their teams. 464 comments means the HN crowd has plenty of additions and rebuttals."
+    },
+    {
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=47852835",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by wahnfrieden · 774 points · 599 comments",
+      "blurb": "OpenAI's next-gen image model lands inside ChatGPT with dramatically improved instruction-following, text rendering, and photorealism. If you do any design or creative work with AI, this is the new benchmark to evaluate against. The 599-comment thread is a live stress test of its capabilities and limits."
+    },
+    {
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "url": "https://twitter.com/spacex/status/2046713419978453374",
+      "hn_link": "https://news.ycombinator.com/item?id=47855293",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dmarcos · 563 points · 676 comments",
+      "blurb": "The most jaw-dropping acquisition rumor in years: SpaceX allegedly buying Cursor, the AI coding IDE, for $60 billion. If true, this reshapes the AI coding assistant landscape overnight and raises urgent questions about what happens to your codebase. Head to the 676-comment HN thread to separate signal from noise."
+    },
+    {
+      "title": "Claude Code to be removed from Anthropic's Pro plan?",
+      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "hn_link": "https://news.ycombinator.com/item?id=47854477",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by JamesMcMinn · 547 points · 516 comments",
+      "blurb": "Directly relevant if you rely on Claude Code daily: reports are swirling that Anthropic may pull Claude Code access from the $20/mo Pro tier. This would force power users onto a higher-cost plan or find alternatives. The 516-comment thread is pure signal on what Anthropic has actually communicated."
+    },
+    {
+      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "hn_link": "https://news.ycombinator.com/item?id=47851948",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dlx · 530 points · 390 comments",
+      "blurb": "Meta is rolling out pervasive keylogger-level monitoring of its own employees to harvest behavioral data for AI training — a chilling precedent for workplace privacy everywhere. If this normalizes, expect enterprise software vendors to follow. Anyone who cares about digital rights should read the Reuters report carefully."
+    },
+    {
+      "title": "Changes to GitHub Copilot individual plans",
+      "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+      "hn_link": "https://news.ycombinator.com/item?id=47838508",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zorrn · 432 points · 169 comments",
+      "blurb": "GitHub is reshuffling Copilot's individual pricing tiers — changes that could affect what model you get and what you pay. Worth a careful read before your next billing cycle. Developers already juggling Claude Code, Cursor, and Copilot need to know if the value equation just shifted."
+    },
+    {
+      "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables",
+      "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47851634",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by queenelvis · 305 points · 109 comments",
+      "blurb": "Trend Micro's post-mortem on the Vercel OAuth supply chain attack is a must-read for anyone deploying apps to serverless platforms. The attack vector — stealing secrets baked into environment variables — is shockingly common. Actionable mitigations are included."
+    },
+    {
+      "title": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "hn_link": "https://news.ycombinator.com/item?id=47847558",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by kolx · 274 points · 86 comments",
+      "blurb": "A fully browser-local video editor — no uploads, no cloud, no privacy risk. For developers and creators who need quick edits without feeding footage to a third-party server, this is a compelling privacy-respecting alternative. Runs on WebAssembly and handles surprisingly heavy files."
+    },
+    {
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "hn_link": "https://news.ycombinator.com/item?id=47850212",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pedrofranceschi · 111 points · 40 comments",
+      "blurb": "Brex open-sources CrabTrap, an HTTP proxy that uses an LLM to evaluate agent requests before they hit production APIs — essentially a guardrail for AI agents going rogue. If you're building agentic workflows (Claude Code pipelines, etc.), this is exactly the kind of safety layer you should be thinking about. Clever architecture worth studying."
+    },
+    {
+      "title": "Edit store price tags using Flipper Zero",
+      "url": "https://github.com/i12bp8/TagTinker",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by trueduke · 331 points · 306 comments",
+      "blurb": "TagTinker turns a Flipper Zero into a tool for reading and writing the electronic shelf labels (ESLs) found in modern retail stores. A fascinating look at how much trust is placed in low-cost wireless price tags. The security implications — and legal gray area — are thoroughly debated in 306 comments."
+    },
+    {
+      "title": "Cal.diy: open-source community edition of cal.com",
+      "url": "https://github.com/calcom/cal.diy",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by petecooper · 197 points · 51 comments",
+      "blurb": "Cal.com forks its own product into a fully open-source, community-driven edition — no paid tiers, no feature gates. Self-hostable scheduling infrastructure for developers who don't want to pay SaaS rates or hand calendar data to a third party. Drop it in your stack today."
+    },
+    {
+      "title": "Show HN: GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by santiago-pl · 174 points · 64 comments",
+      "blurb": "GoModel is a lightweight AI gateway written in Go that lets you proxy, route, and manage requests across multiple LLM providers behind a single unified API. Great for teams that want to avoid vendor lock-in between OpenAI, Anthropic, and others. A practical piece of infrastructure if you're building AI-powered apps."
+    },
+    {
+      "title": "A type-safe, realtime collaborative Graph Database in a CRDT",
+      "url": "https://codemix.com/graph",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by phpnode · 157 points · 45 comments",
+      "blurb": "A TypeScript-native graph database built on CRDTs for conflict-free real-time collaboration — think of it as a type-safe, offline-capable alternative to Firebase for graph-shaped data. Directly relevant for Angular/TypeScript devs building collaborative tools. The CRDT design means eventual consistency without custom merge logic."
+    },
+    {
+      "title": "Running a Minecraft Server and more on a 1960s UNIVAC Computer",
+      "url": "https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by brilee · 219 points · 36 comments",
+      "blurb": "Someone actually got a 1960s UNIVAC mainframe to serve Minecraft packets, which is either the greatest or most unnecessary engineering achievement of the year. A deep dive into vintage hardware coaxed into modern networking — thoroughly entertaining and technically impressive."
+    },
+    {
+      "title": "Diverse organic molecules on Mars revealed by the first SAM TMAH experiment",
+      "url": "https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by geox · 64 points · 3 comments",
+      "blurb": "The Curiosity rover's SAM instrument has detected a remarkably diverse range of organic molecules preserved in Martian rock for billions of years. This is one of the strongest hints yet that Mars may have once harbored the chemistry necessary for life. A genuinely significant planetary science result."
+    },
+    {
+      "title": "Drunk post: Things I've learned as a senior engineer (2021)",
+      "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zdw · 131 points · 90 comments",
+      "blurb": "A classic resurfaces: unfiltered, hard-won lessons from a senior engineer — on meetings, estimates, code quality, and career survival. Resurfaces periodically on HN because it keeps hitting home. Refreshingly honest compared to polished \"lessons learned\" blog posts."
+    },
+    {
+      "title": "Fusion Power Plant Simulator",
+      "url": "https://www.fusionenergybase.com/fusion-power-plant-simulator",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sam · 152 points · 100 comments",
+      "blurb": "An interactive browser-based simulator that lets you design and operate a fusion power plant, tuning plasma parameters and engineering tradeoffs in real time. It's both an educational tool and a surprisingly deep model of fusion economics. If you've ever wondered what it actually takes to make fusion \"worth it,\" this is the best explainer available."
+    },
+    {
+      "title": "Some secret management belongs in your HTTP proxy",
+      "url": "https://blog.exe.dev/http-proxy-secrets",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tosh · 21 points · 7 comments",
+      "blurb": "A sharp argument for offloading API key injection and secret rotation to your HTTP proxy layer rather than baking secrets into application code or environment variables — especially timely given the Vercel breach above. Concrete, actionable patterns for .NET and Node backends. Read alongside the Vercel post-mortem for a full picture."
+    },
+    {
+      "title": "XOR'ing a register with itself is the idiom for zeroing it out. Why not sub?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ingve · 56 points · 58 comments",
+      "blurb": "Raymond Chen digs into why x86 assembly programmers reach for XOR instead of SUB to zero a register — a subtle interplay of instruction encoding, flag side effects, and CPU microarchitecture optimizations. A bite-sized but deeply satisfying piece of low-level computer science trivia."
+    }
+  ]
+}
