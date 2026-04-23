@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-23",
+  "stories": [
+    {
+      "title": "We found a stable Firefox identifier linking all your private Tor identities",
+      "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+      "hn_link": "https://news.ycombinator.com/item?id=47866697",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by danpinto · 676 points · 187 comments",
+      "blurb": "Researchers at Fingerprint.com discovered that Firefox's IndexedDB implementation leaks a persistent identifier across Tor Browser sessions — completely undermining anonymity for users who think they're safe. This is a serious, concrete browser privacy flaw that affects anyone relying on Tor for identity separation. Patch accordingly and read the full technical breakdown."
+    },
+    {
+      "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
+      "url": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
+      "hn_link": "https://news.ycombinator.com/item?id=47868867",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cdrnsf · 572 points · 140 comments",
+      "blurb": "Apple quietly patched a vulnerability that forensic tools exploited to recover supposedly-deleted chat messages from iPhones — used in law enforcement extractions. If you care about the Apple ecosystem and digital privacy, this is a must-update patch. It's a reminder that 'deleted' rarely means gone without a deliberate fix."
+    },
+    {
+      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "url": "https://qwen.ai/blog?id=qwen3.6-27b",
+      "hn_link": "https://news.ycombinator.com/item?id=47863217",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 834 points · 383 comments",
+      "blurb": "Alibaba's Qwen team claims flagship coding performance in a 27B dense model — small enough to run locally but reportedly punching above its weight class on benchmarks. For developers using AI coding assistants, a capable self-hosted alternative to proprietary models is a big deal. Worth testing against your Claude Code workflows."
+    },
+    {
+      "title": "Over-editing refers to a model modifying code beyond what is necessary",
+      "url": "https://nrehiew.github.io/blog/minimal_editing/",
+      "hn_link": "https://news.ycombinator.com/item?id=47866913",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pella · 358 points · 204 comments",
+      "blurb": "A sharp analysis of a frustrating LLM coding behaviour: models that rewrite everything when you ask for a small fix. The post proposes concrete metrics and training signals to reward minimal, surgical edits. Directly relevant if you use Claude Code or any AI coding assistant and have felt the pain of over-eager refactors."
+    },
+    {
+      "title": "Parallel agents in Zed",
+      "url": "https://zed.dev/blog/parallel-agents",
+      "hn_link": "https://news.ycombinator.com/item?id=47866750",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ajeetdsouza · 222 points · 120 comments",
+      "blurb": "Zed editor now lets you spawn multiple AI agents working in parallel on the same codebase — a step toward the multi-agent development workflows the industry keeps hyping. This is actionable today if you're already on Zed, and worth watching even if you're not. The editor-as-orchestrator model is evolving fast."
+    },
+    {
+      "title": "Scoring Show HN submissions for AI design patterns",
+      "url": "https://www.adriankrebs.ch/blog/design-slop/",
+      "hn_link": "https://news.ycombinator.com/item?id=47864393",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by hubraumhugo · 306 points · 218 comments",
+      "blurb": "A developer built a rubric to detect 'design slop' — the telltale visual and UX patterns that scream 'this was vibe-coded by an LLM.' It's a useful meta-analysis of what AI-generated products look like in the wild and how to avoid the clichés. Good reading for anyone shipping AI-assisted software."
+    },
+    {
+      "title": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "hn_link": "https://news.ycombinator.com/item?id=47866860",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 133 points · 51 comments",
+      "blurb": "OpenAI is rolling out Workspace Agents — persistent, context-aware agents that can operate across your files, emails, and integrations inside ChatGPT. This is the agentic turn hitting mainstream productivity tools. Worth understanding what OpenAI is building as you evaluate your own AI workflow stack."
+    },
+    {
+      "title": "I am building a cloud",
+      "url": "https://crawshaw.io/blog/building-a-cloud",
+      "hn_link": "https://news.ycombinator.com/item?id=47872324",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bumbledraven · 279 points · 129 comments",
+      "blurb": "David Crawshaw (creator of Tailscale's networking layer) writes candidly about building a personal cloud infrastructure from scratch — the decisions, tradeoffs, and lessons. It's part engineering journal, part philosophy on ownership vs. renting compute. A grounding read for any developer thinking seriously about infrastructure independence."
+    },
+    {
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "hn_link": "https://news.ycombinator.com/item?id=47862497",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by xnx · 431 points · 212 comments",
+      "blurb": "Google's 8th-gen TPUs arrive with two distinct chips optimized for training and inference at agentic scale — signalling that the hardware race is now explicitly being shaped around multi-step AI agents, not just single-shot queries. The compute gap between cloud AI and local models just got a bit wider."
+    },
+    {
+      "title": "Windows 9x Subsystem for Linux",
+      "url": "https://social.hails.org/@hailey/116446826733136456",
+      "hn_link": "https://news.ycombinator.com/item?id=47861270",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sohkamyung · 950 points · 224 comments",
+      "blurb": "Someone built the inverse of WSL: a Windows 9x compatibility layer that runs inside Linux, letting you run old Win9x binaries on a modern kernel. It's a wild hack that says more about the community's nostalgia and ingenuity than anything else. 224 comments of delighted chaos."
+    },
+    {
+      "title": "Columnar Storage Is Normalization",
+      "url": "https://buttondown.com/jaffray/archive/columnar-storage-is-normalization/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ibobev · 110 points · 37 comments",
+      "blurb": "A conceptually satisfying post arguing that columnar storage formats are just relational normalization applied to the physical layer — separating attributes into their own structures for better compression and scan performance. If you work with databases or data pipelines in .NET, this reframes a lot of 'modern' data engineering as classical database theory."
+    },
+    {
+      "title": "OpenAI's response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by shpat · 70 points · 40 comments",
+      "blurb": "OpenAI disclosed a supply chain compromise affecting a developer tool used by Axios — a sobering reminder that AI-adjacent tooling is now a target for attackers. If you use third-party developer tools in your AI workflows, this is a good prompt to audit your dependency chain. The incident response details are worth reading."
+    },
+    {
+      "title": "Verus is a tool for verifying the correctness of code written in Rust",
+      "url": "https://verus-lang.github.io/verus/guide/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by fanf2 · 52 points · 10 comments",
+      "blurb": "Verus brings SMT-backed formal verification to Rust, letting you write mathematical specs alongside your code and prove correctness at compile time. As AI-generated code becomes more prevalent, tools that can actually verify correctness — not just test it — are increasingly valuable. Actionable for anyone working on safety-critical or high-assurance Rust."
+    },
+    {
+      "title": "Ultraviolet corona discharges on treetops during storms",
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/treetops-glowing-during-storms-captured-film-first-time",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by t-3 · 229 points · 65 comments",
+      "blurb": "Researchers at Penn State captured UV corona discharges glowing at treetops during thunderstorms on film for the first time. This is the kind of genuinely weird, visually stunning natural phenomenon that makes you feel the world is still full of surprises. Short read, unforgettable images."
+    },
+    {
+      "title": "A True Life Hack: What Physical 'Life Force' Turns Biology's Wheels?",
+      "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Prof_Sigmund · 66 points · 12 comments",
+      "blurb": "Quanta Magazine dives into the biophysics question of what fundamental physical process drives cellular machinery — the molecular motors, pumps, and oscillators that keep cells alive. It's a deep, beautifully written piece at the intersection of thermodynamics and biology. Brain food for the commute."
+    },
+    {
+      "title": "5x5 Pixel font for tiny screens",
+      "url": "https://maurycyz.com/projects/mcufont/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by zdw · 593 points · 122 comments",
+      "blurb": "A beautifully crafted 5×5 pixel font system designed for microcontroller displays — with a full rendering engine, Unicode support, and compression. It's a love letter to legibility at extreme constraints and doubles as an interesting case study in creative coding under tight hardware limits."
+    },
+    {
+      "title": "Alberta startup sells no-tech tractors for half price",
+      "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Kaibeezy · 1727 points · 552 comments",
+      "blurb": "The top HN story today: a Canadian startup selling deliberately low-tech tractors — no GPS, no CAN bus, no proprietary repair lockouts — at half the price of a John Deere. It's a real-world refutation of 'more tech is always better' and a compelling argument for right-to-repair by design. 552 comments of farmers and engineers agreeing loudly."
+    },
+    {
+      "title": "Technical, cognitive, and intent debt",
+      "url": "https://martinfowler.com/fragments/2026-04-02.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theorchid · 259 points · 66 comments",
+      "blurb": "Martin Fowler extends the 'technical debt' metaphor to cover two underappreciated variants: cognitive debt (complexity that burns your team's mental bandwidth) and intent debt (code that no longer reflects why it was written). In the age of AI-generated code, intent debt is about to become a much bigger problem."
+    },
+    {
+      "title": "Borrow-checking without type-checking",
+      "url": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jamii · 54 points · 13 comments",
+      "blurb": "A thought-provoking exploration of whether Rust-style borrow checking could be decoupled from the full type system — enabling memory safety guarantees in languages that don't want to commit to Rust's type discipline. Niche but intellectually rewarding for anyone interested in language design and compiler theory."
+    },
+    {
+      "title": "Website streamed live directly from a model",
+      "url": "https://flipbook.page/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sethbannon · 260 points · 77 comments",
+      "blurb": "Flipbook.page serves a website whose HTML is generated and streamed in real-time directly from an LLM on every page load — no static files, no CMS, just the model. It's a provocative demo of what 'dynamic content' might mean in a post-template world. Actionable as a creative coding experiment and thought-provoking about the future of web publishing."
+    }
+  ]
+}
