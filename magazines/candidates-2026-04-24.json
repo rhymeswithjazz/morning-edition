@@ -1,0 +1,1294 @@
+{
+  "date": "2026-04-24",
+  "fetched_at": "2026-04-24T08:49:05",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "GPT-5.5",
+        "url": "https://openai.com/index/introducing-gpt-5-5/",
+        "hn_id": 47879092,
+        "hn_link": "https://news.ycombinator.com/item?id=47879092",
+        "score": 1352,
+        "author": "rd",
+        "comments": 890,
+        "byline_hint": "by rd · 1352 points · 890 comments"
+      },
+      {
+        "source": "hn",
+        "title": "DeepSeek v4",
+        "url": "https://api-docs.deepseek.com/",
+        "hn_id": 47884971,
+        "hn_link": "https://news.ycombinator.com/item?id=47884971",
+        "score": 852,
+        "author": "impact_sy",
+        "comments": 505,
+        "byline_hint": "by impact_sy · 852 points · 505 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+        "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+        "hn_id": 47876043,
+        "hn_link": "https://news.ycombinator.com/item?id=47876043",
+        "score": 748,
+        "author": "tosh",
+        "comments": 365,
+        "byline_hint": "by tosh · 748 points · 365 comments"
+      },
+      {
+        "source": "hn",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "hn_id": 47878905,
+        "hn_link": "https://news.ycombinator.com/item?id=47878905",
+        "score": 722,
+        "author": "mfiguiere",
+        "comments": 534,
+        "byline_hint": "by mfiguiere · 722 points · 534 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Meta tells staff it will cut 10% of jobs",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+        "hn_id": 47879986,
+        "hn_link": "https://news.ycombinator.com/item?id=47879986",
+        "score": 589,
+        "author": "Vaslo",
+        "comments": 564,
+        "byline_hint": "by Vaslo · 589 points · 564 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Your hex editor should color-code bytes",
+        "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+        "hn_id": 47846688,
+        "hn_link": "https://news.ycombinator.com/item?id=47846688",
+        "score": 571,
+        "author": "tobr",
+        "comments": 151,
+        "byline_hint": "by tobr · 571 points · 151 comments"
+      },
+      {
+        "source": "hn",
+        "title": "French government agency confirms breach as hacker offers to sell data",
+        "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+        "hn_id": 47877366,
+        "hn_link": "https://news.ycombinator.com/item?id=47877366",
+        "score": 384,
+        "author": "robtherobber",
+        "comments": 138,
+        "byline_hint": "by robtherobber · 384 points · 138 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+        "url": "https://github.com/russellromney/honker",
+        "hn_id": 47874647,
+        "hn_link": "https://news.ycombinator.com/item?id=47874647",
+        "score": 256,
+        "author": "russellthehippo",
+        "comments": 62,
+        "byline_hint": "by russellthehippo · 256 points · 62 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Incident with multple GitHub services",
+        "url": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
+        "hn_id": 47877644,
+        "hn_link": "https://news.ycombinator.com/item?id=47877644",
+        "score": 242,
+        "author": "bwannasek",
+        "comments": 117,
+        "byline_hint": "by bwannasek · 242 points · 117 comments"
+      },
+      {
+        "source": "hn",
+        "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+        "url": "https://blog.meshcore.io/2026/04/23/the-split",
+        "hn_id": 47878117,
+        "hn_link": "https://news.ycombinator.com/item?id=47878117",
+        "score": 216,
+        "author": "wielebny",
+        "comments": 112,
+        "byline_hint": "by wielebny · 216 points · 112 comments"
+      },
+      {
+        "source": "hn",
+        "title": "US special forces soldier arrested after allegedly winning $400k on Maduro raid",
+        "url": "https://www.cnn.com/2026/04/23/politics/us-special-forces-soldier-arrested-maduro-raid-trade",
+        "hn_id": 47882645,
+        "hn_link": "https://news.ycombinator.com/item?id=47882645",
+        "score": 213,
+        "author": "nkrisc",
+        "comments": 264,
+        "byline_hint": "by nkrisc · 213 points · 264 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Girl, 10, finds rare Mexican axolotl under Welsh bridge",
+        "url": "https://www.bbc.com/news/articles/c9d4zgnqpqeo",
+        "hn_id": 47880189,
+        "hn_link": "https://news.ycombinator.com/item?id=47880189",
+        "score": 208,
+        "author": "codezero",
+        "comments": 165,
+        "byline_hint": "by codezero · 208 points · 165 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+        "url": "https://github.com/refactoringhq/tolaria",
+        "hn_id": 47882697,
+        "hn_link": "https://news.ycombinator.com/item?id=47882697",
+        "score": 190,
+        "author": "lucaronin",
+        "comments": 71,
+        "byline_hint": "by lucaronin · 190 points · 71 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ubuntu 26.04",
+        "url": "https://lwn.net/Articles/1069399/",
+        "hn_id": 47885596,
+        "hn_link": "https://news.ycombinator.com/item?id=47885596",
+        "score": 184,
+        "author": "lxst",
+        "comments": 97,
+        "byline_hint": "by lxst · 184 points · 97 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A programmable watch you can actually wear",
+        "url": "https://www.hackster.io/news/a-diy-watch-you-can-actually-wear-8f91c2dac682",
+        "hn_id": 47846307,
+        "hn_link": "https://news.ycombinator.com/item?id=47846307",
+        "score": 181,
+        "author": "sarusso",
+        "comments": 86,
+        "byline_hint": "by sarusso · 181 points · 86 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Isopods of the world",
+        "url": "https://isopod.site/",
+        "hn_id": 47840520,
+        "hn_link": "https://news.ycombinator.com/item?id=47840520",
+        "score": 166,
+        "author": "debesyla",
+        "comments": 59,
+        "byline_hint": "by debesyla · 166 points · 59 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Writing a C Compiler, in Zig (2025)",
+        "url": "https://ar-ms.me/thoughts/c-compiler-1-zig/",
+        "hn_id": 47873694,
+        "hn_link": "https://news.ycombinator.com/item?id=47873694",
+        "score": 161,
+        "author": "tosh",
+        "comments": 44,
+        "byline_hint": "by tosh · 161 points · 44 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why I Write (1946)",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+        "hn_id": 47884768,
+        "hn_link": "https://news.ycombinator.com/item?id=47884768",
+        "score": 159,
+        "author": "RyanShook",
+        "comments": 33,
+        "byline_hint": "by RyanShook · 159 points · 33 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Using the internet like it's 1999",
+        "url": "https://joshblais.com/blog/using-the-internet-like-its-1999/",
+        "hn_id": 47881198,
+        "hn_link": "https://news.ycombinator.com/item?id=47881198",
+        "score": 154,
+        "author": "joshuablais",
+        "comments": 97,
+        "byline_hint": "by joshuablais · 154 points · 97 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Habitual coffee intake shapes the microbiome, modifies physiology and cognition",
+        "url": "https://www.nature.com/articles/s41467-026-71264-8",
+        "hn_id": 47885377,
+        "hn_link": "https://news.ycombinator.com/item?id=47885377",
+        "score": 136,
+        "author": "scubakid",
+        "comments": 68,
+        "byline_hint": "by scubakid · 136 points · 68 comments"
+      },
+      {
+        "source": "hn",
+        "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+        "url": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+        "hn_id": 47881786,
+        "hn_link": "https://news.ycombinator.com/item?id=47881786",
+        "score": 132,
+        "author": "mji",
+        "comments": 9,
+        "byline_hint": "by mji · 132 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "My phone replaced a brass plug",
+        "url": "https://drobinin.com/posts/my-phone-replaced-a-brass-plug/",
+        "hn_id": 47877715,
+        "hn_link": "https://news.ycombinator.com/item?id=47877715",
+        "score": 129,
+        "author": "valzevul",
+        "comments": 29,
+        "byline_hint": "by valzevul · 129 points · 29 comments"
+      },
+      {
+        "source": "hn",
+        "title": "UK Biobank health data keeps ending up on GitHub",
+        "url": "https://biobank.rocher.lc",
+        "hn_id": 47875843,
+        "hn_link": "https://news.ycombinator.com/item?id=47875843",
+        "score": 120,
+        "author": "Cynddl",
+        "comments": 32,
+        "byline_hint": "by Cynddl · 120 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Astronomers find the edge of the Milky Way",
+        "url": "https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/",
+        "hn_id": 47879239,
+        "hn_link": "https://news.ycombinator.com/item?id=47879239",
+        "score": 120,
+        "author": "bookofjoe",
+        "comments": 26,
+        "byline_hint": "by bookofjoe · 120 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A Renaissance gambling dispute spawned probability theory",
+        "url": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
+        "hn_id": 47848162,
+        "hn_link": "https://news.ycombinator.com/item?id=47848162",
+        "score": 110,
+        "author": "sohkamyung",
+        "comments": 17,
+        "byline_hint": "by sohkamyung · 110 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
+        "url": "https://github.com/Infisical/agent-vault",
+        "hn_id": 47865822,
+        "hn_link": "https://news.ycombinator.com/item?id=47865822",
+        "score": 105,
+        "author": "dangtony98",
+        "comments": 36,
+        "byline_hint": "by dangtony98 · 105 points · 36 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Used La Marzocco machines are coveted by cafe owners and collectors",
+        "url": "https://www.nytimes.com/2026/04/20/dining/la-marzocco-espresso-machine.html",
+        "hn_id": 47844085,
+        "hn_link": "https://news.ycombinator.com/item?id=47844085",
+        "score": 66,
+        "author": "mitchbob",
+        "comments": 115,
+        "byline_hint": "by mitchbob · 66 points · 115 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I spent years trying to make CSS states predictable",
+        "url": "https://tenphi.me/blog/why-i-spent-years-trying-to-make-css-states-predictable/",
+        "hn_id": 47875025,
+        "hn_link": "https://news.ycombinator.com/item?id=47875025",
+        "score": 66,
+        "author": "tenphi",
+        "comments": 35,
+        "byline_hint": "by tenphi · 66 points · 35 comments"
+      },
+      {
+        "source": "hn",
+        "title": "GitHub Merge Queue Silently Reverted Code",
+        "url": "https://www.githubstatus.com/incidents/zsg1lk7w13cf",
+        "hn_id": 47881672,
+        "hn_link": "https://news.ycombinator.com/item?id=47881672",
+        "score": 49,
+        "author": "matthewbauer",
+        "comments": 10,
+        "byline_hint": "by matthewbauer · 49 points · 10 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Advanced Packaging Limits Come into Focus",
+        "url": "https://semiengineering.com/advanced-packaging-limits-come-into-focus/",
+        "hn_id": 47849628,
+        "hn_link": "https://news.ycombinator.com/item?id=47849628",
+        "score": 41,
+        "author": "PaulHoule",
+        "comments": 6,
+        "byline_hint": "by PaulHoule · 41 points · 6 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Familiarity is the enemy: On why Enterprise systems have failed for 60 years",
+        "url": "https://felixbarbalet.com/familiarity-is-the-enemy/",
+        "hn_id": 47885668,
+        "hn_link": "https://news.ycombinator.com/item?id=47885668",
+        "score": 36,
+        "author": "adityaathalye",
+        "comments": 18,
+        "byline_hint": "by adityaathalye · 36 points · 18 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Composition Shouldn't be this Hard",
+        "url": "https://www.cambra.dev/blog/announcement/",
+        "hn_id": 47886773,
+        "hn_link": "https://news.ycombinator.com/item?id=47886773",
+        "score": 35,
+        "author": "larelli",
+        "comments": 20,
+        "byline_hint": "by larelli · 35 points · 20 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why Not Venus?",
+        "url": "https://mceglowski.substack.com/p/why-not-venus",
+        "hn_id": 47885739,
+        "hn_link": "https://news.ycombinator.com/item?id=47885739",
+        "score": 25,
+        "author": "zdw",
+        "comments": 6,
+        "byline_hint": "by zdw · 25 points · 6 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Gova – The declarative GUI framework for Go",
+        "url": "https://github.com/NV404/gova",
+        "hn_id": 47886272,
+        "hn_link": "https://news.ycombinator.com/item?id=47886272",
+        "score": 14,
+        "author": "aliezsid",
+        "comments": 2,
+        "byline_hint": "by aliezsid · 14 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+        "url": "https://ynarwal.github.io/how-llms-work/",
+        "hn_id": 47886517,
+        "hn_link": "https://news.ycombinator.com/item?id=47886517",
+        "score": 13,
+        "author": "ynarwal__",
+        "comments": 2,
+        "byline_hint": "by ynarwal__ · 13 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Nev – keyboard focused GUI and terminal text editor",
+        "url": "https://github.com/Nimaoth/Nev",
+        "hn_id": 47884872,
+        "hn_link": "https://news.ycombinator.com/item?id=47884872",
+        "score": 13,
+        "author": "archargelod",
+        "comments": 2,
+        "byline_hint": "by archargelod · 13 points · 2 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "Laws of Software Engineering",
+        "url": "https://lawsofsoftwareengineering.com/",
+        "description": "This is a handy catalog, but the deeper value is knowing when each one clarifies reality and when it distorts it. Brooks’s Law, Conway’s Law, Hyrum’s Law, Goodhart’s Law, Gall’s Law, YAGNI, DRY, KISS: each names a recurring pressure, tradeoff, or failure mode. The mistake is treating them as universal commandments instead of heuristics with scope and context. The best engineers do not cite laws to end discussion. They use them to ask better questions about systems, teams, and unintended consequences. \n\n\nHN thoughts: The thread is broadly skeptical of the framing. The strongest consensus is that calling these ideas “laws” oversells them: commenters repeatedly argue they are really aphorisms, heuristics, or design principles, often contradictory and too easy to cherry-pick to justify whatever decision someone already wants to make. \n\nA major subtheme is that the list is incomplete or misleading. People suggest missing entries like Greenspun’s rule, Boyd’s law of iteration, and Ousterhout’s ideas on complexity, while others say some listed items are not really software-engineering-specific at all.\n\nThe main disagreement is not whether these observations are useful, but how they should be used. One camp says many are valuable if treated as context-dependent guidance rather than doctrine. Examples include nuanced defenses of DRY, “premature optimization,” and decomposition principles. The other camp sees the whole exercise as vague software voodoo dressed up as science, with little empirical grounding.\n\nThere is also a smaller practical thread about books and sources worth trusting, plus one modern angle: using Claude or other LLMs to brute-force performance ideas, then porting the good parts back into maintainable code. Overall mood: useful maxims exist, but dogmatism and false precision are the real danger.",
+        "tags": [
+          "softwareengineering",
+          "management",
+          "architecture",
+          "decisionmaking",
+          "heuristics",
+          "systems-thinking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: softwareengineering, management, architecture, decisionmaking, heuristics, systems-thinking"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Mystery in the Medicine Cabinet—Asterisk",
+        "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet",
+        "description": "\"How does acetaminophen work? Nobody knows!\"\n\n\"When ibuprofen inhibits the COX enzymes, it does so throughout the body. And mostly, that is bad.\"\n\n\"If you take a lot of ibuprofen, this could hurt your liver. But the major concerns seem to be the stomach, the heart, and the kidneys.\"\n\n\"If you take too much acetaminophen at once, the pathways that break it down into harmless stuff get saturated, but the P450 system doesn’t get saturated. This means that not only is there more acetaminophen, but also that a much larger fraction of it is broken down into NAPQI.\"\n\n\"you should never take more than the recommended dose of  acetaminophen.\"",
+        "tags": [
+          "health"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: health"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Boy That Cried Mythos: Verification is Collapsing Trust in Anthropic | flyingpenguin",
+        "url": "https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/",
+        "description": "",
+        "tags": [
+          "analysis",
+          "mythos",
+          "bullshit"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: analysis, mythos, bullshit"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tim Cook’s Impeccable Timing – Stratechery by Ben Thompson",
+        "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI as a Fascist Artifact",
+        "url": "https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/",
+        "description": "",
+        "tags": [
+          "ai",
+          "politics",
+          "fascism",
+          "essays",
+          "talks",
+          "via-fediverse"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, politics, fascism, essays, talks, via-fediverse"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pica, a MacOS font management app",
+        "url": "https://pica.joshpuckett.me/",
+        "description": "A better way to manage your fonts",
+        "tags": [
+          "Tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "*Pro-level* travel tips",
+        "url": "https://a.wholelottanothing.org/pro-level-travel-tips/",
+        "description": "Pro-level travel tips https://ift.tt/9YyAdWq via:feedbin",
+        "tags": [
+          "via:feedbin"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: via:feedbin"
+      },
+      {
+        "source": "pinboard",
+        "title": "Windows 9x subsystem for Linux",
+        "url": "https://codeberg.org/hails/wsl9x",
+        "description": "WSL9x runs a modern Linux kernel (6.19 at time of writing) cooperatively inside the Windows 9x kernel, enabling users to take advantage of the full suite of capabilities of both operating systems at the same time, including paging, memory protection, and pre-emptive scheduling. Run all your favourite applications side by side - no rebooting required!",
+        "tags": [
+          "linux",
+          "windows",
+          "open-source",
+          "software",
+          "hack"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: linux, windows, open-source, software, hack"
+      },
+      {
+        "source": "pinboard",
+        "title": "BEWARE SOFTWARE BRAIN | The Verge",
+        "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+        "description": "via Daring Fireball https://ift.tt/vTcM9ml",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "google-labs-code/design.md: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+        "url": "https://github.com/google-labs-code/design.md",
+        "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+        "tags": [
+          "programming",
+          "ui",
+          "ux",
+          "dev",
+          "agents"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, ui, ux, dev, agents"
+      },
+      {
+        "source": "pinboard",
+        "title": "3.4M Solar Panels",
+        "url": "https://tech.marksblogg.com/american-solar-farms-v2.html",
+        "description": "",
+        "tags": [
+          "solar-energy",
+          "datasets"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: solar-energy, datasets"
+      },
+      {
+        "source": "pinboard",
+        "title": "Shakespeare plays ranked",
+        "url": "https://www.theguardian.com/stage/ng-interactive/2026/apr/22/every-shakespeare-play-ranked-lear-antony-cleopatra-hamlet",
+        "description": "",
+        "tags": [
+          "shakespeare",
+          "theatre"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: shakespeare, theatre"
+      },
+      {
+        "source": "pinboard",
+        "title": "Authentic Brands Group: The $20B Empire That Makes Nothing",
+        "url": "https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose",
+        "description": "<blockquote>Authentic Brands Group owns Brooks Brothers, Eddie Bauer, Champion, Dockers, Forever 21, Billabong, Sports Illustrated, and 40+ other brands. It makes none of them. Inside the $20B licensing model.</blockquote>",
+        "tags": [
+          "crazypills",
+          "finance",
+          "interesting",
+          "hn",
+          "brands"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: crazypills, finance, interesting, hn, brands"
+      },
+      {
+        "source": "pinboard",
+        "title": "Extrapolated Futures Archive",
+        "url": "https://urubos.github.io/efa-site/",
+        "description": "",
+        "tags": [
+          "SFF",
+          "wtf"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: SFF, wtf"
+      },
+      {
+        "source": "pinboard",
+        "title": "zindex - diagram infrastructure for agents",
+        "url": "https://zindex.ai/",
+        "description": "",
+        "tags": [
+          "llm",
+          "diagram"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, diagram"
+      },
+      {
+        "source": "pinboard",
+        "title": "How The Heck Does Shazam Work? (An Interactive Exploration)",
+        "url": "https://perthirtysix.com/how-the-heck-does-shazam-work",
+        "description": "",
+        "tags": [
+          "music",
+          "technology",
+          "reference"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: music, technology, reference"
+      },
+      {
+        "source": "pinboard",
+        "title": "How To Make a Fast Dynamic Language Interpreter",
+        "url": "https://zef-lang.dev/implementation",
+        "description": "",
+        "tags": [
+          "programming",
+          "compilers"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, compilers"
+      },
+      {
+        "source": "pinboard",
+        "title": "Is Your Site Agent-Ready?",
+        "url": "https://isitagentready.com/",
+        "description": "Scan your website to see if it's ready for AI agents. Check for llms.txt, MCP, agent skills, and other agent-friendly standards.",
+        "tags": [
+          "cloudflare",
+          "ai",
+          "website"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cloudflare, ai, website"
+      },
+      {
+        "source": "pinboard",
+        "title": "You’re about to feel the AI money squeeze | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+        "description": "via The Verge https://ift.tt/Vsk9cvH",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why you should refuse to let your doctor record you • Buttondown",
+        "url": "https://buttondown.com/maiht3k/archive/why-you-should-refuse-to-let-your-doctor-record/",
+        "description": "<blockquote>So what’s the big deal with “AI” charting? Here are nine reasons why we recommend refusing to consent to the use of scribing tools in healthcare settings: </blockquote>",
+        "tags": [
+          "ai",
+          "healthcare",
+          "doctors"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, healthcare, doctors"
+      },
+      {
+        "source": "pinboard",
+        "title": "nytimes.com",
+        "url": "https://www.nytimes.com/2026/04/15/opinion/art-artificial-intelligence.html?unlocked_article_code=1.c1A.L3Pm.fNy3jarG5n-T",
+        "description": "Opinion | Don’t Use A.I. to Do This https://ift.tt/ijQoU60 via:kottke, ai, life, art, society, technology",
+        "tags": [
+          "via:kottke",
+          "ai",
+          "life",
+          "art",
+          "society",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: via:kottke, ai, life, art, society, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Silicon Valley has forgotten what normal people want | The Verge",
+        "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+        "description": "via The Verge https://ift.tt/BCpUd6Q",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Manifesto di Palantir definito «ramblings of a supervillain», scoppiano le polemiche sui contratti UK",
+        "url": "https://www.theguardian.com/technology/2026/apr/21/palantir-manifesto-uk-contract-fears-mps",
+        "description": "Palantir ha pubblicato un manifesto che esalta la supremazia statunitense, invoca il ritorno della leva e prevede armi autonome; parole ritenute dai parlamentari britannici pericolose e ideologiche. I deputati chiedono di rivedere o annullare i contratti della società con NHS, polizia, MoD e FCA per il rischio di sorveglianza di massa e uso improprio di dati sensibili.",
+        "tags": [
+          "N8N",
+          "#TechPolicy",
+          "POLICY",
+          "TW2026-17"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #TechPolicy, POLICY, TW2026-17"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pretty Fish — A Better Mermaid Diagram Editor",
+        "url": "https://pretty.fish/",
+        "description": "",
+        "tags": [
+          "mermaid",
+          "diagram",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: mermaid, diagram, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Accursèd Alphabetical Clock",
+        "url": "https://boat.horse/clock/index.html",
+        "description": "",
+        "tags": [
+          "clock",
+          "language",
+          "funny"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: clock, language, funny"
+      },
+      {
+        "source": "pinboard",
+        "title": "Florida is about to lose its most famous symbol forever. What happened?",
+        "url": "https://slate.com/business/2026/04/florida-state-orange-food-houses-real-estate.html",
+        "description": "",
+        "tags": [
+          "florida",
+          "agriculture",
+          "history",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: florida, agriculture, history, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "How The Heck Does GPS Work? (An Interactive Exploration)",
+        "url": "https://perthirtysix.com/how-the-heck-does-gps-work",
+        "description": "An excellent explainer on GPS.",
+        "tags": [
+          "gps",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: gps, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "exe.dev",
+        "url": "https://exe.dev/",
+        "description": "Notable features of exe.dev:\n\nAll the VMs that fit: your subscription gets you so much CPU and RAM. How your VMs share your resources is up to you. Want 20 idle VMs that answer an HTTP request every other day? Go for it.\nReal VMs, sub-second start you get a full Ubuntu machine (or any other container image you decide to bring). Install Docker Compose if you like.\nPersistent disks with some really interesting work coming soon.\nSSH-based API get started by typing ssh exe.dev and creating a VM.\nPrivate by default, share with discord-style links exe.dev takes care of TLS and auth for you. By default only you can reach your HTTP services, and you have easy mechanims to share them with friends and colleagues.\nAgent-friendly sandbox start a VM, ssh in, and use any agent you like. Treat the VM as a sandbox for maximum agent effectiveness.",
+        "tags": [
+          "unique_spin",
+          "paid",
+          "free-beta",
+          "dev",
+          "hosting",
+          "ssh"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: unique_spin, paid, free-beta, dev, hosting, ssh"
+      },
+      {
+        "source": "pinboard",
+        "title": "Daring Fireball: Another Day Has Come",
+        "url": "https://daringfireball.net/2026/04/another_day_has_come",
+        "description": "via Daring Fireball https://ift.tt/eWZE2pV",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Raycast",
+        "url": "https://www.raycast.com/",
+        "description": "",
+        "tags": [
+          "tabs_salvati_nel_tempo",
+          "Tabs_20210804_e",
+          "Preferiti",
+          "pannelli_20220502",
+          "20220314_tabs"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: tabs_salvati_nel_tempo, Tabs_20210804_e, Preferiti, pannelli_20220502, 20220314_tabs"
+      },
+      {
+        "source": "pinboard",
+        "title": "ReciproCard — Find Free Library Cards for Libby | Reciprocal & Non-Resident Cards",
+        "url": "https://reciprocard.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "A catastrophic climate event is upon us. Here is why you’ve heard so little about it | George Monbiot | The Guardian",
+        "url": "https://www.theguardian.com/commentisfree/2026/apr/23/catastrophic-climate-event-scientists-atlantic-system-collapse-billionaire-existential-crisis",
+        "description": "",
+        "tags": [
+          "predictions",
+          "science",
+          "environment",
+          "climatechange",
+          "money",
+          "politics",
+          "economics",
+          "weather",
+          "farming",
+          "food"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: predictions, science, environment, climatechange, money, politics, economics, weather, farming, food"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Brand Ledger — Worse on Purpose",
+        "url": "https://ledger.worseonpurpose.com/",
+        "description": "Tracking brands across tools, bags, apparel, eyewear, and footwear. Who owns them, what they used to be, whether they're still worth buying.",
+        "tags": [
+          "consumer",
+          "brands",
+          "quality",
+          "worseonpurpose",
+          "scorecard"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: consumer, brands, quality, worseonpurpose, scorecard"
+      },
+      {
+        "source": "pinboard",
+        "title": "Palantir on X: \"Because we get asked a lot. The Technological Republic, in brief. 1. Silicon Valley owes a moral debt to the country that made its rise possible. The engineering elite of Silicon Valley has an affirmative obligation to participate in the d",
+        "url": "https://x.com/PalantirTech/status/2045574398573453312",
+        "description": "",
+        "tags": [
+          "Palantir",
+          "tech",
+          "digital",
+          "digitalsovereignty"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Palantir, tech, digital, digitalsovereignty"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Cheese Map — Charting the Combinatorial Space of Cheesemaking",
+        "url": "https://cheesemap.netlify.app/",
+        "description": "",
+        "tags": [
+          "cheese"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cheese"
+      },
+      {
+        "source": "pinboard",
+        "title": "If America's So Rich, How'd It Get So Sad?",
+        "url": "https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so",
+        "description": "",
+        "tags": [
+          "usa",
+          "society",
+          "data",
+          "happiness"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: usa, society, data, happiness"
+      },
+      {
+        "source": "pinboard",
+        "title": "TencentCloud/CubeSandbox: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+        "url": "https://github.com/TencentCloud/CubeSandbox",
+        "description": "",
+        "tags": [
+          "agent",
+          "kvm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: agent, kvm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica",
+        "url": "https://britannica11.org/",
+        "description": "https://news.ycombinator.com/item?id=47851885\nhttps://news.ycombinator.com/item?id=47851896\nThe reader's guide to the Encyclopaedia Britannica\nhttps://www.gutenberg.org/ebooks/74039",
+        "tags": [
+          "encyclopedia",
+          "britannica"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: encyclopedia, britannica"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150 - Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/",
+        "description": "Mozilla added some important data to that debate Tuesday, writing in a blog post that early access to Mythos Preview had helped it pre-identify 271 security vulnerabilities in this week’s release of Firefox 150.\n\n\nThe results were significant enough to get Firefox CTO Bobby Holley to enthuse that, in the never-ending battle between cyberattackers and cyberdefenders, “defenders finally have a chance to win, decisively.”",
+        "tags": [
+          "lup"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: lup"
+      },
+      {
+        "source": "pinboard",
+        "title": "10 Hacks Every Apple CarPlay User Should Know | Lifehacker",
+        "url": "https://lifehacker.com/tech/10-hacks-every-apple-carplay-user-should-know",
+        "description": "10 Hacks Every Apple CarPlay User Should Know https://bit.ly/4w1d9MH IFTTT, Inoreader",
+        "tags": [
+          "IFTTT",
+          "Inoreader"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: IFTTT, Inoreader"
+      },
+      {
+        "source": "pinboard",
+        "title": "Rediscovering the Handcart | LOW←TECH MAGAZINE",
+        "url": "https://solar.lowtechmagazine.com/2026/04/rediscovering-the-handcart/",
+        "description": "via @yosh@toot.yosh.is boost of https://merveilles.town/@neauoire/116448954715615909",
+        "tags": [
+          "wheelbarrow"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: wheelbarrow"
+      },
+      {
+        "source": "pinboard",
+        "title": "agents-with-taste",
+        "url": "https://emilkowal.ski/ui/agents-with-taste",
+        "description": "",
+        "tags": [
+          "agents",
+          "skills",
+          "prompt"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: agents, skills, prompt"
+      },
+      {
+        "source": "pinboard",
+        "title": "Kimi K2.6 Tech Blog: Advancing Open-Source Coding",
+        "url": "https://www.kimi.com/blog/kimi-k2-6",
+        "description": "",
+        "tags": [
+          "GenAI",
+          "china",
+          "code"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: GenAI, china, code"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ranked: Education Spending Per Student by Country - Visual Capitalist",
+        "url": "https://www.visualcapitalist.com/ranked-education-spending-per-student-by-country/",
+        "description": "",
+        "tags": [
+          "luxemburg",
+          "education",
+          "statistics",
+          "economics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: luxemburg, education, statistics, economics"
+      },
+      {
+        "source": "pinboard",
+        "title": "Retro Lemon Dessert",
+        "url": "https://www.allrecipes.com/retro-lemon-dessert-recipe-11953261",
+        "description": "",
+        "tags": [
+          "Recipes"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Recipes"
+      },
+      {
+        "source": "pinboard",
+        "title": "acetaminophen vs. ibuprofen | hacker news",
+        "url": "https://news.ycombinator.com/item?id=47835635",
+        "description": "",
+        "tags": [
+          "painkillers",
+          "discussion",
+          "med",
+          "paracetamol",
+          "ibuprofen"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: painkillers, discussion, med, paracetamol, ibuprofen"
+      },
+      {
+        "source": "pinboard",
+        "title": "ByeDoom — Give a Link → Get a Feed",
+        "url": "https://byedoom.com/",
+        "description": "",
+        "tags": [
+          "rss",
+          "fb",
+          "facebook"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: rss, fb, facebook"
+      },
+      {
+        "source": "pinboard",
+        "title": "Indian med student rakes in thousands with AI-generated MAGA hottie - Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/04/indian-med-student-rakes-in-thousands-with-ai-generated-maga-hottie/",
+        "description": "",
+        "tags": [
+          "grift"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: grift"
+      },
+      {
+        "source": "pinboard",
+        "title": "CDC won’t publish report showing covid shots cut likelihood of hospital visits",
+        "url": "https://www.washingtonpost.com/health/2026/04/22/covid-vaccine-report-blocked-cdc-mmwr/",
+        "description": "The report, which had cleared the agency’s scientific-review process, had been delayed. It now won’t be published at all, people familiar with the decision told The Post.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Modern Frontend Complexity: essential or accidental?",
+        "url": "https://binaryigor.com/modern-frontend-complexity.html",
+        "description": "Once upon a time, at the dawn of the web, browsers and websites were simple ... Then slowly, step by step, more and more interactivity was added.",
+        "tags": [
+          "webdev",
+          "htmx"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: webdev, htmx"
+      },
+      {
+        "source": "pinboard",
+        "title": "The zero-days are numbered",
+        "url": "https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/",
+        "description": "",
+        "tags": [
+          "computers",
+          "programming",
+          "security",
+          "infosec",
+          "firefox",
+          "ai",
+          "gpt3",
+          "anthropic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: computers, programming, security, infosec, firefox, ai, gpt3, anthropic"
+      },
+      {
+        "source": "pinboard",
+        "title": "It Depends - Data Stewardship tool",
+        "url": "https://pedrohserrano.github.io/it-depends-rdm/",
+        "description": "",
+        "tags": [
+          "data-governance",
+          "research-data-stewardship"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: data-governance, research-data-stewardship"
+      },
+      {
+        "source": "pinboard",
+        "title": "Introducing Claude Design by Anthropic Labs Anthropic",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "description": "Introducing Claude Design by Anthropic Labs \\ Anthropic https://ift.tt/amR72qT claude, design, tools, news, anthropic",
+        "tags": [
+          "claude",
+          "design",
+          "tools",
+          "news",
+          "anthropic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: claude, design, tools, news, anthropic"
+      },
+      {
+        "source": "pinboard",
+        "title": "Craig Mod — Writer + Photographer: [ESSAYS] MacBook Neo and How the iPad Should Be",
+        "url": "https://craigmod.com/essays/ipad_neo/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "how a roblox cheat and one AI tool brought down vercel's entire platform",
+        "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+        "description": "Damn, this is an absolute indictment of the state of security in AI tooling:\n\n<blockquote>February 2026. An employee at Context.ai, one of those AI productivity tools that promises to \"supercharge your workflow,\" downloads a Roblox cheat. Not a sophisticated zero-day. Not a state-sponsored attack. A Roblox cheat. The download contains Lumma Stealer, an infostealer that grabs session cookies, credentials, everything. That employee had access to sensitive internal systems.\n\nMarch 2026. The attacker uses Context.ai's compromised infrastructure to pivot into a Vercel employee's Google Workspace account. This Vercel employee had signed up for Context.ai's \"AI Office Suite\" using their enterprise credentials and granted \"Allow All\" permissions. Let that sink in for a second. A Vercel engineer gave a third-party AI tool full access to their corporate Google account.\n\nApril 19. Guillermo Rauch posts the thread confirming everything. Environment variables [...] were stored in plaintext. Accessed. Exfiltrated.</blockquote>\n\ntl;dr:\n\n1. Context.ai employees should not be using company devices to access Roblox cheats;\n\n2. exfiltratable environment variables should not be usable to access a customer's Google account. The scope of these credentials was obviously way too broad.\n\nThis isn't just a Context.ai issue, this is systemic.",
+        "tags": [
+          "security",
+          "infosec",
+          "credentials",
+          "google",
+          "context.ai",
+          "roblox",
+          "fail"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security, infosec, credentials, google, context.ai, roblox, fail"
+      },
+      {
+        "source": "pinboard",
+        "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+        "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "We translated the Palantir manifesto for actual human beings | The Verge",
+        "url": "https://www.theverge.com/policy/915237/palantir-manifesto",
+        "description": "via The Verge https://ift.tt/3xYCk6W",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The end of responsive images - Piccalilli",
+        "url": "https://piccalil.li/blog/the-end-of-responsive-images/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Encyclopædia Britannica, 11th Edition",
+        "url": "https://britannica11.org/home.html",
+        "description": "",
+        "tags": [
+          "reference"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: reference"
+      },
+      {
+        "source": "pinboard",
+        "title": "https://github.com/JuliusBrussee/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman",
+        "description": "A Claude Code skill that makes Claude talk like a caveman — cutting ~75% of tokens while keeping full technical accuracy.\n\nBased on the viral observation that caveman-speak dramatically reduces LLM token usage without losing technical substance. So we made it a one-line install.",
+        "tags": [
+          "llm",
+          "humour"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, humour"
+      },
+      {
+        "source": "pinboard",
+        "title": "injaneity/pi-computer-use",
+        "url": "https://github.com/injaneity/pi-computer-use",
+        "description": "",
+        "tags": [
+          "pi",
+          "agents",
+          "llms",
+          "computer-use"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: pi, agents, llms, computer-use"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Zip drives dominated the 90s, then vanished almost overnight",
+        "url": "https://www.xda-developers.com/zip-drives-dominated-90s-vanished-almost-overnight/",
+        "description": "",
+        "tags": [
+          "hardware",
+          "storage",
+          "memory",
+          "90s",
+          "data",
+          "computing",
+          "history",
+          "format",
+          "disk",
+          "magnetic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: hardware, storage, memory, 90s, data, computing, history, format, disk, magnetic"
+      },
+      {
+        "source": "pinboard",
+        "title": "I Was an Enthusiastic Early Adopter of AI Scribes. Here’s Why I Stopped",
+        "url": "https://benngooch.substack.com/p/i-was-an-enthusiastic-early-adopter",
+        "description": "What I am saying is this: the consultation is not simply a conversation from which a document is generated. It is a complex cognitive and relational act, and the document we produce is not a by-product of that act but part of it. Any tool that changes how that document is produced will change the act itself, and we should expect those changes to be significant, not trivial.",
+        "tags": [
+          "Ai",
+          "medical",
+          "scribe",
+          "notes",
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Ai, medical, scribe, notes, llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Our newsroom AI policy - Ars Technica",
+        "url": "https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/",
+        "description": "",
+        "tags": [
+          "ai",
+          "ars"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, ars"
+      },
+      {
+        "source": "pinboard",
+        "title": "nytimes.com",
+        "url": "https://www.nytimes.com/2026/04/21/nyregion/mets-mamdani-curse.html?unlocked_article_code=1.c1A.iLO0.Kqdo8aBhNAY1",
+        "description": "via Daring Fireball https://ift.tt/hQRLX0K",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Internal emails show how Amazon raises prices across the Internet, lawsuit says • Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/04/internal-emails-show-how-amazon-raises-prices-across-the-internet-lawsuit-says/",
+        "description": "Ashley Belanger: <blockquote><p>Newly <a href=\"https://cdn.arstechnica.net/wp-content/uploads/2026/04/Bonta-v-Amazon-Request-for-Preliminary-Injunction-Memo-4-13-26.pdf\" target=\"_blank\">unsealed emails</a> reveal the sneaky ways that Amazon colludes with rivals to raise prices across the Internet on “everything from diapers to clothing to furniture,” California Attorney General Rob Bonta alleged in a <a href=\"https://oag.ca.gov/news/press-releases/naming-names-attorney-general-bonta-secures-public-access-evidence-amazon-price\" target=\"_blank\">press release</a> Monday.\n\n“Amazon and a competitor will knowingly stop price matching each other, so that one retailer can increase its price, and the other retailer can match to the new, higher price,” Bonta alleged, pointing to one of three such schemes described in Amazon emails. “Thus, both competitors start selling at a higher price, increase their profits, and consumers pay more.”\n\nThe emails surfaced in a lawsuit that the state of California filed in 2022, accusing Amazon of wielding its tremendous influence as the world’s largest retailer to pressure vendors into increasing prices on rival e-commerce websites or removing products from cheaper platforms entirely. According to The New York Times, these emails offer “a rare behind-the-scenes look at how Amazon operates its $2.66 trillion empire.”\n\nAmazon works in three ways to pressure vendors into manipulating competitor prices, Bonta alleged.\n\nIn one supposed scheme, Amazon proposes price matching by agreeing to increase the price of a product or temporarily pause its sales, which then allows the other retailer to raise its price.\n\nAnother route Amazon frequently takes flips that scheme. When Amazon sees a rival offering a product at a price it considers unprofitable, it pressures vendors to get the rival to raise their price to a level Amazon likes. Once the rival raises its price, Amazon then matches it.\n\nFinally, Amazon allegedly follows a third, arguably more aggressive, path to get vendors to remove products entirely from platforms offering lower prices. That way, Amazon won’t be forced to lower its price to compete.\n\nAll three scenarios raise prices for consumers, Bonta alleged.</p></blockquote>\n\nAll companies want to become monopolies, and then they want to rent-seek.",
+        "tags": [
+          "email",
+          "amazon",
+          "lawsuit",
+          "pricing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: email, amazon, lawsuit, pricing"
+      },
+      {
+        "source": "pinboard",
+        "title": "Microsoft offers voluntary retirement to long-serving employees | The Verge",
+        "url": "https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes",
+        "description": "via Daring Fireball https://ift.tt/vTcM9ml",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The next evolution of The Verge’s homepage is here | The Verge",
+        "url": "https://www.theverge.com/bulletin/914842/the-next-evolution-of-the-verges-homepage-is-here",
+        "description": "via The Verge https://ift.tt/3xYCk6W",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tolaria — A second brain for the AI era",
+        "url": "https://tolaria.md/",
+        "description": "A second brain for the AI era. Free forever.\n\nOrganize your notes as Markdown files. With native\nrelationships, Git, and Claude Code integration",
+        "tags": [
+          "macos",
+          "wiki",
+          "personal_knowledge_management",
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: macos, wiki, personal_knowledge_management, llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Bonobos enjoy pretend tea parties and chimps think rationally: why apes are more like us than we ever thought | Endangered species | The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/apr/23/apes-behaviour-bonobo-chimpanzee-humans-science-aoe",
+        "description": "In recent years, scientists have unearthed dozens of stunning findings about great apes’ mental capabilities. Chimpanzees and bonobos can remember past groupmates for decades. When presented with stronger evidence, chimpanzees rationally revise their previously held beliefs.\n\nWestern lowland gorillas engage in kissing behaviours. Orangutans, bonobos, chimpanzees and gorillas playfully tease one another. Bonobos will cooperate across social borders with outsiders. And chimpanzees have a quirky and obsessive fascination with crystals, like human “New Age” folk.\n\n    These remarkable creatures have so much more going on under the surface than people give them credit for\n\nChristopher Krupenye\n\nIn particular, scientists have made significant strides in understanding apes’ theory of mind. Once believed to be a distinctly human trait, theory of mind is the ability to understand that other individuals have their own thoughts, beliefs, desires, intentions and knowledge that may differ from our own.\n\n“In the last several decades, we’ve seen transformative insights coming from a number of different research groups that all point to the idea that chimpanzees and other apes are extremely sensitive to their social partners,” says Christopher Krupenye, a cognitive scientist at Johns Hopkins University in Maryland, US.\n\n“This is a case where 30 years ago the dominant view was there is no evidence whatsoever. And, today, the consensus is that there is an exciting capacity here.”",
+        "tags": [
+          "XDN",
+          "Tangents",
+          "Consciousness"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Tangents, Consciousness"
+      },
+      {
+        "source": "pinboard",
+        "title": "Fragments: April 14",
+        "url": "https://martinfowler.com/fragments/2026-04-14.html",
+        "description": "The idea of wiring the improvement directly into a loop is an interesting one.",
+        "tags": [
+          "ai",
+          "tdd",
+          "skills"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, tdd, skills"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - raysan5/raylib: A simple and easy-to-use library to learn videogames programming",
+        "url": "https://github.com/raysan5/raylib",
+        "description": "",
+        "tags": [
+          "lua",
+          "c",
+          "game",
+          "library",
+          "engine",
+          "gamedev"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: lua, c, game, library, engine, gamedev"
+      },
+      {
+        "source": "pinboard",
+        "title": "The amazing mail sent to a video game publisher",
+        "url": "https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Overview - Agent Skills",
+        "url": "https://agentskills.io/home",
+        "description": "",
+        "tags": [
+          "agents",
+          "skills",
+          "anthropic",
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: agents, skills, anthropic, llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Practical Guide To Design Principles — Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/2026/04/practical-guide-design-principles/",
+        "description": "",
+        "tags": [
+          "design",
+          "reference",
+          "article"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design, reference, article"
+      },
+      {
+        "source": "pinboard",
+        "title": "Styling Tables the Modern CSS Way - Piccalilli",
+        "url": "https://piccalil.li/blog/styling-tables-the-modern-css-way/",
+        "description": "",
+        "tags": [
+          "css"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: css"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 39,
+    "hn_after_dedup": 36,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 76
+  }
+}

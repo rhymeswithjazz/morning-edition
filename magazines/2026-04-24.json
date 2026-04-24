@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-24",
+  "stories": [
+    {
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "hn_link": "https://news.ycombinator.com/item?id=47879092",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rd · 1352 points · 890 comments",
+      "blurb": "OpenAI drops GPT-5.5, the next step on the staircase between GPT-4o and the rumored full GPT-5. With 890 comments and the top score of the day, this is the model release everyone is dissecting right now. If you're building with AI tools or using Claude Code for comparison, this is essential context on what the competition is shipping."
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "hn_link": "https://news.ycombinator.com/item?id=47878905",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 722 points · 534 comments",
+      "blurb": "Anthropic publishes a postmortem on a Claude Code quality regression that hit users earlier this week. If you noticed degraded output from your primary coding assistant, here's what went wrong and what was done about it. Rare transparency from a major AI lab — worth reading if Claude Code is in your daily workflow."
+    },
+    {
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=47884971",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by impact_sy · 852 points · 505 comments",
+      "blurb": "DeepSeek v4 lands with API docs live and the HN crowd already stress-testing it. Another competitive open-weight model that keeps the pressure on frontier labs. For developers evaluating coding-assistant alternatives, this is one to benchmark against your current stack."
+    },
+    {
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "hn_link": "https://news.ycombinator.com/item?id=47876043",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tosh · 748 points · 365 comments",
+      "blurb": "The Bitwarden CLI npm package was targeted in an active supply chain attack — a serious concern for anyone using it in CI/CD or scripted credential workflows. Socket's research details the Checkmarx campaign vector and what versions are affected. Audit your lockfiles and update immediately."
+    },
+    {
+      "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "hn_link": "https://news.ycombinator.com/item?id=47882697",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by lucaronin · 190 points · 71 comments",
+      "blurb": "A native macOS app for managing Markdown-based knowledge bases — think Obsidian's ethos with Git and Claude Code integration baked in. For an Obsidian user who also lives in Claude Code, this is practically built for your exact workflow. Free forever, open-source, and already generating buzz."
+    },
+    {
+      "title": "French government agency confirms breach as hacker offers to sell data",
+      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "hn_link": "https://news.ycombinator.com/item?id=47877366",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by robtherobber · 384 points · 138 comments",
+      "blurb": "A French government agency confirms a breach as the attacker moves to monetize the stolen data on underground markets. Another data point in the relentless drumbeat of state-sector breaches. The exfiltration-to-sale pipeline is now faster than ever."
+    },
+    {
+      "title": "Your hex editor should color-code bytes",
+      "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+      "hn_link": "https://news.ycombinator.com/item?id=47846688",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tobr · 571 points · 151 comments",
+      "blurb": "A sharp argument that semantic color-coding — NULL bytes in one color, printable ASCII in another, high bytes in a third — dramatically reduces cognitive load when reverse engineering binary formats. The author shows side-by-side comparisons that make a compelling case. Every tool team should read this."
+    },
+    {
+      "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "hn_link": "https://news.ycombinator.com/item?id=47874647",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by russellthehippo · 256 points · 62 comments",
+      "blurb": "Brings Postgres-style pub/sub NOTIFY/LISTEN to SQLite, letting you react to row changes without polling. A useful primitive for .NET or TypeScript apps using SQLite as an embedded store who want event-driven reactivity without spinning up a full Postgres. Clean, focused, and immediately useful."
+    },
+    {
+      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "hn_link": "https://news.ycombinator.com/item?id=47878117",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by wielebny · 216 points · 112 comments",
+      "blurb": "An open-source team fractures over whether AI-generated code is acceptable in the codebase — a live case study in the governance tensions AI tooling is creating in collaborative projects. The trademark dispute is a sideshow; the AI code debate is the real story developers will be fighting about for years."
+    },
+    {
+      "title": "Incident with multiple GitHub services",
+      "url": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
+      "hn_link": "https://news.ycombinator.com/item?id=47877644",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bwannasek · 242 points · 117 comments",
+      "blurb": "GitHub suffered a broad multi-service outage yesterday, hitting Actions, Pages, Packages, and more simultaneously. The incident page documents the timeline; the HN thread is full of postmortems-in-progress. Reminder to keep local mirrors of critical dependencies."
+    },
+    {
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, design, tools, news, anthropic",
+      "blurb": "Anthropic Labs ships Claude Design, a new tool focused on AI-assisted UI/visual design workflows. Directly relevant for developers who build frontends and want Claude integrated deeper into their design-to-code pipeline. Watch this space — it's Anthropic's first explicit move into creative software territory."
+    },
+    {
+      "title": "google-labs-code/design.md: A format specification for describing a visual identity to coding agents",
+      "url": "https://github.com/google-labs-code/design.md",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, ui, ux, dev, agents",
+      "blurb": "Google proposes DESIGN.md — a structured markdown spec that gives coding agents a persistent, versioned understanding of your design system, so every AI-generated component stays on-brand. Think CLAUDE.md but for visual identity. Immediately actionable for any team using agents to write frontend code."
+    },
+    {
+      "title": "how a roblox cheat and one AI tool brought down vercel's entire platform",
+      "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, infosec, credentials, google, context.ai, roblox, fail",
+      "blurb": "A Roblox cheat on one employee's machine at Context.ai cascades into a full Vercel platform compromise — plaintext environment variables, over-scoped OAuth grants, and \"Allow All\" permissions doing their worst. A chilling, step-by-step supply chain horror story that every developer granting third-party AI tools access to their Google Workspace should read right now."
+    },
+    {
+      "title": "Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150",
+      "url": "https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "Anthropic's Mythos AI security tool pre-identified 271 zero-day vulnerabilities in Firefox 150 before release — a watershed moment for AI-assisted security research. Firefox's CTO declares \"defenders finally have a chance to win.\" This is the most concrete demonstration yet that LLMs can meaningfully shift the vulnerability discovery balance."
+    },
+    {
+      "title": "Pica, a MacOS font management app",
+      "url": "https://pica.joshpuckett.me/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Tools",
+      "blurb": "A clean, native macOS font management app that promises a better way to browse, activate, and organize your font library. Font management on macOS has been a mess for years — this looks like a focused, well-designed alternative worth trying if you do any design work or creative coding."
+    },
+    {
+      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Simon Willison breaks down Qwen3.6-27B, which reportedly delivers flagship-level coding performance in a model small enough to run locally. For developers who want a capable code assistant without cloud API costs, this is the benchmark to watch. Willison's framing is always practical and trustworthy."
+    },
+    {
+      "title": "exe.dev",
+      "url": "https://exe.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: unique_spin, paid, free-beta, dev, hosting, ssh",
+      "blurb": "A VM hosting service designed specifically for AI agents: real Ubuntu machines with sub-second start, SSH-based API, persistent disks, and private-by-default HTTP sharing via Discord-style links. Spin up 20 idle sandboxes on one subscription. Perfect for isolating agent workloads from your main environment."
+    },
+    {
+      "title": "Tolaria — A second brain for the AI era",
+      "url": "https://tolaria.md/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, wiki, personal_knowledge_management, llm",
+      "blurb": "The marketing site for Tolaria fills in what the GitHub repo doesn't say: it's explicitly positioned as an Obsidian successor with native Git sync and Claude Code integration, free forever. For an Obsidian-using developer already in the Claude ecosystem, this is the most directly relevant new app of the week."
+    },
+    {
+      "title": "https://github.com/JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, humour",
+      "blurb": "A one-line-install Claude Code skill that makes Claude respond in caveman-speak — cutting ~75% of token usage while maintaining full technical accuracy. Based on the viral observation that stripped-down terse language dramatically reduces LLM verbosity without losing substance. Absurd but genuinely useful for cost-conscious Claude Code users."
+    },
+    {
+      "title": "Overview - Agent Skills",
+      "url": "https://agentskills.io/home",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, skills, anthropic, llm",
+      "blurb": "A curated directory of reusable agent skills for Claude and other LLMs — think npm for agentic behaviors. If you're building Claude Code workflows or custom agents, this is a time-saver for discovering and composing pre-built capabilities rather than prompting from scratch every time."
+    }
+  ]
+}
