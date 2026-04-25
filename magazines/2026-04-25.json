@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-25",
+  "stories": [
+    {
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "hn_link": "https://news.ycombinator.com/item?id=47884971",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by impact_sy · 1888 points · 1473 comments",
+      "blurb": "DeepSeek drops its fourth major model and the HN crowd goes wild with 1473 comments — the most active discussion of the day by a wide margin. If you're comparing frontier models for coding workflows or evaluating Claude alternatives, this is a must-read. The comment thread is packed with benchmark comparisons and real-world impressions."
+    },
+    {
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "hn_link": "https://news.ycombinator.com/item?id=47892019",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by y42 · 868 points · 506 comments",
+      "blurb": "A developer documents their frustrations with Claude's token limits, perceived quality regression, and unresponsive support — and ultimately walks away. Given that our reader builds with Claude Code daily, this is essential reading for stress-testing your own assumptions about tool reliability. The HN thread surfaces both validation and pushback."
+    },
+    {
+      "title": "Google plans to invest up to $40B in Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "hn_link": "https://news.ycombinator.com/item?id=47892074",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by elffjs · 557 points · 540 comments",
+      "blurb": "Google is doubling down on Anthropic in a massive way — $40B dwarfs earlier commitments and signals a long-term bet on Claude as a Google Cloud cornerstone. For anyone building on Anthropic's APIs, this changes the vendor-lock-in calculus significantly. The HN thread debates competitive dynamics with OpenAI and what this means for Claude's roadmap."
+    },
+    {
+      "title": "CC-Canary: Detect early signs of regressions in Claude Code",
+      "url": "https://github.com/delta-hq/cc-canary",
+      "hn_link": "https://news.ycombinator.com/item?id=47893620",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tejpalv · 53 points · 24 comments",
+      "blurb": "A targeted open-source tool that monitors Claude Code for quality regressions over time — exactly the kind of canary-in-the-coalmine tooling that power users of AI coding assistants need. Given the post above about Claude quality concerns, running something like this in your workflow is timely. Dead simple GitHub integration."
+    },
+    {
+      "title": "Sabotaging projects by overthinking, scope creep, and structural diffing",
+      "url": "https://kevinlynagh.com/newsletter/2026_04_overthinking/",
+      "hn_link": "https://news.ycombinator.com/item?id=47890799",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by alcazar · 419 points · 106 comments",
+      "blurb": "Kevin Lynagh dissects how developers — and now AI coding agents — sabotage themselves through over-engineering, premature abstraction, and structural diffing rabbit holes. Directly relevant to anyone using Claude Code or Copilot and noticing the AI goldplate everything. Sharp, opinionated writing."
+    },
+    {
+      "title": "MacBook Neo and how the iPad should be",
+      "url": "https://craigmod.com/essays/ipad_neo/",
+      "hn_link": "https://news.ycombinator.com/item?id=47872306",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by jen729w · 264 points · 147 comments",
+      "blurb": "Craig Mod imagines a dream MacBook form factor and uses it as a lens to critique the iPad's perpetual identity crisis. Beautiful writing from one of the best Apple essayists working today. If you've ever felt the iPad Pro should be more than it is, Mod articulates it perfectly."
+    },
+    {
+      "title": "My audio interface has SSH enabled by default",
+      "url": "https://hhh.hn/rodecaster-duo-fw/",
+      "hn_link": "https://news.ycombinator.com/item?id=47894747",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hhh · 232 points · 76 comments",
+      "blurb": "A developer discovers their RODECaster Duo audio interface ships with SSH open on the local network by default — no opt-in, no warning in the manual. Classic IoT security debt in a prosumer audio device. A good reminder to nmap your own studio gear."
+    },
+    {
+      "title": "Firefox Has Integrated Brave's Adblock Engine",
+      "url": "https://itsfoss.com/news/firefox-ships-brave-adblock-engine/",
+      "hn_link": "https://news.ycombinator.com/item?id=47897891",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by nreece · 193 points · 95 comments",
+      "blurb": "Firefox quietly ships Brave's uBlock-compatible adblock engine, dramatically upgrading its built-in tracker blocking without requiring an extension. This is a meaningful privacy win for Firefox users — especially on platforms where extension support is limited. Might be enough to lure some Safari-only users back."
+    },
+    {
+      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "url": "https://github.com/browser-use/browser-harness",
+      "hn_link": "https://news.ycombinator.com/item?id=47890841",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gregpr07 · 97 points · 52 comments",
+      "blurb": "Browser Harness is a new open framework from the browser-use team that gives LLMs unconstrained control over browser automation tasks. Think of it as a more flexible complement to Playwright-based agents. Useful for anyone building AI workflows that need to navigate the real web."
+    },
+    {
+      "title": "You don't want long-lived keys",
+      "url": "https://argemma.com/blog/long-lived-keys/",
+      "hn_link": "https://news.ycombinator.com/item?id=47851377",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by kkl · 53 points · 34 comments",
+      "blurb": "A crisp argument for short-lived credentials everywhere — API keys, SSH keys, service tokens. The practical case for OIDC workload identity and ephemeral tokens over static secrets is made clearly, with real threat-model reasoning. Essential reading before your next infrastructure review."
+    },
+    {
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: softwareengineering, management, architecture, decisionmaking, heuristics, systems-thinking",
+      "blurb": "A well-organized reference catalog of the classic laws — Brooks, Conway, Hyrum, Goodhart, Gall, YAGNI, DRY, KISS — with context on when each applies and when it misleads. The value isn't memorizing them; it's knowing their scope and failure modes. Bookmark-worthy for anyone mentoring junior devs or reviewing architecture decisions."
+    },
+    {
+      "title": "How LLMs Work — A Visual Deep Dive",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "An interactive, visually rich explainer that walks through attention mechanisms, tokenization, and transformer architecture from first principles. If you've been using LLMs as a black box and want to understand why context windows behave the way they do, this is the tutorial to bookmark. Surprisingly polished for a personal site."
+    },
+    {
+      "title": "Is Your Site Agent-Ready?",
+      "url": "https://isitagentready.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cloudflare, ai, website",
+      "blurb": "A quick scanner that checks your website for llms.txt, MCP support, and other emerging agent-friendliness standards. As AI agents increasingly navigate the web on users' behalf, being agent-ready is the new being mobile-ready. Run your own domains through this today."
+    },
+    {
+      "title": "agents-with-taste",
+      "url": "https://emilkowal.ski/ui/agents-with-taste",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, skills, prompt",
+      "blurb": "Emil Kowalski argues that AI coding agents need to be given aesthetic constraints and opinionated defaults — not just task instructions — to produce good UI work. A short, sharp essay on prompt engineering for visual quality. Directly applicable if you're using Claude Code for frontend work."
+    },
+    {
+      "title": "Atomic — Everything You Know, Connected",
+      "url": "https://atomicapp.ai/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, notes",
+      "blurb": "Atomic is an AI-powered knowledge base that auto-embeds, tags, and links your notes, articles, and web clips as you add them — a direct Obsidian competitor with a more automated approach. For Obsidian power users curious about AI-native alternatives, this is worth a test drive. Could replace a lot of manual linking work."
+    },
+    {
+      "title": "Monodraw for macOS — Helftone",
+      "url": "https://monodraw.helftone.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Monodraw is a beautiful macOS-native ASCII/unicode art editor that doubles as a lightweight diagramming tool. Perfect for README diagrams, architecture sketches in plain text, and Obsidian embeds that survive any renderer. If you haven't tried it, this resurfacing is a good nudge."
+    },
+    {
+      "title": "RivoLink/leaf: Terminal Markdown previewer — GUI-like experience.",
+      "url": "https://github.com/RivoLink/leaf",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tui, terminal, markdown, apps, open-source",
+      "blurb": "Leaf is a TUI Markdown previewer that renders rich, GUI-like output entirely in the terminal. For developers who live in the command line and keep Obsidian-style Markdown notes, this fills a real gap. Pairs well with any CLI-heavy workflow."
+    },
+    {
+      "title": "What Async Promised and What it Delivered — Causality",
+      "url": "https://causality.blog/essays/what-async-promised/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: javascript, rust",
+      "blurb": "A thoughtful post-mortem on async/await: it solved the callback-hell readability problem but introduced new structural costs by hiding which operations actually depend on each other. Relevant for TypeScript/.NET developers who've felt the pain of async spreading through a codebase. Honest and well-argued."
+    },
+    {
+      "title": "Command Execution via Drag-and-Drop in Terminal Emulators",
+      "url": "https://sdushantha.github.io/post/drop-it-like-its-hot",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: s",
+      "blurb": "A clever attack vector: dragging and dropping files into certain terminal emulators can silently trigger command execution — no user confirmation required. Affects iTerm2, Kitty, and others. If you use a terminal on macOS, check your drag-and-drop settings now."
+    },
+    {
+      "title": "GitHub - run-llama/liteparse: A fast, helpful, and open-source document parser",
+      "url": "https://github.com/run-llama/liteparse",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: vrai, pdf",
+      "blurb": "LlamaIndex's LiteParse is a fast, open-source document parser optimized for feeding PDFs and other docs into LLM pipelines. A lighter-weight alternative to commercial parsing services like LlamaParse or Unstructured. Drop it into any RAG workflow that needs reliable text extraction."
+    }
+  ]
+}
