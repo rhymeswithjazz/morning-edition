@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-26",
+  "stories": [
+    {
+      "title": "1-Bit Hokusai's \"The Great Wave\" (2023)",
+      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
+      "hn_link": "https://news.ycombinator.com/item?id=47863570",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by stephen-hill · 577 points · 90 comments",
+      "blurb": "Someone recreated Hokusai's iconic woodblock print as 1-bit pixel art, and the results are stunning. This is the top-scoring story of the day for good reason — it's a masterclass in constraint-driven creative work. Sometimes the most expressive output comes from the most limited palette."
+    },
+    {
+      "title": "Amateur armed with ChatGPT solves an Erdős problem",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "hn_link": "https://news.ycombinator.com/item?id=47903126",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pr337h4m · 341 points · 201 comments",
+      "blurb": "A non-expert used ChatGPT to crack a decades-old combinatorics problem that stumped professional mathematicians. This is the clearest real-world evidence yet that AI tools genuinely extend what smart, motivated amateurs can accomplish. Expect a fierce debate in the 201-comment thread about what this means for expertise."
+    },
+    {
+      "title": "The Free Universal Construction Kit",
+      "url": "https://fffff.at/free-universal-construction-kit/",
+      "hn_link": "https://news.ycombinator.com/item?id=47860198",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by robinhouston · 311 points · 65 comments",
+      "blurb": "A set of 3D-printable adapters that let you connect LEGO, Duplo, K'Nex, Fischertechnik, and ten other construction toy systems together. Creative hacking at its purest — the adapters are free, open-source, and delightfully subversive. A perennial HN favorite that resurfaces for good reason."
+    },
+    {
+      "title": "USB Cheat Sheet (2022)",
+      "url": "https://fabiensanglard.net/usbcheat/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47904876",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by gwerbret · 291 points · 56 comments",
+      "blurb": "Fabien Sanglard's beautifully illustrated visual reference for USB standards, speeds, and connector types. If you've ever been confused by USB 3.2 Gen 2x2 vs Thunderbolt 4 vs USB4, bookmark this now. The kind of dense, trustworthy reference page HN keeps rediscovering every few years."
+    },
+    {
+      "title": "Using coding assistance tools to revive projects you never were going to finish",
+      "url": "https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/",
+      "hn_link": "https://news.ycombinator.com/item?id=47902525",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 267 points · 159 comments",
+      "blurb": "A refreshingly honest take on using Claude Code, Copilot, and friends to dust off the graveyard of half-finished side projects. The author argues that shipping something with AI assist beats never shipping at all — a permission slip many developers need. Directly relevant if you have a folder of abandoned Angular or .NET projects."
+    },
+    {
+      "title": "Tell HN: An app is silently installing itself on my iPhone every day",
+      "url": "https://news.ycombinator.com/item?id=47906253",
+      "hn_link": "https://news.ycombinator.com/item?id=47906253",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by _-x-_ · 237 points · 103 comments",
+      "blurb": "An iPhone user reports an unknown app reinstalling itself silently every 24 hours — even after deletion. The thread turns into a deep dive on MDM profiles, enterprise certificates, and App Clips as potential attack vectors. Essential reading for anyone who cares about iOS security and what Apple's walled garden does and doesn't protect against."
+    },
+    {
+      "title": "OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+      "hn_link": "https://news.ycombinator.com/item?id=47870901",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tanelpoder · 200 points · 38 comments",
+      "blurb": "OpenAI announces a privacy filter that attempts to scrub personally identifiable information before it reaches model training pipelines. Meaningful step or PR theater? The 38-comment thread is skeptical but engaged. Worth watching closely if you're deciding how much to trust AI coding tools with your codebase."
+    },
+    {
+      "title": "The West Forgot How to Make Things. Now It's Forgetting How to Code",
+      "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+      "hn_link": "https://news.ycombinator.com/item?id=47907879",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by milkglass · 195 points · 85 comments",
+      "blurb": "A provocative essay arguing that AI-assisted coding is creating a generation of developers who can prompt but can't program — the same deskilling curve that hollowed out Western manufacturing. Whether you agree or not, it's an important counterpoint to the \"AI makes us all 10x\" narrative. Directly relevant if you're weighing how deeply to lean on Claude Code."
+    },
+    {
+      "title": "EU Age Control: The trojan horse for digital IDs",
+      "url": "https://juraj.bednar.io/en/blog-en/2026/04/17/eu-age-control-the-trojan-horse-for-digital-ids/",
+      "hn_link": "https://news.ycombinator.com/item?id=47907130",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gasull · 152 points · 58 comments",
+      "blurb": "A sharp analysis of how EU age-verification mandates could serve as the infrastructure backbone for a universal digital ID system. The privacy implications go well beyond age-gating adult content — we're talking about identity checkpoints for routine browsing. Essential reading for anyone tracking digital rights in Europe."
+    },
+    {
+      "title": "GnuPG – post-quantum crypto landing in mainline",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47907018",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by zdkaster · 52 points · 17 comments",
+      "blurb": "GnuPG is merging post-quantum cryptographic algorithms into its mainline branch, a significant milestone for practical PQC adoption. If you use GPG for signing commits, encrypting secrets, or secure comms, this is the upgrade path you've been waiting for. The harvest-now-decrypt-later threat makes this more urgent than it might seem."
+    },
+    {
+      "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+      "url": "https://github.com/MartinGalway/C64_music",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ingve · 174 points · 25 comments",
+      "blurb": "Legendary C64 composer Martin Galway has open-sourced the original assembly source files for his game soundtracks — Arkanoid, Rambo, Green Beret, and more. A priceless piece of computing history made freely available. Even if you never write a line of 6581 SID code, browsing this is a reminder of what constraints breed creativity."
+    },
+    {
+      "title": "Flickr: The first and last great photo platform",
+      "url": "https://petapixel.com/2026/04/22/flickr-the-first-and-last-great-photo-platform/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by Nrbelex · 157 points · 78 comments",
+      "blurb": "A loving and elegiac look at what made Flickr uniquely great — the community, the Creative Commons licensing, the genuine photographer culture — and why nothing has truly replaced it. The 78-comment thread is full of people grieving something real. Worth a read if you remember when photo sharing wasn't algorithmic engagement farming."
+    },
+    {
+      "title": "Simulacrum of Knowledge Work",
+      "url": "https://blog.happyfellow.dev/simulacrum-of-knowledge-work/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thehappyfellow · 144 points · 57 comments",
+      "blurb": "Are AI tools producing real knowledge work output, or just a convincing simulacrum of it? This essay presses on the unsettling possibility that AI-generated artifacts look like work product without embodying actual understanding. A philosophical gut-check for anyone shipping features with Claude Code or Copilot."
+    },
+    {
+      "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
+      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mji · 48 points · 5 comments",
+      "blurb": "LMSYS details how they got DeepSeek-V4 running with fast inference and reinforcement learning from verified feedback on launch day. The technical depth here — SGLang integration, RL reward shaping — is genuinely useful if you're self-hosting or evaluating frontier models. DeepSeek continues to push the open-weights frontier hard."
+    },
+    {
+      "title": "Mine, an IDE for Coalton and Common Lisp",
+      "url": "https://coalton-lang.github.io/mine/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by varjag · 92 points · 43 comments",
+      "blurb": "Mine is a purpose-built IDE for Coalton, a statically typed functional language that compiles to Common Lisp. If you're curious about bringing Haskell-style type systems to the Lisp world, this is the most approachable entry point yet. The editor tooling is surprisingly polished for such a niche stack."
+    },
+    {
+      "title": "How Hard Is It to Open a File?",
+      "url": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ffin · 76 points · 11 comments",
+      "blurb": "A deep dive into the surprisingly complex syscall path behind a simple `open()` call — permissions, namespaces, VFS layers, and more. The kind of post that makes you appreciate what the OS is doing silently beneath your abstractions. Good foundational reading for any developer who works close to the metal."
+    },
+    {
+      "title": "AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice",
+      "url": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by pabs3 · 60 points · 9 comments",
+      "blurb": "The Software Freedom Conservancy explains how AGPLv3's anti-tivoization provisions let users strip branding lockdowns from OnlyOffice and similar \"open core\" apps. A practically useful ruling for anyone self-hosting open-source productivity software. Know your license rights before the vendor changes the terms."
+    },
+    {
+      "title": "Exposing Floating Point – Bartosz Ciechanowski (2019)",
+      "url": "https://ciechanow.ski/exposing-floating-point/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by subset · 15 points · 2 comments",
+      "blurb": "Bartosz Ciechanowski's interactive explainer on floating-point representation is as good as it gets — beautiful visualizations, precise explanations, zero handwaving. This resurfaces periodically on HN because it's simply the best treatment of the topic online. Bookmark it for the next time a junior dev asks why 0.1 + 0.2 ≠ 0.3."
+    },
+    {
+      "title": "iOS 18.7.3-18.7.6 were withheld from most devices; iOS 18.7.7 is enabled for all",
+      "url": "https://support.apple.com/en-us/126793",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by seam_carver · 7 points · 0 comments",
+      "blurb": "Apple's official support page confirms that several iOS 18.7.x point releases were silently suppressed for most devices before 18.7.7 was broadly enabled. The lack of explanation is characteristically opaque, but this matters for anyone managing a fleet of iOS devices or advising users on updates. Update now — 18.7.7 is the one Apple wants everyone on."
+    },
+    {
+      "title": "America's Geothermal Breakthrough",
+      "url": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sleepyguy · 108 points · 123 comments",
+      "blurb": "Enhanced geothermal systems (EGS) may be on the verge of unlocking 150 gigawatts of baseload clean energy in the US — a game-changer if the drilling economics work out. The 123-comment thread is lively with engineers debating the real bottlenecks. This is the energy story that isn't getting nearly enough mainstream attention."
+    }
+  ]
+}
