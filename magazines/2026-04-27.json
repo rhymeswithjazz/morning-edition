@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-27",
+  "stories": [
+    {
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "hn_link": "https://news.ycombinator.com/item?id=47911524",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jeremyccrane · 662 points · 812 comments",
+      "blurb": "A cautionary tale that's generating massive discussion: an autonomous AI agent wiped a production database and then generated a detailed post-mortem of its own mistake. With Claude Code and agentic workflows becoming standard dev tools, this is required reading on guardrails, permissions, and the limits of AI autonomy. 812 comments means the community has a lot to say — don't skip the thread."
+    },
+    {
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "hn_link": "https://news.ycombinator.com/item?id=47916909",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by evanklem2004 · 65 points · 25 comments",
+      "blurb": "Directly targeting Claude Code users: EvanFlow wires a test-driven development feedback loop around Claude Code so the agent iterates against failing tests rather than drifting. If you're already using Claude Code for serious work, this could tighten the loop considerably. Worth cloning and trying today."
+    },
+    {
+      "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "hn_link": "https://news.ycombinator.com/item?id=47910388",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kmdupree · 298 points · 165 comments",
+      "blurb": "OpenAI officially retires SWE-bench Verified as a meaningful frontier benchmark — models have saturated it. This matters because SWE-bench has been the go-to yardstick for coding agents like Claude Code and Copilot; its obsolescence signals we need better evals, and fast. Watch what replaces it."
+    },
+    {
+      "title": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "hn_link": "https://news.ycombinator.com/item?id=47913650",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by koshyjohn · 473 points · 342 comments",
+      "blurb": "A sharp essay arguing that reaching for AI first erodes the mental muscles you need to use AI well. The irony is that heavy Claude Code users are exactly the audience most at risk. The 342-comment thread is a genuine debate, not a pile-on — worth reading as a counterweight to pure productivity maximalism."
+    },
+    {
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "hn_link": "https://news.ycombinator.com/item?id=47917026",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gslin · 106 points · 65 comments",
+      "blurb": "Chrome's built-in Prompt API lets web pages call a local on-device LLM without any server round-trip or API key. For developers building AI-assisted web tooling, this is a significant shift in what's possible at zero marginal cost. TypeScript-friendly and worth experimenting with today."
+    },
+    {
+      "title": "GoDaddy gave a domain to a stranger without any documentation",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "hn_link": "https://news.ycombinator.com/item?id=47911780",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jamesponddotco · 601 points · 233 comments",
+      "blurb": "GoDaddy transferred ownership of a live domain to an unknown third party with zero verification — no docs, no challenge, no notification. This is a systemic trust failure in domain registrar security, and a reminder that your domain is your most critical single point of failure. Check your registrar's account security settings today."
+    },
+    {
+      "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+      "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+      "hn_link": "https://news.ycombinator.com/item?id=47913855",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by dd23 · 245 points · 52 comments",
+      "blurb": "SentinelOne's researchers unpack FAST16, a surgical software sabotage tool from the ShadowBrokers leak that predates Stuxnet by half a decade. It rewrites the timeline of state-sponsored cyberweapons and raises unsettling questions about what else is still undiscovered. Deeply reported and technically meaty."
+    },
+    {
+      "title": "I bought Friendster for $30k – Here's what I'm doing with it",
+      "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+      "hn_link": "https://news.ycombinator.com/item?id=47914165",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ca98am79 · 774 points · 397 comments",
+      "blurb": "The top story of the day: someone bought the Friendster brand for $30k and is writing about their plans. It's part archaeology, part startup experiment, and the comment thread is full of internet historians and contrarians. A great read even if the plan goes nowhere."
+    },
+    {
+      "title": "Asahi Linux Progress Linux 7.0",
+      "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=47909226",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by elisaado · 618 points · 315 comments",
+      "blurb": "Asahi Linux's 7.0 progress report documents another leap forward in running Linux natively on Apple Silicon — GPU drivers, power management, and kernel upstream progress. If you care about what Apple's hardware can really do (or want a Linux fallback on your M-series Mac), this is the project to watch. The pace of progress here continues to be astonishing."
+    },
+    {
+      "title": "Self-updating screenshots",
+      "url": "https://interblah.net/self-updating-screenshots",
+      "hn_link": "https://news.ycombinator.com/item?id=47908051",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bjhess · 277 points · 41 comments",
+      "blurb": "A clever technique for keeping documentation screenshots fresh automatically — the kind of low-maintenance devex improvement that quietly saves hours over a project's lifetime. Highly applicable if you maintain any kind of docs or README with UI screenshots. Actionable and immediately stealable."
+    },
+    {
+      "title": "Notepad++ for Mac – Independent community port",
+      "url": "https://notepad-plus-plus-mac.org/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by jonbaer · 66 points · 55 comments",
+      "blurb": "A community-driven native macOS port of Notepad++ has appeared, filling a gap that's annoyed Windows emigrants for years. It's early-stage but the discussion is lively — whether you want it as a lightweight scratch editor or just for nostalgia, it's worth a look on your Mac today."
+    },
+    {
+      "title": "Show HN: Turning a Gaussian Splat into a videogame",
+      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by yak32 · 215 points · 52 comments",
+      "blurb": "PlayCanvas walks through converting a 3D Gaussian Splat capture into a playable game level — collision meshes, lighting, the works. Gaussian Splatting is evolving from a party trick into a real creative pipeline tool, and this post shows exactly how. Essential reading for anyone at the intersection of creative tooling and real-time 3D."
+    },
+    {
+      "title": "Three constraints before I build anything",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by nervous_north · 201 points · 30 comments",
+      "blurb": "A short, practical framework for shipping side projects rather than abandoning them: pick a time constraint, a scope constraint, and a novelty constraint before you write a line of code. Directly applicable to anyone juggling AI experiments and personal projects alongside a day job. Keep this one bookmarked in Obsidian."
+    },
+    {
+      "title": "Clay PCB Tutorial",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by j0r0b0 · 223 points · 131 comments",
+      "blurb": "An unconventional tutorial on making PCBs using modeling clay as a substrate — part art project, part electronics, entirely unexpected. The comment thread is a spirited mix of hackers and artists. It's the kind of creative-meets-technical crossover that makes HN worth reading."
+    },
+    {
+      "title": "Quirks of Human Anatomy",
+      "url": "https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gurjeet · 132 points · 72 comments",
+      "blurb": "A deep dive into the evolutionary accidents and vestigial oddities baked into human anatomy — the kind of biology that makes you realize how much of us is just legacy code that never got refactored. The parallel to software architecture is hard to miss. Genuinely fascinating rabbit hole."
+    },
+    {
+      "title": "Butterflies are in decline across North America, a look at the Western Monarch",
+      "url": "https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by 1659447091 · 205 points · 63 comments",
+      "blurb": "Smithsonian's detailed look at why Western Monarch populations have cratered — habitat loss, pesticides, and climate disruption compounding each other. Well-reported science journalism with real data, not just vibes. A sobering read on cascading ecological risk."
+    },
+    {
+      "title": "Chernobyl wildlife forty years on",
+      "url": "https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by reconnecting · 105 points · 33 comments",
+      "blurb": "Forty years after the disaster, Chernobyl's exclusion zone has become an accidental wildlife preserve — wolves, lynx, and bison thriving where humans can't live. The BBC's anniversary piece is full of counterintuitive findings about radiation and resilience. Required reading for anyone who thinks they know this story."
+    },
+    {
+      "title": "Flipdiscs",
+      "url": "https://flipdisc.io",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by skogstokig · 231 points · 43 comments",
+      "blurb": "flipdisc.io is a platform and toolkit for building flip-disc display art and installations — the retro electromechanical displays that click and flip between black and white. The tooling is surprisingly modern and the gallery is inspiring. A lovely niche at the intersection of physical computing and generative art."
+    },
+    {
+      "title": "Box to save memory in Rust",
+      "url": "https://dystroy.org/blog/box-to-save-memory/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by emschwartz · 126 points · 31 comments",
+      "blurb": "A counterintuitive but practical guide: using Box<T> in Rust can actually reduce memory usage in specific scenarios involving large enums and recursive types. Clear worked examples make this accessible even if you're a Rust tourist. The kind of low-level insight that separates proficient from expert Rust."
+    },
+    {
+      "title": "Revocation of X.509 Certificates",
+      "url": "https://blog.apnic.net/2026/04/24/revocation-of-x-509-certificates/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jandeboevrie · 36 points · 7 comments",
+      "blurb": "APNIC's deep-dive on how X.509 certificate revocation actually works in practice — CRL, OCSP, OCSP stapling — and why browsers mostly ignore revocation anyway. Fills a gap in most developers' mental model of TLS. Especially relevant given how much .NET and web backends depend on certificate trust chains."
+    }
+  ]
+}
