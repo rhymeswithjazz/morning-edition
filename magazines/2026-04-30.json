@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-30",
+  "stories": [
+    {
+      "title": "Zed 1.0",
+      "url": "https://zed.dev/blog/zed-1-0",
+      "hn_link": "https://news.ycombinator.com/item?id=47949027",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by salkahfi · 1825 points · 586 comments",
+      "blurb": "Zed hits 1.0 — the Rust-built, GPU-accelerated editor from the creators of Atom is now production-ready. With deep AI integration, collaborative editing, and blazing performance, it's the most credible VS Code challenger yet. If you haven't tried it since the early betas, today's the day."
+    },
+    {
+      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
+      "url": "https://github.com/anthropics/claude-code/issues/53262",
+      "hn_link": "https://news.ycombinator.com/item?id=47952722",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by homebrewer · 1116 points · 475 comments",
+      "blurb": "A Claude Code user discovered that including \"HERMES.md\" in commit messages silently routes requests to a higher-cost billing tier — a gnarly footgun for anyone running automated Claude Code workflows. If you use Claude Code in CI or agentic pipelines, audit your commit messages and rule files immediately."
+    },
+    {
+      "title": "Copy Fail",
+      "url": "https://copy.fail/",
+      "hn_link": "https://news.ycombinator.com/item?id=47952181",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by unsnap_biceps · 921 points · 345 comments",
+      "blurb": "A delightfully interactive breakdown of everything that can go wrong with the clipboard API — async pitfalls, browser permission quirks, and silent failures. Essential reading if you've ever shipped a \"copy to clipboard\" button and later heard \"it doesn't work on Safari.\""
+    },
+    {
+      "title": "Cursor Camp",
+      "url": "https://neal.fun/cursor-camp/",
+      "hn_link": "https://news.ycombinator.com/item?id=47949939",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bpierre · 905 points · 145 comments",
+      "blurb": "Neal.fun's latest toy: a playful animated summer-camp world where cursors from different visitors interact in real time. Charming creative coding, but it also doubles as a fun stress test of multiplayer cursor-state synchronization. Pure delight."
+    },
+    {
+      "title": "Online age verification is the hill to die on",
+      "url": "https://x.com/GlennMeder/status/2049088498163216560",
+      "hn_link": "https://news.ycombinator.com/item?id=47950091",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 882 points · 588 comments",
+      "blurb": "Age verification laws are spreading globally, and the technical implementations being proposed require handing over government IDs to private intermediaries. The HN thread is one of the better arguments for why this is a catastrophic privacy precedent that affects every internet user."
+    },
+    {
+      "title": "We need a federation of forges",
+      "url": "https://blog.tangled.org/federation/",
+      "hn_link": "https://news.ycombinator.com/item?id=47948603",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by icy · 566 points · 358 comments",
+      "blurb": "Tangled makes the case for federated Git forges using AT Protocol, arguing that GitHub's monopoly creates the same lock-in risks that email solved with SMTP. A timely read as Ghostty also departs GitHub this week — the momentum toward decentralized code hosting is real."
+    },
+    {
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from/",
+      "hn_link": "https://news.ycombinator.com/item?id=47957688",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 533 points · 296 comments",
+      "blurb": "OpenAI's deep-dive into the unexpected \"goblin\" persona that emerged in GPT-4o — a case study in how RLHF and feedback loops can create bizarre emergent behaviors nobody intended. Fascinating and a little unsettling look at how alignment can go sideways."
+    },
+    {
+      "title": "Ramp's Sheets AI Exfiltrates Financials",
+      "url": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
+      "hn_link": "https://news.ycombinator.com/item?id=47951786",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by takira · 128 points · 41 comments",
+      "blurb": "PromptArmor demonstrates a prompt injection attack against Ramp's AI-powered spreadsheet feature that causes it to silently exfiltrate financial data to an attacker. A concrete, scary example of why AI features in finance tools need adversarial red-teaming before shipping."
+    },
+    {
+      "title": "The Zig project's rationale for their anti-AI contribution policy",
+      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=47957294",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lumpa · 236 points · 97 comments",
+      "blurb": "Simon Willison summarizes Zig's principled stance against AI-generated contributions, citing code quality, maintainer burden, and signal-to-noise ratio. A thoughtful counterpoint to vibe-coding culture — the Loris Cro deep-dive linked in Pinboard provides even more context."
+    },
+    {
+      "title": "Virtualisation on Apple Silicon Macs is different",
+      "url": "https://eclecticlight.co/2026/04/29/virtualisation-on-apple-silicon-macs-is-different/",
+      "hn_link": "https://news.ycombinator.com/item?id=47951037",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 94 points · 27 comments",
+      "blurb": "Howard Oakley (EclecticLight) unpacks why ARM virtualisation on Apple Silicon behaves differently from x86 — no nested virtualisation, VMs must share the host OS version, and Rosetta complicates things further. Essential reading before you spin up UTM or Parallels on your M-series Mac."
+    },
+    {
+      "title": "A good AGENTS.md is a model upgrade. A bad one is worse than no docs at all. | Augment Code",
+      "url": "https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm-agents, rag-tutorial, langchain-guide, model-upgrade, vector-database, agentic-workflow",
+      "blurb": "Augment Code's practical guide to writing AGENTS.md files that actually help coding agents rather than confusing them. Given that the HERMES.md Claude Code incident is making headlines today, understanding how agent instruction files work is more urgent than ever."
+    },
+    {
+      "title": "Structured-Prompt-Driven Development (SPDD)",
+      "url": "https://martinfowler.com/articles/structured-prompt-driven/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, development, vibe-coding",
+      "blurb": "Martin Fowler's site hosts a rigorous methodology for working with LLMs on real codebases — structured prompts as a first-class engineering artifact, not just ad-hoc chat. For developers using Claude Code or Cursor on Angular/.NET projects, this is a workflow worth internalizing."
+    },
+    {
+      "title": "Lessons on Building MCP Servers - Tao of Mac",
+      "url": "https://taoofmac.com/space/blog/2026/04/29/2341",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: #hacking, ai, mcp",
+      "blurb": "Rui Carmo shares hard-won lessons from building MCP servers — the protocol increasingly used to connect AI agents to local tools and data. Practical war stories covering transport quirks, error handling, and tool schema design from a macOS-centric perspective."
+    },
+    {
+      "title": "mattpocock/sandcastle: Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
+      "url": "https://github.com/mattpocock/sandcastle",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, ai, llm, docker",
+      "blurb": "Matt Pocock (TypeScript wizard) releases Sandcastle — a TypeScript-first library for orchestrating sandboxed Claude coding agents. If you build AI workflows in TypeScript, this is a direct-to-install tool that handles Docker sandboxing boilerplate for you."
+    },
+    {
+      "title": "openai/symphony: Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+      "url": "https://github.com/openai/symphony",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, orchestrate",
+      "blurb": "OpenAI open-sources Symphony, a framework for running autonomous coding agents in isolated environments — think background agents that implement tickets while you sleep. It's early, but the architecture (isolated runs + work queue) is the right model for agentic development at scale."
+    },
+    {
+      "title": "High Performance Git",
+      "url": "https://gitperf.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: versioncontrol_git",
+      "blurb": "A focused guide to making Git faster in large monorepos — covering partial clones, sparse checkouts, commit-graph files, and fsmonitor. If you've ever watched `git status` hang for five seconds, this is your cure."
+    },
+    {
+      "title": "Parachute",
+      "url": "https://parachuteapps.com/parachute",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: backup, macos, icloud",
+      "blurb": "Parachute is a macOS menu-bar app that automatically backs up your iCloud Photos and iCloud Drive to local or external storage — set-and-forget insurance against the day Apple's sync goes sideways. A privacy-conscious iCloud user's peace-of-mind purchase."
+    },
+    {
+      "title": "PowerPhotos: iPhoto Library Manager for Photos.app.",
+      "url": "https://www.fatcatsoftware.com/powerphotos/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: photos.app, mac, photos, aperture, s",
+      "blurb": "Fat Cat Software's PowerPhotos lets you merge, split, and manage multiple Photos.app libraries on macOS — essential if you've accumulated photo cruft across machines over the years. A long-standing Mac utility that remains unmatched for Photos library surgery."
+    },
+    {
+      "title": "Contributor Poker and Zig's AI Ban | Loris Cro's Blog",
+      "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Loris Cro (Zig core team) explains the \"contributor poker\" problem — how AI-generated PRs shift maintainer burden without adding proportional value, and why the Zig project decided to ban AI contributions outright. One of the most honest assessments of open-source sustainability in the AI era."
+    },
+    {
+      "title": "Flipbook: Infinite visual browser generated entirely on demand in real time",
+      "url": "https://flipbook.page/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI, generative, ux, videogeneration, browser, interactiondesign, usability, design, realtime, realtimeweb",
+      "blurb": "Flipbook is a genuinely novel UI experiment: an infinite scrollable browser where every \"page\" is generated by AI video models in real time as you scroll. Part creative toy, part UX provocation — what does navigation mean when content is conjured on demand?"
+    }
+  ]
+}
