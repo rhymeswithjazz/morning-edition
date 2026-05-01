@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-01",
+  "stories": [
+    {
+      "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
+      "url": "https://twitter.com/theo/status/2049645973350363168",
+      "hn_link": "https://news.ycombinator.com/item?id=47963204",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by elmean · 1135 points · 623 comments",
+      "blurb": "A viral discovery: Claude Code appears to treat commit messages containing \"OpenClaw\" (a rival AI brand name) as a trigger for refusals or pricing surprises. This is a significant trust and transparency issue for anyone using Claude Code as their primary coding assistant — which is exactly the reader profile here. 623 comments suggests the community is furious and dissecting the behavior in depth."
+    },
+    {
+      "title": "Can I disable all data collection from my vehicle?",
+      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+      "hn_link": "https://news.ycombinator.com/item?id=47967786",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 618 points · 251 comments",
+      "blurb": "Rivian's own support doc lays out exactly what data your EV collects and what — if anything — you can turn off. Spoiler: the answer is complicated. A must-read for privacy-conscious tech people who own or are eyeing modern connected vehicles."
+    },
+    {
+      "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
+      "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/",
+      "hn_link": "https://news.ycombinator.com/item?id=47965060",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by the-mitr · 581 points · 190 comments",
+      "blurb": "An MIT Press excerpt recounts how AT&T technician Mark Klein blew the whistle on the NSA's Room 641A fiber-tap operation — one of the most consequential mass surveillance revelations before Snowden. Essential historical reading for anyone who cares about digital rights and the architecture of surveillance."
+    },
+    {
+      "title": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "hn_link": "https://news.ycombinator.com/item?id=47965108",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ori_b · 486 points · 370 comments",
+      "blurb": "A scathing oss-security post reveals that Linux kernel maintainers patch CVEs silently without giving distros advance notice, leaving everyone scrambling on patch day. This coordination gap has real-world consequences for every server running Linux — and the 370-comment thread is a heated debate about open-source security norms."
+    },
+    {
+      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
+      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+      "hn_link": "https://news.ycombinator.com/item?id=47964617",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by j12y · 390 points · 133 comments",
+      "blurb": "Semgrep's security team found malicious code lurking inside a PyTorch Lightning dependency — named after a Dune sandworm, no less. If you're building or training AI models and pulling from PyPI, this is an urgent supply-chain security wake-up call."
+    },
+    {
+      "title": "Opus 4.7 knows the real Kelsey",
+      "url": "https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously",
+      "hn_link": "https://news.ycombinator.com/item?id=47951295",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilamont · 337 points · 176 comments",
+      "blurb": "A journalist discovers that Claude Opus 4.7 can identify her from conversational context alone, raising unsettling questions about AI anonymity and persistent user profiling. For daily Claude Code users, this is a pointed reminder that your AI assistant may know more about you than you've explicitly shared."
+    },
+    {
+      "title": "You can beat the binary search",
+      "url": "https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/",
+      "hn_link": "https://news.ycombinator.com/item?id=47924912",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vok · 311 points · 142 comments",
+      "blurb": "Daniel Lemire (the king of bit-twiddling benchmarks) demonstrates that interpolation-based search can outperform classic binary search on sorted integer arrays. Highly actionable for performance-sensitive TypeScript/.NET work where lookup speed matters."
+    },
+    {
+      "title": "Honker – Durable queues, streams, pub/sub, and cron scheduler in a SQLite file",
+      "url": "https://honker.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=47963316",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ferriswil · 212 points · 54 comments",
+      "blurb": "Honker packs durable message queues, pub/sub, and cron scheduling into a single SQLite file — zero infrastructure required. For .NET developers tired of spinning up Redis or RabbitMQ for side projects, this is a compelling drop-in alternative you can try today."
+    },
+    {
+      "title": "Does Postgres Scale?",
+      "url": "https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres",
+      "hn_link": "https://news.ycombinator.com/item?id=47966625",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by KraftyOne · 129 points · 57 comments",
+      "blurb": "DBOS benchmarks workflow execution at scale on vanilla Postgres and the results will surprise skeptics: it handles far more concurrency than conventional wisdom suggests. A pragmatic read for developers wondering whether to reach for a dedicated queue system or just lean on their existing Postgres instance."
+    },
+    {
+      "title": "Full-Text Search with DuckDB",
+      "url": "https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47966254",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ethagnawl · 128 points · 30 comments",
+      "blurb": "A concise walkthrough showing how to stand up full-text search using DuckDB's built-in FTS extension — no Elasticsearch, no extra services. Given DuckDB's rising popularity as an embedded analytics engine, this is an immediately actionable technique for local-first and CLI tooling."
+    },
+    {
+      "title": "Spain's parliament will act against massive IP blockages by LaLiga",
+      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by akyuu · 479 points · 187 comments",
+      "blurb": "LaLiga's piracy-blocking system has been collaterally nuking innocent websites via ISP-level IP blocking — and now Spanish lawmakers are pushing back. This is a landmark digital-rights case with implications for how courts let rightsholder groups wield infrastructure-level censorship tools."
+    },
+    {
+      "title": "Belgium stops decommissioning nuclear power plants",
+      "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by mpweiher · 806 points · 815 comments",
+      "blurb": "Belgium reverses its nuclear phase-out, halting decommissioning of existing plants amid energy security concerns. The 815-comment thread is one of the day's most active debates, covering energy policy, climate trade-offs, and the engineering reality of keeping aging reactors online."
+    },
+    {
+      "title": "Apple Says Mac Studio and Mac Mini Will Be in Short Supply for Months",
+      "url": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tosh · 68 points · 53 comments",
+      "blurb": "Apple is warning of prolonged supply constraints on Mac Studio and Mac Mini — likely tariff and manufacturing fallout. If you've been eyeing an upgrade to your development machine, order sooner rather than later or expect a long wait."
+    },
+    {
+      "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+      "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by steveharing1 · 289 points · 184 comments",
+      "blurb": "IBM's Granite 4.1 reportedly matches much larger mixture-of-experts models at just 8 billion parameters — and it's open source. For developers wanting a capable local model for AI workflows without the VRAM tax, this is worth benchmarking against your current setup."
+    },
+    {
+      "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by zikani_03 · 99 points · 33 comments",
+      "blurb": "watchTowr details a critical authentication bypass in cPanel/WHM — one of the most widely deployed hosting control panels on the planet. If you manage or share hosting infrastructure with cPanel, patch immediately; this class of vuln is exploit-at-scale territory."
+    },
+    {
+      "title": "I built a Game Boy emulator in F#",
+      "url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by elvis70 · 272 points · 63 comments",
+      "blurb": "A deep-dive blog post on building a cycle-accurate Game Boy emulator entirely in F# — a language adjacent to .NET but rarely pushed this hard. Great inspiration for .NET developers curious about functional programming for systems-level work, with solid coverage of CPU emulation, PPU rendering, and timing."
+    },
+    {
+      "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
+      "url": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by wglb · 80 points · 22 comments",
+      "blurb": "New research suggests Snowball Earth episodes weren't simple freeze-thaw events but part of a far more chaotic, multi-cycle feedback system. The kind of deep-time geological mystery that makes you appreciate just how alien early Earth was."
+    },
+    {
+      "title": "New mechanical panoramic film camera from Jeff Bridges",
+      "url": "https://wideluxx.com",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by armadsen · 135 points · 63 comments",
+      "blurb": "Yes, that Jeff Bridges — the actor has launched a mechanical panoramic 35mm film camera called the Widelux X. A beautifully niche piece of creative hardware for photographers who want to shoot wide-format film without digital assistance."
+    },
+    {
+      "title": "A Primer on Bézier Curves – So What Makes a Bézier Curve?",
+      "url": "https://pomax.github.io/bezierinfo/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by mostlyk · 139 points · 21 comments",
+      "blurb": "The definitive interactive online textbook on Bézier curves is making the rounds again — and for good reason. Whether you're building custom UI animations, SVG tooling, or creative coding projects, this is the reference you'll bookmark and return to repeatedly."
+    },
+    {
+      "title": "I Got Sick of Remembering Port Numbers",
+      "url": "https://gregraiz.com/blog/local-vibe/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by graiz · 84 points · 77 comments",
+      "blurb": "A developer built a local DNS + reverse-proxy setup so every service gets a friendly `.local` hostname instead of `localhost:3000`, `localhost:8080`, etc. Immediately actionable for anyone juggling multiple dev servers — the kind of quality-of-life tweak that pays dividends daily."
+    }
+  ]
+}
