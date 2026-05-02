@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-02",
+  "stories": [
+    {
+      "title": "The gay jailbreak technique (2025)",
+      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "hn_link": "https://news.ycombinator.com/item?id=47977134",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bobsmooth · 513 points · 211 comments",
+      "blurb": "A documented prompt-injection technique that reliably bypasses safety filters in major LLMs by exploiting how models handle identity-framing. With 513 points and 211 comments, HN is clearly fascinated by what this reveals about alignment fragility. Essential reading for anyone building with or on top of LLMs who needs to understand real-world adversarial inputs."
+    },
+    {
+      "title": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "hn_link": "https://news.ycombinator.com/item?id=47972511",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by sleepingNomad · 495 points · 143 comments",
+      "blurb": "A macOS menu-bar utility that reads USB-C cable capabilities — speed, power delivery, Thunderbolt support — and surfaces them in a glanceable UI. The USB-C chaos is real and this is a practical fix for every Mac user drowning in unlabeled cables. Pairs perfectly with the HN thread discussing the broader USB situation."
+    },
+    {
+      "title": "Ti-84 Evo",
+      "url": "https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo",
+      "hn_link": "https://news.ycombinator.com/item?id=47979583",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by thatxliner · 433 points · 373 comments",
+      "blurb": "Texas Instruments finally refreshes the TI-84 line with a color screen, rechargeable battery, and USB-C — after decades of the same design. The 373-comment HN thread is a nostalgia explosion mixed with real debate about whether locked-down hardware has a future when phones exist. A cultural moment for anyone who grew up sneaking programs onto their calculator."
+    },
+    {
+      "title": "City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo",
+      "url": "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/",
+      "hn_link": "https://news.ycombinator.com/item?id=47978370",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by joshcsimmons · 398 points · 103 comments",
+      "blurb": "Surveillance vendor Flock Safety used live camera access to a children's facility as an unauthorized sales demo — and the city renewed the contract anyway. A stark illustration of how surveillance infrastructure gets normalized regardless of egregious misuse. 404 Media's reporting here is exactly the accountability journalism this beat needs."
+    },
+    {
+      "title": "New research suggests people can communicate and practice skills while dreaming",
+      "url": "https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we",
+      "hn_link": "https://news.ycombinator.com/item?id=47977748",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by XzetaU8 · 322 points · 187 comments",
+      "blurb": "Emerging research on lucid dreaming shows subjects can receive and respond to simple prompts during REM sleep and even consolidate motor skills. The New Yorker digs into the ethics and implications of sleep-based learning before it becomes a commercial product. Wild territory at the intersection of neuroscience and human performance."
+    },
+    {
+      "title": "Spotify adds 'Verified' badges to distinguish human artists from AI",
+      "url": "https://www.bbc.com/news/articles/c5yerr4m1yno",
+      "hn_link": "https://news.ycombinator.com/item?id=47976856",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by reconnecting · 239 points · 265 comments",
+      "blurb": "Spotify is rolling out verified badges for human artists as AI-generated music floods the platform — a provenance move that mirrors what social networks did for identity. The 265-comment thread debates whether this actually solves anything or just adds a new vector for manipulation. The creative-authenticity question is only going to get louder."
+    },
+    {
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "hn_link": "https://news.ycombinator.com/item?id=47977470",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by taubek · 133 points · 41 comments",
+      "blurb": "An open-source multimodal pipeline that combines vision, audio, and text models to produce detailed understanding of arbitrary media — video, images, documents. Think of it as a universal AI \"read this\" command you can pipe anything into. Highly composable and directly useful for developers building AI-augmented workflows."
+    },
+    {
+      "title": "Running Adobe's 1991 PostScript Interpreter in the Browser",
+      "url": "https://www.pagetable.com/?p=1854",
+      "hn_link": "https://news.ycombinator.com/item?id=47973755",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ingve · 139 points · 31 comments",
+      "blurb": "Michael Steil reverse-engineers and runs Adobe's original 1991 PostScript interpreter entirely in the browser via WebAssembly. A remarkable piece of software archaeology that reveals just how elegant and complete that 35-year-old codebase was. Crack this open if you care about the history of desktop publishing and page description languages."
+    },
+    {
+      "title": "Whohas – Command-line utility for cross-distro, cross-repository package search",
+      "url": "https://github.com/whohas/whohas",
+      "hn_link": "https://news.ycombinator.com/item?id=47975592",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by peter_d_sherman · 142 points · 33 comments",
+      "blurb": "Whohas lets you search for a package name across Debian, Arch, Homebrew, and a dozen other repos simultaneously from the terminal — no browser tab-hopping required. A small tool with outsized daily utility for polyglot developers who work across environments. Install it once and you'll wonder how you lived without it."
+    },
+    {
+      "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+      "url": "https://github.com/microsoft/lib0xc",
+      "hn_link": "https://news.ycombinator.com/item?id=47978834",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by wooster · 145 points · 50 comments",
+      "blurb": "Microsoft open-sources lib0xc, a collection of C APIs designed to eliminate entire classes of memory-safety bugs without switching languages. It's a pragmatic complement to the ongoing Rust-vs-C debate — hardening existing C codebases rather than rewriting them. Worth watching as it feeds into broader industry memory-safety mandates."
+    },
+    {
+      "title": "Copy Fail: 732 Bytes to Root on Every Major Linux Distributions - Xint",
+      "url": "https://xint.io/blog/copy-fail-linux-distributions",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "A devastating local privilege escalation — just 732 bytes of exploit code — that achieves root on all major Linux distributions. The Pinboard crowd flagged this as urgent, and for good reason: any developer running Linux VMs, WSL, or CI containers needs to patch immediately. Short post, high severity."
+    },
+    {
+      "title": "The most severe Linux threat to surface in years catches the world flat-footed",
+      "url": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: linux, security, epicfail, doom",
+      "blurb": "Ars Technica's deep-dive on the Linux vulnerability making headlines — how it was found, why it's so severe, and why the patch response has been chaotic. Complements the Xint exploit post above with crucial context on scope and remediation. If you run any Linux-adjacent infrastructure, this is required reading today."
+    },
+    {
+      "title": "warpdotdev/warp: Warp is an agentic development environment, born out of the terminal.",
+      "url": "https://github.com/warpdotdev/warp",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: terminal, *",
+      "blurb": "Warp has open-sourced its terminal on GitHub, a significant moment for a product that's been building toward an AI-native developer experience for years. The repo landing on Pinboard Popular signals the dev community is taking a fresh look now that the code is inspectable. Directly relevant if you're evaluating terminal emulators for your macOS setup."
+    },
+    {
+      "title": "Why I Don't Vibe Code | jacobharr.is",
+      "url": "https://jacobharr.is/personal/i-dont-vibe-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: vibecoding, programming",
+      "blurb": "A measured pushback against the \"just prompt it\" school of AI-assisted development, arguing that surrendering understanding to the model creates compounding technical debt. The author isn't anti-AI — they're pro-comprehension, which is a meaningful distinction. A good counterweight to the hype if you're thinking carefully about how Claude Code fits into your workflow."
+    },
+    {
+      "title": "llm-wiki · GitHub",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: s",
+      "blurb": "Andrej Karpathy's Gist describing his \"LLM Wiki\" workflow — using language models to maintain and grow a personal Obsidian-style knowledge base that evolves over time. For an Obsidian user who also builds with AI tools, this is the most directly actionable item in today's edition. The companion blog post (also in today's Pinboard picks) explains the full system."
+    },
+    {
+      "title": "Karpathy 的知识库管理方法：用 LLM 维护一个会自我生长的 Obsidian Wiki | Verne in GitHub",
+      "url": "https://blog.einverne.info/post/2026/04/karpathy-obsidian-llm-wiki-knowledge-management.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, Instapaper",
+      "blurb": "A detailed Chinese-language breakdown of Karpathy's LLM Wiki pattern, explaining the core loop: LLM reads your notes, synthesizes new connections, and writes back into your Obsidian vault. Even if you can't read Chinese, the diagrams and code snippets are illuminating. This is the implementation guide to pair with the Gist above."
+    },
+    {
+      "title": "I Kind of Fixed My iCloud Photos Problem and All I Got Was Two Blog Posts and Probably Years Off My Life – Pixel Envy",
+      "url": "https://pxlnv.com/blog/icloud-photos-followup/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apple-photos",
+      "blurb": "Nick Heer's follow-up on the iCloud Photos deduplication nightmare documents what actually worked (and what broke things worse) for a real-world library with years of cruft. Opinionated, Mac-specific, and full of hard-won insights for anyone who's been putting off dealing with their photo library. The kind of post that saves you a weekend of pain."
+    },
+    {
+      "title": "alchemy — zero to production. TypeScript IaC on Effect.",
+      "url": "https://v2.alchemy.run/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: typescript, effect",
+      "blurb": "Alchemy v2 is a TypeScript-native Infrastructure-as-Code framework built on the Effect library — no YAML, no HCL, just typed TypeScript all the way down. A strong pitch for TypeScript/.NET developers who are tired of context-switching between app code and infra DSLs. The Effect integration brings structured concurrency and error handling to cloud provisioning."
+    },
+    {
+      "title": "Techniques for better software testing | Antithesis",
+      "url": "https://antithesis.com/docs/resources/testing_techniques/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: testing",
+      "blurb": "Antithesis publishes a practical reference of advanced testing techniques — property-based testing, fault injection, simulation testing — with clear examples and when-to-apply guidance. This is the kind of reference that should live in your bookmarks alongside your testing framework docs. Directly actionable for any developer looking to level up their test suite."
+    },
+    {
+      "title": "Datatype — variable font that turns text into charts",
+      "url": "https://franktisellano.github.io/datatype/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: charts, visualization, typeface",
+      "blurb": "Datatype is a variable font where individual glyphs encode data — bar heights, line positions — turning typography itself into a data visualization medium. It's a genuinely novel creative coding concept that blurs the line between type design and infographics. Delightful to play with and full of inspiration for anyone doing data storytelling."
+    }
+  ]
+}
