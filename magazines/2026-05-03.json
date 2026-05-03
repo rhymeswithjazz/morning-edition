@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-03",
+  "stories": [
+    {
+      "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "hn_link": "https://news.ycombinator.com/item?id=47989883",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by indrora · 1135 points · 573 comments",
+      "blurb": "Microsoft quietly added Copilot co-authorship metadata to git commits even when you never touched the AI feature — a consent and attribution nightmare that blew up across the dev community. This isn't just an annoyance; it muddies commit histories and raises genuine questions about what 'using' an AI tool even means legally. If you use VS Code for any client work, check your recent commits now."
+    },
+    {
+      "title": "DeepSeek V4—almost on the frontier",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "hn_link": "https://news.ycombinator.com/item?id=47977026",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by indigodaddy · 536 points · 325 comments",
+      "blurb": "Simon Willison's sharp-eyed breakdown of DeepSeek V4 finds it punching near frontier-model weight at a fraction of the cost. For developers already integrating LLMs into their workflows, this matters: another serious open-weights option means more negotiating leverage and more self-hostable power. The 'almost' in the title is doing interesting work — read why."
+    },
+    {
+      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+      "url": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/",
+      "hn_link": "https://news.ycombinator.com/item?id=47993235",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bazlightyear · 257 points · 116 comments",
+      "blurb": "An open-weights model from Moonshot AI topped a rigorous coding benchmark over Claude, GPT-5.5, and Gemini — a significant moment for the competitive landscape. If you're using Claude Code as your daily driver, this is context worth having: the gap between frontier proprietary models and the open-source pack is visibly closing. Expect this to accelerate model-switching in production codebases."
+    },
+    {
+      "title": "Do_not_track",
+      "url": "https://donottrack.sh/",
+      "hn_link": "https://news.ycombinator.com/item?id=47988592",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by RubyGuy · 306 points · 99 comments",
+      "blurb": "A shell script toolkit designed to harden your system against tracking and telemetry at the OS and network level. Privacy-conscious developers will appreciate the CLI-first approach and the transparency of a readable script over a black-box app. Install it, audit it, and consider it a complement to your existing privacy stack."
+    },
+    {
+      "title": "Six Years Perfecting Maps on WatchOS",
+      "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/",
+      "hn_link": "https://news.ycombinator.com/item?id=47990606",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by valzevul · 276 points · 61 comments",
+      "blurb": "Indie developer David Smith (Widgetsmith, Pedometer++) writes candidly about half a decade of wrestling with watchOS's Maps APIs — the dead ends, the breakthroughs, and the craft decisions that shaped his app. A rare, honest account of what long-term Apple platform development actually looks like. Essential reading if you're building anything for the Apple ecosystem."
+    },
+    {
+      "title": "This Month in Ladybird - April 2026",
+      "url": "https://ladybird.org/newsletter/2026-04-30/",
+      "hn_link": "https://news.ycombinator.com/item?id=47990318",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by richardboegli · 305 points · 62 comments",
+      "blurb": "Ladybird, the genuinely-from-scratch independent browser, continues to log serious engineering progress — new CSS features, JS engine improvements, and growing contributor counts. Browser engine diversity matters for the open web, and Ladybird is the most credible new entrant in decades. Worth following even if you're not contributing."
+    },
+    {
+      "title": "How fast is a macOS VM, and how small could it be?",
+      "url": "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/",
+      "hn_link": "https://news.ycombinator.com/item?id=47984852",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by moosia · 246 points · 86 comments",
+      "blurb": "Howard Oakley benchmarks macOS virtual machines on Apple Silicon, probing both raw performance headroom and minimum viable disk footprint. Practical gold for any Mac developer who wants a disposable test environment without the overhead. The results on minimum size are surprisingly encouraging."
+    },
+    {
+      "title": "Open Design: Use Your Coding Agent as a Design Engine",
+      "url": "https://github.com/nexu-io/open-design",
+      "hn_link": "https://news.ycombinator.com/item?id=47985750",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by steveharing1 · 199 points · 88 comments",
+      "blurb": "Open Design proposes a framework for driving UI/visual design decisions through coding agents rather than traditional design tools — think Figma replaced by structured prompts and component specs. It's provocative and immediately actionable for TypeScript/Angular developers already using Claude Code. The repo includes working examples to steal from today."
+    },
+    {
+      "title": "The agent harness belongs outside the sandbox",
+      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+      "hn_link": "https://news.ycombinator.com/item?id=47990675",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shad42 · 101 points · 75 comments",
+      "blurb": "A well-argued architectural position: the orchestration layer for AI agents should live outside the execution sandbox, not inside it. This has direct implications for how you structure Claude Code workflows and MCP server deployments. The threat model section alone is worth your time."
+    },
+    {
+      "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
+      "url": "https://acai.sh/blog/specsmaxxing",
+      "hn_link": "https://news.ycombinator.com/item?id=47994012",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by brendanmc6 · 73 points · 51 comments",
+      "blurb": "A developer's hard-won methodology for keeping AI coding sessions on track: write precise YAML specs before you touch a prompt, and treat the spec as the source of truth throughout. For Claude Code users frustrated by context drift and hallucinated architecture, this is a concrete counter-technique. The 'AI psychosis' framing is blunt but accurate."
+    },
+    {
+      "title": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "A curated library of 'core skills' designed to supercharge Claude Code — reusable prompt patterns, workflow primitives, and agent behaviors you can drop straight into your Claude Code setup. This is the kind of community-built toolkit that makes Claude Code exponentially more useful. Star it, fork it, and start stealing."
+    },
+    {
+      "title": "Flue — The Agent Harness Framework",
+      "url": "https://flueframework.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, typescript, sandbox",
+      "blurb": "Flue is a TypeScript-native framework for orchestrating AI agents with a clear separation between the harness and execution environment — directly complementing the architectural argument from today's HN pick. If you're building agentic workflows in TypeScript, this is worth an afternoon evaluation. The TypeScript-first design means it'll slot naturally into Angular/.NET adjacent projects."
+    },
+    {
+      "title": "google-labs-code/design.md: A format specification for describing a visual identity to coding agents",
+      "url": "https://github.com/google-labs-code/design.md",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, ui, ux, dev, agents",
+      "blurb": "Google Labs proposes DESIGN.md: a structured markdown file you commit to your repo so coding agents always understand your design system, color tokens, and component conventions. Think CLAUDE.md but for visual identity. Pair this with Open Design (story #8) and your Claude Code sessions get dramatically more coherent UI output."
+    },
+    {
+      "title": "designdotmd.directory — the directory of design.md files for coding agents",
+      "url": "https://designdotmd.directory/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: design",
+      "blurb": "A community-curated directory of DESIGN.md files from real projects — essentially a pattern library for telling your coding agent about your design system. Browse existing examples to bootstrap your own or get inspiration for what a well-formed design spec looks like. Actionable in under an hour."
+    },
+    {
+      "title": "GitHub - yogthos/chiasmus: Chiasmus is an MCP server that gives language models access to formal verification",
+      "url": "https://github.com/yogthos/chiasmus",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mcp, programming, language, prolog, treesitter, agentic, coding, map, ast, formal-methods, solver",
+      "blurb": "Chiasmus is an MCP server that exposes formal verification tools (Prolog, tree-sitter AST analysis) to LLMs — letting your coding agent actually prove properties about code rather than just guessing. This is a genuinely novel use of the MCP protocol and a step toward more trustworthy AI-assisted code review. Claude Code users can plug this in today."
+    },
+    {
+      "title": "Ghostbox — Disposable little dev machines",
+      "url": "https://www.ghost.charity/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: container, dev, temporary, ephemeral, box, machine, vbox, virtual, cloud",
+      "blurb": "Ghostbox spins up ephemeral cloud dev machines you can burn after use — perfect for testing risky agent runs, untrusted code, or one-off experiments without polluting your main environment. The UX is refreshingly minimal. A natural complement to any Claude Code workflow that touches the filesystem."
+    },
+    {
+      "title": "Warm Burnout: warm color theme for VS Code, JetBrains, Neovim, Ghostty, and more",
+      "url": "https://warmburnout.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: colours, themes, editors, color-schemes, neovim, terminal",
+      "blurb": "\"The theme suite for developers who already burned out but still have deadlines\" — Warm Burnout is a cohesive amber/sienna color scheme spanning VS Code, JetBrains, Neovim, and Ghostty. Sometimes the right editor theme is the difference between grinding and flowing. The cross-editor consistency is genuinely impressive."
+    },
+    {
+      "title": "I installed a small LLM on my Mac laptop — here's why I can't go back",
+      "url": "https://www.tomsguide.com/ai/i-installed-a-small-llm-on-my-mac-laptop-heres-why-i-cant-go-back",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm",
+      "blurb": "A hands-on account of running Cotypist — a local LLM-powered autocomplete app for macOS — with a Gemma 4 model entirely on-device. No cloud, no latency, no data leaving your machine: a perfect fit for privacy-conscious Mac developers. The Tab-to-complete UX is deceptively addictive."
+    },
+    {
+      "title": "Theo - t3.gg on X: Claude Code refusing requests or billing extra over 'OpenClaw' in JSON blobs",
+      "url": "https://x.com/theo/status/2049645973350363168",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: anthropic-claude, code-refusal, openclaw-json, commit-analysis, billing-issue, repo-example",
+      "blurb": "Theo surfaces a bizarre Claude Code behavior: the presence of a specific keyword ('OpenClaw') in a JSON blob in your repo can trigger outright refusals or unexpected billing. For anyone using Claude Code on real codebases with complex commit histories or third-party configs, this is a must-know footgun. The bug report is both alarming and oddly fascinating."
+    },
+    {
+      "title": "[2604.15597] LLMs Corrupt Your Documents When You Delegate",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, teaching, toread",
+      "blurb": "A new arxiv paper with an uncomfortable finding: when you delegate document editing or summarization to LLMs, they systematically introduce subtle distortions — not hallucinations exactly, but meaning drift and emphasis corruption. If you use AI to help draft or refine documentation in your codebase, this paper should change how you review that output."
+    }
+  ]
+}
