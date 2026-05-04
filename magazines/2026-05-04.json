@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-04",
+  "stories": [
+    {
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
+      "url": "https://github.com/aattaran/deepclaude",
+      "hn_link": "https://news.ycombinator.com/item?id=48002136",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alattaran · 432 points · 162 comments",
+      "blurb": "A drop-in enhancement for Claude Code that routes reasoning through DeepSeek V4 Pro before Claude executes — essentially giving you a thinking layer on top of Anthropic's agent loop. If you're already living in Claude Code, this is a one-repo upgrade worth trying. 162 comments means the community has opinions."
+    },
+    {
+      "title": "Agentic Coding Is a Trap",
+      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "hn_link": "https://news.ycombinator.com/item?id=48002442",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ayoisaiah · 351 points · 253 comments",
+      "blurb": "A sharp counterpoint to the Claude Code hype cycle: the author argues that delegating too much to coding agents erodes the deep understanding that makes you a good engineer in the first place. Whether you agree or not, 253 comments suggest this hit a nerve. Required reading before you auto-accept your next 500-line diff."
+    },
+    {
+      "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "hn_link": "https://news.ycombinator.com/item?id=47991981",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by donsupreme · 388 points · 331 comments",
+      "blurb": "Harvard's ER trial is one of the most credible real-world benchmarks for LLM reasoning yet — beating triage doctors by 12–17 percentage points is a big number. The 331-comment thread digs into methodology, base rates, and what 'correct diagnosis' actually means in a noisy ER setting."
+    },
+    {
+      "title": "Why TUIs are back",
+      "url": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
+      "hn_link": "https://news.ycombinator.com/item?id=48000028",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rickcarlino · 329 points · 341 comments",
+      "blurb": "A well-argued case for the TUI renaissance: Rust ecosystem tooling, remote-first workflows, and terminal multiplexers have conspired to make text UIs feel modern again. The 341-comment thread is basically a love letter to tools like lazygit, btop, and friends — expect to end up with a new terminal app installed."
+    },
+    {
+      "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
+      "url": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
+      "hn_link": "https://news.ycombinator.com/item?id=48002938",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by SpyCoder77 · 215 points · 91 comments",
+      "blurb": "The essential flip side to the TUI revival story above. A screen-reader user explains in precise detail how modern TUIs — despite looking like plain text — are a minefield for assistive technology. If you're building CLI tools, this is the accessibility audit you didn't know you needed."
+    },
+    {
+      "title": "Bad Connection: Global telecom exploitation by covert surveillance actors",
+      "url": "https://citizenlab.ca/research/uncovering-global-telecom-exploitation-by-covert-surveillance-actors/",
+      "hn_link": "https://news.ycombinator.com/item?id=47998449",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by miohtama · 148 points · 9 comments",
+      "blurb": "Citizen Lab's latest report maps a sprawling SS7/Diameter exploit network used by state-level surveillance actors to silently track and intercept mobile communications globally. Methodical, sourced, and alarming — this is what telecom-level privacy threats actually look like in 2026."
+    },
+    {
+      "title": "Security through obscurity is not bad",
+      "url": "https://mobeigi.com/blog/security/security-through-obscurity-is-not-bad/",
+      "hn_link": "https://news.ycombinator.com/item?id=47997486",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by mobeigi · 159 points · 180 comments",
+      "blurb": "A measured, well-reasoned pushback on the dogma that obscurity has zero security value. The author argues it's a valid layer in a defense-in-depth stack — not a replacement for real security. The 180-comment thread is a genuinely productive security debate."
+    },
+    {
+      "title": "LLMs Are Not a Higher Level of Abstraction",
+      "url": "https://www.lelanthran.com/chap15/content.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47999520",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lelanthran · 117 points · 107 comments",
+      "blurb": "Cuts against the popular framing of LLMs as 'the next abstraction layer above code.' The author makes a careful distinction: LLMs are a new input modality, not an abstraction — and confusing the two leads to bad architectural decisions. Meaty enough to bookmark for your next AI-design debate."
+    },
+    {
+      "title": "Mercedes-Benz commits to bringing back physical buttons",
+      "url": "https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/",
+      "hn_link": "https://news.ycombinator.com/item?id=47997418",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by teleforce · 696 points · 390 comments",
+      "blurb": "The highest-scored story of the day is a vindication for every UX engineer who argued that touch-only interfaces are worse. Mercedes is admitting the all-touchscreen experiment failed, which has ripple effects on automotive HMI design everywhere. The 390-comment thread is a cathartic roast of over-engineered dashboards."
+    },
+    {
+      "title": "Show HN: Apple's SHARP running in the browser via ONNX runtime web",
+      "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+      "hn_link": "https://news.ycombinator.com/item?id=47995037",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by bring-shrubbery · 171 points · 43 comments",
+      "blurb": "Someone ported Apple's SHARP (Super-Resolution for photos) ML model to run entirely in-browser using ONNX Web Runtime. You get Apple-quality image upscaling without a server or a Mac. Directly actionable for web apps that need client-side photo enhancement."
+    },
+    {
+      "title": "The 'Hidden' Costs of Great Abstractions",
+      "url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jdgr · 161 points · 60 comments",
+      "blurb": "Abstractions feel free until they're not — this post catalogues the hidden costs that only show up months later: debugging opacity, onboarding friction, and escape-hatch complexity. Highly relevant for anyone making architectural decisions in Angular or .NET where leaky abstractions are a daily reality."
+    },
+    {
+      "title": "Denuvo has been cracked in all single-player games it previously protected",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by oceansky · 329 points · 194 comments",
+      "blurb": "Every single-player title ever protected by Denuvo DRM has now been cracked — a watershed moment for DRM skeptics. The response from 2K and Denuvo (mandatory 14-day online checks) is arguably worse than the problem it's solving. A fascinating case study in security arms races that punish legitimate users."
+    },
+    {
+      "title": "Show HN: Ableton Live MCP",
+      "url": "https://github.com/bschoepke/ableton-live-mcp",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bschoepke · 82 points · 54 comments",
+      "blurb": "An MCP (Model Context Protocol) server that lets AI assistants directly control Ableton Live — create tracks, set tempos, trigger clips, all via natural language. The creative-software/AI intersection is getting very interesting very fast, and this is one of the most practical demos yet."
+    },
+    {
+      "title": "Text-to-CAD",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by softservo · 112 points · 30 comments",
+      "blurb": "Describe a 3D object in plain English and get back CAD-ready geometry. It's early and rough, but the workflow — LLM interprets intent, outputs parametric CAD primitives — is genuinely novel. Worth watching as the 'AI for physical design' category matures."
+    },
+    {
+      "title": "A desktop made for one",
+      "url": "https://isene.org/2026/05/Audience-of-One.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by xngbuilds · 338 points · 156 comments",
+      "blurb": "A personal computing manifesto: the author built a desktop environment tuned entirely to their own workflows with zero concession to convention. Resonates deeply for Obsidian power users and anyone who has ever spent a weekend customizing their dev environment — the 156-comment thread is full of kindred spirits sharing setups."
+    },
+    {
+      "title": "Tar Files Created on macOS Display Errors When Extracting on Linux (2024)",
+      "url": "https://aruljohn.com/blog/macos-created-tar-files-linux-errors/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by heresie-dabord · 102 points · 66 comments",
+      "blurb": "macOS tar silently adds ._ resource fork files and a __MACOSX directory that confuse Linux extractors — a footgun that bites cross-platform developers constantly. The post explains exactly why it happens and how to fix it with one flag. Bookmark this for the next time a teammate on Linux complains."
+    },
+    {
+      "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
+      "url": "https://partyon.xyz/@nullagent/116499715071759135",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by nullagent · 365 points · 116 comments",
+      "blurb": "A new LoRa-based mesh radio protocol claims to squeeze 100x more bandwidth out of the same spectrum that Meshtastic uses — potentially game-changing for off-grid comms. Still early hardware, but the thread has engineers digging into the RF math and it holds up."
+    },
+    {
+      "title": "US–Indian space mission maps extreme subsidence in Mexico City",
+      "url": "https://phys.org/news/2026-04-usindian-space-mission-extreme-subsidence.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by leopoldj · 149 points · 59 comments",
+      "blurb": "Satellite radar interferometry reveals parts of Mexico City are sinking at over 50cm per year — among the fastest urban subsidence ever recorded. The NISAR mission data is stunning and the implications for infrastructure are profound. A great example of space tech delivering concrete Earth science payoffs."
+    },
+    {
+      "title": "A treasure trove of fossils rewrites the story of early life",
+      "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by worldvoyageur · 27 points · 0 comments",
+      "blurb": "Quanta Magazine covers a newly described Cambrian fossil site with soft-tissue preservation good enough to revise our picture of animal evolution. Low HN score, but Quanta's science writing is reliably excellent — this is the kind of piece that makes you feel smart over your morning coffee."
+    },
+    {
+      "title": "K3sup – bootstrap K3s over SSH in < 60s",
+      "url": "https://github.com/alexellis/k3sup",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by rickcarlino · 51 points · 16 comments",
+      "blurb": "k3sup is Alex Ellis's battle-tested tool for spinning up lightweight Kubernetes clusters on any SSH-accessible machine in under a minute. If you've been meaning to experiment with K3s for local or edge deployments, this is the lowest-friction on-ramp available. One binary, one command."
+    }
+  ]
+}
