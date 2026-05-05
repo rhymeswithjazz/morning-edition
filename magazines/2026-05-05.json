@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-05",
+  "stories": [
+    {
+      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
+      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
+      "hn_link": "https://news.ycombinator.com/item?id=48012735",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cft · 532 points · 187 comments",
+      "blurb": "A security researcher demonstrates that Microsoft Edge keeps every saved password in plaintext in process memory, even for sites you haven't visited this session. This is a significant attack surface for any process that can read Edge's memory — malware, a compromised extension, or a local privilege escalation. Yet another reason to use a dedicated password manager and avoid browser-native credential storage."
+    },
+    {
+      "title": "I am worried about Bun",
+      "url": "https://wwj.dev/posts/i-am-worried-about-bun/",
+      "hn_link": "https://news.ycombinator.com/item?id=48011184",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by remote-dev · 485 points · 314 comments",
+      "blurb": "A developer raises concerns about Bun's governance, funding runway, and the sustainability of a single-company-controlled JavaScript runtime. The timing is notable given the separate news that Bun is quietly being ported from Zig to Rust. A must-read if you're betting any production workloads on Bun."
+    },
+    {
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "hn_link": "https://news.ycombinator.com/item?id=48016880",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by SergeAx · 476 points · 336 comments",
+      "blurb": "A commit in the Bun repo quietly reveals the runtime is being ported from Zig to Rust — a massive architectural shift that pairs perfectly with the 'I am worried about Bun' post dominating HN today. The Zig-to-Rust migration signals real engineering churn at Oven; the HN thread is full of analysis on what this means for the JS ecosystem."
+    },
+    {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "hn_link": "https://news.ycombinator.com/item?id=48013919",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Sean-Der · 398 points · 123 comments",
+      "blurb": "OpenAI's engineering blog dives into the infrastructure behind real-time voice AI — custom model serving, WebRTC pipelines, and latency budgets measured in tens of milliseconds. If you're building voice-enabled features on top of any LLM API, this is the clearest public writeup yet of what the production stack actually looks like."
+    },
+    {
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "hn_link": "https://news.ycombinator.com/item?id=48015397",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by BOOSTERHIDROGEN · 246 points · 105 comments",
+      "blurb": "Addy Osmani (Chrome DevRel lead) maps out the skill taxonomy for working effectively with AI coding agents — when to delegate, how to prompt for multi-step tasks, and where human judgment stays irreplaceable. Directly applicable to Claude Code workflows and pairs well with the agentic coding lessons post below."
+    },
+    {
+      "title": "Lessons for Agentic Coding: What should we do when code is cheap?",
+      "url": "https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48019025",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ingve · 26 points · 23 comments",
+      "blurb": "Ten sharp lessons on what changes about software development when code generation is nearly free — covering code review, architecture ownership, testing strategy, and technical debt accumulation. This is the kind of strategic rethinking that Claude Code users should be doing right now."
+    },
+    {
+      "title": "Train Your Own LLM from Scratch",
+      "url": "https://github.com/angelos-p/llm-from-scratch",
+      "hn_link": "https://news.ycombinator.com/item?id=48017948",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kristianpaul · 213 points · 22 comments",
+      "blurb": "A clean, well-documented GitHub repo walking through every stage of training a small language model from scratch — tokenization, transformer architecture, training loop, and inference. Great for anyone who wants to move from 'I use LLMs' to 'I understand LLMs' without wading through a textbook."
+    },
+    {
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/",
+      "hn_link": "https://news.ycombinator.com/item?id=48017298",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by raphaelcosta · 189 points · 112 comments",
+      "blurb": "Software engineering researcher Margaret-Anne Storey synthesizes emerging evidence that over-reliance on AI coding tools may be eroding developers' ability to reason deeply about their own code — a concept she calls 'cognitive debt.' Essential reading for anyone who uses Claude Code or Copilot heavily and wonders about the long-term cost."
+    },
+    {
+      "title": "Formatting a 25M-line codebase overnight",
+      "url": "https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story",
+      "hn_link": "https://news.ycombinator.com/item?id=48014325",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by r00k · 163 points · 85 comments",
+      "blurb": "Stripe's engineering blog recounts how they reformatted 25 million lines of Ruby in a single night using rubyfmt, with near-zero developer disruption. The tooling, git strategy, and rollout approach are all transferable lessons for anyone contemplating a large-scale formatter migration in .NET, TypeScript, or any other codebase."
+    },
+    {
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "hn_link": "https://news.ycombinator.com/item?id=48012162",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by bearsyankees · 195 points · 81 comments",
+      "blurb": "A detailed post-mortem on discovering a zero-authentication multi-tenant vulnerability in a DoD-backed SaaS startup — any user could access any other customer's data. Clear, methodical writeup with lessons on API design and authorization that apply equally to boring enterprise .NET apps."
+    },
+    {
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by john-doe · 107 points · 96 comments",
+      "blurb": "Chrome is quietly downloading Google's Nano AI model (4 GB) in the background without any user prompt or opt-in. If you've been wondering why your disk is disappearing, check your Chrome profile directories. Another solid argument for Safari on macOS."
+    },
+    {
+      "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Cars",
+      "url": "https://nobodyaskedforthis.lol/posts/connected-car/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by cadito · 91 points · 71 comments",
+      "blurb": "A deep dive into how modern connected cars have become surveillance platforms — tracking location, driving behavior, voice commands, and seat sensor data, then brokering it to advertisers and insurers. The data flows are more extensive and less regulated than anything on your phone."
+    },
+    {
+      "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+      "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by averi · 96 points · 33 comments",
+      "blurb": "A fresh CVE affecting rootless container copy operations — an attacker can exploit a TOCTOU race in certain configurations to escape expected file boundaries. If you're running rootless Podman or Docker in CI/CD pipelines, patch or mitigate now and read this writeup for the technical details."
+    },
+    {
+      "title": "Redis array: short story of a long development process",
+      "url": "https://antirez.com/news/164",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by antirez · 277 points · 91 comments",
+      "blurb": "Redis creator antirez writes a characteristically thoughtful post on the design and implementation journey of a new array data structure in Redis — covering memory layout decisions, performance tradeoffs, and API design philosophy. A treat for anyone who cares about how great infrastructure software gets built."
+    },
+    {
+      "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
+      "url": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 86 points · 17 comments",
+      "blurb": "A fascinating vintage Apple deep dive — the Apple Network Server 2.0 was a rare PPC server running AIX, but someone has now coaxed macOS onto its ROMs. Equal parts archaeology and hardware hacking, with detailed notes on bootrom behavior and firmware quirks that Apple historians will love."
+    },
+    {
+      "title": "How Monero's proof of work works",
+      "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by alcazar · 280 points · 198 comments",
+      "blurb": "A clear technical explanation of RandomX — the CPU-optimized proof-of-work algorithm Monero uses specifically to resist ASIC and GPU mining. Good cryptographic engineering explainer even if you don't care about crypto: the design decisions around memory-hardness and virtual machine execution are genuinely interesting."
+    },
+    {
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by pjmlp · 76 points · 32 comments",
+      "blurb": "A pointed critique arguing that Async Rust's ergonomics, tooling, and ecosystem remain in an unfinished MVP state years after stabilization — covering Send bounds hell, lack of async traits in stable Rust, and the runtime fragmentation problem. Timely given the Bun-to-Rust migration news and the broader industry shift toward Rust."
+    },
+    {
+      "title": "Y Combinator's Stake in OpenAI (0.6%?)",
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by gyomu · 312 points · 49 comments",
+      "blurb": "John Gruber digs into reports that YC holds roughly 0.6% of OpenAI — which at current valuation would be worth billions — and what that means for YC's incentives when it cheerleads AI startups. A useful corrective lens for reading YC-adjacent AI hype."
+    },
+    {
+      "title": "Hand Drawn QR Codes",
+      "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by jollyjerry · 84 points · 9 comments",
+      "blurb": "Seth Larson documents his experiment hand-drawing valid, scannable QR codes — exploring exactly how much error the format can tolerate before scanners fail. A delightful intersection of creative craft and error-correction mathematics that makes you appreciate how robust the spec actually is."
+    },
+    {
+      "title": "PyInfra 3.8.0",
+      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by wowi42 · 276 points · 91 comments",
+      "blurb": "PyInfra — the Python-native infrastructure automation tool — hits 3.8.0 with improvements to parallel execution, inventory handling, and connector stability. If you've been burned by YAML-heavy Ansible and want to express infra as real Python code, this release is a good time to try it."
+    }
+  ]
+}
