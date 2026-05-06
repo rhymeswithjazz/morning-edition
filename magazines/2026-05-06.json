@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-06",
+  "stories": [
+    {
+      "title": "Computer Use is 45x more expensive than structured APIs",
+      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+      "hn_link": "https://news.ycombinator.com/item?id=48024859",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by palashawas · 391 points · 227 comments",
+      "blurb": "Reflex ran the numbers and found that letting an AI agent click around a UI costs 45x more than hitting a structured API directly. This is a must-read if you're designing AI workflows — it makes a compelling case for investing in proper API surfaces rather than screen-scraping shortcuts. Directly relevant to anyone building with Claude Code or agentic pipelines."
+    },
+    {
+      "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+      "hn_link": "https://news.ycombinator.com/item?id=48024540",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by amrrs · 562 points · 267 comments",
+      "blurb": "Google details how multi-token prediction (MTP) drafters dramatically speed up Gemma 4 inference without sacrificing quality. If you're running local models or evaluating alternatives to hosted LLMs, this is a significant efficiency leap worth understanding. The speculative decoding approach here is becoming a key technique across the whole LLM inference stack."
+    },
+    {
+      "title": "Three Inverse Laws of AI",
+      "url": "https://susam.net/inverse-laws-of-robotics.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48023861",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by blenderob · 441 points · 308 comments",
+      "blurb": "A witty, pointed essay proposing three \"inverse\" counterparts to Asimov's Laws of Robotics — and what they reveal about how AI systems actually behave in the wild. Sparks a great 300-comment HN thread about AI alignment and practical trust. Worth five minutes of your morning."
+    },
+    {
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "hn_link": "https://news.ycombinator.com/item?id=48031684",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rolph · 291 points · 164 comments",
+      "blurb": "Cloudflare and Stripe have teamed up to let AI agents autonomously provision accounts, purchase domains, and ship deployments — no human in the loop required. This is a significant step toward fully autonomous software agents with real-world side effects. If you're building agentic workflows, the billing and identity model here is worth studying closely."
+    },
+    {
+      "title": "DNSSEC disruption affecting .de domains – Resolved",
+      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
+      "hn_link": "https://news.ycombinator.com/item?id=48027897",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by warpspin · 663 points · 330 comments",
+      "blurb": "A major DNSSEC misconfiguration took down a huge swath of .de domains earlier today before being resolved. The 330-comment HN thread is a masterclass in DNS incident analysis. A good reminder that DNSSEC, while important for security, carries real operational risk when misconfigured."
+    },
+    {
+      "title": "iOS 27 is adding a 'Create a Pass' button to Apple Wallet",
+      "url": "https://walletwallet.alen.ro/blog/ios-27-wallet-create-pass/",
+      "hn_link": "https://news.ycombinator.com/item?id=48021561",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by alentodorov · 405 points · 304 comments",
+      "blurb": "iOS 27 will let users create custom Wallet passes directly from the app — no third-party tooling required. This could open interesting doors for developers and small businesses who want lightweight, native pass experiences without building a full PassKit backend. Filed under: Apple quietly making something useful."
+    },
+    {
+      "title": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
+      "url": "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/",
+      "hn_link": "https://news.ycombinator.com/item?id=48026207",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by spankibalt · 383 points · 340 comments",
+      "blurb": "A lawsuit claims Zuckerberg personally signed off on using copyrighted books to train Meta's AI models. This is shaping up to be the highest-profile AI training data case yet, with implications for every company using scraped data. The legal and ethical questions here will reshape how foundation models are built and licensed."
+    },
+    {
+      "title": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
+      "hn_link": "https://news.ycombinator.com/item?id=48025687",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by SeenNotHeard · 341 points · 200 comments",
+      "blurb": "Raymond Chen digs into the origin story of Tab-to-navigate-dialog-fields — and why IBM objected. A delightful piece of platform history that explains why UX conventions we take for granted were actually hard-fought battles. Essential reading for anyone who has ever wondered why things work the way they do."
+    },
+    {
+      "title": "Wiki Builder: Skill to Build LLM Knowledge Bases",
+      "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+      "hn_link": "https://news.ycombinator.com/item?id=47997915",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by omarsar · 53 points · 6 comments",
+      "blurb": "A Claude Code plugin that turns your codebases and docs into structured, queryable LLM knowledge bases. This is directly in the wheelhouse of anyone using Claude Code who also maintains Obsidian vaults or internal wikis. The workflow of code → structured knowledge is exactly where agentic dev tools are heading."
+    },
+    {
+      "title": "Agents for financial services and insurance",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "hn_link": "https://news.ycombinator.com/item?id=48023533",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by louiereederson · 236 points · 172 comments",
+      "blurb": "Anthropic lays out its vision for Claude-based agents in regulated industries — compliance, claims processing, financial analysis. Even if you're not in fintech, the design patterns for safe, auditable agentic workflows are broadly applicable. Good signal on where Anthropic is steering the Claude product."
+    },
+    {
+      "title": "Show HN: Explore color palettes inspired by 3000 master painter artworks",
+      "url": "https://paletteinspiration.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by ouli · 166 points · 58 comments",
+      "blurb": "A gorgeous tool that extracts and organizes color palettes from 3,000 paintings by master artists — Vermeer, Monet, Hopper and hundreds more. Instantly useful for UI design, generative art, or just visual inspiration. One of those side projects you'll keep a tab open for."
+    },
+    {
+      "title": "StarFighter 16-Inch",
+      "url": "https://us.starlabs.systems/pages/starfighter",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 303 points · 159 comments",
+      "blurb": "Star Labs has announced the StarFighter, a Linux-native 16-inch laptop positioned as a serious developer machine with a high-end display and open firmware. The HN thread goes deep on coreboot, ME-clean firmware, and how it stacks up against Framework. An interesting option for devs who want macOS-level build quality with full Linux control."
+    },
+    {
+      "title": "I'm scared about biological computing",
+      "url": "https://kuber.studio/blog/Reflections/I%27m-Scared-About-Biological-Computing",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by kuberwastaken · 214 points · 177 comments",
+      "blurb": "A thoughtful, personal essay on the rapidly advancing field of organoid and biological computing — and why the author finds the ethical terrain scarier than nuclear or even AI. The 177-comment thread spans neuroscience, philosophy of mind, and bioethics. Unsettling and worth your time."
+    },
+    {
+      "title": "YouTube, your RSS feeds are broken",
+      "url": "https://openrss.org/blog/youtube-your-feeds-are-broken",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by veeti · 116 points · 43 comments",
+      "blurb": "OpenRSS documents how YouTube has quietly broken RSS feed reliability — missing videos, delayed entries, silent failures. If you follow YouTube channels via RSS (the sane way), this explains the recent weirdness. It's also a reminder that Google treats RSS as a second-class citizen, and you should plan accordingly."
+    },
+    {
+      "title": "Write some software, give it away for free",
+      "url": "https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by nohell · 258 points · 175 comments",
+      "blurb": "A manifesto-style post making the case for building and releasing free, open software purely for the joy of it — no monetization, no product-market fit required. The HN thread is full of developers sharing what they've built and released for free. A good antidote to the hustle-culture noise."
+    },
+    {
+      "title": "Multi-stroke text effect in CSS",
+      "url": "https://yuanchuan.dev/multi-stroke-text-effect-in-css",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by cheeaun · 26 points · 2 comments",
+      "blurb": "A clever CSS technique for layering multiple strokes on text using paint-order and SVG filter tricks — no images or canvas required. Directly actionable for frontend devs who want typographic flair in Angular/TypeScript apps without reaching for a design library. The demo alone makes it worth clicking."
+    },
+    {
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2604.26752",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 140 points · 28 comments",
+      "blurb": "Zhipu AI's GLM-5V-Turbo is a compact multimodal model purpose-built for agentic tasks — it can see, reason, and act across GUI and document environments. Interesting benchmark competitor to GPT-4o and Claude on vision-heavy agent tasks. Worth tracking if you're evaluating model options for multimodal pipelines."
+    },
+    {
+      "title": "Telus Uses AI to Alter Call-Agent Accents",
+      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by debo_ · 146 points · 100 comments",
+      "blurb": "Canadian telco Telus is deploying real-time AI voice modulation to neutralize the accents of overseas call center workers — raising pointed questions about bias, worker dignity, and the ethics of AI-mediated identity. The technology works, but the implications are uncomfortable. A story that will generate debate well beyond the tech sector."
+    },
+    {
+      "title": "Batteries Not Included, or Required, for These Smart Home Sensors",
+      "url": "https://coe.gatech.edu/news/2026/04/batteries-not-included-or-required-these-smart-home-sensors",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gnabgib · 16 points · 7 comments",
+      "blurb": "Georgia Tech researchers have built smart home sensors that harvest energy from ambient RF, light, and vibration — no batteries ever. The implications for long-lived IoT deployments and Home Assistant setups are significant. If the cost curve bends right, this could make truly maintenance-free smart home sensors a reality."
+    },
+    {
+      "title": "Show HN: Airbyte Agents – context for agents across multiple data sources",
+      "url": "https://news.ycombinator.com/item?id=48023496",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mtricot · 118 points · 31 comments",
+      "blurb": "Airbyte is extending its data pipeline platform to feed structured context from 300+ data sources directly into AI agents. If you're building RAG pipelines or agentic tools that need to query databases, SaaS tools, or internal data, this could replace a lot of custom connector glue code. An actionable Show HN for the AI-tools builder."
+    }
+  ]
+}
