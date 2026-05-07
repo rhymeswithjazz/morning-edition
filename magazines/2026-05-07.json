@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-07",
+  "stories": [
+    {
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "hn_link": "https://news.ycombinator.com/item?id=48037128",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by e12e · 581 points · 630 comments",
+      "blurb": "Simon Willison — the sharpest voice on practical LLM use — grapples with the blurring line between casual AI-assisted coding and fully autonomous agents making real decisions. For anyone using Claude Code daily, this is required reading: the guardrails you think exist may not. 630 comments means the community has strong feelings."
+    },
+    {
+      "title": "The bottleneck was never the code",
+      "url": "https://www.thetypicalset.com/blog/thoughts-on-coding-agents",
+      "hn_link": "https://news.ycombinator.com/item?id=48006967",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Anon84 · 555 points · 365 comments",
+      "blurb": "A provocative thesis: coding agents unblock code generation, but the real bottlenecks — requirements, architecture decisions, coordination — remain stubbornly human. Essential perspective for anyone integrating AI tools into a real development workflow. Pairs well with the Willison piece above."
+    },
+    {
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "hn_link": "https://news.ycombinator.com/item?id=48037986",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 458 points · 416 comments",
+      "blurb": "Anthropic is raising usage caps for Claude — directly relevant if you're hitting rate limits with Claude Code. The SpaceX compute partnership signals Anthropic is aggressively scaling infrastructure. Higher limits today, more capable models tomorrow."
+    },
+    {
+      "title": "Valve releases Steam Controller CAD files under Creative Commons license",
+      "url": "https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license",
+      "hn_link": "https://news.ycombinator.com/item?id=48037555",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by haunter · 1390 points · 425 comments",
+      "blurb": "Valve open-sourced the full hardware design of the Steam Controller under CC — a rare act of generosity from a major hardware maker. Modders and hardware hackers now have a professional ergonomic controller design to remix. The 425-comment thread is full of mod ideas already forming."
+    },
+    {
+      "title": "Inkscape 1.4.4",
+      "url": "https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48040622",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by s1291 · 307 points · 89 comments",
+      "blurb": "The open-source vector graphics workhorse gets a polished maintenance release. If you do any SVG work, diagram generation, or icon design as part of your dev workflow, this is the release notes to skim. Inkscape keeps quietly getting better."
+    },
+    {
+      "title": "From Supabase to Clerk to Better Auth",
+      "url": "https://blog.val.town/better-auth",
+      "hn_link": "https://news.ycombinator.com/item?id=48038827",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by stevekrouse · 254 points · 176 comments",
+      "blurb": "Val.town's engineering blog documents a real migration away from managed auth providers toward Better Auth — an open-source, self-hostable alternative. Practical war story with concrete tradeoffs for anyone evaluating auth stacks in a TypeScript/.NET environment. The privacy angle (less third-party data sharing) is a bonus."
+    },
+    {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "url": "https://sqlite.org/locrsf.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48042434",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by whatisabcdefgh · 228 points · 62 comments",
+      "blurb": "The Library of Congress officially recommends SQLite as a digital preservation format — the strongest possible institutional endorsement for using it as a data storage choice. If you've been on the fence about SQLite for local-first apps or Obsidian-style tools, this settles it."
+    },
+    {
+      "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+      "url": "https://tilde.run/",
+      "hn_link": "https://news.ycombinator.com/item?id=48037724",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ozkatz · 161 points · 116 comments",
+      "blurb": "A sandboxed environment for running AI agents with a git-like, transactional filesystem underneath — so agents can branch, commit, and roll back changes safely. Directly solves the \"agent made a mess of my codebase\" problem that plagues Claude Code and similar tools. Worth a closer look."
+    },
+    {
+      "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/",
+      "hn_link": "https://news.ycombinator.com/item?id=48039362",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by unforgivenpasta · 295 points · 296 comments",
+      "blurb": "Google is rebranding reCAPTCHA into a broader \"fraud defense\" platform with deeper behavioral signals and tighter cloud integration. The privacy community is understandably wary — more data collection dressed up as security. The 296-comment thread dissects what's actually changing and who benefits."
+    },
+    {
+      "title": "Appearing productive in the workplace",
+      "url": "https://nooneshappy.com/article/appearing-productive-in-the-workplace/",
+      "hn_link": "https://news.ycombinator.com/item?id=48038001",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by diebillionaires · 1109 points · 418 comments",
+      "blurb": "A darkly funny and sharply observed piece on the theater of workplace productivity — and what it reveals about how performance is measured in tech organizations. Highest comment count of the day makes this a cultural flashpoint worth at least a skim."
+    },
+    {
+      "title": "Programming Still Sucks",
+      "url": "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jeromechoo · 356 points · 176 comments",
+      "blurb": "A candid, well-written rant on the enduring frustrations of software development that AI tools haven't fixed and may be amplifying. Resonates especially for developers in large codebases with TypeScript/Angular complexity. Cathartic and clarifying."
+    },
+    {
+      "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
+      "url": "https://arxiv.org/abs/2605.03546",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jonbaer · 39 points · 22 comments",
+      "blurb": "New benchmark tests whether LLMs can reconstruct entire programs from scratch — a much harder bar than autocomplete or snippet generation. Results reveal specific failure modes that matter if you're trusting coding agents to handle non-trivial tasks. Good grounding data for calibrating trust in agentic tools."
+    },
+    {
+      "title": "How Unsloth and Nvidia made LLM training 25% faster on consumer GPUs",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by segmenta · 10 points · 0 comments",
+      "blurb": "Unsloth and Nvidia detail the engineering optimizations that shaved 25% off LLM fine-tuning time on consumer-grade GPUs. For anyone experimenting with local model fine-tuning, this is a meaningful speedup that makes self-hosted AI more practical without buying new hardware."
+    },
+    {
+      "title": "Learning the Integral of a Diffusion Model",
+      "url": "https://sander.ai/2026/05/06/flow-maps.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by benanne · 132 points · 21 comments",
+      "blurb": "Sander Dieleman (DeepMind researcher) digs into flow maps as a way to \"integrate\" diffusion trajectories — reducing inference steps while preserving quality. Dense but rewarding for anyone curious about what's actually happening inside image generation models."
+    },
+    {
+      "title": "Show HN: Hallucinopedia",
+      "url": "http://halupedia.com/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bstrama · 215 points · 196 comments",
+      "blurb": "A crowd-sourced encyclopedia of LLM hallucinations — documenting real, verified cases where language models confidently produced false information. Useful both as a research tool and as a humbling reminder of model limitations. The categorization schema alone is worth exploring."
+    },
+    {
+      "title": "Permacomputing Principles",
+      "url": "https://permacomputing.net/principles/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by andsoitis · 132 points · 61 comments",
+      "blurb": "Permacomputing is a design philosophy that asks what software and hardware would look like if they had to last decades, run on minimal resources, and be repairable. Timely counter-programming to the AI compute arms race — and surprisingly actionable for CLI tool and local-first app design."
+    },
+    {
+      "title": "Diskless Linux boot using ZFS, iSCSI and PXE",
+      "url": "https://aniket.foo/posts/20260505-netboot/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by stereo-highway · 82 points · 40 comments",
+      "blurb": "A detailed walkthrough of booting Linux disklessly over the network using ZFS as the backing store and iSCSI for block transport. Niche but excellent infrastructure deep-dive — the kind of setup that makes homelab and dev environment work significantly more elegant."
+    },
+    {
+      "title": "Virtual violin produces realistic sounds",
+      "url": "https://news.mit.edu/2026/mit-engineers-virtual-violin-produces-realistic-sounds-0429",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by gmays · 89 points · 71 comments",
+      "blurb": "MIT engineers built a physics-based virtual violin model so accurate it produces convincing, nuanced sound — no samples, no neural tricks, just solving the math of wood and strings. Fascinating for anyone interested in audio synthesis or the intersection of physics simulation and creative tools."
+    },
+    {
+      "title": "Show HN: I built an open-source email builder, alternative to Beefree/Unlayer",
+      "url": "https://play.templatical.com",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by oahmadov · 132 points · 32 comments",
+      "blurb": "A fully open-source drag-and-drop email template builder aiming to replace pricey SaaS tools like Beefree. If you've ever needed to embed an email editor in an app or just want to build transactional templates without vendor lock-in, this is worth bookmarking and trying today."
+    },
+    {
+      "title": "The Mathematical Dance Inside Plant Cells",
+      "url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by isaacfrond · 38 points · 2 comments",
+      "blurb": "Quanta Magazine reports on newly discovered self-organizing mathematical patterns in plant cell division — behavior that looks almost algorithmic but is entirely biological. The kind of \"nature was doing this first\" story that's both humbling and inspiring for developers who think in systems."
+    }
+  ]
+}
