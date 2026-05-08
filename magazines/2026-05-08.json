@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-08",
+  "stories": [
+    {
+      "title": "AI slop is killing online communities",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "hn_link": "https://news.ycombinator.com/item?id=48053203",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thm · 639 points · 558 comments",
+      "blurb": "A passionate first-person account of watching technical forums, Stack Overflow threads, and Discord servers get buried under AI-generated noise. The author argues low-quality AI output is eroding the social trust that made those spaces valuable in the first place. Required reading for anyone building with AI tools who cares about the ecosystems they depend on."
+    },
+    {
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "hn_link": "https://news.ycombinator.com/item?id=48053623",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by flipped · 628 points · 257 comments",
+      "blurb": "A new universal local privilege escalation exploit drops for Linux, with public disclosure on oss-security. If you run Linux servers, containers, or VMs anywhere in your stack, this is patch-now territory. The 257-comment HN thread is full of technical breakdown worth skimming."
+    },
+    {
+      "title": "Canvas is down as ShinyHunters threatens to leak schools' data",
+      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+      "hn_link": "https://news.ycombinator.com/item?id=48055913",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by stefanpie · 612 points · 376 comments",
+      "blurb": "ShinyHunters — the same crew behind Snowflake and Ticketmaster — is back, this time holding student data from the widely-used Canvas LMS hostage. The breach raises fresh questions about SaaS concentration risk in education and the supply-chain security of credentialing infrastructure. A timely reminder that third-party data custody is a privacy problem, not just a vendor problem."
+    },
+    {
+      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
+      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+      "hn_link": "https://news.ycombinator.com/item?id=48050964",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by newsoftheday · 554 points · 216 comments",
+      "blurb": "Google quietly removed documentation promising that Chrome's on-device AI features don't phone home — without announcing the change. For anyone who chose Chrome's local AI features specifically for privacy, this is a bait-and-switch worth knowing about. Another nudge toward privacy-respecting alternatives in the Apple ecosystem."
+    },
+    {
+      "title": "Maybe you shouldn't install new software for a bit",
+      "url": "https://xeiaso.net/blog/2026/abstain-from-install/",
+      "hn_link": "https://news.ycombinator.com/item?id=48056227",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by psxuaw · 496 points · 256 comments",
+      "blurb": "Xe Iaso makes the case for a software installation freeze in the wake of multiple supply-chain compromises — arguing that the marginal utility of the next shiny tool rarely justifies the attack surface it adds. A well-timed counterweight to the constant pull of new dev tools. Pair with the Dirtyfrag and Copy Fail disclosures today for full context."
+    },
+    {
+      "title": "Agents need control flow, not more prompts",
+      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "hn_link": "https://news.ycombinator.com/item?id=48051562",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bsuh · 462 points · 223 comments",
+      "blurb": "A sharp argument that the reliability ceiling on AI agents isn't model quality — it's the absence of real control flow in how agents are orchestrated. The author proposes treating agent pipelines more like software with branching, retry logic, and explicit state. Directly relevant to anyone building agentic workflows with Claude Code or similar tools."
+    },
+    {
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "url": "https://github.com/antirez/ds4",
+      "hn_link": "https://news.ycombinator.com/item?id=48050751",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tamnd · 381 points · 103 comments",
+      "blurb": "antirez (yes, the Redis creator) has shipped a minimal, fast local inference engine for DeepSeek 4 Flash that targets Apple Silicon's Metal GPU. It's lean, dependency-light, and designed to actually run well on Mac hardware rather than as an afterthought. A great option for private, on-device LLM inference without the Ollama overhead."
+    },
+    {
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "hn_link": "https://news.ycombinator.com/item?id=48050278",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by berlianta · 290 points · 123 comments",
+      "blurb": "DeepMind's AlphaEvolve uses Gemini to autonomously discover and verify improvements to algorithms across math, chip design, and data center scheduling — not just write code, but evolve it. The results are genuinely impressive and signal where coding agents are heading beyond autocomplete. Good benchmark context for evaluating where Claude Code sits in the competitive landscape."
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "hn_link": "https://news.ycombinator.com/item?id=48052537",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by instagraham · 271 points · 89 comments",
+      "blurb": "Anthropic's research team has built autoencoders that compress and reconstruct Claude's internal activations as natural language, giving a rare interpretability window into what the model is \"thinking.\" This is foundational mechanistic interpretability work that matters for AI safety and trust. If you're building with Claude, this gives you a richer mental model of how it actually processes prompts."
+    },
+    {
+      "title": "Claude Code CVE-2026-39861:sandbox escape via symlink",
+      "url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+      "hn_link": "https://news.ycombinator.com/item?id=48057842",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Armor1AI · 13 points · 2 comments",
+      "blurb": "A sandbox escape vulnerability in Claude Code via symlink traversal — low score on HN but extremely high relevance if you use it daily. The advisory details how a malicious repo can break out of Claude Code's file-access sandbox. Update immediately and audit any repos you've run the tool against."
+    },
+    {
+      "title": "hunk",
+      "url": "https://github.com/modem-dev/hunk",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, cli, code-review, diff, git, tui",
+      "blurb": "Hunk is a review-first terminal diff viewer purpose-built for agentic coders — the workflow where an AI agent produces large diffs that a human needs to efficiently audit. It's a TUI tool that surfaces each changed hunk with context, making AI-assisted code review feel intentional rather than chaotic. Exactly the kind of CLI companion Claude Code users need."
+    },
+    {
+      "title": "\"Vibe coding\" vs \"agentic engineering\": \"The problem is that as the coding agents get more reliable, I'm not reviewing every line of code that they write anymore, even for my production level stuff.\"",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: s",
+      "blurb": "Simon Willison draws a sharp line between \"vibe coding\" (throw a prompt, ship what comes out) and \"agentic engineering\" (deliberate orchestration of AI with human checkpoints). As agents get more reliable, the temptation to skip review grows — and this piece wrestles honestly with where that leads. Essential reading for anyone who uses Claude Code on production codebases."
+    },
+    {
+      "title": "Your Container Is Not a Sandbox: The State of MicroVM Isolation in 2026",
+      "url": "https://emirb.github.io/blog/microvm-2026/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: aws, security, vmm, microvm, docker, cloud, rust, guide, good, agentic, ai, isolation, kernel",
+      "blurb": "A thorough 2026 survey of microVM isolation technologies (Firecracker, gVisor, QEMU, Cloud Hypervisor) and where containers still fall short as security boundaries. Especially timely given the Dirtyfrag LPE and Copy Fail disclosures today — if your AI agents or CI pipelines run untrusted code in containers, this is the threat model primer you need."
+    },
+    {
+      "title": "GitHub - techygarg/lattice",
+      "url": "https://github.com/techygarg/lattice",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "Lattice is a framework of composable \"skills\" — prompt templates for design, implementation, code review, and team standards — that installs engineering discipline into any AI coding assistant. Think of it as a structured prompt library that enforces process rather than just hoping the model makes good choices. Pairs naturally with Claude Code and worth experimenting with on .NET or TypeScript projects."
+    },
+    {
+      "title": "How to Work and Compound with AI",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, Instapaper",
+      "blurb": "Eugene Yan lays out a practical framework for building compounding returns from AI tool use — not just using AI for individual tasks, but letting each interaction improve your systems and knowledge base. There's specific, actionable advice on prompt curation, output refinement, and knowledge management that translates directly to an Obsidian-based workflow."
+    },
+    {
+      "title": "Six Years Perfecting Maps on watchOS - David Smith, Independent iOS Developer",
+      "url": "https://david-smith.org/blog/2026/04/29/maps-on-watchos/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Underscore David Smith writes a deeply personal retrospective on six years of wrestling with the watchOS MapKit API to ship his fitness and hiking apps. The technical depth is extraordinary — cover radius, tile caching, annotation performance — but it's also a love letter to caring obsessively about craft on Apple platforms. Essential for any Apple ecosystem developer."
+    },
+    {
+      "title": "Hovercraft—a virtual presentation camera for Mac",
+      "url": "https://sandwich.vision/hovercraft",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: videoconferencing",
+      "blurb": "Hovercraft is a new Mac app that turns your slides into a virtual camera overlay — your slides float next to you in the frame, moved by hand gestures, with no screen sharing or clunky window juggling. It's a genuinely clever take on the presentation-via-video-call problem that feels native to the Mac ecosystem. A tool worth trying before your next technical talk."
+    },
+    {
+      "title": "BlackHole: Route Audio Between Apps",
+      "url": "https://existential.audio/blackhole/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: audio, macos",
+      "blurb": "BlackHole is a free, open-source macOS virtual audio driver that lets you route audio between any apps with zero latency — essential for recording, streaming, or building creative audio setups on a Mac. It's been around for a while but keeps resurfacing on Pinboard because it's genuinely the best solution for this on macOS. If you're doing any audio work, this is the tool."
+    },
+    {
+      "title": "Photoshop's challenges with focus, pt. 2 – Unsung",
+      "url": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A detailed historical and UX analysis of how Photoshop has struggled with keyboard focus and accessibility across decades of UI evolution — written by someone with deep Adobe institutional knowledge. The piece is fascinating both as software archaeology and as a cautionary tale about technical debt in creative tools. Daring Fireball-linked, which means it's making the rounds in the Apple/design community."
+    },
+    {
+      "title": "DHS abuses 1930s customs law in attempt to get data on Canadian from Google - Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/05/dhs-abuses-1930s-customs-law-in-attempt-to-get-data-on-canadian-from-google/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: case-study, motivation",
+      "blurb": "DHS is reaching for an obscure 1930s customs statute to compel Google to hand over data on a Canadian citizen — no MLAT treaty, no warrant, just regulatory strong-arming. This is a live case study in cross-border government data access that every developer storing user data in US cloud services should understand. The Pinboard tagger's note — \"Reasons to get off American tech\" — says it plainly."
+    }
+  ]
+}
