@@ -211,8 +211,27 @@ def validate_edition(edition, expected_date):
                 print(f"  repair succeeded: {len(stories)} stories", file=sys.stderr)
             except (json.JSONDecodeError, ValueError) as e2:
                 print(f"  repair failed: {e2}", file=sys.stderr)
-    if not isinstance(stories, list) or len(stories) != 20:
-        raise ValueError(f"Expected 20 stories, got {len(stories) if isinstance(stories, list) else 'none'}")
+    if not isinstance(stories, list):
+        raise ValueError("Expected 20 stories, got none")
+
+    if len(stories) > 20:
+        hn = [s for s in stories if isinstance(s, dict) and s.get("hn_link")][:10]
+        pinboard = [s for s in stories if isinstance(s, dict) and not s.get("hn_link")][:10]
+        trimmed = hn + pinboard
+        if len(trimmed) != 20:
+            raise ValueError(
+                f"Got {len(stories)} stories but cannot form 10 HN + 10 Pinboard "
+                f"(have {len(hn)} HN, {len(pinboard)} Pinboard)"
+            )
+        print(
+            f"  Warning: model returned {len(stories)} stories; trimmed to 10 HN + 10 Pinboard",
+            file=sys.stderr,
+        )
+        stories = trimmed
+        edition["stories"] = stories
+
+    if len(stories) != 20:
+        raise ValueError(f"Expected 20 stories, got {len(stories)}")
 
     for i, story in enumerate(stories):
         required = REQUIRED_HN_FIELDS if i < 10 else REQUIRED_STORY_FIELDS
