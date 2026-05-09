@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-09",
+  "stories": [
+    {
+      "title": "Google broke reCAPTCHA for de-googled Android users",
+      "url": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
+      "hn_link": "https://news.ycombinator.com/item?id=48067119",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by anonymousiam · 957 points · 317 comments",
+      "blurb": "Google's reCAPTCHA now silently fails for users running de-Googled Android forks like GrapheneOS or CalyxOS — effectively gatekeeping the web behind Google Play Services. Whether intentional or not, this is a significant chilling effect on privacy-focused mobile users. The HN thread is full of workarounds and fury in equal measure."
+    },
+    {
+      "title": "Meta Shuts Down End-to-End Encryption for Instagram Messaging",
+      "url": "https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging",
+      "hn_link": "https://news.ycombinator.com/item?id=48069192",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tcp_handshaker · 259 points · 164 comments",
+      "blurb": "Meta is rolling back the E2E encryption it had previously enabled for Instagram DMs, citing regulatory pressure. This is a stark reversal from their earlier privacy commitments and a win for surveillance advocates. If you care about messaging privacy, Signal just got more relevant."
+    },
+    {
+      "title": "Teaching Claude Why",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "hn_link": "https://news.ycombinator.com/item?id=48066592",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 156 points · 77 comments",
+      "blurb": "Anthropic details their approach to giving Claude deeper reasoning about the 'why' behind its guidelines — moving beyond rule-following toward genuine value alignment. For anyone building with Claude or Claude Code, this is essential reading on how the model's behavior is shaped. It's the clearest public window yet into Anthropic's alignment methodology."
+    },
+    {
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "url": "https://twitter.com/trq212/status/2052809885763747935",
+      "hn_link": "https://news.ycombinator.com/item?id=48071940",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 111 points · 61 comments",
+      "blurb": "A practitioner shares a workflow insight: Claude Code produces dramatically better results when you use plain HTML as an intermediate representation rather than jumping straight to framework code. Directly relevant if you're using Claude Code daily — this could change how you structure your prompts and scaffolding. Short thread, big payoff."
+    },
+    {
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+      "hn_link": "https://news.ycombinator.com/item?id=48071262",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by _alternator_ · 246 points · 121 comments",
+      "blurb": "Cambridge mathematician Timothy Gowers puts ChatGPT 5.5 Pro through its paces on genuinely hard math problems and shares nuanced observations about where it dazzles and where it confidently hallucinates. A rigorous, non-hype assessment from someone who can actually verify the answers. Required reading as the LLM benchmark wars heat up."
+    },
+    {
+      "title": "Mojo 1.0 Beta",
+      "url": "https://mojolang.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48057901",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sbt567 · 340 points · 219 comments",
+      "blurb": "Mojo — the Python-superset language designed for AI/ML performance — hits its 1.0 Beta milestone. It promises C-level speed with Python ergonomics, targeting the gap between research code and production ML systems. After years of hype, this is the first release Modular is calling production-ready."
+    },
+    {
+      "title": "AI is breaking two vulnerability cultures",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "hn_link": "https://news.ycombinator.com/item?id=48066524",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 322 points · 132 comments",
+      "blurb": "A thoughtful piece arguing that AI is disrupting both the responsible disclosure culture in security research and the exploit-monetization underground simultaneously. LLMs can find and explain vulnerabilities at scale, upending the careful détente that has governed the security world for decades. This has real implications for anyone shipping software."
+    },
+    {
+      "title": "EU calls VPNs \"a loophole that needs closing\" in age verification push",
+      "url": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/",
+      "hn_link": "https://news.ycombinator.com/item?id=48072190",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by muse900 · 156 points · 92 comments",
+      "blurb": "The EU is framing VPNs as an obstacle to age-verification mandates — a framing that, if it gains traction, could lead to VPN restrictions across member states. This is the same playbook used to justify surveillance backdoors, dressed in child-safety language. Privacy advocates should be watching this closely."
+    },
+    {
+      "title": "Ask HN: We just had an actual UUID v4 collision...",
+      "url": "https://news.ycombinator.com/item?id=48060054",
+      "hn_link": "https://news.ycombinator.com/item?id=48060054",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mittermayr · 358 points · 283 comments",
+      "blurb": "A developer reports what appears to be a genuine UUID v4 collision in production — statistically near-impossible, which means the real culprit is almost certainly a broken random number generator or seeding bug. The HN thread is a masterclass in probabilistic reasoning and debugging, with Stroustrup-level experts weighing in. Bookmark this for the next time someone tells you UUIDs are 'safe enough.'"
+    },
+    {
+      "title": "Cloudflare to cut about 20% of its workforce",
+      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
+      "hn_link": "https://news.ycombinator.com/item?id=48054423",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by PriorityLeft · 1294 points · 932 comments",
+      "blurb": "Cloudflare is laying off over 1,100 employees — roughly 20% of its workforce — in a significant restructuring. As a backbone of the modern web (CDN, DNS, security, Workers), changes at Cloudflare ripple through the developer ecosystem. The HN thread has extensive discussion on what this means for product roadmaps and the broader infrastructure market."
+    },
+    {
+      "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
+      "url": "https://ze3tar.github.io/post-zcrx.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by MrBruh · 180 points · 107 comments",
+      "blurb": "A detailed writeup of a Linux privilege escalation exploit via io_uring's zero-copy receive path — turning a single 32-bit integer into a root shell. The vulnerability class (freelist manipulation) is classic but the surface area is novel. Essential reading for anyone running Linux servers or interested in kernel security research."
+    },
+    {
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mad · 76 points · 18 comments",
+      "blurb": "Researchers test whether LLMs can write TLA+ specifications for real distributed systems — a task requiring both deep systems knowledge and formal methods fluency. Results are mixed but illuminating: models can scaffold specs but struggle with subtle safety properties. A useful calibration point for anyone using AI in systems design workflows."
+    },
+    {
+      "title": "An Introduction to Meshtastic",
+      "url": "https://meshtastic.org/docs/introduction/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by ColinWright · 439 points · 156 comments",
+      "blurb": "Meshtastic is an open-source, off-grid LoRa mesh networking project that lets you build long-range, encrypted communication networks without cellular or internet infrastructure. With sub-$30 hardware and a growing ecosystem, this is a genuinely practical tool for emergencies, hiking, or just learning about mesh networking. The HN thread has great hardware recommendations."
+    },
+    {
+      "title": "AWS North Virginia data center outage – recovery to take hours",
+      "url": "https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by christhecaribou · 212 points · 136 comments",
+      "blurb": "A major AWS outage in the us-east-1 region knocked out services across FanDuel, Coinbase, and countless smaller apps — a reminder of why multi-region redundancy matters. The multi-hour recovery window is the real story: at scale, even AWS can't flip a switch. Good motivation to audit your own failover strategy."
+    },
+    {
+      "title": "Wi is Fi: Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/AC/ax/be/bn)",
+      "url": "https://www.wiisfi.com/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by homebrewer · 220 points · 56 comments",
+      "blurb": "A beautifully organized reference site demystifying the entire 802.11 family tree — what actually changed between generations, which features matter, and how to read the marketing alphabet soup. If you've ever struggled to explain Wi-Fi 6E vs. Wi-Fi 7 to a client or just want to make a smarter router purchase, bookmark this."
+    },
+    {
+      "title": "Serving a website on a Raspberry Pi Zero running in RAM",
+      "url": "https://btxx.org/posts/memory/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by xngbuilds · 218 points · 89 comments",
+      "blurb": "A neat experiment booting a Pi Zero entirely into a RAM disk and serving a live website from it — no storage writes, zero wear, extremely fast. The write-up is hands-on and reproducible, making it a fun weekend project. Also doubles as a primer on tmpfs, read-only root filesystems, and minimal Linux configuration."
+    },
+    {
+      "title": "OpenAI's WebRTC problem",
+      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by atgctg · 285 points · 76 comments",
+      "blurb": "A deep dive into why WebRTC — originally designed for peer-to-peer video calls — is a poor architectural fit for real-time AI audio/video inference at OpenAI's scale. The post argues for MoQ (Media over QUIC) as the proper foundation and explains the latency and reliability tradeoffs in concrete terms. Relevant if you're building real-time AI features."
+    },
+    {
+      "title": "Light without electricity? Glowing algae could make it possible",
+      "url": "https://www.colorado.edu/today/2026/05/06/light-without-electricity-glowing-algae-could-make-it-possible",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by geox · 75 points · 19 comments",
+      "blurb": "CU Boulder researchers are engineering bioluminescent algae that could provide sustainable ambient lighting without any electrical infrastructure. The biology is fascinating: tweaking dinoflagellate biochemistry to produce sustained, controllable light output. It's still early-stage, but the implications for off-grid living and architectural lighting are genuinely exciting."
+    },
+    {
+      "title": "US Government releases first batch of UAP documents and videos",
+      "url": "https://www.war.gov/UFO/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by david-gpu · 290 points · 430 comments",
+      "blurb": "The DoD/War.gov has published its first official UAP document dump, including declassified videos and incident reports. Whatever your priors on the subject, the primary source material is now publicly accessible and technically analyzable. The HN thread digs into sensor artifacts, video compression, and what the data actually shows — skeptics and believers both represented."
+    },
+    {
+      "title": "Boosting multimodal inference performance by >10% with a single Python dict",
+      "url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jxmorris12 · 10 points · 0 comments",
+      "blurb": "Modal's engineering team found that a single caching dictionary for token embeddings cut multimodal inference latency by over 10% — a beautifully simple optimization hiding in plain sight. The write-up walks through the profiling methodology, making it actionable for anyone running vision-language models. Sometimes the biggest wins come from the smallest changes."
+    }
+  ]
+}
