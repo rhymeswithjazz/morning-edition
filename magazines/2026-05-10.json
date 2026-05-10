@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-10",
+  "stories": [
+    {
+      "title": "Internet Archive Switzerland",
+      "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+      "hn_link": "https://news.ycombinator.com/item?id=48074265",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hggh · 604 points · 94 comments",
+      "blurb": "The Internet Archive is establishing a Swiss entity to shore up its legal resilience and protect its global preservation mission from US-based legal attacks. Switzerland's strong data sovereignty and neutrality make it a smart jurisdictional choice. A meaningful structural move for the long-term survival of the web's memory."
+    },
+    {
+      "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+      "url": "https://twitter.com/jarredsumner/status/2053047748191232310",
+      "hn_link": "https://news.ycombinator.com/item?id=48073680",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by heldrida · 537 points · 503 comments",
+      "blurb": "Jarred Sumner announces that Bun's Rust rewrite is now 99.8% compatible with the existing test suite on Linux — a staggering milestone for a runtime this complex. The 503-comment thread is a lively debate about the tradeoffs of rewriting in Rust vs. staying in Zig. If the performance gains deliver, this reshapes the JS runtime landscape."
+    },
+    {
+      "title": "LLMs corrupt your documents when you delegate",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "hn_link": "https://news.ycombinator.com/item?id=48073246",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rbanffy · 401 points · 159 comments",
+      "blurb": "New research shows that when you let LLMs autonomously edit documents on your behalf, they systematically introduce subtle corruptions — reframing arguments, softening claims, and injecting their own priors. Critical reading for anyone using Claude Code or AI agents to draft or refactor important files. Trust but verify just got a paper to back it up."
+    },
+    {
+      "title": "Meta's embrace of AI is making its employees miserable",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48077126",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by JumpCrisscross · 388 points · 419 comments",
+      "blurb": "The NYT goes inside Meta's all-in AI pivot and finds engineers feeling sidelined, demoralized, and uncertain about their role as LLMs take over more of the work. The 419-comment HN thread is a must-read for anyone navigating AI-era career anxiety. This is the human cost of the platform's transformation that the product announcements don't cover."
+    },
+    {
+      "title": "I've banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "hn_link": "https://news.ycombinator.com/item?id=48076173",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by susam · 386 points · 214 comments",
+      "blurb": "A developer makes the provocative case for eliminating query strings entirely from web apps, replacing them with path segments and POST bodies. The argument is surprisingly rigorous — covering caching, bookmarkability, and security implications. The HN discussion is full of sharp counterpoints and real-world edge cases."
+    },
+    {
+      "title": "Distributing Mac software is increasing my cortisol levels",
+      "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "hn_link": "https://news.ycombinator.com/item?id=48075366",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by LorenDB · 281 points · 187 comments",
+      "blurb": "A developer vents about the labyrinthine pain of notarization, Gatekeeper, entitlements, and App Store rules when trying to ship Mac software in 2026. If you've ever tried to distribute a macOS app outside the App Store, this will feel viscerally familiar. The comment thread is a cathartic pile of shared frustration."
+    },
+    {
+      "title": "Zed Editor Theme-Builder",
+      "url": "https://zed.dev/theme-builder",
+      "hn_link": "https://news.ycombinator.com/item?id=48076651",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by cuechan · 211 points · 63 comments",
+      "blurb": "Zed ships an interactive in-browser theme builder that lets you design and preview editor themes without leaving your browser. It's polished, fast, and immediately actionable — export a JSON theme and drop it straight into your Zed config. A nice quality-of-life addition that lowers the barrier to personalizing your coding environment."
+    },
+    {
+      "title": "France moves to break encrypted messaging",
+      "url": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
+      "hn_link": "https://news.ycombinator.com/item?id=48078811",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 185 points · 96 comments",
+      "blurb": "French lawmakers are advancing legislation that would compel messaging platforms to provide plaintext access to government authorities — a de facto ban on true end-to-end encryption. This mirrors similar efforts in the UK and EU and sets a dangerous precedent. Anyone who relies on Signal, WhatsApp, or iMessage for private communication should be paying attention."
+    },
+    {
+      "title": "Debian must ship reproducible packages",
+      "url": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48081245",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by robalni · 107 points · 22 comments",
+      "blurb": "Debian has officially mandated reproducible builds across its package ecosystem — a landmark supply-chain security win years in the making. Reproducible builds let anyone independently verify that a binary matches its source, closing a major vector for backdoor insertion. This raises the bar for the entire Linux ecosystem."
+    },
+    {
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "url": "https://github.com/imtomt/ymawky",
+      "hn_link": "https://news.ycombinator.com/item?id=48080587",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by imtomt · 259 points · 108 comments",
+      "blurb": "Someone built a functioning HTTP server in raw x86-64 assembly, no libc, no OS abstractions — just syscalls and suffering. It's absurdist and educational in equal measure, and the code is genuinely readable. A love letter to the metal that every developer should skim at least once."
+    },
+    {
+      "title": "Thariq on X: \"Using Claude Code: The Unreasonable Effectiveness of HTML\" / X",
+      "url": "https://x.com/trq212/status/2052809885763747935",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, we, web",
+      "blurb": "A viral thread on using Claude Code to generate rich, self-contained HTML apps — with companion examples at thariqs.github.io. The thesis: HTML is a surprisingly powerful output format for AI-assisted prototyping, requiring no build tools and running anywhere. Directly relevant if you're already using Claude Code in your workflow."
+    },
+    {
+      "title": "The unreasonable effectiveness of HTML — examples",
+      "url": "https://thariqs.github.io/html-effectiveness/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The companion demo page to the viral Claude Code / HTML thread — a gallery of fully self-contained HTML files generated by AI that do surprisingly sophisticated things. Each example is a single file you can open in a browser right now. Bookmark this for the next time a client asks for a quick prototype."
+    },
+    {
+      "title": "Pushing Local Models With Focus And Polish | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2026/5/8/local-models/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, local",
+      "blurb": "Armin Ronacher (Flask/Jinja2 creator) argues that local LLMs need focused polish — not just bigger weights — to become genuinely useful for developer workflows. He walks through specific UX and integration gaps that cloud models have solved but local options haven't. Thoughtful and opinionated, from someone who ships production tools."
+    },
+    {
+      "title": "darrylmorley/whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A tiny macOS menu bar utility that inspects every USB-C cable connected to your Mac and tells you in plain English whether it supports Thunderbolt, DisplayPort, USB 3.2, charging speeds, and so on. The cable confusion problem is real and this is an immediately actionable fix. Open-source on GitHub and installable today."
+    },
+    {
+      "title": "the sweeter way to open Mac apps",
+      "url": "https://choclift.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, ios, workflows, apps, totry, via:threads, indie, gestures, tohomebrew",
+      "blurb": "Choclift is an indie macOS/iOS app that lets you launch Mac apps using gestures on your iPhone — essentially turning your phone into a spatial launcher for your desktop. It's a clever take on cross-device workflow that leans into the Apple ecosystem. Worth a try if you're always reaching for your phone anyway."
+    },
+    {
+      "title": "Dirty Frag Vulnerability Made Public Early: Root Privilege On All Distributions - Phoronix",
+      "url": "https://www.phoronix.com/news/Dirty-Frag-Linux",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "DirtyFrag is a newly disclosed Linux kernel vulnerability allowing local privilege escalation to root across all major distributions, and it was dropped publicly before the coordinated patch window closed. If you run Linux anywhere — servers, WSL, containers — this needs patching now. The Phoronix writeup has the technical details and patch status."
+    },
+    {
+      "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+      "url": "https://transformer-circuits.pub/2026/nla/#introduction",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: research, year:2026, anthropic, subject:cs.AI, subject:cs.CL",
+      "blurb": "Anthropic's interpretability team publishes a new technique using natural language autoencoders to produce human-readable explanations of what individual neurons and circuits inside LLMs are actually doing — without supervision. This is the kind of mechanistic interpretability work that could eventually make AI systems more auditable and trustworthy. Dense but landmark."
+    },
+    {
+      "title": "Amp, Rebuilt - Amp",
+      "url": "https://ampcode.com/news/neo",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: coding, agent",
+      "blurb": "Amp announces a major rebuild of its AI coding agent — new architecture, tighter IDE integration, and a focus on long-horizon agentic tasks. It's positioning itself as a direct competitor to Claude Code and Cursor for developers who want a coding agent that can handle multi-step refactors. Worth a look if you're evaluating your AI dev toolchain."
+    },
+    {
+      "title": "Scroll-Driven Animations • Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/animation/scroll-driven-animations/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: css, animation, scroll-driven, keyframes, animation-timeline",
+      "blurb": "Josh W. Comeau's signature deep-dive treatment applied to the new CSS Animation Timeline API — the native way to create scroll-driven animations without any JavaScript. The interactive demos are exceptional and the explanations are beginner-accessible. If you're building Angular/TypeScript frontends, this is a CSS superpower you can ship today."
+    },
+    {
+      "title": "Potential Consequences of Using Postgres as a Job Queue",
+      "url": "https://richyen.com/postgres/2026/05/04/postgres_job_queue.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A thorough technical breakdown of what actually goes wrong when you use PostgreSQL as a job queue — covering table bloat, lock contention, LISTEN/NOTIFY limits, and visibility edge cases. The \"just use Postgres\" instinct is common in .NET/TypeScript backends, but this post is a sober reminder of where the cracks appear under load. Practical and well-evidenced."
+    }
+  ]
+}
