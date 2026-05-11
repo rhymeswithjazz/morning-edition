@@ -1,0 +1,1215 @@
+{
+  "date": "2026-05-11",
+  "fetched_at": "2026-05-11T09:21:32",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Hardware Attestation as Monopoly Enabler",
+        "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+        "hn_id": 48086190,
+        "hn_link": "https://news.ycombinator.com/item?id=48086190",
+        "score": 1494,
+        "author": "ChuckMcM",
+        "comments": 487,
+        "byline_hint": "by ChuckMcM · 1494 points · 487 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Local AI needs to be the norm",
+        "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+        "hn_id": 48085821,
+        "hn_link": "https://news.ycombinator.com/item?id=48085821",
+        "score": 1111,
+        "author": "cylo",
+        "comments": 472,
+        "byline_hint": "by cylo · 1111 points · 472 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I returned to AWS and was reminded why I left",
+        "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+        "hn_id": 48073201,
+        "hn_link": "https://news.ycombinator.com/item?id=48073201",
+        "score": 765,
+        "author": "andrewstuart",
+        "comments": 534,
+        "byline_hint": "by andrewstuart · 765 points · 534 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+        "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+        "hn_id": 48084432,
+        "hn_link": "https://news.ycombinator.com/item?id=48084432",
+        "score": 542,
+        "author": "iancmceachern",
+        "comments": 288,
+        "byline_hint": "by iancmceachern · 542 points · 288 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Incident Report: CVE-2024-YIKES",
+        "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+        "hn_id": 48086082,
+        "hn_link": "https://news.ycombinator.com/item?id=48086082",
+        "score": 526,
+        "author": "miniBill",
+        "comments": 134,
+        "byline_hint": "by miniBill · 526 points · 134 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I'm going back to writing code by hand",
+        "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+        "hn_id": 48090029,
+        "hn_link": "https://news.ycombinator.com/item?id=48090029",
+        "score": 335,
+        "author": "dropbox_miner",
+        "comments": 153,
+        "byline_hint": "by dropbox_miner · 335 points · 153 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Idempotency is easy until the second request is different",
+        "url": "https://blog.dochia.dev/blog/idempotency/",
+        "hn_id": 48047930,
+        "hn_link": "https://news.ycombinator.com/item?id=48047930",
+        "score": 307,
+        "author": "ludovicianul",
+        "comments": 182,
+        "byline_hint": "by ludovicianul · 307 points · 182 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Running local models on an M4 with 24GB memory",
+        "url": "https://jola.dev/posts/running-local-models-on-m4",
+        "hn_id": 48089091,
+        "hn_link": "https://news.ycombinator.com/item?id=48089091",
+        "score": 296,
+        "author": "shintoist",
+        "comments": 91,
+        "byline_hint": "by shintoist · 296 points · 91 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+        "hn_id": 48088151,
+        "hn_link": "https://news.ycombinator.com/item?id=48088151",
+        "score": 245,
+        "author": "lemonberry",
+        "comments": 137,
+        "byline_hint": "by lemonberry · 245 points · 137 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Task Paralysis and AI",
+        "url": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+        "hn_id": 48081469,
+        "hn_link": "https://news.ycombinator.com/item?id=48081469",
+        "score": 236,
+        "author": "MrGilbert",
+        "comments": 116,
+        "byline_hint": "by MrGilbert · 236 points · 116 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Obsidian plugin was abused to deploy a remote access trojan",
+        "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+        "hn_id": 48088576,
+        "hn_link": "https://news.ycombinator.com/item?id=48088576",
+        "score": 205,
+        "author": "cmbailey",
+        "comments": 103,
+        "byline_hint": "by cmbailey · 205 points · 103 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Think Linear Algebra (2023)",
+        "url": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+        "hn_id": 48082396,
+        "hn_link": "https://news.ycombinator.com/item?id=48082396",
+        "score": 203,
+        "author": "tamnd",
+        "comments": 26,
+        "byline_hint": "by tamnd · 203 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ask HN: What are you working on? (May 2026)",
+        "url": "https://news.ycombinator.com/item?id=48085993",
+        "hn_id": 48085993,
+        "hn_link": "https://news.ycombinator.com/item?id=48085993",
+        "score": 184,
+        "author": "david927",
+        "comments": 666,
+        "byline_hint": "by david927 · 184 points · 666 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What's a mathematician to do? (2010)",
+        "url": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+        "hn_id": 48083007,
+        "hn_link": "https://news.ycombinator.com/item?id=48083007",
+        "score": 163,
+        "author": "ipnon",
+        "comments": 79,
+        "byline_hint": "by ipnon · 163 points · 79 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The locals don't know",
+        "url": "https://www.quarter--mile.com/The-Locals-Dont-Know",
+        "hn_id": 48085055,
+        "hn_link": "https://news.ycombinator.com/item?id=48085055",
+        "score": 158,
+        "author": "herbertl",
+        "comments": 127,
+        "byline_hint": "by herbertl · 158 points · 127 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Traces Of Humanity",
+        "url": "https://tracesofhumanity.org/hello-world/",
+        "hn_id": 48085782,
+        "hn_link": "https://news.ycombinator.com/item?id=48085782",
+        "score": 156,
+        "author": "alex77456",
+        "comments": 23,
+        "byline_hint": "by alex77456 · 156 points · 23 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The greatest shot in television: James Burke had one chance to nail this scene (2024)",
+        "url": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
+        "hn_id": 48090521,
+        "hn_link": "https://news.ycombinator.com/item?id=48090521",
+        "score": 155,
+        "author": "susam",
+        "comments": 67,
+        "byline_hint": "by susam · 155 points · 67 comments"
+      },
+      {
+        "source": "hn",
+        "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+        "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+        "hn_id": 48089289,
+        "hn_link": "https://news.ycombinator.com/item?id=48089289",
+        "score": 154,
+        "author": "cratermoon",
+        "comments": 37,
+        "byline_hint": "by cratermoon · 154 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Walking slower? Your ears, not your knees, might be the problem",
+        "url": "https://www.wsj.com/health/wellness/hearing-loss-walking-speed-iphone-study-c53c482a",
+        "hn_id": 48075429,
+        "hn_link": "https://news.ycombinator.com/item?id=48075429",
+        "score": 117,
+        "author": "marc__1",
+        "comments": 72,
+        "byline_hint": "by marc__1 · 117 points · 72 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Guy Goma's Accidental BBC Interview Lives on After 20 Years",
+        "url": "https://www.nytimes.com/2026/05/06/business/media/bbc-guy-goma-interview.html",
+        "hn_id": 48067698,
+        "hn_link": "https://news.ycombinator.com/item?id=48067698",
+        "score": 116,
+        "author": "nxobject",
+        "comments": 27,
+        "byline_hint": "by nxobject · 116 points · 27 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Stop MitM on the first SSH connection, on any VPS or cloud provider",
+        "url": "https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html",
+        "hn_id": 48061602,
+        "hn_link": "https://news.ycombinator.com/item?id=48061602",
+        "score": 116,
+        "author": "JoachimSchipper",
+        "comments": 64,
+        "byline_hint": "by JoachimSchipper · 116 points · 64 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: An index of indie web/blog indexes",
+        "url": "https://theindex.fyi",
+        "hn_id": 48083580,
+        "hn_link": "https://news.ycombinator.com/item?id=48083580",
+        "score": 115,
+        "author": "rocketpastsix",
+        "comments": 38,
+        "byline_hint": "by rocketpastsix · 115 points · 38 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Lakebase architecture delivers faster Postgres writes",
+        "url": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
+        "hn_id": 48064789,
+        "hn_link": "https://news.ycombinator.com/item?id=48064789",
+        "score": 113,
+        "author": "sp_from_db",
+        "comments": 33,
+        "byline_hint": "by sp_from_db · 113 points · 33 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Mythos Finds a Curl Vulnerability",
+        "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+        "hn_id": 48091737,
+        "hn_link": "https://news.ycombinator.com/item?id=48091737",
+        "score": 112,
+        "author": "TangerineDream",
+        "comments": 46,
+        "byline_hint": "by TangerineDream · 112 points · 46 comments"
+      },
+      {
+        "source": "hn",
+        "title": "First tunnel element of the Fehmarnbelt Tunnel immersed",
+        "url": "https://www.arup.com/en-us/news/first-fehmarnbelt-tunnel-element-lowered/",
+        "hn_id": 48050666,
+        "hn_link": "https://news.ycombinator.com/item?id=48050666",
+        "score": 94,
+        "author": "robin_reala",
+        "comments": 30,
+        "byline_hint": "by robin_reala · 94 points · 30 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
+        "url": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
+        "hn_id": 48089049,
+        "hn_link": "https://news.ycombinator.com/item?id=48089049",
+        "score": 74,
+        "author": "adunk",
+        "comments": 21,
+        "byline_hint": "by adunk · 74 points · 21 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Eight More '8-Bit Era' Microprocessors",
+        "url": "https://thechipletter.substack.com/p/eight-more-8-bit-era-microprocessors",
+        "hn_id": 48061556,
+        "hn_link": "https://news.ycombinator.com/item?id=48061556",
+        "score": 72,
+        "author": "klelatti",
+        "comments": 24,
+        "byline_hint": "by klelatti · 72 points · 24 comments"
+      },
+      {
+        "source": "hn",
+        "title": "dBase: 1979-2026",
+        "url": "https://delphinightmares.substack.com/p/dbase-1979-2026",
+        "hn_id": 48058757,
+        "hn_link": "https://news.ycombinator.com/item?id=48058757",
+        "score": 71,
+        "author": "deeaceofbase",
+        "comments": 22,
+        "byline_hint": "by deeaceofbase · 71 points · 22 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The people preserving the scientific practice of bird banding",
+        "url": "https://thenarwhal.ca/bird-banding-ontario/",
+        "hn_id": 48056639,
+        "hn_link": "https://news.ycombinator.com/item?id=48056639",
+        "score": 53,
+        "author": "bookofjoe",
+        "comments": 0,
+        "byline_hint": "by bookofjoe · 53 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "7 lines of code, 3 minutes: Implement a programming language (2010)",
+        "url": "https://matt.might.net/articles/implementing-a-programming-language/",
+        "hn_id": 48091085,
+        "hn_link": "https://news.ycombinator.com/item?id=48091085",
+        "score": 48,
+        "author": "azhenley",
+        "comments": 11,
+        "byline_hint": "by azhenley · 48 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+        "url": "https://github.com/adamjgmiller/adamsreview",
+        "hn_id": 48090276,
+        "hn_link": "https://news.ycombinator.com/item?id=48090276",
+        "score": 32,
+        "author": "adamthegoalie",
+        "comments": 8,
+        "byline_hint": "by adamthegoalie · 32 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Phel v0.36.0 – Lisp on PHP, now with numeric tower and first-class Vars",
+        "url": "https://github.com/phel-lang/phel-lang/releases/tag/v0.36.0",
+        "hn_id": 48059761,
+        "hn_link": "https://news.ycombinator.com/item?id=48059761",
+        "score": 30,
+        "author": "Chemaclass",
+        "comments": 3,
+        "byline_hint": "by Chemaclass · 30 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Seeing Birdsong",
+        "url": "https://www.lucioarese.net/seeing-birdsong/",
+        "hn_id": 48057144,
+        "hn_link": "https://news.ycombinator.com/item?id=48057144",
+        "score": 21,
+        "author": "carabiner",
+        "comments": 1,
+        "byline_hint": "by carabiner · 21 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Gode Cookery – Authentic Medieval Recipes",
+        "url": "http://www.godecookery.com/godeboke/godeboke.htm",
+        "hn_id": 48049460,
+        "hn_link": "https://news.ycombinator.com/item?id=48049460",
+        "score": 16,
+        "author": "Mr_Minderbinder",
+        "comments": 1,
+        "byline_hint": "by Mr_Minderbinder · 16 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Shelf Source: Tom MacWright",
+        "url": "https://roadlessread.com/views/ss-macwright",
+        "hn_id": 48076629,
+        "hn_link": "https://news.ycombinator.com/item?id=48076629",
+        "score": 13,
+        "author": "tobr",
+        "comments": 0,
+        "byline_hint": "by tobr · 13 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Guitar tuner that uses phone accelerometer",
+        "url": "https://tautme.github.io/phone-sensors/accel-tuner.html",
+        "hn_id": 48058260,
+        "hn_link": "https://news.ycombinator.com/item?id=48058260",
+        "score": 11,
+        "author": "adm4",
+        "comments": 7,
+        "byline_hint": "by adm4 · 11 points · 7 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ice Cream Blending (1965) [pdf]",
+        "url": "https://bitsavers.org/pdf/ibm/generalInfo/E20-0156-0_Linear_Programming_-_Ice_Cream_Blending.pdf",
+        "hn_id": 48066872,
+        "hn_link": "https://news.ycombinator.com/item?id=48066872",
+        "score": 9,
+        "author": "ok123456",
+        "comments": 1,
+        "byline_hint": "by ok123456 · 9 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Truth Social lays bare narrow obsessions of an online president",
+        "url": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
+        "hn_id": 48092462,
+        "hn_link": "https://news.ycombinator.com/item?id=48092462",
+        "score": 6,
+        "author": "robtherobber",
+        "comments": 0,
+        "byline_hint": "by robtherobber · 6 points · 0 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "This is what free costs",
+        "url": "https://sinceyouarrived.world/taken",
+        "description": "",
+        "tags": [
+          "privacy"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: privacy"
+      },
+      {
+        "source": "pinboard",
+        "title": "Learn AI Layer by Layer",
+        "url": "https://learnai.robennals.org/",
+        "description": "An interactive, visual guide to understanding AI from first principles.\nRob Ennals",
+        "tags": [
+          "machine_learning",
+          "tutorials"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: machine_learning, tutorials"
+      },
+      {
+        "source": "pinboard",
+        "title": "matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+        "url": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+        "description": "",
+        "tags": [
+          "article",
+          "libertarian",
+          "politics",
+          "internet",
+          "corporation",
+          "opinion",
+          "blog"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: article, libertarian, politics, internet, corporation, opinion, blog"
+      },
+      {
+        "source": "pinboard",
+        "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview - Mozilla Hacks - the Web developer blog",
+        "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Just Fucking Use Go - Blain Smith",
+        "url": "https://blainsmith.com/articles/just-fucking-use-go/",
+        "description": "",
+        "tags": [
+          "golang"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: golang"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mythical Man Month",
+        "url": "https://martinfowler.com/bliki/MythicalManMonth.html",
+        "description": "",
+        "tags": [
+          "Technology",
+          "author:martin_fowler",
+          "blogs",
+          "year:2026",
+          "subject:cs.SE",
+          "projectmanagement"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Technology, author:martin_fowler, blogs, year:2026, subject:cs.SE, projectmanagement"
+      },
+      {
+        "source": "pinboard",
+        "title": "Bitter Lessons from the ISSpresso - by Maciej Cegłowski",
+        "url": "https://mceglowski.substack.com/p/bitter-lessons-from-the-isspresso",
+        "description": "",
+        "tags": [
+          "space",
+          "regulation"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: space, regulation"
+      },
+      {
+        "source": "pinboard",
+        "title": "The indie web index directory | theindex.fyi",
+        "url": "https://theindex.fyi/",
+        "description": "",
+        "tags": [
+          "search",
+          "engine",
+          "engines",
+          "searchengine",
+          "search-engine",
+          "index",
+          "indexing",
+          "indexes"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: search, engine, engines, searchengine, search-engine, index, indexing, indexes"
+      },
+      {
+        "source": "pinboard",
+        "title": "The \"AI Job Apocalypse\" Is a Complete Fantasy",
+        "url": "https://www.a16z.news/p/the-ai-job-apocalypse-is-a-complete",
+        "description": "",
+        "tags": [
+          "GenAI",
+          "hr"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: GenAI, hr"
+      },
+      {
+        "source": "pinboard",
+        "title": "Native Apps Should Be Avoided Whenever Possible",
+        "url": "https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Poland is now among the 20 largest economies | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=48062117",
+        "description": "",
+        "tags": [
+          "politics",
+          "europe",
+          "economics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics, europe, economics"
+      },
+      {
+        "source": "pinboard",
+        "title": "Guardian Blind Dates: 18 Years of Data",
+        "url": "https://blinddates.rory.codes/",
+        "description": "",
+        "tags": [
+          "Data",
+          "datastorytelling",
+          "Elite"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Data, datastorytelling, Elite"
+      },
+      {
+        "source": "pinboard",
+        "title": "The map that keeps Burning Man honest",
+        "url": "https://www.not-ship.com/burning-man-moop/",
+        "description": "Each year, 70,000 people gather on a dry lakebed in Nevada to build a city from scratch. This is Black Rock City, home to the infamous Burning Man event. Eight days later, it's gone.\n\nBut 150 people remain. They line up — side by side, an arms width apart — and slowly walk the 3,800 acres (15.4 km²) of dusty playa. They're looking for MOOP: Matter Out of Place. A screw, a sequin, a cigarette butt.\n\nThis forensic-style sweep takes weeks; everything they find is removed and logged. At the end, they're left with a remarkable accounting of what 70,000 people left behind: The MOOP Map. And I'm obsessed.",
+        "tags": [
+          "ecology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ecology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | Biggest Con of All: The Genuinely Staggering Scale of Trump's Robbery | Common Dreams",
+        "url": "https://www.commondreams.org/opinion/right-wing-influence-machine-trump",
+        "description": "",
+        "tags": [
+          "politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "Internet Archive Switzerland",
+        "url": "https://internetarchive.ch/",
+        "description": "",
+        "tags": [
+          "switzerland",
+          "internet",
+          "archive",
+          "foundation"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: switzerland, internet, archive, foundation"
+      },
+      {
+        "source": "pinboard",
+        "title": "Poland is a model for economic growth | AP News",
+        "url": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "I returned to AWS, and was reminded why I left | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=48073201",
+        "description": "People don’t seem to realize how simple pricing can be made for the user. I switched to digital ocean too, and it’s great. I think people think it’s not really engineering if it’s not complicated, so they stick with these insane AWS/GCP/Azure setups. But it’s not 2012 anymore, this stuff has been figured out and commoditized, and managing your cloud setup should be “easy” for 99% of products.",
+        "tags": [
+          "amazon",
+          "microsoft",
+          "cloud",
+          "pricing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: amazon, microsoft, cloud, pricing"
+      },
+      {
+        "source": "pinboard",
+        "title": "Diese europäischen Orte verlieren Einwohner",
+        "url": "https://correctiv.org/aktuelles/2026/04/21/die-haelfte-der-europaeischen-gemeinden-hat-weniger-einwohner-als-vor-60-jahren/",
+        "description": "Map of population change in Europe 1960-2024",
+        "tags": [
+          "visualization",
+          "map",
+          "Europe",
+          "zoomable",
+          "German"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: visualization, map, Europe, zoomable, German"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Japan has such good railways - Works in Progress Magazine",
+        "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "36 Doctors Just Staged the Quietest Coup in American History",
+        "url": "https://thegrimhistorian.substack.com/p/36-doctors-just-staged-the-quietest",
+        "description": "",
+        "tags": [
+          "politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "CADara",
+        "url": "https://cadara.app/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "‘We’re not Lady Gaga and Elton John’: unmasking Angine de Poitrine, the year’s buzziest, dottiest band | Music | The Guardian",
+        "url": "https://www.theguardian.com/music/2026/may/08/unmasking-angine-de-poitrine-rock-duo-quebec-khn-klek",
+        "description": "Their microtonal rock has been a huge viral hit – but are they really 333-year-old aliens inspired by Borneo monkeys? The Quebecois duo tell all",
+        "tags": [
+          "AnginedePoitrine",
+          "music",
+          "interview",
+          "Guardian",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AnginedePoitrine, music, interview, Guardian, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "Rotten Dot Com by Dena Yago",
+        "url": "https://www.theparisreview.org/blog/2026/05/06/rotten-dot-com/",
+        "description": "Henri-Charles Guérard, Composite print of Japanese masks and a death’s-head (1888), from the New York Public Library Digital Collections. Public domain. “Wanna see a dead body?”https://www.theparisreview.org/blog/2026/05/06/rotten-dot-com/",
+        "tags": [
+          "via:shortcuts"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: via:shortcuts"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Boring Internet | Terry Godier",
+        "url": "https://www.terrygodier.com/the-boring-internet",
+        "description": "The internet you grew up on isn’t dying. A commercial veneer glued on top of it is.",
+        "tags": [
+          "history",
+          "technology",
+          "web",
+          "journalism",
+          "criticism",
+          "critique"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: history, technology, web, journalism, criticism, critique"
+      },
+      {
+        "source": "pinboard",
+        "title": "Space Cadet Pinball on Linux | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=48082968",
+        "description": "",
+        "tags": [
+          "linux",
+          "microsoft",
+          "windows",
+          "history",
+          "opensource",
+          "games"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: linux, microsoft, windows, history, opensource, games"
+      },
+      {
+        "source": "pinboard",
+        "title": "Exclusive: Meta to start capturing employee mouse movements, keystrokes for AI training data | Reuters",
+        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+        "description": "",
+        "tags": [
+          "meta",
+          "facebook",
+          "surveillance"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: meta, facebook, surveillance"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | Mark Zuckerberg Is Running Meta Into the Ground - The New York Times",
+        "url": "https://www.nytimes.com/2026/05/08/opinion/meta-facebook-zuckerberg.html",
+        "description": "",
+        "tags": [
+          "social-media",
+          "facebook"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: social-media, facebook"
+      },
+      {
+        "source": "pinboard",
+        "title": "Canvas violato: il più grande disastro per la privacy degli studenti",
+        "url": "https://www.404media.co/the-biggest-student-data-privacy-disaster-in-history-canvas-hack-shows-the-danger-of-centralized-edtech/",
+        "description": "Il gruppo ransomware ShinyHunters ha violato Instructure (Canvas), rubando miliardi di messaggi e dati di oltre 275 milioni di persone e bloccando l'accesso degli studenti. I messaggi contengono informazioni sensibili (circostanze mediche, accomodamenti, accuse, dispute), aumentando rischio di phishing e danni personali. L'attacco evidenzia i pericoli della centralizzazione dei dati EdTech e solleva preoccupazioni sulla lentezza delle istituzioni nel notificare e proteggere gli studenti.",
+        "tags": [
+          "N8N",
+          "#CyberSec",
+          "CRISIS",
+          "TW2026-19"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #CyberSec, CRISIS, TW2026-19"
+      },
+      {
+        "source": "pinboard",
+        "title": "Apocalypse Early Warning System",
+        "url": "https://ews.kylemcdonald.net/",
+        "description": "",
+        "tags": [
+          "monitoring",
+          "dashboards",
+          "data",
+          "realtime",
+          "apocalypses",
+          "emergencies",
+          "via:instagram"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: monitoring, dashboards, data, realtime, apocalypses, emergencies, via:instagram"
+      },
+      {
+        "source": "pinboard",
+        "title": "the 90 day disclosure policy is dead :: Himanshu Anand :: Threat Notes",
+        "url": "https://blog.himanshuanand.com/2026/05/the-90-day-disclosure-policy-is-dead/",
+        "description": "",
+        "tags": [
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security"
+      },
+      {
+        "source": "pinboard",
+        "title": "When persistence prevails | Tim Harford",
+        "url": "https://timharford.com/2026/05/when-persistence-prevails/",
+        "description": "",
+        "tags": [
+          "oldage",
+          "psychology",
+          "history",
+          "stories"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: oldage, psychology, history, stories"
+      },
+      {
+        "source": "pinboard",
+        "title": "Goodhart's law - Wikipedia, the free encyclopedia",
+        "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law",
+        "description": "",
+        "tags": [
+          "wikipedia",
+          "goodhartslaw"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: wikipedia, goodhartslaw"
+      },
+      {
+        "source": "pinboard",
+        "title": "Understanding the gynecological health crisis facing Black women | Science Friday (Kemi Doll, Gynecology)",
+        "url": "https://www.sciencefriday.com/segments/gynecologic-health-crisis-for-black-women-improving-uterine-health/",
+        "description": "When Kemi Doll was in medical school, she learned that Black women are twice as likely to die from uterine cancer as white women, and also suffer disproportionately from other uterine-related conditions.",
+        "tags": [
+          "Kemi",
+          "Doll.Kemi",
+          "Area:Ob-Gyn",
+          "Area:Oncology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Kemi, Doll.Kemi, Area:Ob-Gyn, Area:Oncology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Dusk • Restoring light to a classic adventure",
+        "url": "https://twilitrealm.dev/",
+        "description": "Dusk as Zelda PC clone based on the Zelda for GameCube/Wii\nhttps://twilitrealm.dev/faq/ \n\nhttps://www.youtube.com/watch?v=t9fQ4ZB-wvk&t=21s \nCOVID Project\n- When we started the decomp project in August 2020, it was hard to imagine ever finishing, much less seeing it be used for a project like this. So many hours of effort were poured into the decomp by many contributors all over the world.",
+        "tags": [
+          "Zelda",
+          "Nintendo",
+          "mod",
+          "COVID"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Zelda, Nintendo, mod, COVID"
+      },
+      {
+        "source": "pinboard",
+        "title": "Space Cadet Pinball on Linux • Stephen Brennan",
+        "url": "https://brennan.io/2026/05/09/pinball-and-escrow/",
+        "description": "",
+        "tags": [
+          "tryme",
+          "games"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: tryme, games"
+      },
+      {
+        "source": "pinboard",
+        "title": "Laws of Software Engineering",
+        "url": "https://lawsofsoftwareengineering.com/",
+        "description": "This is a handy catalog, but the deeper value is knowing when each one clarifies reality and when it distorts it. Brooks’s Law, Conway’s Law, Hyrum’s Law, Goodhart’s Law, Gall’s Law, YAGNI, DRY, KISS: each names a recurring pressure, tradeoff, or failure mode. The mistake is treating them as universal commandments instead of heuristics with scope and context. The best engineers do not cite laws to end discussion. They use them to ask better questions about systems, teams, and unintended consequences. \n\n\nHN thoughts: The thread is broadly skeptical of the framing. The strongest consensus is that calling these ideas “laws” oversells them: commenters repeatedly argue they are really aphorisms, heuristics, or design principles, often contradictory and too easy to cherry-pick to justify whatever decision someone already wants to make. \n\nA major subtheme is that the list is incomplete or misleading. People suggest missing entries like Greenspun’s rule, Boyd’s law of iteration, and Ousterhout’s ideas on complexity, while others say some listed items are not really software-engineering-specific at all.\n\nThe main disagreement is not whether these observations are useful, but how they should be used. One camp says many are valuable if treated as context-dependent guidance rather than doctrine. Examples include nuanced defenses of DRY, “premature optimization,” and decomposition principles. The other camp sees the whole exercise as vague software voodoo dressed up as science, with little empirical grounding.\n\nThere is also a smaller practical thread about books and sources worth trusting, plus one modern angle: using Claude or other LLMs to brute-force performance ideas, then porting the good parts back into maintainable code. Overall mood: useful maxims exist, but dogmatism and false precision are the real danger.",
+        "tags": [
+          "softwareengineering",
+          "management",
+          "architecture",
+          "decisionmaking",
+          "heuristics",
+          "systems-thinking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: softwareengineering, management, architecture, decisionmaking, heuristics, systems-thinking"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tech is turning increasingly to religion in a quest to create ethical AI",
+        "url": "https://apnews.com/article/ai-artificial-intelligence-ethics-religion-roundtable-053a44133c64703f83fd50c9ee6124ea",
+        "description": "Tech companies are increasingly seeking guidance from faith leaders to shape artificial intelligence.",
+        "tags": [
+          "ai",
+          "faith"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, faith"
+      },
+      {
+        "source": "pinboard",
+        "title": "Hermes Agent — An Agent That Grows With You",
+        "url": "https://hermes-agent.nousresearch.com/",
+        "description": "An open-source agent that grows with you — learns your projects, builds its own skills, and reaches you wherever you are. By Nous Research.",
+        "tags": [
+          "OpenClaw"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: OpenClaw"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - graemeg/blaise: A modern, self-hosting Object Pascal compiler built for the 2020s. Zero legacy, full ARC, and unified UTF-8. · GitHub",
+        "url": "https://github.com/graemeg/blaise",
+        "description": "",
+        "tags": [
+          "languages"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: languages"
+      },
+      {
+        "source": "pinboard",
+        "title": "Shunting-Yard Algorithm Animation",
+        "url": "https://somethingorotherwhatever.com/shunting-yard-animation/",
+        "description": "https://news.ycombinator.com/item?id=48084547",
+        "tags": [
+          "programming",
+          "algorithms",
+          "visualization",
+          "tutorial",
+          "learning"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, algorithms, visualization, tutorial, learning"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - rohitg00/agentmemory: Persistent memory for AI coding agents · GitHub",
+        "url": "https://github.com/rohitg00/agentmemory",
+        "description": "",
+        "tags": [
+          "claude"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: claude"
+      },
+      {
+        "source": "pinboard",
+        "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+        "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+        "description": "Designing, Refining, and Maintaining Agent Skills at Perplexity https://ift.tt/VNa8qBz",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Nintendo is raising Switch 2 prices | The Verge",
+        "url": "https://www.theverge.com/games/926606/nintendo-switch-2-price-hikes-earnings-results",
+        "description": "via The Verge https://ift.tt/16zJh3q",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "DataCenter.FM - background noise app featuring the sound of the AI bubble",
+        "url": "https://datacenter.fm/",
+        "description": "https://news.ycombinator.com/item?id=47959513",
+        "tags": [
+          "ai",
+          "technology",
+          "humor",
+          "audio",
+          "fun",
+          "onlinetools",
+          "free",
+          "economics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, technology, humor, audio, fun, onlinetools, free, economics"
+      },
+      {
+        "source": "pinboard",
+        "title": "OpenClaw — Personal AI Assistant",
+        "url": "https://openclaw.ai/",
+        "description": "* https://www.theverge.com/report/869004/moltbot-clawdbot-local-ai-agent\n* https://arstechnica.com/ai/2026/01/viral-ai-assistant-moltbot-rapidly-gains-popularity-but-poses-security-risks/\n* https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/\n* https://aaronstuyvenberg.com/posts/clawd-bought-a-car\n* https://github.com/moltbot/moltbot\n* https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/\n*** https://news.ycombinator.com/item?id=46783863\n* https://til.simonwillison.net/llms/openclaw-docker\n* https://www.theverge.com/news/874011/openclaw-ai-skill-clawhub-extensions-security-nightmare",
+        "tags": [
+          "ai",
+          "automation",
+          "opensource",
+          "localai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, automation, opensource, localai"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to Access Court Records, by State: How to Access Court Records, by State A crowdsourced field guide to finding state court records",
+        "url": "https://tyler-mcbrien.github.io/state-court-records/",
+        "description": "",
+        "tags": [
+          "judicial-system"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: judicial-system"
+      },
+      {
+        "source": "pinboard",
+        "title": "Getting peak TOPS on a Ryzen AI 7 350 NPU – Daniel Estévez",
+        "url": "https://destevez.net/2026/05/getting-peak-tops-on-a-ryzen-ai-7-350-npu/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Is this thing on? - ARustySpork - Game Changers Series - Rachel Reid [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/82436031",
+        "description": "“They need to return to a conference based system,” Svetlana said, slamming her hand against the table. “It was fucking fine the way it was, why are we handing out participation trophies to shitty divisions?”\n\nIlya raised his eyebrows from where he hovered in the kitchen, cracking open another Red Bull.\n\n“This is fun,” he said, deadpanned. “You guys should start a podcast or something. I would not listen, you are both terribly boring.”\n\n* * *\n\nOr, after an injury on the ice forces Shane into an early retirement, he and Svetlana start a podcast.",
+        "tags": [
+          "category:fanfiction",
+          "fandom:heated_rivalry",
+          "pairing:shane.hollander/ilya.rozanov",
+          "genre:slash",
+          "genre:established_relationship",
+          "genre:gen",
+          "rating:teen"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: category:fanfiction, fandom:heated_rivalry, pairing:shane.hollander/ilya.rozanov, genre:slash, genre:established_relationship, genre:gen, rating:teen"
+      },
+      {
+        "source": "pinboard",
+        "title": "susam/wander: A tiny, decentralised tool you can host with just two files to explore the small web - Codeberg.org",
+        "url": "https://codeberg.org/susam/wander#readme",
+        "description": "",
+        "tags": [
+          "javascript",
+          "programming",
+          "web",
+          "smallweb"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: javascript, programming, web, smallweb"
+      },
+      {
+        "source": "pinboard",
+        "title": "(8) Data center land use issues are fake - Andy Masley",
+        "url": "https://blog.andymasley.com/p/data-center-land-use-issues-are-fake",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Datenschutz-Check für Apps & Smart Home | DATADOOM",
+        "url": "https://datadoom.de/",
+        "description": "",
+        "tags": [
+          "privacy",
+          "lobbying",
+          "database",
+          "interactive",
+          "bigtech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: privacy, lobbying, database, interactive, bigtech"
+      },
+      {
+        "source": "pinboard",
+        "title": "Writers are fleeing the Substack Tax | The Verge",
+        "url": "https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv",
+        "description": "via The Verge https://ift.tt/YUcIl4S",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Emerich Juettner: The One Dollar Counterfeiter | Amusing Planet",
+        "url": "https://www.amusingplanet.com/2026/05/emerich-juettner-one-dollar.html",
+        "description": "Emerich Juettner, a frail old immigrant living alone in a shabby New York apartment, quietly printed one-dollar bills on a cheap hand press. He was, by almost every conventional standard, terrible at counterfeiting.\n\nAnd yet he succeeded for nearly a decade. By the time the United States Secret Service finally caught Juettner in 1948, he had become kind of folk hero. The press adored him and the public sympathized with him. A Hollywood film would soon immortalize him under the nickname “Mister 880,” a reference to his Secret Service case number.",
+        "tags": [
+          "crime",
+          "money"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: crime, money"
+      },
+      {
+        "source": "pinboard",
+        "title": "The man with an army of Yarbo robot lawn mowers | The Verge",
+        "url": "https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt",
+        "description": "via The Verge https://ift.tt/16zJh3q",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "On forking the Web",
+        "url": "https://dillo-browser.org/lab/web-fork/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Min-Tab: A clean, fast new tab replacement for Chrome and Firefox with multi-search engine support, smart suggestions, keyboard shortcuts, and complete privacy—no tracking, no clutter.",
+        "url": "https://github.com/mouadbt/Min-Tab",
+        "description": "",
+        "tags": [
+          "startpage",
+          "opensource",
+          "html",
+          "css",
+          "javascript",
+          "simplicity",
+          "minimalism",
+          "chrome",
+          "firefox",
+          "extension"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: startpage, opensource, html, css, javascript, simplicity, minimalism, chrome, firefox, extension"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mahjong: a Visual Guide",
+        "url": "https://themahjong.guide/",
+        "description": "",
+        "tags": [
+          "games",
+          "mahjong",
+          "chinese",
+          "guide"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: games, mahjong, chinese, guide"
+      },
+      {
+        "source": "pinboard",
+        "title": "RoiKachlon321/startpage: Self-service bookmark startpage with Angular, keyboard navigation, and edit mode · GitHub",
+        "url": "https://github.com/RoiKachlon321/startpage",
+        "description": "",
+        "tags": [
+          "startpage",
+          "simplicity",
+          "minimalism",
+          "opensource",
+          "bookmarks",
+          "productivity",
+          "javascript",
+          "python"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: startpage, simplicity, minimalism, opensource, bookmarks, productivity, javascript, python"
+      },
+      {
+        "source": "pinboard",
+        "title": "Protocol Cards — Evidence-backed Nervous System Regulation",
+        "url": "https://protocolcards.com/",
+        "description": "",
+        "tags": [
+          "protocol",
+          "cards",
+          "regulation",
+          "nervoussystem"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: protocol, cards, regulation, nervoussystem"
+      },
+      {
+        "source": "pinboard",
+        "title": "Vivaldi",
+        "url": "https://vivaldi.com/",
+        "description": "A new browser for our friends",
+        "tags": [
+          "web",
+          "browser",
+          "free"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: web, browser, free"
+      },
+      {
+        "source": "pinboard",
+        "title": "Gen Z Resentment Toward AI Grows as Adoption Stagnates and Workplace Fears Mount",
+        "url": "https://www.waltonfamilyfoundation.org/about-us/newsroom/gen-z-resentment-toward-ai-grows-as-adoption-stagnates-and-workplace-fears-mount",
+        "description": "Walton-GSV-Gallup survey finds young people are feeling angrier about AI, cautious about integrating AI in the classroom",
+        "tags": [
+          "ai",
+          "culture",
+          "politics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, culture, politics"
+      },
+      {
+        "source": "pinboard",
+        "title": "I will never use AI to write code",
+        "url": "https://antman-does-software.com/i-will-never-use-ai-to-code-or-write",
+        "description": "a critique of AI and programming with it. It's irreverent, perhaps over the top, but still a ripping good read.\n\nThere is some some highly quotable stuff in this piece.",
+        "tags": [
+          "programming",
+          "ai",
+          "code",
+          "coding",
+          "critique"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, ai, code, coding, critique"
+      },
+      {
+        "source": "pinboard",
+        "title": "Real signals or artificial stereotypes? - by Adam Kucharski",
+        "url": "https://kucharski.substack.com/p/real-signals-or-artificial-stereotypes",
+        "description": "",
+        "tags": [
+          "AI",
+          "via:baldur"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI, via:baldur"
+      },
+      {
+        "source": "pinboard",
+        "title": "30 Tracks Audiophiles Play to Convert Any Skeptic Into a Hi-Fi Believer, as Ranked by Listener Votes | Headphonesty",
+        "url": "https://www.headphonesty.com/2026/05/tracks-audiophiles-play-convert-skeptic-hifi-believer/",
+        "description": "",
+        "tags": [
+          "audio",
+          "music"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: audio, music"
+      },
+      {
+        "source": "pinboard",
+        "title": "strike-slip tectonics",
+        "url": "https://archiveofourown.org/works/84454861",
+        "description": "Rozanov is looking at him like he expects an answer, and Shane is a little embarrassed that he might have focused a little too hard on tuning out the temptation, happy to float on the warm rumble of Rozanov’s voice in his ear and fairly confident he wasn’t missing anything too important. He scrambles to remember the last question he can recall actually catching, something about him having fun? Something about him wanting to do this again? He did have fun, and he definitely would like to do this again, even despite the lingering newness. He should probably clarify exactly what question he’s answering, but well…in the end, he’s not too worried about it. \n\nTelling Rozanov “yes” usually goes pretty well for him, after all.",
+        "tags": [
+          "rating:teen",
+          "length:20001-50000",
+          "HeatedRivalry",
+          "Ilya/Shane",
+          "au:alternatetimeline"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: rating:teen, length:20001-50000, HeatedRivalry, Ilya/Shane, au:alternatetimeline"
+      },
+      {
+        "source": "pinboard",
+        "title": "Wiretext — Unicode Wireframe Design Tool",
+        "url": "https://wiretext.app/",
+        "description": "",
+        "tags": [
+          "wireframe",
+          "prototyping",
+          "ascii",
+          "text"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: wireframe, prototyping, ascii, text"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 39,
+    "hn_after_dedup": 38,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 66
+  }
+}

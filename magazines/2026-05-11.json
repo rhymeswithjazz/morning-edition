@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-11",
+  "stories": [
+    {
+      "title": "Hardware Attestation as Monopoly Enabler",
+      "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+      "hn_link": "https://news.ycombinator.com/item?id=48086190",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ChuckMcM · 1494 points · 487 comments",
+      "blurb": "GrapheneOS makes the case that hardware attestation — the mechanism that lets devices verify their software stack — is being weaponized by platform vendors to lock out third-party OSes and competitors. With nearly 500 comments and nearly 1,500 upvotes, this is the privacy/digital-rights conversation of the day. Essential reading if you care about device sovereignty."
+    },
+    {
+      "title": "Local AI needs to be the norm",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "hn_link": "https://news.ycombinator.com/item?id=48085821",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cylo · 1111 points · 472 comments",
+      "blurb": "A forceful argument that running models locally isn't just a hobbyist curiosity — it's the only privacy-respecting, censorship-resistant default. The massive comment thread explores tradeoffs with cloud AI in depth. Pairs perfectly with today's M4 local-model piece below."
+    },
+    {
+      "title": "I returned to AWS and was reminded why I left",
+      "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48073201",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by andrewstuart · 765 points · 534 comments",
+      "blurb": "A developer's honest account of returning to AWS after time away — the complexity, pricing opacity, and cognitive overhead haven't improved. 534 comments of catharsis and war stories. If you're weighing cloud options for a .NET backend, this thread is required reading."
+    },
+    {
+      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+      "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+      "hn_link": "https://news.ycombinator.com/item?id=48084432",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by iancmceachern · 542 points · 288 comments",
+      "blurb": "Bambu Lab is suing a developer of OrcaSlicer, the popular open-source 3D printing fork, and Louis Rossmann is stepping in to cover legal costs. This is a right-to-repair flashpoint that could set precedent for how hardware makers treat open-source ecosystem contributors."
+    },
+    {
+      "title": "Incident Report: CVE-2024-YIKES",
+      "url": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48086082",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by miniBill · 526 points · 134 comments",
+      "blurb": "A candid, detailed post-mortem on a real CVE — the kind of incident report that actually teaches you something about how vulnerabilities escape detection and propagate. Written with refreshing honesty about what went wrong at every stage. Bookmark this template for your own incident reports."
+    },
+    {
+      "title": "Obsidian plugin was abused to deploy a remote access trojan",
+      "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "hn_link": "https://news.ycombinator.com/item?id=48088576",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cmbailey · 205 points · 103 comments",
+      "blurb": "A malicious Obsidian plugin was used as a delivery vector for the Phantom Pulse RAT in an active campaign — direct threat to anyone who uses Obsidian heavily. Time to audit your installed plugins and only install from trusted, reviewed sources. This is the supply-chain attack story Obsidian users need to read today."
+    },
+    {
+      "title": "Running local models on an M4 with 24GB memory",
+      "url": "https://jola.dev/posts/running-local-models-on-m4",
+      "hn_link": "https://news.ycombinator.com/item?id=48089091",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shintoist · 296 points · 91 comments",
+      "blurb": "A practical hands-on guide to running local LLMs on Apple Silicon — specifically the M4 with 24 GB unified memory. Covers model selection, performance benchmarks, and tooling. If you're on a modern Mac and curious whether local AI is viable for daily dev workflows, start here."
+    },
+    {
+      "title": "I'm going back to writing code by hand",
+      "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+      "hn_link": "https://news.ycombinator.com/item?id=48090029",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dropbox_miner · 335 points · 153 comments",
+      "blurb": "A developer documents their experience stepping back from AI coding assistants and returning to manual coding — not as a Luddite stance, but as a deliberate choice about skill atrophy and code ownership. A useful counterweight to the AI-maximalist discourse, especially relevant if you use Claude Code daily."
+    },
+    {
+      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "url": "https://github.com/adamjgmiller/adamsreview",
+      "hn_link": "https://news.ycombinator.com/item?id=48090276",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by adamthegoalie · 32 points · 8 comments",
+      "blurb": "A GitHub tool that wires up multiple Claude Code agents to review pull requests in parallel, catching different classes of issues than a single-agent pass. If you're already using Claude Code, this is a low-friction upgrade to your PR workflow. Try it today."
+    },
+    {
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "hn_link": "https://news.ycombinator.com/item?id=48089289",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cratermoon · 154 points · 37 comments",
+      "blurb": "James Shore makes the sharp observation that AI coding agents are only worth it if they reduce long-term maintenance burden — not just lines shipped today. A rigorous framework for evaluating whether your AI tooling is actually helping or creating future debt. Essential thinking for anyone building production software with AI assistance."
+    },
+    {
+      "title": "Exclusive: Meta to start capturing employee mouse movements, keystrokes for AI training data",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: meta, facebook, surveillance",
+      "blurb": "Reuters reports that Meta is rolling out employee surveillance software to capture mouse movements and keystrokes — ostensibly for AI training data. This is a landmark escalation of workplace surveillance from a major tech company. Every developer should be aware of what's being normalized."
+    },
+    {
+      "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview - Mozilla Hacks - the Web developer blog",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Mozilla details how they used Claude's Mythos Preview model to find and fix security vulnerabilities in Firefox — automated AI-assisted hardening at scale. A fascinating real-world case study of AI applied to serious security engineering rather than toy demos. Connects directly to today's Mythos/curl vulnerability story on HN."
+    },
+    {
+      "title": "Canvas violato: il più grande disastro per la privacy degli studenti",
+      "url": "https://www.404media.co/the-biggest-student-data-privacy-disaster-in-history-canvas-hack-shows-the-danger-of-centralized-edtech/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: N8N, #CyberSec, CRISIS, TW2026-19",
+      "blurb": "ShinyHunters breached Instructure (Canvas LMS), stealing billions of messages and data from over 275 million people including sensitive medical and academic records. The 404 Media piece argues this is the largest student data privacy disaster in history and a damning indictment of centralized EdTech. A must-read on the dangers of data concentration."
+    },
+    {
+      "title": "the 90 day disclosure policy is dead",
+      "url": "https://blog.himanshuanand.com/2026/05/the-90-day-disclosure-policy-is-dead/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "A sharp security researcher argues that the 90-day coordinated disclosure standard — long the backbone of responsible vulnerability reporting — is collapsing under vendor pressure, political interference, and shifting incentives. If you ship software, this affects how vulnerabilities in your dependencies get reported and patched."
+    },
+    {
+      "title": "GitHub - rohitg00/agentmemory: Persistent memory for AI coding agents",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "An open-source library for giving AI coding agents persistent, structured memory across sessions — tagged specifically for Claude. Solves one of the most annoying limitations of current agentic workflows: every session starts cold. Drop this into your Claude Code setup and dramatically improve context continuity."
+    },
+    {
+      "title": "Hermes Agent — An Agent That Grows With You",
+      "url": "https://hermes-agent.nousresearch.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: OpenClaw",
+      "blurb": "Nous Research's Hermes Agent is an open-source personal AI agent that learns your projects, builds its own skills over time, and integrates across platforms. Think of it as a local, self-improving assistant that accrues context rather than resetting. A serious contender in the local-AI-agent space worth evaluating."
+    },
+    {
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: softwareengineering, management, architecture, decisionmaking, heuristics, systems-thinking",
+      "blurb": "A clean catalog of software engineering heuristics — Brooks's Law, Conway's Law, Hyrum's Law, Goodhart's Law, YAGNI, DRY, KISS and more — with context on when each applies. The Pinboard description wisely warns against treating these as commandments rather than context-dependent tools. A great reference to bookmark and revisit."
+    },
+    {
+      "title": "Wiretext — Unicode Wireframe Design Tool",
+      "url": "https://wiretext.app/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: wireframe, prototyping, ascii, text",
+      "blurb": "A browser-based tool for creating wireframes using Unicode characters — no Figma subscription needed, and the output is pasteable as plain text into docs, READMEs, or Obsidian notes. Delightfully simple and immediately useful for rapid UI sketching. Try it today."
+    },
+    {
+      "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+      "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Perplexity's research team shares their internal framework for building, iterating, and maintaining agent capabilities at production scale. This is rare inside-baseball from an AI-native company on how agentic skills actually get built and kept working over time. Actionable for anyone designing AI agent workflows."
+    },
+    {
+      "title": "RoiKachlon321/startpage: Self-service bookmark startpage with Angular, keyboard navigation, and edit mode",
+      "url": "https://github.com/RoiKachlon321/startpage",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: startpage, simplicity, minimalism, opensource, bookmarks, productivity, javascript, python",
+      "blurb": "A self-hosted browser startpage built with Angular — featuring keyboard navigation, an edit mode, and bookmark management. For an Angular/TypeScript developer, this is both a useful daily-driver tool and a readable reference implementation of a modern Angular app. Fork it and make it your own."
+    }
+  ]
+}
