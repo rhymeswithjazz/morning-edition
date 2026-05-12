@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-12",
+  "stories": [
+    {
+      "title": "Postmortem: TanStack NPM supply-chain compromise",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "hn_link": "https://news.ycombinator.com/item?id=48100706",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by varunsharma07 · 823 points · 320 comments",
+      "blurb": "TanStack — the widely-used suite of React/Angular table, query, and router libraries — suffered a real NPM supply-chain attack and lived to tell the tale. If you depend on TanStack (and as an Angular/TypeScript dev, you likely do), this postmortem is required reading. The timeline, attack vector, and mitigations are unusually candid."
+    },
+    {
+      "title": "Gmail registration now requires scanning a QR code and sending a text message",
+      "url": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "hn_link": "https://news.ycombinator.com/item?id=48092028",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by negura · 594 points · 458 comments",
+      "blurb": "Google has quietly tightened account creation to require a physical phone scan — making anonymous or throwaway Gmail accounts essentially impossible. Privacy advocates on PrivacyGuides are already sounding the alarm about phone-number linkage and surveillance creep. A significant policy shift that affects anyone who recommends email alternatives or cares about identity exposure."
+    },
+    {
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "hn_link": "https://news.ycombinator.com/item?id=48100433",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by indigodaddy · 465 points · 516 comments",
+      "blurb": "A punchy provocation: if LLMs write boilerplate fluently in any language, does the \"Python is easy\" argument still hold? The piece argues for rethinking language choice through the lens of AI-generated code quality and safety. Deeply relevant if you're doing Claude Code sessions in TypeScript/.NET and wondering whether the language choice still matters."
+    },
+    {
+      "title": "GitLab announces workforce reduction and end of their CREDIT values",
+      "url": "https://about.gitlab.com/blog/gitlab-act-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=48100500",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by AnonGitLabEmpl · 494 points · 490 comments",
+      "blurb": "GitLab is laying off staff and publicly sunsetting its famous \"CREDIT\" culture values — a significant identity shift for a company that built its brand on radical transparency and async remote work. For anyone using GitLab for CI/CD or version control, this signals a strategic pivot worth watching. 490 comments means the HN community has a lot of feelings about this."
+    },
+    {
+      "title": "Ratty – A terminal emulator with inline 3D graphics",
+      "url": "https://ratty-term.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48093100",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by orhunp_ · 639 points · 211 comments",
+      "blurb": "A new terminal emulator that renders actual 3D graphics inline — not just sixels or Unicode art, but real GPU-accelerated 3D objects alongside your text output. From the author of several beloved Rust CLI tools, so the quality bar is high. This is the kind of \"wait, terminals can do that?\" moment that makes you rethink CLI tooling entirely."
+    },
+    {
+      "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
+      "url": "https://nvlabs.github.io/cuda-oxide/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48096692",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by adamnemecek · 401 points · 113 comments",
+      "blurb": "Nvidia's own research lab has shipped a Rust-to-CUDA compiler, letting you write GPU kernels in safe Rust rather than C++. This is a big deal for anyone doing ML infrastructure or GPU computing who wants memory safety guarantees. The fact that it's officially from NVLabs — not a third-party experiment — gives it real staying power."
+    },
+    {
+      "title": "Claude Platform on AWS",
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "hn_link": "https://news.ycombinator.com/item?id=48103042",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by matrixhelix · 132 points · 62 comments",
+      "blurb": "Anthropic is deepening its AWS integration, bringing Claude's platform capabilities directly into the AWS ecosystem. If you're building AI workflows with Claude Code and deploying on AWS infrastructure, this is a direct workflow win — managed access, IAM integration, and the reliability of Bedrock. The partnership shapes where enterprise AI tooling is heading."
+    },
+    {
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48085685",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zdw · 239 points · 12 comments",
+      "blurb": "A deep technical dive into writing high-performance matrix multiplication in Swift for Apple Silicon — the foundation of training LLMs locally on Mac. CocoaWithLove is one of the best low-level Apple programming blogs, and this series promises to make on-device ML training real. Essential reading if you care about the Apple/macOS ecosystem and local AI."
+    },
+    {
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48094641",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by donohoe · 178 points · 137 comments",
+      "blurb": "For the first time, Google has publicly confirmed that criminal threat actors used AI to discover and exploit a significant software vulnerability in the wild. This marks a qualitative shift in the threat landscape — AI-assisted offense is now documented reality, not hypothetical. Every developer shipping code should understand what this means for their attack surface."
+    },
+    {
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "hn_link": "https://news.ycombinator.com/item?id=48098261",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookofjoe · 329 points · 66 comments",
+      "blurb": "UCLA researchers have identified the first drug that can actively repair brain damage after a stroke — not just prevent further damage, but reverse it. The mechanism involves reactivating neural plasticity pathways that normally shut down after early development. A genuinely landmark result in neuroscience with enormous clinical implications."
+    },
+    {
+      "title": "affaan-m/everything-claude-code: Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claudecode, claude",
+      "blurb": "A curated GitHub repo of production-ready Claude Code configurations — AGENTS.md patterns, custom hooks, MCP setups, slash commands, and skill definitions, all battle-tested by an Anthropic hackathon winner. If you're using Claude Code daily, this is the config cheat sheet you didn't know you needed. Actionable in the next 15 minutes."
+    },
+    {
+      "title": "Mythos finds a curl vulnerability | daniel.haxx.se",
+      "url": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: claude, subject:cs.AI, subject:cs.CL, curl, blogs, security, year:2026",
+      "blurb": "curl's own creator Daniel Stenberg writes about how an AI agent named \"Mythos\" independently discovered a real vulnerability in curl — connecting back to today's top HN story about AI-assisted exploitation. The first-person account from the maintainer's perspective is fascinating and sobering. Worth reading alongside the Google/NYT piece for the full picture."
+    },
+    {
+      "title": "Agentic Coding is a Trap | Lars Faye",
+      "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, technology, work, ai",
+      "blurb": "A well-argued counter-perspective to the agentic AI hype: the author claims that handing coding autonomy to AI agents creates brittle, unauditable codebases that erode developer understanding over time. A necessary pushback for heavy Claude Code users — not a rejection of AI tools, but a warning about which workflows preserve versus destroy engineering judgment."
+    },
+    {
+      "title": "LLMs can hide text in other text of the same length",
+      "url": "https://arxiv.org/abs/2510.20075",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: XDN, Research-into-AI",
+      "blurb": "Researchers demonstrate that LLMs can steganographically encode a completely different, coherent text inside another text of identical length — a tweet praising a politician can secretly contain a harsh critique. Even modest 8B open-source models can encode/decode a full abstract locally in seconds. The AI safety and trust implications are genuinely alarming."
+    },
+    {
+      "title": "Running local models on an M4 with 24GB memory | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48089091",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, local_model, M4_Mac_24GB, TOP, Inspiration, Pi, OpenCode, Google, Gemma, Open_Weights",
+      "blurb": "A rich HN thread on practical local LLM performance on Apple Silicon — specifically what you can run on 24GB M4 Macs and what the new Gemma 4 31B baseline means for everyday use. Community members share context window tradeoffs, RAM consumption details, and which models now feel \"real\" rather than experimental. Essential reading for the Mac-centric AI developer."
+    },
+    {
+      "title": "Replacing a 3 GB SQLite database with a 10 MB FST (finite state transducer) binary",
+      "url": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, design, rust, algorithms, go",
+      "blurb": "A beautifully practical TIL post: by swapping a 3 GB SQLite lookup database for a compact FST binary, the author cuts storage by 300x with faster query performance. FSTs are criminally underused in application development, and this walkthrough makes the technique immediately applicable. If you maintain any large lookup or autocomplete datasets, read this today."
+    },
+    {
+      "title": "Idempotency Is Easy Until the Second Request Is Different | Dochia CLI Blog",
+      "url": "https://blog.dochia.dev/blog/idempotency/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: api, APIDesign",
+      "blurb": "A thorough breakdown of why API idempotency is far harder than the textbook definition suggests — covering race conditions where the second request arrives while the first is still in flight, and cases where retried requests carry different payloads. Directly applicable to any .NET or TypeScript backend where you're designing payment, mutation, or webhook endpoints."
+    },
+    {
+      "title": "Personal Encyclopedias — whoami.wiki",
+      "url": "https://whoami.wiki/blog/personal-encyclopedias",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: wiki",
+      "blurb": "A new open-source personal wiki that runs entirely on your machine — your data stays local, and any LLM can read it as context. For Obsidian users, this is a compelling alternative angle: a structured, machine-readable personal encyclopedia rather than a linked-notes graph. Released today with source available."
+    },
+    {
+      "title": "Learn AI Layer by Layer",
+      "url": "https://learnai.robennals.org/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: machine_learning, tutorials",
+      "blurb": "An interactive, visual guide to understanding AI from mathematical first principles — layers, activations, backprop, attention — with hands-on walkthroughs rather than wall-of-text theory. Well-suited for developers who use AI tools daily but want to understand what's actually happening under the hood. A bookmark worth keeping."
+    },
+    {
+      "title": "AI-driven layoffs aren't generating the returns companies expected, study finds | Fortune",
+      "url": "https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: artificialintelligence, Productivity, fortune, study, automation",
+      "blurb": "Gartner research finds that companies that cut headcount anticipating AI productivity gains are largely not seeing the ROI they projected — automation savings are being eaten by integration costs, quality issues, and institutional knowledge loss. A crucial data point for anyone in a organization using AI to justify workforce decisions. The hype cycle is meeting the measurement cycle."
+    }
+  ]
+}
