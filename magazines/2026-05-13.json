@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-13",
+  "stories": [
+    {
+      "title": "The Future of Obsidian Plugins",
+      "url": "https://obsidian.md/blog/future-of-plugins/",
+      "hn_link": "https://news.ycombinator.com/item?id=48109970",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xz18r · 371 points · 140 comments",
+      "blurb": "Obsidian's team lays out where the plugin ecosystem is headed, including new APIs and tighter AI integration. If you live inside Obsidian for notes and knowledge management, this is essential reading. The 140-comment thread is full of power-user reactions worth skimming."
+    },
+    {
+      "title": "Bambu Lab is abusing the open source social contract",
+      "url": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/",
+      "hn_link": "https://news.ycombinator.com/item?id=48109224",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rubenbe · 1253 points · 393 comments",
+      "blurb": "Jeff Geerling makes a detailed, damning case that Bambu Lab is taking from the open-source community while locking down their ecosystem. Today's top HN story by a mile, with nearly 400 comments. A cautionary tale about what happens when hardware vendors treat open source as a marketing prop."
+    },
+    {
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "url": "https://github.com/cactus-compute/needle",
+      "hn_link": "https://news.ycombinator.com/item?id=48111896",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by HenryNdubuaku · 448 points · 151 comments",
+      "blurb": "A 26-million-parameter model distilled specifically for tool-calling, small enough to run locally and fast enough to embed in apps. This is exactly the kind of efficient, task-specific model that will power the next wave of AI coding assistants. Directly relevant if you're building agentic workflows."
+    },
+    {
+      "title": "Reimagining the mouse pointer for the AI era",
+      "url": "https://deepmind.google/blog/ai-pointer/",
+      "hn_link": "https://news.ycombinator.com/item?id=48111581",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by devhouse · 195 points · 165 comments",
+      "blurb": "Google DeepMind explores what a cursor means when an AI agent is doing the clicking. This is the UI/UX question lurking behind every computer-use agent demo. If you're building with Claude Code or other agentic tools, this framing will stick with you."
+    },
+    {
+      "title": "Quack: The DuckDB Client-Server Protocol",
+      "url": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+      "hn_link": "https://news.ycombinator.com/item?id=48111765",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by aduffy · 279 points · 56 comments",
+      "blurb": "DuckDB introduces a proper client-server protocol, moving it from pure embedded database to something you can run as a shared service. This is a big architectural shift for teams using DuckDB in .NET or TypeScript backends. Worth understanding before you design your next data pipeline."
+    },
+    {
+      "title": "Canada's Bill C-22 Is a Repackaged Version of Last Year's Surveillance Nightmare",
+      "url": "https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare",
+      "hn_link": "https://news.ycombinator.com/item?id=48111531",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Brajeshwar · 335 points · 106 comments",
+      "blurb": "The EFF dissects Canada's new surveillance bill and finds it's the same dangerous overreach they fought last year, just rebranded. Mandatory backdoors and sweeping data-retention requirements are back on the table. The pattern of laundering rejected surveillance bills is worth tracking globally."
+    },
+    {
+      "title": "EFF to 4th Circuit: Electronic Device Searches at the Border Require a Warrant",
+      "url": "https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant",
+      "hn_link": "https://news.ycombinator.com/item?id=48115059",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hn_acker · 194 points · 35 comments",
+      "blurb": "With border device searches increasingly in the news, the EFF is arguing to the 4th Circuit that the Fourth Amendment applies to your laptop at customs. Practical reading if you travel internationally with sensitive dev credentials or client data."
+    },
+    {
+      "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+      "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48112042",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by chizhik-pyzhik · 311 points · 145 comments",
+      "blurb": "Six new CVEs in dnsmasq, the DNS/DHCP daemon running on millions of routers and Linux servers. If you self-host anything or manage infrastructure, check your dnsmasq version now. The disclosure has 145 comments diving into severity and exposure."
+    },
+    {
+      "title": "Rendering the Sky, Sunsets, and Planets",
+      "url": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
+      "hn_link": "https://news.ycombinator.com/item?id=48107997",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by ibobev · 472 points · 38 comments",
+      "blurb": "A gorgeous deep-dive into physically-based atmospheric scattering, with interactive WebGL demos. Maxime Heckel's writing sits at the intersection of math, art, and code — pure creative-coding pleasure. Even if you never ship a shader, reading this will change how you look at sunsets."
+    },
+    {
+      "title": "Restore full BambuNetwork support for Bambu Lab printers",
+      "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "hn_link": "https://news.ycombinator.com/item?id=48115127",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Murfalo · 415 points · 177 comments",
+      "blurb": "The community's immediate response to Bambu Lab's lockdown: a fork of OrcaSlicer that restores full cloud connectivity. Open source moving faster than the lawyers — this fork hit 415 points within hours. A textbook example of the community fighting back."
+    },
+    {
+      "title": "Spark Mail Adds a Mac CLI and Agent Skills - MacStories",
+      "url": "https://www.macstories.net/reviews/spark-mail-adds-a-mac-cli-and-agent-skills/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Spark Mail now ships a Mac command-line interface and AI agent skills — two things that matter a lot if you're an automation-focused macOS developer. Being able to script your email client from the terminal is a long-overdue power-user feature. MacStories gives it a thorough look."
+    },
+    {
+      "title": "iOS 26.5 adds end-to-end encryption for RCS messaging, rolling out now - 9to5Mac",
+      "url": "https://9to5mac.com/2026/05/11/ios-26-5-adds-end-to-end-encryption-for-rcs-messaging-rolling-out-now/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple quietly ships E2E-encrypted RCS in iOS 26.5, finally closing the green-bubble security gap. This is a genuine privacy win that matters to anyone who texts Android users. Rolling out now — go check Software Update."
+    },
+    {
+      "title": "Printing Press - Print the best agent-designed CLI of all time",
+      "url": "https://printingpress.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cli, api, llm, ai, claude, agentic_ai",
+      "blurb": "Printing Press uses Claude to design and generate CLI tools from a description — it's meta-tooling where the AI builds the developer's own interface. Tagged 'claude' and 'agentic_ai', this is directly in the wheelhouse of anyone using Claude Code. Worth a 10-minute experiment today."
+    },
+    {
+      "title": "Augment",
+      "url": "https://www.augmentcode.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml, tryme, programming, tools",
+      "blurb": "Augment Code is an AI coding assistant built specifically for large, existing codebases — the scenario where tools like Copilot start to struggle. Tagged 'tryme' on Pinboard, meaning someone thought it was worth a hands-on look. A credible alternative to evaluate alongside Claude Code."
+    },
+    {
+      "title": "Learning Software Architecture",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, architecture, design, article",
+      "blurb": "Matklad (the rust-analyzer author) writes a thoughtful, opinionated guide to learning software architecture — not patterns-as-buzzwords but the actual thinking process. Dense with insight per paragraph. Bookmark for re-reading when you're designing your next .NET or Angular system boundary."
+    },
+    {
+      "title": "Software engineering may no longer be a lifetime career",
+      "url": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, software_development, career",
+      "blurb": "Sean Goedecke argues that AI isn't just automating tasks — it's compressing the viable career window for software engineers. Provocative but not hysterical, grounded in how LLMs are actually changing the economics of hiring. Required reading for anyone planning more than 5 years ahead."
+    },
+    {
+      "title": "floci",
+      "url": "https://github.com/floci-io/floci",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, aws, aws-emulation, devops, docker, ec2, ecs, localstack, s3, sqs, testcontainers",
+      "blurb": "Floci is a lightweight, free AWS local emulator in the vein of LocalStack — covering EC2, ECS, S3, and SQS without the subscription cost. If you're doing cloud-native .NET development and tired of paying for LocalStack Pro, this is worth immediate evaluation."
+    },
+    {
+      "title": "Google's Aluminium OS revealed in 16-minute leaked video | The Verge",
+      "url": "https://www.theverge.com/tech/928598/google-aluminium-os-mystic-leaks-video",
+      "category": "New Apple apps",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A leaked video gives the first real look at Google's Aluminium OS, a rumored next-generation platform that could reshape the Android/ChromeOS landscape. Sixteen minutes of footage — more than enough to form an opinion on whether this is a genuine macOS competitor or vaporware."
+    },
+    {
+      "title": "This is what free costs",
+      "url": "https://sinceyouarrived.world/taken",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy",
+      "blurb": "A data-art piece that visualizes exactly what personal information is extracted when you use a 'free' service. Simple, visceral, and shareable — the kind of thing that makes abstract data-harvesting suddenly feel real. Send it to your less privacy-conscious friends."
+    },
+    {
+      "title": "Matt Pocock AI Skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: au, ai, skill",
+      "blurb": "Matt Pocock — the TypeScript educator behind Total TypeScript — shares his personal AI skills configuration. For a TypeScript/.NET developer already using AI coding assistants, seeing how an expert structures their AI workflows is directly actionable. Forkable and immediately useful."
+    }
+  ]
+}
