@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-14",
+  "stories": [
+    {
+      "title": "I moved my digital stack to Europe",
+      "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
+      "hn_link": "https://news.ycombinator.com/item?id=48120629",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by monokai_nl · 949 points · 561 comments",
+      "blurb": "The creator of the Monokai color scheme walks through migrating every service — email, storage, DNS, hosting — away from US-based providers to European alternatives. With 949 points and 561 comments, this is clearly resonating broadly. A practical, opinionated guide for any developer who cares about data sovereignty and GDPR-aligned infrastructure."
+    },
+    {
+      "title": "Leaving GitHub for Forgejo",
+      "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
+      "hn_link": "https://news.ycombinator.com/item?id=48121266",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jorijn · 577 points · 297 comments",
+      "blurb": "A developer documents their full migration from GitHub to Forgejo — the community fork of Gitea — covering CI/CD, Actions compatibility, and self-hosting trade-offs. Pairs well with the European stack story above: this is the version control piece of that puzzle. If you've been eyeing an exit from Microsoft's platform, this is the most actionable guide out right now."
+    },
+    {
+      "title": "Setting up a free *.city.state.us locality domain (2025)",
+      "url": "https://fredchan.org/blog/locality-domains-guide/",
+      "hn_link": "https://news.ycombinator.com/item?id=48122635",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by speckx · 558 points · 173 comments",
+      "blurb": "The US has a largely forgotten tier of free, government-issued domain names for localities — and you can actually claim one. This guide walks through the eligibility and registration process step by step. A genuinely useful trick for side projects, local community sites, or adding some geographic credibility to a personal domain."
+    },
+    {
+      "title": "Twin brothers wipe 96 government databases minutes after being fired",
+      "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
+      "hn_link": "https://news.ycombinator.com/item?id=48115438",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jnord · 422 points · 322 comments",
+      "blurb": "Two IT contractors apparently retained admin credentials after termination and executed a coordinated wipe of 96 government databases within minutes of being let go. A spectacular cautionary tale about offboarding procedures and credential revocation. The \"what not to do\" framing in the headline barely captures the scale of this."
+    },
+    {
+      "title": "A History of IDEs at Google",
+      "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+      "hn_link": "https://news.ycombinator.com/item?id=48073979",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by laurentlb · 363 points · 241 comments",
+      "blurb": "A Googler traces the evolution from early Emacs/Vi dominance through Eclipse, IntelliJ, and the rise of VS Code inside one of the world's largest engineering orgs. The internal tooling decisions and the cultural battles around editor choice make this a fascinating behind-the-scenes read. Directly relevant if you think about IDE ecosystems and where AI-assisted coding fits in."
+    },
+    {
+      "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
+      "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
+      "hn_link": "https://news.ycombinator.com/item?id=48126848",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by bookofjoe · 323 points · 478 comments",
+      "blurb": "Princeton's faculty has voted to end its 133-year honor code tradition and require proctors for in-person exams — an unmistakable response to the AI cheating era. The 478-comment thread is a genuine debate about academic integrity, AI's role in education, and what trust in institutions even means now. A bellwether moment for higher ed."
+    },
+    {
+      "title": "The Emacsification of Software",
+      "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+      "hn_link": "https://news.ycombinator.com/item?id=48118727",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rdslw · 294 points · 194 comments",
+      "blurb": "A thought-provoking essay arguing that modern software is converging on the Emacs model: infinitely extensible, scriptable, and ultimately shaped more by power users than product managers. The argument has real teeth when you look at VS Code, Obsidian, and AI coding assistants. Worth reading if you think about why certain tools achieve cult status."
+    },
+    {
+      "title": "Microsoft BitLocker – YellowKey zero-day exploit",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor",
+      "hn_link": "https://news.ycombinator.com/item?id=48130519",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by cookiengineer · 151 points · 81 comments",
+      "blurb": "A newly published PoC called YellowKey reportedly bypasses BitLocker encryption using just files on a USB stick, suggesting what looks like a deliberate backdoor in Microsoft's full-disk encryption. If confirmed, this is a major breach of trust for anyone relying on BitLocker for data protection. Patch status and Microsoft's response are still developing."
+    },
+    {
+      "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+      "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+      "hn_link": "https://news.ycombinator.com/item?id=48125617",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tosh · 211 points · 219 comments",
+      "blurb": "A rigorous teardown of Apple's rumored MacBook Neo — benchmarks, silicon economics, and whether 8GB of unified memory is actually viable for AI workloads in 2026. The wafer economics section alone is worth the read for anyone trying to understand Apple's pricing decisions. Essential if you're deciding whether to upgrade your dev machine."
+    },
+    {
+      "title": "Reverting the incremental GC in Python 3.14 and 3.15",
+      "url": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
+      "hn_link": "https://news.ycombinator.com/item?id=48077924",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by curiousgal · 230 points · 94 comments",
+      "blurb": "The Python core team is proposing to revert the incremental garbage collector shipped in 3.14 after discovering it causes significant performance regressions in real-world workloads. A sobering look at how hard it is to improve GC in a language this widely deployed. If you're planning a Python 3.14 upgrade, hold off and watch this thread."
+    },
+    {
+      "title": "Software Developers Say AI Is Rotting Their Brains",
+      "url": "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, programming",
+      "blurb": "404 Media surveys developers who report feeling their problem-solving skills atrophying after months of heavy AI coding assistant use — less deep thinking, more copy-paste reflex. This is the counternarrative to the productivity-gains story, and it's coming from practitioners, not critics. If you use Claude Code daily, this is worth sitting with."
+    },
+    {
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cdrnsf · 35 points · 11 comments",
+      "blurb": "A GitHub repo proposing a structured approach to using Claude Code and OpenAI Codex not just to ship faster, but to deliberately build skills while doing so. Directly addresses the brain-rot concern in the story above. Practically: it's a set of prompts and workflows designed to make AI pairing into active learning rather than passive outsourcing."
+    },
+    {
+      "title": "Interaction Models: A Scalable Approach to Human-AI Collaboration - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/blog/interaction-models/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A thoughtful framework for categorizing human-AI interaction patterns — from delegation to collaboration to augmentation — and when each is appropriate. Moves past the hype to give designers and engineers a vocabulary for making intentional decisions about where AI fits in a product. Useful for anyone architecting AI workflows."
+    },
+    {
+      "title": "apfel - Free AI on Your Mac",
+      "url": "https://apfel.franzai.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apfel is a native macOS app that gives you free access to AI models (running locally or via free-tier APIs) with a clean, Apple-native interface — no subscription required. Exactly the kind of scrappy Mac utility that Pinboard surfaces before it hits the App Store charts. Worth a download if you want an AI assistant that respects your privacy and your wallet."
+    },
+    {
+      "title": "Floci — Fast, Free AWS Emulator",
+      "url": "https://floci.io/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: aws",
+      "blurb": "Floci is an open-source LocalStack alternative built with Quarkus Native: starts in 24ms, uses 13 MiB at idle, and requires no auth token or paid tier. If you've ever been frustrated by LocalStack's Pro paywall or slow startup, this is a direct drop-in that looks very promising. Actionable today for any .NET or TypeScript backend hitting AWS services."
+    },
+    {
+      "title": "If AI writes your code, why use Python? | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48100433",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: python, vibecoding, ai, llm",
+      "blurb": "A lively HN thread unpacking a genuinely interesting question: if LLMs handle most of the syntax and boilerplate, does language choice still matter — or does it collapse to \"whatever the model is best at\"? The debate touches on TypeScript, Go, and Python's respective strengths when AI is doing the driving. Sharp thinking from the community."
+    },
+    {
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48111896",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, ai-local",
+      "blurb": "A team distilled Google's Gemini tool-calling capability into a tiny 26M parameter model that runs locally — a significant compression of agentic ability into something that fits on a laptop. This matters for anyone building AI agents who wants to keep sensitive data off the cloud. The approach of distilling specific capabilities rather than general intelligence is a smart architectural direction."
+    },
+    {
+      "title": "The vi family | LPAR",
+      "url": "https://lpar.ath0.com/posts/2026/05/the-vi-family/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: vim, neovim",
+      "blurb": "A comprehensive genealogy of the vi editor family — from the original through Vim, Neovim, and the modern forks — tracing how design decisions propagated (or didn't) across decades. Great context for the ongoing Neovim vs. Helix debates. Pairs well with the IDE history piece from HN today."
+    },
+    {
+      "title": "Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "Google's Threat Intelligence team documents how nation-state and criminal actors are now actively using AI to accelerate vulnerability research, automate phishing, and gain initial access at scale. This is the offensive-AI story that makes the \"AI safety\" debates feel abstract by comparison. Required reading for anyone who ships code that handles sensitive data."
+    },
+    {
+      "title": "Daring Fireball: Nextpad++",
+      "url": "https://daringfireball.net/2026/05/nextpad",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "John Gruber covers Nextpad++, a new iPad/macOS notes and writing app that appears to be positioning itself as a more capable alternative to Apple Notes with a developer-friendly feature set. Pinboard surfaced this before it hits mainstream coverage — if you're invested in the Apple ecosystem and use Obsidian for notes, this is worth watching as a potential complement or competitor."
+    }
+  ]
+}
