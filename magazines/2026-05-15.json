@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-15",
+  "stories": [
+    {
+      "title": "How Claude Code works in large codebases",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "hn_link": "https://news.ycombinator.com/item?id=48144494",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shenli3514 · 160 points · 117 comments",
+      "blurb": "Straight from Anthropic's blog: a practical deep-dive into how Claude Code navigates massive repos, what context strategies work, and where to start if you're onboarding a large codebase. Required reading if you're already using Claude Code — and a compelling pitch if you're not yet."
+    },
+    {
+      "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+      "url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/",
+      "hn_link": "https://news.ycombinator.com/item?id=48138136",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by arkadiyt · 842 points · 435 comments",
+      "blurb": "A detailed teardown of how a security researcher physically removed the connected-car modem and GPS transponder from a 2024 RAV4 hybrid — no more Toyota tracking your every move. This is the highest-scored story of the day for good reason: it's a masterclass in hardware privacy and the lengths you have to go to when software opt-outs don't actually work."
+    },
+    {
+      "title": "Rewrite Bun in Rust has been merged",
+      "url": "https://github.com/oven-sh/bun/pull/30412",
+      "hn_link": "https://news.ycombinator.com/item?id=48132488",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Chaoses · 640 points · 700 comments",
+      "blurb": "The landmark PR rewriting parts of Bun from Zig into Rust has landed, sparking one of the most heated comment threads of the week. Whatever your language allegiances, this architectural shift in one of JS's fastest runtimes has real implications for the whole ecosystem."
+    },
+    {
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+      "hn_link": "https://news.ycombinator.com/item?id=48139219",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by quadrige · 359 points · 80 comments",
+      "blurb": "The first publicly documented kernel memory corruption exploit targeting Apple Silicon M5 is out, and it's a big deal for the macOS security community. Even if you're on an older chip, the technique is novel and the writeup is technically excellent — worth understanding before Apple patches it."
+    },
+    {
+      "title": "Mullvad exit IPs are surprisingly identifying",
+      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/",
+      "hn_link": "https://news.ycombinator.com/item?id=48143880",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by RGBCube · 365 points · 209 comments",
+      "blurb": "Using a privacy VPN like Mullvad doesn't make you anonymous if sites can fingerprint you by which exit IP you're using — and this research shows exactly how. A sobering reminder that VPN ≠ anonymity, and that the threat model matters more than the tool."
+    },
+    {
+      "title": "New arXiv policy: 1-year ban for hallucinated references",
+      "url": "https://twitter.com/tdietterich/status/2055000956144935055",
+      "hn_link": "https://news.ycombinator.com/item?id=48140922",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by gjuggler · 489 points · 157 comments",
+      "blurb": "arXiv is cracking down hard on AI-generated fake citations with a one-year submission ban. This is a significant policy moment that signals academic publishing is finally getting serious about LLM-assisted sloppiness — and will ripple into how researchers use AI writing tools."
+    },
+    {
+      "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
+      "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+      "hn_link": "https://news.ycombinator.com/item?id=48137145",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by allenleee · 589 points · 144 comments",
+      "blurb": "Someone strapped an RTX 5090 eGPU to an M4 MacBook Air and actually tested gaming performance — and the results are more nuanced than you'd expect given Apple's GPU architecture. If you've ever wondered whether Mac gaming via eGPU is finally viable, this is your answer."
+    },
+    {
+      "title": "Codex is now in the ChatGPT mobile app",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "hn_link": "https://news.ycombinator.com/item?id=48140529",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mikeevans · 323 points · 165 comments",
+      "blurb": "OpenAI's Codex coding agent is now accessible from the ChatGPT iOS app, meaning you can kick off agentic coding tasks from your phone. Direct competition with Claude Code, and worth watching to see how mobile-first AI dev workflows evolve."
+    },
+    {
+      "title": "New Nginx Exploit",
+      "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "hn_link": "https://news.ycombinator.com/item?id=48138268",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hetsaraiya · 373 points · 80 comments",
+      "blurb": "A freshly disclosed exploit targeting Nginx is making the rounds with a full PoC on GitHub. If you're running Nginx in production — and who isn't — check the details and patch status immediately. High-score, high-urgency."
+    },
+    {
+      "title": "A few words on DS4",
+      "url": "https://antirez.com/news/165",
+      "hn_link": "https://news.ycombinator.com/item?id=48142108",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by caust1c · 303 points · 112 comments",
+      "blurb": "Redis creator antirez shares thoughts on DS4, his next data-structure project — and it reads like a manifesto for thoughtful systems design in an era of AI-generated bloat. Even if you don't follow the Redis ecosystem closely, antirez's perspective on simplicity is always worth 10 minutes."
+    },
+    {
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by sohkamyung · 228 points · 106 comments",
+      "blurb": "Ontario's auditors reviewed AI-generated clinical notes and found systematic factual errors — wrong medications, incorrect diagnoses, hallucinated patient history. A sharp counterpoint to AI-in-healthcare hype and a useful case study in where current LLMs still dangerously fail."
+    },
+    {
+      "title": "Gyroflow: Video stabilization using gyroscope data",
+      "url": "https://github.com/gyroflow/gyroflow",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by nateb2022 · 81 points · 14 comments",
+      "blurb": "Gyroflow is an open-source video stabilization tool that uses gyroscope data from your camera or phone for frame-perfect stabilization — far superior to optical-only approaches. If you shoot any video on iPhone or a mirrorless, this is a tool you'll want in your post-production kit."
+    },
+    {
+      "title": "reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops",
+      "url": "https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 64 points · 35 comments",
+      "blurb": "Google is extending Play Integrity API attestation to desktop browsers via reCAPTCHA, which means websites could soon require your device to be \"certified\" before letting you in. The GrapheneOS community is sounding the alarm loudly — this is a significant threat to open-web access and privacy."
+    },
+    {
+      "title": "What's in a GGUF, besides the weights – and what's still missing?",
+      "url": "https://nobodywho.ooo/posts/whats-in-a-gguf/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bashbjorn · 145 points · 44 comments",
+      "blurb": "A thorough technical tour of the GGUF model format — what metadata lives alongside the weights, what's still absent, and why it matters for local LLM tooling. Essential reading for anyone running models locally with llama.cpp or similar tools."
+    },
+    {
+      "title": "LLM Policy for Rust Compiler",
+      "url": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by liyanage · 78 points · 40 comments",
+      "blurb": "The Rust compiler team is establishing a formal policy on LLM-generated contributions — one of the first major open-source compilers to do so. How major OSS infrastructure projects handle AI-assisted PRs is going to define governance norms for years, and this is a bellwether."
+    },
+    {
+      "title": "HDD Firmware Hacking",
+      "url": "https://icode4.coffee/?p=1465",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jsploit · 186 points · 25 comments",
+      "blurb": "A deep dive into reverse-engineering and modifying hard drive firmware at the hardware level — complete with disassembly, flashing, and unexpected quirks. Pure low-level hacker catnip, and a useful reminder of how much invisible complexity lives in the devices we take for granted."
+    },
+    {
+      "title": "Fossils show millipede and centipede ancestors evolved legs underwater",
+      "url": "https://phys.org/news/2026-05-ancient-sea-fossils-millipede-centipede.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gmays · 87 points · 2 comments",
+      "blurb": "New fossil evidence suggests the ancestors of millipedes and centipedes developed their signature multi-leg body plan while still living in the ocean — flipping the assumed land-first evolutionary narrative. Wonderfully weird paleontology that rewrites the arthropod family tree."
+    },
+    {
+      "title": "Porting 3D Movie Maker to Linux",
+      "url": "https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by speckx · 122 points · 23 comments",
+      "blurb": "A nostalgic engineering quest: porting Microsoft's beloved 1995 3D Movie Maker to Linux, complete with reverse-engineering the old DirectX calls and resource formats. A charming mix of preservation, creative software history, and genuine systems hacking."
+    },
+    {
+      "title": "RISC-V Router",
+      "url": "https://router.start9.com/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by janandonly · 121 points · 62 comments",
+      "blurb": "Start9 is shipping a RISC-V based router designed for full user sovereignty — open hardware, open firmware, no proprietary blobs. For anyone building a privacy-first home network, this is worth a close look as the hardware ecosystem matures."
+    },
+    {
+      "title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "url": "https://writing.antonleicht.me/p/cut-off",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thoughtpeddler · 147 points · 125 comments",
+      "blurb": "A sharp essay arguing that access to frontier models will increasingly be gated by cost, compute quotas, and geopolitical security restrictions — creating a two-tier AI world. If you're building products on top of powerful models, this is the strategic risk you should be stress-testing against."
+    }
+  ]
+}
