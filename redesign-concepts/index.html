@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Redesign Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f1ea;
+    color: #1a1a1a;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap { max-width: 1100px; width: 100%; }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    margin-bottom: 1rem;
+  }
+  .sub {
+    font-size: 1.1rem;
+    max-width: 60ch;
+    line-height: 1.6;
+    color: #4a4a4a;
+    margin-bottom: 3rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .card {
+    background: #fff;
+    border: 1px solid #1a1a1a;
+    padding: 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .card:hover { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 #1a1a1a; }
+  .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .card h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+  .card p { font-size: 0.95rem; line-height: 1.55; color: #4a4a4a; }
+  .meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e0dcd2;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footnote {
+    margin-top: 3rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: #888;
+    letter-spacing: 0.05em;
+  }
+  .preview {
+    margin-top: 0.5rem;
+    padding: 0.75rem 0;
+    border-top: 1px dashed #d4cfc1;
+    border-bottom: 1px dashed #d4cfc1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: #6a6a6a;
+    white-space: pre;
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="num">Redesign · Three Concepts</div>
+  <h1>Higher-density<br>Morning Edition.</h1>
+  <p class="sub">Three takes on the same 20-story edition (May 16, 2026), each one denser than the current full-screen-per-story layout. Open each to compare.</p>
+
+  <div class="grid">
+    <a class="card" href="./01-broadsheet.html">
+      <div class="num">Concept 01</div>
+      <h2>Broadsheet</h2>
+      <div class="preview">┌──────┬──────┬──────┐
+│ HEAD │ COL  │ COL  │
+│ ▓▓▓▓ │ ░░░  │ ░░░  │
+│ ▓▓▓▓ │ ░░░  │ ░░░  │
+│ ░░░░ │ ▓▓▓  │ ░░░  │
+│ ░░░░ │ ░░░  │ ▓▓▓  │
+└──────┴──────┴──────┘</div>
+      <p>Classic newspaper. Multi-column flowing text, drop caps, italic bylines, rules between sections. Reads like the front page of a Sunday paper.</p>
+      <div class="meta"><span>Print-feel</span><span>~1.5 screens</span></div>
+    </a>
+
+    <a class="card" href="./02-wire.html">
+      <div class="num">Concept 02</div>
+      <h2>Wire</h2>
+      <div class="preview">01 ▌AI    ★ ▓▓▓▓▓▓▓ 1283
+02 ▌ACT     ▓▓▓▓▓░░  910
+03 ▌SEC   ★ ▓▓▓░░░░  417
+04 ▌SEC     ▓▓▓░░░░  472
+05 ▌DEV   ★ ▓▓░░░░░  391
+06 ▌SEC     ▓▓░░░░░  371</div>
+      <p>HN-meets-Bloomberg. Monospace, single-row stories with sortable-looking metadata. Click to expand the blurb inline. Maximum scan-ability.</p>
+      <div class="meta"><span>Terminal-feel</span><span>~1 screen</span></div>
+    </a>
+
+    <a class="card" href="./03-bento.html">
+      <div class="num">Concept 03</div>
+      <h2>Bento Briefing</h2>
+      <div class="preview">┌─────────┬───┬───┐
+│         │ ▓ │ ▓ │
+│  HERO   ├───┼───┤
+│         │ ▓ │ ▓ │
+├───┬─────┴───┴───┤
+│ ▓ │ ░ │ ░ │ ░  │
+└───┴───┴───┴────┘</div>
+      <p>Modern dashboard. Bento grid with one hero card and varied tile sizes. Sidebar facets (categories, "applies to you"). At-a-glance counters at the top.</p>
+      <div class="meta"><span>Dashboard-feel</span><span>~2 screens</span></div>
+    </a>
+  </div>
+
+  <div class="footnote">All three use the same source JSON: magazines/2026-05-16.json</div>
+</div>
+</body>
+</html>

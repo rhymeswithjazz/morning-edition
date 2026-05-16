@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Broadsheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 16px; }
+  body {
+    font-family: 'Fraunces', serif;
+    background: #f6f1e6;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(0,0,0,0.015) 0%, transparent 50%),
+      radial-gradient(circle at 80% 90%, rgba(0,0,0,0.02) 0%, transparent 50%);
+    color: #15110a;
+    line-height: 1.45;
+    padding: 2.5rem 2rem 4rem;
+  }
+  .paper { max-width: 1280px; margin: 0 auto; }
+
+  /* Masthead */
+  .masthead {
+    border-bottom: 3px double #15110a;
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .masthead-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #15110a;
+    margin-bottom: 0.75rem;
+  }
+  .nameplate {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(3.5rem, 9vw, 7.5rem);
+    text-align: center;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    font-style: italic;
+  }
+  .nameplate small {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.18em;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    color: #5a4a30;
+  }
+  .masthead-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    border-top: 1px solid #15110a;
+    margin-top: 0.5rem;
+  }
+  .masthead-bottom .center {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  /* Headline section — top story big */
+  .headline-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    border-bottom: 1px solid #15110a;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  .lede {
+    padding-right: 1.5rem;
+    border-right: 1px solid #15110a;
+  }
+  .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8a0a0a;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .lede h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.75rem;
+  }
+  .lede .byline-row {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #5a4a30;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #8a7050;
+  }
+  .lede .blurb {
+    column-count: 2;
+    column-gap: 1.5rem;
+    column-rule: 1px solid #d8cfb8;
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+  .lede .blurb::first-letter {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    float: left;
+    font-size: 4.2rem;
+    line-height: 0.85;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    color: #15110a;
+  }
+  .lede .links {
+    margin-top: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .lede .links a { color: #8a0a0a; text-decoration: none; border-bottom: 1px solid #8a0a0a; padding-bottom: 1px; }
+
+  /* Sub-leads — two columns on the right */
+  .sub-leads {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .sub-lead {
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #8a7050;
+  }
+  .sub-lead:last-child { border-bottom: none; padding-bottom: 0; }
+  .sub-lead h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.35rem;
+  }
+  .sub-lead .byline-row {
+    font-style: italic;
+    font-size: 0.78rem;
+    color: #6a5a40;
+    margin-bottom: 0.35rem;
+  }
+  .sub-lead .blurb { font-size: 0.88rem; line-height: 1.45; }
+  .sub-lead .links {
+    margin-top: 0.4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .sub-lead .links a { color: #8a0a0a; text-decoration: none; }
+  .sub-lead .links a + a { margin-left: 0.85rem; padding-left: 0.85rem; border-left: 1px solid #c8b890; }
+
+  /* Section heading */
+  .section-head {
+    text-align: center;
+    margin: 2rem 0 1rem;
+    border-top: 3px double #15110a;
+    border-bottom: 3px double #15110a;
+    padding: 0.65rem 0;
+  }
+  .section-head h3 {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+  .section-head .sub-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #6a5a40;
+    margin-top: 0.15rem;
+  }
+
+  /* 4-column body */
+  .columns {
+    column-count: 4;
+    column-gap: 1.5rem;
+    column-rule: 1px solid #d8cfb8;
+  }
+  @media (max-width: 1100px) { .columns { column-count: 3; } }
+  @media (max-width: 800px) { .columns { column-count: 2; } }
+  @media (max-width: 540px) { .columns { column-count: 1; } }
+
+  .story {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px dotted #8a7050;
+  }
+  .story:last-child { border-bottom: none; }
+  .story .tag-row {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  .cat { color: #8a0a0a; font-weight: 700; }
+  .applies {
+    background: #15110a;
+    color: #f6f1e6;
+    padding: 1px 6px;
+    letter-spacing: 0.12em;
+    font-size: 0.58rem;
+  }
+  .story h4 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.3rem;
+  }
+  .story .byline-row {
+    font-style: italic;
+    font-size: 0.72rem;
+    color: #6a5a40;
+    margin-bottom: 0.3rem;
+  }
+  .story .blurb {
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .story .links {
+    margin-top: 0.4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .story .links a { color: #8a0a0a; text-decoration: none; }
+  .story .links a + a { margin-left: 0.6rem; padding-left: 0.6rem; border-left: 1px solid #c8b890; }
+
+  /* Footer */
+  .colophon {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 3px double #15110a;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6a5a40;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .colophon a { color: #8a0a0a; text-decoration: none; border-bottom: 1px solid #c8a060; }
+
+  .nav-back {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: #15110a;
+    color: #f6f1e6;
+    padding: 0.5rem 0.9rem;
+    text-decoration: none;
+    z-index: 99;
+  }
+</style>
+</head>
+<body>
+<a class="nav-back" href="./">← All Concepts</a>
+
+<div class="paper">
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <span>Vol. III · No. 136</span>
+      <span>Saturday, May 16, 2026</span>
+      <span>$0.00 · Free Daily</span>
+    </div>
+    <h1 class="nameplate">
+      The Morning Edition
+      <small>Curated Tech &amp; Internet Weather Report · Est. 2024</small>
+    </h1>
+    <div class="masthead-bottom">
+      <span>20 Stories</span>
+      <span class="center">"All the news that fits, we print."</span>
+      <span>HN · Pinboard</span>
+    </div>
+  </header>
+
+  <!-- TOP-OF-FOLD: Lead + 3 sub-leads -->
+  <div class="headline-row">
+    <article class="lede">
+      <div class="kicker">▸ Lead Story · AI Tools · Applies to You</div>
+      <h1>"I believe there are entire companies right now under AI psychosis"</h1>
+      <div class="byline-row">by reasonableklout · 1,283 points · 629 comments on Hacker News</div>
+      <p class="blurb">Mitchell Hashimoto (of Vagrant/Terraform fame) drops a pointed observation: some companies have handed AI so much decision-making authority that they've lost their organizational sanity. With 629 comments, HN is clearly feeling this one. If you're building with Claude Code or managing an AI-augmented team, this is a necessary gut-check.</p>
+      <div class="links">
+        <a href="https://twitter.com/mitchellh/status/2055380239711457578">→ Read Article</a>
+        <a href="https://news.ycombinator.com/item?id=48153379">→ HN Discussion</a>
+      </div>
+    </article>
+
+    <aside class="sub-leads">
+      <div class="sub-lead">
+        <div class="kicker">▸ Actionable</div>
+        <h2>Project Gutenberg — keeps getting better</h2>
+        <div class="byline-row">JSeiko · 910 pts · 192 cmts</div>
+        <p class="blurb">The classic free e-book library apparently just got meaningfully better — and HN noticed with 910 upvotes. A reminder that some of the best digital infrastructure is quiet, nonprofit, and decades old.</p>
+        <div class="links"><a href="https://www.gutenberg.org/">Read</a><a href="https://news.ycombinator.com/item?id=48150431">HN</a></div>
+      </div>
+      <div class="sub-lead">
+        <div class="kicker">▸ Privacy · Applies</div>
+        <h2>DOJ demands Apple, Google unmask 100k users of car-tinkering app</h2>
+        <div class="byline-row">tencentshill · 417 pts · 286 cmts</div>
+        <p class="blurb">A mass-unmasking request with no individual warrants — a landmark privacy test case for app store operators. Apple ecosystem readers should watch how Apple responds.</p>
+        <div class="links"><a href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/">Read</a><a href="https://news.ycombinator.com/item?id=48151383">HN</a></div>
+      </div>
+      <div class="sub-lead">
+        <div class="kicker">▸ Privacy</div>
+        <h2>California bill: patches or refunds when online games shut down</h2>
+        <div class="byline-row">Lihh27 · 472 pts · 296 cmts</div>
+        <p class="blurb">California is pushing publishers to ship offline patches or issue refunds when they pull the plug. A digital rights win with implications well beyond gaming.</p>
+        <div class="links"><a href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/">Read</a><a href="https://news.ycombinator.com/item?id=48152994">HN</a></div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- INSIDE PAGES: Section A — Hacker News continued -->
+  <div class="section-head">
+    <h3>Section A · From Hacker News</h3>
+    <div class="sub-label">Stories 5 – 10</div>
+  </div>
+
+  <div class="columns">
+    <article class="story">
+      <div class="tag-row"><span class="cat">Dev Tools</span><span class="applies">Applies</span></div>
+      <h4>Bun's Rust rewrite "fails basic miri checks, allows UB in safe rust"</h4>
+      <div class="byline-row">ndiddy · 391 pts · 276 cmts</div>
+      <p class="blurb">A damning GitHub issue reveals Bun's hyped Rust rewrite has undefined behavior lurking in ostensibly safe code — the kind of bug that undermines the core pitch of Rust entirely. Required reading before you ship Bun to production.</p>
+      <div class="links"><a href="https://github.com/oven-sh/bun/issues/30719">Read</a><a href="https://news.ycombinator.com/item?id=48150900">HN</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Privacy &amp; Security</span></div>
+      <h4>A 0-click exploit chain for the Pixel 10</h4>
+      <div class="byline-row">happyhardcore · 371 pts · 186 cmts</div>
+      <p class="blurb">Google Project Zero walks through a full 0-click exploit chain — no user interaction required. The technical depth is exceptional, covering baseband, kernel, and beyond. Essential for anyone who thinks modern flagship hardware is immune.</p>
+      <div class="links"><a href="https://projectzero.google/2026/05/pixel-10-exploit.html">Read</a><a href="https://news.ycombinator.com/item?id=48148460">HN</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Dev Tools</span><span class="applies">Applies</span></div>
+      <h4>"No way to prevent this," says only package manager where this regularly happens</h4>
+      <div class="byline-row">alligatorplum · 340 pts · 158 cmts</div>
+      <p class="blurb">A pitch-perfect Onion-style parody skewering npm's endemic supply-chain malware problem. It's funny because it's true — and the HN thread becomes a genuinely useful discussion of what could actually be done.</p>
+      <div class="links"><a href="https://kevinpatel.xyz/posts/no-way-to-prevent-this/">Read</a><a href="https://news.ycombinator.com/item?id=48155690">HN</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Dev Tools</span><span class="applies">Applies</span></div>
+      <h4>Radicle: sovereign code forge built on Git</h4>
+      <div class="byline-row">KolmogorovComp · 236 pts · 85 cmts</div>
+      <p class="blurb">A peer-to-peer, decentralized code forge that works on top of Git — no GitHub, no central server. With platform risk top of mind, owning your code collaboration stack is increasingly compelling.</p>
+      <div class="links"><a href="https://radicle.dev/">Read</a><a href="https://news.ycombinator.com/item?id=48147603">HN</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Dev Tools</span></div>
+      <h4>The Zulip Foundation</h4>
+      <div class="byline-row">boramalper · 264 pts · 69 cmts</div>
+      <p class="blurb">Zulip is spinning up a proper nonprofit foundation to steward its open-source threaded chat platform. Foundation backing signals long-term commitment and independence from VC pressure.</p>
+      <div class="links"><a href="https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/">Read</a><a href="https://news.ycombinator.com/item?id=48152168">HN</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Privacy &amp; Security</span><span class="applies">Applies</span></div>
+      <h4>OpenAI is connecting ChatGPT to bank accounts via Plaid</h4>
+      <div class="byline-row">steveharing1 · 74 pts · 112 cmts</div>
+      <p class="blurb">Plaid lets ChatGPT directly access users' financial accounts — for budgeting, ostensibly. Your transaction history feeding an LLM is a fundamentally different data exposure than anything before. HN is appropriately alarmed.</p>
+      <div class="links"><a href="https://firethering.com/chatgpt-bank-account-plaid-openai/">Read</a><a href="https://news.ycombinator.com/item?id=48150723">HN</a></div>
+    </article>
+  </div>
+
+  <!-- Section B: Pinboard Popular -->
+  <div class="section-head">
+    <h3>Section B · From Pinboard Popular</h3>
+    <div class="sub-label">Stories 11 – 20</div>
+  </div>
+
+  <div class="columns">
+    <article class="story">
+      <div class="tag-row"><span class="cat">AI Tools</span><span class="applies">Applies</span></div>
+      <h4>The sigmoids won't save you</h4>
+      <div class="byline-row">Tomte · 196 pts · 197 cmts</div>
+      <p class="blurb">Scott Alexander demolishes the comforting idea that AI progress will naturally plateau. One of the cleaner rebuttals to AI optimism you'll find — required reading if you're thinking about the trajectory of the tools you're building with.</p>
+      <div class="links"><a href="https://www.astralcodexten.com/p/the-sigmoids-wont-save-you">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">AI Tools</span><span class="applies">Applies</span></div>
+      <h4>Orthrus-Qwen3: up to 7.8× tokens/forward, identical output</h4>
+      <div class="byline-row">FranckDernoncou · 78 pts · 9 cmts</div>
+      <p class="blurb">A clever speculative decoding approach squeezes up to 7.8× more tokens per forward pass from Qwen3 with identical output quality. Could meaningfully change throughput math for local inference.</p>
+      <div class="links"><a href="https://github.com/chiennv2000/orthrus">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">AI Tools</span><span class="applies">Applies</span></div>
+      <h4>Frontier AI has broken the open CTF format</h4>
+      <div class="byline-row">frays · 70 pts · 44 cmts</div>
+      <p class="blurb">LLMs are now good enough at CTF challenges that the open format is no longer fair competition. A fascinating look at AI reshaping a beloved hacker subculture, with real implications for security education and hiring.</p>
+      <div class="links"><a href="https://kabir.au/blog/the-ctf-scene-is-dead">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Privacy &amp; Security</span><span class="applies">Applies</span></div>
+      <h4>Building a uMatrix Replacement</h4>
+      <div class="byline-row">taviso · 54 pts · 16 cmts</div>
+      <p class="blurb">Tavis Ormandy takes on a modern replacement for the abandoned uMatrix browser extension — the gold standard for granular request blocking. The project to watch (and possibly contribute to) for serious browser privacy.</p>
+      <div class="links"><a href="https://lock.cmpxchg8b.com/umatrix.html">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Creative Software</span><span class="applies">Applies</span></div>
+      <h4>Image-blaster: 3D environments from a single image</h4>
+      <div class="byline-row">MattRogish · 157 pts · 31 cmts</div>
+      <p class="blurb">Drop in an image, get back a full 3D environment, sound effects, and meshes. The kind of creative AI tool that makes "single asset to full scene" actually true. Instant sandbox to play in.</p>
+      <div class="links"><a href="https://github.com/neilsonnn/image-blaster">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">AI Tools</span><span class="applies">Applies</span></div>
+      <h4>Show HN: watch a neural net learn to play Snake</h4>
+      <div class="byline-row">c1b · 152 pts · 36 cmts</div>
+      <p class="blurb">A beautiful, interactive browser visualization of a PPO reinforcement learning agent training live. Fun to watch and an intuition-builder for how RL agents develop strategy over time.</p>
+      <div class="links"><a href="https://ppo.gradexp.xyz/">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Actionable</span><span class="applies">Applies</span></div>
+      <h4>SQL patterns I use to catch transaction fraud</h4>
+      <div class="byline-row">redbell · 177 pts · 52 cmts</div>
+      <p class="blurb">A practitioner shares specific, copy-pasteable SQL patterns for detecting velocity attacks, structuring, and card-testing fraud. Not toy examples — battle-tested queries you can adapt today. Bookmark this.</p>
+      <div class="links"><a href="https://analytics.fixelsmith.com/posts/sql-fraud-patterns/">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Weird Science</span></div>
+      <h4>The bird eye was pushed to an evolutionary extreme</h4>
+      <div class="byline-row">sohkamyung · 96 pts · 32 cmts</div>
+      <p class="blurb">Quanta digs into the bizarre optical engineering of bird eyes — photoreceptor densities no camera engineer would design, yet that work spectacularly. A reminder evolution reaches solutions humans wouldn't.</p>
+      <div class="links"><a href="https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Weird Science</span></div>
+      <h4>Naturally Occurring Quasicrystals</h4>
+      <div class="byline-row">lukeplato · 92 pts · 9 cmts</div>
+      <p class="blurb">John Baez explores the strange reality that quasicrystals — once thought a mathematical curiosity — actually exist in nature, formed by meteorite impacts. They violate classical crystallography rules.</p>
+      <div class="links"><a href="https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/">Read</a></div>
+    </article>
+
+    <article class="story">
+      <div class="tag-row"><span class="cat">Dev Tools</span><span class="applies">Applies</span></div>
+      <h4>Show HN: Epiq — distributed Git-based issue tracker TUI</h4>
+      <div class="byline-row">jolaflow · 53 pts · 17 cmts</div>
+      <p class="blurb">A terminal-based issue tracker that stores everything inside your Git repo. No external service, no account required. Pairs naturally with Radicle or any offline-first workflow.</p>
+      <div class="links"><a href="https://ljtn.github.io/epiq/">Read</a></div>
+    </article>
+  </div>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous Issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
