@@ -17,86 +17,47 @@ from html import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# ── Spread style definitions ──
 
-HN_STYLES = [
-    {"class": "spread-hero", "name": "HERO"},
-    {"class": "spread-midnight", "name": "MIDNIGHT"},
-    {"class": "spread-rose", "name": "ROSE ALERT"},
-    {"class": "spread-terminal", "name": "TERMINAL"},
-    {"class": "spread-academic", "name": "ACADEMIC"},
-    {"class": "spread-electric", "name": "ELECTRIC BLUE"},
-    {"class": "spread-apple", "name": "APPLE"},
-    {"class": "spread-newsprint", "name": "NEWSPRINT"},
-    {"class": "spread-gradient", "name": "GRADIENT"},
-    {"class": "spread-bigstat", "name": "BIG-STAT"},
-]
-
-PB_STYLES = [
-    {"class": "spread-cork", "name": "CORK BOARD"},
-    {"class": "spread-teal", "name": "DEEP TEAL"},
-    {"class": "spread-blueprint", "name": "BLUEPRINT"},
-    {"class": "spread-sakura", "name": "SAKURA"},
-    {"class": "spread-obsidian", "name": "OBSIDIAN"},
-    {"class": "spread-copper", "name": "COPPER"},
-    {"class": "spread-forest", "name": "FOREST"},
-    {"class": "spread-graph", "name": "GRAPH PAPER"},
-    {"class": "spread-infrared", "name": "INFRARED"},
-    {"class": "spread-frosted", "name": "FROSTED"},
-]
-
-
-def render_spread(story, index, style, is_pinboard):
-    """Render a single story spread section."""
-    num = f"{index + 1:02d}"
+def render_story(story, index, source):
+    """Render a single story article. `source` is "hn" or "pb"."""
     e = escape
-
-    category_tag = f'<span class="category-tag">{e(story["category"])}</span>'
-    applies_tag = (
-        '<span class="applies-tag">Directly Applies to You</span>'
-        if story.get("applies")
-        else ""
-    )
-    pinboard_badge = (
-        '<span class="source-pinboard">Pinboard</span>' if is_pinboard else ""
-    )
-
-    byline = e(story.get("byline", ""))
-    blurb = e(story["blurb"])
+    num = f"{index + 1:02d}"
     headline = e(story["title"])
     url = e(story["url"])
+    blurb = e(story["blurb"])
+    byline = e(story.get("byline", ""))
+    category = e(story["category"])
+    applies = bool(story.get("applies"))
 
-    discuss_html = ""
+    applies_html = '<span class="applies">Applies to you</span>' if applies else ""
+    classes = "story applies" if applies else "story"
+
+    hn_link_html = ""
     if story.get("hn_link"):
-        discuss_html = (
-            f'<a class="discuss-link" href="{e(story["hn_link"])}">HN Discussion →</a>'
-        )
-
-    # Big-stat style has different structure
-    if style["class"] == "spread-bigstat":
-        return f"""
-<section class="spread {style['class']}">
-  <div class="spread-inner">
-    <div class="tag-row">{category_tag}{applies_tag}</div>
-    <div class="stat-num">{num}</div>
-    <h2>{headline}</h2>
-    <div class="byline">{byline}</div>
-    <p class="blurb">{blurb}</p>
-    <div class="action-row"><a class="read-link" href="{url}">Read Article →</a>{discuss_html}</div>
-  </div>
-</section>"""
+        hn_link_html = f'<a href="{e(story["hn_link"])}">HN discussion</a>'
 
     return f"""
-<section class="spread {style['class']}">
-  <div class="ghost-num">{num}</div>
-  <div class="spread-inner">
-    <div class="tag-row">{category_tag}{applies_tag}{pinboard_badge}</div>
-    <h2>{headline}</h2>
+  <article class="{classes}" id="s{index + 1}" data-source="{source}">
+    <div class="topline">
+      <span class="num">No.&nbsp;{num}</span><span class="cat">{category}</span>{applies_html}
+    </div>
+    <h3><a href="{url}">{headline}</a></h3>
     <div class="byline">{byline}</div>
     <p class="blurb">{blurb}</p>
-    <div class="action-row"><a class="read-link" href="{url}">Read Article →</a>{discuss_html}</div>
-  </div>
-</section>"""
+    <div class="links">
+      <a href="{url}">Read article</a>
+      {hn_link_html}
+    </div>
+  </article>"""
+
+
+def render_toc(stories):
+    """Render the at-a-glance contents list."""
+    items = []
+    for i, s in enumerate(stories):
+        title = escape(s["title"])
+        items.append(f'      <li><a href="#s{i + 1}">{title}</a></li>')
+    return "\n".join(items)
 
 
 def render_magazine(data):
@@ -105,19 +66,14 @@ def render_magazine(data):
     dt = datetime.strptime(date_str, "%Y-%m-%d")
     day_name = dt.strftime("%A")
     month_day_year = dt.strftime("%B %-d, %Y")
-    year = dt.strftime("%Y")
 
-    hn_stories = data["stories"][:10]
-    pb_stories = data["stories"][10:20]
+    stories = data["stories"]
+    hn_stories = stories[:10]
+    pb_stories = stories[10:20]
 
-    # Build spread sections
-    hn_spreads = ""
-    for i, story in enumerate(hn_stories):
-        hn_spreads += render_spread(story, i, HN_STYLES[i], False)
-
-    pb_spreads = ""
-    for i, story in enumerate(pb_stories):
-        pb_spreads += render_spread(story, i + 10, PB_STYLES[i], True)
+    hn_html = "".join(render_story(s, i, "hn") for i, s in enumerate(hn_stories))
+    pb_html = "".join(render_story(s, i + 10, "pb") for i, s in enumerate(pb_stories))
+    toc_html = render_toc(stories)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -134,487 +90,268 @@ def render_magazine(data):
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after {{ margin: 0; padding: 0; box-sizing: border-box; }}
-
   :root {{
-    --ff-display: 'Fraunces', serif;
-    --ff-body: 'Inter', sans-serif;
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
   }}
+  html {{ font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }}
+  body {{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }}
+  a {{ color: inherit; }}
 
-  html {{ font-size: 18px; scroll-behavior: smooth; }}
-  body {{ font-family: var(--ff-body); line-height: 1.6; }}
-
-  .cover {{
-    min-height: 100vh;
-    background: #0a0a0a;
-    color: #fafaf9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 2rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }}
-  .cover::before {{
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
-    animation: drift 20s ease-in-out infinite alternate;
-  }}
-  @keyframes drift {{
-    from {{ transform: translate(0, 0) rotate(0deg); }}
-    to {{ transform: translate(-3%, 2%) rotate(2deg); }}
-  }}
-  .cover-content {{ position: relative; z-index: 1; }}
-  .cover .edition-label {{
-    font-family: var(--ff-body);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #fb923c;
-    margin-bottom: 2rem;
-  }}
-  .cover h1 {{
-    font-family: var(--ff-display);
-    font-size: clamp(3.5rem, 10vw, 8rem);
-    font-weight: 900;
-    line-height: 0.95;
-    margin-bottom: 1.5rem;
-    font-style: italic;
-  }}
-  .cover .date {{
-    font-family: var(--ff-body);
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #a8a29e;
-    letter-spacing: 0.1em;
-  }}
-  .cover .story-count {{
-    margin-top: 2rem;
-    font-size: 0.85rem;
-    color: #78716c;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-  }}
-  .cover .archive-link {{
-    display: inline-block;
-    margin-top: 1.5rem;
-    font-size: 0.85rem;
-    color: #a8a29e;
-    text-decoration: none;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    transition: color 0.15s;
-  }}
-  .cover .archive-link:hover {{ color: #fb923c; }}
-
-  .spread {{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
-    position: relative;
-    overflow: hidden;
-  }}
-  .spread-inner {{
-    max-width: 48rem;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }}
-  .ghost-num {{
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(10rem, 30vw, 22rem);
-    line-height: 1;
-    opacity: 0.06;
-    pointer-events: none;
-    z-index: 0;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-  }}
-  .tag-row {{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }}
-  .action-row {{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1rem;
-    align-items: center;
-  }}
-  .category-tag {{
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-  }}
-  .applies-tag {{
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-    background: #fbbf24;
-    color: #1c1917;
-  }}
-  .spread h2 {{
-    font-family: var(--ff-display);
-    font-size: clamp(1.8rem, 5vw, 3rem);
-    font-weight: 800;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-  }}
-  .byline {{
-    font-size: 0.85rem;
-    margin-bottom: 1.5rem;
-    opacity: 0.7;
-  }}
-  .blurb {{
-    font-size: 1.05rem;
-    line-height: 1.7;
-    margin-bottom: 2rem;
+  .page {{
     max-width: 38rem;
-  }}
-  .read-link {{
-    display: inline-block;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-decoration: none;
-    padding: 0.6rem 1.5rem;
-    border-radius: 100px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }}
-  .read-link:hover {{ transform: translateY(-2px); }}
-  .discuss-link {{
-    display: inline-block;
-    font-weight: 500;
-    font-size: 0.85rem;
-    text-decoration: none;
-    opacity: 0.7;
-  }}
-  .discuss-link:hover {{ opacity: 1; }}
-  .source-pinboard {{
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    background: rgba(255,255,255,0.1);
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
   }}
 
-  .section-divider {{
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #1a1025, #0f172a);
-    color: #fafaf9;
+  /* Masthead */
+  .masthead {{
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
   }}
-  .section-divider .emoji {{ font-size: 3rem; margin-bottom: 1.5rem; }}
-  .section-divider h2 {{
-    font-family: var(--ff-display);
-    font-size: clamp(2.5rem, 7vw, 4.5rem);
-    font-weight: 900;
-    font-style: italic;
-    margin-bottom: 1rem;
+  .masthead .kicker {{
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
   }}
-  .section-divider p {{
-    font-size: 1.1rem;
-    color: #a8a29e;
-  }}
-
-  .footer {{
-    background: #0a0a0a;
-    color: #57534e;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    text-align: center;
-    font-size: 0.85rem;
-    line-height: 1.8;
-  }}
-
-  /* ── 1. HERO ── */
-  .spread-hero {{ background: #fffbeb; color: #1c1917; }}
-  .spread-hero .ghost-num {{ color: #fb923c; }}
-  .spread-hero .category-tag {{ background: #fed7aa; color: #9a3412; }}
-  .spread-hero .read-link {{ background: #fb923c; color: white; }}
-  .spread-hero .discuss-link {{ color: #9a3412; }}
-
-  /* ── 2. MIDNIGHT ── */
-  .spread-midnight {{ background: #1a1025; color: #e8e0f0; }}
-  .spread-midnight .ghost-num {{ color: #8b5cf6; }}
-  .spread-midnight .category-tag {{ background: rgba(139,92,246,0.2); color: #c4b5fd; }}
-  .spread-midnight .read-link {{ background: #8b5cf6; color: white; }}
-  .spread-midnight .discuss-link {{ color: #c4b5fd; }}
-
-  /* ── 3. ROSE ALERT ── */
-  .spread-rose {{ background: #fef2f2; color: #1c1917; position: relative; }}
-  .spread-rose::after {{
-    content: 'ALERT';
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(8rem, 25vw, 18rem);
-    color: rgba(239,68,68,0.04);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-12deg);
-    pointer-events: none;
-  }}
-  .spread-rose .ghost-num {{ color: #ef4444; }}
-  .spread-rose .category-tag {{ background: #fecaca; color: #991b1b; }}
-  .spread-rose .read-link {{ background: #ef4444; color: white; }}
-  .spread-rose .discuss-link {{ color: #991b1b; }}
-
-  /* ── 4. TERMINAL ── */
-  .spread-terminal {{ background: #0c0c0c; color: #4ade80; font-family: 'Courier New', monospace; }}
-  .spread-terminal .ghost-num {{ color: #4ade80; }}
-  .spread-terminal h2 {{ font-family: 'Courier New', monospace; }}
-  .spread-terminal .category-tag {{ background: rgba(74,222,128,0.15); color: #4ade80; border: 1px solid #4ade80; }}
-  .spread-terminal .read-link {{ background: #4ade80; color: #0c0c0c; font-family: 'Courier New', monospace; }}
-  .spread-terminal .discuss-link {{ color: #4ade80; }}
-  .spread-terminal .blurb::after {{ content: '\u2588'; animation: blink 1s step-end infinite; }}
-  @keyframes blink {{ 50% {{ opacity: 0; }} }}
-
-  /* ── 5. ACADEMIC ── */
-  .spread-academic {{ background: #f5f0e8; color: #292524; }}
-  .spread-academic h2 {{ font-style: italic; }}
-  .spread-academic .blurb::first-letter {{
-    font-family: var(--ff-display);
-    font-size: 3.5rem;
-    font-weight: 900;
-    float: left;
-    line-height: 0.8;
-    margin-right: 0.5rem;
-    margin-top: 0.15rem;
-    color: #78716c;
-  }}
-  .spread-academic .ghost-num {{ color: #a8a29e; }}
-  .spread-academic .category-tag {{ background: #d6d3d1; color: #44403c; }}
-  .spread-academic .read-link {{ background: #57534e; color: white; }}
-  .spread-academic .discuss-link {{ color: #57534e; }}
-
-  /* ── 6. ELECTRIC BLUE ── */
-  .spread-electric {{ background: #0f172a; color: #e0f2fe; }}
-  .spread-electric .ghost-num {{ color: #06b6d4; }}
-  .spread-electric .category-tag {{ background: rgba(6,182,212,0.15); color: #67e8f9; }}
-  .spread-electric .read-link {{ background: #06b6d4; color: #0f172a; }}
-  .spread-electric .discuss-link {{ color: #67e8f9; }}
-
-  /* ── 7. APPLE ── */
-  .spread-apple {{ background: linear-gradient(180deg, #ffffff, #f5f5f7); color: #1d1d1f; }}
-  .spread-apple .ghost-num {{
-    background: linear-gradient(135deg, #ff3b30, #ff9500, #ffcc00, #34c759, #007aff, #5856d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.12;
-  }}
-  .spread-apple .category-tag {{ background: #e8e8ed; color: #1d1d1f; }}
-  .spread-apple .read-link {{ background: #007aff; color: white; }}
-  .spread-apple .discuss-link {{ color: #007aff; }}
-
-  /* ── 8. NEWSPRINT ── */
-  .spread-newsprint {{
-    background: #fefce8;
-    color: #1c1917;
-    background-image: radial-gradient(circle, #d4d4d4 0.5px, transparent 0.5px);
-    background-size: 12px 12px;
-  }}
-  .spread-newsprint h2 {{ text-transform: uppercase; letter-spacing: 0.02em; }}
-  .spread-newsprint .ghost-num {{ color: #a16207; }}
-  .spread-newsprint .category-tag {{ background: #fde68a; color: #92400e; }}
-  .spread-newsprint .read-link {{ background: #a16207; color: white; }}
-  .spread-newsprint .discuss-link {{ color: #92400e; }}
-
-  /* ── 9. GRADIENT ── */
-  .spread-gradient {{ background: linear-gradient(135deg, #fecdd3, #c4b5fd, #a78bfa); color: #1c1917; }}
-  .spread-gradient .ghost-num {{ color: rgba(0,0,0,0.08); }}
-  .spread-gradient .category-tag {{ background: rgba(255,255,255,0.4); color: #581c87; }}
-  .spread-gradient .read-link {{ background: #7c3aed; color: white; }}
-  .spread-gradient .discuss-link {{ color: #581c87; }}
-
-  /* ── 10. BIG-STAT ── */
-  .spread-bigstat {{ background: #18181b; color: #fafaf9; text-align: center; }}
-  .spread-bigstat .spread-inner {{ display: flex; flex-direction: column; align-items: center; }}
-  .spread-bigstat .stat-num {{
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(5rem, 18vw, 12rem);
+  .masthead h1 {{
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 1;
-    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
   }}
-  .spread-bigstat .category-tag {{ background: rgba(251,146,60,0.15); color: #fb923c; }}
-  .spread-bigstat .read-link {{ background: linear-gradient(135deg, #fb923c, #f43f5e); color: white; }}
-  .spread-bigstat .discuss-link {{ color: #fb923c; }}
-
-  /* ── 11. CORK BOARD ── */
-  .spread-cork {{
-    background: #fef3c7;
-    color: #1c1917;
-    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px),
-                       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px);
+  .masthead h1 em {{ font-style: italic; font-weight: 700; }}
+  .masthead .sub {{
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
   }}
-  .spread-cork .ghost-num {{ color: #d97706; }}
-  .spread-cork .category-tag {{ background: #fde68a; color: #92400e; }}
-  .spread-cork .read-link {{ background: #d97706; color: white; }}
-  .spread-cork .source-pinboard {{ background: rgba(217,119,6,0.15); color: #92400e; }}
 
-  /* ── 12. DEEP TEAL ── */
-  .spread-teal {{ background: #042f2e; color: #ccfbf1; }}
-  .spread-teal .ghost-num {{ color: #14b8a6; }}
-  .spread-teal .category-tag {{ background: rgba(20,184,166,0.15); color: #5eead4; }}
-  .spread-teal .read-link {{ background: #14b8a6; color: #042f2e; }}
-  .spread-teal .source-pinboard {{ background: rgba(20,184,166,0.15); color: #5eead4; }}
-
-  /* ── 13. BLUEPRINT ── */
-  .spread-blueprint {{
-    background: #172554;
-    color: #dbeafe;
-    background-image:
-      linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
-    background-size: 24px 24px;
+  /* Table of contents */
+  .toc {{
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
   }}
-  .spread-blueprint .ghost-num {{ color: #3b82f6; }}
-  .spread-blueprint .category-tag {{ background: rgba(59,130,246,0.2); color: #93c5fd; }}
-  .spread-blueprint .read-link {{ background: #3b82f6; color: white; }}
-  .spread-blueprint .source-pinboard {{ background: rgba(59,130,246,0.15); color: #93c5fd; }}
-
-  /* ── 14. SAKURA ── */
-  .spread-sakura {{ background: linear-gradient(135deg, #fff1f2, #faf5ff); color: #1c1917; }}
-  .spread-sakura .ghost-num {{ color: #ec4899; }}
-  .spread-sakura .category-tag {{ background: #fce7f3; color: #9d174d; }}
-  .spread-sakura .read-link {{ background: #ec4899; color: white; }}
-  .spread-sakura .source-pinboard {{ background: rgba(236,72,153,0.1); color: #9d174d; }}
-
-  /* ── 15. OBSIDIAN ── */
-  .spread-obsidian {{ background: #1c1917; color: #e7e5e4; }}
-  .spread-obsidian .ghost-num {{ color: #a855f7; }}
-  .spread-obsidian h2 {{ text-shadow: 0 0 30px rgba(168,85,247,0.3); }}
-  .spread-obsidian .category-tag {{ background: rgba(168,85,247,0.15); color: #c084fc; }}
-  .spread-obsidian .read-link {{ background: #a855f7; color: white; }}
-  .spread-obsidian .source-pinboard {{ background: rgba(168,85,247,0.15); color: #c084fc; }}
-
-  /* ── 16. COPPER ── */
-  .spread-copper {{ background: linear-gradient(180deg, #1c1917, #292524); color: #fde68a; }}
-  .spread-copper .ghost-num {{ color: #d97706; }}
-  .spread-copper h2 {{ color: #fbbf24; }}
-  .spread-copper .category-tag {{ background: rgba(251,191,36,0.15); color: #fbbf24; }}
-  .spread-copper .read-link {{ background: #d97706; color: #1c1917; }}
-  .spread-copper .source-pinboard {{ background: rgba(217,119,6,0.15); color: #fbbf24; }}
-
-  /* ── 17. FOREST ── */
-  .spread-forest {{ background: #052e16; color: #dcfce7; }}
-  .spread-forest .ghost-num {{ color: #22c55e; }}
-  .spread-forest .category-tag {{ background: rgba(34,197,94,0.15); color: #86efac; }}
-  .spread-forest .read-link {{ background: #22c55e; color: #052e16; }}
-  .spread-forest .source-pinboard {{ background: rgba(34,197,94,0.15); color: #86efac; }}
-
-  /* ── 18. GRAPH PAPER ── */
-  .spread-graph {{
-    background: #fafafa;
-    color: #1c1917;
-    background-image:
-      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
-    background-size: 20px 20px;
+  .toc h2 {{
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
   }}
-  .spread-graph .ghost-num {{ color: #a8a29e; }}
-  .spread-graph .category-tag {{ background: #e7e5e4; color: #44403c; }}
-  .spread-graph .read-link {{ background: #44403c; color: white; }}
-  .spread-graph .source-pinboard {{ background: rgba(0,0,0,0.06); color: #44403c; }}
-
-  /* ── 19. INFRARED ── */
-  .spread-infrared {{ background: #1a0a0a; color: #fecaca; }}
-  .spread-infrared .ghost-num {{ color: #ef4444; text-shadow: 0 0 40px rgba(239,68,68,0.3); }}
-  .spread-infrared h2 {{ text-shadow: 0 0 20px rgba(239,68,68,0.2); }}
-  .spread-infrared .category-tag {{ background: rgba(239,68,68,0.15); color: #fca5a5; }}
-  .spread-infrared .read-link {{ background: #ef4444; color: white; }}
-  .spread-infrared .source-pinboard {{ background: rgba(239,68,68,0.15); color: #fca5a5; }}
-
-  /* ── 20. FROSTED ── */
-  .spread-frosted {{
-    background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #e2e8f0);
-    color: #1e293b;
+  .toc ol {{ list-style: none; counter-reset: tocnum; }}
+  .toc li {{
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
   }}
-  .spread-frosted .spread-inner {{
-    background: rgba(255,255,255,0.6);
-    backdrop-filter: blur(20px);
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.8);
-    padding: 3rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  .toc li:last-child {{ border-bottom: none; }}
+  .toc li::before {{
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
   }}
-  .spread-frosted .ghost-num {{ color: #94a3b8; }}
-  .spread-frosted .category-tag {{ background: rgba(100,116,139,0.1); color: #475569; }}
-  .spread-frosted .read-link {{ background: #475569; color: white; }}
-  .spread-frosted .source-pinboard {{ background: rgba(100,116,139,0.1); color: #475569; }}
+  .toc li a {{ color: var(--ink); text-decoration: none; }}
+  .toc li a:hover {{ color: var(--accent); }}
 
-  @media (max-width: 640px) {{
-    .spread {{ padding: clamp(2rem, 6vw, 4rem) 1.5rem; }}
-    .ghost-num {{ font-size: clamp(6rem, 20vw, 10rem); }}
-    .spread-frosted .spread-inner {{ padding: 1.5rem; }}
+  /* Section heading */
+  .section {{
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }}
+  .section .rule {{ display: flex; align-items: center; gap: 0.85rem; }}
+  .section .rule::before, .section .rule::after {{
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }}
+  .section h2 {{
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }}
+  .section .count {{
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }}
+
+  /* Story */
+  .story {{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }}
+  .story:last-of-type,
+  .story:has(+ .section) {{ border-bottom: none; }}
+
+  .story .topline {{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }}
+  .story .num {{
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }}
+  .story .cat {{ color: var(--accent); font-weight: 600; }}
+  .story .applies {{
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }}
+
+  .story h3 {{
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }}
+  .story h3 a {{ text-decoration: none; color: var(--ink); }}
+  .story h3 a:hover {{ color: var(--accent); }}
+
+  .story .byline {{
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }}
+
+  .story .blurb {{
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }}
+
+  .story .links {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }}
+  .story .links a {{
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }}
+  .story .links a:hover {{ background: var(--accent); color: var(--bg); }}
+
+  /* Footer */
+  .colophon {{
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }}
+  .colophon a {{ color: var(--accent); }}
+
+  /* Tablet */
+  @media (min-width: 640px) {{
+    html {{ font-size: 18px; }}
+    .page {{ padding: 2rem 1.75rem 5rem; }}
+    .masthead h1 {{ font-size: 2.6rem; }}
+    .story h3 {{ font-size: 1.7rem; }}
+    .story .blurb {{ font-size: 1.05rem; }}
+  }}
+
+  /* Desktop */
+  @media (min-width: 960px) {{
+    .page {{ padding: 3rem 2rem 6rem; max-width: 40rem; }}
+    .masthead h1 {{ font-size: 3rem; }}
+    .story h3 {{ font-size: 1.85rem; }}
   }}
 </style>
 </head>
 <body>
+<div class="page">
 
-<section class="cover">
-  <div class="cover-content">
-    <div class="edition-label">Morning Edition</div>
-    <h1>{dt.strftime('%B')} {dt.day},<br>{year}</h1>
-    <div class="date">{day_name}</div>
-    <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
-    <a class="archive-link" href="/archive/">Previous Issues →</a>
+  <header class="masthead">
+    <div class="kicker">{day_name} · {month_day_year}</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+{toc_html}
+    </ol>
   </div>
-</section>
 
-{hn_spreads}
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+{hn_html}
 
-<section class="section-divider">
-  <div class="emoji">\U0001F4CC</div>
-  <h2>Pinboard Picks</h2>
-  <p>10 exclusives from Pinboard Popular</p>
-</section>
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+{pb_html}
 
-{pb_spreads}
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
 
-<footer class="footer">
-  <p>Morning Edition — {day_name}, {month_day_year}</p>
-  <p>Curated from Hacker News + Pinboard Popular</p>
-  <p style="margin-top:1rem;"><a href="/archive/" style="color:#a8a29e;text-decoration:none;">Previous Issues →</a></p>
-</footer>
-
+</div>
 </body>
 </html>"""
 

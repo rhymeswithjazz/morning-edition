@@ -13,686 +13,526 @@
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
   :root {
-    --ff-display: 'Fraunces', serif;
-    --ff-body: 'Inter', sans-serif;
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
   }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
 
-  html { font-size: 18px; scroll-behavior: smooth; }
-  body { font-family: var(--ff-body); line-height: 1.6; }
-
-  .cover {
-    min-height: 100vh;
-    background: #0a0a0a;
-    color: #fafaf9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 2rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .cover::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
-    animation: drift 20s ease-in-out infinite alternate;
-  }
-  @keyframes drift {
-    from { transform: translate(0, 0) rotate(0deg); }
-    to { transform: translate(-3%, 2%) rotate(2deg); }
-  }
-  .cover-content { position: relative; z-index: 1; }
-  .cover .edition-label {
-    font-family: var(--ff-body);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #fb923c;
-    margin-bottom: 2rem;
-  }
-  .cover h1 {
-    font-family: var(--ff-display);
-    font-size: clamp(3.5rem, 10vw, 8rem);
-    font-weight: 900;
-    line-height: 0.95;
-    margin-bottom: 1.5rem;
-    font-style: italic;
-  }
-  .cover .date {
-    font-family: var(--ff-body);
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #a8a29e;
-    letter-spacing: 0.1em;
-  }
-  .cover .story-count {
-    margin-top: 2rem;
-    font-size: 0.85rem;
-    color: #78716c;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-  }
-  .cover .archive-link {
-    display: inline-block;
-    margin-top: 1.5rem;
-    font-size: 0.85rem;
-    color: #a8a29e;
-    text-decoration: none;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    transition: color 0.15s;
-  }
-  .cover .archive-link:hover { color: #fb923c; }
-
-  .spread {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
-    position: relative;
-    overflow: hidden;
-  }
-  .spread-inner {
-    max-width: 48rem;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  .ghost-num {
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(10rem, 30vw, 22rem);
-    line-height: 1;
-    opacity: 0.06;
-    pointer-events: none;
-    z-index: 0;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .tag-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  .action-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1rem;
-    align-items: center;
-  }
-  .category-tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-  }
-  .applies-tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-    background: #fbbf24;
-    color: #1c1917;
-  }
-  .spread h2 {
-    font-family: var(--ff-display);
-    font-size: clamp(1.8rem, 5vw, 3rem);
-    font-weight: 800;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-  }
-  .byline {
-    font-size: 0.85rem;
-    margin-bottom: 1.5rem;
-    opacity: 0.7;
-  }
-  .blurb {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    margin-bottom: 2rem;
+  .page {
     max-width: 38rem;
-  }
-  .read-link {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-decoration: none;
-    padding: 0.6rem 1.5rem;
-    border-radius: 100px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .read-link:hover { transform: translateY(-2px); }
-  .discuss-link {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 0.85rem;
-    text-decoration: none;
-    opacity: 0.7;
-  }
-  .discuss-link:hover { opacity: 1; }
-  .source-pinboard {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    background: rgba(255,255,255,0.1);
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
   }
 
-  .section-divider {
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #1a1025, #0f172a);
-    color: #fafaf9;
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
   }
-  .section-divider .emoji { font-size: 3rem; margin-bottom: 1.5rem; }
-  .section-divider h2 {
-    font-family: var(--ff-display);
-    font-size: clamp(2.5rem, 7vw, 4.5rem);
-    font-weight: 900;
-    font-style: italic;
-    margin-bottom: 1rem;
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
   }
-  .section-divider p {
-    font-size: 1.1rem;
-    color: #a8a29e;
-  }
-
-  .footer {
-    background: #0a0a0a;
-    color: #57534e;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    text-align: center;
-    font-size: 0.85rem;
-    line-height: 1.8;
-  }
-
-  /* ── 1. HERO ── */
-  .spread-hero { background: #fffbeb; color: #1c1917; }
-  .spread-hero .ghost-num { color: #fb923c; }
-  .spread-hero .category-tag { background: #fed7aa; color: #9a3412; }
-  .spread-hero .read-link { background: #fb923c; color: white; }
-  .spread-hero .discuss-link { color: #9a3412; }
-
-  /* ── 2. MIDNIGHT ── */
-  .spread-midnight { background: #1a1025; color: #e8e0f0; }
-  .spread-midnight .ghost-num { color: #8b5cf6; }
-  .spread-midnight .category-tag { background: rgba(139,92,246,0.2); color: #c4b5fd; }
-  .spread-midnight .read-link { background: #8b5cf6; color: white; }
-  .spread-midnight .discuss-link { color: #c4b5fd; }
-
-  /* ── 3. ROSE ALERT ── */
-  .spread-rose { background: #fef2f2; color: #1c1917; position: relative; }
-  .spread-rose::after {
-    content: 'ALERT';
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(8rem, 25vw, 18rem);
-    color: rgba(239,68,68,0.04);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-12deg);
-    pointer-events: none;
-  }
-  .spread-rose .ghost-num { color: #ef4444; }
-  .spread-rose .category-tag { background: #fecaca; color: #991b1b; }
-  .spread-rose .read-link { background: #ef4444; color: white; }
-  .spread-rose .discuss-link { color: #991b1b; }
-
-  /* ── 4. TERMINAL ── */
-  .spread-terminal { background: #0c0c0c; color: #4ade80; font-family: 'Courier New', monospace; }
-  .spread-terminal .ghost-num { color: #4ade80; }
-  .spread-terminal h2 { font-family: 'Courier New', monospace; }
-  .spread-terminal .category-tag { background: rgba(74,222,128,0.15); color: #4ade80; border: 1px solid #4ade80; }
-  .spread-terminal .read-link { background: #4ade80; color: #0c0c0c; font-family: 'Courier New', monospace; }
-  .spread-terminal .discuss-link { color: #4ade80; }
-  .spread-terminal .blurb::after { content: '█'; animation: blink 1s step-end infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
-
-  /* ── 5. ACADEMIC ── */
-  .spread-academic { background: #f5f0e8; color: #292524; }
-  .spread-academic h2 { font-style: italic; }
-  .spread-academic .blurb::first-letter {
-    font-family: var(--ff-display);
-    font-size: 3.5rem;
-    font-weight: 900;
-    float: left;
-    line-height: 0.8;
-    margin-right: 0.5rem;
-    margin-top: 0.15rem;
-    color: #78716c;
-  }
-  .spread-academic .ghost-num { color: #a8a29e; }
-  .spread-academic .category-tag { background: #d6d3d1; color: #44403c; }
-  .spread-academic .read-link { background: #57534e; color: white; }
-  .spread-academic .discuss-link { color: #57534e; }
-
-  /* ── 6. ELECTRIC BLUE ── */
-  .spread-electric { background: #0f172a; color: #e0f2fe; }
-  .spread-electric .ghost-num { color: #06b6d4; }
-  .spread-electric .category-tag { background: rgba(6,182,212,0.15); color: #67e8f9; }
-  .spread-electric .read-link { background: #06b6d4; color: #0f172a; }
-  .spread-electric .discuss-link { color: #67e8f9; }
-
-  /* ── 7. APPLE ── */
-  .spread-apple { background: linear-gradient(180deg, #ffffff, #f5f5f7); color: #1d1d1f; }
-  .spread-apple .ghost-num {
-    background: linear-gradient(135deg, #ff3b30, #ff9500, #ffcc00, #34c759, #007aff, #5856d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.12;
-  }
-  .spread-apple .category-tag { background: #e8e8ed; color: #1d1d1f; }
-  .spread-apple .read-link { background: #007aff; color: white; }
-  .spread-apple .discuss-link { color: #007aff; }
-
-  /* ── 8. NEWSPRINT ── */
-  .spread-newsprint {
-    background: #fefce8;
-    color: #1c1917;
-    background-image: radial-gradient(circle, #d4d4d4 0.5px, transparent 0.5px);
-    background-size: 12px 12px;
-  }
-  .spread-newsprint h2 { text-transform: uppercase; letter-spacing: 0.02em; }
-  .spread-newsprint .ghost-num { color: #a16207; }
-  .spread-newsprint .category-tag { background: #fde68a; color: #92400e; }
-  .spread-newsprint .read-link { background: #a16207; color: white; }
-  .spread-newsprint .discuss-link { color: #92400e; }
-
-  /* ── 9. GRADIENT ── */
-  .spread-gradient { background: linear-gradient(135deg, #fecdd3, #c4b5fd, #a78bfa); color: #1c1917; }
-  .spread-gradient .ghost-num { color: rgba(0,0,0,0.08); }
-  .spread-gradient .category-tag { background: rgba(255,255,255,0.4); color: #581c87; }
-  .spread-gradient .read-link { background: #7c3aed; color: white; }
-  .spread-gradient .discuss-link { color: #581c87; }
-
-  /* ── 10. BIG-STAT ── */
-  .spread-bigstat { background: #18181b; color: #fafaf9; text-align: center; }
-  .spread-bigstat .spread-inner { display: flex; flex-direction: column; align-items: center; }
-  .spread-bigstat .stat-num {
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(5rem, 18vw, 12rem);
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 1;
-    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
   }
-  .spread-bigstat .category-tag { background: rgba(251,146,60,0.15); color: #fb923c; }
-  .spread-bigstat .read-link { background: linear-gradient(135deg, #fb923c, #f43f5e); color: white; }
-  .spread-bigstat .discuss-link { color: #fb923c; }
-
-  /* ── 11. CORK BOARD ── */
-  .spread-cork {
-    background: #fef3c7;
-    color: #1c1917;
-    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px),
-                       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px);
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
   }
-  .spread-cork .ghost-num { color: #d97706; }
-  .spread-cork .category-tag { background: #fde68a; color: #92400e; }
-  .spread-cork .read-link { background: #d97706; color: white; }
-  .spread-cork .source-pinboard { background: rgba(217,119,6,0.15); color: #92400e; }
 
-  /* ── 12. DEEP TEAL ── */
-  .spread-teal { background: #042f2e; color: #ccfbf1; }
-  .spread-teal .ghost-num { color: #14b8a6; }
-  .spread-teal .category-tag { background: rgba(20,184,166,0.15); color: #5eead4; }
-  .spread-teal .read-link { background: #14b8a6; color: #042f2e; }
-  .spread-teal .source-pinboard { background: rgba(20,184,166,0.15); color: #5eead4; }
-
-  /* ── 13. BLUEPRINT ── */
-  .spread-blueprint {
-    background: #172554;
-    color: #dbeafe;
-    background-image:
-      linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
-    background-size: 24px 24px;
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
   }
-  .spread-blueprint .ghost-num { color: #3b82f6; }
-  .spread-blueprint .category-tag { background: rgba(59,130,246,0.2); color: #93c5fd; }
-  .spread-blueprint .read-link { background: #3b82f6; color: white; }
-  .spread-blueprint .source-pinboard { background: rgba(59,130,246,0.15); color: #93c5fd; }
-
-  /* ── 14. SAKURA ── */
-  .spread-sakura { background: linear-gradient(135deg, #fff1f2, #faf5ff); color: #1c1917; }
-  .spread-sakura .ghost-num { color: #ec4899; }
-  .spread-sakura .category-tag { background: #fce7f3; color: #9d174d; }
-  .spread-sakura .read-link { background: #ec4899; color: white; }
-  .spread-sakura .source-pinboard { background: rgba(236,72,153,0.1); color: #9d174d; }
-
-  /* ── 15. OBSIDIAN ── */
-  .spread-obsidian { background: #1c1917; color: #e7e5e4; }
-  .spread-obsidian .ghost-num { color: #a855f7; }
-  .spread-obsidian h2 { text-shadow: 0 0 30px rgba(168,85,247,0.3); }
-  .spread-obsidian .category-tag { background: rgba(168,85,247,0.15); color: #c084fc; }
-  .spread-obsidian .read-link { background: #a855f7; color: white; }
-  .spread-obsidian .source-pinboard { background: rgba(168,85,247,0.15); color: #c084fc; }
-
-  /* ── 16. COPPER ── */
-  .spread-copper { background: linear-gradient(180deg, #1c1917, #292524); color: #fde68a; }
-  .spread-copper .ghost-num { color: #d97706; }
-  .spread-copper h2 { color: #fbbf24; }
-  .spread-copper .category-tag { background: rgba(251,191,36,0.15); color: #fbbf24; }
-  .spread-copper .read-link { background: #d97706; color: #1c1917; }
-  .spread-copper .source-pinboard { background: rgba(217,119,6,0.15); color: #fbbf24; }
-
-  /* ── 17. FOREST ── */
-  .spread-forest { background: #052e16; color: #dcfce7; }
-  .spread-forest .ghost-num { color: #22c55e; }
-  .spread-forest .category-tag { background: rgba(34,197,94,0.15); color: #86efac; }
-  .spread-forest .read-link { background: #22c55e; color: #052e16; }
-  .spread-forest .source-pinboard { background: rgba(34,197,94,0.15); color: #86efac; }
-
-  /* ── 18. GRAPH PAPER ── */
-  .spread-graph {
-    background: #fafafa;
-    color: #1c1917;
-    background-image:
-      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
-    background-size: 20px 20px;
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
   }
-  .spread-graph .ghost-num { color: #a8a29e; }
-  .spread-graph .category-tag { background: #e7e5e4; color: #44403c; }
-  .spread-graph .read-link { background: #44403c; color: white; }
-  .spread-graph .source-pinboard { background: rgba(0,0,0,0.06); color: #44403c; }
-
-  /* ── 19. INFRARED ── */
-  .spread-infrared { background: #1a0a0a; color: #fecaca; }
-  .spread-infrared .ghost-num { color: #ef4444; text-shadow: 0 0 40px rgba(239,68,68,0.3); }
-  .spread-infrared h2 { text-shadow: 0 0 20px rgba(239,68,68,0.2); }
-  .spread-infrared .category-tag { background: rgba(239,68,68,0.15); color: #fca5a5; }
-  .spread-infrared .read-link { background: #ef4444; color: white; }
-  .spread-infrared .source-pinboard { background: rgba(239,68,68,0.15); color: #fca5a5; }
-
-  /* ── 20. FROSTED ── */
-  .spread-frosted {
-    background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #e2e8f0);
-    color: #1e293b;
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
   }
-  .spread-frosted .spread-inner {
-    background: rgba(255,255,255,0.6);
-    backdrop-filter: blur(20px);
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.8);
-    padding: 3rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
   }
-  .spread-frosted .ghost-num { color: #94a3b8; }
-  .spread-frosted .category-tag { background: rgba(100,116,139,0.1); color: #475569; }
-  .spread-frosted .read-link { background: #475569; color: white; }
-  .spread-frosted .source-pinboard { background: rgba(100,116,139,0.1); color: #475569; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
 
-  @media (max-width: 640px) {
-    .spread { padding: clamp(2rem, 6vw, 4rem) 1.5rem; }
-    .ghost-num { font-size: clamp(6rem, 20vw, 10rem); }
-    .spread-frosted .spread-inner { padding: 1.5rem; }
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
   }
 </style>
 </head>
 <body>
+<div class="page">
 
-<section class="cover">
-  <div class="cover-content">
-    <div class="edition-label">Morning Edition</div>
-    <h1>April 27,<br>2026</h1>
-    <div class="date">Monday</div>
-    <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
-    <a class="archive-link" href="/archive/">Previous Issues →</a>
+  <header class="masthead">
+    <div class="kicker">Monday · April 27, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">An AI agent deleted our production database. The agent&#x27;s confession is below</a></li>
+      <li><a href="#s2">EvanFlow – A TDD driven feedback loop for Claude Code</a></li>
+      <li><a href="#s3">SWE-bench Verified no longer measures frontier coding capabilities</a></li>
+      <li><a href="#s4">AI should elevate your thinking, not replace it</a></li>
+      <li><a href="#s5">The Prompt API</a></li>
+      <li><a href="#s6">GoDaddy gave a domain to a stranger without any documentation</a></li>
+      <li><a href="#s7">Fast16: High-precision software sabotage 5 years before Stuxnet</a></li>
+      <li><a href="#s8">I bought Friendster for $30k – Here&#x27;s what I&#x27;m doing with it</a></li>
+      <li><a href="#s9">Asahi Linux Progress Linux 7.0</a></li>
+      <li><a href="#s10">Self-updating screenshots</a></li>
+      <li><a href="#s11">Notepad++ for Mac – Independent community port</a></li>
+      <li><a href="#s12">Show HN: Turning a Gaussian Splat into a videogame</a></li>
+      <li><a href="#s13">Three constraints before I build anything</a></li>
+      <li><a href="#s14">Clay PCB Tutorial</a></li>
+      <li><a href="#s15">Quirks of Human Anatomy</a></li>
+      <li><a href="#s16">Butterflies are in decline across North America, a look at the Western Monarch</a></li>
+      <li><a href="#s17">Chernobyl wildlife forty years on</a></li>
+      <li><a href="#s18">Flipdiscs</a></li>
+      <li><a href="#s19">Box to save memory in Rust</a></li>
+      <li><a href="#s20">Revocation of X.509 Certificates</a></li>
+    </ol>
   </div>
-</section>
 
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
 
-<section class="spread spread-hero">
-  <div class="ghost-num">01</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>An AI agent deleted our production database. The agent&#x27;s confession is below</h2>
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://twitter.com/lifeof_jer/status/2048103471019434248">An AI agent deleted our production database. The agent&#x27;s confession is below</a></h3>
     <div class="byline">by jeremyccrane · 662 points · 812 comments</div>
     <p class="blurb">A cautionary tale that&#x27;s generating massive discussion: an autonomous AI agent wiped a production database and then generated a detailed post-mortem of its own mistake. With Claude Code and agentic workflows becoming standard dev tools, this is required reading on guardrails, permissions, and the limits of AI autonomy. 812 comments means the community has a lot to say — don&#x27;t skip the thread.</p>
-    <div class="action-row"><a class="read-link" href="https://twitter.com/lifeof_jer/status/2048103471019434248">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47911524">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-midnight">
-  <div class="ghost-num">02</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>EvanFlow – A TDD driven feedback loop for Claude Code</h2>
+    <div class="links">
+      <a href="https://twitter.com/lifeof_jer/status/2048103471019434248">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47911524">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/evanklem/evanflow">EvanFlow – A TDD driven feedback loop for Claude Code</a></h3>
     <div class="byline">by evanklem2004 · 65 points · 25 comments</div>
     <p class="blurb">Directly targeting Claude Code users: EvanFlow wires a test-driven development feedback loop around Claude Code so the agent iterates against failing tests rather than drifting. If you&#x27;re already using Claude Code for serious work, this could tighten the loop considerably. Worth cloning and trying today.</p>
-    <div class="action-row"><a class="read-link" href="https://github.com/evanklem/evanflow">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47916909">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-rose">
-  <div class="ghost-num">03</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>SWE-bench Verified no longer measures frontier coding capabilities</h2>
+    <div class="links">
+      <a href="https://github.com/evanklem/evanflow">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47916909">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">SWE-bench Verified no longer measures frontier coding capabilities</a></h3>
     <div class="byline">by kmdupree · 298 points · 165 comments</div>
     <p class="blurb">OpenAI officially retires SWE-bench Verified as a meaningful frontier benchmark — models have saturated it. This matters because SWE-bench has been the go-to yardstick for coding agents like Claude Code and Copilot; its obsolescence signals we need better evals, and fast. Watch what replaces it.</p>
-    <div class="action-row"><a class="read-link" href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47910388">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-terminal">
-  <div class="ghost-num">04</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>AI should elevate your thinking, not replace it</h2>
+    <div class="links">
+      <a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47910388">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/">AI should elevate your thinking, not replace it</a></h3>
     <div class="byline">by koshyjohn · 473 points · 342 comments</div>
     <p class="blurb">A sharp essay arguing that reaching for AI first erodes the mental muscles you need to use AI well. The irony is that heavy Claude Code users are exactly the audience most at risk. The 342-comment thread is a genuine debate, not a pile-on — worth reading as a counterweight to pure productivity maximalism.</p>
-    <div class="action-row"><a class="read-link" href="https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47913650">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-academic">
-  <div class="ghost-num">05</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>The Prompt API</h2>
+    <div class="links">
+      <a href="https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47913650">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://developer.chrome.com/docs/ai/prompt-api">The Prompt API</a></h3>
     <div class="byline">by gslin · 106 points · 65 comments</div>
     <p class="blurb">Chrome&#x27;s built-in Prompt API lets web pages call a local on-device LLM without any server round-trip or API key. For developers building AI-assisted web tooling, this is a significant shift in what&#x27;s possible at zero marginal cost. TypeScript-friendly and worth experimenting with today.</p>
-    <div class="action-row"><a class="read-link" href="https://developer.chrome.com/docs/ai/prompt-api">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47917026">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-electric">
-  <div class="ghost-num">06</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>GoDaddy gave a domain to a stranger without any documentation</h2>
+    <div class="links">
+      <a href="https://developer.chrome.com/docs/ai/prompt-api">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47917026">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/">GoDaddy gave a domain to a stranger without any documentation</a></h3>
     <div class="byline">by jamesponddotco · 601 points · 233 comments</div>
     <p class="blurb">GoDaddy transferred ownership of a live domain to an unknown third party with zero verification — no docs, no challenge, no notification. This is a systemic trust failure in domain registrar security, and a reminder that your domain is your most critical single point of failure. Check your registrar&#x27;s account security settings today.</p>
-    <div class="action-row"><a class="read-link" href="https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47911780">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-apple">
-  <div class="ghost-num">07</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span></div>
-    <h2>Fast16: High-precision software sabotage 5 years before Stuxnet</h2>
+    <div class="links">
+      <a href="https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47911780">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/">Fast16: High-precision software sabotage 5 years before Stuxnet</a></h3>
     <div class="byline">by dd23 · 245 points · 52 comments</div>
     <p class="blurb">SentinelOne&#x27;s researchers unpack FAST16, a surgical software sabotage tool from the ShadowBrokers leak that predates Stuxnet by half a decade. It rewrites the timeline of state-sponsored cyberweapons and raises unsettling questions about what else is still undiscovered. Deeply reported and technically meaty.</p>
-    <div class="action-row"><a class="read-link" href="https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47913855">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-newsprint">
-  <div class="ghost-num">08</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span></div>
-    <h2>I bought Friendster for $30k – Here&#x27;s what I&#x27;m doing with it</h2>
+    <div class="links">
+      <a href="https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47913855">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d">I bought Friendster for $30k – Here&#x27;s what I&#x27;m doing with it</a></h3>
     <div class="byline">by ca98am79 · 774 points · 397 comments</div>
     <p class="blurb">The top story of the day: someone bought the Friendster brand for $30k and is writing about their plans. It&#x27;s part archaeology, part startup experiment, and the comment thread is full of internet historians and contrarians. A great read even if the plan goes nowhere.</p>
-    <div class="action-row"><a class="read-link" href="https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47914165">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-gradient">
-  <div class="ghost-num">09</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">New Apple Apps</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>Asahi Linux Progress Linux 7.0</h2>
+    <div class="links">
+      <a href="https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47914165">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://asahilinux.org/2026/04/progress-report-7-0/">Asahi Linux Progress Linux 7.0</a></h3>
     <div class="byline">by elisaado · 618 points · 315 comments</div>
     <p class="blurb">Asahi Linux&#x27;s 7.0 progress report documents another leap forward in running Linux natively on Apple Silicon — GPU drivers, power management, and kernel upstream progress. If you care about what Apple&#x27;s hardware can really do (or want a Linux fallback on your M-series Mac), this is the project to watch. The pace of progress here continues to be astonishing.</p>
-    <div class="action-row"><a class="read-link" href="https://asahilinux.org/2026/04/progress-report-7-0/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47909226">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-bigstat">
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <div class="stat-num">10</div>
-    <h2>Self-updating screenshots</h2>
+    <div class="links">
+      <a href="https://asahilinux.org/2026/04/progress-report-7-0/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47909226">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://interblah.net/self-updating-screenshots">Self-updating screenshots</a></h3>
     <div class="byline">by bjhess · 277 points · 41 comments</div>
     <p class="blurb">A clever technique for keeping documentation screenshots fresh automatically — the kind of low-maintenance devex improvement that quietly saves hours over a project&#x27;s lifetime. Highly applicable if you maintain any kind of docs or README with UI screenshots. Actionable and immediately stealable.</p>
-    <div class="action-row"><a class="read-link" href="https://interblah.net/self-updating-screenshots">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=47908051">HN Discussion →</a></div>
+    <div class="links">
+      <a href="https://interblah.net/self-updating-screenshots">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=47908051">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
   </div>
-</section>
 
-<section class="section-divider">
-  <div class="emoji">📌</div>
-  <h2>Pinboard Picks</h2>
-  <p>10 exclusives from Pinboard Popular</p>
-</section>
-
-
-<section class="spread spread-cork">
-  <div class="ghost-num">11</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">New Apple Apps</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Notepad++ for Mac – Independent community port</h2>
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://notepad-plus-plus-mac.org/">Notepad++ for Mac – Independent community port</a></h3>
     <div class="byline">by jonbaer · 66 points · 55 comments</div>
     <p class="blurb">A community-driven native macOS port of Notepad++ has appeared, filling a gap that&#x27;s annoyed Windows emigrants for years. It&#x27;s early-stage but the discussion is lively — whether you want it as a lightweight scratch editor or just for nostalgia, it&#x27;s worth a look on your Mac today.</p>
-    <div class="action-row"><a class="read-link" href="https://notepad-plus-plus-mac.org/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-teal">
-  <div class="ghost-num">12</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Creative Software</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Show HN: Turning a Gaussian Splat into a videogame</h2>
+    <div class="links">
+      <a href="https://notepad-plus-plus-mac.org/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/">Show HN: Turning a Gaussian Splat into a videogame</a></h3>
     <div class="byline">by yak32 · 215 points · 52 comments</div>
     <p class="blurb">PlayCanvas walks through converting a 3D Gaussian Splat capture into a playable game level — collision meshes, lighting, the works. Gaussian Splatting is evolving from a party trick into a real creative pipeline tool, and this post shows exactly how. Essential reading for anyone at the intersection of creative tooling and real-time 3D.</p>
-    <div class="action-row"><a class="read-link" href="https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-blueprint">
-  <div class="ghost-num">13</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Actionable</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Three constraints before I build anything</h2>
+    <div class="links">
+      <a href="https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Actionable</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://jordanlord.co.uk/blog/3-constraints/">Three constraints before I build anything</a></h3>
     <div class="byline">by nervous_north · 201 points · 30 comments</div>
     <p class="blurb">A short, practical framework for shipping side projects rather than abandoning them: pick a time constraint, a scope constraint, and a novelty constraint before you write a line of code. Directly applicable to anyone juggling AI experiments and personal projects alongside a day job. Keep this one bookmarked in Obsidian.</p>
-    <div class="action-row"><a class="read-link" href="https://jordanlord.co.uk/blog/3-constraints/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-sakura">
-  <div class="ghost-num">14</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Creative Software</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Clay PCB Tutorial</h2>
+    <div class="links">
+      <a href="https://jordanlord.co.uk/blog/3-constraints/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">Clay PCB Tutorial</a></h3>
     <div class="byline">by j0r0b0 · 223 points · 131 comments</div>
     <p class="blurb">An unconventional tutorial on making PCBs using modeling clay as a substrate — part art project, part electronics, entirely unexpected. The comment thread is a spirited mix of hackers and artists. It&#x27;s the kind of creative-meets-technical crossover that makes HN worth reading.</p>
-    <div class="action-row"><a class="read-link" href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-obsidian">
-  <div class="ghost-num">15</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Weird Science</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Quirks of Human Anatomy</h2>
+    <div class="links">
+      <a href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm">Quirks of Human Anatomy</a></h3>
     <div class="byline">by gurjeet · 132 points · 72 comments</div>
     <p class="blurb">A deep dive into the evolutionary accidents and vestigial oddities baked into human anatomy — the kind of biology that makes you realize how much of us is just legacy code that never got refactored. The parallel to software architecture is hard to miss. Genuinely fascinating rabbit hole.</p>
-    <div class="action-row"><a class="read-link" href="https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-copper">
-  <div class="ghost-num">16</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Weird Science</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Butterflies are in decline across North America, a look at the Western Monarch</h2>
+    <div class="links">
+      <a href="https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/">Butterflies are in decline across North America, a look at the Western Monarch</a></h3>
     <div class="byline">by 1659447091 · 205 points · 63 comments</div>
     <p class="blurb">Smithsonian&#x27;s detailed look at why Western Monarch populations have cratered — habitat loss, pesticides, and climate disruption compounding each other. Well-reported science journalism with real data, not just vibes. A sobering read on cascading ecological risk.</p>
-    <div class="action-row"><a class="read-link" href="https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-forest">
-  <div class="ghost-num">17</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Weird Science</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Chernobyl wildlife forty years on</h2>
+    <div class="links">
+      <a href="https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on">Chernobyl wildlife forty years on</a></h3>
     <div class="byline">by reconnecting · 105 points · 33 comments</div>
     <p class="blurb">Forty years after the disaster, Chernobyl&#x27;s exclusion zone has become an accidental wildlife preserve — wolves, lynx, and bison thriving where humans can&#x27;t live. The BBC&#x27;s anniversary piece is full of counterintuitive findings about radiation and resilience. Required reading for anyone who thinks they know this story.</p>
-    <div class="action-row"><a class="read-link" href="https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-graph">
-  <div class="ghost-num">18</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Creative Software</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Flipdiscs</h2>
+    <div class="links">
+      <a href="https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://flipdisc.io">Flipdiscs</a></h3>
     <div class="byline">by skogstokig · 231 points · 43 comments</div>
     <p class="blurb">flipdisc.io is a platform and toolkit for building flip-disc display art and installations — the retro electromechanical displays that click and flip between black and white. The tooling is surprisingly modern and the gallery is inspiring. A lovely niche at the intersection of physical computing and generative art.</p>
-    <div class="action-row"><a class="read-link" href="https://flipdisc.io">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-infrared">
-  <div class="ghost-num">19</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Box to save memory in Rust</h2>
+    <div class="links">
+      <a href="https://flipdisc.io">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://dystroy.org/blog/box-to-save-memory/">Box to save memory in Rust</a></h3>
     <div class="byline">by emschwartz · 126 points · 31 comments</div>
     <p class="blurb">A counterintuitive but practical guide: using Box&lt;T&gt; in Rust can actually reduce memory usage in specific scenarios involving large enums and recursive types. Clear worked examples make this accessible even if you&#x27;re a Rust tourist. The kind of low-level insight that separates proficient from expert Rust.</p>
-    <div class="action-row"><a class="read-link" href="https://dystroy.org/blog/box-to-save-memory/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-frosted">
-  <div class="ghost-num">20</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Revocation of X.509 Certificates</h2>
+    <div class="links">
+      <a href="https://dystroy.org/blog/box-to-save-memory/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://blog.apnic.net/2026/04/24/revocation-of-x-509-certificates/">Revocation of X.509 Certificates</a></h3>
     <div class="byline">by jandeboevrie · 36 points · 7 comments</div>
     <p class="blurb">APNIC&#x27;s deep-dive on how X.509 certificate revocation actually works in practice — CRL, OCSP, OCSP stapling — and why browsers mostly ignore revocation anyway. Fills a gap in most developers&#x27; mental model of TLS. Especially relevant given how much .NET and web backends depend on certificate trust chains.</p>
-    <div class="action-row"><a class="read-link" href="https://blog.apnic.net/2026/04/24/revocation-of-x-509-certificates/">Read Article →</a></div>
-  </div>
-</section>
+    <div class="links">
+      <a href="https://blog.apnic.net/2026/04/24/revocation-of-x-509-certificates/">Read article</a>
+      
+    </div>
+  </article>
 
-<footer class="footer">
-  <p>Morning Edition — Monday, April 27, 2026</p>
-  <p>Curated from Hacker News + Pinboard Popular</p>
-  <p style="margin-top:1rem;"><a href="/archive/" style="color:#a8a29e;text-decoration:none;">Previous Issues →</a></p>
-</footer>
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
 
+</div>
 </body>
 </html>

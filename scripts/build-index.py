@@ -15,6 +15,16 @@ MAG_DIR = ROOT / "magazines"
 DOMAIN = "https://daily.rhymeswithjazz.com"
 
 
+# Matches a <article class="story...">...</article> block. Captures the
+# full inner HTML for downstream extraction.
+STORY_RE = re.compile(
+    r'<article\s+class="(?P<classes>story[^"]*)"[^>]*data-source="(?P<source>[^"]+)"[^>]*>(?P<body>.*?)</article>',
+    re.DOTALL,
+)
+H3_LINK_RE = re.compile(r'<h3[^>]*>\s*<a\s+href="(?P<url>[^"]+)"[^>]*>(?P<title>.*?)</a>\s*</h3>', re.DOTALL)
+BLURB_RE = re.compile(r'<p\s+class="blurb"[^>]*>(?P<text>.*?)</p>', re.DOTALL)
+
+
 def get_editions():
     """Find all YYYY-MM-DD.html files, sorted newest first."""
     files = sorted(MAG_DIR.glob("????-??-??.html"), reverse=True)
@@ -23,13 +33,43 @@ def get_editions():
         date_str = f.stem
         try:
             dt = datetime.strptime(date_str, "%Y-%m-%d")
-            # Extract title from <title> tag
-            content = f.read_text(encoding="utf-8")
-            title_match = re.search(r"<title>(.*?)</title>", content)
-            title = html.unescape(title_match.group(1)) if title_match else f"Morning Edition — {date_str}"
-            # Extract story headlines and links from spread sections only
-            # (skip section-divider h2 by requiring a read-link in the same spread)
-            stories = []
+        except ValueError:
+            continue
+
+        content = f.read_text(encoding="utf-8")
+        title_match = re.search(r"<title>(.*?)</title>", content)
+        title = html.unescape(title_match.group(1)) if title_match else f"Morning Edition — {date_str}"
+
+        stories = []
+        for m in STORY_RE.finditer(content):
+            body = m.group("body")
+            classes = m.group("classes")
+            source = m.group("source")
+
+            h3 = H3_LINK_RE.search(body)
+            if not h3:
+                continue
+            headline = html.unescape(re.sub(r"<[^>]+>", "", h3.group("title")).strip())
+            url = html.unescape(h3.group("url"))
+
+            blurb = ""
+            b = BLURB_RE.search(body)
+            if b:
+                blurb = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", b.group("text"))).strip()
+                blurb = html.unescape(blurb)
+
+            stories.append({
+                "headline": headline,
+                "url": url,
+                "blurb": blurb,
+                "applies": "applies" in classes.split(),
+                "source": "pinboard" if source == "pb" else "hn",
+            })
+
+        # Fallback: handle legacy (pre-Digest) editions whose markup used
+        # <section class="spread...">. Best-effort metadata extraction so the
+        # archive and feed still work.
+        if not stories:
             for m in re.finditer(
                 r'<section\s+class="spread[^"]*">.*?<h2[^>]*>(.*?)</h2>.*?<a\s+class="read-link"\s+href="([^"]+)"',
                 content,
@@ -37,49 +77,29 @@ def get_editions():
             ):
                 headline = html.unescape(re.sub(r"<[^>]+>", "", m.group(1)).strip())
                 url = html.unescape(m.group(2))
-                stories.append({"headline": headline, "url": url})
+                stories.append({"headline": headline, "url": url, "blurb": "", "applies": False, "source": "hn"})
 
-            # Extract blurbs paired with headlines
-            for i, m in enumerate(re.finditer(
-                r'<p\s+class="blurb"[^>]*>(.*?)</p>',
-                content,
-                re.DOTALL,
-            )):
+            for i, m in enumerate(BLURB_RE.finditer(content)):
                 if i < len(stories):
-                    blurb = re.sub(r"<[^>]+>", "", m.group(1)).strip()
-                    blurb = re.sub(r"\s+", " ", blurb)
-                    stories[i]["blurb"] = html.unescape(blurb)
+                    txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.group("text"))).strip()
+                    stories[i]["blurb"] = html.unescape(txt)
 
-            # Detect which stories have "Directly Applies" tags
-            applies_positions = set()
-            for j, m in enumerate(re.finditer(r'class="spread[^"]*"', content)):
-                spread_start = m.start()
-                next_spread = content.find('class="spread', spread_start + 1)
-                section = content[spread_start:next_spread] if next_spread > 0 else content[spread_start:]
-                if "applies-tag" in section:
-                    applies_positions.add(j)
-
-            for j, s in enumerate(stories):
-                s["applies"] = j in applies_positions
-
-            # Detect Pinboard stories (have source-pinboard badge)
             for j, m in enumerate(re.finditer(r'class="spread[^"]*"', content)):
                 spread_start = m.start()
                 next_spread = content.find('class="spread', spread_start + 1)
                 section = content[spread_start:next_spread] if next_spread > 0 else content[spread_start:]
                 if j < len(stories):
+                    stories[j]["applies"] = "applies-tag" in section
                     stories[j]["source"] = "pinboard" if "source-pinboard" in section else "hn"
 
-            editions.append({
-                "date": dt,
-                "date_str": date_str,
-                "filename": f.name,
-                "title": title,
-                "path": f"magazines/{f.name}",
-                "stories": stories,
-            })
-        except ValueError:
-            continue
+        editions.append({
+            "date": dt,
+            "date_str": date_str,
+            "filename": f.name,
+            "title": title,
+            "path": f"magazines/{f.name}",
+            "stories": stories,
+        })
     return editions
 
 
@@ -90,8 +110,7 @@ def build_index(editions):
         (ROOT / "index.html").write_text(latest_html, encoding="utf-8")
         print(f"  index.html: latest edition ({editions[0]['date_str']})")
     else:
-        # Placeholder when no editions exist
-        html = """<!DOCTYPE html>
+        html_doc = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -99,14 +118,14 @@ def build_index(editions):
 <title>Morning Edition — Daily Tech Magazine</title>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>
-  body { font-family: sans-serif; background: #0a0a0a; color: #fafaf9;
+  body { font-family: 'Inter', system-ui, sans-serif; background: #fbf8f1; color: #1a1a17;
          display: flex; justify-content: center; align-items: center;
-         min-height: 100vh; text-align: center; }
+         min-height: 100vh; text-align: center; padding: 2rem; }
 </style>
 </head>
 <body><p>No editions yet. Check back tomorrow morning.</p></body>
 </html>"""
-        (ROOT / "index.html").write_text(html, encoding="utf-8")
+        (ROOT / "index.html").write_text(html_doc, encoding="utf-8")
         print("  index.html: placeholder (no editions)")
 
 
@@ -119,20 +138,27 @@ def build_archive(editions):
     for i, ed in enumerate(editions):
         day_name = ed["date"].strftime("%A")
         month_day = ed["date"].strftime("%B %-d, %Y")
+        applies_count = sum(1 for s in ed["stories"] if s.get("applies"))
+        story_count = len(ed["stories"])
         latest_badge = (
-            '<span style="background:#fb923c;color:white;padding:0.2rem 0.6rem;'
-            'border-radius:100px;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;'
-            'text-transform:uppercase;margin-left:0.75rem;">Latest</span>'
+            '<span class="latest-badge">Latest</span>'
             if i == 0 else ""
         )
+        meta_line = ""
+        if story_count:
+            meta_line = f'<div class="edition-meta">{story_count} stories · {applies_count} flagged for you</div>'
+
         rows += f"""
     <a href="/{ed['path']}" class="edition-row">
-      <span class="edition-date">{day_name}<br><strong>{month_day}</strong></span>
-      <span class="edition-title">{ed['title']}{latest_badge}</span>
+      <div class="edition-date"><span class="day">{day_name}</span><span class="md">{month_day}</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition{latest_badge}</div>
+        {meta_line}
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>"""
 
-    html = f"""<!DOCTYPE html>
+    archive_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -143,141 +169,192 @@ def build_archive(editions):
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="{DOMAIN}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after {{ margin: 0; padding: 0; box-sizing: border-box; }}
-  html {{ font-size: 18px; }}
+  :root {{
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+  }}
+  html {{ font-size: 17px; -webkit-text-size-adjust: 100%; }}
   body {{
-    font-family: 'Inter', sans-serif;
-    background: #0a0a0a;
-    color: #fafaf9;
-    min-height: 100vh;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
   }}
-  .header {{
-    padding: clamp(3rem, 10vw, 6rem) clamp(2rem, 6vw, 5rem);
-    max-width: 52rem;
-    margin: 0 auto;
-  }}
-  .header .label {{
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #fb923c;
+  a {{ color: inherit; text-decoration: none; }}
+
+  .page {{ max-width: 38rem; margin: 0 auto; padding: 1.25rem 1.25rem 4rem; }}
+
+  .masthead {{
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
     margin-bottom: 1.5rem;
   }}
-  .header h1 {{
-    font-family: 'Fraunces', serif;
-    font-size: clamp(2.5rem, 7vw, 5rem);
-    font-weight: 900;
-    font-style: italic;
+  .masthead .kicker {{
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }}
+  .masthead h1 {{
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 1;
-    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
   }}
-  .header p {{
-    font-size: 1.1rem;
-    color: #a8a29e;
-    line-height: 1.6;
-    max-width: 36rem;
+  .masthead h1 em {{ font-style: italic; font-weight: 700; }}
+  .masthead .sub {{
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
   }}
-  .header .nav-links {{
-    margin-top: 1.5rem;
+
+  .nav-links {{
     display: flex;
-    gap: 1.5rem;
-  }}
-  .header .nav-links a {{
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin-bottom: 2rem;
     font-size: 0.85rem;
-    text-decoration: none;
-    font-weight: 600;
   }}
-  .header .home-link {{ color: #a8a29e; }}
-  .header .home-link:hover {{ color: #fb923c; }}
-  .header .rss-link {{ color: #fb923c; }}
-  .header .rss-link:hover {{ text-decoration: underline; }}
+  .nav-links a {{
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }}
+
   .editions {{
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 0 clamp(2rem, 6vw, 5rem) 4rem;
+    display: flex;
+    flex-direction: column;
   }}
   .edition-row {{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.75rem 1rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--rule);
+    color: var(--ink);
     align-items: center;
-    gap: 1.5rem;
-    padding: 1.5rem 0;
-    border-top: 1px solid #292524;
-    text-decoration: none;
-    color: #fafaf9;
-    transition: background 0.15s;
   }}
-  .edition-row:hover {{
-    background: rgba(251,146,60,0.04);
-  }}
+  .edition-row:first-child {{ border-top: none; }}
+  .edition-row:hover {{ background: rgba(138,58,26,0.04); }}
   .edition-date {{
-    font-size: 0.85rem;
-    color: #78716c;
-    min-width: 10rem;
-    line-height: 1.4;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.1rem;
   }}
-  .edition-date strong {{
-    color: #a8a29e;
-    font-weight: 600;
+  .edition-date .day {{ font-weight: 600; color: var(--accent); }}
+  .edition-date .md {{ color: var(--muted); margin-top: 0.15rem; }}
+  .edition-body {{
+    grid-row: 2;
+    grid-column: 1;
   }}
   .edition-title {{
-    flex: 1;
-    font-family: 'Fraunces', serif;
-    font-size: 1.15rem;
-    font-weight: 600;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.15;
     display: flex;
     align-items: center;
+    gap: 0.6rem;
+  }}
+  .edition-meta {{
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
   }}
   .edition-arrow {{
-    font-size: 1.2rem;
-    color: #57534e;
-    transition: color 0.15s, transform 0.15s;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    font-size: 1.15rem;
+    color: var(--muted);
+    align-self: center;
   }}
-  .edition-row:hover .edition-arrow {{
-    color: #fb923c;
-    transform: translateX(4px);
+  .edition-row:hover .edition-arrow {{ color: var(--accent); transform: translateX(2px); }}
+  .latest-badge {{
+    background: var(--accent);
+    color: var(--bg);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-family: 'Inter', system-ui, sans-serif;
   }}
+
   .empty {{
     padding: 4rem 0;
     text-align: center;
-    color: #57534e;
-    font-size: 1.1rem;
+    color: var(--muted);
+    font-size: 1rem;
   }}
-  .footer {{
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    border-top: 1px solid #1c1917;
-    font-size: 0.8rem;
-    color: #57534e;
+
+  .colophon {{
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
   }}
-  @media (max-width: 640px) {{
-    .edition-row {{ flex-wrap: wrap; gap: 0.5rem; }}
-    .edition-date {{ min-width: 100%; }}
+  .colophon a {{ color: var(--accent); }}
+
+  @media (min-width: 640px) {{
+    html {{ font-size: 18px; }}
+    .page {{ padding: 2rem 1.75rem 5rem; }}
+    .masthead h1 {{ font-size: 2.6rem; }}
+    .edition-row {{
+      grid-template-columns: 12rem 1fr auto;
+      padding: 1.25rem 0;
+    }}
+    .edition-date {{ grid-row: 1; grid-column: 1; align-self: center; }}
+    .edition-body {{ grid-row: 1; grid-column: 2; }}
+    .edition-arrow {{ grid-row: 1; grid-column: 3; }}
   }}
 </style>
 </head>
 <body>
-  <div class="header">
-    <div class="label">Archive</div>
-    <h1>Previous Issues</h1>
-    <p>Every Morning Edition, from newest to oldest.</p>
-    <div class="nav-links">
-      <a class="home-link" href="/">&larr; Latest Issue</a>
-      <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
-    </div>
-  </div>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Archive</div>
+    <h1>Previous <em>Issues</em></h1>
+    <p class="sub">Every Morning Edition, newest first. {len(editions)} issues so far.</p>
+  </header>
+
+  <nav class="nav-links">
+    <a href="/">← Latest issue</a>
+    <a href="/feed.xml">Subscribe via RSS →</a>
+  </nav>
+
   <div class="editions">
     {rows if rows else '<div class="empty">No editions yet. Check back tomorrow morning.</div>'}
   </div>
-  <div class="footer">
-    <p>Curated daily from Hacker News + Pinboard Popular</p>
-  </div>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/">Home</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
 </body>
 </html>"""
-    (archive_dir / "index.html").write_text(html, encoding="utf-8")
+    (archive_dir / "index.html").write_text(archive_html, encoding="utf-8")
     print(f"  archive/index.html: {len(editions)} editions listed")
 
 
@@ -380,7 +457,7 @@ def build_latest_redirect(editions):
     else:
         target = "/"
 
-    html = f"""<!DOCTYPE html>
+    html_doc = f"""<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="refresh" content="0;url={target}">
@@ -390,7 +467,7 @@ def build_latest_redirect(editions):
 </head>
 <body><a href="{target}">Latest edition</a></body>
 </html>"""
-    (latest_dir / "index.html").write_text(html, encoding="utf-8")
+    (latest_dir / "index.html").write_text(html_doc, encoding="utf-8")
     print(f"  latest/index.html -> {target}")
 
 

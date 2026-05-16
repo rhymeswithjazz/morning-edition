@@ -13,686 +13,526 @@
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
   :root {
-    --ff-display: 'Fraunces', serif;
-    --ff-body: 'Inter', sans-serif;
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
   }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
 
-  html { font-size: 18px; scroll-behavior: smooth; }
-  body { font-family: var(--ff-body); line-height: 1.6; }
-
-  .cover {
-    min-height: 100vh;
-    background: #0a0a0a;
-    color: #fafaf9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 2rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .cover::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(ellipse at 30% 50%, rgba(251,146,60,0.08) 0%, transparent 50%),
-                radial-gradient(ellipse at 70% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
-    animation: drift 20s ease-in-out infinite alternate;
-  }
-  @keyframes drift {
-    from { transform: translate(0, 0) rotate(0deg); }
-    to { transform: translate(-3%, 2%) rotate(2deg); }
-  }
-  .cover-content { position: relative; z-index: 1; }
-  .cover .edition-label {
-    font-family: var(--ff-body);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #fb923c;
-    margin-bottom: 2rem;
-  }
-  .cover h1 {
-    font-family: var(--ff-display);
-    font-size: clamp(3.5rem, 10vw, 8rem);
-    font-weight: 900;
-    line-height: 0.95;
-    margin-bottom: 1.5rem;
-    font-style: italic;
-  }
-  .cover .date {
-    font-family: var(--ff-body);
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #a8a29e;
-    letter-spacing: 0.1em;
-  }
-  .cover .story-count {
-    margin-top: 2rem;
-    font-size: 0.85rem;
-    color: #78716c;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-  }
-  .cover .archive-link {
-    display: inline-block;
-    margin-top: 1.5rem;
-    font-size: 0.85rem;
-    color: #a8a29e;
-    text-decoration: none;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    transition: color 0.15s;
-  }
-  .cover .archive-link:hover { color: #fb923c; }
-
-  .spread {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 6vw, 5rem);
-    position: relative;
-    overflow: hidden;
-  }
-  .spread-inner {
-    max-width: 48rem;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  .ghost-num {
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(10rem, 30vw, 22rem);
-    line-height: 1;
-    opacity: 0.06;
-    pointer-events: none;
-    z-index: 0;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .tag-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  .action-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1rem;
-    align-items: center;
-  }
-  .category-tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-  }
-  .applies-tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.75rem;
-    border-radius: 100px;
-    background: #fbbf24;
-    color: #1c1917;
-  }
-  .spread h2 {
-    font-family: var(--ff-display);
-    font-size: clamp(1.8rem, 5vw, 3rem);
-    font-weight: 800;
-    line-height: 1.15;
-    margin-bottom: 1rem;
-  }
-  .byline {
-    font-size: 0.85rem;
-    margin-bottom: 1.5rem;
-    opacity: 0.7;
-  }
-  .blurb {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    margin-bottom: 2rem;
+  .page {
     max-width: 38rem;
-  }
-  .read-link {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-decoration: none;
-    padding: 0.6rem 1.5rem;
-    border-radius: 100px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .read-link:hover { transform: translateY(-2px); }
-  .discuss-link {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 0.85rem;
-    text-decoration: none;
-    opacity: 0.7;
-  }
-  .discuss-link:hover { opacity: 1; }
-  .source-pinboard {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    background: rgba(255,255,255,0.1);
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
   }
 
-  .section-divider {
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #1a1025, #0f172a);
-    color: #fafaf9;
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
   }
-  .section-divider .emoji { font-size: 3rem; margin-bottom: 1.5rem; }
-  .section-divider h2 {
-    font-family: var(--ff-display);
-    font-size: clamp(2.5rem, 7vw, 4.5rem);
-    font-weight: 900;
-    font-style: italic;
-    margin-bottom: 1rem;
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
   }
-  .section-divider p {
-    font-size: 1.1rem;
-    color: #a8a29e;
-  }
-
-  .footer {
-    background: #0a0a0a;
-    color: #57534e;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    text-align: center;
-    font-size: 0.85rem;
-    line-height: 1.8;
-  }
-
-  /* ── 1. HERO ── */
-  .spread-hero { background: #fffbeb; color: #1c1917; }
-  .spread-hero .ghost-num { color: #fb923c; }
-  .spread-hero .category-tag { background: #fed7aa; color: #9a3412; }
-  .spread-hero .read-link { background: #fb923c; color: white; }
-  .spread-hero .discuss-link { color: #9a3412; }
-
-  /* ── 2. MIDNIGHT ── */
-  .spread-midnight { background: #1a1025; color: #e8e0f0; }
-  .spread-midnight .ghost-num { color: #8b5cf6; }
-  .spread-midnight .category-tag { background: rgba(139,92,246,0.2); color: #c4b5fd; }
-  .spread-midnight .read-link { background: #8b5cf6; color: white; }
-  .spread-midnight .discuss-link { color: #c4b5fd; }
-
-  /* ── 3. ROSE ALERT ── */
-  .spread-rose { background: #fef2f2; color: #1c1917; position: relative; }
-  .spread-rose::after {
-    content: 'ALERT';
-    position: absolute;
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(8rem, 25vw, 18rem);
-    color: rgba(239,68,68,0.04);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-12deg);
-    pointer-events: none;
-  }
-  .spread-rose .ghost-num { color: #ef4444; }
-  .spread-rose .category-tag { background: #fecaca; color: #991b1b; }
-  .spread-rose .read-link { background: #ef4444; color: white; }
-  .spread-rose .discuss-link { color: #991b1b; }
-
-  /* ── 4. TERMINAL ── */
-  .spread-terminal { background: #0c0c0c; color: #4ade80; font-family: 'Courier New', monospace; }
-  .spread-terminal .ghost-num { color: #4ade80; }
-  .spread-terminal h2 { font-family: 'Courier New', monospace; }
-  .spread-terminal .category-tag { background: rgba(74,222,128,0.15); color: #4ade80; border: 1px solid #4ade80; }
-  .spread-terminal .read-link { background: #4ade80; color: #0c0c0c; font-family: 'Courier New', monospace; }
-  .spread-terminal .discuss-link { color: #4ade80; }
-  .spread-terminal .blurb::after { content: '█'; animation: blink 1s step-end infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
-
-  /* ── 5. ACADEMIC ── */
-  .spread-academic { background: #f5f0e8; color: #292524; }
-  .spread-academic h2 { font-style: italic; }
-  .spread-academic .blurb::first-letter {
-    font-family: var(--ff-display);
-    font-size: 3.5rem;
-    font-weight: 900;
-    float: left;
-    line-height: 0.8;
-    margin-right: 0.5rem;
-    margin-top: 0.15rem;
-    color: #78716c;
-  }
-  .spread-academic .ghost-num { color: #a8a29e; }
-  .spread-academic .category-tag { background: #d6d3d1; color: #44403c; }
-  .spread-academic .read-link { background: #57534e; color: white; }
-  .spread-academic .discuss-link { color: #57534e; }
-
-  /* ── 6. ELECTRIC BLUE ── */
-  .spread-electric { background: #0f172a; color: #e0f2fe; }
-  .spread-electric .ghost-num { color: #06b6d4; }
-  .spread-electric .category-tag { background: rgba(6,182,212,0.15); color: #67e8f9; }
-  .spread-electric .read-link { background: #06b6d4; color: #0f172a; }
-  .spread-electric .discuss-link { color: #67e8f9; }
-
-  /* ── 7. APPLE ── */
-  .spread-apple { background: linear-gradient(180deg, #ffffff, #f5f5f7); color: #1d1d1f; }
-  .spread-apple .ghost-num {
-    background: linear-gradient(135deg, #ff3b30, #ff9500, #ffcc00, #34c759, #007aff, #5856d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.12;
-  }
-  .spread-apple .category-tag { background: #e8e8ed; color: #1d1d1f; }
-  .spread-apple .read-link { background: #007aff; color: white; }
-  .spread-apple .discuss-link { color: #007aff; }
-
-  /* ── 8. NEWSPRINT ── */
-  .spread-newsprint {
-    background: #fefce8;
-    color: #1c1917;
-    background-image: radial-gradient(circle, #d4d4d4 0.5px, transparent 0.5px);
-    background-size: 12px 12px;
-  }
-  .spread-newsprint h2 { text-transform: uppercase; letter-spacing: 0.02em; }
-  .spread-newsprint .ghost-num { color: #a16207; }
-  .spread-newsprint .category-tag { background: #fde68a; color: #92400e; }
-  .spread-newsprint .read-link { background: #a16207; color: white; }
-  .spread-newsprint .discuss-link { color: #92400e; }
-
-  /* ── 9. GRADIENT ── */
-  .spread-gradient { background: linear-gradient(135deg, #fecdd3, #c4b5fd, #a78bfa); color: #1c1917; }
-  .spread-gradient .ghost-num { color: rgba(0,0,0,0.08); }
-  .spread-gradient .category-tag { background: rgba(255,255,255,0.4); color: #581c87; }
-  .spread-gradient .read-link { background: #7c3aed; color: white; }
-  .spread-gradient .discuss-link { color: #581c87; }
-
-  /* ── 10. BIG-STAT ── */
-  .spread-bigstat { background: #18181b; color: #fafaf9; text-align: center; }
-  .spread-bigstat .spread-inner { display: flex; flex-direction: column; align-items: center; }
-  .spread-bigstat .stat-num {
-    font-family: var(--ff-display);
-    font-weight: 900;
-    font-size: clamp(5rem, 18vw, 12rem);
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 1;
-    background: linear-gradient(135deg, #fb923c, #f43f5e, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1.5rem;
+    letter-spacing: -0.025em;
   }
-  .spread-bigstat .category-tag { background: rgba(251,146,60,0.15); color: #fb923c; }
-  .spread-bigstat .read-link { background: linear-gradient(135deg, #fb923c, #f43f5e); color: white; }
-  .spread-bigstat .discuss-link { color: #fb923c; }
-
-  /* ── 11. CORK BOARD ── */
-  .spread-cork {
-    background: #fef3c7;
-    color: #1c1917;
-    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px),
-                       repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(217,119,6,0.05) 20px, rgba(217,119,6,0.05) 21px);
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
   }
-  .spread-cork .ghost-num { color: #d97706; }
-  .spread-cork .category-tag { background: #fde68a; color: #92400e; }
-  .spread-cork .read-link { background: #d97706; color: white; }
-  .spread-cork .source-pinboard { background: rgba(217,119,6,0.15); color: #92400e; }
 
-  /* ── 12. DEEP TEAL ── */
-  .spread-teal { background: #042f2e; color: #ccfbf1; }
-  .spread-teal .ghost-num { color: #14b8a6; }
-  .spread-teal .category-tag { background: rgba(20,184,166,0.15); color: #5eead4; }
-  .spread-teal .read-link { background: #14b8a6; color: #042f2e; }
-  .spread-teal .source-pinboard { background: rgba(20,184,166,0.15); color: #5eead4; }
-
-  /* ── 13. BLUEPRINT ── */
-  .spread-blueprint {
-    background: #172554;
-    color: #dbeafe;
-    background-image:
-      linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
-    background-size: 24px 24px;
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
   }
-  .spread-blueprint .ghost-num { color: #3b82f6; }
-  .spread-blueprint .category-tag { background: rgba(59,130,246,0.2); color: #93c5fd; }
-  .spread-blueprint .read-link { background: #3b82f6; color: white; }
-  .spread-blueprint .source-pinboard { background: rgba(59,130,246,0.15); color: #93c5fd; }
-
-  /* ── 14. SAKURA ── */
-  .spread-sakura { background: linear-gradient(135deg, #fff1f2, #faf5ff); color: #1c1917; }
-  .spread-sakura .ghost-num { color: #ec4899; }
-  .spread-sakura .category-tag { background: #fce7f3; color: #9d174d; }
-  .spread-sakura .read-link { background: #ec4899; color: white; }
-  .spread-sakura .source-pinboard { background: rgba(236,72,153,0.1); color: #9d174d; }
-
-  /* ── 15. OBSIDIAN ── */
-  .spread-obsidian { background: #1c1917; color: #e7e5e4; }
-  .spread-obsidian .ghost-num { color: #a855f7; }
-  .spread-obsidian h2 { text-shadow: 0 0 30px rgba(168,85,247,0.3); }
-  .spread-obsidian .category-tag { background: rgba(168,85,247,0.15); color: #c084fc; }
-  .spread-obsidian .read-link { background: #a855f7; color: white; }
-  .spread-obsidian .source-pinboard { background: rgba(168,85,247,0.15); color: #c084fc; }
-
-  /* ── 16. COPPER ── */
-  .spread-copper { background: linear-gradient(180deg, #1c1917, #292524); color: #fde68a; }
-  .spread-copper .ghost-num { color: #d97706; }
-  .spread-copper h2 { color: #fbbf24; }
-  .spread-copper .category-tag { background: rgba(251,191,36,0.15); color: #fbbf24; }
-  .spread-copper .read-link { background: #d97706; color: #1c1917; }
-  .spread-copper .source-pinboard { background: rgba(217,119,6,0.15); color: #fbbf24; }
-
-  /* ── 17. FOREST ── */
-  .spread-forest { background: #052e16; color: #dcfce7; }
-  .spread-forest .ghost-num { color: #22c55e; }
-  .spread-forest .category-tag { background: rgba(34,197,94,0.15); color: #86efac; }
-  .spread-forest .read-link { background: #22c55e; color: #052e16; }
-  .spread-forest .source-pinboard { background: rgba(34,197,94,0.15); color: #86efac; }
-
-  /* ── 18. GRAPH PAPER ── */
-  .spread-graph {
-    background: #fafafa;
-    color: #1c1917;
-    background-image:
-      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
-    background-size: 20px 20px;
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
   }
-  .spread-graph .ghost-num { color: #a8a29e; }
-  .spread-graph .category-tag { background: #e7e5e4; color: #44403c; }
-  .spread-graph .read-link { background: #44403c; color: white; }
-  .spread-graph .source-pinboard { background: rgba(0,0,0,0.06); color: #44403c; }
-
-  /* ── 19. INFRARED ── */
-  .spread-infrared { background: #1a0a0a; color: #fecaca; }
-  .spread-infrared .ghost-num { color: #ef4444; text-shadow: 0 0 40px rgba(239,68,68,0.3); }
-  .spread-infrared h2 { text-shadow: 0 0 20px rgba(239,68,68,0.2); }
-  .spread-infrared .category-tag { background: rgba(239,68,68,0.15); color: #fca5a5; }
-  .spread-infrared .read-link { background: #ef4444; color: white; }
-  .spread-infrared .source-pinboard { background: rgba(239,68,68,0.15); color: #fca5a5; }
-
-  /* ── 20. FROSTED ── */
-  .spread-frosted {
-    background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #e2e8f0);
-    color: #1e293b;
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
   }
-  .spread-frosted .spread-inner {
-    background: rgba(255,255,255,0.6);
-    backdrop-filter: blur(20px);
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.8);
-    padding: 3rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
   }
-  .spread-frosted .ghost-num { color: #94a3b8; }
-  .spread-frosted .category-tag { background: rgba(100,116,139,0.1); color: #475569; }
-  .spread-frosted .read-link { background: #475569; color: white; }
-  .spread-frosted .source-pinboard { background: rgba(100,116,139,0.1); color: #475569; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
 
-  @media (max-width: 640px) {
-    .spread { padding: clamp(2rem, 6vw, 4rem) 1.5rem; }
-    .ghost-num { font-size: clamp(6rem, 20vw, 10rem); }
-    .spread-frosted .spread-inner { padding: 1.5rem; }
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
   }
 </style>
 </head>
 <body>
+<div class="page">
 
-<section class="cover">
-  <div class="cover-content">
-    <div class="edition-label">Morning Edition</div>
-    <h1>May 15,<br>2026</h1>
-    <div class="date">Friday</div>
-    <div class="story-count">20 stories from Hacker News + Pinboard Popular</div>
-    <a class="archive-link" href="/archive/">Previous Issues →</a>
+  <header class="masthead">
+    <div class="kicker">Friday · May 15, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">How Claude Code works in large codebases</a></li>
+      <li><a href="#s2">Removing the modem and GPS from my 2024 RAV4 hybrid</a></li>
+      <li><a href="#s3">Rewrite Bun in Rust has been merged</a></li>
+      <li><a href="#s4">First public macOS kernel memory corruption exploit on Apple M5</a></li>
+      <li><a href="#s5">Mullvad exit IPs are surprisingly identifying</a></li>
+      <li><a href="#s6">New arXiv policy: 1-year ban for hallucinated references</a></li>
+      <li><a href="#s7">RTX 5090 and M4 MacBook Air: Can It Game?</a></li>
+      <li><a href="#s8">Codex is now in the ChatGPT mobile app</a></li>
+      <li><a href="#s9">New Nginx Exploit</a></li>
+      <li><a href="#s10">A few words on DS4</a></li>
+      <li><a href="#s11">Ontario auditors find doctors&#x27; AI note takers routinely blow basic facts</a></li>
+      <li><a href="#s12">Gyroflow: Video stabilization using gyroscope data</a></li>
+      <li><a href="#s13">reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops</a></li>
+      <li><a href="#s14">What&#x27;s in a GGUF, besides the weights – and what&#x27;s still missing?</a></li>
+      <li><a href="#s15">LLM Policy for Rust Compiler</a></li>
+      <li><a href="#s16">HDD Firmware Hacking</a></li>
+      <li><a href="#s17">Fossils show millipede and centipede ancestors evolved legs underwater</a></li>
+      <li><a href="#s18">Porting 3D Movie Maker to Linux</a></li>
+      <li><a href="#s19">RISC-V Router</a></li>
+      <li><a href="#s20">Access to frontier AI will soon be limited by economic and security constraints</a></li>
+    </ol>
   </div>
-</section>
 
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
 
-<section class="spread spread-hero">
-  <div class="ghost-num">01</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>How Claude Code works in large codebases</h2>
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start">How Claude Code works in large codebases</a></h3>
     <div class="byline">by shenli3514 · 160 points · 117 comments</div>
     <p class="blurb">Straight from Anthropic&#x27;s blog: a practical deep-dive into how Claude Code navigates massive repos, what context strategies work, and where to start if you&#x27;re onboarding a large codebase. Required reading if you&#x27;re already using Claude Code — and a compelling pitch if you&#x27;re not yet.</p>
-    <div class="action-row"><a class="read-link" href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48144494">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-midnight">
-  <div class="ghost-num">02</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>Removing the modem and GPS from my 2024 RAV4 hybrid</h2>
+    <div class="links">
+      <a href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48144494">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/">Removing the modem and GPS from my 2024 RAV4 hybrid</a></h3>
     <div class="byline">by arkadiyt · 842 points · 435 comments</div>
     <p class="blurb">A detailed teardown of how a security researcher physically removed the connected-car modem and GPS transponder from a 2024 RAV4 hybrid — no more Toyota tracking your every move. This is the highest-scored story of the day for good reason: it&#x27;s a masterclass in hardware privacy and the lengths you have to go to when software opt-outs don&#x27;t actually work.</p>
-    <div class="action-row"><a class="read-link" href="https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48138136">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-rose">
-  <div class="ghost-num">03</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span></div>
-    <h2>Rewrite Bun in Rust has been merged</h2>
+    <div class="links">
+      <a href="https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48138136">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/oven-sh/bun/pull/30412">Rewrite Bun in Rust has been merged</a></h3>
     <div class="byline">by Chaoses · 640 points · 700 comments</div>
     <p class="blurb">The landmark PR rewriting parts of Bun from Zig into Rust has landed, sparking one of the most heated comment threads of the week. Whatever your language allegiances, this architectural shift in one of JS&#x27;s fastest runtimes has real implications for the whole ecosystem.</p>
-    <div class="action-row"><a class="read-link" href="https://github.com/oven-sh/bun/pull/30412">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48132488">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-terminal">
-  <div class="ghost-num">04</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>First public macOS kernel memory corruption exploit on Apple M5</h2>
+    <div class="links">
+      <a href="https://github.com/oven-sh/bun/pull/30412">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48132488">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.calif.io/p/first-public-kernel-memory-corruption">First public macOS kernel memory corruption exploit on Apple M5</a></h3>
     <div class="byline">by quadrige · 359 points · 80 comments</div>
     <p class="blurb">The first publicly documented kernel memory corruption exploit targeting Apple Silicon M5 is out, and it&#x27;s a big deal for the macOS security community. Even if you&#x27;re on an older chip, the technique is novel and the writeup is technically excellent — worth understanding before Apple patches it.</p>
-    <div class="action-row"><a class="read-link" href="https://blog.calif.io/p/first-public-kernel-memory-corruption">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48139219">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-academic">
-  <div class="ghost-num">05</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>Mullvad exit IPs are surprisingly identifying</h2>
+    <div class="links">
+      <a href="https://blog.calif.io/p/first-public-kernel-memory-corruption">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48139219">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/">Mullvad exit IPs are surprisingly identifying</a></h3>
     <div class="byline">by RGBCube · 365 points · 209 comments</div>
     <p class="blurb">Using a privacy VPN like Mullvad doesn&#x27;t make you anonymous if sites can fingerprint you by which exit IP you&#x27;re using — and this research shows exactly how. A sobering reminder that VPN ≠ anonymity, and that the threat model matters more than the tool.</p>
-    <div class="action-row"><a class="read-link" href="https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48143880">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-electric">
-  <div class="ghost-num">06</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span></div>
-    <h2>New arXiv policy: 1-year ban for hallucinated references</h2>
+    <div class="links">
+      <a href="https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48143880">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://twitter.com/tdietterich/status/2055000956144935055">New arXiv policy: 1-year ban for hallucinated references</a></h3>
     <div class="byline">by gjuggler · 489 points · 157 comments</div>
     <p class="blurb">arXiv is cracking down hard on AI-generated fake citations with a one-year submission ban. This is a significant policy moment that signals academic publishing is finally getting serious about LLM-assisted sloppiness — and will ripple into how researchers use AI writing tools.</p>
-    <div class="action-row"><a class="read-link" href="https://twitter.com/tdietterich/status/2055000956144935055">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48140922">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-apple">
-  <div class="ghost-num">07</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">New Apple Apps</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>RTX 5090 and M4 MacBook Air: Can It Game?</h2>
+    <div class="links">
+      <a href="https://twitter.com/tdietterich/status/2055000956144935055">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48140922">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/">RTX 5090 and M4 MacBook Air: Can It Game?</a></h3>
     <div class="byline">by allenleee · 589 points · 144 comments</div>
     <p class="blurb">Someone strapped an RTX 5090 eGPU to an M4 MacBook Air and actually tested gaming performance — and the results are more nuanced than you&#x27;d expect given Apple&#x27;s GPU architecture. If you&#x27;ve ever wondered whether Mac gaming via eGPU is finally viable, this is your answer.</p>
-    <div class="action-row"><a class="read-link" href="https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48137145">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-newsprint">
-  <div class="ghost-num">08</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>Codex is now in the ChatGPT mobile app</h2>
+    <div class="links">
+      <a href="https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48137145">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/work-with-codex-from-anywhere/">Codex is now in the ChatGPT mobile app</a></h3>
     <div class="byline">by mikeevans · 323 points · 165 comments</div>
     <p class="blurb">OpenAI&#x27;s Codex coding agent is now accessible from the ChatGPT iOS app, meaning you can kick off agentic coding tasks from your phone. Direct competition with Claude Code, and worth watching to see how mobile-first AI dev workflows evolve.</p>
-    <div class="action-row"><a class="read-link" href="https://openai.com/index/work-with-codex-from-anywhere/">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48140529">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-gradient">
-  <div class="ghost-num">09</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span></div>
-    <h2>New Nginx Exploit</h2>
+    <div class="links">
+      <a href="https://openai.com/index/work-with-codex-from-anywhere/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48140529">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/DepthFirstDisclosures/Nginx-Rift">New Nginx Exploit</a></h3>
     <div class="byline">by hetsaraiya · 373 points · 80 comments</div>
     <p class="blurb">A freshly disclosed exploit targeting Nginx is making the rounds with a full PoC on GitHub. If you&#x27;re running Nginx in production — and who isn&#x27;t — check the details and patch status immediately. High-score, high-urgency.</p>
-    <div class="action-row"><a class="read-link" href="https://github.com/DepthFirstDisclosures/Nginx-Rift">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48138268">HN Discussion →</a></div>
-  </div>
-</section>
-<section class="spread spread-bigstat">
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span></div>
-    <div class="stat-num">10</div>
-    <h2>A few words on DS4</h2>
+    <div class="links">
+      <a href="https://github.com/DepthFirstDisclosures/Nginx-Rift">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48138268">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://antirez.com/news/165">A few words on DS4</a></h3>
     <div class="byline">by caust1c · 303 points · 112 comments</div>
     <p class="blurb">Redis creator antirez shares thoughts on DS4, his next data-structure project — and it reads like a manifesto for thoughtful systems design in an era of AI-generated bloat. Even if you don&#x27;t follow the Redis ecosystem closely, antirez&#x27;s perspective on simplicity is always worth 10 minutes.</p>
-    <div class="action-row"><a class="read-link" href="https://antirez.com/news/165">Read Article →</a><a class="discuss-link" href="https://news.ycombinator.com/item?id=48142108">HN Discussion →</a></div>
+    <div class="links">
+      <a href="https://antirez.com/news/165">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=48142108">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
   </div>
-</section>
 
-<section class="section-divider">
-  <div class="emoji">📌</div>
-  <h2>Pinboard Picks</h2>
-  <p>10 exclusives from Pinboard Popular</p>
-</section>
-
-
-<section class="spread spread-cork">
-  <div class="ghost-num">11</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Ontario auditors find doctors&#x27; AI note takers routinely blow basic facts</h2>
+  <article class="story" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771">Ontario auditors find doctors&#x27; AI note takers routinely blow basic facts</a></h3>
     <div class="byline">by sohkamyung · 228 points · 106 comments</div>
     <p class="blurb">Ontario&#x27;s auditors reviewed AI-generated clinical notes and found systematic factual errors — wrong medications, incorrect diagnoses, hallucinated patient history. A sharp counterpoint to AI-in-healthcare hype and a useful case study in where current LLMs still dangerously fail.</p>
-    <div class="action-row"><a class="read-link" href="https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-teal">
-  <div class="ghost-num">12</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Creative Software</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Gyroflow: Video stabilization using gyroscope data</h2>
+    <div class="links">
+      <a href="https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/gyroflow/gyroflow">Gyroflow: Video stabilization using gyroscope data</a></h3>
     <div class="byline">by nateb2022 · 81 points · 14 comments</div>
     <p class="blurb">Gyroflow is an open-source video stabilization tool that uses gyroscope data from your camera or phone for frame-perfect stabilization — far superior to optical-only approaches. If you shoot any video on iPhone or a mirrorless, this is a tool you&#x27;ll want in your post-production kit.</p>
-    <div class="action-row"><a class="read-link" href="https://github.com/gyroflow/gyroflow">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-blueprint">
-  <div class="ghost-num">13</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops</h2>
+    <div class="links">
+      <a href="https://github.com/gyroflow/gyroflow">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops">reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops</a></h3>
     <div class="byline">by Cider9986 · 64 points · 35 comments</div>
     <p class="blurb">Google is extending Play Integrity API attestation to desktop browsers via reCAPTCHA, which means websites could soon require your device to be &quot;certified&quot; before letting you in. The GrapheneOS community is sounding the alarm loudly — this is a significant threat to open-web access and privacy.</p>
-    <div class="action-row"><a class="read-link" href="https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-sakura">
-  <div class="ghost-num">14</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>What&#x27;s in a GGUF, besides the weights – and what&#x27;s still missing?</h2>
+    <div class="links">
+      <a href="https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nobodywho.ooo/posts/whats-in-a-gguf/">What&#x27;s in a GGUF, besides the weights – and what&#x27;s still missing?</a></h3>
     <div class="byline">by bashbjorn · 145 points · 44 comments</div>
     <p class="blurb">A thorough technical tour of the GGUF model format — what metadata lives alongside the weights, what&#x27;s still absent, and why it matters for local LLM tooling. Essential reading for anyone running models locally with llama.cpp or similar tools.</p>
-    <div class="action-row"><a class="read-link" href="https://nobodywho.ooo/posts/whats-in-a-gguf/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-obsidian">
-  <div class="ghost-num">15</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>LLM Policy for Rust Compiler</h2>
+    <div class="links">
+      <a href="https://nobodywho.ooo/posts/whats-in-a-gguf/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://github.com/rust-lang/rust-forge/pull/1040">LLM Policy for Rust Compiler</a></h3>
     <div class="byline">by liyanage · 78 points · 40 comments</div>
     <p class="blurb">The Rust compiler team is establishing a formal policy on LLM-generated contributions — one of the first major open-source compilers to do so. How major OSS infrastructure projects handle AI-assisted PRs is going to define governance norms for years, and this is a bellwether.</p>
-    <div class="action-row"><a class="read-link" href="https://github.com/rust-lang/rust-forge/pull/1040">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-copper">
-  <div class="ghost-num">16</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Dev Tools</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>HDD Firmware Hacking</h2>
+    <div class="links">
+      <a href="https://github.com/rust-lang/rust-forge/pull/1040">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://icode4.coffee/?p=1465">HDD Firmware Hacking</a></h3>
     <div class="byline">by jsploit · 186 points · 25 comments</div>
     <p class="blurb">A deep dive into reverse-engineering and modifying hard drive firmware at the hardware level — complete with disassembly, flashing, and unexpected quirks. Pure low-level hacker catnip, and a useful reminder of how much invisible complexity lives in the devices we take for granted.</p>
-    <div class="action-row"><a class="read-link" href="https://icode4.coffee/?p=1465">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-forest">
-  <div class="ghost-num">17</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Weird Science</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Fossils show millipede and centipede ancestors evolved legs underwater</h2>
+    <div class="links">
+      <a href="https://icode4.coffee/?p=1465">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://phys.org/news/2026-05-ancient-sea-fossils-millipede-centipede.html">Fossils show millipede and centipede ancestors evolved legs underwater</a></h3>
     <div class="byline">by gmays · 87 points · 2 comments</div>
     <p class="blurb">New fossil evidence suggests the ancestors of millipedes and centipedes developed their signature multi-leg body plan while still living in the ocean — flipping the assumed land-first evolutionary narrative. Wonderfully weird paleontology that rewrites the arthropod family tree.</p>
-    <div class="action-row"><a class="read-link" href="https://phys.org/news/2026-05-ancient-sea-fossils-millipede-centipede.html">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-graph">
-  <div class="ghost-num">18</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Creative Software</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Porting 3D Movie Maker to Linux</h2>
+    <div class="links">
+      <a href="https://phys.org/news/2026-05-ancient-sea-fossils-millipede-centipede.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/">Porting 3D Movie Maker to Linux</a></h3>
     <div class="byline">by speckx · 122 points · 23 comments</div>
     <p class="blurb">A nostalgic engineering quest: porting Microsoft&#x27;s beloved 1995 3D Movie Maker to Linux, complete with reverse-engineering the old DirectX calls and resource formats. A charming mix of preservation, creative software history, and genuine systems hacking.</p>
-    <div class="action-row"><a class="read-link" href="https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-infrared">
-  <div class="ghost-num">19</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">Privacy &amp; Security</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>RISC-V Router</h2>
+    <div class="links">
+      <a href="https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://router.start9.com/">RISC-V Router</a></h3>
     <div class="byline">by janandonly · 121 points · 62 comments</div>
     <p class="blurb">Start9 is shipping a RISC-V based router designed for full user sovereignty — open hardware, open firmware, no proprietary blobs. For anyone building a privacy-first home network, this is worth a close look as the hardware ecosystem matures.</p>
-    <div class="action-row"><a class="read-link" href="https://router.start9.com/">Read Article →</a></div>
-  </div>
-</section>
-<section class="spread spread-frosted">
-  <div class="ghost-num">20</div>
-  <div class="spread-inner">
-    <div class="tag-row"><span class="category-tag">AI Tools</span><span class="applies-tag">Directly Applies to You</span><span class="source-pinboard">Pinboard</span></div>
-    <h2>Access to frontier AI will soon be limited by economic and security constraints</h2>
+    <div class="links">
+      <a href="https://router.start9.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://writing.antonleicht.me/p/cut-off">Access to frontier AI will soon be limited by economic and security constraints</a></h3>
     <div class="byline">by thoughtpeddler · 147 points · 125 comments</div>
     <p class="blurb">A sharp essay arguing that access to frontier models will increasingly be gated by cost, compute quotas, and geopolitical security restrictions — creating a two-tier AI world. If you&#x27;re building products on top of powerful models, this is the strategic risk you should be stress-testing against.</p>
-    <div class="action-row"><a class="read-link" href="https://writing.antonleicht.me/p/cut-off">Read Article →</a></div>
-  </div>
-</section>
+    <div class="links">
+      <a href="https://writing.antonleicht.me/p/cut-off">Read article</a>
+      
+    </div>
+  </article>
 
-<footer class="footer">
-  <p>Morning Edition — Friday, May 15, 2026</p>
-  <p>Curated from Hacker News + Pinboard Popular</p>
-  <p style="margin-top:1rem;"><a href="/archive/" style="color:#a8a29e;text-decoration:none;">Previous Issues →</a></p>
-</footer>
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
 
+</div>
 </body>
 </html>

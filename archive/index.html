@@ -9,297 +9,444 @@
 <link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  html { font-size: 18px; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; }
   body {
-    font-family: 'Inter', sans-serif;
-    background: #0a0a0a;
-    color: #fafaf9;
-    min-height: 100vh;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
   }
-  .header {
-    padding: clamp(3rem, 10vw, 6rem) clamp(2rem, 6vw, 5rem);
-    max-width: 52rem;
-    margin: 0 auto;
-  }
-  .header .label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #fb923c;
+  a { color: inherit; text-decoration: none; }
+
+  .page { max-width: 38rem; margin: 0 auto; padding: 1.25rem 1.25rem 4rem; }
+
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
     margin-bottom: 1.5rem;
   }
-  .header h1 {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(2.5rem, 7vw, 5rem);
-    font-weight: 900;
-    font-style: italic;
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
     line-height: 1;
-    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
   }
-  .header p {
-    font-size: 1.1rem;
-    color: #a8a29e;
-    line-height: 1.6;
-    max-width: 36rem;
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
   }
-  .header .nav-links {
-    margin-top: 1.5rem;
+
+  .nav-links {
     display: flex;
-    gap: 1.5rem;
-  }
-  .header .nav-links a {
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin-bottom: 2rem;
     font-size: 0.85rem;
-    text-decoration: none;
-    font-weight: 600;
   }
-  .header .home-link { color: #a8a29e; }
-  .header .home-link:hover { color: #fb923c; }
-  .header .rss-link { color: #fb923c; }
-  .header .rss-link:hover { text-decoration: underline; }
+  .nav-links a {
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+
   .editions {
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 0 clamp(2rem, 6vw, 5rem) 4rem;
+    display: flex;
+    flex-direction: column;
   }
   .edition-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.75rem 1rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--rule);
+    color: var(--ink);
     align-items: center;
-    gap: 1.5rem;
-    padding: 1.5rem 0;
-    border-top: 1px solid #292524;
-    text-decoration: none;
-    color: #fafaf9;
-    transition: background 0.15s;
   }
-  .edition-row:hover {
-    background: rgba(251,146,60,0.04);
-  }
+  .edition-row:first-child { border-top: none; }
+  .edition-row:hover { background: rgba(138,58,26,0.04); }
   .edition-date {
-    font-size: 0.85rem;
-    color: #78716c;
-    min-width: 10rem;
-    line-height: 1.4;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.1rem;
   }
-  .edition-date strong {
-    color: #a8a29e;
-    font-weight: 600;
+  .edition-date .day { font-weight: 600; color: var(--accent); }
+  .edition-date .md { color: var(--muted); margin-top: 0.15rem; }
+  .edition-body {
+    grid-row: 2;
+    grid-column: 1;
   }
   .edition-title {
-    flex: 1;
-    font-family: 'Fraunces', serif;
-    font-size: 1.15rem;
-    font-weight: 600;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.15;
     display: flex;
     align-items: center;
+    gap: 0.6rem;
+  }
+  .edition-meta {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
   }
   .edition-arrow {
-    font-size: 1.2rem;
-    color: #57534e;
-    transition: color 0.15s, transform 0.15s;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    font-size: 1.15rem;
+    color: var(--muted);
+    align-self: center;
   }
-  .edition-row:hover .edition-arrow {
-    color: #fb923c;
-    transform: translateX(4px);
+  .edition-row:hover .edition-arrow { color: var(--accent); transform: translateX(2px); }
+  .latest-badge {
+    background: var(--accent);
+    color: var(--bg);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-family: 'Inter', system-ui, sans-serif;
   }
+
   .empty {
     padding: 4rem 0;
     text-align: center;
-    color: #57534e;
-    font-size: 1.1rem;
+    color: var(--muted);
+    font-size: 1rem;
   }
-  .footer {
-    max-width: 52rem;
-    margin: 0 auto;
-    padding: 3rem clamp(2rem, 6vw, 5rem);
-    border-top: 1px solid #1c1917;
-    font-size: 0.8rem;
-    color: #57534e;
+
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
   }
-  @media (max-width: 640px) {
-    .edition-row { flex-wrap: wrap; gap: 0.5rem; }
-    .edition-date { min-width: 100%; }
+  .colophon a { color: var(--accent); }
+
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .edition-row {
+      grid-template-columns: 12rem 1fr auto;
+      padding: 1.25rem 0;
+    }
+    .edition-date { grid-row: 1; grid-column: 1; align-self: center; }
+    .edition-body { grid-row: 1; grid-column: 2; }
+    .edition-arrow { grid-row: 1; grid-column: 3; }
   }
 </style>
 </head>
 <body>
-  <div class="header">
-    <div class="label">Archive</div>
-    <h1>Previous Issues</h1>
-    <p>Every Morning Edition, from newest to oldest.</p>
-    <div class="nav-links">
-      <a class="home-link" href="/">&larr; Latest Issue</a>
-      <a class="rss-link" href="/feed.xml">Subscribe via RSS &rarr;</a>
-    </div>
-  </div>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Archive</div>
+    <h1>Previous <em>Issues</em></h1>
+    <p class="sub">Every Morning Edition, newest first. 32 issues so far.</p>
+  </header>
+
+  <nav class="nav-links">
+    <a href="/">← Latest issue</a>
+    <a href="/feed.xml">Subscribe via RSS →</a>
+  </nav>
+
   <div class="editions">
     
     <a href="/magazines/2026-05-16.html" class="edition-row">
-      <span class="edition-date">Saturday<br><strong>May 16, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 16, 2026<span style="background:#fb923c;color:white;padding:0.2rem 0.6rem;border-radius:100px;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-left:0.75rem;">Latest</span></span>
+      <div class="edition-date"><span class="day">Saturday</span><span class="md">May 16, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition<span class="latest-badge">Latest</span></div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-15.html" class="edition-row">
-      <span class="edition-date">Friday<br><strong>May 15, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 15, 2026</span>
+      <div class="edition-date"><span class="day">Friday</span><span class="md">May 15, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 11 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-14.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>May 14, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 14, 2026</span>
+      <div class="edition-date"><span class="day">Thursday</span><span class="md">May 14, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-13.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>May 13, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 13, 2026</span>
+      <div class="edition-date"><span class="day">Wednesday</span><span class="md">May 13, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 15 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-12.html" class="edition-row">
-      <span class="edition-date">Tuesday<br><strong>May 12, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 12, 2026</span>
+      <div class="edition-date"><span class="day">Tuesday</span><span class="md">May 12, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-11.html" class="edition-row">
-      <span class="edition-date">Monday<br><strong>May 11, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 11, 2026</span>
+      <div class="edition-date"><span class="day">Monday</span><span class="md">May 11, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 18 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-10.html" class="edition-row">
-      <span class="edition-date">Sunday<br><strong>May 10, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 10, 2026</span>
+      <div class="edition-date"><span class="day">Sunday</span><span class="md">May 10, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 13 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-09.html" class="edition-row">
-      <span class="edition-date">Saturday<br><strong>May 9, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 9, 2026</span>
+      <div class="edition-date"><span class="day">Saturday</span><span class="md">May 9, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 9 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-08.html" class="edition-row">
-      <span class="edition-date">Friday<br><strong>May 8, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 8, 2026</span>
+      <div class="edition-date"><span class="day">Friday</span><span class="md">May 8, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 16 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-07.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>May 7, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 7, 2026</span>
+      <div class="edition-date"><span class="day">Thursday</span><span class="md">May 7, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 8 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-06.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>May 6, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 6, 2026</span>
+      <div class="edition-date"><span class="day">Wednesday</span><span class="md">May 6, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 11 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-05.html" class="edition-row">
-      <span class="edition-date">Tuesday<br><strong>May 5, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 5, 2026</span>
+      <div class="edition-date"><span class="day">Tuesday</span><span class="md">May 5, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 8 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-04.html" class="edition-row">
-      <span class="edition-date">Monday<br><strong>May 4, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 4, 2026</span>
+      <div class="edition-date"><span class="day">Monday</span><span class="md">May 4, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 12 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-03.html" class="edition-row">
-      <span class="edition-date">Sunday<br><strong>May 3, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 3, 2026</span>
+      <div class="edition-date"><span class="day">Sunday</span><span class="md">May 3, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 19 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-02.html" class="edition-row">
-      <span class="edition-date">Saturday<br><strong>May 2, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 2, 2026</span>
+      <div class="edition-date"><span class="day">Saturday</span><span class="md">May 2, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 15 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-05-01.html" class="edition-row">
-      <span class="edition-date">Friday<br><strong>May 1, 2026</strong></span>
-      <span class="edition-title">Morning Edition — May 1, 2026</span>
+      <div class="edition-date"><span class="day">Friday</span><span class="md">May 1, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 12 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-30.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>April 30, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 30, 2026</span>
+      <div class="edition-date"><span class="day">Thursday</span><span class="md">April 30, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 16 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-29.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>April 29, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 29, 2026</span>
+      <div class="edition-date"><span class="day">Wednesday</span><span class="md">April 29, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 12 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-28.html" class="edition-row">
-      <span class="edition-date">Tuesday<br><strong>April 28, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 28, 2026</span>
+      <div class="edition-date"><span class="day">Tuesday</span><span class="md">April 28, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-27.html" class="edition-row">
-      <span class="edition-date">Monday<br><strong>April 27, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 27, 2026</span>
+      <div class="edition-date"><span class="day">Monday</span><span class="md">April 27, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 10 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-26.html" class="edition-row">
-      <span class="edition-date">Sunday<br><strong>April 26, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 26, 2026</span>
+      <div class="edition-date"><span class="day">Sunday</span><span class="md">April 26, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 9 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-25.html" class="edition-row">
-      <span class="edition-date">Saturday<br><strong>April 25, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 25, 2026</span>
+      <div class="edition-date"><span class="day">Saturday</span><span class="md">April 25, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 18 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-24.html" class="edition-row">
-      <span class="edition-date">Friday<br><strong>April 24, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 24, 2026</span>
+      <div class="edition-date"><span class="day">Friday</span><span class="md">April 24, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 18 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-23.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>April 23, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 23, 2026</span>
+      <div class="edition-date"><span class="day">Thursday</span><span class="md">April 23, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 12 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-22.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>April 22, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 22, 2026</span>
+      <div class="edition-date"><span class="day">Wednesday</span><span class="md">April 22, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-21.html" class="edition-row">
-      <span class="edition-date">Tuesday<br><strong>April 21, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 21, 2026</span>
+      <div class="edition-date"><span class="day">Tuesday</span><span class="md">April 21, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 14 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-20.html" class="edition-row">
-      <span class="edition-date">Monday<br><strong>April 20, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 20, 2026</span>
+      <div class="edition-date"><span class="day">Monday</span><span class="md">April 20, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 16 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-19.html" class="edition-row">
-      <span class="edition-date">Sunday<br><strong>April 19, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 19, 2026</span>
+      <div class="edition-date"><span class="day">Sunday</span><span class="md">April 19, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 15 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-18.html" class="edition-row">
-      <span class="edition-date">Saturday<br><strong>April 18, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 18, 2026</span>
+      <div class="edition-date"><span class="day">Saturday</span><span class="md">April 18, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 10 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-17.html" class="edition-row">
-      <span class="edition-date">Friday<br><strong>April 17, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 17, 2026</span>
+      <div class="edition-date"><span class="day">Friday</span><span class="md">April 17, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 16 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-16.html" class="edition-row">
-      <span class="edition-date">Thursday<br><strong>April 16, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 16, 2026</span>
+      <div class="edition-date"><span class="day">Thursday</span><span class="md">April 16, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 16 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
     <a href="/magazines/2026-04-15.html" class="edition-row">
-      <span class="edition-date">Wednesday<br><strong>April 15, 2026</strong></span>
-      <span class="edition-title">Morning Edition — April 15, 2026</span>
+      <div class="edition-date"><span class="day">Wednesday</span><span class="md">April 15, 2026</span></div>
+      <div class="edition-body">
+        <div class="edition-title">Morning Edition</div>
+        <div class="edition-meta">20 stories · 8 flagged for you</div>
+      </div>
       <span class="edition-arrow">&rarr;</span>
     </a>
   </div>
-  <div class="footer">
-    <p>Curated daily from Hacker News + Pinboard Popular</p>
-  </div>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/">Home</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
 </body>
 </html>
