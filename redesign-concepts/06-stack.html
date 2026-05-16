@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Stack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #f5f4ef;
+    --card: #ffffff;
+    --ink: #161614;
+    --ink-2: #3a3833;
+    --muted: #76726a;
+    --rule: #e8e5dc;
+    --accent: #d9531e;
+    --c-ai: #b8500a;
+    --c-dev: #1f5fbf;
+    --c-sec: #c43030;
+    --c-act: #b58200;
+    --c-sci: #6b3aa4;
+    --c-crt: #c43084;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* Mobile-first wrap */
+  .page {
+    max-width: 100%;
+    padding: 0.85rem 1rem 4rem;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+  .nav-back {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .nav-back:hover { color: var(--ink); }
+  .date-chip {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Greeting */
+  .greet {
+    margin-bottom: 1rem;
+  }
+  .greet h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.85rem;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.25rem;
+  }
+  .greet p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .greet strong { color: var(--ink); font-weight: 600; }
+
+  /* Sticky filter tabs */
+  .tabs {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 0.65rem 0 0.5rem;
+    margin-bottom: 1rem;
+    z-index: 10;
+    border-bottom: 1px solid var(--rule);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs-inner {
+    display: flex;
+    gap: 0.35rem;
+    min-width: max-content;
+  }
+  .tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    line-height: 1;
+    min-height: 2.1rem;
+    white-space: nowrap;
+  }
+  .tab.on {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+    font-weight: 600;
+  }
+  .tab .n {
+    font-size: 0.7rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .tab.on .n { color: rgba(255,255,255,0.55); }
+
+  /* Stack */
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* Card */
+  .card {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1rem 1.1rem;
+    position: relative;
+    transition: transform 0.08s ease, box-shadow 0.12s ease;
+  }
+  .card:active { transform: scale(0.99); }
+  .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+
+  .card .accent-bar {
+    position: absolute;
+    left: 0; top: 14px; bottom: 14px;
+    width: 3px;
+    background: var(--c-dev);
+    border-radius: 2px;
+  }
+  .card.cat-ai .accent-bar { background: var(--c-ai); }
+  .card.cat-dev .accent-bar { background: var(--c-dev); }
+  .card.cat-sec .accent-bar { background: var(--c-sec); }
+  .card.cat-act .accent-bar { background: var(--c-act); }
+  .card.cat-sci .accent-bar { background: var(--c-sci); }
+  .card.cat-crt .accent-bar { background: var(--c-crt); }
+
+  .card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+  }
+  .card .cat {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    font-size: 0.66rem;
+    color: var(--c-dev);
+  }
+  .card.cat-ai .cat { color: var(--c-ai); }
+  .card.cat-dev .cat { color: var(--c-dev); }
+  .card.cat-sec .cat { color: var(--c-sec); }
+  .card.cat-act .cat { color: var(--c-act); }
+  .card.cat-sci .cat { color: var(--c-sci); }
+  .card.cat-crt .cat { color: var(--c-crt); }
+
+  .card .num {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  .card h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.55rem;
+    color: var(--ink);
+  }
+  .card .blurb {
+    color: var(--ink-2);
+    font-size: 0.96rem;
+    line-height: 1.6;
+    margin-bottom: 0.85rem;
+  }
+
+  .card .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .card .byline {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    line-height: 1.3;
+  }
+  .card .applies {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+  }
+  .card .applies::before {
+    content: '★';
+    font-size: 0.85em;
+  }
+  .card .stats {
+    color: var(--ink);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .card .actions {
+    display: flex;
+    gap: 0.85rem;
+  }
+  .card .actions a {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.78rem;
+  }
+  .card .actions a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+
+  /* Source group label */
+  .group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.25rem 0 0.5rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .group::before, .group::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  .group:first-of-type { margin-top: 0.5rem; }
+
+  /* Colophon */
+  .colophon {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); font-weight: 500; }
+
+  /* ===== Tablet ===== */
+  @media (min-width: 640px) {
+    html { font-size: 17px; }
+    .page { max-width: 42rem; margin: 0 auto; padding: 1.5rem 1.5rem 5rem; }
+    .greet h1 { font-size: 2.2rem; }
+    .card { padding: 1.15rem 1.35rem; padding-left: 1.5rem; }
+    .card .accent-bar { left: 0; }
+    .card h3 { font-size: 1.35rem; }
+  }
+
+  /* ===== Desktop ===== */
+  @media (min-width: 1024px) {
+    .page { max-width: 64rem; padding: 2rem 2rem 6rem; }
+    .greet h1 { font-size: 2.5rem; }
+
+    .stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+    }
+    .stack > .group {
+      grid-column: 1 / -1;
+    }
+    .card { padding: 1.25rem 1.5rem; padding-left: 1.65rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="topnav">
+    <a class="nav-back" href="./">← All concepts</a>
+    <span class="date-chip">Sat · 2026-05-16</span>
+  </div>
+
+  <header class="greet">
+    <h1>Good morning.</h1>
+    <p><strong>20 stories</strong> today · <strong>14</strong> flagged as relevant to you</p>
+  </header>
+
+  <nav class="tabs" aria-label="Filter">
+    <div class="tabs-inner">
+      <a class="tab on" href="#">All <span class="n">20</span></a>
+      <a class="tab" href="#">★ Applies <span class="n">14</span></a>
+      <a class="tab" href="#">AI Tools <span class="n">6</span></a>
+      <a class="tab" href="#">Dev Tools <span class="n">5</span></a>
+      <a class="tab" href="#">Privacy <span class="n">5</span></a>
+      <a class="tab" href="#">Actionable <span class="n">2</span></a>
+      <a class="tab" href="#">Science <span class="n">2</span></a>
+      <a class="tab" href="#">Creative <span class="n">1</span></a>
+    </div>
+  </nav>
+
+  <div class="stack">
+
+    <div class="group">From Hacker News · 01 – 10</div>
+
+    <a class="card cat-ai" href="https://twitter.com/mitchellh/status/2055380239711457578">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">AI Tools</span><span class="num">01</span></div>
+      <h3>"I believe there are entire companies right now under AI psychosis"</h3>
+      <p class="blurb">Mitchell Hashimoto drops a pointed observation: some companies have handed AI so much decision-making authority that they've lost their organizational sanity. If you're building with Claude Code or managing an AI-augmented team, this is a necessary gut-check.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">1,283 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-act" href="https://www.gutenberg.org/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Actionable</span><span class="num">02</span></div>
+      <h3>Project Gutenberg — keeps getting better</h3>
+      <p class="blurb">The classic free e-book library just got meaningfully better — and HN noticed with 910 upvotes. The discussion digs into what's improved: search, formats, and curation. A reminder that some of the best digital infrastructure is quiet, nonprofit, and decades old.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">910 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sec" href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Privacy &amp; Security</span><span class="num">03</span></div>
+      <h3>DOJ demands Apple and Google unmask over 100k users of a car-tinkering app</h3>
+      <p class="blurb">A mass unmasking request — no individual warrants. A landmark privacy test case for app store operators. Apple ecosystem readers should pay close attention to how Apple responds.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">417 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sec" href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Privacy &amp; Security</span><span class="num">04</span></div>
+      <h3>California: patches or refunds when online games shut down</h3>
+      <p class="blurb">California is pushing publishers to ship offline patches or issue refunds when they pull the plug. A digital rights win with broad implications — could set a precedent for software preservation and consumer protection well beyond gaming.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">472 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-dev" href="https://github.com/oven-sh/bun/issues/30719">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Dev Tools</span><span class="num">05</span></div>
+      <h3>Bun's Rust rewrite "fails basic miri checks, allows UB in safe rust"</h3>
+      <p class="blurb">A damning GitHub issue reveals undefined behavior lurking in ostensibly safe code — the kind of bug that undermines the core pitch of Rust entirely. Required reading before you ship Bun to production.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">391 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sec" href="https://projectzero.google/2026/05/pixel-10-exploit.html">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Privacy &amp; Security</span><span class="num">06</span></div>
+      <h3>A 0-click exploit chain for the Pixel 10</h3>
+      <p class="blurb">Google Project Zero walks through a full 0-click chain — no user interaction. Baseband, kernel, and beyond. Essential reading for anyone who thinks flagship hardware is immune to silent compromise.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">371 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-dev" href="https://kevinpatel.xyz/posts/no-way-to-prevent-this/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Dev Tools</span><span class="num">07</span></div>
+      <h3>"No way to prevent this," says only package manager where this regularly happens</h3>
+      <p class="blurb">A pitch-perfect Onion-style parody skewering npm's endemic supply-chain malware problem. Funny because it's true — and the HN thread becomes a genuinely useful discussion of what actually could be done.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">340 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-dev" href="https://radicle.dev/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Dev Tools</span><span class="num">08</span></div>
+      <h3>Radicle: sovereign code forge built on Git</h3>
+      <p class="blurb">A peer-to-peer, decentralized code forge that works on top of Git — no GitHub, no central server. With platform risk top of mind, owning your code collaboration stack is increasingly compelling.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">236 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-dev" href="https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Dev Tools</span><span class="num">09</span></div>
+      <h3>The Zulip Foundation</h3>
+      <p class="blurb">Zulip is spinning up a proper nonprofit foundation to steward its open-source threaded chat platform. Foundation backing signals long-term commitment and independence from VC pressure.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">264 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sec" href="https://firethering.com/chatgpt-bank-account-plaid-openai/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Privacy &amp; Security</span><span class="num">10</span></div>
+      <h3>OpenAI is connecting ChatGPT to bank accounts via Plaid</h3>
+      <p class="blurb">Plaid lets ChatGPT directly access users' financial accounts — for budgeting, ostensibly. Your transaction history feeding an LLM is a fundamentally different data exposure than anything before. HN is appropriately alarmed.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">196 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <div class="group">From Pinboard Popular · 11 – 20</div>
+
+    <a class="card cat-ai" href="https://www.astralcodexten.com/p/the-sigmoids-wont-save-you">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">AI Tools</span><span class="num">11</span></div>
+      <h3>The sigmoids won't save you</h3>
+      <p class="blurb">Scott Alexander demolishes the comforting idea that AI progress will naturally plateau before it gets dangerous. One of the cleaner rebuttals to AI optimism you'll find — required reading if you're thinking about the trajectory of the tools you're building with.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">196 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-act" href="https://analytics.fixelsmith.com/posts/sql-fraud-patterns/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Actionable</span><span class="num">12</span></div>
+      <h3>SQL patterns I use to catch transaction fraud</h3>
+      <p class="blurb">Specific, copy-pasteable SQL patterns for detecting velocity attacks, structuring, and card-testing fraud. Not toy examples — battle-tested queries you can adapt to your own schema today. Bookmark this if you build payments software.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">177 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-crt" href="https://github.com/neilsonnn/image-blaster">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Creative Software</span><span class="num">13</span></div>
+      <h3>Image-blaster: 3D environments from a single image</h3>
+      <p class="blurb">Drop in an image, get back a full 3D environment, sound effects, and meshes. The kind of creative AI tool that makes 'single asset to full scene' actually true. Instant sandbox for anyone experimenting with generative pipelines.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">157 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-ai" href="https://ppo.gradexp.xyz/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">AI Tools</span><span class="num">14</span></div>
+      <h3>Show HN: watch a neural net learn to play Snake</h3>
+      <p class="blurb">A beautiful, interactive browser visualization of a PPO reinforcement learning agent training live. Genuinely fun to watch and serves as an intuition-builder for how RL agents develop strategy over time.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">152 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sci" href="https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Weird Science</span><span class="num">15</span></div>
+      <h3>The bird eye was pushed to an evolutionary extreme</h3>
+      <p class="blurb">Quanta digs into the bizarre optical engineering of bird eyes — photoreceptor densities no camera engineer would ever design, yet that work spectacularly well. A reminder that evolution finds solutions humans wouldn't reach.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">96 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sci" href="https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Weird Science</span><span class="num">16</span></div>
+      <h3>Naturally Occurring Quasicrystals</h3>
+      <p class="blurb">John Baez explores the strange reality that quasicrystals — once thought to be mathematical curiosities — actually exist in nature, formed by meteorite impacts. They violate classical crystallography rules and are genuinely alien-looking.</p>
+      <div class="foot">
+        <div class="byline"><span class="stats">92 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-ai" href="https://github.com/chiennv2000/orthrus">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">AI Tools</span><span class="num">17</span></div>
+      <h3>Orthrus-Qwen3: up to 7.8× tokens/forward, identical output</h3>
+      <p class="blurb">A clever speculative decoding approach squeezes up to 7.8× more tokens per forward pass from Qwen3 with identical output quality. Could meaningfully change throughput math if you run local inference.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">78 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-ai" href="https://kabir.au/blog/the-ctf-scene-is-dead">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">AI Tools</span><span class="num">18</span></div>
+      <h3>Frontier AI has broken the open CTF format</h3>
+      <p class="blurb">LLMs are now good enough at CTF challenges that the traditional open format is no longer fair. A fascinating look at AI reshaping a beloved hacker subculture, with real implications for security education and hiring.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">70 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-sec" href="https://lock.cmpxchg8b.com/umatrix.html">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Privacy &amp; Security</span><span class="num">19</span></div>
+      <h3>Building a uMatrix Replacement</h3>
+      <p class="blurb">Tavis Ormandy takes on a modern replacement for the abandoned uMatrix browser extension — the gold standard for granular request blocking. The project to watch (and possibly contribute to) for serious browser privacy.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">54 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+    <a class="card cat-dev" href="https://ljtn.github.io/epiq/">
+      <div class="accent-bar"></div>
+      <div class="top"><span class="cat">Dev Tools</span><span class="num">20</span></div>
+      <h3>Show HN: Epiq — distributed Git-based issue tracker TUI</h3>
+      <p class="blurb">A terminal-based issue tracker that stores everything inside your Git repo. No external service, no account required. Pairs naturally with Radicle or any offline-first workflow.</p>
+      <div class="foot">
+        <div class="byline"><span class="applies">Applies</span><span class="stats">53 ▲</span></div>
+        <div class="actions"><span>Read →</span></div>
+      </div>
+    </a>
+
+  </div>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Archive</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

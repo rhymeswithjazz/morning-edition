@@ -6,162 +6,198 @@
 <title>Morning Edition — Redesign Concepts</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  html { font-size: 17px; }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; }
   body {
-    font-family: 'Inter', sans-serif;
-    background: #f4f1ea;
-    color: #1a1a1a;
-    min-height: 100vh;
-    padding: 4rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #f7f5ee;
+    color: #1a1a17;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
-  @media (max-width: 640px) {
-    html { font-size: 15px; }
-    body { padding: 2rem 1rem; }
-    .sub { margin-bottom: 2rem; }
-    .card { padding: 1.25rem; }
-    .card h2 { font-size: 1.5rem; }
-    .preview { font-size: 0.62rem; padding: 0.6rem 0; }
-    .grid { gap: 1rem; }
-    .footnote { font-size: 0.65rem; letter-spacing: 0.04em; margin-top: 2rem; }
+  a { color: inherit; text-decoration: none; }
+
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 4rem;
   }
-  .wrap { max-width: 1100px; width: 100%; }
+
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #6e695e;
+    margin-bottom: 0.5rem;
+  }
+
   h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: clamp(2.5rem, 6vw, 4.5rem);
-    letter-spacing: -0.03em;
-    line-height: 0.95;
-    margin-bottom: 1rem;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.85rem;
   }
   .sub {
+    color: #3a3833;
+    font-size: 1rem;
+    line-height: 1.55;
+    margin-bottom: 2rem;
+    max-width: 38em;
+  }
+
+  .group-h {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
     font-size: 1.1rem;
-    max-width: 60ch;
-    line-height: 1.6;
-    color: #4a4a4a;
-    margin-bottom: 3rem;
+    color: #3a3833;
+    margin: 0 0 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #d9d2c1;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
-  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
-  .card {
-    background: #fff;
-    border: 1px solid #1a1a1a;
-    padding: 1.75rem;
-    text-decoration: none;
-    color: inherit;
+  .group-h:first-of-type { padding-top: 0; border-top: none; }
+
+  .list {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    gap: 0.85rem;
+    margin-bottom: 2rem;
   }
-  .card:hover { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 #1a1a1a; }
-  .num {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.75rem;
-    letter-spacing: 0.15em;
-    color: #888;
-    text-transform: uppercase;
+
+  .item {
+    display: block;
+    background: #fff;
+    border: 1px solid #e3dfd4;
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+    transition: transform 0.08s ease, box-shadow 0.12s ease;
   }
-  .card h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.75rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1.05;
-  }
-  .card p { font-size: 0.95rem; line-height: 1.55; color: #4a4a4a; }
-  .meta {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #888;
-    margin-top: auto;
-    padding-top: 0.75rem;
-    border-top: 1px solid #e0dcd2;
+  .item:active { transform: scale(0.99); }
+  .item:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+
+  .item .top {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35rem;
   }
-  .footnote {
-    margin-top: 3rem;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.75rem;
-    color: #888;
-    letter-spacing: 0.05em;
-  }
-  .preview {
-    margin-top: 0.5rem;
-    padding: 0.75rem 0;
-    border-top: 1px dashed #d4cfc1;
-    border-bottom: 1px dashed #d4cfc1;
-    font-family: 'JetBrains Mono', monospace;
+  .item .num {
     font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6e695e;
+    font-variant-numeric: tabular-nums;
+  }
+  .item .tag {
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8a3a1a;
+    font-weight: 600;
+  }
+  .item h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.4rem;
+  }
+  .item p {
+    font-size: 0.96rem;
+    line-height: 1.55;
+    color: #3a3833;
+    margin-bottom: 0.65rem;
+  }
+  .item .open {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #8a3a1a;
+    font-weight: 600;
+    border-bottom: 1px solid #c08070;
+    padding-bottom: 1px;
+  }
+
+  .item.rejected {
+    opacity: 0.55;
+    background: #f0ecdf;
+  }
+  .item.rejected h2 { color: #6e695e; }
+  .item.rejected .open { color: #6e695e; border-bottom-color: #b9b3a5; }
+
+  .footnote {
+    margin-top: 1.5rem;
+    font-size: 0.78rem;
+    color: #6e695e;
     line-height: 1.5;
-    color: #6a6a6a;
-    white-space: pre;
-    overflow: hidden;
+  }
+
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .wrap { padding: 2.5rem 1.75rem 5rem; }
+    h1 { font-size: 2.6rem; }
+    .item h2 { font-size: 1.55rem; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="num">Redesign · Three Concepts</div>
-  <h1>Higher-density<br>Morning Edition.</h1>
-  <p class="sub">Three takes on the same 20-story edition (May 16, 2026), each one denser than the current full-screen-per-story layout. Open each to compare.</p>
 
-  <div class="grid">
-    <a class="card" href="./01-broadsheet.html">
-      <div class="num">Concept 01</div>
+  <div class="label">Redesign — round 2</div>
+  <h1>Three readable, mobile-first directions.</h1>
+  <p class="sub">All rendering the same May 16, 2026 edition. This round prioritizes generous typography, comfortable reading widths, and tap-friendly targets. Try each on a phone first.</p>
+
+  <h2 class="group-h">For your review</h2>
+  <div class="list">
+
+    <a class="item" href="./04-digest.html">
+      <div class="top"><span class="num">Concept 04</span><span class="tag">Newsletter</span></div>
+      <h2>Digest</h2>
+      <p>Single-column, generous serif typography. Mini table of contents up top, hairline-ruled stories, calm and long-form. Feels like a Sunday newsletter you'd actually read end-to-end.</p>
+      <span class="open">Open →</span>
+    </a>
+
+    <a class="item" href="./05-index.html">
+      <div class="top"><span class="num">Concept 05</span><span class="tag">Reference</span></div>
+      <h2>Index</h2>
+      <p>Numbered list with hanging numerals, like a book's table of contents. Sticky filter chips, restrained typography, scannable. Tighter than Digest but still readable, no scroll fatigue.</p>
+      <span class="open">Open →</span>
+    </a>
+
+    <a class="item" href="./06-stack.html">
+      <div class="top"><span class="num">Concept 06</span><span class="tag">Feed</span></div>
+      <h2>Stack</h2>
+      <p>Clean rounded cards with a colored edge per category, sticky scrollable filter tabs, app-like greeting at the top. Mobile-first feed reader feel; collapses to a 2-column grid only on wide screens.</p>
+      <span class="open">Open →</span>
+    </a>
+
+  </div>
+
+  <h2 class="group-h">Earlier (rejected)</h2>
+  <div class="list">
+    <a class="item rejected" href="./01-broadsheet.html">
+      <div class="top"><span class="num">Concept 01</span><span class="tag">Rejected</span></div>
       <h2>Broadsheet</h2>
-      <div class="preview">┌──────┬──────┬──────┐
-│ HEAD │ COL  │ COL  │
-│ ▓▓▓▓ │ ░░░  │ ░░░  │
-│ ▓▓▓▓ │ ░░░  │ ░░░  │
-│ ░░░░ │ ▓▓▓  │ ░░░  │
-│ ░░░░ │ ░░░  │ ▓▓▓  │
-└──────┴──────┴──────┘</div>
-      <p>Classic newspaper. Multi-column flowing text, drop caps, italic bylines, rules between sections. Reads like the front page of a Sunday paper.</p>
-      <div class="meta"><span>Print-feel</span><span>~1.5 screens</span></div>
+      <span class="open">Open →</span>
     </a>
-
-    <a class="card" href="./02-wire.html">
-      <div class="num">Concept 02</div>
+    <a class="item rejected" href="./02-wire.html">
+      <div class="top"><span class="num">Concept 02</span><span class="tag">Rejected</span></div>
       <h2>Wire</h2>
-      <div class="preview">01 ▌AI    ★ ▓▓▓▓▓▓▓ 1283
-02 ▌ACT     ▓▓▓▓▓░░  910
-03 ▌SEC   ★ ▓▓▓░░░░  417
-04 ▌SEC     ▓▓▓░░░░  472
-05 ▌DEV   ★ ▓▓░░░░░  391
-06 ▌SEC     ▓▓░░░░░  371</div>
-      <p>HN-meets-Bloomberg. Monospace, single-row stories with sortable-looking metadata. Click to expand the blurb inline. Maximum scan-ability.</p>
-      <div class="meta"><span>Terminal-feel</span><span>~1 screen</span></div>
+      <span class="open">Open →</span>
     </a>
-
-    <a class="card" href="./03-bento.html">
-      <div class="num">Concept 03</div>
+    <a class="item rejected" href="./03-bento.html">
+      <div class="top"><span class="num">Concept 03</span><span class="tag">Rejected</span></div>
       <h2>Bento Briefing</h2>
-      <div class="preview">┌─────────┬───┬───┐
-│         │ ▓ │ ▓ │
-│  HERO   ├───┼───┤
-│         │ ▓ │ ▓ │
-├───┬─────┴───┴───┤
-│ ▓ │ ░ │ ░ │ ░  │
-└───┴───┴───┴────┘</div>
-      <p>Modern dashboard. Bento grid with one hero card and varied tile sizes. Sidebar facets (categories, "applies to you"). At-a-glance counters at the top.</p>
-      <div class="meta"><span>Dashboard-feel</span><span>~2 screens</span></div>
+      <span class="open">Open →</span>
     </a>
   </div>
 
-  <div class="footnote">All three use the same source JSON: magazines/2026-05-16.json</div>
+  <p class="footnote">All concepts render <code>magazines/2026-05-16.json</code>. Nothing under <code>scripts/</code> or the production build pipeline has been modified.</p>
+
 </div>
 </body>
 </html>
