@@ -291,14 +291,84 @@
     .t-med { grid-column: span 3; }
     .t-sm { grid-column: span 3; }
     .t-row { grid-column: span 6; }
+    .bento > [style*="grid-column: span 12"] { grid-column: 1 / -1 !important; }
   }
   @media (max-width: 640px) {
-    .bento { grid-template-columns: 1fr; grid-auto-rows: auto; }
+    html { font-size: 15px; }
+    body { padding: 0.85rem 0.85rem 2.5rem; }
+
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+    }
+    .header-right {
+      text-align: left;
+      font-size: 0.68rem;
+      line-height: 1.45;
+    }
+    .nameplate { font-size: clamp(1.6rem, 8vw, 2.1rem); }
+    .nameplate small { font-size: 0.62rem; letter-spacing: 0.16em; }
+
+    .strip {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 0.85rem;
+    }
+    .pill { padding: 0.55rem 0.7rem; }
+    .pill .v { font-size: 1.25rem; }
+    .pill .l { font-size: 0.55rem; letter-spacing: 0.12em; }
+    .pill:last-child { grid-column: 1 / -1; }
+
+    .bento {
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      gap: 0.6rem;
+    }
     .t-hero, .t-facets, .t-side, .t-med, .t-sm, .t-row {
       grid-column: span 1;
       grid-row: auto;
-      min-height: 8rem;
+      min-height: 0;
     }
+
+    .t-hero { padding: 1.1rem; gap: 0.5rem; }
+    .t-hero h2 { font-size: clamp(1.4rem, 6vw, 1.85rem); }
+    .t-hero .blurb { font-size: 0.92rem; }
+    .t-hero .foot { flex-wrap: wrap; gap: 0.4rem 1rem; }
+    .t-hero .links { flex-wrap: wrap; gap: 0.5rem 1rem; }
+
+    .tile { padding: 0.85rem; }
+    .tile h3 { font-size: 1rem; }
+    .tile .blurb { font-size: 0.82rem; }
+    .tile .foot { font-size: 0.6rem; }
+
+    .t-row { padding: 0.7rem 0.85rem; }
+    .t-row h3 { font-size: 0.92rem; }
+
+    .t-facets { padding: 1rem; }
+    .t-facets section { margin-bottom: 0.85rem; }
+    .t-facets li { font-size: 0.82rem; padding: 0.28rem 0; }
+
+    /* Section-divider tile inline within the grid */
+    .bento > [style*="grid-column: span 12"] {
+      grid-column: 1 / -1 !important;
+      padding: 0.5rem 0 !important;
+    }
+
+    .colophon {
+      flex-direction: column;
+      gap: 0.4rem;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  /* Very small phones */
+  @media (max-width: 380px) {
+    .strip { grid-template-columns: 1fr; }
+    .pill:last-child { grid-column: auto; }
   }
 </style>
 </head>
