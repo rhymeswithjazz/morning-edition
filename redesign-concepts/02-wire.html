@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Wire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 15px; }
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #0c0e10;
+    color: #c8d0d6;
+    line-height: 1.5;
+    padding: 1.25rem 1.5rem 4rem;
+    font-feature-settings: "calt" 1, "liga" 1;
+  }
+
+  ::selection { background: #b8ff5a; color: #0c0e10; }
+
+  .wrap { max-width: 1280px; margin: 0 auto; }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f262c;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6a747a;
+  }
+  .topbar .brand {
+    color: #b8ff5a;
+    font-weight: 700;
+  }
+  .topbar .brand::before { content: "● "; }
+  .topbar .right { display: flex; gap: 1.25rem; }
+  .topbar .right span { display: flex; gap: 0.4rem; }
+  .topbar .right b { color: #e8eef2; font-weight: 600; }
+
+  /* Stats strip */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+    background: #1f262c;
+    border: 1px solid #1f262c;
+    margin-bottom: 0.75rem;
+  }
+  @media (max-width: 800px) { .stats { grid-template-columns: repeat(3, 1fr); } }
+  .stat {
+    background: #0c0e10;
+    padding: 0.55rem 0.75rem;
+  }
+  .stat .label {
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6a747a;
+    margin-bottom: 0.15rem;
+  }
+  .stat .val {
+    font-size: 1.05rem;
+    color: #e8eef2;
+    font-weight: 600;
+  }
+  .stat .val.accent { color: #b8ff5a; }
+  .stat .val.warn { color: #ffb13b; }
+
+  /* Filter bar */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin-bottom: 0.4rem;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 1px dashed #1f262c;
+  }
+  .filters .lbl { color: #6a747a; margin-right: 0.5rem; }
+  .chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #2a3138;
+    color: #c8d0d6;
+    background: transparent;
+    cursor: default;
+  }
+  .chip.on { background: #b8ff5a; color: #0c0e10; border-color: #b8ff5a; font-weight: 700; }
+  .chip.applies { color: #ffb13b; border-color: #4a3a1a; }
+
+  /* Column headers */
+  .row-head {
+    display: grid;
+    grid-template-columns: 3rem 5.5rem 1.75rem 1.5rem 1fr 8rem 5rem 5rem 4rem;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6a747a;
+    border-bottom: 1px solid #1f262c;
+    position: sticky;
+    top: 0;
+    background: #0c0e10;
+    z-index: 5;
+  }
+  .row-head .sort::after { content: " ▾"; color: #b8ff5a; }
+  @media (max-width: 1000px) {
+    .row-head { grid-template-columns: 2.5rem 4rem 1.5rem 1.25rem 1fr 4.5rem 3.5rem; }
+    .row-head .h-byline, .row-head .h-cmts { display: none; }
+  }
+  @media (max-width: 640px) {
+    .row-head { grid-template-columns: 2.5rem 1.5rem 1fr 3.5rem; }
+    .row-head .h-cat, .h-applies, .h-source { display: none; }
+  }
+
+  /* Story rows */
+  .story {
+    display: grid;
+    grid-template-columns: 3rem 5.5rem 1.75rem 1.5rem 1fr 8rem 5rem 5rem 4rem;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.55rem 0.5rem;
+    border-bottom: 1px solid #14181c;
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: background 0.08s;
+    position: relative;
+  }
+  .story:hover { background: #11161a; }
+  .story:hover .title { color: #b8ff5a; }
+  .story[open] { background: #0f1316; }
+
+  @media (max-width: 1000px) {
+    .story { grid-template-columns: 2.5rem 4rem 1.5rem 1.25rem 1fr 4.5rem 3.5rem; }
+    .story .c-byline, .story .c-cmts { display: none; }
+  }
+  @media (max-width: 640px) {
+    .story { grid-template-columns: 2.5rem 1.5rem 1fr 3.5rem; font-size: 0.82rem; }
+    .story .c-cat, .c-applies, .c-source { display: none; }
+  }
+
+  .c-id { color: #4a5258; font-weight: 500; font-size: 0.78rem; }
+  .c-cat {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1px 4px;
+    border-left: 2px solid;
+    color: #c8d0d6;
+  }
+  .c-cat.ai { border-color: #b8ff5a; color: #b8ff5a; }
+  .c-cat.dev { border-color: #5acdff; color: #5acdff; }
+  .c-cat.sec { border-color: #ff6b6b; color: #ff6b6b; }
+  .c-cat.act { border-color: #ffb13b; color: #ffb13b; }
+  .c-cat.sci { border-color: #c890ff; color: #c890ff; }
+  .c-cat.crt { border-color: #ff90c8; color: #ff90c8; }
+  .c-applies { text-align: center; color: #ffb13b; font-weight: 700; font-size: 1rem; }
+  .c-applies.off { color: #2a3138; }
+  .c-src {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6a747a;
+  }
+  .title {
+    color: #e8eef2;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+  }
+  .c-byline {
+    font-size: 0.72rem;
+    color: #6a747a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .c-pts {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    color: #b8ff5a;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .c-cmts {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    color: #6a747a;
+    font-size: 0.82rem;
+  }
+  .bar {
+    height: 4px;
+    background: #1f262c;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .bar > i {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #b8ff5a, #5acdff);
+  }
+
+  /* Expansion */
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  .expand {
+    padding: 0.65rem 0.75rem 1rem 5rem;
+    background: #0a0c0e;
+    border-bottom: 1px solid #14181c;
+    border-left: 3px solid #b8ff5a;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: #c8d0d6;
+  }
+  .expand p { max-width: 76ch; }
+  .expand .actions {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  .expand a {
+    color: #b8ff5a;
+    text-decoration: none;
+    border-bottom: 1px dashed #5a7a30;
+  }
+  .expand a:hover { background: #b8ff5a; color: #0c0e10; }
+
+  .ticker {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    border-top: 1px solid #1f262c;
+    border-bottom: 1px solid #1f262c;
+    font-size: 0.72rem;
+    color: #6a747a;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ticker b { color: #b8ff5a; font-weight: 600; }
+
+  .nav-back {
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    color: #6a747a;
+    text-decoration: none;
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .nav-back:hover { color: #b8ff5a; }
+
+  details[open] .chev { transform: rotate(90deg); }
+  .chev { display: inline-block; transition: transform 0.15s; color: #4a5258; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="nav-back" href="./">← All Concepts</a>
+
+  <div class="topbar">
+    <span class="brand">MORNING.WIRE · v3.136</span>
+    <div class="right">
+      <span>SAT 2026-05-16</span>
+      <span>HN+PB</span>
+      <span>20 stories</span>
+      <span><b>14:23 UTC</b></span>
+    </div>
+  </div>
+
+  <!-- Aggregate stats -->
+  <div class="stats">
+    <div class="stat"><div class="label">Stories</div><div class="val">20</div></div>
+    <div class="stat"><div class="label">Applies</div><div class="val accent">14</div></div>
+    <div class="stat"><div class="label">Σ Points</div><div class="val">5,693</div></div>
+    <div class="stat"><div class="label">Σ Comments</div><div class="val">2,623</div></div>
+    <div class="stat"><div class="label">Top cat</div><div class="val warn">AI · 6</div></div>
+    <div class="stat"><div class="label">Sources</div><div class="val">HN·10 PB·10</div></div>
+  </div>
+
+  <!-- Filter chips -->
+  <div class="filters">
+    <span class="lbl">filter:</span>
+    <span class="chip on">all (20)</span>
+    <span class="chip applies">★ applies (14)</span>
+    <span class="chip">ai (6)</span>
+    <span class="chip">dev (5)</span>
+    <span class="chip">sec (5)</span>
+    <span class="chip">act (2)</span>
+    <span class="chip">sci (2)</span>
+    <span class="chip">crt (1)</span>
+    <span class="lbl" style="margin-left:auto">sort: points ▾</span>
+  </div>
+
+  <!-- Column headers -->
+  <div class="row-head">
+    <span>#</span>
+    <span class="h-cat">cat</span>
+    <span class="h-applies">★</span>
+    <span class="h-source">src</span>
+    <span>title</span>
+    <span class="h-byline">byline</span>
+    <span class="sort" style="text-align:right">pts</span>
+    <span class="h-cmts" style="text-align:right">cmts</span>
+    <span style="text-align:right">heat</span>
+  </div>
+
+  <!-- 01 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">01</span>
+      <span class="c-cat ai">AI</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">"I believe there are entire companies right now under AI psychosis"</span>
+      <span class="c-byline">reasonableklout</span>
+      <span class="c-pts">1283</span>
+      <span class="c-cmts">629</span>
+      <span class="bar"><i style="width:100%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Mitchell Hashimoto (of Vagrant/Terraform fame) drops a pointed observation: some companies have handed AI so much decision-making authority that they've lost their organizational sanity. With 629 comments, HN is clearly feeling this one. If you're building with Claude Code or managing an AI-augmented team, this is a necessary gut-check.</p>
+      <div class="actions">
+        <a href="https://twitter.com/mitchellh/status/2055380239711457578">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48153379">→ hn thread</a>
+        <a href="#">↗ copy link</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 02 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">02</span>
+      <span class="c-cat act">ACT</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">HN</span>
+      <span class="title">Project Gutenberg – keeps getting better</span>
+      <span class="c-byline">JSeiko</span>
+      <span class="c-pts">910</span>
+      <span class="c-cmts">192</span>
+      <span class="bar"><i style="width:71%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>The classic free e-book library apparently just got meaningfully better — and HN noticed with 910 upvotes. The discussion digs into what's improved: search, formats, and curation. A reminder that some of the best digital infrastructure is quiet, nonprofit, and decades old.</p>
+      <div class="actions">
+        <a href="https://www.gutenberg.org/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48150431">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 03 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">03</span>
+      <span class="c-cat sec">SEC</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app</span>
+      <span class="c-byline">tencentshill</span>
+      <span class="c-pts">472</span>
+      <span class="c-cmts">296</span>
+      <span class="bar"><i style="width:37%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>The DOJ is demanding Apple and Google hand over identities of 100,000+ users of an emissions-tuning app — no individual warrants, just a mass unmasking request. This is a landmark privacy test case for app store operators. Apple ecosystem readers should pay close attention to how Apple responds.</p>
+      <div class="actions">
+        <a href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48151383">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 04 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">04</span>
+      <span class="c-cat sec">SEC</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">HN</span>
+      <span class="title">California bill would require patches or refunds when online games shut down</span>
+      <span class="c-byline">Lihh27</span>
+      <span class="c-pts">472</span>
+      <span class="c-cmts">296</span>
+      <span class="bar"><i style="width:37%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>California is pushing a bill that would force publishers to ship offline patches or issue refunds when they pull the plug on online games. It's a digital rights win with broad implications — could set a precedent for software preservation and consumer protection well beyond gaming.</p>
+      <div class="actions">
+        <a href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48152994">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 05 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">05</span>
+      <span class="c-cat dev">DEV</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">Bun Rust rewrite: "codebase fails basic miri checks, allows for UB in safe rust"</span>
+      <span class="c-byline">ndiddy</span>
+      <span class="c-pts">391</span>
+      <span class="c-cmts">276</span>
+      <span class="bar"><i style="width:30%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>A damning GitHub issue reveals Bun's hyped Rust rewrite has undefined behavior lurking in ostensibly safe code — the kind of bug that undermines the core pitch of Rust entirely. If you're evaluating Bun for production use, this thread is required reading before you ship.</p>
+      <div class="actions">
+        <a href="https://github.com/oven-sh/bun/issues/30719">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48150900">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 06 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">06</span>
+      <span class="c-cat sec">SEC</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">HN</span>
+      <span class="title">A 0-click exploit chain for the Pixel 10</span>
+      <span class="c-byline">happyhardcore</span>
+      <span class="c-pts">371</span>
+      <span class="c-cmts">186</span>
+      <span class="bar"><i style="width:29%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Google Project Zero walks through a full 0-click exploit chain targeting the Pixel 10 — no user interaction required. The technical depth here is exceptional, covering baseband, kernel, and beyond. Essential reading for anyone who thinks modern flagship hardware is immune to silent compromise.</p>
+      <div class="actions">
+        <a href="https://projectzero.google/2026/05/pixel-10-exploit.html">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48148460">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 07 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">07</span>
+      <span class="c-cat dev">DEV</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">'No way to prevent this,' says only package manager where this regularly happens</span>
+      <span class="c-byline">alligatorplum</span>
+      <span class="c-pts">340</span>
+      <span class="c-cmts">158</span>
+      <span class="bar"><i style="width:26%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>A pitch-perfect Onion-style parody skewering npm's endemic supply-chain malware problem. It's funny because it's true — and the HN thread turns into a genuinely useful discussion of what actually could be done. Mandatory reading for any .NET or TypeScript developer who touches the npm ecosystem.</p>
+      <div class="actions">
+        <a href="https://kevinpatel.xyz/posts/no-way-to-prevent-this/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48155690">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 08 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">08</span>
+      <span class="c-cat dev">DEV</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">Radicle: Sovereign code forge built on Git</span>
+      <span class="c-byline">KolmogorovComp</span>
+      <span class="c-pts">264</span>
+      <span class="c-cmts">85</span>
+      <span class="bar"><i style="width:20%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Radicle is a peer-to-peer, decentralized code forge that works on top of Git — no GitHub, no central server. With surveillance and platform risk top of mind, owning your code collaboration stack is increasingly compelling. Worth a serious look if you want GitHub independence.</p>
+      <div class="actions">
+        <a href="https://radicle.dev/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48147603">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 09 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">09</span>
+      <span class="c-cat dev">DEV</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">HN</span>
+      <span class="title">The Zulip Foundation</span>
+      <span class="c-byline">boramalper</span>
+      <span class="c-pts">264</span>
+      <span class="c-cmts">69</span>
+      <span class="bar"><i style="width:20%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Zulip is spinning up a proper nonprofit foundation to steward its open-source threaded chat platform. This is meaningful for teams who've bet on Zulip as a Slack alternative — foundation backing signals long-term commitment and independence from VC pressure.</p>
+      <div class="actions">
+        <a href="https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48152168">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 10 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">10</span>
+      <span class="c-cat sec">SEC</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">HN</span>
+      <span class="title">OpenAI is connecting ChatGPT to bank accounts via Plaid</span>
+      <span class="c-byline">steveharing1</span>
+      <span class="c-pts">196</span>
+      <span class="c-cmts">112</span>
+      <span class="bar"><i style="width:15%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>OpenAI is integrating Plaid so ChatGPT can directly access users' financial accounts — ostensibly for budgeting and financial assistance features. The privacy implications are enormous: your transaction history feeding an LLM is a fundamentally different data exposure than anything before. The HN thread is appropriately alarmed.</p>
+      <div class="actions">
+        <a href="https://firethering.com/chatgpt-bank-account-plaid-openai/">→ article</a>
+        <a href="https://news.ycombinator.com/item?id=48150723">→ hn thread</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 11 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">11</span>
+      <span class="c-cat ai">AI</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">The sigmoids won't save you</span>
+      <span class="c-byline">Tomte</span>
+      <span class="c-pts">196</span>
+      <span class="c-cmts">197</span>
+      <span class="bar"><i style="width:15%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Scott Alexander demolishes the comforting idea that AI progress will naturally plateau before it gets dangerous. The argument — that sigmoid curves look linear in the middle — is one of the cleaner rebuttals to AI optimism you'll find. Required reading if you're thinking about the trajectory of the tools you're building with.</p>
+      <div class="actions">
+        <a href="https://www.astralcodexten.com/p/the-sigmoids-wont-save-you">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 12 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">12</span>
+      <span class="c-cat act">ACT</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">SQL patterns I use to catch transaction fraud</span>
+      <span class="c-byline">redbell</span>
+      <span class="c-pts">177</span>
+      <span class="c-cmts">52</span>
+      <span class="bar"><i style="width:14%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>A practitioner shares specific, copy-pasteable SQL patterns for detecting velocity attacks, structuring, and card-testing fraud. These aren't toy examples — they're battle-tested queries you can adapt to your own schema today. Any developer building a payments or e-commerce backend should bookmark this.</p>
+      <div class="actions">
+        <a href="https://analytics.fixelsmith.com/posts/sql-fraud-patterns/">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 13 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">13</span>
+      <span class="c-cat crt">CRT</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Image-blaster: creates 3D environments, SFX, and meshes from a single image</span>
+      <span class="c-byline">MattRogish</span>
+      <span class="c-pts">157</span>
+      <span class="c-cmts">31</span>
+      <span class="bar"><i style="width:12%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Drop in a single image and get back a full 3D environment, sound effects, and meshes — this is the kind of creative AI tool that makes the phrase 'single asset to full scene' actually true. For developers experimenting with generative pipelines, this is an instant sandbox to play in.</p>
+      <div class="actions">
+        <a href="https://github.com/neilsonnn/image-blaster">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 14 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">14</span>
+      <span class="c-cat ai">AI</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Show HN: Watch a neural net learn to play Snake</span>
+      <span class="c-byline">c1b</span>
+      <span class="c-pts">152</span>
+      <span class="c-cmts">36</span>
+      <span class="bar"><i style="width:12%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>A beautiful, interactive browser visualization of a PPO reinforcement learning agent training live on Snake. It's genuinely fun to watch and serves as an intuition-builder for how RL agents develop strategy over time. Great for sharing with anyone trying to grok reinforcement learning.</p>
+      <div class="actions">
+        <a href="https://ppo.gradexp.xyz/">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 15 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">15</span>
+      <span class="c-cat sci">SCI</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">PB</span>
+      <span class="title">The bird eye was pushed to an evolutionary extreme</span>
+      <span class="c-byline">sohkamyung</span>
+      <span class="c-pts">96</span>
+      <span class="c-cmts">32</span>
+      <span class="bar"><i style="width:8%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Quanta digs into the bizarre optical engineering of bird eyes — photoreceptor densities and geometries that no camera engineer would ever design, yet work spectacularly well. Beautifully written, and a reminder that evolution finds solutions the human mind wouldn't reach.</p>
+      <div class="actions">
+        <a href="https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 16 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">16</span>
+      <span class="c-cat sci">SCI</span>
+      <span class="c-applies off">·</span>
+      <span class="c-src">PB</span>
+      <span class="title">Naturally Occurring Quasicrystals</span>
+      <span class="c-byline">lukeplato</span>
+      <span class="c-pts">92</span>
+      <span class="c-cmts">9</span>
+      <span class="bar"><i style="width:7%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>John Baez explores the strange reality that quasicrystals — once thought to be a mathematical curiosity — actually exist in nature, formed by meteorite impacts. The structures violate classical crystallography rules and are genuinely alien-looking. A perfect Saturday-morning rabbit hole.</p>
+      <div class="actions">
+        <a href="https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 17 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">17</span>
+      <span class="c-cat ai">AI</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Orthrus-Qwen3: up to 7.8× tokens/forward on Qwen3, identical output distribution</span>
+      <span class="c-byline">FranckDernoncou</span>
+      <span class="c-pts">78</span>
+      <span class="c-cmts">9</span>
+      <span class="bar"><i style="width:6%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>A clever speculative decoding approach squeezes up to 7.8× more tokens per forward pass from Qwen3 with identical output quality. If you're running local inference or optimizing AI pipeline costs, this technique could meaningfully change your throughput math.</p>
+      <div class="actions">
+        <a href="https://github.com/chiennv2000/orthrus">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 18 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">18</span>
+      <span class="c-cat ai">AI</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Frontier AI has broken the open CTF format</span>
+      <span class="c-byline">frays</span>
+      <span class="c-pts">70</span>
+      <span class="c-cmts">44</span>
+      <span class="bar"><i style="width:5%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>LLMs are now good enough at CTF (Capture the Flag) security challenges that the traditional open format is no longer a fair competition — AI gives some participants an overwhelming edge. A fascinating look at how AI is reshaping a beloved hacker subculture, with real implications for security education and hiring.</p>
+      <div class="actions">
+        <a href="https://kabir.au/blog/the-ctf-scene-is-dead">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 19 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">19</span>
+      <span class="c-cat sec">SEC</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Building a uMatrix Replacement</span>
+      <span class="c-byline">taviso</span>
+      <span class="c-pts">54</span>
+      <span class="c-cmts">16</span>
+      <span class="bar"><i style="width:4%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Security legend Tavis Ormandy takes on building a modern replacement for the abandoned uMatrix browser extension — the gold standard for granular request blocking. If you've mourned the death of uMatrix, this is the project to watch and possibly contribute to.</p>
+      <div class="actions">
+        <a href="https://lock.cmpxchg8b.com/umatrix.html">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <!-- 20 -->
+  <details>
+    <summary class="story">
+      <span class="c-id">20</span>
+      <span class="c-cat dev">DEV</span>
+      <span class="c-applies">★</span>
+      <span class="c-src">PB</span>
+      <span class="title">Show HN: Epiq — distributed Git-based issue tracker TUI</span>
+      <span class="c-byline">jolaflow</span>
+      <span class="c-pts">53</span>
+      <span class="c-cmts">17</span>
+      <span class="bar"><i style="width:4%"></i></span>
+    </summary>
+    <div class="expand">
+      <p>Epiq is a terminal-based issue tracker that stores everything inside your Git repo — no external service, no account required. Pairs naturally with Radicle or any offline-first workflow. If you want GitHub Issues without GitHub, this is worth a spin today.</p>
+      <div class="actions">
+        <a href="https://ljtn.github.io/epiq/">→ article</a>
+      </div>
+    </div>
+  </details>
+
+  <div class="ticker">
+    <b>WIRE</b> · last edition 2026-05-15 (20 stories, 14 applies) · prev 2026-05-14 (20/12) · 2026-05-13 (20/15) · 2026-05-12 (20/11) · <b>archive →</b>
+  </div>
+
+</div>
+</body>
+</html>
