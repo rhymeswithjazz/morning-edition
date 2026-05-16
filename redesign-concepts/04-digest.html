@@ -148,7 +148,8 @@
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--rule);
   }
-  .story:last-of-type { border-bottom: none; }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
 
   .story .topline {
     display: flex;
