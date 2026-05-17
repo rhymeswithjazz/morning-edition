@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-17",
+  "stories": [
+    {
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "hn_link": "https://news.ycombinator.com/item?id=48158400",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mpweiher · 530 points · 311 comments",
+      "blurb": "Julia Evans documents her journey ditching Tailwind and rediscovering how to write structured, maintainable CSS the old-fashioned way. With 311 comments this clearly hit a nerve — the Tailwind backlash is real and growing. Essential reading for anyone who's felt the cognitive overhead of utility-class soup in their Angular templates."
+    },
+    {
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "hn_link": "https://news.ycombinator.com/item?id=48164287",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gidellav · 373 points · 150 comments",
+      "blurb": "A new coding agent built in pure Rust that leans on Unix philosophy — composable, minimal, no heavy runtime dependencies. If you use Claude Code and are curious what a Rust-native alternative looks like, this is worth a spin. The 1.0.0 release signals it's ready for real workflows."
+    },
+    {
+      "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+      "url": "https://nvlabs.github.io/Sana/WM/",
+      "hn_link": "https://news.ycombinator.com/item?id=48159445",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mjgil · 333 points · 135 comments",
+      "blurb": "NVIDIA's labs drop a 2.6B-parameter open-source world model capable of generating a full minute of 720p video — a significant leap for open video generation. The model weights and demo are public, making this immediately explorable for creative and research projects. This is the kind of capability that changes what indie creative software can do."
+    },
+    {
+      "title": "δ-mem: Efficient Online Memory for Large Language Models",
+      "url": "https://arxiv.org/abs/2605.12357",
+      "hn_link": "https://news.ycombinator.com/item?id=48158506",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 44za12 · 210 points · 57 comments",
+      "blurb": "A new paper proposes δ-mem, an efficient mechanism for giving LLMs better online memory without blowing up compute. This is the kind of foundational research that trickles into coding assistants and agentic tools within months. If you've hit the context-length wall with Claude Code on big codebases, this is the research solving your problem."
+    },
+    {
+      "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
+      "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
+      "hn_link": "https://news.ycombinator.com/item?id=48166459",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by WithinReason · 135 points · 30 comments",
+      "blurb": "Mozilla is pushing back against UK regulatory moves that could effectively ban or hobble VPNs in Britain. The argument: VPNs aren't just for circumventing geo-blocks, they're core privacy infrastructure for developers, journalists, and ordinary people. Worth knowing the regulatory winds blowing across the Atlantic."
+    },
+    {
+      "title": "MCP Hello Page",
+      "url": "https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page",
+      "hn_link": "https://news.ycombinator.com/item?id=48164294",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Dachande663 · 92 points · 31 comments",
+      "blurb": "A hands-on walkthrough of building an MCP (Model Context Protocol) server with a simple 'hello page' — a practical entry point for developers integrating Claude with custom tooling. MCP is becoming the connective tissue of the agentic dev stack, and this is one of the cleaner explainers of how to get started. Directly relevant if you're building with Claude Code."
+    },
+    {
+      "title": "Grafana Labs internal source code accessed",
+      "url": "https://twitter.com/grafana/status/2055827123236171827",
+      "hn_link": "https://news.ycombinator.com/item?id=48165902",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jschorr · 50 points · 15 comments",
+      "blurb": "Grafana Labs disclosed that attackers accessed their internal source code repositories. The observability tooling used by countless dev teams is now on breach watch. If you're running Grafana-adjacent infrastructure, time to audit your exposure."
+    },
+    {
+      "title": "3D Gaussian Splatting in a Weekend",
+      "url": "https://bfeldman.me/3dgs-weekend/",
+      "hn_link": "https://news.ycombinator.com/item?id=48126431",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by b__feldman · 86 points · 10 comments",
+      "blurb": "A developer's weekend deep-dive into implementing 3D Gaussian Splatting from scratch — the hot new technique for photorealistic 3D scene reconstruction. Written as a tutorial with code, this is genuinely one of the better practical introductions to the technology that's quietly reshaping AR and visual effects pipelines."
+    },
+    {
+      "title": "A molecule with half-Möbius topology",
+      "url": "https://www.science.org/doi/10.1126/science.aea3321",
+      "hn_link": "https://news.ycombinator.com/item?id=48109756",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bryanrasmussen · 90 points · 6 comments",
+      "blurb": "Chemists have synthesized a molecule with a half-Möbius topology — a structure that was theorized but never achieved until now. It's a pure flex of synthetic chemistry that also has implications for molecular machines and materials science. Nature being weirder than your imagination, as usual."
+    },
+    {
+      "title": "Hosting a website on an 8-bit microcontroller",
+      "url": "https://maurycyz.com/projects/mcusite/",
+      "hn_link": "https://news.ycombinator.com/item?id=48165295",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zdw · 119 points · 9 comments",
+      "blurb": "Someone ran an actual HTTP server on an 8-bit microcontroller — not for any practical reason, purely for the joy of it. A delightful exercise in extreme constraints that reveals how much modern webdev takes for granted. The write-up is technically thorough and a great reminder of what computing fundamentals look like."
+    },
+    {
+      "title": "The terminal built for multitasking",
+      "url": "https://cmux.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: unix, mac",
+      "blurb": "cmux is a native macOS terminal designed specifically for running multiple AI coding agents simultaneously — it explicitly supports Claude Code, Codex, OpenCode, Gemini CLI, and more. If you're juggling several AI-assisted dev sessions at once, this could be the missing piece. The native-Mac angle means it'll feel at home in the ecosystem."
+    },
+    {
+      "title": "opencode",
+      "url": "https://opencode.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: TOOLS, editors, coding, tui, terminal, cli, cs.CL, subject:cs.CL",
+      "blurb": "opencode is an open-source TUI-based coding agent that competes in the Claude Code / Aider space with a clean terminal interface. It's tagged as a serious coding tool with CLI-first design — worth keeping tabs on as a potential complement or alternative to your current AI coding workflow. Open source means you can self-host and customize."
+    },
+    {
+      "title": "Dropover ‐ Easier Drag and Drop on your Mac.",
+      "url": "https://dropoverapp.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, software",
+      "blurb": "Dropover is a macOS utility that adds a drag-and-drop shelf to your workflow — you shake a file while dragging and a temporary stash appears, letting you move content between apps, windows, and spaces far more fluidly. It's the kind of small Mac utility that quietly changes how you work every day. Highly recommended for power users who live across multiple windows."
+    },
+    {
+      "title": "Best AI Apps for Mac that I actually use | Cult of Mac",
+      "url": "https://www.cultofmac.com/reviews/best-ai-apps-for-mac",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A curated, opinionated roundup from Cult of Mac of AI apps that actually earn their place on a Mac — not a press-release list, but a writer's genuine daily-driver picks. Useful for discovering macOS-native AI tools that fit the Apple ecosystem rather than Electron ports. Likely covers several apps the reader doesn't know yet."
+    },
+    {
+      "title": "Hovercraft—a virtual presentation camera for Mac",
+      "url": "https://sandwich.vision/hovercraft",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: videoconferencing",
+      "blurb": "Hovercraft is a macOS virtual camera app that floats your slides next to you in the frame — no screen share, no alt-tab, no awkward thumbnail. It's from Sandwich, a production company that knows video, so the design sensibility is sharp. A genuinely new idea in presentation software that makes remote talks feel less like screenshare hell."
+    },
+    {
+      "title": "TypeScript, C# and Turbo Pascal with Anders Hejlsberg - YouTube",
+      "url": "https://www.youtube.com/watch?v=K-Xv8D8NjTk",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, Hejlsberg_Anders",
+      "blurb": "Anders Hejlsberg — the creator of TypeScript and C# — sits down for a wide-ranging conversation on the languages he built and where they're going. For a TypeScript/.NET developer this is a rare chance to hear the designer's own perspective on the choices baked into the tools you use daily. Expect insights on type systems, AI-assisted coding, and what comes next."
+    },
+    {
+      "title": "Andyyyy64/whichllm: Find the local LLM that actually runs — and performs best — on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, local, infrastructure, self-hosting",
+      "blurb": "A CLI tool that figures out which local LLM will actually run well on your specific hardware — ranked by real benchmarks, not just parameter count. One command and you get actionable recommendations. Privacy-conscious developers who want to run models locally without the trial-and-error will find this immediately useful."
+    },
+    {
+      "title": "AI-generated research papers are overwhelming peer review | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge digs into how AI-generated slop is flooding academic journals and breaking the peer-review system. The volume is now so large that reviewers can't keep up, creating a crisis of scientific trust. Directly relevant context for anyone building with AI research — know what you're citing."
+    },
+    {
+      "title": "Europe built sovereign clouds to escape US control. Then forgot about the processors",
+      "url": "https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: XDN, Governance, War",
+      "blurb": "The Register's deep investigation reveals that Europe's €2B+ sovereign cloud programs certified the software stack but ignored the Intel ME and AMD PSP — sub-OS management engines that run at Ring -3, invisible to the host OS, with their own network stacks. Serious, technically rigorous long-read on a hardware backdoor problem nobody wants to talk about. Essential for anyone thinking seriously about infrastructure privacy."
+    },
+    {
+      "title": "Bitwarden scrubs 'Always free' and 'Inclusion' values from its website as longtime execs step down - Fast Company",
+      "url": "https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: bitwarden, fucktheusers",
+      "blurb": "Bitwarden quietly removed its 'Always free' promise and 'Inclusion' values from its website as founding execs depart — a classic enshittification warning sign for a product that many developers and privacy-conscious users trust with their passwords. If you've been meaning to evaluate alternatives like Proton Pass or 1Password, now's the time to at least have a plan B."
+    }
+  ]
+}
