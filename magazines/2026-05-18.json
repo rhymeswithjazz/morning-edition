@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-18",
+  "stories": [
+    {
+      "title": "I don't think AI will make your processes go faster",
+      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "hn_link": "https://news.ycombinator.com/item?id=48168221",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by TheEdonian · 589 points · 403 comments",
+      "blurb": "A sharp counterintuitive argument: AI accelerates individual steps but often exposes — or even amplifies — the bottlenecks in your overall process. If your pipeline is constrained by reviews, handoffs, or unclear requirements, going faster in one lane just creates a bigger pile-up downstream. Essential reading for anyone integrating Claude Code or similar tools into a team workflow."
+    },
+    {
+      "title": "AI is a technology not a product",
+      "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "hn_link": "https://news.ycombinator.com/item?id=48168626",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ch_sm · 406 points · 175 comments",
+      "blurb": "Gruber's take from Daring Fireball cuts through the hype: AI is an enabling layer, not a finished product — much like how 'the internet' wasn't a product. Companies wrapping thin AI skins around APIs are going to find that out the hard way. Relevant framing for anyone building on top of LLMs."
+    },
+    {
+      "title": "Native all the way, until you need text",
+      "url": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+      "hn_link": "https://news.ycombinator.com/item?id=48168058",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "by dive · 419 points · 280 comments",
+      "blurb": "A developer digs into the pain point that cracks the native-first dream on macOS: rich text editing. Custom text engines are nightmarish, and AppKit's TextKit has sharp edges — so where does that leave you? A must-read for anyone building macOS apps who's hit this exact wall."
+    },
+    {
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "hn_link": "https://news.ycombinator.com/item?id=48169874",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Bibabomas · 318 points · 108 comments",
+      "blurb": "Semble is a semantic code-search tool built specifically for AI coding agents — it understands code structure rather than just string-matching, letting agents find relevant context without burning through context-window budget. If you're running Claude Code on large repos, this is worth plugging in today."
+    },
+    {
+      "title": "GenCAD",
+      "url": "https://gencad.github.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=48173429",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by dagenix · 302 points · 71 comments",
+      "blurb": "GenCAD lets you describe mechanical parts in natural language and generates parametric CAD models from the description. It's an early but promising glimpse of AI applied to hardware design — the same 'describe it, get code' loop that works for software is now being applied to physical objects."
+    },
+    {
+      "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+      "url": "https://github.com/tech4bot/rk3562deb",
+      "hn_link": "https://news.ycombinator.com/item?id=48168668",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tech4bot · 359 points · 168 comments",
+      "blurb": "A fully documented guide to flashing Debian onto a cheap ARM Android tablet and turning it into a usable Linux workstation. The scripts, boot configs, and hardware notes are all on GitHub. For anyone who wants a low-cost dev or homelab node, this is a practical starting point."
+    },
+    {
+      "title": "A nicer voltmeter clock",
+      "url": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+      "hn_link": "https://news.ycombinator.com/item?id=48164432",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by surprisetalk · 343 points · 45 comments",
+      "blurb": "Lcamtuf's beautifully crafted hardware hack uses analog voltmeter needles as clock hands, with custom firmware to drive smooth, accurate analog motion. Part electronics diary, part aesthetic manifesto — the kind of creative-hardware project that reminds you why making things with your hands still matters."
+    },
+    {
+      "title": "WriteUp: 16 Bytes of x86 that turn Matrix rain into sound",
+      "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48173962",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by HellMood · 125 points · 29 comments",
+      "blurb": "A stunning demoscene writeup: 16 bytes of x86 machine code produce both a Matrix-style falling-character animation and synthesized audio. The author walks through every byte decision — an incredible lesson in constrained creative coding and low-level x86 wizardry."
+    },
+    {
+      "title": "Fabricked: Misconfiguring Infinity Fabric to Break AMD SEV-SNP",
+      "url": "https://xca-attacks.github.io/fabricked/",
+      "hn_link": "https://news.ycombinator.com/item?id=48173708",
+      "category": "Privacy & security",
+      "applies": true,
+      "byline": "by negura · 49 points · 22 comments",
+      "blurb": "Researchers found they can misconfigure AMD's Infinity Fabric interconnect to undermine the hardware-enforced memory isolation that SEV-SNP promises for confidential VMs. If you trust AMD's secure enclaves to protect sensitive workloads in the cloud, this is essential reading — confidential computing just got more complicated."
+    },
+    {
+      "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
+      "url": "https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/",
+      "hn_link": "https://news.ycombinator.com/item?id=48147351",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 195 points · 203 comments",
+      "blurb": "A FOSDEM talk from the Mercurial core team on how the project has survived — even thrived — in a Git-dominated world, with a frank look at what they got right, what they got wrong, and why large-scale users like Meta still depend on it. A fascinating retrospective on version-control design philosophy."
+    },
+    {
+      "title": "Prolog Basics Explained with Pokémon",
+      "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by birdculture · 253 points · 41 comments",
+      "blurb": "One of the clearest intros to Prolog's logic-programming model, using Pokémon type matchups as the knowledge base. Unification, backtracking, and rules click in a way they rarely do in dry textbooks. If logic programming has always felt abstract, this is the tutorial that makes it stick."
+    },
+    {
+      "title": "CUDA Books",
+      "url": "https://github.com/alternbits/awesome-cuda-books",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by dariubs · 192 points · 45 comments",
+      "blurb": "A curated awesome-list of books covering GPU programming with CUDA, from beginner introductions to advanced parallel algorithm design. As AI workloads push more developers toward GPU-aware code, having a vetted reading list is genuinely useful — bookmark this before you need it."
+    },
+    {
+      "title": "C++26 Shipped a SIMD Library Nobody Asked For",
+      "url": "https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 190 points · 155 comments",
+      "blurb": "A critical look at std::simd landing in C++26: the author argues the design is too abstract, too late, and too different from how practitioners actually write vectorized code. Whether you agree or not, this is a sharp analysis of the gap between standards committees and the real world of performance engineering."
+    },
+    {
+      "title": "Crystals found inside wreckage from the first nuclear bomb test",
+      "url": "https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by jumploops · 63 points · 21 comments",
+      "blurb": "Researchers analyzing Trinity test debris found novel quasicrystal structures that couldn't have formed under any natural process — created only by the extreme conditions of the world's first nuclear detonation. A genuinely strange materials-science story sitting at the intersection of history and physics."
+    },
+    {
+      "title": "Cannibalistic attacks between gray seals leave telltale \"corkscrew\" injuries",
+      "url": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by gmays · 65 points · 24 comments",
+      "blurb": "For years the 'corkscrew killer' mystery — spiral lacerations on dead seals washing ashore — was blamed on ship propellers and mystery predators. New forensic evidence points to intraspecies aggression. Gruesome, fascinating wildlife science."
+    },
+    {
+      "title": "Ask an Astronaut: 333 hours of Q&A footage with astronauts",
+      "url": "https://askanastronaut.issinrealtime.org/",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by gaws · 142 points · 12 comments",
+      "blurb": "An archive of 333+ hours of unedited Q&A sessions between ISS astronauts and schoolchildren — surprisingly candid and technically detailed. A wonderful rabbit hole for anyone curious about life in microgravity, from sleep schedules to what happens when you cry in space."
+    },
+    {
+      "title": "Jank now has its own custom IR",
+      "url": "https://jank-lang.org/blog/2026-05-08-optimization/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by DASD · 136 points · 14 comments",
+      "blurb": "Jank — a Clojure dialect that compiles natively via LLVM — has built its own intermediate representation to unlock real optimizations before hitting LLVM IR. A detailed compiler-engineering post that shows how far the project has come and why a custom IR matters for a dynamic language targeting native code."
+    },
+    {
+      "title": "Prolog Coding Horror",
+      "url": "https://www.metalevel.at/prolog/horror",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by RohanAdwankar · 139 points · 54 comments",
+      "blurb": "A catalogue of Prolog antipatterns and common pitfalls from an expert practitioner — the kind of hard-won knowledge that saves you hours of debugging. Pairs perfectly with today's Pokémon intro: learn the basics, then immediately learn what not to do."
+    },
+    {
+      "title": "The History of ThinkPad: From IBM's Bento Box to Lenovo's AI Workstations",
+      "url": "https://www.jdhodges.com/blog/thinkpad-history/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zdw · 99 points · 49 comments",
+      "blurb": "A thorough, well-illustrated history of the ThinkPad line from the original 700C's bento-box design language through to today's AI-accelerated machines. A nostalgic but technically grounded read for anyone who grew up with a TrackPoint under their fingers."
+    },
+    {
+      "title": "Colossus: The Forbin Project",
+      "url": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by doener · 234 points · 95 comments",
+      "blurb": "The 1970 sci-fi film about a defense supercomputer that immediately declares itself sovereign keeps resurfacing on HN whenever AI discourse heats up — and for good reason. The discussion thread is the real draw: thoughtful takes on why this 55-year-old film feels newly relevant in the era of frontier models."
+    }
+  ]
+}
