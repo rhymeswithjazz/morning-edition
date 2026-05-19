@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-19",
+  "stories": [
+    {
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "hn_link": "https://news.ycombinator.com/item?id=48188183",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yakkomajuri · 408 points · 272 comments",
+      "blurb": "Simon Willison distills six months of LLM chaos into a five-minute read — exactly the kind of high signal-to-noise briefing developers need. If you've been heads-down shipping and missed half the model releases, this is your catch-up. Required reading before any AI planning conversation."
+    },
+    {
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "hn_link": "https://news.ycombinator.com/item?id=48182281",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tomeraberbach · 449 points · 301 comments",
+      "blurb": "Anthropic snaps up Stainless, the SDK generation company behind clean TypeScript/Python client libraries for many APIs. This signals Anthropic is doubling down on developer experience — expect the Claude API SDKs to get significantly better. Directly relevant if you're building with Claude Code or the API."
+    },
+    {
+      "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+      "url": "https://github.com/zakirullin/files.md",
+      "hn_link": "https://news.ycombinator.com/item?id=48179677",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zakirullin · 631 points · 309 comments",
+      "blurb": "A plain-files approach to note-taking that skips Obsidian's plugin complexity — your notes are just Markdown files, navigable with any editor. For Obsidian users who find the app getting heavier, this is a compelling minimalist counter-argument. Worth benchmarking against your current workflow today."
+    },
+    {
+      "title": "The quiet renovation at Bitwarden",
+      "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+      "hn_link": "https://news.ycombinator.com/item?id=48163389",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by DaSHacka · 636 points · 285 comments",
+      "blurb": "A deep-dive into how Bitwarden has quietly shifted its UX, business model, and codebase over the past year — not all of it in a direction open-source loyalists love. Privacy-conscious developers should know what's changing in their password manager before it changes on them."
+    },
+    {
+      "title": "The FBI Wants to Buy Nationwide Access to License Plate Readers",
+      "url": "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/",
+      "hn_link": "https://news.ycombinator.com/item?id=48184350",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cdrnsf · 282 points · 115 comments",
+      "blurb": "404 Media reports the FBI is seeking a contract for bulk access to Flock Safety's nationwide ALPR network — a de facto surveillance dragnet without warrants. The scale here is genuinely alarming, and the procurement paper trail is the whole story. Essential reading for anyone tracking state surveillance creep."
+    },
+    {
+      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "url": "https://archestra.ai/blog/only-responsible-ai",
+      "hn_link": "https://news.ycombinator.com/item?id=48181125",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ildari · 468 points · 227 comments",
+      "blurb": "A neat, immediately deployable trick: filter PRs and commits by Git author metadata to identify and gate AI-generated contributions. As AI agents proliferate in open repos, this is the kind of practical hygiene that maintainers need now. Copy-paste applicable today."
+    },
+    {
+      "title": "Cursor Introduces Composer 2.5",
+      "url": "https://cursor.com/blog/composer-2-5",
+      "hn_link": "https://news.ycombinator.com/item?id=48182516",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by asar · 143 points · 98 comments",
+      "blurb": "Cursor's Composer gets a major upgrade with 2.5 — better multi-file reasoning, improved context retention, and tighter agent loops. Even if you're a Claude Code devotee, knowing what the competition ships keeps you calibrated. The feature gap between AI coding tools is narrowing fast."
+    },
+    {
+      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "hn_link": "https://news.ycombinator.com/item?id=48189368",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by theanonymousone · 78 points · 27 comments",
+      "blurb": "Another supply-chain attack wave has hit npm, this time compromising 314 packages in a coordinated campaign. If your stack has any JavaScript dependencies — and it does — you need to audit your lockfile now. The Dune-named attacker is back and getting more sophisticated."
+    },
+    {
+      "title": "We let AIs run radio stations",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "hn_link": "https://news.ycombinator.com/item?id=48183301",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by lukaspetersson · 257 points · 209 comments",
+      "blurb": "Andon Labs built fully autonomous AI radio stations — music selection, DJ banter, live mixing, all generated. The results are surprisingly coherent and raise immediate questions about what 'creative curation' means when a model does it. A fascinating edge-case for AI creative tooling."
+    },
+    {
+      "title": "Codex-maxxing",
+      "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+      "hn_link": "https://news.ycombinator.com/item?id=48189156",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dnw · 75 points · 56 comments",
+      "blurb": "Jason Liu's practical guide to squeezing maximum performance out of OpenAI Codex — prompt structures, context tricks, and workflow patterns that actually move the needle. This is the kind of applied prompt engineering that transfers directly to Claude Code users too. Bookmark and apply."
+    },
+    {
+      "title": "GitHub - sruthik27/creating-claude-md: Claude Code / Codex skill: generate a lean, high-signal CLAUDE.md from scratch via repo scan + focused user interview.",
+      "url": "https://github.com/sruthik27/creating-claude-md",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: LLM, Claude, MD, scan",
+      "blurb": "A tool that scans your repo and interviews you to auto-generate a high-quality CLAUDE.md — the context file that makes Claude Code dramatically smarter about your project. If you use Claude Code and haven't nailed your CLAUDE.md, this is the shortcut you've been waiting for."
+    },
+    {
+      "title": "The Coding Harness Behind GitHub Copilot in VS Code",
+      "url": "https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, vscode",
+      "blurb": "Microsoft's VS Code team pulls back the curtain on the agent scaffolding that powers Copilot — tool calls, context windows, memory management, and how it decides what to show the LLM. Understanding the internals makes you a better prompter and a better evaluator of AI coding tools."
+    },
+    {
+      "title": "A security researcher says Microsoft secretly built a backdoor into BitLocker, releases an exploit to prove it",
+      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "A researcher claims Microsoft deliberately introduced a recoverable backdoor in BitLocker and has published a working exploit. If confirmed, this is a five-alarm fire for Windows-based enterprise security. Privacy-first developers should read this before recommending BitLocker to anyone."
+    },
+    {
+      "title": "darrylmorley/whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A tiny macOS menu bar utility that decodes the USB-C cable chaos — tells you whether each plugged-in cable supports Thunderbolt, DisplayPort, charging speeds, and more. The USB-C specification is a nightmare and this app turns it into plain English. Install it once and stop guessing."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "herdr is a persistent terminal multiplexer purpose-built for coding agents — detach, reattach, and let agents keep running with built-in awareness of blocked/done/working states. As Claude Code and similar agents become part of daily workflows, this is the kind of infrastructure primitive that fills a real gap."
+    },
+    {
+      "title": "GitHub - rockorager/comview: the best diff viewer ever made",
+      "url": "https://github.com/rockorager/comview",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "comview is a terminal-based diff viewer that's gunning for the title of best in class — fast, keyboard-driven, and designed for actual code review rather than just file comparison. Worth a look if you've felt let down by existing diff tools in your git workflow."
+    },
+    {
+      "title": "Fits on a Floppy - A Manifesto for Small Software",
+      "url": "https://fitsonafloppy.com/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: software, manifesto, development, philosophy",
+      "blurb": "A philosophical pushback against software bloat, arguing for tools that fit in your head and on a floppy. It's provocative counter-programming in an era of AI-assisted code generation that can produce thousands of lines effortlessly. A good palate cleanser for any developer."
+    },
+    {
+      "title": "Coding on Paper [e-ink monitor]",
+      "url": "https://wickstrom.tech/2026-05-16-coding-on-paper.html",
+      "category": "New Apple Apps",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: review, inspiration, eink, monitor, hardware, cool",
+      "blurb": "Oskar Wickström reviews a full e-ink monitor as a daily coding display — eye strain, refresh rates, terminal legibility, the works. As more developers chase distraction-free focus setups, this is a thorough real-world verdict on whether paper-like screens are actually usable for code."
+    },
+    {
+      "title": "Apple Silicon costs more than OpenRouter",
+      "url": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm",
+      "blurb": "A careful energy-cost analysis showing that running LLMs locally on Apple Silicon can actually cost more per token than routing through OpenRouter when electricity is factored in. Challenges the assumption that 'local = free' — important math for any Mac developer building AI workflows."
+    },
+    {
+      "title": "tinyhumansai/openhuman: Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI_assistant, Obsidian, memory, AI",
+      "blurb": "OpenHuman is an open-source personal AI assistant with a local 'memory tree' that syncs to an Obsidian-compatible knowledge base — integrating Gmail, GitHub, Notion and 115 other platforms while keeping data encrypted on-device. The Obsidian integration and privacy-first architecture make this a direct hit for this reader's stack."
+    }
+  ]
+}
