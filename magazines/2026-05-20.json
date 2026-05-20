@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-20",
+  "stories": [
+    {
+      "title": "I've joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "hn_link": "https://news.ycombinator.com/item?id=48194352",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dmarcos · 1314 points · 547 comments",
+      "blurb": "Andrej Karpathy — the legendary AI educator and former OpenAI/Tesla lead — is joining Anthropic, the makers of Claude Code. This is a massive talent signal for the company and suggests exciting things ahead for the Claude ecosystem. If you build with Claude, this is your water-cooler moment."
+    },
+    {
+      "title": "Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "hn_link": "https://news.ycombinator.com/item?id=48196570",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by spectraldrift · 769 points · 543 comments",
+      "blurb": "Google drops Gemini 3.5 Flash, a fast and cheap model aimed squarely at agentic and coding workflows. With 543 comments on HN, the benchmarks and API pricing are getting serious scrutiny. Worth benchmarking against Claude for your own use cases."
+    },
+    {
+      "title": "I've built a virtual museum with nearly every operating system you can think of",
+      "url": "https://virtualosmuseum.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48195009",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by andreww591 · 764 points · 170 comments",
+      "blurb": "An interactive browser-based museum letting you run historical operating systems — from CP/M to early Mac OS to BeOS — without any local setup. A spectacular nostalgia trip and a genuinely impressive technical feat. Lose an afternoon here."
+    },
+    {
+      "title": "Apple unveils new accessibility features",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      "hn_link": "https://news.ycombinator.com/item?id=48192224",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by interpol_p · 669 points · 345 comments",
+      "blurb": "Apple previews a fresh wave of accessibility improvements tied to Apple Intelligence, including enhanced eye-tracking, live captions, and new Personal Voice capabilities. It's also a peek at what AI integration looks like in the next macOS/iOS cycle. Apple ecosystem watchers should read carefully."
+    },
+    {
+      "title": "Google changes its search box",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=48197370",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by berkeleyjunk · 534 points · 708 comments",
+      "blurb": "Google is fundamentally redesigning the search experience around AI-generated answers, with 708 comments debating what this means for the open web. The most-commented HN story of the day — the era of the ten blue links is officially ending. Directly relevant if you care about SEO, discoverability, or just using the internet."
+    },
+    {
+      "title": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
+      "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
+      "hn_link": "https://news.ycombinator.com/item?id=48201484",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by aarondf · 474 points · 301 comments",
+      "blurb": "Railway's entire GCP account was summarily blocked by Google Cloud, taking down customer deployments without warning. A brutal reminder that cloud vendor lock-in carries existential risk — even for well-run infrastructure companies. Required reading for anyone evaluating cloud deployment strategies."
+    },
+    {
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "hn_link": "https://news.ycombinator.com/item?id=48192383",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zambelli · 469 points · 170 comments",
+      "blurb": "Forge is an open-source framework demonstrating that structured guardrails — not raw model size — can push a small 8B model from 53% to 99% success on agentic tasks. A must-look for anyone building Claude Code-style workflows or experimenting with local models. The repo is actionable today."
+    },
+    {
+      "title": "GitHub is investigating unauthorized access to their internal repositories",
+      "url": "https://twitter.com/github/status/2056884788179726685",
+      "hn_link": "https://news.ycombinator.com/item?id=48201316",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by splenditer · 423 points · 221 comments",
+      "blurb": "GitHub confirmed an active investigation into unauthorized access to internal repositories. If you use GitHub for private or enterprise code — which you almost certainly do — now is the time to audit your tokens, SSH keys, and OAuth app permissions. Treat this as a live incident until more details emerge."
+    },
+    {
+      "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
+      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48194614",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by akhuettel · 124 points · 51 comments",
+      "blurb": "Three newly disclosed Linux kernel vulnerabilities — Copy Fail, Dirty Frag, and Fragnesia — allow container escapes and privilege escalation. If you run any Linux-based containers or servers (hello, .NET on Linux), patch immediately. The Gentoo write-up is the clearest technical summary available."
+    },
+    {
+      "title": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+      "url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+      "hn_link": "https://news.ycombinator.com/item?id=48170007",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zdw · 128 points · 29 comments",
+      "blurb": "A practical guide to using LLMs to write and iterate on TLA+ formal specs — making the notoriously steep learning curve dramatically more approachable. This is exactly the kind of AI-augmented workflow that makes hard engineering tools accessible. Actionable if you care about correctness in distributed systems."
+    },
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github – Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "A CISA administrator accidentally committed AWS GovCloud credentials to a public GitHub repo — and Krebs has the receipts. The irony of the nation's cybersecurity agency leaking cloud keys is almost too on-the-nose, but the lesson for every developer is timeless: secret scanning is non-negotiable."
+    },
+    {
+      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, deepseek",
+      "blurb": "Sean Goedecke argues that DeepSeek-V4-Flash's architecture makes activation steering viable and interesting again after a period of stagnation. If you're building with LLMs and want to understand fine-grained behavioral control, this is a compelling technical deep dive. The implications for AI workflows are real."
+    },
+    {
+      "title": "GitHub - rohitg00/agentmemory: Persistent memory for AI coding agents · GitHub",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "AgentMemory is an open-source library giving AI coding agents (including Claude) persistent, structured memory across sessions. Tagged 'claude' by its Pinboard savers, this is directly actionable for anyone building Claude Code workflows who's frustrated by context resets. Worth a star and an experiment."
+    },
+    {
+      "title": "browse.sh",
+      "url": "https://browse.sh/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, cli, skills",
+      "blurb": "Browse.sh is a unified CLI combining browser primitives, debugging tools, and cloud sessions — designed from the ground up to be driven by AI agents. Think of it as the missing shell for agentic coding workflows. If you're building or using tools like Claude Code, this fills an obvious gap."
+    },
+    {
+      "title": "Project Glasswing: what Mythos showed us",
+      "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Cloudflare's research blog details Project Glasswing, an internal red-team exercise using their 'Mythos' frontier model to probe AI-specific attack surfaces. A rare look at how a major infrastructure company thinks about adversarial AI threats. Sobering and technically meaty."
+    },
+    {
+      "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list 'almost entirely unmanageable'",
+      "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Linus Torvalds is furious: AI-generated vulnerability reports are flooding the Linux security mailing list with low-quality noise, making legitimate security coordination nearly impossible. A canary-in-the-coal-mine story about the unintended consequences of AI-assisted security tooling at scale."
+    },
+    {
+      "title": "Google Search as you know it is over | TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Google, search, artificialIntelligence, GoogleGemini, GoogleAntigravity",
+      "blurb": "TechCrunch's sharp take on Google I/O's search announcements: AI Overviews are now the default experience, and the classic ten blue links are being relegated to a secondary role. Pairs well with the HN 'Google changes its search box' story — together they paint a complete picture of the post-search web."
+    },
+    {
+      "title": "loopmaster - Live Audio Programming",
+      "url": "https://loopmaster.xyz/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: audio, programming, synth, interactive",
+      "blurb": "Loopmaster is a browser-based live coding environment for music — write code, hear results in real time, loop and layer sounds without any install. It sits at the creative intersection of programming and music production. A genuinely fun afternoon rabbit hole for the developer with a musical ear."
+    },
+    {
+      "title": "This is what free costs",
+      "url": "https://sinceyouarrived.world/taken",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy",
+      "blurb": "An interactive, data-driven piece exposing exactly what personal data free services harvest — tracking it across your digital footprint in unsettling detail. Tagged 'privacy' on Pinboard by savers who clearly found it eye-opening. A visceral reminder of why privacy hygiene matters."
+    },
+    {
+      "title": "SuperSplat",
+      "url": "https://superspl.at/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: 3d, splats",
+      "blurb": "SuperSplat is a browser-based editor for Gaussian Splat 3D scenes — the photorealistic capture format that's exploding in creative and AR/VR workflows. Load, edit, and export splats without any local tooling. If you've been curious about 3D Gaussian splatting, this is the lowest-friction entry point available."
+    }
+  ]
+}
