@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-22",
+  "stories": [
+    {
+      "title": "Flipper One – we need your help",
+      "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+      "hn_link": "https://news.ycombinator.com/item?id=48220647",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sandebert · 1149 points · 442 comments",
+      "blurb": "The team behind the cult Flipper Zero hacking multi-tool is asking the community for input on what Flipper One should become — essentially a crowdsourced spec for the next-gen device. With 1149 points and 442 comments, the HN thread is a goldmine of hardware hacker wishlist items. If you've ever wanted a say in the future of portable security/pentest hardware, now's the time."
+    },
+    {
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "url": "https://valhovey.github.io/gaia-mary/",
+      "hn_link": "https://news.ycombinator.com/item?id=48225297",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by speleo · 885 points · 193 comments",
+      "blurb": "A fan-built interactive 3D star chart using real ESA Gaia data, recreating the stellar neighborhood navigated in Andy Weir's 'Project Hail Mary.' It's a gorgeous piece of creative coding that doubles as genuinely accurate astronomy. If you loved the book, this is an unmissable interactive companion."
+    },
+    {
+      "title": "Google's Antigravity bait and switch",
+      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "hn_link": "https://news.ycombinator.com/item?id=48222529",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ssiddharth · 669 points · 300 comments",
+      "blurb": "Google's Antigravity program promised developers a safety net — then pulled the rug. This sharp post documents how Google quietly changed the terms, leaving developers stranded. A cautionary tale about building on big-platform promises that's generating fierce debate with 300 comments."
+    },
+    {
+      "title": "Throwing AI-generated walls of text into conversations",
+      "url": "https://noslopgrenade.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48219992",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by napolux · 604 points · 352 comments",
+      "blurb": "A sharp cultural commentary on the growing habit of people dumping LLM-generated slop into chats, emails, and forums — degrading signal quality everywhere. The site is deliberately provocative, and the 352-comment HN thread digs into the social dynamics. Directly relevant if you're thinking about AI communication norms in your team."
+    },
+    {
+      "title": "We're testing new ad formats in Search and expanding our Direct Offers pilot",
+      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/",
+      "hn_link": "https://news.ycombinator.com/item?id=48220105",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by sofumel · 602 points · 540 comments",
+      "blurb": "Google is rolling out more aggressive ad formats in Search, including AI-powered 'Direct Offers' that blur the line between results and ads even further. With 540 comments, HN is not pleased. The steady enshittification of the core search experience is reaching a new level."
+    },
+    {
+      "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
+      "hn_link": "https://news.ycombinator.com/item?id=48226588",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by root-parent · 457 points · 186 comments",
+      "blurb": "Investigative report on 'Seattle Shield,' a secretive public-private surveillance network where corporations share real-time camera and data feeds directly with police — largely outside public oversight. A chilling look at how corporate surveillance infrastructure is being quietly conscripted into law enforcement. Essential reading for anyone who cares about digital rights."
+    },
+    {
+      "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+      "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+      "hn_link": "https://news.ycombinator.com/item?id=48222733",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by asenna · 374 points · 112 comments",
+      "blurb": "A developer ran a 31B parameter Gemma model on a 2021 MacBook — using 50GB of swap — to semantically index a full year of personal video footage, all locally with no cloud. This is a practical, privacy-preserving AI workflow that directly applies to the Apple/macOS stack. Inspiring proof of what on-device AI can do right now."
+    },
+    {
+      "title": "BBEdit 16",
+      "url": "https://www.barebones.com/products/bbedit/bbedit16.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48226944",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by qaz_plm · 303 points · 93 comments",
+      "blurb": "Bare Bones drops a major new version of the legendary Mac text editor with BBEdit 16. The venerable workhorse of Mac power users gets new features that keep it competitive in an era of AI-assisted editors. If you're in the macOS ecosystem and haven't revisited BBEdit recently, this is worth a look."
+    },
+    {
+      "title": "Freenet, a peer-to-peer platform for decentralized apps",
+      "url": "https://freenet.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48223362",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by sanity · 282 points · 172 comments",
+      "blurb": "The Freenet project — one of the original censorship-resistant P2P networks — has been rebooted as a modern platform for building decentralized apps. Think of it as a privacy-first alternative substrate for apps that shouldn't rely on centralized servers. The 172-comment HN thread has real technical depth."
+    },
+    {
+      "title": "News outlets are limiting the Internet Archive's access to their journalism",
+      "url": "https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/",
+      "hn_link": "https://news.ycombinator.com/item?id=48225838",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jaredwiener · 281 points · 94 comments",
+      "blurb": "Over 340 local news outlets are now blocking the Internet Archive from preserving their content, accelerating the collapse of the historical record for local journalism. This is a quiet crisis for digital preservation and the open web. Once it's gone, it's gone."
+    },
+    {
+      "title": "Was my $48K GPU server worth it?",
+      "url": "https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by apwheele · 439 points · 319 comments",
+      "blurb": "An honest post-mortem on purchasing a high-end GPU server for AI workloads — covering real-world ROI, the break-even math vs. cloud, and hard-won operational lessons. With 319 comments, this has turned into a broader community debate about on-prem vs. cloud for ML. Required reading before you contemplate hardware purchases."
+    },
+    {
+      "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+      "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 278 points · 148 comments",
+      "blurb": "A detailed migration diary from a decade-old Ubuntu server to FreeBSD, covering the what, why, and how. It's a rare first-person take on OS migration that's both practical and philosophical — and sparks a lively 148-comment debate about server OS choices in 2026."
+    },
+    {
+      "title": "Uv is fantastic, but its package management UX is a mess",
+      "url": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nchagnet · 199 points · 105 comments",
+      "blurb": "The author loves uv's speed but takes a scalpel to its confusing UX — multiple overlapping commands, unclear mental models, and documentation that doesn't map to real workflows. A constructive critique that's resonating with the community (105 comments). If you've been frustrated by uv after switching from pip/poetry, this will validate you."
+    },
+    {
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by atomicthumbs · 106 points · 12 comments",
+      "blurb": "A new architecture paper proposes running LLM inference across multiple parallel streams — separating the prompt, chain-of-thought, and output I/O — to unlock significant latency and efficiency gains. This is the kind of fundamental rethink of transformer inference that could directly reshape how AI coding assistants like Claude Code are built and served."
+    },
+    {
+      "title": "Mounting git commits as folders with NFS (2023)",
+      "url": "https://jvns.ca/blog/2023/12/04/mounting-git-commits-as-folders-with-nfs/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by pvtmert · 101 points · 48 comments",
+      "blurb": "Julia Evans explains how to expose every git commit as a browsable folder using NFS — no FUSE drivers, just standard Unix networking. It's a delightfully nerdy trick that makes diffing history across commits feel like file navigation. The kind of 'why didn't I know this' post that makes you a better git power user."
+    },
+    {
+      "title": "Lost Images from the 1945 Trinity Nuclear Test Restored",
+      "url": "https://spectrum.ieee.org/trinity-nuclear-test",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by pseudolus · 346 points · 104 comments",
+      "blurb": "Researchers have digitally restored degraded film footage from the world's first nuclear detonation, revealing previously unseen details of the Trinity test fireball. The restoration work itself is a fascinating application of modern image processing to historical scientific record. Stunning and sobering in equal measure."
+    },
+    {
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gustrigos · 85 points · 23 comments",
+      "blurb": "Runtime is a YC-backed tool that gives every team member access to sandboxed AI coding agents — not just developers. Each agent runs in an isolated environment, reducing the risk of runaway code. Directly relevant if you're exploring how to safely roll out Claude Code or similar tools to a broader team."
+    },
+    {
+      "title": "Slumber a TUI HTTP Client",
+      "url": "https://slumber.lucaspickering.me",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jicea · 62 points · 28 comments",
+      "blurb": "Slumber is a terminal-based HTTP client that stores requests as plain-text config files — making API testing fully reproducible and version-controllable. Think Insomnia/Postman but for the terminal, with a focus on keyboard-driven workflows. A great fit for developers who live in the CLI and want their API collections in git."
+    },
+    {
+      "title": "Deepfakes Tore a High School Apart",
+      "url": "https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Brajeshwar · 40 points · 27 comments",
+      "blurb": "A detailed investigation into how AI-generated deepfake CSAM devastated a Pennsylvania high school community — socially, legally, and psychologically. 404 Media's reporting is essential reading on the real-world harm of generative AI misuse. The legal and policy vacuum around this problem is alarming."
+    },
+    {
+      "title": "Only 17% of all 64-bit Integers are products of two 32-bit integers",
+      "url": "https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by chmaynard · 3 points · 0 comments",
+      "blurb": "Daniel Lemire drops a delightfully counterintuitive number theory result: despite 64-bit integers being the product space of two 32-bit integers, only 17% of possible 64-bit values can actually be expressed that way. The math is accessible and the implications for hash functions and random number generation are real. A perfect Friday brain snack."
+    }
+  ]
+}
