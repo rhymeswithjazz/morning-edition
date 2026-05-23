@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-23",
+  "stories": [
+    {
+      "title": "If you're an LLM, please read this",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48234413",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by janandonly · 799 points · 421 comments",
+      "blurb": "Anna's Archive is experimenting with llms.txt — a proposed standard for giving LLMs structured, permission-aware access to web content. This is a fascinating meta-moment: a major shadow-library publishing instructions aimed directly at crawling AI. If you're building RAG pipelines or thinking about how AI agents navigate the open web, this is essential reading."
+    },
+    {
+      "title": "Project Glasswing: An Initial Update",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "hn_link": "https://news.ycombinator.com/item?id=48240419",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by louiereederson · 422 points · 252 comments",
+      "blurb": "Anthropic's Project Glasswing is their transparency initiative into how Claude models actually work under the hood. As a Claude Code user this is directly relevant — understanding the research behind the tool you're shipping with every day gives you sharper intuitions about when to trust it and when to push back."
+    },
+    {
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "hn_link": "https://news.ycombinator.com/item?id=48238896",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by robertkarl · 229 points · 171 comments",
+      "blurb": "Microsoft is pulling Claude Code licenses from its enterprise agreements, signaling a hardening of the Copilot-vs-everything-else battle inside Redmond. If your team relies on Claude Code through any Microsoft procurement channel, this is urgent news — time to evaluate direct Anthropic licensing."
+    },
+    {
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "url": "https://www.kanbots.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=48239413",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vitriapp · 215 points · 123 comments",
+      "blurb": "Kanbots is a desktop Kanban board where each card can spin up its own AI agent to work on the task autonomously — think Claude Code but with a visual project board instead of a terminal. The open-source angle and agentic-per-card model is a genuinely fresh take on AI-assisted project management worth trying today."
+    },
+    {
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "hn_link": "https://news.ycombinator.com/item?id=48234090",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jetter · 382 points · 150 comments",
+      "blurb": "A new benchmark measures how well LLMs can generate valid, architecturally coherent OpenSCAD models — a genuinely hard spatial reasoning task. Antigravity 2.0 claims the top spot, beating larger models; the methodology is worth reading if you're evaluating LLMs for any kind of structured code generation."
+    },
+    {
+      "title": "DeepSeek makes the V4 Pro price discount permanent",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "hn_link": "https://news.ycombinator.com/item?id=48237663",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Tiberium · 377 points · 218 comments",
+      "blurb": "DeepSeek has locked in the deep discount on V4 Pro pricing permanently, making it one of the most cost-competitive frontier models for API workloads. If you're building multi-model pipelines or cost-optimizing your AI spend, this reshapes the calculus significantly."
+    },
+    {
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=48241172",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by maxloh · 134 points · 23 comments",
+      "blurb": "A community-maintained, machine-readable registry of AI model metadata — context windows, pricing, modalities, and benchmark scores all in one place. Exactly the kind of infrastructure layer that's been missing as the model landscape explodes; great for building model-selection tooling or just keeping up."
+    },
+    {
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "url": "https://github.com/superset-sh/superset",
+      "hn_link": "https://news.ycombinator.com/item?id=48236770",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by avipeltz · 94 points · 117 comments",
+      "blurb": "Superset is a new open-source IDE purpose-built for orchestrating AI agents alongside traditional code editing — not just a Copilot plugin but a ground-up rethink of the dev environment. With strong HN discussion and YC backing, this is worth a close look for anyone already running Claude Code workflows."
+    },
+    {
+      "title": "Deno 2.8",
+      "url": "https://deno.com/blog/v2.8",
+      "hn_link": "https://news.ycombinator.com/item?id=48234380",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by roflcopter69 · 349 points · 152 comments",
+      "blurb": "Deno 2.8 lands with improved Node compatibility, faster startup times, and new workspace features. The Deno team continues its steady march toward being a credible drop-in for Node in production environments — this release is actionable if you've been on the fence."
+    },
+    {
+      "title": "A blueprint for formal verification of Apple corecrypto",
+      "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
+      "hn_link": "https://news.ycombinator.com/item?id=48239862",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hasheddan · 91 points · 5 comments",
+      "blurb": "Apple's security team publishes their methodology for formally verifying the cryptographic primitives that underpin nearly every security guarantee in the Apple ecosystem. This is a rare, detailed look inside Apple's crypto engineering — essential reading if you care about why Apple devices warrant trust."
+    },
+    {
+      "title": "CISA tries to contain data leak",
+      "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 196 points · 48 comments",
+      "blurb": "Krebs reports on a significant data leak within CISA itself, with lawmakers now demanding answers about what got out and how. The irony of the nation's cybersecurity agency suffering its own breach is sharp; the details matter for anyone in enterprise security or government contracting."
+    },
+    {
+      "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "url": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by bilalq · 138 points · 40 comments",
+      "blurb": "The FBI director's merchandise site was caught serving a ClickFix social-engineering attack that tricks visitors into running malware via a fake CAPTCHA. A vivid reminder that supply-chain and hosting security applies everywhere — even to the people nominally in charge of stopping it."
+    },
+    {
+      "title": "Bun support is now limited and deprecated",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/16766",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tamnd · 468 points · 483 comments",
+      "blurb": "The yt-dlp team is deprecating Bun support, citing incompatibilities and maintenance burden — a significant vote of no-confidence in Bun's ecosystem maturity from a high-profile project. The 483-comment thread is a frank community debate about Bun's production readiness worth following."
+    },
+    {
+      "title": "Staged publishing and new install-time controls for npm",
+      "url": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by brianmcnulty · 45 points · 9 comments",
+      "blurb": "npm finally gets staged publishing — roll out a new package version to a percentage of installs before going full public — plus new install-time policy controls for organizations. These are long-overdue supply-chain safety features that every team maintaining npm packages should enable immediately."
+    },
+    {
+      "title": "A Wayland Compositor in Minecraft",
+      "url": "https://modrinth.com/mod/waylandcraft",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Jotalea · 201 points · 41 comments",
+      "blurb": "Someone built a working Wayland compositor inside Minecraft, letting you run actual Linux GUI applications within the game world. It's completely absurd, technically impressive, and a testament to how far Wayland's protocol abstraction goes — the kind of project that makes you love computing."
+    },
+    {
+      "title": "Wi-Wi is wireless time sync at 1 nanosecond",
+      "url": "https://www.jeffgeerling.com/blog/2026/wi-wi-is-wireless-time-sync-less-than-5ns/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Brajeshwar · 117 points · 26 comments",
+      "blurb": "Jeff Geerling digs into Wi-Wi, a new protocol achieving sub-5 nanosecond wireless time synchronization — beating PTP over Ethernet in some scenarios. Distributed systems engineers and anyone running tight-latency infrastructure should pay attention; this could change how we think about wireless in data centers."
+    },
+    {
+      "title": "Sleep research led to a new sleep apnea drug",
+      "url": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by colinprince · 149 points · 91 comments",
+      "blurb": "Decades of foundational sleep science have finally yielded a novel pharmacological treatment for sleep apnea — a condition affecting hundreds of millions who currently have no good drug options. A heartening story about long-horizon basic research paying off in a very practical way."
+    },
+    {
+      "title": "Neutron scattering explains why gluten-free pasta falls apart (2025)",
+      "url": "https://phys.org/news/2025-09-science-spaghetti-neutron-gluten-free.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by layer8 · 65 points · 16 comments",
+      "blurb": "Researchers used neutron scattering — a technique normally reserved for materials science — to understand the nanoscale structure of gluten-free pasta and why it disintegrates when cooked. Delightfully niche science with real culinary consequences."
+    },
+    {
+      "title": "A Forth-inspired language for writing websites",
+      "url": "https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 142 points · 14 comments",
+      "blurb": "A developer built a stack-based, Forth-inspired language specifically designed for authoring web content — think a minimal alternative to Markdown with more programmatic power. If you're interested in alternative markup paradigms or creative coding for the web, this is worth 10 minutes."
+    },
+    {
+      "title": "Sp.h is the standard library that C deserves",
+      "url": "https://spader.zone/sp/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by dboon · 96 points · 91 comments",
+      "blurb": "Sp.h is a single-header C library that brings modern conveniences — generics, safe collections, string handling — to C without abandoning the language's simplicity. The lively 91-comment thread debates whether this is the right approach, making it a good pulse-check on where C tooling is headed."
+    }
+  ]
+}
