@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-24",
+  "stories": [
+    {
+      "title": ".NET (OK, C#) finally gets union types",
+      "url": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "hn_link": "https://news.ycombinator.com/item?id=48234954",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ingve · 193 points · 189 comments",
+      "blurb": "Union types are finally landing in .NET 11 Preview 2, a feature C# developers have been asking for for years. Andrew Lock's deep-dive walkthrough covers the syntax and semantics — if you work in .NET, this is a must-read preview of what's coming."
+    },
+    {
+      "title": "Improving C# Memory Safety",
+      "url": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
+      "hn_link": "https://news.ycombinator.com/item?id=48225782",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by soheilpro · 154 points · 33 comments",
+      "blurb": "Microsoft's .NET team lays out its roadmap for bringing Rust-inspired memory safety guarantees into C#. Covers ref safety, ownership concepts, and what's realistic without breaking backward compatibility — important context for any serious .NET shop."
+    },
+    {
+      "title": "--​dangerously-skip-reading-code",
+      "url": "https://olano.dev/blog/dangerously-skip/",
+      "hn_link": "https://news.ycombinator.com/item?id=48246232",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by fagnerbrack · 142 points · 136 comments",
+      "blurb": "A sharp meditation on the risk of letting AI coding assistants — think Claude Code — generate and apply changes you never actually read. The author coins the flag name as darkly ironic shorthand for a real anti-pattern that's creeping into AI-assisted workflows. Worth a sober read before your next vibe-coding session."
+    },
+    {
+      "title": "SpaceX launches Starship v3 rocket",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight",
+      "hn_link": "https://news.ycombinator.com/item?id=48242959",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by busymom0 · 404 points · 278 comments",
+      "blurb": "Starship's third-generation megarocket flew its first test flight, representing a major leap in both scale and reusability ambitions. The HN thread is full of sharp engineering commentary on what changed between v2 and v3."
+    },
+    {
+      "title": "80386 microcode disassembled",
+      "url": "https://www.reenigne.org/blog/80386-microcode-disassembled/",
+      "hn_link": "https://news.ycombinator.com/item?id=48247004",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by nand2mario · 249 points · 48 comments",
+      "blurb": "Decades after the 80386 shipped, someone finally disassembled its microcode — the secret instruction layer beneath the instruction set. A fascinating piece of CPU archaeology that reveals how Intel really made x86 work under the hood."
+    },
+    {
+      "title": "Wake up! 16b",
+      "url": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48253060",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by MaximilianEmel · 208 points · 13 comments",
+      "blurb": "A demoscene masterpiece crammed into 16 bytes of x86 code — yes, 16 bytes. The writeup explains every trick used to produce an animated visual in almost no space, making it one of the most jaw-dropping pieces of creative coding you'll read this year."
+    },
+    {
+      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "url": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "hn_link": "https://news.ycombinator.com/item?id=48253386",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by DamnInteresting · 224 points · 55 comments",
+      "blurb": "Microsoft has released what may be the oldest surviving DOS source code, predating even the versions previously archived. A gift to computing historians and retrocomputing enthusiasts — and a reminder of how far we've come from a ~4KB OS."
+    },
+    {
+      "title": "Scammers are abusing an internal Microsoft account to send spam links",
+      "url": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
+      "hn_link": "https://news.ycombinator.com/item?id=48253186",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by spike021 · 137 points · 53 comments",
+      "blurb": "Attackers found a way to send phishing links through a legitimate internal Microsoft account, bypassing most email filters since the messages appear to originate from Microsoft itself. A classic trusted-sender exploit that every developer who manages infrastructure email should be aware of."
+    },
+    {
+      "title": "ICE Awards $25M Iris-Scanning Contract to Bi2 Technologies",
+      "url": "https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning",
+      "hn_link": "https://news.ycombinator.com/item?id=48252720",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cdrnsf · 131 points · 38 comments",
+      "blurb": "ICE is spending $25M to expand biometric iris-scanning capabilities through Bi2 Technologies, raising major civil liberties questions about the scope of biometric surveillance at the border and beyond. The scope of deployment details here are genuinely alarming."
+    },
+    {
+      "title": "Spanish court declines to fine NordVPN over LaLiga piracy blocking order",
+      "url": "https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/",
+      "hn_link": "https://news.ycombinator.com/item?id=48245362",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gslin · 157 points · 96 comments",
+      "blurb": "A Spanish court refused to penalize NordVPN for not complying with a sweeping sports-piracy IP block — a notable win for VPN providers resisting overreach from rights holders. Sets an interesting precedent for how VPNs respond to blocking orders across the EU."
+    },
+    {
+      "title": "On The <dl> (2021)",
+      "url": "https://benmyers.dev/blog/on-the-dl/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ravenical · 389 points · 111 comments",
+      "blurb": "A thorough exploration of the underused HTML description list element — when to use it, how screen readers handle it, and why most developers reach for a div when a dl would be semantically correct. If you build web UIs in Angular/TypeScript, this is immediately actionable."
+    },
+    {
+      "title": "Time to talk about my writerdeck",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by hggh · 370 points · 211 comments",
+      "blurb": "Veronica builds a \"writerdeck\" — a custom, distraction-free writing machine using off-the-shelf hardware. Charming hardware-hacking meets focused-writing-tool philosophy; the HN thread is packed with similar builds and tool recommendations."
+    },
+    {
+      "title": "Making deep learning go brrrr from first principles (2022)",
+      "url": "https://horace.io/brrr_intro.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 170 points · 62 comments",
+      "blurb": "A classic resurface: this deep-dive into GPU performance bottlenecks for deep learning covers compute vs. memory bandwidth, kernel fusion, and why your model is probably memory-bound. Essential reading if you're running or fine-tuning models locally."
+    },
+    {
+      "title": "Hengefinder: Finding when the sun aligns with your street",
+      "url": "https://victoriaritvo.com/blog/hengefinder/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by evakhoury · 142 points · 34 comments",
+      "blurb": "A delightful side project that calculates Manhattanhenge-style solar alignment events for any street grid. The writeup doubles as a solid tutorial in combining geospatial data with astronomical calculations — creative coding at its best."
+    },
+    {
+      "title": "My two-part desk setup (2025)",
+      "url": "https://arslan.io/2025/11/18/my-two-part-desk-setup/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by James72689 · 279 points · 159 comments",
+      "blurb": "A detailed breakdown of a developer's dual-desk ergonomic setup — standing desk, macOS-centric peripherals, and the philosophy behind separating work contexts. Heavy on Apple ecosystem hardware and real-world lessons learned after a year of use."
+    },
+    {
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by elpocko · 102 points · 21 comments",
+      "blurb": "Ken Shirriff reverse-engineers a 1980-era NASA Spacelab computer, tracing the circuitry of hardware that flew on the Space Shuttle. His teardowns are always impeccably documented — a fascinating window into space-grade computing before the PC era."
+    },
+    {
+      "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
+      "url": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zdw · 128 points · 37 comments",
+      "blurb": "AMD quietly announced it's dropping Linux support from the free tier of Vivado, its FPGA development tool — a move that blindsides the hobbyist and academic communities that rely on it. The thread is full of frustrated engineers and speculation about AMD's motives."
+    },
+    {
+      "title": "Amazon Web Services – Four Years and Out",
+      "url": "https://www.adventuresinoss.com/aws-four-years/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by RyeCombinator · 191 points · 52 comments",
+      "blurb": "A candid four-year retrospective from an AWS insider on the culture, the open-source strategy, and what it's actually like to ship products at Amazon scale. Refreshingly honest about what works and what doesn't inside the cloud giant."
+    },
+    {
+      "title": "New map reveals lost roads of the Roman Empire",
+      "url": "https://www.scientificamerican.com/article/new-high-resolution-map-transforms-what-we-know-about-roman-roads-and-the-roman-empire/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sohkamyung · 77 points · 10 comments",
+      "blurb": "Researchers used high-resolution satellite data and computational analysis to reconstruct a comprehensive map of Roman roads, revealing thousands of kilometers of previously unknown routes. A triumph of applying modern geospatial tech to ancient history."
+    },
+    {
+      "title": "Kindle loyalists scramble as Amazon turns page on old e-readers",
+      "url": "https://www.reuters.com/business/retail-consumer/kindle-loyalists-scramble-amazon-turns-page-old-e-readers-2026-05-19/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "by cf100clunk · 164 points · 183 comments",
+      "blurb": "Amazon is bricking older Kindles via a forced update that cuts off store access — and it's driving users to reconsider their e-reading ecosystem. A timely moment to revisit Apple Books and third-party e-reader apps on iPad for those in the Apple ecosystem."
+    }
+  ]
+}
