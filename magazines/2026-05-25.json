@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-25",
+  "stories": [
+    {
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "hn_link": "https://news.ycombinator.com/item?id=48256953",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Alifatisk · 557 points · 233 comments",
+      "blurb": "A native coding agent built on DeepSeek with aggressive prompt caching to slash token costs — exactly the kind of Claude Code alternative worth benchmarking. If you're running AI-heavy dev workflows, cost-per-token matters enormously. 233 comments suggests the community has strong opinions on how it stacks up."
+    },
+    {
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "hn_link": "https://news.ycombinator.com/item?id=48256912",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by wek · 237 points · 129 comments",
+      "blurb": "Researchers find that LLM coding agents progressively ignore constraints the longer a conversation runs — a phenomenon they call \"constraint decay.\" For anyone relying on Claude Code or similar tools for backend work, this is a must-read on why your agent starts going rogue mid-session. Directly actionable for prompt engineering."
+    },
+    {
+      "title": "The Eternal Sloptember",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48263238",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by razin · 322 points · 252 comments",
+      "blurb": "George Hotz rails against the AI slop era — the flood of low-quality AI-generated content burying genuinely useful signal. Whether you agree or not, 252 comments means this is sparking real debate. Essential reading for anyone thinking critically about what AI coding assistants are actually producing."
+    },
+    {
+      "title": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
+      "url": "https://audiomass.co/?multitrack=1",
+      "hn_link": "https://news.ycombinator.com/item?id=48258015",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by pantelisk · 354 points · 76 comments",
+      "blurb": "A surprisingly capable browser-based multitrack audio editor — no install, no account, just open and record. The multitrack mode is new and makes this far more useful for quick podcast edits or audio sketching. Open source and self-hostable for the privacy-conscious."
+    },
+    {
+      "title": "I spent 50 hours drawing a line graph",
+      "url": "https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48223997",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by dougdude3339 · 537 points · 93 comments",
+      "blurb": "A meticulous deep-dive into the craft of making a single data visualization truly excellent — and the rabbit holes of custom rendering, typography, and pixel-level decisions it required. For anyone who cares about the Tufte-esque gap between \"chart\" and \"communication,\" this is both inspiring and relatable."
+    },
+    {
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "hn_link": "https://news.ycombinator.com/item?id=48258684",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by intelkishan · 385 points · 392 comments",
+      "blurb": "Epoch AI's data shows memory now dominates AI chip BOM costs — a structural constraint that explains why bigger context windows are so expensive to run. This shapes the economics of every model you use, from Claude to local LLMs. Essential context for understanding AI pricing trajectories."
+    },
+    {
+      "title": "Defeating Git Rigour Fatigue with Jujutsu",
+      "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+      "hn_link": "https://news.ycombinator.com/item?id=48259861",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ikesau · 121 points · 128 comments",
+      "blurb": "A practical case for switching to Jujutsu (jj) as your daily version control driver — specifically addressing the mental overhead of maintaining a clean Git history. If you've ever abandoned a good commit discipline because rebasing felt like work, this is your off-ramp. The HN thread has strong opinions from jj converts."
+    },
+    {
+      "title": "Perceptual Image Codec: What Matters in Practical Learned Image Compression",
+      "url": "https://apple.github.io/ml-pico/",
+      "hn_link": "https://news.ycombinator.com/item?id=48256565",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by ksec · 114 points · 34 comments",
+      "blurb": "Apple ML Research drops a new learned image compression codec that prioritizes perceptual quality over PSNR metrics. This is the kind of work that ends up baked into future iOS/macOS image pipelines. Worth understanding now if you ship apps that care about image fidelity or bandwidth."
+    },
+    {
+      "title": "Jira Is Turing-Complete",
+      "url": "https://seriot.ch/computation/jira.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48263253",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by vinhnx · 169 points · 73 comments",
+      "blurb": "Someone implemented a working Turing machine inside Jira's automation rules. It's the kind of absurd-but-rigorous computer science stunt that reveals how accidentally powerful these no-code tools have become. Bonus: the write-up is genuinely clear about what Turing completeness actually means."
+    },
+    {
+      "title": "A fundamental principle of aeronautical engineering has been overturned",
+      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "hn_link": "https://news.ycombinator.com/item?id=48260117",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by littlexsparkee · 162 points · 79 comments",
+      "blurb": "Researchers have overturned a foundational assumption about how wings generate lift — one that's been in textbooks for over a century. The new model has real implications for aircraft design efficiency. Classic \"wait, we had that wrong the whole time?\" moment."
+    },
+    {
+      "title": "tufte-viz Claude Code skill — Edward Tufte data visualization principles",
+      "url": "https://gist.github.com/aparente/e48c353755958621b3c0004593105a90",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-skills, ai-design",
+      "blurb": "A ready-to-drop-in Claude Code skill that encodes Edward Tufte's data-ink ratio principles, chartjunk rules, and small multiples guidance directly into your AI coding sessions. If you're generating charts with Claude Code, this is an immediately actionable upgrade. Fork, paste, profit."
+    },
+    {
+      "title": "shortcuts-playground-plugin",
+      "url": "https://github.com/viticci/shortcuts-playground-plugin",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, apple, automation, claude, codex, ios, ipados, macos, shortcuts",
+      "blurb": "Federico Viticci's Claude Code and Codex plugin for building, validating, signing, and remixing macOS/iOS Shortcuts using natural language — essentially an AI-powered Shortcuts IDE. For anyone deep in the Apple automation ecosystem, this is the missing link between LLM coding assistants and Shortcuts authoring."
+    },
+    {
+      "title": "GitHub - MinishLab/semble: Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read",
+      "url": "https://github.com/MinishLab/semble",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Semble is a semantic code search tool designed for AI agents — it replaces the brute-force grep-and-read pattern with embedding-based search, cutting token consumption by ~98%. If you're building or using agentic coding workflows, this is a direct cost and quality win."
+    },
+    {
+      "title": "Introduction - Slumber- CLI/TUI HTTP client",
+      "url": "https://slumber.lucaspickering.me/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, REST, HTTP, web, webdev",
+      "blurb": "Slumber is a terminal-based HTTP client with a full TUI, persistent request history, and a YAML-based config — think Postman for people who live in the terminal. If you're building .NET APIs or any REST backend, this is worth a serious look as your daily API poking tool."
+    },
+    {
+      "title": "Megalodon: Mass GitHub Repo Backdooring via CI Workflows - Real-time Open Source Software Supply Chain Security",
+      "url": "https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, development, supply, chain, attack, security, megalodon, github, ci, continuous, integration, workflow",
+      "blurb": "Researchers document \"Megalodon\" — a technique for mass-backdooring GitHub repos by poisoning CI/CD workflow files at scale. Supply chain attacks via GitHub Actions are the scariest class of modern security threat for open-source-dependent developers. Read this, then audit your workflow permissions."
+    },
+    {
+      "title": "Datasette Agent",
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sqlite, dataviz",
+      "blurb": "Simon Willison ships a conversational AI interface for querying your Datasette databases in plain English, with a charts plugin on top. This is Datasette growing into a proper AI-native data exploration tool. If you use SQLite for personal data projects or analytics, this is immediately useful."
+    },
+    {
+      "title": "GitHub - Lum1104/Understand-Anything: Claude Code skills that turn any codebase into an interactive knowledge graph",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "A set of Claude Code skills that parse any codebase into an explorable, searchable knowledge graph — ask questions about your own repo in natural language. Multi-platform (Codex supported). For developers onboarding to large Angular/.NET codebases, this could dramatically cut ramp-up time."
+    },
+    {
+      "title": "t8y2/dbx: Open-source, lightweight, cross-platform database client",
+      "url": "https://github.com/t8y2/dbx",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: gui, database, desktop",
+      "blurb": "DBX is a cross-platform desktop database client supporting MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, and SQL Server — the full stack in one lightweight GUI. Open source and actively developed; a credible TablePlus alternative worth evaluating."
+    },
+    {
+      "title": "The Secret Rules of the Terminal",
+      "url": "https://wizardzines.com/zines/terminal/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Books, Development",
+      "blurb": "Julia Evans' latest zine demystifies terminal behavior — signals, job control, readline shortcuts, and the arcane conventions that confuse even experienced developers. Julia's zines are famously dense-but-accessible; this one belongs on every developer's reading stack."
+    },
+    {
+      "title": "The Third Bit: Twelve Ways to Be Wrong About AI-Assisted Coding",
+      "url": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: computers, programming, science, badscience, ai, gpt3",
+      "blurb": "A sharp taxonomy of the most common epistemic mistakes people make when evaluating AI coding tools — from survivorship bias in demos to confusing fluency with correctness. Essential critical framework for anyone who uses Claude Code or Copilot daily and wants to think clearly about what they're actually getting."
+    }
+  ]
+}
