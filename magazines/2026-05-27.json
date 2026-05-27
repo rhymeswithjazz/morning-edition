@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-27",
+  "stories": [
+    {
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "hn_link": "https://news.ycombinator.com/item?id=48289950",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by arps18 · 42 points · 7 comments",
+      "blurb": "A deep practical guide to running Claude Code as your primary development environment — covering Claude.md configuration, skill definitions, subagent orchestration, and MCP integrations. If you're already using Claude Code, this is the upgrade guide you didn't know you needed. Directly actionable, no fluff."
+    },
+    {
+      "title": "Cloudflare Flagship",
+      "url": "https://developers.cloudflare.com/flagship/",
+      "hn_link": "https://news.ycombinator.com/item?id=48287468",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tjek · 212 points · 106 comments",
+      "blurb": "Cloudflare's new Flagship product lets you deploy and manage entire application stacks on Cloudflare's edge network with a unified config. Think infrastructure-as-code but deeply integrated with Workers, R2, and D1 — a serious alternative to Vercel or Fly for full-stack apps. Worth watching closely."
+    },
+    {
+      "title": "I built a Git-tracked book production pipeline",
+      "url": "https://www.djspeckhals.com/posts/2026-05-22-how-i-bypassed-adobe-and-microsoft-to-build-a-git-tracked-book-production-pipeline/",
+      "hn_link": "https://news.ycombinator.com/item?id=48238703",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dustin1114 · 235 points · 60 comments",
+      "blurb": "A developer ditches Adobe InDesign and Microsoft Word for a fully Git-tracked, Markdown/Pandoc-driven book production workflow. The result is reproducible builds, proper version control, and no proprietary lock-in — a pattern any developer who writes docs or long-form content will want to steal."
+    },
+    {
+      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
+      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "hn_link": "https://news.ycombinator.com/item?id=48278610",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by GodelNumbering · 283 points · 302 comments",
+      "blurb": "The thesis: pairing offshore talent with local open-weight models will undercut frontier API costs faster than the market expects. This has real strategic implications for teams currently building on OpenAI/Anthropic. A thought-provoking read with solid numbers."
+    },
+    {
+      "title": "A few interesting modern pixel fonts",
+      "url": "https://unsung.aresluna.org/a-few-interesting-modern-pixel-fonts/",
+      "hn_link": "https://news.ycombinator.com/item?id=48271448",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by zdw · 350 points · 71 comments",
+      "blurb": "A curated gallery of modern pixel fonts that go well beyond the retro-game aesthetic — these are carefully crafted typefaces suitable for UIs, creative coding, and data displays. Some are genuinely beautiful and free. Great bookmark for your next terminal or side-project aesthetic."
+    },
+    {
+      "title": "Are we self-sovereign PKI yet?",
+      "url": "https://buffrr.dev/blog/are-we-self-sovereign-pki-yet/",
+      "hn_link": "https://news.ycombinator.com/item?id=48229776",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ca98am79 · 89 points · 55 comments",
+      "blurb": "A clear-eyed survey of the current landscape for self-sovereign certificate infrastructure — DANE, TLSA, blockchain-based PKI, and where each falls short. If you've ever wanted certificate authority independence without the complexity of running your own CA, this is the state-of-play in 2026."
+    },
+    {
+      "title": "BadHost – CVE-2026-48710: Starlette Host-Header Auth Bypass",
+      "url": "https://badhost.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48277107",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ylk · 43 points · 11 comments",
+      "blurb": "A critical auth-bypass vulnerability in Starlette (325M weekly downloads) lets attackers spoof the Host header to bypass authentication in FastAPI and other ASGI apps. If you have any Python web services, check your middleware stack now — this affects a huge swath of the Python backend ecosystem."
+    },
+    {
+      "title": "That Methyl Methacrylate Tank",
+      "url": "https://www.science.org/content/blog-post/methyl-methacrylate-tank",
+      "hn_link": "https://news.ycombinator.com/item?id=48284712",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by nooks · 326 points · 126 comments",
+      "blurb": "Derek Lowe's forensic chemistry storytelling at its best: a detailed account of what happens when a large industrial tank of methyl methacrylate monomer goes catastrophically wrong. Viscerally educational about polymerization runaway reactions — you will never look at plexiglass the same way."
+    },
+    {
+      "title": "The Ballad of TIGIT",
+      "url": "https://www.owlposting.com/p/the-ballad-of-tigit",
+      "hn_link": "https://news.ycombinator.com/item?id=48281367",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by crescit_eundo · 104 points · 20 comments",
+      "blurb": "The story of TIGIT — a cancer immunotherapy target that consumed a decade of clinical trials and billions of dollars before failing spectacularly. A gripping narrative about how drug development hype cycles work, and why promising biology doesn't always translate to human outcomes."
+    },
+    {
+      "title": "Prompt Politeness Affects LLM Accuracy (2025)",
+      "url": "https://arxiv.org/abs/2510.04950",
+      "hn_link": "https://news.ycombinator.com/item?id=48276429",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by KnuthIsGod · 40 points · 35 comments",
+      "blurb": "Peer-reviewed research confirming that the politeness and tone of your prompts measurably affects LLM output quality — not just vibe, but factual accuracy. This has direct implications for prompt engineering and Claude.md system prompt design. Short paper, immediately applicable."
+    },
+    {
+      "title": "Is AI Profitable Yet?",
+      "url": "https://isaiprofitable.com/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, llm, economics, Technology",
+      "blurb": "A live tracker of AI profitability metrics across major labs and products — revenue, compute costs, and margin data compiled in one place. Cuts through the hype with actual economics. Essential context for anyone building products on top of frontier models."
+    },
+    {
+      "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
+      "url": "https://pluralistic.net/2026/05/26/the-ai-will-continue/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, web",
+      "blurb": "Cory Doctorow argues that the AI bubble differs structurally from the dot-com era: the web democratized publishing, while AI centralizes production. The key insight — \"the story of the web at work was the opposite of the story of AI at work\" — is worth sitting with regardless of where you land."
+    },
+    {
+      "title": "Migrating from Go to Rust | corrode Rust Consulting",
+      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: dev, programming, languages, rust, go, review, top10",
+      "blurb": "A thorough, opinionated guide to moving Go codebases to Rust — covering where patterns map cleanly, where the borrow checker demands a rethink, and crucially, when NOT to migrate. Corrode's consulting experience shines through with practical incremental migration strategies."
+    },
+    {
+      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: python, FastAPI",
+      "blurb": "Ars Technica's write-up on the Starlette BadHost CVE (also in today's HN picks) adds crucial context: AI agents built on FastAPI frameworks are specifically at risk because auth middleware is commonly misconfigured. If you run any agentic Python services, this is a must-read alongside the CVE details."
+    },
+    {
+      "title": "Ordinary WiFi can now identify people with near perfect accuracy",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260522023127.htm",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "German researchers have demonstrated passive person identification using only ambient WiFi signals — no device required, works even when phones are off. The implications for physical privacy in homes, offices, and public spaces are staggering. This is the kind of surveillance capability that makes \"I turned my phone off\" meaningless."
+    },
+    {
+      "title": "Mac Power Users 850: Overcast Transcripts and 48 Mac minis with Marco Arment - MacSparky",
+      "url": "https://www.macsparky.com/blog/2026/05/mac-power-users-850-overcast-transcripts-and-48-mac-minis-with-marco-arment/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Marco Arment joins MPU to discuss Overcast's new transcript feature and the bonkers setup of running 48 Mac minis as a home server cluster. Podcast transcripts are a quietly killer feature for Obsidian users who want searchable audio notes. Marco's infrastructure obsessions are always worth an hour."
+    },
+    {
+      "title": "Your Docker Image Is 1.2GB. Here Is How To Get It Under 80MB",
+      "url": "https://the-practical-developer.online/posts/docker-image-from-1gb-to-80mb/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 2026, docker, node-js",
+      "blurb": "A practical step-by-step walkthrough of Docker image optimization — multi-stage builds, distroless bases, dependency pruning, and layer caching tricks that collapse a 1.2GB Node image to under 80MB. The kind of concrete, immediately applicable post that belongs in your bookmarks."
+    },
+    {
+      "title": "Overview — Agentic Patterns — Veso Research",
+      "url": "https://veso.ai/research/agentic-patterns/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, tech, flowchart, programming, engineering, reference, research",
+      "blurb": "A structured reference catalog of agentic AI design patterns — tool use, reflection loops, multi-agent coordination, and more — with flowcharts and implementation notes. Think of it as a Gang of Four for LLM agent architectures. Essential reading for anyone building with Claude Code or other agentic tools."
+    },
+    {
+      "title": "GitHub - zakirullin/files.md: 🌱 Your life in plain .md files",
+      "url": "https://github.com/zakirullin/files.md",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A minimal philosophy and starter system for managing your entire personal knowledge base in plain Markdown files — no proprietary app required. For Obsidian users, this is a compelling \"escape hatch\" design that makes your vault truly portable. The README alone is worth reading."
+    },
+    {
+      "title": "Today's bans on DIY repairs of everything from cell phones to tractors grew out of Hollywood's fear of videotaping",
+      "url": "https://theconversation.com/todays-bans-on-diy-repairs-of-everything-from-cell-phones-to-tractors-grew-out-of-hollywoods-fear-of-videotaping-280990",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A fascinating historical deep-dive tracing how DMCA anti-circumvention provisions — born from Hollywood's VCR panic — became the legal foundation for locking you out of your iPhone, tractor, and medical device. Essential context for understanding why right-to-repair battles are so hard to win."
+    }
+  ]
+}
