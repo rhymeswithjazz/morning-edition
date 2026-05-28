@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-28",
+  "stories": [
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "hn_link": "https://news.ycombinator.com/item?id=48296794",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by simonw · 852 points · 985 comments",
+      "blurb": "Simon Willison argues that Anthropic and OpenAI have crossed the threshold from hype to genuine, sustained product-market fit. With 985 comments, this is the most debated AI business take of the week. Essential reading for anyone building on top of these platforms."
+    },
+    {
+      "title": "Can we have the day off?",
+      "url": "https://mlsu.io/posts/day-off/",
+      "hn_link": "https://news.ycombinator.com/item?id=48302745",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mlsu · 1039 points · 608 comments",
+      "blurb": "The top HN story today tackles what happens when AI does the work but humans still need to show up for the meeting. A sharp meditation on productivity, agency, and whether 'shipping faster with AI' is really the win we think it is. Mandatory reading for anyone using Claude Code daily."
+    },
+    {
+      "title": "Tech CEOs are apparently suffering from AI psychosis",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
+      "hn_link": "https://news.ycombinator.com/item?id=48295679",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by IAmGraydon · 646 points · 321 comments",
+      "blurb": "TechCrunch names the pattern: executives making increasingly unhinged public statements about AI replacing everything, right now. A useful reality-check article when your C-suite starts forwarding AI hype to the engineering team."
+    },
+    {
+      "title": "YouTube to automatically label AI-generated videos",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "hn_link": "https://news.ycombinator.com/item?id=48299753",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by nopg · 859 points · 528 comments",
+      "blurb": "YouTube is rolling out automatic AI-content labeling for videos, leaning on detection rather than creator self-disclosure. This is a significant platform-level shift in how synthetic media gets surfaced — watch this space for downstream policy effects."
+    },
+    {
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+      "hn_link": "https://news.ycombinator.com/item?id=48296649",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by HelloUsername · 855 points · 404 comments",
+      "blurb": "Google's insistence that users love AI Overviews is backfiring in real-time: DDG saw a 28% traffic spike the same week. Privacy-conscious developers are clearly voting with their feet — and the anti-AI-search backlash has measurable momentum."
+    },
+    {
+      "title": "What Apple and Google are doing to push notifications",
+      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
+      "hn_link": "https://news.ycombinator.com/item?id=48299220",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by iamacyborg · 277 points · 286 comments",
+      "blurb": "A deep dive into how Apple and Google intercept, batch, and process push notifications at the OS level — with real privacy implications for apps that assume delivery is end-to-end. If you develop iOS or Android apps, this is essential background knowledge."
+    },
+    {
+      "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+      "url": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+      "hn_link": "https://news.ycombinator.com/item?id=48293080",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by maxnoe · 300 points · 195 comments",
+      "blurb": "GitHub had a significant outage hitting PRs, Issues, and the API — basically everything a developer touches all day. The postmortem is worth reading to understand the blast radius and what to build around for resilience."
+    },
+    {
+      "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
+      "hn_link": "https://news.ycombinator.com/item?id=48299638",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Panda_ · 194 points · 68 comments",
+      "blurb": "The author of Privacy Guides explores off-grid mesh networking as a privacy infrastructure alternative. A hands-on intro to Meshtastic, MeshCore, and Reticulum — timely for anyone thinking about communication resilience outside centralized platforms."
+    },
+    {
+      "title": "All of human cooking compressed into 2 megabytes",
+      "url": "https://arxiv.org/abs/2605.22391",
+      "hn_link": "https://news.ycombinator.com/item?id=48291225",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by josefchen · 409 points · 162 comments",
+      "blurb": "Researchers claim to have distilled the core structure of human culinary knowledge into a 2MB representation. A fascinating compression/information-theory result with implications for how LLMs encode domain knowledge."
+    },
+    {
+      "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data (2024)",
+      "url": "https://www.thonking.ai/p/strangely-matrix-multiplications",
+      "hn_link": "https://news.ycombinator.com/item?id=48247005",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by tosh · 162 points · 47 comments",
+      "blurb": "A counterintuitive GPU performance result: matrix multiplications run measurably faster on structured, predictable data due to hardware-level optimizations. If you're building or fine-tuning models, understanding this could directly affect your training throughput."
+    },
+    {
+      "title": "Karpathy-Inspired Claude Code Guidelines",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: octo, knowledge, karpathy, claude-code, guidelines, best-practices, llm-coding, agent-skills, simplicity",
+      "blurb": "Four core principles for improving Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls — explicit thinking, simplicity, surgical changes, and goal-driven execution. Ships as a Claude Code plugin or CLAUDE.md drop-in. Direct hit for Claude Code users."
+    },
+    {
+      "title": "Property-Based Testing with Claude red.anthropic.com",
+      "url": "https://red.anthropic.com/2026/property-based-testing/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, llm, agenticEngineering, testing, propertyBasedTesting, pbt",
+      "blurb": "Anthropic's own engineering blog walks through using Claude for property-based testing — a notoriously hard discipline made more accessible with LLM assistance. Directly actionable for .NET/TypeScript developers who want to level up their test suites."
+    },
+    {
+      "title": "Iris Photos — A native macOS photo library",
+      "url": "https://irisphotos.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, photography, dam",
+      "blurb": "A brand-new native macOS photo library and DAM (Digital Asset Manager) app, not just a Photos.app wrapper. For Mac users tired of Apple's photo management or Adobe's subscription lock-in, this looks like a serious contender worth watching."
+    },
+    {
+      "title": "steipete/agent-scripts: Scripts for agents, shared between my repositories.",
+      "url": "https://github.com/steipete/agent-scripts",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-coder",
+      "blurb": "Peter Steinberger's collection of reusable scripts for AI coding agents, built to be shared across projects. A practical grab-bag of glue code for anyone running Claude Code or similar agentic workflows — fork and adapt freely."
+    },
+    {
+      "title": "AddyOsmani.com - Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agenticEngineering, skills",
+      "blurb": "Addy Osmani breaks down the concept of 'agent skills' — modular capabilities you can compose for AI coding agents. Directly relevant to building effective Claude Code workflows and thinking about how to structure agent behavior."
+    },
+    {
+      "title": "How to Eval AI Agents — The 2026 Guide",
+      "url": "https://www.howtoeval.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, eval",
+      "blurb": "Evaluation is the unglamorous bottleneck of agentic AI development, and this guide pulls together the 2026 state of the art. If you're building with Claude Code or any LLM pipeline, getting your evals right is the difference between shipping and guessing."
+    },
+    {
+      "title": "[2605.26099] Language Models Need Sleep",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: llm, ai, transformer, sleep, cache, context",
+      "blurb": "A new paper argues that LLMs accumulate a kind of 'context fatigue' and benefit from periodic cache-clearing analogous to sleep consolidation in biological brains. Fascinating for AI researchers and anyone thinking about long-running agent memory management."
+    },
+    {
+      "title": "The State of CSS Centering in 2026",
+      "url": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "CSS-Tricks surveys the surprisingly rich 2026 landscape of centering options — Flexbox, Grid, anchor positioning, and beyond. A useful reference for any frontend developer who wants to understand why so many approaches exist and which to reach for first."
+    },
+    {
+      "title": "Shortcuts Archive – MacStories",
+      "url": "https://www.macstories.net/shortcuts/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ios, programming, ipad, iphone",
+      "blurb": "MacStories' exhaustive, maintained archive of Shortcuts automations for iPhone and iPad — everything from file management to Obsidian workflows. An indispensable bookmark for Apple ecosystem power users who want to automate without writing Swift."
+    },
+    {
+      "title": "FFmpeg Audio Normalization: The Complete loudnorm Guide | 32blog",
+      "url": "https://32blog.com/en/ffmpeg/ffmpeg-audio-normalization-loudnorm",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: FFmpeg, howto, audio",
+      "blurb": "A thorough practical guide to FFmpeg's loudnorm filter for EBU R128-compliant audio normalization — exactly what you need when mastering podcasts, videos, or any audio pipeline. The two-pass workflow explanation alone is worth the click."
+    }
+  ]
+}
