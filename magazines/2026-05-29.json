@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-29",
+  "stories": [
+    {
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "hn_link": "https://news.ycombinator.com/item?id=48311647",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by craigmart · 1512 points · 1176 comments",
+      "blurb": "Anthropic drops a new flagship model, and HN immediately erupts with 1,176 comments — that's a signal. If you're building with Claude Code or using the API, this is the release to benchmark your workflows against. The score and comment count together make this the story of the day."
+    },
+    {
+      "title": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "hn_link": "https://news.ycombinator.com/item?id=48318174",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ankitg12 · 76 points · 15 comments",
+      "blurb": "Someone actually read the Claude Code source code so you don't have to — and surfaced a bunch of undocumented configuration knobs. If you use Claude Code daily, this is immediately actionable. Hidden levers for power users."
+    },
+    {
+      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
+      "hn_link": "https://news.ycombinator.com/item?id=48315968",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by possibilistic · 386 points · 162 comments",
+      "blurb": "Microsoft-owned GitHub banning a security researcher for responsible-adjacent disclosure is a chilling precedent for the entire infosec community. The claim of vindictiveness and the researcher's promise of retaliation makes this a slow-motion drama worth following. Platform power and security research are in direct conflict here."
+    },
+    {
+      "title": "Cars collect a startling amount of data about you",
+      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+      "hn_link": "https://news.ycombinator.com/item?id=48318481",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by 1vuio0pswjnm7 · 317 points · 144 comments",
+      "blurb": "Modern cars are surveillance platforms on wheels — location, biometrics, driving behavior, and even conversations. The BBC digs into how bad it already is and why it's about to get worse. If you care about privacy, your next car purchase deserves the same scrutiny as your next phone."
+    },
+    {
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "hn_link": "https://news.ycombinator.com/item?id=48313810",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 303 points · 237 comments",
+      "blurb": "A catalog of anti-patterns in LLM-powered systems — think code smells but for AI. With 237 comments, the HN crowd clearly had a lot to add. Essential reading if you're building anything on top of language models and want to avoid the obvious traps."
+    },
+    {
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "url": "https://llmgame.scalex.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=48308376",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Wirbelwind · 318 points · 130 comments",
+      "blurb": "A clever browser game that satirizes the endless approve/deny loop of agentic AI workflows. It's funny because it's true — anyone who's used Claude Code or Copilot Workspace will recognize the fatigue immediately. Play it, laugh ruefully, then go configure your trust settings."
+    },
+    {
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "hn_link": "https://news.ycombinator.com/item?id=48313048",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 340 points · 360 comments",
+      "blurb": "Nearly a trillion-dollar valuation for an AI safety company — that's a sentence that would have seemed absurd three years ago. This fundraise will fund the compute behind Claude's next leaps and shapes the competitive landscape for every AI tool you use. Context for the Opus 4.8 announcement landing the same day."
+    },
+    {
+      "title": "Building durable workflows on Postgres",
+      "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+      "hn_link": "https://news.ycombinator.com/item?id=48313530",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by KraftyOne · 311 points · 132 comments",
+      "blurb": "The argument: skip Temporal, skip Kafka, skip the complexity — Postgres is sufficient for durable workflow execution if you design it right. DBOS walks through the pattern with real code. If you're building backend systems in .NET or anything else, this is a compelling counter-narrative to the distributed-everything orthodoxy."
+    },
+    {
+      "title": "Bttf is a command line datetime Swiss army knife",
+      "url": "https://github.com/BurntSushi/bttf",
+      "hn_link": "https://news.ycombinator.com/item?id=48303881",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by burntsushi · 163 points · 94 comments",
+      "blurb": "BurntSushi — author of ripgrep and other essential CLI tools — drops a datetime manipulation utility. Parsing, formatting, arithmetic, and timezone conversions from the command line without fighting Python or date(1). Install it before you need it."
+    },
+    {
+      "title": "Blue Origin's New Glenn blows up during static fire test",
+      "url": "https://twitter.com/nasaspaceflight/status/2060164928472854821",
+      "hn_link": "https://news.ycombinator.com/item?id=48317774",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by enraged_camel · 280 points · 279 comments",
+      "blurb": "New Glenn's second-stage engine explodes during a ground test — a significant setback for Blue Origin's deep-space ambitions. The 279-comment HN thread is full of aerospace engineers weighing in on what went wrong. Rockets are hard."
+    },
+    {
+      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "Researchers demonstrate FROST: a browser-only side-channel attack that fingerprints users by timing their SSD's response patterns via the Origin Private File System API — no special permissions needed. This works right now in your browser. A genuinely new class of privacy threat that browser vendors will need to address."
+    },
+    {
+      "title": "1.2M Messages to Obsidian - Building a Relationship Map from 20 Years of Chat History",
+      "url": "https://drobinin.com/posts/am-i-a-bad-friend/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, friendship",
+      "blurb": "A developer imports 1.2 million messages from Telegram, VK, Instagram, and more into Obsidian, then runs local LLM inference to map friendship decay curves, vocabulary shifts, and sentiment over 20 years. If you're an Obsidian user who thinks about personal knowledge management, this is one of the most ambitious personal data projects you'll see this year."
+    },
+    {
+      "title": "The approval prompt is lying: a critical coding agent security flaw",
+      "url": "https://adversa.ai/blog/the-approval-prompt-is-lying-to-you-symlink-rce-in-five-ai-coding-agents-claude-code-cursor-antigravity-copilot-grok-build/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Adversa AI found symlink-based RCE vulnerabilities in five major AI coding agents including Claude Code, Cursor, and Copilot — the approval dialog you click through can be deceived into executing malicious code. This is directly relevant if you use any of these tools. Read it and audit your agent trust settings immediately."
+    },
+    {
+      "title": "Claude Code's creator on the end of the software engineer",
+      "url": "https://www.platformer.news/boris-cherny-interview-ai-jobs/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-future-of-work, ai-coding",
+      "blurb": "Boris Cherny, the person who built Claude Code, speaks candidly about what AI means for the future of software engineering jobs. The creator of the tool that's changing how you code has opinions worth hearing — and they're more nuanced than the usual hype. Required reading alongside the Opus 4.8 launch."
+    },
+    {
+      "title": "Apple working to cram massive Gemini model into iPhone to power new Siri",
+      "url": "https://arstechnica.com/ai/2026/05/apple-reportedly-trying-to-distill-googles-multi-trillion-parameter-gemini-ai-to-run-on-iphone/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, iphone",
+      "blurb": "Apple is reportedly distilling Google's massive Gemini model down to run on-device on iPhones, likely with a cloud fallback. This would be the most significant Siri overhaul in its history and a major bet on Apple/Google AI cooperation. The implications for the privacy-conscious Apple user are complicated."
+    },
+    {
+      "title": "WhatCable: Know what your USB-C cable can really do",
+      "url": "https://www.whatcable.uk/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, app, usbc, cable",
+      "blurb": "A macOS utility that reads the e-marker chip in your USB-C cables and explains in plain English what speed, charging wattage, and display capabilities each cable actually supports. If you've ever plugged in a cable and wondered why Thunderbolt isn't working or charging is slow, this is the tool that finally explains it. Directly actionable for any Mac user."
+    },
+    {
+      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "url": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Kwastie · 138 points · 65 comments",
+      "blurb": "VW quietly added a client assertion requirement to their API, effectively killing the popular Home Assistant integration. It's the latest in a long line of automakers locking users out of their own car data. Pairs grimly with the BBC car surveillance story — they want the data, you don't get the API."
+    },
+    {
+      "title": "Change detection: the single most important factor that differentiates front-end frameworks",
+      "url": "https://mjswensen.com/blog/the-single-most-important-factor-that-differentiates-front-end-frameworks/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: web, javascript, frameworks, state",
+      "blurb": "A deep-dive comparison of how React, Vue, Solid, Svelte, and Angular handle change detection — the architectural decision that determines everything downstream about performance and DX. If you work in Angular/TypeScript, seeing your framework benchmarked honestly against alternatives is worth 15 minutes of your time."
+    },
+    {
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by freediver · 75 points · 48 comments",
+      "blurb": "An unknown model called Hy3 appeared on OpenRouter and immediately dominated the rankings — and nobody knows who made it or what it is. Max Woolf digs into the data and the mystery. Whether it's a stealth launch or a benchmark anomaly, it's the most intriguing AI story under the radar this week."
+    },
+    {
+      "title": "Vellum | Create Beautiful eBooks",
+      "url": "https://vellum.pub/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: app, creation, writing, ebooks",
+      "blurb": "Vellum is a Mac-native app for designing and exporting professional-quality eBooks and print books — used by self-publishing authors who want beautiful output without InDesign complexity. If you write documentation, guides, or long-form content and want a polished macOS tool, it's worth a look. Pinboard surfaces niche Mac software that HN rarely touches."
+    }
+  ]
+}
