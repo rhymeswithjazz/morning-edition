@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-30",
+  "stories": [
+    {
+      "title": "SQLite is all you need for durable workflows",
+      "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+      "hn_link": "https://news.ycombinator.com/item?id=48326802",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tomasol · 519 points · 257 comments",
+      "blurb": "A deep dive into using SQLite as the backbone for durable, resumable workflow execution — no Kafka, no Postgres, no external queue needed. The argument is surprisingly compelling: SQLite's WAL mode and atomic transactions give you exactly the durability semantics most workflows need. Worth serious consideration the next time you reach for a heavyweight orchestration stack."
+    },
+    {
+      "title": "Notes from the Mistral AI Now Summit",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "hn_link": "https://news.ycombinator.com/item?id=48325340",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vnglst · 363 points · 146 comments",
+      "blurb": "First-hand field notes from Mistral's developer summit, covering their model roadmap, agent capabilities, and positioning against OpenAI/Anthropic. If you're evaluating LLM providers for production use, this is a quick way to get up to speed on where Mistral is headed. The European angle on AI governance also surfaces in interesting ways."
+    },
+    {
+      "title": "Is AI causing a repeat of frontend's lost decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "hn_link": "https://news.ycombinator.com/item?id=48321631",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xyzal · 341 points · 291 comments",
+      "blurb": "A provocative essay arguing that AI-generated frontend code is recreating the jQuery-soup era — technically functional but architecturally hollow, accumulating debt at machine speed. As someone building Angular/TypeScript apps with AI tools, this is a mirror worth looking into. The framing around \"legible\" vs. \"correct\" code is particularly sharp."
+    },
+    {
+      "title": "What Is a Dickover?",
+      "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
+      "hn_link": "https://news.ycombinator.com/item?id=48330882",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tambourine_man · 326 points · 129 comments",
+      "blurb": "John Gruber coins a term for a specific kind of Apple ecosystem betrayal — when a developer deliberately degrades a competing app or platform integration for anti-competitive gain. Characteristically opinionated and well-argued, this one will resonate with anyone who's felt burned by a platform holder playing favorites. High comment count means the HN crowd has opinions."
+    },
+    {
+      "title": "You can just say it",
+      "url": "https://noperator.dev/posts/you-can-just-say-it/",
+      "hn_link": "https://news.ycombinator.com/item?id=48324853",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by antirez · 323 points · 165 comments",
+      "blurb": "antirez (Redis creator) makes the case for plain, direct communication with LLMs — dropping the elaborate prompt engineering rituals and just saying what you want clearly. Counterintuitively, this resonates well with Claude Code users who've discovered that natural, specific instructions often outperform clever prompting frameworks. A quick read with a usable takeaway."
+    },
+    {
+      "title": "MCP is dead?",
+      "url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+      "hn_link": "https://news.ycombinator.com/item?id=48330436",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nadis · 219 points · 184 comments",
+      "blurb": "A practitioner's post-mortem on why Model Context Protocol hasn't caught on the way the hype suggested — authentication friction, versioning chaos, and the \"demo works, production doesn't\" problem. If you've been building MCP integrations for Claude or evaluating them for your stack, this is the skeptic's perspective you need to balance against the marketing. 184 comments means the debate is live."
+    },
+    {
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "hn_link": "https://news.ycombinator.com/item?id=48321076",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by NicoConstant · 204 points · 91 comments",
+      "blurb": "kog.ai breaks down how they hit 3,000 tokens/second per request on commodity GPUs — not a cluster of A100s, but hardware mortals can actually afford. The key techniques involve speculative decoding and aggressive KV cache management. If local or on-prem LLM inference is on your roadmap, this benchmark is a meaningful milestone."
+    },
+    {
+      "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
+      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "hn_link": "https://news.ycombinator.com/item?id=48325306",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by simjnd · 184 points · 70 comments",
+      "blurb": "Liquid AI drops a new Mixture-of-Experts model with only 1B active parameters at inference time despite an 8B total parameter count — trained on a massive 38 trillion token dataset. MoE at this scale-to-efficiency ratio is the direction the whole industry is moving. Worth tracking if you're choosing base models for fine-tuning or RAG pipelines."
+    },
+    {
+      "title": "On Rendering Diffs",
+      "url": "https://pierre.computer/writing/on-rendering-diffs",
+      "hn_link": "https://news.ycombinator.com/item?id=48327809",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by amadeus · 170 points · 55 comments",
+      "blurb": "A thoughtful deep dive into the surprisingly hard problem of displaying code diffs well — covering character-level vs. line-level diffing, syntax highlighting in diff context, and the UX tradeoffs of different visual representations. Directly relevant to anyone building or configuring tools around AI code generation where reviewing diffs is now a daily workflow. Beautifully illustrated."
+    },
+    {
+      "title": "The California state assembly has passed the 'Protect Our Games Act'",
+      "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+      "hn_link": "https://news.ycombinator.com/item?id=48328365",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by TechTechTech · 232 points · 235 comments",
+      "blurb": "California's assembly passes a bill requiring game publishers to ensure games remain playable after server shutdowns — a landmark digital rights win from the Stop Killing Games movement. This sets a potential national precedent for software ownership rights more broadly. The legal mechanics of what \"playable\" means will be fought over for years."
+    },
+    {
+      "title": "claude code as a daily driver: claude.md, skills, subagents, plugins, and mcps",
+      "url": "https://news.ycombinator.com/item?id=48289950",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude-code, discussion",
+      "blurb": "A well-bookmarked HN thread covering advanced Claude Code usage patterns: structuring CLAUDE.md files, composing subagents, writing skills/plugins, and wiring up MCPs for real workflows. This is the practical \"how do people actually use this\" discussion that the official docs don't give you. Essential reading if Claude Code is in your daily driver stack."
+    },
+    {
+      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code - Ars Technica",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: via-IFTTT, via-Instapaper, via-Raindrop",
+      "blurb": "A maintainer of the Java testing library jqwik hid a prompt injection payload in the codebase designed to instruct AI coding assistants to delete data — a protest against vibe coders copy-pasting AI-generated code without review. This is both a security wake-up call and a pointed commentary on blind AI trust in the dev community. Supply chain risk just got a new attack surface."
+    },
+    {
+      "title": "The VibeSec Reckoning",
+      "url": "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Martin Fowler's site hosts a thorough analysis of the security implications of AI-assisted \"vibe coding\" — where developers ship code they don't fully understand, creating exploitable blind spots. Pairs perfectly with the jqwik prompt injection story above. If you're using Claude Code to move fast, this is the necessary counterweight."
+    },
+    {
+      "title": "Mystery company accidentally blew $500 million on Claude AI in a single month",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, tokens, roi",
+      "blurb": "A company burned half a billion dollars on Claude API usage in a month because nobody set spending limits on employee licenses — a cautionary tale about AI cost governance at scale. Simon Willison's take (also in Pinboard today) frames this as product-market fit proof: people want it badly enough to overspend wildly. If you manage AI tooling budgets, implement rate limits before you read anything else today."
+    },
+    {
+      "title": "Impeccable: The missing upgrade to Anthropic's frontend-design skill",
+      "url": "https://impeccable.style/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, tools, design, ai.skills",
+      "blurb": "Impeccable is a design-skills add-on for AI coding tools — specifically targeting the gap where Claude and other assistants produce functionally correct but aesthetically mediocre UIs. It positions itself as the missing design sensibility layer on top of Anthropic's code generation. Worth bookmarking if you're building frontends with AI assistance and tired of the boxy default output."
+    },
+    {
+      "title": "Jane Street Blog - strace-ui, Bonsai_term, and the TUI renaissance",
+      "url": "https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cli, tui, ocaml",
+      "blurb": "Jane Street engineers document their investment in rich terminal UIs — including a visual strace browser and a full reactive TUI framework in OCaml. The broader argument that TUIs are having a renaissance (thanks to better terminal emulators and remote-first work) is convincing. Even if you don't write OCaml, the design thinking here applies to any CLI tooling you build."
+    },
+    {
+      "title": "State of Local AI",
+      "url": "https://llmrequirements.com/state-of-local-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: +, llm, ai, selfhosting, gpu",
+      "blurb": "A practical hardware buying guide for running LLMs locally on Windows/Intel/AMD systems — covering which models fit in which VRAM configurations and what real-world performance looks like. Useful as a reference when evaluating whether to self-host vs. API. Cuts through the spec-sheet noise with actual token throughput numbers."
+    },
+    {
+      "title": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown.",
+      "url": "https://github.com/microsoft/markitdown",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: python, markdown, ai, convert, office, pdf",
+      "blurb": "Microsoft's open-source tool converts PDFs, Office docs, images, audio, and more into clean Markdown — purpose-built for feeding documents into LLM pipelines. If you're building RAG systems or AI workflows that need to ingest messy enterprise documents, this is the preprocessing step you've been cobbling together yourself. Drop-in useful today."
+    },
+    {
+      "title": "Siri's new look for iOS 27 predicted",
+      "url": "https://appleinsider.com/articles/26/05/28/this-is-what-the-siri-redesign-might-look-like-in-ios-26",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "AppleInsider mockups and analysis of the rumored Siri redesign coming in iOS 26/27 — a significant visual and functional overhaul as Apple races to catch up with ChatGPT and Claude on mobile. The interface concepts suggest a more ambient, always-aware presence rather than the current button-tap model. Worth watching ahead of WWDC."
+    },
+    {
+      "title": "Perry Compiles TypeScript directly to executables using SWC and LLVM",
+      "url": "https://www.perryts.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by 0x1997 · 88 points · 69 comments",
+      "blurb": "Perry is a new TypeScript compiler that goes directly to native executables via SWC and LLVM — bypassing Node.js entirely and targeting performance use cases where JS runtime overhead matters. For TypeScript/.NET developers curious about the edges of the TS ecosystem, this is a fascinating experiment. Early days, but the architecture is worth understanding."
+    }
+  ]
+}
