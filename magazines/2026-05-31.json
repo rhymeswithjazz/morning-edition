@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-31",
+  "stories": [
+    {
+      "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
+      "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "hn_link": "https://news.ycombinator.com/item?id=48341578",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by antipurist · 831 points · 295 comments",
+      "blurb": "Microsoft is forcing Mac users of Office 2019 and 2021 into view-only mode — effectively bricking paid perpetual licenses. If you're on macOS and haven't subscribed to Microsoft 365, your Word and Excel files are about to become read-only. A major consumer rights flashpoint with 295 comments worth reading."
+    },
+    {
+      "title": "Domain expertise has always been the real moat",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "hn_link": "https://news.ycombinator.com/item?id=48340411",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aaronbrethorst · 563 points · 327 comments",
+      "blurb": "As AI flattens general coding ability, the argument here is that deep domain knowledge is what separates great engineers from replaceable ones. A timely counter-narrative to the 'AI will do everything' hype — and a direct challenge to how AI coding tools are being marketed. One of the most-discussed threads this week."
+    },
+    {
+      "title": "OpenRouter raises $113M Series B",
+      "url": "https://openrouter.ai/announcements/series-b",
+      "hn_link": "https://news.ycombinator.com/item?id=48338660",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by freeCandy · 414 points · 198 comments",
+      "blurb": "OpenRouter — the API aggregator that lets you switch between Claude, GPT, Gemini and dozens of other models with one endpoint — just raised $113M. If you're building AI workflows or using Claude Code, this is the infrastructure layer getting supercharged. Big validation for model-agnostic development."
+    },
+    {
+      "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
+      "url": "https://github.com/kristapsdz/openrsync",
+      "hn_link": "https://news.ycombinator.com/item?id=48334854",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sph · 394 points · 150 comments",
+      "blurb": "The OpenBSD team has written a clean-room rsync implementation — and it's already shipping in macOS. This is the rsync you're using on your Mac right now, and understanding its lineage matters. A well-documented codebase worth reading if you do any serious file sync scripting."
+    },
+    {
+      "title": "Please Do Not Vibe Fuck Up This Software",
+      "url": "https://github.com/RsyncProject/rsync/issues/929",
+      "hn_link": "https://news.ycombinator.com/item?id=48342705",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by justdotJS · 185 points · 84 comments",
+      "blurb": "An rsync maintainer opens a GitHub issue pleading with AI-assisted contributors not to submit vibe-coded pull requests that break decades of careful engineering. A raw, unfiltered perspective on what happens when AI coding tools meet critical open-source infrastructure. Essential reading for anyone using Claude Code on real projects."
+    },
+    {
+      "title": "Pandoc Templates",
+      "url": "https://pandoc-templates.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48334515",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ankitg12 · 393 points · 50 comments",
+      "blurb": "A curated gallery of polished Pandoc templates for converting Markdown to beautiful PDFs, slides, and Word docs. If you're writing docs, specs, or notes in Markdown (or Obsidian), this is an immediate upgrade to your output pipeline. Actionable today."
+    },
+    {
+      "title": "Zig: Build System Reworked",
+      "url": "https://ziglang.org/devlog/2026/#2026-05-26",
+      "hn_link": "https://news.ycombinator.com/item?id=48334048",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tosh · 350 points · 229 comments",
+      "blurb": "Zig's build system is getting a significant architectural rework — a big deal for a language that treats its build system as a first-class citizen. The devlog details the philosophy shift and what it means for cross-compilation and dependency management. Worth tracking if you follow systems languages."
+    },
+    {
+      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+      "url": "https://av2.aomedia.org",
+      "hn_link": "https://news.ycombinator.com/item?id=48340910",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ksec · 185 points · 73 comments",
+      "blurb": "AV2, the successor to AV1, has hit v1.0 — promising dramatically better compression for video at the same quality. This will eventually flow into every streaming platform, browser, and video editing tool. The royalty-free codec wars just escalated."
+    },
+    {
+      "title": "Parallel Reconstruction of Lawful TLS Wiretapping",
+      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+      "hn_link": "https://news.ycombinator.com/item?id=48339943",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jerrythegerbil · 98 points · 42 comments",
+      "blurb": "A security researcher demonstrates how government-mandated TLS wiretapping backdoors can be reconstructed and potentially exploited by third parties. The 'lawful intercept' argument for weakening encryption gets a concrete technical refutation. Chilling and important."
+    },
+    {
+      "title": "Voxel Space (2017)",
+      "url": "https://s-macke.github.io/VoxelSpace/",
+      "hn_link": "https://news.ycombinator.com/item?id=48336564",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by davikr · 283 points · 58 comments",
+      "blurb": "An interactive deep-dive into the voxel terrain rendering technique used in Comanche (1992) — explained with live demos running in the browser. The algorithm is elegantly simple and produces stunning results with minimal geometry. A delightful piece of graphics archaeology."
+    },
+    {
+      "title": "Shantell Sans (2023)",
+      "url": "https://shantellsans.com/process",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by aleda145 · 234 points · 23 comments",
+      "blurb": "Shantell Sans is a hand-drawn variable font with a fascinating design process documented in detail — covering the collaboration between artist Shantell Martin and type designers. The behind-the-scenes look at variable font mechanics is genuinely educational for anyone who cares about typography and UI design."
+    },
+    {
+      "title": "I found a seashell in the middle of the desert",
+      "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Hawzen · 319 points · 82 comments",
+      "blurb": "A developer in Saudi Arabia finds a seashell in the desert and goes full nerd — using geological data, historical sea-level records, and Python to figure out how it got there. Charming, methodical, and a great example of curiosity-driven personal science."
+    },
+    {
+      "title": "Navier-Stokes fluid simulation explained with Godot game engine",
+      "url": "https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by myzek · 223 points · 26 comments",
+      "blurb": "A beautifully written explainer that uses Godot as a sandbox to visualize Navier-Stokes equations step by step. If you've ever wanted to understand fluid simulation without a PhD, this is the most accessible route. Useful for creative coders and game devs alike."
+    },
+    {
+      "title": "Show HN: 500 years of Joseon court omens as an observability dashboard",
+      "url": "https://ajin.im/is/building/omen.ops/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by poppypetalmask · 119 points · 22 comments",
+      "blurb": "Someone mapped 500 years of supernatural omens recorded in Joseon Dynasty court records onto a modern observability-style dashboard — complete with SLOs and incident timelines. Absurdist and brilliant, but also a genuinely clever demonstration of dashboard UX applied to historical data."
+    },
+    {
+      "title": "Microcode inside the Intel 8087 floating-point chip: register exchange",
+      "url": "https://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by pwg · 113 points · 19 comments",
+      "blurb": "Ken Shirriff is back with another silicon-level teardown, this time tracing how the 8087 FPU's microcode handles register stack exchanges. The level of detail — right down to transistor-level die photos — is staggering. Required reading for anyone who loves computer history."
+    },
+    {
+      "title": "Cheese Paper: a text editor specifically designed for writing",
+      "url": "https://brie.gay/cheese-paper/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sohkamyung · 102 points · 25 comments",
+      "blurb": "Cheese Paper is a minimalist, distraction-free text editor built specifically for writing prose — not code. Think iA Writer's philosophy but with fresh design decisions. Worth a look if you write long-form content alongside your dev work or use Obsidian for notes."
+    },
+    {
+      "title": "Jef Raskin, the Visionary Behind the Mac (2013)",
+      "url": "https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tylerdane · 101 points · 45 comments",
+      "blurb": "A profile of Jef Raskin, the human interface visionary who originated the Mac project before Steve Jobs took it over. Resurfaces as a counterpoint to the Jobs mythology — Raskin's ideas about modeless interfaces and cognitive load are still more radical than most modern UI design. Great context for any Apple enthusiast."
+    },
+    {
+      "title": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+      "url": "https://github.com/kurikomi-labs/komi-learn",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rainxchzed · 13 points · 2 comments",
+      "blurb": "Komi-learn is an open-source framework that gives coding agents like Claude Code persistent memory and a self-improvement loop — so the agent learns from past mistakes across sessions. Early-stage but directly relevant to anyone building or using AI coding assistants. Worth watching."
+    },
+    {
+      "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
+      "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jayhoon · 76 points · 2 comments",
+      "blurb": "With post-quantum cryptography standards now finalized, understanding lattice-based crypto is increasingly practical knowledge for security-aware developers. This PDF is unusually readable for a math-heavy topic, building intuition before equations. Bookmark it for a weekend deep-dive."
+    },
+    {
+      "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by marekkowalczyk · 18 points · 3 comments",
+      "blurb": "A tiny macOS terminal tool that guides you through paced breathing exercises right in your shell — no app switching required. Silly-sounding but genuinely useful for devs who live in the terminal and want a 60-second reset between focus sessions. Install it today."
+    }
+  ]
+}
