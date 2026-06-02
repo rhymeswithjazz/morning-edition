@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-02",
+  "stories": [
+    {
+      "title": "The newest Instagram \"exploit\" is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "hn_link": "https://news.ycombinator.com/item?id=48359102",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ssiddharth · 1793 points · 410 comments",
+      "blurb": "A researcher discovered a comically broken account-takeover path in Meta's Instagram — the kind of bug that makes you question how much security review actually happens at billion-user scale. 410 comments means the HN crowd has plenty of hot takes. Required reading if you care about auth flows and responsible disclosure."
+    },
+    {
+      "title": "Malicious npm packages detected across Red Hat Cloud Services",
+      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
+      "hn_link": "https://news.ycombinator.com/item?id=48356625",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by kurmiashish · 749 points · 428 comments",
+      "blurb": "Supply-chain attack hits Red Hat's own JavaScript client repos — malicious packages slipped into the official org. If you pull any @redhat npm packages, check your lock files now. This is a live incident thread, not a post-mortem."
+    },
+    {
+      "title": "A 10 year old Xeon is all you need",
+      "url": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
+      "hn_link": "https://news.ycombinator.com/item?id=48353348",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cafkafk · 693 points · 274 comments",
+      "blurb": "Running Google's Gemma 4 on a decade-old 2016 Xeon server — no GPU required. A great reality check for anyone who thinks local AI inference demands bleeding-edge hardware. Directly actionable if you have old iron sitting in a closet."
+    },
+    {
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "hn_link": "https://news.ycombinator.com/item?id=48358646",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 494 points · 401 comments",
+      "blurb": "The maker of Claude — and Claude Code — is heading toward an IPO. This confidential S-1 filing signals a major shift in Anthropic's trajectory and could reshape how the company prioritizes commercial vs. safety work. Closely relevant for anyone betting their dev workflow on Claude."
+    },
+    {
+      "title": "CS336: Language Modeling from Scratch",
+      "url": "https://cs336.stanford.edu/",
+      "hn_link": "https://news.ycombinator.com/item?id=48357075",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kristianpaul · 460 points · 47 comments",
+      "blurb": "Stanford's full course on building language models from the ground up is now publicly available. If you use LLMs daily but want to understand what's actually happening under the hood, this is the curriculum. Pairs beautifully with the CLAUDE.md story below."
+    },
+    {
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "hn_link": "https://news.ycombinator.com/item?id=48359232",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by prakashqwerty · 416 points · 134 comments",
+      "blurb": "Stanford's CS336 published a CLAUDE.md file — the agentic guidelines they gave to Claude when using it as an AI coding assistant for their course assignments. A rare, real-world look at how academics are prompt-engineering Claude Code at scale. Essential meta-reading for Claude Code users."
+    },
+    {
+      "title": "Age verification for social media, the beginning of the end for a free internet?",
+      "url": "https://mullvad.net/en/blog/age-verification-for-social-media-the-beginning-of-the-end-for-a-free-internet",
+      "hn_link": "https://news.ycombinator.com/item?id=48363882",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by StrLght · 264 points · 140 comments",
+      "blurb": "Mullvad — the privacy-first VPN maker — argues that age verification mandates create the infrastructure for mass surveillance, even when framed as child protection. A clear-eyed, technically grounded take on a law that's spreading globally. Privacy-conscious readers should understand what's at stake."
+    },
+    {
+      "title": "macOS needs its grid back",
+      "url": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/",
+      "hn_link": "https://news.ycombinator.com/item?id=48364800",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by ranebo · 249 points · 140 comments",
+      "blurb": "A thoughtful critique of macOS losing its spatial desktop metaphor — the author argues Apple has slowly eroded the grid-based icon layout that made the Mac feel organized and intentional. If you care about macOS UX and window management, this will resonate and probably frustrate you."
+    },
+    {
+      "title": "What appear to be biochemical processes may be a natural feature of geology",
+      "url": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
+      "hn_link": "https://news.ycombinator.com/item?id=48357905",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by speckx · 234 points · 83 comments",
+      "blurb": "Quanta Magazine reports on puzzling soil behavior that mimics biological activity but might actually be pure geology. The implications for astrobiology and the search for life on other planets are significant — you can't trust what looks alive. Classic Quanta."
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "hn_link": "https://news.ycombinator.com/item?id=48363132",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by typpo · 264 points · 93 comments",
+      "blurb": "OpenAI's GPT-4o, o3, and Codex are now accessible via AWS Bedrock, giving developers a path to use them inside existing AWS infrastructure without a separate OpenAI account. Actionable today if you're deploying AI features in a cloud-native stack."
+    },
+    {
+      "title": "Should you normalize RGB values by 255 or 256?",
+      "url": "https://30fps.net/pages/255-vs-256-division/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by pplanu · 264 points · 112 comments",
+      "blurb": "A deceptively deep dive into a question every graphics and image-processing developer has faced — and probably answered wrong at some point. The math has real consequences for color accuracy in rendering pipelines and image processing. Short, precise, and actionable."
+    },
+    {
+      "title": "Windows GOG DOS Games on M-Series Macs",
+      "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by f055 · 152 points · 83 comments",
+      "blurb": "A step-by-step guide to running classic Windows/DOS GOG titles on Apple Silicon Macs. If you've been staring at a library of old games you can't play, this is the actionable tutorial you need. Covers the full toolchain from GOG download to running on M-series hardware."
+    },
+    {
+      "title": "Fooling around with encrypted reasoning blobs",
+      "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by supermatou · 86 points · 13 comments",
+      "blurb": "Cryptographer Matthew Green pokes at AI models that encrypt their chain-of-thought reasoning to hide it from users. His analysis is sharp: encrypted blobs don't make AI more trustworthy — they make it less auditable. A critical perspective for anyone using reasoning models in production."
+    },
+    {
+      "title": "Debug Project",
+      "url": "https://debug.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Eridanus2 · 219 points · 89 comments",
+      "blurb": "A new AI-powered debugging tool that's generating buzz on HN — 89 comments suggests developers have opinions about it. Worth checking out directly; the minimalist landing page hides what it actually does, but the discussion reveals it tackles root-cause analysis in a novel way."
+    },
+    {
+      "title": "Chipotlai Max",
+      "url": "https://github.com/cyberpapiii/chipotlai-max",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by nigelgutzmann · 224 points · 37 comments",
+      "blurb": "An AI agent that orders Chipotle for you — unhinged, but technically interesting. It's a practical demonstration of browser-use agents handling real-world transactional UIs without an API. Good inspiration for agentic workflow patterns, with bonus burrito delivery."
+    },
+    {
+      "title": "I made my phone slow on purpose",
+      "url": "https://vinewallapp.com/notes/i-made-my-phone-slow-on-purpose/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by gcampos · 205 points · 171 comments",
+      "blurb": "The author deliberately crippled their smartphone's responsiveness to reduce dopamine-loop compulsive checking — and found it worked. For anyone in the Apple ecosystem who battles attention fragmentation, this is a thought-provoking, practical experiment with real takeaways."
+    },
+    {
+      "title": "Stealing from Biologists to Compile Haskell Faster",
+      "url": "https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by mooreds · 121 points · 4 comments",
+      "blurb": "A compiler engineer borrows sequence-alignment algorithms from computational biology to speed up Haskell compilation. It's a delightful cross-domain hack — the kind of lateral thinking that occasionally produces breakthroughs. Even if you don't write Haskell, the algorithmic insight is worth the read."
+    },
+    {
+      "title": "Flipper Zero Zig Template",
+      "url": "https://github.com/NishantJoshi00/flipper-template",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Nars088 · 145 points · 12 comments",
+      "blurb": "A starter template for writing Flipper Zero firmware plugins in Zig instead of C. Zig's safety guarantees and build system make it a compelling alternative for embedded hacking on the Flipper. If you have a Flipper gathering dust, this is your excuse to revisit it."
+    },
+    {
+      "title": "A new way to build chips: Sequentially stacking silicon to extend Moore's Law",
+      "url": "https://matse.illinois.edu/news/85775",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by hhs · 47 points · 28 comments",
+      "blurb": "University of Illinois researchers describe a new sequential 3D stacking technique for transistors that could extend Moore's Law beyond current lithography limits. The approach sidesteps EUV constraints — potentially game-changing for the AI compute arms race everyone is funding."
+    },
+    {
+      "title": "The Pirate Bay Remains Resilient, 20 Years After the Raid",
+      "url": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 573 points · 265 comments",
+      "blurb": "Twenty years on from the infamous police raid, TPB still serves millions of users — a testament to decentralized, resilient infrastructure design. TorrentFreak traces the technical evolution that kept it alive through endless legal assault. A fascinating piece of internet history with real lessons for distributed systems architects."
+    }
+  ]
+}
