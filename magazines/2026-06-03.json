@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-03",
+  "stories": [
+    {
+      "title": "Gmail thinks I'm stupid, so I left",
+      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+      "hn_link": "https://news.ycombinator.com/item?id=48375016",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 947 points · 625 comments",
+      "blurb": "The highest-scoring HN story today is a pointed rant about Gmail's paternalistic UI decisions — auto-categorizing, hiding emails, and generally treating users as incapable of managing their own inbox. With 625 comments, clearly this hit a nerve. If you've ever considered ditching Gmail for Fastmail, Proton, or self-hosting, this is your reading material."
+    },
+    {
+      "title": "Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai",
+      "url": "https://blog.adafruit.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48368121",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by semanser · 648 points · 267 comments",
+      "blurb": "Flux.ai's lawyers sent a demand letter to Adafruit — a beloved open hardware company — over unclear IP claims. The community is rallying behind Adafruit. This is a cautionary tale about aggressive legal tactics targeting open-source adjacent makers, and worth watching closely."
+    },
+    {
+      "title": "MAI-Code-1-Flash",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "hn_link": "https://news.ycombinator.com/item?id=48374466",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by EvanZhouDev · 467 points · 207 comments",
+      "blurb": "Microsoft launches MAI-Code-1-Flash, a fast, lightweight coding model competing directly with Claude and GPT-4o-mini. For devs using AI coding assistants daily, a new contender from Microsoft's AI division is worth benchmarking — especially if you're already in the Azure/VS Code ecosystem."
+    },
+    {
+      "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+      "url": "https://blog.ammaraskar.com/github-token-stealing/",
+      "hn_link": "https://news.ycombinator.com/item?id=48371562",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ammar2 · 391 points · 59 comments",
+      "blurb": "A researcher demonstrates how a single click in VSCode could exfiltrate your GitHub token via a carefully crafted extension or workspace. If you use VSCode (or VS Code-based editors like Cursor), this is a must-read — the attack surface is real and the fix isn't obvious."
+    },
+    {
+      "title": "CT scans of BYD car parts",
+      "url": "https://www.lumafield.com/scan-of-the-month/byd",
+      "hn_link": "https://news.ycombinator.com/item?id=48375824",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by viasfo · 381 points · 222 comments",
+      "blurb": "Lumafield's industrial CT scanner reveals the internal engineering of BYD EV components in stunning detail — battery packs, motors, connectors. It's equal parts industrial porn and competitive intelligence, showing how tightly integrated Chinese EV engineering has become."
+    },
+    {
+      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
+      "url": "https://github.com/c0dejedi/nbd-vram",
+      "hn_link": "https://news.ycombinator.com/item?id=48377404",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tanelpoder · 303 points · 84 comments",
+      "blurb": "A clever hack: expose your GPU's VRAM as a network block device and use it as Linux swap. For ML workloads where your CPU RAM is the bottleneck but your VRAM sits idle between batches, this is genuinely actionable. The repo is minimal and the idea is inspired."
+    },
+    {
+      "title": "AI outperforms law professors in Stanford Law study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "hn_link": "https://news.ycombinator.com/item?id=48377761",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by berlianta · 237 points · 178 comments",
+      "blurb": "Stanford Law finds AI models outperforming law professors on a range of legal reasoning tasks — not just retrieval, but actual analytical judgment. This pairs directly with today's Pinboard piece on structural barriers to AI lawyers; the capability gap is closing faster than the institutional one."
+    },
+    {
+      "title": "The advertising cartel coming to your web browser",
+      "url": "https://blog.zgp.org/the-advertising-cartel-coming-to-your-web-browser/",
+      "hn_link": "https://news.ycombinator.com/item?id=48375175",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 209 points · 58 comments",
+      "blurb": "A detailed breakdown of how ad-tech players are coordinating to embed tracking and ad decisioning directly into browser infrastructure — bypassing the controls that ad blockers and privacy-focused browsers rely on. If you care about the open web, this is the threat to watch in 2026."
+    },
+    {
+      "title": "HP re-releases classic computer science calculator: The HP-16C",
+      "url": "https://hpcalcs.com/product/hp-16c-collectors-edition/",
+      "hn_link": "https://news.ycombinator.com/item?id=48374685",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by dm319 · 171 points · 104 comments",
+      "blurb": "The HP-16C — the legendary programmer's calculator with native hex, octal, binary, and bitwise operations — is back as a collector's edition. It's pricey, but for developers who grew up with RPN calculators or want a genuinely useful desk tool, this is a proper nerdy delight."
+    },
+    {
+      "title": "How we index images for RAG",
+      "url": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "hn_link": "https://news.ycombinator.com/item?id=48372239",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mooreds · 134 points · 19 comments",
+      "blurb": "Kapa.ai walks through their production approach to indexing images inside documentation for RAG pipelines — OCR, captioning, multimodal embeddings, and retrieval strategies. Concrete and implementation-focused; directly useful if you're building AI search over mixed-media content."
+    },
+    {
+      "title": "[untitled] — Hackers Asked Meta AI to Hand Over High-Profile Instagram Accounts",
+      "url": "https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "404 Media reports that attackers used social engineering via Meta's AI assistant to gain access to high-profile Instagram accounts — the AI was convinced to bypass normal authentication flows. A stark reminder that LLM-integrated customer support creates new account-takeover attack surfaces."
+    },
+    {
+      "title": "github and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github",
+      "blurb": "A scathing, detailed investigation into GitHub's performance degradation, reliability collapse, and the broader decay of developer infrastructure. The author benchmarks GitHub against GitLab and Codeberg and makes a compelling case that we've become too comfortable with a slow, monopolistic platform. Required reading for any dev who's noticed things feel worse lately."
+    },
+    {
+      "title": "Coreutils for Windows: UNIX-style core utilities for Windows. The same commands and pipelines you use on Linux, macOS, and WSL - natively.",
+      "url": "https://github.com/microsoft/coreutils",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: windows, shell, linux, toolkit, opensource, productivity, simplicity, minimalism",
+      "blurb": "Microsoft open-sources a native Windows port of coreutils — bringing `ls`, `cat`, `grep`, `awk`, and friends to Windows without WSL or Cygwin overhead. For .NET devs who still touch Windows machines, this dramatically smooths out cross-platform shell scripting workflows."
+    },
+    {
+      "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "DuckDuckGo is seeing a traffic boom driven by users fleeing AI-contaminated search results, and is now making its classic no-AI search mode more prominent. A clear market signal that privacy + search purity is a genuine product differentiator — and that not everyone wants Gemini interpolated into their results."
+    },
+    {
+      "title": "Quality in the Age of Slop",
+      "url": "https://sinclairtarget.com/blog/2026/06/01/quality-in-the-age-of-slop/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A thoughtful essay on what 'quality' even means when AI can produce plausible-but-hollow content at scale. The author argues for intentionality and craft as the new differentiators. Relevant to anyone building with or writing for an AI-saturated audience."
+    },
+    {
+      "title": "The Agent Skills Directory",
+      "url": "https://www.skills.sh/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, .=skill, .=links, .=tool, cli, ai-assisted-dev",
+      "blurb": "A curated directory of skills and capabilities you can wire into AI agents — think of it as an app store for agent behaviors. If you're building with Claude Code or other agentic tools, this is a useful map of what's already been packaged and what patterns are emerging."
+    },
+    {
+      "title": "LosslessCut - Official website",
+      "url": "https://losslesscut.app/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "LosslessCut is a fast, cross-platform video trimmer that cuts without re-encoding — preserving full quality in seconds rather than minutes of transcoding. It's a staple tool for anyone who edits screencasts, talks, or footage on macOS and wants zero generational loss."
+    },
+    {
+      "title": "stemdeckapp/stemdeck: modern stem extraction platform for musicians, producers and hobbyists",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: music",
+      "blurb": "Stemdeck is an open-source stem extraction tool that isolates vocals, drums, bass, piano, and guitar from mixed audio — useful for practice, remixing, and creative audio workflows. Think Spleeter but with a modern interface and active development."
+    },
+    {
+      "title": "A walking tour of surveillance infrastructure in Seattle",
+      "url": "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: seattle, privacy",
+      "blurb": "Coveillance.org documents the cameras, license-plate readers, facial recognition infrastructure, and corporate surveillance networks embedded in Seattle's streetscape. An eye-opening physical audit of what 'smart city' infrastructure actually looks like from the ground up — and a model for how citizens can document surveillance in their own cities."
+    },
+    {
+      "title": "Using safe-area-inset to build mobile-safe layouts | Polypane",
+      "url": "https://polypane.app/blog/using-safe-area-inset-to-build-mobile-safe-layouts/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: safe-area-inset, black-bar, ios-camera, camera, floating, css",
+      "blurb": "A practical guide to CSS `env(safe-area-inset-*)` for handling iPhone notches, Dynamic Islands, and home-gesture zones without ugly black bars or clipped UI. If you're building any web app that runs on iOS — especially in Angular — this is immediately applicable knowledge."
+    }
+  ]
+}
