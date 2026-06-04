@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-04",
+  "stories": [
+    {
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "hn_link": "https://news.ycombinator.com/item?id=48385906",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rvz · 830 points · 323 comments",
+      "blurb": "Google drops Gemma 4 12B, a fully open-weights multimodal model that ditches the separate encoder architecture entirely. At 12B parameters it's small enough to run locally, which makes it immediately actionable for anyone building AI-augmented workflows. With 830 points and 323 comments, the HN crowd is clearly paying attention."
+    },
+    {
+      "title": "Elixir v1.20: Now a gradually typed language",
+      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+      "hn_link": "https://news.ycombinator.com/item?id=48388324",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by cloud8421 · 759 points · 277 comments",
+      "blurb": "Elixir gets a landmark release: gradual typing is now baked into the language, not bolted on via Dialyzer hacks. This is a significant step toward making the BEAM ecosystem more accessible to teams coming from TypeScript/.NET. The 277-comment thread is full of comparisons to TypeScript's own gradual typing journey."
+    },
+    {
+      "title": "Meta workers can opt out of being tracked at work up to 30 min",
+      "url": "https://www.bbc.com/news/articles/c93x0k194yno",
+      "hn_link": "https://news.ycombinator.com/item?id=48383220",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by reconnecting · 730 points · 695 comments",
+      "blurb": "Meta now surveils employees so thoroughly that opting out for 30 minutes is framed as a benefit. The 695-comment thread is a masterclass in how workplace surveillance tech normalizes over time. A chilling preview of where always-on productivity monitoring is heading."
+    },
+    {
+      "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+      "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
+      "hn_link": "https://news.ycombinator.com/item?id=48382310",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by xx_ns · 667 points · 109 comments",
+      "blurb": "A researcher demonstrates a BadUSB-style attack delivered acoustically through a PC speaker — no physical access, no USB required. The attack chain is genuinely novel and the write-up is detailed enough to understand the exploit mechanics. Eye-opening for anyone who assumes air-gap means safe."
+    },
+    {
+      "title": "They're made out of weights",
+      "url": "https://maxleiter.com/blog/weights",
+      "hn_link": "https://news.ycombinator.com/item?id=48391611",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by MaxLeiter · 658 points · 244 comments",
+      "blurb": "A riff on the classic sci-fi short, reframed as a meditation on what LLMs actually are — frozen probability distributions all the way down. Sharp, brief, and earns its 658 points by making you think differently about the tools you use every day. Required reading before you next argue about AI consciousness."
+    },
+    {
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "hn_link": "https://news.ycombinator.com/item?id=48383056",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pdyc · 480 points · 603 comments",
+      "blurb": "Simon Willison dissects Uber's $1,500/month per-employee AI cap and extracts useful market intelligence: that's the ceiling enterprises are willing to pay, which anchors pricing for every tool in this space including Claude Code. If you're budgeting AI tooling for a team, this framing is immediately useful. The 603-comment thread is wild."
+    },
+    {
+      "title": "DaVinci Resolve 21",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+      "hn_link": "https://news.ycombinator.com/item?id=48384482",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by pentagrama · 454 points · 203 comments",
+      "blurb": "Blackmagic ships DaVinci Resolve 21 with a hefty feature list spanning color, cut, Fusion, and Fairlight. It remains the gold-standard free (and paid) video editor available natively on macOS. The new AI-assisted tools in particular are worth a look for any developer doing video content."
+    },
+    {
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+      "hn_link": "https://news.ycombinator.com/item?id=48387270",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lordleft · 427 points · 748 comments",
+      "blurb": "Ted Chiang — the writer whose stories inspired Arrival — argues clearly and carefully that LLMs are not conscious and why it matters that we stop pretending otherwise. With 748 comments this is the discussion of the day. An essential counterweight to hype, especially in the week Gemma 4 dropped."
+    },
+    {
+      "title": "MacBook Neo is so popular that Apple doubled production",
+      "url": "https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/",
+      "hn_link": "https://news.ycombinator.com/item?id=48386238",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tosh · 375 points · 407 comments",
+      "blurb": "Ming-Chi Kuo reports Apple has doubled MacBook Neo production to meet demand — a strong signal this form factor is landing well with consumers. If you're planning a hardware upgrade, supply constraints are easing. The 407-comment thread digs into specs, pricing, and who's actually buying."
+    },
+    {
+      "title": "A Post-Quantum Future for Let's Encrypt",
+      "url": "https://letsencrypt.org/2026/06/03/pq-certs",
+      "hn_link": "https://news.ycombinator.com/item?id=48385114",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by SGran · 263 points · 144 comments",
+      "blurb": "Let's Encrypt lays out its roadmap for post-quantum TLS certificates, covering algorithm choices, chain length concerns, and rollout timelines. If your .NET or Node services terminate TLS, this affects you sooner than you think. Bookmark this for the next time someone on your team asks about quantum-safe infrastructure."
+    },
+    {
+      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by littlexsparkee · 281 points · 216 comments",
+      "blurb": "Berkeley CS professors are seeing a troubling pattern: students leaning on AI for problem sets are failing exams at higher rates and show measurably weaker fundamentals. A timely counterpoint to the 'AI makes everyone a 10x developer' narrative. Worth reading if you mentor junior devs or hire new grads."
+    },
+    {
+      "title": "The ways we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jbredeche · 122 points · 54 comments",
+      "blurb": "Anthropic's engineering blog explains the sandboxing and containment layers built around Claude across different product contexts — directly relevant if you're deploying Claude Code or building on the API. The details on tool-use restrictions and privilege separation are useful for anyone thinking about agentic AI safety in production."
+    },
+    {
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jc4p · 209 points · 85 comments",
+      "blurb": "A developer deliberately seeded an app with real vulnerabilities, then threw GPT-4, Claude, and Gemini at it with $1,500 in API budget. The results are nuanced — LLMs found some issues but missed others that a human pentester caught immediately. Essential reading for anyone who thinks AI replaces a security audit."
+    },
+    {
+      "title": "Ableton Extensions SDK",
+      "url": "https://www.ableton.com/en/live/extensions/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bennett_dev · 119 points · 43 comments",
+      "blurb": "Ableton quietly ships an official Extensions SDK, letting developers build deep integrations with Live beyond the old Max for Live constraints. This is a big deal for music-tech developers who've been working around unofficial APIs for years. If you've ever wanted to wire Ableton into a custom workflow, now you have a real SDK to do it."
+    },
+    {
+      "title": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tastyeffectco · 89 points · 24 comments",
+      "blurb": "A Go tool that spins up ephemeral Docker-based dev sandboxes with shareable preview URLs — no Kubernetes required. Perfect for teams that want Vercel-style preview deployments without the cloud bill or the complexity. You can have this running on a cheap VPS today."
+    },
+    {
+      "title": "Journey to JPEG XL: open-source experiments shaped the future of image coding",
+      "url": "https://opensource.googleblog.com/2026/06/journey-to-jpeg-xl-how-open-source-experiments-shaped-the-future-of-image-coding.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ledoge · 84 points · 45 comments",
+      "blurb": "Google's open source blog traces the research lineage behind JPEG XL, from PIK and FUIF through to the final standard. Now that Safari and Chrome both support it, understanding what you're actually using matters. Good background for anyone choosing image formats for web or app projects."
+    },
+    {
+      "title": "Meteor Explodes over Massachusetts",
+      "url": "https://www.nbcboston.com/news/local/meteor-explodes-over-massachusetts-what-we-know-and-where-it-landed/3957663/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by 1970-01-01 · 111 points · 55 comments",
+      "blurb": "A fireball broke up over Massachusetts with a sonic boom heard across multiple states — fragments reportedly recovered. These events are rarer than they seem and the community effort to triangulate landing sites using dashcam and doorbell footage is a neat example of citizen science at scale."
+    },
+    {
+      "title": "Embryos shape their limbs: a key discovery of \"genetic brakes\"",
+      "url": "https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gmays · 69 points · 5 comments",
+      "blurb": "UMontreal researchers identify molecular 'brakes' that tell developing limb cells when to stop proliferating — a missing piece in the puzzle of how body plans are reliably encoded. The analogy to compile-time constraints on growth is oddly compelling for a software brain. Elegantly weird developmental biology."
+    },
+    {
+      "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
+      "url": "https://news.ycombinator.com/item?id=48387095",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shalinshah · 67 points · 59 comments",
+      "blurb": "YC P26 startup Hyper pitches itself as a persistent 'company brain' that feeds codebase context to AI coding agents — essentially long-term memory and knowledge graph for Claude Code and similar tools. Directly addresses the 'AI forgets your architecture' problem that plagues agentic dev workflows. Worth watching."
+    },
+    {
+      "title": "Every Byte Matters",
+      "url": "https://fzakaria.com/2026/06/01/every-byte-matters",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ingve · 250 points · 124 comments",
+      "blurb": "A deep dive into binary size optimization — tracing where every byte in a compiled output comes from and what you can do about it. The techniques span linker scripts, LTO, and profile-guided optimization. Relevant for anyone shipping native macOS or embedded targets where binary size still matters."
+    }
+  ]
+}
