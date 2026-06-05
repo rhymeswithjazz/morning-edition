@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-05",
+  "stories": [
+    {
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "hn_link": "https://news.ycombinator.com/item?id=48400842",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 452 points · 607 comments",
+      "blurb": "Anthropic lays out where they actually stand on AI systems that improve themselves — the most consequential question in the field right now. 607 comments means the community has strong opinions. If you're building with Claude Code daily, understanding the trajectory of the underlying model is essential context."
+    },
+    {
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "hn_link": "https://news.ycombinator.com/item?id=48403980",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by binyu · 412 points · 117 comments",
+      "blurb": "Anthropic open-sources the harness they use to find vulnerabilities in code using AI — directly relevant to anyone using Claude Code for security-sensitive work. This is a practical, clone-it-today tool for automated code security review. The intersection of AI tooling and security is exactly where you want to be paying attention."
+    },
+    {
+      "title": "VoidZero Is Joining Cloudflare",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "hn_link": "https://news.ycombinator.com/item?id=48398055",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by coloneltcb · 636 points · 275 comments",
+      "blurb": "VoidZero — the company behind Vite, Vitest, and Rolldown — is joining Cloudflare, the biggest acquisition story in the JS toolchain world this year. This reshapes the future of frontend build tooling that Angular and TypeScript projects depend on. Evan You's tools are now inside a major cloud infrastructure company."
+    },
+    {
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "url": "https://github.com/alibaba/open-code-review",
+      "hn_link": "https://news.ycombinator.com/item?id=48406358",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by geoffbp · 176 points · 45 comments",
+      "blurb": "Alibaba ships a CLI tool that runs AI-powered code review — the kind of thing you'd slot right into a CI pipeline alongside Claude Code. It's open source and supports multiple LLM backends. A practical complement to in-editor AI assistance for catching issues at PR time."
+    },
+    {
+      "title": "South Korean Forums Will Need to Scan Every Images with AI Censorship Tools",
+      "url": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
+      "hn_link": "https://news.ycombinator.com/item?id=48406198",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 128 points · 100 comments",
+      "blurb": "South Korea is mandating AI image scanning across online communities — a chilling precedent for mass automated surveillance of user-generated content. This is the Privacy Guides community dissecting exactly why this matters beyond Korea's borders. The architecture of mandatory client-side scanning is a template governments everywhere are watching."
+    },
+    {
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "url": "https://arxiv.org/abs/2606.04032",
+      "hn_link": "https://news.ycombinator.com/item?id=48405931",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 164 points · 32 comments",
+      "blurb": "A rigorous study asking whether the Q, K, and V projections in attention are all strictly necessary — or whether some can be collapsed for efficiency gains. This is the kind of foundational architecture research that feeds into faster, cheaper inference. If you care about how LLMs are built under the hood, this is worth your morning."
+    },
+    {
+      "title": "WSL 2 is getting faster Windows file system access",
+      "url": "https://www.boxofcables.dev/wsl2-per-device-swiotlb-pools-for-virtiofs-and-virtiofs-virtioproxy/",
+      "hn_link": "https://news.ycombinator.com/item?id=48403377",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by haydenbarnes · 140 points · 102 comments",
+      "blurb": "The perennial pain of slow cross-filesystem I/O in WSL2 is finally getting a real kernel-level fix via per-device SWIOTLB pools for virtiofs. If you've ever watched a .NET build crawl because files live on the Windows side, this is the fix you've been waiting for. Technical deep-dive on the actual memory mapping changes."
+    },
+    {
+      "title": "Changing How We Develop Ladybird",
+      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+      "hn_link": "https://news.ycombinator.com/item?id=48409191",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by EdwinHoksberg · 128 points · 62 comments",
+      "blurb": "The independent Ladybird browser project announces significant changes to its development model, signaling growing seriousness about becoming a real Chrome/Firefox alternative. A browser not beholden to any ad network or OS vendor is worth watching carefully. The development philosophy shift suggests they're thinking long-term."
+    },
+    {
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "hn_link": "https://news.ycombinator.com/item?id=48399974",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by theanonymousone · 133 points · 13 comments",
+      "blurb": "Huawei's research lab drops a native vLLM backend that quantizes the KV cache — the memory bottleneck that limits how many requests you can serve simultaneously. This is a meaningful efficiency gain for anyone running local or self-hosted LLM inference. Open source and plugs directly into the vLLM ecosystem."
+    },
+    {
+      "title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+      "url": "https://tiki.li/blog/blqsort",
+      "hn_link": "https://news.ycombinator.com/item?id=48375445",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by birdculture · 170 points · 51 comments",
+      "blurb": "A new branchless quicksort implementation claims to beat both std::sort and the widely-respected pdqsort on modern hardware. The secret is eliminating branch mispredictions that tank performance on out-of-order CPUs. For anyone writing performance-sensitive C/C++ or just curious about algorithmic engineering, this is a fun read with real benchmarks."
+    },
+    {
+      "title": "Magenta RealTime 2: Open and Local Live Music Models",
+      "url": "https://magenta.withgoogle.com/magenta-realtime-2",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "by selvan · 35 points · 5 comments",
+      "blurb": "Google's Magenta project ships real-time, locally-runnable music generation models — no cloud required. These are designed for live performance and creative coding, running on consumer hardware. For developers who want to embed generative music into apps or just jam with AI in real time, this is a major step forward."
+    },
+    {
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "url": "https://passo.uno/fine-tuning-docs-llm/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by taubek · 53 points · 16 comments",
+      "blurb": "A fun but instructive experiment: fine-tuning an LLM to produce documentation in the style of classic 90s manuals — terse, precise, no fluff. The real value is the methodology for fine-tuning on style, which applies to any writing domain. Great fodder for prompt engineering and thinking about what LLMs actually learn."
+    },
+    {
+      "title": "C++: The Documentary",
+      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ingve · 140 points · 67 comments",
+      "blurb": "Herb Sutter announces the release of a full documentary on the history of C++ — interviews with Stroustrup and the people who shaped the language. Even if you're primarily a TypeScript/.NET dev, understanding why C++ is the way it is illuminates half the design decisions in modern languages. Worth the watch."
+    },
+    {
+      "title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
+      "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by rbanffy · 7 points · 1 comments",
+      "blurb": "Quanta Magazine on how a quantum information property called \"magic\" — non-stabilizerness — may be the missing ingredient for deriving gravity from entanglement. This is cutting-edge theoretical physics explained accessibly. The kind of story that makes you feel good about being curious."
+    },
+    {
+      "title": "Queen bees emerge from special wax chambers",
+      "url": "https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by gmays · 78 points · 11 comments",
+      "blurb": "New research reveals queen bee cells are chemically distinct from worker cells — the wax itself plays an active role in royal development. It's a lovely example of how material science and biology intertwine in nature. A satisfying weird-science palate cleanser between code reviews."
+    },
+    {
+      "title": "Leap in DNA synthesis slashes time to build new genetic sequences",
+      "url": "https://spectrum.ieee.org/faster-dna-synthesis-sidewinder",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by natalcleft · 22 points · 6 comments",
+      "blurb": "IEEE Spectrum covers Sidewinder, a new DNA synthesis approach that dramatically cuts the time to construct novel genetic sequences. Faster DNA synthesis is the bottleneck for synthetic biology, drug development, and data storage in DNA. This is the kind of foundational capability jump that unlocks entire fields."
+    },
+    {
+      "title": "Show HN: Mercek – A Desktop IDE for AWS ECS",
+      "url": "https://www.mercek.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by utibeumanah · 54 points · 20 comments",
+      "blurb": "A native desktop IDE specifically for managing AWS ECS — not another web dashboard, an actual local app. If you deploy containerized .NET or Node services on ECS, this could replace a lot of painful console clicking. Worth a look if you spend meaningful time herding containers."
+    },
+    {
+      "title": "Making Debian or Fedora persistent live images",
+      "url": "https://sigwait.org/~alex/blog/2026/05/28/smdBC8.html",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by henry_flower · 75 points · 9 comments",
+      "blurb": "A clear, practical guide to creating persistent live USB images from Debian or Fedora — your changes survive reboots, but the system stays portable. Useful for secure air-gapped dev environments, travel machines, or rescue sticks. The kind of how-to you bookmark and actually use."
+    },
+    {
+      "title": "Linear Cosine Palettes(2025)",
+      "url": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "by num42 · 18 points · 0 comments",
+      "blurb": "A beautifully written deep-dive into generating smooth, perceptually pleasing color palettes using cosine functions — a technique popularized by Inigo Quilez. Essential reading for anyone doing creative coding, data visualization, or UI theming. The math is approachable and the visual results are immediately applicable."
+    },
+    {
+      "title": "There's no escaping it: an exploration of ANSI codes",
+      "url": "https://blog.safia.rocks/2025/12/22/ansi-codes/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ankitg12 · 5 points · 3 comments",
+      "blurb": "A thorough exploration of ANSI escape codes — the invisible plumbing behind every colorized CLI output, terminal cursor move, and progress bar. If you build CLI tools (and with .NET and TypeScript you probably do), understanding this layer makes you a significantly better terminal citizen. Well-written and surprisingly deep."
+    }
+  ]
+}
