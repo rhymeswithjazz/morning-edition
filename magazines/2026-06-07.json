@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-07",
+  "stories": [
+    {
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "hn_link": "https://news.ycombinator.com/item?id=48427643",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 579 points · 206 comments",
+      "blurb": "Attackers exploited Meta's own AI chatbot to socially engineer their way into thousands of Instagram accounts — a chilling example of AI as attack surface, not just attack tool. The mechanism reportedly involves the chatbot being manipulated into leaking or facilitating account recovery flows. If you care about AI safety and platform security, this is a must-read."
+    },
+    {
+      "title": "Ntsc-rs – open-source video emulation of analog TV and VHS artifacts",
+      "url": "https://ntsc.rs/",
+      "hn_link": "https://news.ycombinator.com/item?id=48428025",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by gregsadetsky · 339 points · 89 comments",
+      "blurb": "A beautifully obsessive Rust library that faithfully recreates the noise, chroma bleeding, and scan-line weirdness of analog NTSC/VHS signals. If you're doing retro-aesthetic video work, demoscene-style creative coding, or just want to add filmic grime to renders, this is the real deal. The live demo is hypnotic."
+    },
+    {
+      "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
+      "url": "https://pokeemerald.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48423762",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tripplyons · 317 points · 90 comments",
+      "blurb": "Someone compiled the decompiled Pokémon Emerald source to WASM and it runs at a ludicrous 100,000 FPS uncapped in the browser. Beyond the nostalgia factor, this is a serious showcase of what WASM can do for legacy code — and a fascinating case study in the decompilation-to-platform-port pipeline."
+    },
+    {
+      "title": "Moving beyond fork() + exec()",
+      "url": "https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/",
+      "hn_link": "https://news.ycombinator.com/item?id=48425528",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jwilk · 298 points · 292 comments",
+      "blurb": "LWN digs into the long-running effort to replace the Unix fork()+exec() process spawning model, which has aged poorly in a world of large address spaces, threads, and security isolation. The 292-comment discussion is gold — systems programmers wrestling with decades of Unix baggage. Essential reading for anyone building CLI tools or process orchestration."
+    },
+    {
+      "title": "I design with Claude more than Figma now",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "hn_link": "https://news.ycombinator.com/item?id=48431981",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by MrBuddyCasino · 137 points · 98 comments",
+      "blurb": "A Jane Street engineer explains how Claude Code has replaced Figma as their primary design tool — using the LLM to iterate on UI directly in code rather than in a design canvas. This is a highly practical workflow shift that's directly relevant if you use Claude Code daily. The implications for the Figma-to-code pipeline are significant."
+    },
+    {
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "hn_link": "https://news.ycombinator.com/item?id=48416264",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pramodbiligiri · 190 points · 118 comments",
+      "blurb": "Harness's engineering team shares how they've restructured their development workflow around OpenAI Codex in agentic mode — parallelizing tasks, reducing review cycles, and rethinking what 'done' means when AI writes the first draft. A concrete case study in agent-first engineering that complements the Claude Code workflow many devs are building."
+    },
+    {
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "hn_link": "https://news.ycombinator.com/item?id=48430923",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Anon84 · 98 points · 31 comments",
+      "blurb": "Researchers break down exactly where tokens get consumed in agentic coding pipelines — tool calls, context windows, re-prompting, error recovery. If you're building or optimizing AI-assisted dev workflows, this gives you the data to understand your actual cost drivers. Pairs perfectly with the Harness and Claude Code stories today."
+    },
+    {
+      "title": "Zeroserve: A zero-config web server you can script with eBPF",
+      "url": "https://su3.io/posts/introducing-zeroserve",
+      "hn_link": "https://news.ycombinator.com/item?id=48425723",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by losfair · 231 points · 55 comments",
+      "blurb": "Zeroserve lets you attach eBPF programs to handle HTTP requests directly in the kernel — no config files, no boilerplate, just programmable networking at the lowest level. It's a genuinely novel approach to scriptable infrastructure. The performance implications alone make this worth understanding."
+    },
+    {
+      "title": "Sem: New primitive for code understanding – not LSPs, but entities on top of Git",
+      "url": "https://ataraxy-labs.github.io/sem/",
+      "hn_link": "https://news.ycombinator.com/item?id=48428475",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rohanucla · 117 points · 47 comments",
+      "blurb": "Sem proposes a new abstraction layer above Git for understanding code as semantic entities — functions, types, modules — rather than raw text diffs. This could be a foundational primitive for AI coding tools that need structured code context. If you're building on top of AI coding assistants or thinking about the future of LSPs, this is worth your attention."
+    },
+    {
+      "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
+      "url": "https://uonr.github.io/poincake/",
+      "hn_link": "https://news.ycombinator.com/item?id=48372138",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by uonr · 163 points · 28 comments",
+      "blurb": "An infinite-canvas note-taking experiment that maps your notes onto the hyperbolic Poincaré disk — meaning the canvas literally never runs out of space, no matter how deeply you nest. For Obsidian users who love visual/spatial organization, this is a mind-bending what-if. The math is gorgeous and the demo is immediately playable."
+    },
+    {
+      "title": "Motorola effectively bricked its entire line of WiFi routers without explanation",
+      "url": "https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by thisislife2 · 146 points · 66 comments",
+      "blurb": "Motorola's entire router lineup stopped functioning when their cloud-dependent MotoSync app went dark — no explanation, no timeline, no workaround for users who relied on it. This is the 'cloud dependency as product liability' story in its purest form. A cautionary tale for anyone evaluating smart home hardware."
+    },
+    {
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 93 points · 29 comments",
+      "blurb": "Simon Willison walks through running untrusted Python safely by embedding MicroPython compiled to WASM — no subprocess, no Docker, just browser-safe sandboxed execution. Directly actionable for anyone building AI tools that need to run user-supplied or LLM-generated code. The approach is elegant and the write-up is typically clear."
+    },
+    {
+      "title": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+      "url": "https://www.ioccc.org/2025/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by matt_d · 128 points · 30 comments",
+      "blurb": "The IOCCC is back after a long hiatus, and the 2025 winners are a glorious parade of C code that somehow compiles, runs, and does something amazing while looking like keyboard garbage. A tradition that reminds us how deep the C rabbit hole goes — and how creative programmers can be when the rules are the only limit."
+    },
+    {
+      "title": "Benchmarks in Leipzig",
+      "url": "https://arxiv.org/abs/2606.05818",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by root-parent · 131 points · 46 comments",
+      "blurb": "A new paper examining how LLM benchmarks are constructed, measured, and gamed — using Leipzig as a case study in benchmark contamination and reproducibility failures. With AI evaluation becoming critical infrastructure, understanding where benchmarks break down is essential for anyone making model selection decisions."
+    },
+    {
+      "title": "Introducing Boron Buckyballs: Theory that B80 cages can't be made is disproved",
+      "url": "https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by crescit_eundo · 83 points · 21 comments",
+      "blurb": "Chemists have synthesized boron buckyballs (B80 cages) for the first time, overturning a theoretical prediction that they were structurally impossible. Buckminsterfullerene unlocked carbon nanotube research — what might boron versions enable? A genuine materials science breakthrough with downstream implications for computing."
+    },
+    {
+      "title": "Biohub releases a world model of protein biology",
+      "url": "https://biohub.org/news/world-model-of-protein-biology/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gmays · 70 points · 4 comments",
+      "blurb": "The Chan Zuckerberg Biohub has released a foundation model trained on the full landscape of protein biology — not just structure prediction but dynamics, interactions, and function. Think AlphaFold but broader, and open. The implications for drug discovery and synthetic biology are hard to overstate."
+    },
+    {
+      "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by toephu2 · 239 points · 820 comments",
+      "blurb": "Google paying nearly $1B/month to a competitor's compute infrastructure is the clearest signal yet that AI training capacity has become the scarcest resource in tech. The 820-comment thread is a pressure cooker of takes on what this means for cloud computing, the AI arms race, and competitive dynamics. The industry is reshaping in real time."
+    },
+    {
+      "title": "Home alone: Remote work, isolation, and mental health",
+      "url": "https://www.science.org/doi/10.1126/science.aec7671",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by speckx · 166 points · 159 comments",
+      "blurb": "A peer-reviewed Science study quantifies the mental health costs of long-term remote work and social isolation — directly relevant to the solo developer lifestyle. The findings are nuanced: it's not remote work itself but the degree of isolation that predicts outcomes. Actionable data for structuring your workweek differently."
+    },
+    {
+      "title": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by davidbarker · 111 points · 17 comments",
+      "blurb": "A curated, searchable archive of high-quality public domain images — not the chaos of Wikimedia Commons, but organized and ready to use in projects, docs, or designs without attribution or licensing worry. A genuinely useful bookmark for any developer who also does visual work."
+    },
+    {
+      "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
+      "url": "https://symbolica.io/posts/symbolica_2_0_release/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mmastrac · 78 points · 6 comments",
+      "blurb": "Symbolica 2.0 is a computer algebra system with first-class Python and Rust bindings, designed for high-performance symbolic math in real codebases. If you're doing anything with physics simulations, ML research infrastructure, or mathematical optimization, this fills a gap that SymPy leaves wide open. The Rust performance story is compelling."
+    }
+  ]
+}
