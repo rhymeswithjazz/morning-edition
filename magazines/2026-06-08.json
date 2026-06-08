@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-08",
+  "stories": [
+    {
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "hn_link": "https://news.ycombinator.com/item?id=48434312",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by poisonfountain · 965 points · 929 comments",
+      "blurb": "The most-discussed post on HN today: a developer articulates the creeping dread of watching AI tools commoditize the exact skills they spent years building. With nearly 1,000 upvotes and 929 comments, this has clearly hit a nerve across the industry. If you're building with Claude Code daily, this is the mirror you need to look into."
+    },
+    {
+      "title": "How's Linear so fast? A technical breakdown",
+      "url": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "hn_link": "https://news.ycombinator.com/item?id=48437609",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by howToTestFE · 409 points · 186 comments",
+      "blurb": "Linear's snappiness is legendary among developers — this breakdown finally explains the architectural decisions behind it. Optimistic updates, local-first sync, and careful UI threading are all unpacked. Essential reading if you're building or evaluating any kind of collaborative tooling."
+    },
+    {
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "hn_link": "https://news.ycombinator.com/item?id=48433756",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by devenjarvis · 313 points · 55 comments",
+      "blurb": "Lathe is a CLI tool that guides you through learning new material with LLMs as a Socratic tutor rather than an answer dispenser. It's a direct counter to the vibe-coding trend: structured, question-driven exploration. If you're picking up a new framework or domain, this is worth trying today."
+    },
+    {
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "hn_link": "https://news.ycombinator.com/item?id=48440448",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yogthos · 267 points · 113 comments",
+      "blurb": "DeepSeek continues its relentless benchmark march, now claiming a precision edge over GPT-5.5 Pro. The competitive LLM landscape is moving faster than ever, which matters directly when choosing models for coding workflows. Worth a read before your next tool evaluation."
+    },
+    {
+      "title": "APC–2 – A professional record cutter for producing original playback discs",
+      "url": "https://teenage.engineering/products/apc-2",
+      "hn_link": "https://news.ycombinator.com/item?id=48440383",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by vthommeret · 203 points · 103 comments",
+      "blurb": "Teenage Engineering has done it again: a desktop device for cutting actual vinyl records at home. Bonkers in the best way — real-time lathe cutting, built-in mastering, and that signature TE industrial design. Pure creative hardware lust."
+    },
+    {
+      "title": "1k Data Breaches Later, the Disclosure Lag Is Worse",
+      "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
+      "hn_link": "https://news.ycombinator.com/item?id=48440952",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by 882542F3884314B · 149 points · 54 comments",
+      "blurb": "Troy Hunt has now processed 1,000 data breaches through Have I Been Pwned, and the takeaway is grim: companies are taking longer than ever to disclose after incidents. He presents concrete data on the widening gap between breach date and notification. An important benchmark for anyone thinking about security posture or compliance."
+    },
+    {
+      "title": "Do we fear the serializable isolation level more than we fear subtle bugs (2024)",
+      "url": "https://blog.ydb.tech/do-we-fear-the-serializable-isolation-level-more-than-we-fear-subtle-bugs-5a025401b609",
+      "hn_link": "https://news.ycombinator.com/item?id=48384525",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by b-man · 79 points · 46 comments",
+      "blurb": "A thoughtful argument that developers irrationally avoid serializable transactions due to performance fears, while silently accepting data corruption bugs. The YDB team backs the case with real-world examples. If you're making database isolation decisions in a .NET or TypeScript backend, this will sharpen your thinking."
+    },
+    {
+      "title": "New drug 'functionally cures' many hepatitis B virus infections",
+      "url": "https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08",
+      "hn_link": "https://news.ycombinator.com/item?id=48440463",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gmays · 170 points · 27 comments",
+      "blurb": "Hepatitis B infects ~296 million people worldwide and has resisted cures for decades — this new drug achieved functional cure rates well above anything previously seen in trials. A genuine medical milestone buried under the AI news cycle. Science moving fast in the best possible direction."
+    },
+    {
+      "title": "Algorithmic Monocultures in Hiring",
+      "url": "https://algorithmichiring.github.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=48440549",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by drchiu · 93 points · 34 comments",
+      "blurb": "When every company uses the same AI screening tools, you get systematic homogenization of candidates — not just bias, but convergent mediocrity. This research project documents the mechanics and risks. Directly relevant as AI coding assessments become the norm for engineering hiring."
+    },
+    {
+      "title": "The Smallest Brain You Can Build: A Perceptron in Python",
+      "url": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
+      "hn_link": "https://news.ycombinator.com/item?id=48440064",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by DevarshRanpara · 193 points · 28 comments",
+      "blurb": "A clean from-scratch walkthrough of the perceptron — the atom from which all modern neural networks are built. Well-paced and code-forward, this is the kind of post you send to someone who wants to understand LLMs at a mechanical level. Good foundations reading for any AI toolchain user."
+    },
+    {
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: blog-posts, television, hack, software, security, hardware, proxy, ai, network, .favorite, scraping",
+      "blurb": "A deep technical investigation into how Bright Data's SDK — silently embedded in smart TV and mobile apps — turns consumer devices into AI web-scraping proxies. Detailed reverse-engineering of the SDK behavior, which platforms ship it, and what it actually does with your connection. Essential privacy reading for anyone on a home network."
+    },
+    {
+      "title": "mouseless",
+      "url": "https://mouseless.click/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Mouseless lets you click anywhere on screen in under 2 seconds just by typing coordinates — pure keyboard-driven mouse control for macOS, Linux, and Windows. For power users who hate leaving the keyboard, this is the kind of tool that becomes invisible once you internalize it. Try it today alongside your editor workflow."
+    },
+    {
+      "title": "GitHub - tejaswigowda/ffmpeg-webCLI: A browser-based video editor powered by ffmpeg.wasm",
+      "url": "https://github.com/tejaswigowda/ffmpeg-webCLI",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ffmpeg",
+      "blurb": "Full ffmpeg power, entirely in your browser via WebAssembly — no uploads, no server, no subscription. Paste a command, process your video locally. A great privacy-respecting alternative to uploading clips to random web services."
+    },
+    {
+      "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+      "url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "404 Media documents the emerging SEO-for-LLMs playbook: companies are flooding Reddit with planted posts specifically to shape what AI search tools say about them. It's a new kind of information pollution that's already working. If you rely on AI-assisted research, you need to understand this attack vector."
+    },
+    {
+      "title": "Halide Mark III",
+      "url": "https://www.lux.camera/halide-mark-iii/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apps, photography, pictures, camera, newsletter, .processed:diane",
+      "blurb": "Lux has shipped Halide Mark III, a major overhaul of the best manual camera app on iOS. New processing pipeline, redesigned interface, and deeper Apple silicon integration. If you care about photography on iPhone, this is the definitive upgrade."
+    },
+    {
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "url": "https://gwern.net/guardian-angel",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm-theory",
+      "blurb": "Gwern lays out a vision for deeply personalized LLM assistants that act as persistent, trusted agents — knowing your context, protecting your interests, and optimizing your productivity over time. Long-form and ambitious, this is the thoughtful theoretical grounding behind where tools like Claude Code are headed."
+    },
+    {
+      "title": "The Quiet Numbers Station: Decoding Nineteen Years of GPS Cryptography",
+      "url": "https://www.benthamsgaze.org/2026/06/02/the-quiet-numbers-station-decoding-nineteen-years-of-gps-cryptography/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: security, military, crypto, hiddeninplainsights, spooks, s3cr3ts",
+      "blurb": "Researchers spent years reverse-engineering a cryptographic signal that's been hiding in plain sight inside GPS broadcasts since 2004. The writeup reads like a spy thriller and ends with real cryptographic findings. A jaw-dropping piece of applied security research."
+    },
+    {
+      "title": "GitHub - mysk-research/loupe: A privacy-focused iOS app that raises awareness about what native apps can see",
+      "url": "https://github.com/mysk-research/loupe",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Loupe is an open-source iOS app that visualizes exactly what data other apps on your device can access — contacts, photos, location, pasteboard, and more. A rare privacy transparency tool built specifically for the Apple ecosystem. Install it and prepare to be surprised."
+    },
+    {
+      "title": "Magenta RealTime 2 (Apps & Plugins)",
+      "url": "https://magenta.withgoogle.com/mrt2",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: music, mac, local, realtime, awesome",
+      "blurb": "Google's Magenta RealTime 2 brings AI-assisted music co-creation to your DAW as a plugin — real-time generation, local processing, Mac support. It's the creative AI tooling equivalent of GitHub Copilot, but for making music. Worth experimenting with if you produce or noodle at all."
+    },
+    {
+      "title": "연구를 위한 클로드 코드 스킬 — Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A curated set of Claude Code skills/commands designed for the full academic research workflow: research → write → review → revise → finalize. Directly applicable if you use Claude Code for any writing or research-heavy tasks. Fork it and adapt the prompts to your own domain."
+    }
+  ]
+}
