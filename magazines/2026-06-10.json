@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-10",
+  "stories": [
+    {
+      "title": "Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "hn_link": "https://news.ycombinator.com/item?id=48463808",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Philpax · 2217 points · 1711 comments",
+      "blurb": "Anthropic drops Claude Fable 5, their first Mythos-class frontier model — and HN erupted with 1711 comments to prove it. If you use Claude Code daily, this is the biggest capability jump to your primary tool in months. Read the announcement, then immediately check what's new in the API."
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48467896",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mips_avatar · 801 points · 390 comments",
+      "blurb": "A sharp critical take: Claude Fable's terms apparently permit it to silently degrade service to competitors — and crucially, the degradation is invisible. For anyone building products on top of Claude, this is a must-read on the hidden risks of AI vendor lock-in and policy gotchas."
+    },
+    {
+      "title": "macOS Container Machines",
+      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "hn_link": "https://news.ycombinator.com/item?id=48469658",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by timsneath · 725 points · 274 comments",
+      "blurb": "Apple's open-source container tooling now ships full lightweight VM support — run Linux containers natively on Apple Silicon without Docker Desktop. For .NET and dev-tools work on a Mac, this changes the local infrastructure game significantly."
+    },
+    {
+      "title": "Making Graphics Like it's 1993",
+      "url": "https://staniks.github.io/articles/catlantean-3d-blog-1/",
+      "hn_link": "https://news.ycombinator.com/item?id=48459294",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by sklopec · 858 points · 147 comments",
+      "blurb": "A loving deep-dive into recreating DOS-era 3D rendering techniques — fixed-point math, texture mapping, and all. Part devlog, part retro-computing archaeology; irresistible if you have any nostalgia for the Doom/Quake era."
+    },
+    {
+      "title": "OpenCV 5 Is Here: The Biggest Leap in Years for Computer Vision",
+      "url": "https://opencv.org/opencv-5/",
+      "hn_link": "https://news.ycombinator.com/item?id=48421858",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ternaus · 758 points · 136 comments",
+      "blurb": "OpenCV 5 lands with a redesigned API, better Python/C++ parity, and vastly improved deep-learning backend support. If you've been avoiding OpenCV because the old API was a mess, now is the time to look again."
+    },
+    {
+      "title": "FCC wants to kill burner phones by forcing telecoms to get all customers' IDs",
+      "url": "https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/",
+      "hn_link": "https://news.ycombinator.com/item?id=48462308",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by berlianta · 521 points · 341 comments",
+      "blurb": "The FCC is pushing to mandate universal ID collection for all prepaid phone customers — effectively ending anonymous mobile communication in the US. A significant blow to operational privacy and a chilling precedent for further surveillance mandates."
+    },
+    {
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "hn_link": "https://news.ycombinator.com/item?id=48470248",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ahlCVA · 519 points · 301 comments",
+      "blurb": "A German court has ruled that AI-generated answers in Google's search results are legally Google's own speech — making them liable for hallucinations. This landmark ruling could reshape how AI answer engines are deployed across Europe."
+    },
+    {
+      "title": "Grit: Rewriting Git in Rust with agents",
+      "url": "https://blog.gitbutler.com/true-grit",
+      "hn_link": "https://news.ycombinator.com/item?id=48466812",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by cbrewster · 137 points · 204 comments",
+      "blurb": "GitButler's team documents rewriting large chunks of their Git implementation in Rust using agentic AI coding — with candid lessons on where agents shine and where they still fall flat. Essential reading for anyone using Claude Code or Copilot for non-trivial refactors."
+    },
+    {
+      "title": "Upcoming breaking changes for npm v12",
+      "url": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+      "hn_link": "https://news.ycombinator.com/item?id=48467705",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by plasma · 355 points · 134 comments",
+      "blurb": "npm v12 is dropping several long-deprecated behaviors and tightening workspace semantics. If your CI pipelines or monorepo setups rely on npm, skim this now before the upgrade blindsides you."
+    },
+    {
+      "title": "What it feels like to work with Mythos",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "hn_link": "https://news.ycombinator.com/item?id=48464140",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by swolpers · 266 points · 226 comments",
+      "blurb": "Ethan Mollick with one of his characteristically grounded, phenomenological takes on what it's actually like to think alongside a frontier model. Less benchmark, more felt experience — exactly the perspective missing from most AI coverage."
+    },
+    {
+      "title": "Introducing FrontierCode | Cognition",
+      "url": "https://cognition.ai/blog/frontier-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, comparison, programming",
+      "blurb": "Cognition (makers of Devin) launches FrontierCode, a benchmark comparing frontier AI coding models head-to-head. If you're deciding which model to pair with for heavy TypeScript/.NET work, this gives you comparative signal beyond vibes."
+    },
+    {
+      "title": "AddyOsmani.com - Loop Engineering",
+      "url": "https://addyosmani.com/blog/loop-engineering/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agenticAI, agenticEngineering",
+      "blurb": "Addy Osmani lays out a framework for structuring agentic AI loops in engineering workflows — how to think about evaluate/act cycles, when to let agents run free, and when to keep humans in the loop. Practical and directly applicable to Claude Code usage."
+    },
+    {
+      "title": "GitHub - chopratejas/headroom: The Context Optimization Layer for LLM Applications",
+      "url": "https://github.com/chopratejas/headroom",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, optimization, context, headroom-framework, tejas-chopra, application-layer, to_share",
+      "blurb": "Headroom is a library for dynamically managing context windows in LLM applications — trimming, prioritizing, and compressing what gets sent to the model. A tactical tool for anyone building on top of Claude or other large-context models who's hit the \"too much context\" wall."
+    },
+    {
+      "title": "What Apple Knows About AI That Silicon Valley Won't Admit",
+      "url": "https://www.thealgorithmicbridge.com/p/what-apple-knows-about-ai-that-silicon",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A contrarian argument that Apple's privacy-first, on-device AI strategy is actually the correct long-term bet — not a timid hedge. Daring Fireball-approved, and essential context for understanding the WWDC AI announcements."
+    },
+    {
+      "title": "Introducing the Third Generation of Apple's Foundation Models - Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple's ML Research blog details the architecture and training improvements behind the third-gen Foundation Models powering Apple Intelligence. If you're curious what's actually running on-device after WWDC, this is the primary source."
+    },
+    {
+      "title": "WWDC26 — The Small Things - Oneberri Blog",
+      "url": "https://blog.oneberri.com/posts/wwdc26-the-small-things",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The headline WWDC features get all the attention, but the buried quality-of-life improvements are often what matter most day-to-day. This roundup surfaces the small macOS/iOS changes most recaps missed — worth bookmarking in Obsidian."
+    },
+    {
+      "title": "Meta Deletes Face-Recognition System From Its Smart Glasses App After WIRED Report | WIRED",
+      "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: facebook, privacy, glasses",
+      "blurb": "WIRED's investigation found live face-recognition code in the Meta AI app for Ray-Ban glasses; Meta quietly deleted it after the story broke. The incident shows how casually surveillance features slip into consumer products — and how journalism still matters."
+    },
+    {
+      "title": "Music Decoy - Stop launching the Music app whenever you press ▶ Play",
+      "url": "https://lowtechguys.com/musicdecoy/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, app, itunes, keyboard",
+      "blurb": "A tiny macOS utility that intercepts the media Play key and prevents Apple Music from hijacking your focus every time you resume audio. One of those tools you install once and immediately wonder how you lived without it."
+    },
+    {
+      "title": "thi.ng - computational design tools for Clojure & Clojurescript",
+      "url": "https://thi.ng/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: creativecoding, clojure",
+      "blurb": "thi.ng is a sprawling ecosystem of computational design libraries for Clojure — generative geometry, signal processing, WebGL, data visualization, and more. If you're into creative coding, this is a rabbit hole worth an afternoon."
+    },
+    {
+      "title": "The Cypherpunk Library",
+      "url": "https://www.cypherpunkbooks.com/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A curated reading list of the canonical cypherpunk texts — from the original mailing list manifestos to modern cryptography and digital rights writing. An excellent reference to drop into your Obsidian vault for when you need the intellectual underpinning for a privacy argument."
+    }
+  ]
+}
