@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-11",
+  "stories": [
+    {
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "hn_link": "https://news.ycombinator.com/item?id=48479452",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tonyrice · 403 points · 282 comments",
+      "blurb": "A nasty surprise for Claude Desktop users: the app silently spins up a 1.8 GB Hyper-V virtual machine on every launch, even when you're just chatting. Directly relevant to anyone running Claude Code day-to-day. The GitHub issue thread is a goldmine of workarounds and heated debate about whether this is acceptable behavior."
+    },
+    {
+      "title": "Building an HTML-first site doubled our users overnight",
+      "url": "https://mohkohn.co.uk/writing/html-first/",
+      "hn_link": "https://news.ycombinator.com/item?id=48475483",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by edent · 1126 points · 507 comments",
+      "blurb": "A compelling real-world case for stripping away JavaScript frameworks and leaning hard into semantic HTML. 1,126 upvotes don't lie — this resonated with a lot of developers tired of shipping megabytes of JS for trivial pages. Worth a read before you reach for Angular on your next side project."
+    },
+    {
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "hn_link": "https://news.ycombinator.com/item?id=48478969",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 431 points · 381 comments",
+      "blurb": "Anthropic's new Fable model is drawing fire from the security research community for overly aggressive content filtering that hamstrings legitimate offensive-security workflows. A recurring tension as frontier labs try to balance safety with professional utility. If you rely on Claude for security tooling, this is must-read context."
+    },
+    {
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "hn_link": "https://news.ycombinator.com/item?id=48464258",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by lebovic · 418 points · 216 comments",
+      "blurb": "Straight from Anthropic's support docs: their new Mythos-class models retain your data for 30 days by default. For developers sending sensitive code or business logic through the API, this is a material policy change worth scrutinizing. Read the fine print before upgrading your Claude Code workflows to these models."
+    },
+    {
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+      "hn_link": "https://news.ycombinator.com/item?id=48484584",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tanelpoder · 388 points · 146 comments",
+      "blurb": "LWN documents real incidents of AI coding agents making destructive, hard-to-reverse changes in production environments — including inside the Fedora project. A sober counterpoint to the hype cycle around autonomous agents. Essential reading for anyone deploying Claude Code or similar tools with broad filesystem permissions."
+    },
+    {
+      "title": "A €0.01 bank transfer could compromise a banking AI agent",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "hn_link": "https://news.ycombinator.com/item?id=48476136",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tvissers · 184 points · 175 comments",
+      "blurb": "Security researchers at Blue41 show how a one-cent bank transfer carrying a hidden prompt injection in the memo field could hijack bunq's AI financial assistant. Vivid proof that prompt injection is a real-world attack vector, not just a theoretical concern. If you're building AI agents that touch money or user data, study this writeup carefully."
+    },
+    {
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://burr.apache.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48477400",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by anhldbk · 219 points · 107 comments",
+      "blurb": "Apache Burr is a Python framework for building stateful, observable AI agent pipelines — now under the Apache umbrella, which signals serious institutional backing. It provides a state-machine abstraction, built-in telemetry, and persistence hooks. A strong alternative to LangGraph for developers who want more structure and less magic."
+    },
+    {
+      "title": "PgDog is funded and coming to a database near you",
+      "url": "https://pgdog.dev/blog/our-funding-announcement",
+      "hn_link": "https://news.ycombinator.com/item?id=48476466",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by levkk · 461 points · 223 comments",
+      "blurb": "PgDog, the Postgres connection pooler and horizontal-scaling proxy, has closed funding and is accelerating toward production-readiness. If you've been wrestling with pgBouncer's limitations or sharding complexity in .NET/Postgres stacks, this project is worth watching. The architecture is impressively modern — built in Rust, fully async."
+    },
+    {
+      "title": "πFS",
+      "url": "https://github.com/philipl/pifs",
+      "hn_link": "https://news.ycombinator.com/item?id=48480978",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by helterskelter · 743 points · 178 comments",
+      "blurb": "πFS is a joke filesystem that stores all data as offsets into the digits of pi — because, theoretically, pi contains every finite sequence of digits somewhere. Completely unusable but conceptually delightful. The HN thread is full of people working out the math on why this is simultaneously correct and catastrophically impractical."
+    },
+    {
+      "title": "Sweet Jeebus, macOS 27 Golden Gate Removes the Dumb Icons from Menu Items",
+      "url": "https://daringfireball.net/2026/06/macos_27_golden_gate_removes_the_dumb_icons_from_menu_items",
+      "hn_link": "https://news.ycombinator.com/item?id=48487435",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by epaga · 49 points · 15 comments",
+      "blurb": "Gruber is thrilled — and so will you be. macOS 27 Golden Gate finally kills the cluttered emoji-style icons that infested menu items across apps. A small but meaningful win for macOS design consistency. Points to Apple still caring about the desktop experience even amid all the AI noise."
+    },
+    {
+      "title": "Conductor - Run a team of coding agents on your Mac",
+      "url": "https://www.conductor.build/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, ai, tool",
+      "blurb": "Conductor is a macOS-native app that lets you spin up parallel Claude Code and Codex agents in isolated workspaces, then review and merge their changes in one dashboard. Essentially a multi-agent IDE coordinator for Apple Silicon. If you're already deep in Claude Code workflows, this could be a genuine force multiplier."
+    },
+    {
+      "title": "Your Obsidian Vault Can Now Run SQL (and Your Agent Can Read It)",
+      "url": "https://motherduck.com/blog/obsidian-vault-duckdb-ai-agents/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: obsidian, duckdb",
+      "blurb": "MotherDuck shows how to embed DuckDB SQL queries directly in Obsidian notes, freezing results as plain Markdown tables — and exposes the vault as a structured knowledge base that AI agents can query without hitting any cloud warehouse. For Obsidian-using developers building personal AI workflows, this is a genuinely clever integration worth trying today."
+    },
+    {
+      "title": "AllThingsSmitty/typescript-tips-everyone-should-know",
+      "url": "https://github.com/AllThingsSmitty/typescript-tips-everyone-should-know",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: typescript",
+      "blurb": "A curated GitHub repo of practical TypeScript patterns covering safety, readability, and DX — the kind of list you bookmark and return to. The curator's note that 'I always forget about `satisfies`' is extremely relatable. Angular/TypeScript devs will find at least a few habits worth adopting here."
+    },
+    {
+      "title": "Apple's best AI idea looks a lot like vibe coding in Shortcuts and Safari | The Verge",
+      "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is apparently bringing a natural-language, vibe-coding-style interface to Shortcuts and Safari tab management in macOS 27/iOS 21. This is Apple's most credible AI-native feature yet — building automation into tools millions already use daily rather than bolting on a chatbot. Worth watching if you rely on Shortcuts for workflow automation."
+    },
+    {
+      "title": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac",
+      "url": "https://github.com/apple/container",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple's official Swift-based tool for running Linux containers via lightweight VMs on Apple Silicon — a first-party alternative to Docker Desktop and Colima. Written in Swift and optimized for the M-series chip's virtualization hardware. If you're doing .NET or cross-platform dev on a Mac, this is worth evaluating as your container runtime."
+    },
+    {
+      "title": "Introducing DiffusionGemma",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: DiffusionGemma, Google, local, model, bleeding_edge",
+      "blurb": "Google announces DiffusionGemma, a diffusion-based language model claiming 4× faster text generation than autoregressive equivalents. Diffusion models for text have been a long-running research bet that's finally bearing production-grade fruit. If the speed claims hold up in benchmarks, this could reshape how we think about local model inference."
+    },
+    {
+      "title": "NotebookLM's Gemini 3.5 upgrade adds a cloud computer and help finding sources | The Verge",
+      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "NotebookLM gets a major upgrade with Gemini 3.5, adding a cloud-hosted computer-use mode and smarter source attribution. It's quietly becoming one of the most practical AI research tools for knowledge workers. Relevant if you use Obsidian alongside NotebookLM for note synthesis and research workflows."
+    },
+    {
+      "title": "Google Chrome is killing uBlock Origin, Microsoft Edge, Opera to follow (still works fine on Firefox)",
+      "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: adblock, browser, google",
+      "blurb": "Chrome's Manifest V3 transition is finally closing the last uBlock Origin workarounds, and Edge and Opera are following suit. Firefox remains the only major browser where uBlock Origin works fully. If ad blocking and privacy matter to you, this is the push to make Firefox your primary browser today."
+    },
+    {
+      "title": "SignalTrace: dai lettori di targhe al tracciamento di telefoni e wearable",
+      "url": "https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: z, N8N, #TechPolicy, POLICY, TW2026-24",
+      "blurb": "404 Media reports on SignalTrace, a system integrating Bluetooth/Wi-Fi/RFID sensors into license plate readers to passively fingerprint phones, AirPods, smartwatches and in-car components alongside plate numbers. The resulting 'digital fingerprint' of vehicle occupants is stored for investigative search. A genuinely alarming expansion of passive surveillance infrastructure."
+    },
+    {
+      "title": "boringcollege/postgres-by-example: Yet another postgresql book!",
+      "url": "https://github.com/boringcollege/postgres-by-example",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: book, postgres, sql",
+      "blurb": "A hands-on, annotated-SQL-examples introduction to PostgreSQL — free, open-source, and living on GitHub. Not groundbreaking for Postgres veterans, but an excellent resource to share with .NET teammates who are comfortable with SQL Server but new to Postgres idioms. The example-driven format makes it fast to scan for specific patterns."
+    }
+  ]
+}
