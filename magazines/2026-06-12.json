@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-12",
+  "stories": [
+    {
+      "title": "Show HN: Homebrew 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "hn_link": "https://news.ycombinator.com/item?id=48490024",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mikemcquaid · 1220 points · 280 comments",
+      "blurb": "The biggest Homebrew release in years lands with a hefty changelog. If you're on macOS and haven't already run `brew update`, today's the day — this is the foundation of practically every dev machine's toolchain."
+    },
+    {
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "hn_link": "https://news.ycombinator.com/item?id=48489229",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rarisma · 420 points · 385 comments",
+      "blurb": "Anthropic shipped Claude Fable with hidden guardrails that weren't disclosed to users — then had to walk it back publicly. A rare moment of transparency-under-pressure from the lab, and a sign that the pressure to ship fast is creating trust problems."
+    },
+    {
+      "title": "Claude Fable is relentlessly proactive",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "hn_link": "https://news.ycombinator.com/item?id=48498573",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lumpa · 431 points · 333 comments",
+      "blurb": "Simon Willison digs into what's actually new about Fable's behavior: it initiates, suggests, and acts without being asked in ways prior Claude versions wouldn't. Essential reading for anyone building workflows on top of Claude Code or the API."
+    },
+    {
+      "title": "MiMo Code is now released and open-source",
+      "url": "https://mimo.xiaomi.com/mimocode",
+      "hn_link": "https://news.ycombinator.com/item?id=48490826",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by apeters · 490 points · 271 comments",
+      "blurb": "Xiaomi open-sources MiMo Code, their coding-focused LLM. More competition at the open-weights coding model tier is great news for developers who want to self-host; worth benchmarking against alternatives if you're running local models."
+    },
+    {
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "hn_link": "https://news.ycombinator.com/item?id=48500012",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xiaoyu2006 · 518 points · 196 comments",
+      "blurb": "A cautionary tale: an autonomous AI agent ran up a ruinous API bill while trying to scan an experimental network, with no meaningful kill-switch in place. If you're deploying agentic Claude Code pipelines, this is required reading on cost controls."
+    },
+    {
+      "title": "Software is made between commits",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "hn_link": "https://news.ycombinator.com/item?id=48492533",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jeremy_k · 258 points · 187 comments",
+      "blurb": "Zed introduces DeltaDB, a local database that captures the full edit history between commits — not just diffs, but the moment-by-moment record of how code actually gets written. This is a fascinating architectural bet on making the IDE the source of truth for developer context."
+    },
+    {
+      "title": "The RCE that AMD wouldn't fix",
+      "url": "https://mrbruh.com/amd2/",
+      "hn_link": "https://news.ycombinator.com/item?id=48492215",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by MrBruh · 269 points · 116 comments",
+      "blurb": "A researcher documents a remote code execution vulnerability in AMD's software stack that the company declined to patch. The disclosure process is a textbook example of vendor stonewalling, and the technical writeup is sharp throughout."
+    },
+    {
+      "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
+      "url": "https://www.phoronix.com/news/macOS-27-Beta-Breaks-Asahi",
+      "hn_link": "https://news.ycombinator.com/item?id=48462070",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by josephcsible · 312 points · 128 comments",
+      "blurb": "The macOS 27 beta introduces bootloader changes that break Asahi Linux on Apple Silicon Macs. If you're dual-booting or experimenting with Linux on Apple hardware, hold off on the beta — and watch this space for the Asahi team's response."
+    },
+    {
+      "title": "Lines of code got a better publicist",
+      "url": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
+      "hn_link": "https://news.ycombinator.com/item?id=48489402",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by RyeCombinator · 391 points · 275 comments",
+      "blurb": "A sharp essay on how AI coding tools have rehabilitated lines-of-code as a productivity metric — ironically, just as it becomes even less meaningful. Cuts through the hype cycle with some uncomfortable observations about how we measure developer output."
+    },
+    {
+      "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "url": "https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/",
+      "hn_link": "https://news.ycombinator.com/item?id=48500404",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dotcoma · 107 points · 95 comments",
+      "blurb": "Reports that US intelligence is accessing Dutch government emails are accelerating European calls for digital sovereignty. This is a watershed privacy story — and a practical reminder that cloud infrastructure jurisdiction matters enormously for anyone handling sensitive data."
+    },
+    {
+      "title": "Show HN: macOS menu bar gauges for your Claude Code quota | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48473845",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, hackernews",
+      "blurb": "A nifty macOS menu bar app that surfaces your Claude Code usage quota at a glance. Exactly the kind of lightweight utility that lives permanently in your menu bar — essential if you're hitting rate limits mid-session and want early warning."
+    },
+    {
+      "title": "Beyond the Prompt: Claude Code | Arpan Patel",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "A deep practical guide to Claude Code covering .claude directories, CLAUDE.md authoring patterns, custom subagents, plugins, and underused commands like /goal and /insights. If you use Claude Code daily this is the most actionable read in today's edition."
+    },
+    {
+      "title": "Scale PostgreSQL horizontally | PgDog",
+      "url": "https://pgdog.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "PgDog is a new open-source connection pooler and horizontal scaling layer for PostgreSQL — think PgBouncer meets read-replica routing, with a clean modern interface. Worth evaluating if you're hitting Postgres scaling ceilings in your .NET or Angular backends."
+    },
+    {
+      "title": "Laurence Tratt: Test-case Reducers Are Underappreciated Debugging Tools",
+      "url": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Tratt makes a compelling case that test-case reduction tools — used widely in compiler testing — should be part of every developer's debugging toolkit. The ideas transfer directly to shrinking flaky integration tests and reproducing subtle bugs."
+    },
+    {
+      "title": "Your Search Results Are Getting Sloptimized - The Atlantic",
+      "url": "https://www.theatlantic.com/technology/2026/06/google-search-ai-optimization/687495/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI, slop, search, optimisation, Google, .teaching, enshitification, internet, engines, chatbots, automation, web",
+      "blurb": "The Atlantic investigates how companies are now optimizing content specifically for AI chatbot citations rather than human readers — a new twist on SEO that's quietly degrading information quality across the web. Essential context for anyone thinking about how AI tools consume and regurgitate the internet."
+    },
+    {
+      "title": "I tried Siri AI, and so far it actually works | The Verge",
+      "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge gives hands-on impressions of the revamped Siri in iOS 27, and for once the verdict isn't a disappointment. WWDC timing makes this the most relevant Apple AI story of the week for anyone in the ecosystem."
+    },
+    {
+      "title": "Apple unveils innovative features and intelligence experiences across services - Apple",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple's official newsroom roundup of the new AI-driven features landing across its services ecosystem. The primary source for sorting hype from what's actually shipping and when."
+    },
+    {
+      "title": "Cops Keep Getting Arrested for Using Flock to Stalk People",
+      "url": "https://www.404media.co/cops-keep-getting-arrested-for-using-flock-to-stalk-people/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: police",
+      "blurb": "404 Media documents a pattern of law enforcement officers abusing Flock's license-plate surveillance network for personal stalking. A stark illustration of how mass-surveillance infrastructure gets misused once it exists — regardless of its stated purpose."
+    },
+    {
+      "title": "The first complex cells had genes from a complex mix of species - Ars Technica",
+      "url": "https://arstechnica.com/science/2026/06/the-first-complex-cells-had-genes-from-a-complex-mix-of-species/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: origins, evolution, eukaryotes, archaea, bacteria, molecularBiology, cells, mitochondria, genes, important",
+      "blurb": "New research upends the clean narrative of eukaryotic origins: the first complex cells appear to have stitched their genomes together from a surprisingly diverse zoo of microbial donors. A genuinely surprising result in molecular evolution."
+    },
+    {
+      "title": "A Visual Guide to DiffusionGemma",
+      "url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-diffusiongemma",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: diffusionmodels, llm, models, textgeneration, AI, visualization, learning, generative",
+      "blurb": "Maarten Grootendorst's signature visual explainer format applied to DiffusionGemma — Google's diffusion-based text generation model that generates tokens in parallel rather than sequentially. Accessible and beautifully illustrated for anyone curious about the next generation of LLM architectures."
+    }
+  ]
+}
