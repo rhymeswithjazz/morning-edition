@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-14",
+  "stories": [
+    {
+      "title": "Noise infusion banned from statistical products published by Census Bureau",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48517377",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by nl · 819 points · 509 comments",
+      "blurb": "The Census Bureau is pulling back differential privacy noise injection from its statistical products after years of controversy. This is a significant policy reversal with massive implications for how governments balance privacy with data accuracy. The 509-comment HN thread is a goldmine of privacy engineering debate."
+    },
+    {
+      "title": "Every Frame Perfect",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "hn_link": "https://news.ycombinator.com/item?id=48516251",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by ravenical · 697 points · 226 comments",
+      "blurb": "Tonsky digs into the obsessive craft of making UI rendering feel perfectly smooth — every frame, every time. If you've ever been bothered by janky animations or dropped frames in apps, this will validate your frustration and explain the engineering required to fix it. Required reading for anyone who cares about software quality."
+    },
+    {
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "hn_link": "https://news.ycombinator.com/item?id=48519092",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ls612 · 680 points · 498 comments",
+      "blurb": "WSJ reports that Amazon CEO Andy Jassy's conversations with U.S. officials directly led to export restrictions being placed on Anthropic's models — the same Claude you use in Claude Code. This is a critical story for anyone building on Anthropic's API, as geopolitical pressure is now directly shaping model availability."
+    },
+    {
+      "title": "Israeli firm BlackCore suspected of meddling in New York and Scotland votes",
+      "url": "https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/",
+      "hn_link": "https://news.ycombinator.com/item?id=48514560",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by pera · 642 points · 370 comments",
+      "blurb": "Reuters expands the BlackCore election interference story beyond France, linking the firm to suspected influence operations in New York City and Scottish elections. This is the digital-age mercenary disinformation industry in full view — a stark reminder of what coordinated cyber-influence looks like at scale."
+    },
+    {
+      "title": "GLM 5.2 Is Out",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "hn_link": "https://news.ycombinator.com/item?id=48518684",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aloknnikhil · 565 points · 301 comments",
+      "blurb": "Zhipu AI drops GLM 5.2, the latest in their competitive open-weight LLM series. With 301 comments on HN, the community is actively benchmarking it against Qwen and other frontier open models. Worth evaluating as a self-hostable alternative for AI coding workflows."
+    },
+    {
+      "title": "AI coding at home without going broke",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "hn_link": "https://news.ycombinator.com/item?id=48518969",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sbochins · 287 points · 237 comments",
+      "blurb": "A practical guide to running capable AI coding assistants locally without spending a fortune on cloud API bills or GPU hardware. Directly relevant to anyone supplementing or replacing Claude Code with local models — the 237-comment discussion is full of real-world configurations and cost breakdowns."
+    },
+    {
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "hn_link": "https://news.ycombinator.com/item?id=48520807",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by austinallegro · 318 points · 151 comments",
+      "blurb": "A Derbyshire police officer is under investigation for allegedly using generative AI to fabricate evidence across multiple cases — a chilling real-world example of AI misuse with serious legal consequences. This is the kind of story that will accelerate AI regulation debates worldwide."
+    },
+    {
+      "title": "Treating pancreatic tumours may have revealed cancer's master switch",
+      "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+      "hn_link": "https://news.ycombinator.com/item?id=48517199",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by andsoitis · 356 points · 128 comments",
+      "blurb": "Researchers treating pancreatic cancer may have stumbled onto a fundamental mechanism controlling tumor growth across many cancer types. If the 'master switch' hypothesis holds up, this could represent a paradigm shift in oncology. Landmark science worth following closely."
+    },
+    {
+      "title": "RTX 5080 and RTX 3090 Setup: 80 Tok/s on Qwen 3.6 27B Q8",
+      "url": "https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/",
+      "hn_link": "https://news.ycombinator.com/item?id=48515454",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by iMil · 246 points · 85 comments",
+      "blurb": "A detailed write-up on running a dual-GPU setup to hit 80+ tokens/second on a full Q8 27B model — genuinely usable speeds for local AI coding assistance. If you're considering a local inference rig, this is the benchmark to beat and the hardware recipe to reference."
+    },
+    {
+      "title": "Don't trust large context windows",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "hn_link": "https://news.ycombinator.com/item?id=48524620",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by computersuck · 73 points · 53 comments",
+      "blurb": "A timely reality check on the hype around 1M+ token context windows — models degrade in retrieval accuracy as context grows, and the failure modes are subtle and dangerous. Essential reading for anyone using Claude Code or long-context LLMs for real work, especially with large codebases."
+    },
+    {
+      "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
+      "url": "https://sqltoerdiagram.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by robhati · 101 points · 19 comments",
+      "blurb": "Paste your SQL schema and instantly get a clean ER diagram — entirely client-side, no data leaves your browser. A genuinely useful tool you can use today on any schema, and the privacy-respecting architecture makes it safe for work codebases. Bookmark this one."
+    },
+    {
+      "title": "Weave: Merging based on language structure and not lines",
+      "url": "https://ataraxy-labs.github.io/weave/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rohanat · 40 points · 21 comments",
+      "blurb": "Weave is a next-generation merge tool that understands code structure rather than treating files as raw text — meaning far fewer spurious conflicts when merging branches. This could dramatically improve the git workflow for TypeScript and other structured languages. A tool worth trialing on your next messy merge."
+    },
+    {
+      "title": "Codex for open source",
+      "url": "https://openai.com/form/codex-for-oss/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by EvgeniyZh · 226 points · 87 comments",
+      "blurb": "OpenAI is offering free Codex access to open-source maintainers — a direct competitor to Claude Code's OSS tier. If you maintain any public repos, this is worth applying for immediately. The competitive pressure between OpenAI and Anthropic for OSS developer mindshare is heating up fast."
+    },
+    {
+      "title": "Appreciating Exif",
+      "url": "https://brentfitzgerald.com/posts/appreciating-exif/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by burnto · 158 points · 34 comments",
+      "blurb": "A thoughtful deep-dive into EXIF metadata — what it actually stores, why it matters for photographers and developers, and how it's evolved. Particularly relevant if you work with photo libraries, Obsidian attachments, or any pipeline that processes images. Doubles as a gentle privacy reminder about what your photos silently broadcast."
+    },
+    {
+      "title": "A low-carbon computing platform from your retired phones",
+      "url": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by vikas-sharma · 287 points · 152 comments",
+      "blurb": "Google Research explores turning decommissioned Android phones into low-carbon edge compute nodes — a genuinely novel approach to sustainable infrastructure. The engineering challenges around heterogeneous hardware management are fascinating, and there's a real DIY angle for hobbyists with a drawer of old phones."
+    },
+    {
+      "title": "The adder at the heart of Intel's 8087 floating-point chip",
+      "url": "https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by pwg · 112 points · 27 comments",
+      "blurb": "Ken Shirriff reverse-engineers the adder circuit inside Intel's legendary 8087 FPU, revealing the clever tricks engineers used to do fast floating-point arithmetic in silicon four decades ago. A beautiful piece of computer archaeology for anyone who loves understanding how the foundations of modern computing were actually built."
+    },
+    {
+      "title": "Honda Civics and the Evil Valet",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by librick · 262 points · 43 comments",
+      "blurb": "A deep dive into the security (and insecurity) of Honda's key fob system, revealing how rolling-code vulnerabilities can be exploited by a malicious valet with simple hardware. A classic 'security through obscurity fails' story with real-world stakes for anyone who owns a Honda."
+    },
+    {
+      "title": "Making Claude a Chemist",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 41 points · 26 comments",
+      "blurb": "Anthropic publishes research on fine-tuning and steering Claude for expert-level chemistry reasoning — shedding light on how domain specialization works under the hood. Illuminating for anyone thinking about adapting Claude for specialized professional domains beyond coding."
+    },
+    {
+      "title": "Ancient genome duplications laid the foundations of complex brains",
+      "url": "https://www.ox.ac.uk/news/2026-06-09-ancient-genome-duplications-laid-the-foundations-of-complex-brains",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by hhs · 33 points · 3 comments",
+      "blurb": "Oxford researchers find that two ancient whole-genome duplication events in vertebrate ancestors gave rise to the genetic complexity required for sophisticated nervous systems. This reframes our understanding of how neural complexity evolved — and why it happened when it did."
+    },
+    {
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
+      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by rasz · 95 points · 22 comments",
+      "blurb": "A hacker writes a complete x86 BIOS from scratch to boot DOS on a Behringer digital mixing desk — purely because the hardware is there and the challenge is irresistible. A delightful intersection of audio gear and low-level systems programming that showcases the creative extremes of hardware hacking."
+    }
+  ]
+}
