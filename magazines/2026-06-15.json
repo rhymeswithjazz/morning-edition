@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-15",
+  "stories": [
+    {
+      "title": "Firewood Splitting Simulator",
+      "url": "https://screen.toys/firewood/",
+      "hn_link": "https://news.ycombinator.com/item?id=48471638",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by memalign · 829 points · 242 comments",
+      "blurb": "The top HN story of the day is a delightfully pointless browser-based firewood splitting sim — satisfying physics, great sound design, zero productivity. Sometimes the highest-scored story is just pure joy, and 242 commenters apparently had a lot to say about chopping virtual wood."
+    },
+    {
+      "title": "How to earn a billion dollars",
+      "url": "https://paulgraham.com/earn.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48526360",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by kingstoned · 641 points · 1647 comments",
+      "blurb": "A new Paul Graham essay, which means HN drops everything and argues for 1,600+ comments. Whether you agree with PG's worldview or not, he's one of the few writers who can stop a developer's morning cold. Worth skimming the essay and diving into the comments for the counterpoints."
+    },
+    {
+      "title": "Your ePub Is fine",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
+      "hn_link": "https://news.ycombinator.com/item?id=48533848",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sohkamyung · 604 points · 202 comments",
+      "blurb": "A detailed autopsy of why a perfectly valid ePub file gets rejected by Kobo — and the answer is a layered mess of Adobe DRM, undocumented validation quirks, and blame-shifting. Essential reading if you've ever tried to distribute or read DRM-free ebooks and hit a wall."
+    },
+    {
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "url": "https://github.com/tamnd/kage",
+      "hn_link": "https://news.ycombinator.com/item?id=48529990",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tamnd · 565 points · 111 comments",
+      "blurb": "Kage crawls a website and packages it into a single self-contained binary you can run anywhere for offline browsing — no external dependencies. Perfect for archiving docs, saving reference material for travel, or preserving sites you rely on. A genuinely useful CLI tool you can grab today."
+    },
+    {
+      "title": "Not everyone is using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "hn_link": "https://news.ycombinator.com/item?id=48527700",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yegg · 465 points · 501 comments",
+      "blurb": "DuckDuckGo's founder pushes back on the AI-adoption hype with actual usage data: most people are dipping in and out, not mainlining it 24/7. For a developer who lives in Claude Code, this is a useful reality check on how your workflow differs from the median user — and why tool builders can't assume AI fluency."
+    },
+    {
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "hn_link": "https://news.ycombinator.com/item?id=48537165",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by secret-noun · 407 points · 155 comments",
+      "blurb": "Daniel Stenberg is taking a month off from curl's security report queue, and he's being fully transparent about it. A fascinating look at the human cost of maintaining foundational open-source security infrastructure solo — and the tradeoffs when the maintainer simply needs a break."
+    },
+    {
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "hn_link": "https://news.ycombinator.com/item?id=48528029",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by iliashad · 373 points · 95 comments",
+      "blurb": "A Show HN that doubles as a love letter to Apple Silicon: local ML models on an M1 Max churning through hundreds of gigabytes of personal video to make it searchable, all without sending data to the cloud. This is the privacy-first AI workflow dream — and it's working today on consumer hardware."
+    },
+    {
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "hn_link": "https://news.ycombinator.com/item?id=48528371",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by unrvl22 · 355 points · 189 comments",
+      "blurb": "A GitHub issue tears apart Rio de Janeiro's government-backed \"sovereign AI\" — finding it's apparently a model merge dressed up as original research, with no disclosed methodology. Another cautionary tale about AI washing in the public sector, and a great example of the open-source community doing its own forensics."
+    },
+    {
+      "title": "Windows 11 users are tired of MS account requirements creeping into everything",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds",
+      "hn_link": "https://news.ycombinator.com/item?id=48533101",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by josephcsible · 355 points · 244 comments",
+      "blurb": "The slow-boiling frog of Microsoft account lock-in has reached a roiling boil, and users are finally loudly fed up. For anyone in the Apple ecosystem, this is both a validation of that choice and a warning sign about the direction of all major OS vendors. The 244-comment thread is a goldmine of workarounds."
+    },
+    {
+      "title": "Apple Foundation Models",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "hn_link": "https://news.ycombinator.com/item?id=48536776",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by MehrdadKhnzd · 145 points · 49 comments",
+      "blurb": "Anthropic's docs page for Apple Foundation Models integration — bridging on-device Apple Intelligence with Claude's APIs. For a developer building in the Apple ecosystem who already uses Claude Code, this is exactly the kind of cross-platform AI capability to pay attention to right now."
+    },
+    {
+      "title": "Linux 7.1",
+      "url": "https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by berlianta · 294 points · 112 comments",
+      "blurb": "Linus drops the Linux 7.1 release announcement on the kernel mailing list in his signature no-nonsense style. A landmark version number worth noting — the kernel changelog and the HN discussion surface the most relevant driver and performance changes worth knowing about."
+    },
+    {
+      "title": "Formal methods and the future of programming",
+      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by eatonphil · 275 points · 95 comments",
+      "blurb": "Jane Street's long-running series on formal methods gets an index page, making it finally accessible as a coherent read. If you're building TypeScript or .NET systems that need to reason about correctness, this is the practitioner's guide to why formal verification is moving out of academia and into production codebases."
+    },
+    {
+      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+      "url": "https://traceapp.info",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "by AG342 · 163 points · 60 comments",
+      "blurb": "Trace is a macOS app that transcribes meetings entirely offline — no audio ever leaves your machine — and lets you drop flags mid-call to mark moments for review. Privacy-first meeting transcription on Apple Silicon is exactly the sweet spot of this reader's interests, and it's available to try today."
+    },
+    {
+      "title": "The only scalable delete in Postgres is DROP TABLE",
+      "url": "https://planetscale.com/blog/the-only-scalable-delete",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by hollylawly · 170 points · 59 comments",
+      "blurb": "PlanetScale's engineers dissect why bulk DELETEs in Postgres are a performance nightmare and why partitioning + DROP is the only real answer at scale. Essential reading for any .NET/backend developer who's ever wondered why their scheduled cleanup job is killing the database."
+    },
+    {
+      "title": "Even more batteries included with Emacs",
+      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 205 points · 39 comments",
+      "blurb": "A deep-dive tour of underused built-in Emacs features that most users reach for third-party packages to get. Even if you're a VS Code or Neovim person, the ideas here — incremental narrowing, project management, version control integrations — will make you think about what your editor could be doing for you."
+    },
+    {
+      "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+      "url": "https://su3.io/posts/zeroserve-caddy-compat",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by losfair · 188 points · 54 comments",
+      "blurb": "A detailed engineering post on how adding Caddy compatibility to zeroserve tripled throughput and slashed latency by 70%. Concrete benchmarks, clear architecture diagrams — this is the kind of infrastructure post that's actually actionable if you're running self-hosted services."
+    },
+    {
+      "title": "Bitsy",
+      "url": "https://bitsy.org/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by tosh · 202 points · 6 comments",
+      "blurb": "Bitsy is a tiny browser-based game editor for making small worlds with simple tools — it's been quietly beloved by indie game creators for years and this surfacing on HN is a reminder of how joyful constrained creative tools can be. If you've ever wanted to make a tiny explorable thing in an afternoon, this is it."
+    },
+    {
+      "title": "Formal methods and the future of programming",
+      "url": "https://blog.tacoda.dev/lisps-influence-on-ruby-6a54f1a7740e",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tacoda · 239 points · 73 comments",
+      "blurb": "A well-researched walkthrough of how Lisp's ideas — closures, metaprogramming, everything-is-an-expression — quietly shaped Ruby's design. Useful historical context for anyone who thinks about language design, and a fun read for TypeScript developers curious about where expressive language features actually come from."
+    },
+    {
+      "title": "Ask HN: What are you working on? (June 2026)",
+      "url": "https://news.ycombinator.com/item?id=48528779",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by david927 · 236 points · 853 comments",
+      "blurb": "The monthly HN thread where builders share what they're actually shipping — 853 comments of real projects, side experiments, and AI-powered tools in progress. A monthly ritual worth bookmarking; the June 2026 edition will surface what the community is building with the latest generation of AI coding tools."
+    },
+    {
+      "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
+      "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by teleforce · 90 points · 20 comments",
+      "blurb": "The eight fallacies of distributed computing — network is reliable, latency is zero, bandwidth is infinite, etc. — remain as relevant as ever, and this APNIC retrospective adds two decades of real-world evidence. A sharp reminder for .NET/TypeScript developers building distributed systems that the fundamentals haven't changed."
+    }
+  ]
+}
