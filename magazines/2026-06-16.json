@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-16",
+  "stories": [
+    {
+      "title": "Iroh 1.0",
+      "url": "https://www.iroh.computer/blog/v1",
+      "hn_link": "https://news.ycombinator.com/item?id=48542480",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by chadfowler · 1180 points · 358 comments",
+      "blurb": "Iroh is a peer-to-peer networking library that finally hits 1.0, bringing stable APIs for building direct-connection apps without a central server. Think of it as the missing transport layer for local-first software — highly relevant if you're building tools that need to work across devices without cloud dependency. With 358 comments and the top score of the day, the community clearly thinks this is a big deal."
+    },
+    {
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "hn_link": "https://news.ycombinator.com/item?id=48546294",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by lwhsiao · 1166 points · 216 comments",
+      "blurb": "A developer dissects how a malicious recruiter embedded a backdoor payload inside materials sent during a fake LinkedIn job offer — a sophisticated social-engineering attack targeting exactly the kind of developer who gets cold-outreach all the time. The technical forensics are excellent and the threat model is chillingly plausible. Required reading before you open your next \"take-home project\" ZIP."
+    },
+    {
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "hn_link": "https://news.ycombinator.com/item?id=48542100",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cloudking · 983 points · 442 comments",
+      "blurb": "The most comment-rich thread of the day is a goldmine of real-world experience from developers who've tried swapping cloud LLMs for local alternatives like Ollama, Mistral, and Qwen for daily coding tasks. If you use Claude Code and wonder whether a local fallback is viable, 442 comments of hard-won opinions is exactly the research you need. Expect strong takes on latency, quality gaps, and privacy tradeoffs."
+    },
+    {
+      "title": "My Homelab AI Dev Platform",
+      "url": "https://rsgm.dev/post/ai-dev-platform/",
+      "hn_link": "https://news.ycombinator.com/item?id=48542433",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rsgm · 309 points · 55 comments",
+      "blurb": "A detailed walkthrough of building a self-hosted AI development platform on homelab hardware — covering model serving, IDE integration, and workflow orchestration. This is the practical complement to the local-model Ask HN thread: less debate, more architecture diagrams. Directly actionable for anyone wanting to reduce their Claude API bill while keeping code off the cloud."
+    },
+    {
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "url": "https://www.richardosgood.com/posts/banned-book-library/",
+      "hn_link": "https://news.ycombinator.com/item?id=48547985",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by sohkamyung · 379 points · 200 comments",
+      "blurb": "Someone hacked a Wi-Fi smart bulb to serve a hidden web server hosting banned books over its captive portal — no internet required. It's a delightful piece of hardware hacking that doubles as a statement about censorship and decentralized information access. The ingenuity here is genuinely inspiring for anyone interested in low-cost, covert information distribution."
+    },
+    {
+      "title": "Hetzner Price Adjustment",
+      "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers",
+      "hn_link": "https://news.ycombinator.com/item?id=48540844",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tuhtah · 436 points · 598 comments",
+      "blurb": "Hetzner — the beloved budget cloud provider for indie devs and homelabbers — is adjusting prices, and the 598-comment thread tells you everything about the impact. If you run any self-hosted infra or spin up VMs for testing, this directly affects your bill. Check the docs before your next invoice arrives."
+    },
+    {
+      "title": "How memory safety CVEs differ between Rust and C/C++",
+      "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48543392",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by nicoburns · 132 points · 168 comments",
+      "blurb": "A data-driven analysis comparing the types and severity of memory-safety CVEs found in Rust vs. C/C++ projects — spoiler: Rust doesn't eliminate all bugs, but it does shift which ones survive. The methodology is careful and the conclusions are nuanced, making this a great piece to cite in any safety-vs-productivity argument. 168 comments of spirited debate included."
+    },
+    {
+      "title": "Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "hn_link": "https://news.ycombinator.com/item?id=48544637",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Mustan · 130 points · 88 comments",
+      "blurb": "Anthropic announces Claude Corps, a program putting Claude to work on high-impact social and scientific problems — think a Peace Corps model but for AI deployment. It's a meaningful signal about how Anthropic sees responsible scaled deployment beyond commercial products. Worth understanding as Claude's capabilities and reach continue to expand."
+    },
+    {
+      "title": "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
+      "url": "https://fata.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=48489163",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by djoume · 98 points · 50 comments",
+      "blurb": "Fata uses spaced repetition to quiz developers on skills that AI coding assistants are quietly eroding — the exact anxiety bubbling up in the local-model thread. It's immediately usable and addresses a real problem: leaning on Claude Code for everything means you might not remember how to do it yourself. Try it today to benchmark your own skill retention."
+    },
+    {
+      "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419",
+      "hn_link": "https://news.ycombinator.com/item?id=48550693",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by paulmooreparks · 241 points · 76 comments",
+      "blurb": "Raymond Chen returns with another gem: the story of Microsoft's x86 emulator team encountering application code so broken that they had to patch it on-the-fly at runtime just to make it work. It's a hilarious and technically fascinating window into the heroic compatibility engineering that keeps Windows's legacy alive. Classic Old New Thing energy."
+    },
+    {
+      "title": "How TimescaleDB compresses time-series data",
+      "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by lkanwoqwp · 152 points · 18 comments",
+      "blurb": "A clear technical deep-dive into TimescaleDB's Hypercore compression — how columnar storage, delta-of-delta encoding, and gorilla compression stack together to shrink time-series data dramatically. If you're storing metrics, logs, or sensor data in Postgres, this explains exactly when and why to reach for TimescaleDB. Actionable and well-illustrated."
+    },
+    {
+      "title": "What job interviews taught me about Kubernetes",
+      "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by chmaynard · 185 points · 132 comments",
+      "blurb": "A candid reflection on the gap between what companies ask about Kubernetes in interviews and what they actually use in production — turns out the overlap is surprisingly small. The author distills which concepts actually matter versus which are cargo-culted from CNCF certification guides. Useful calibration for anyone who's ever crammed on etcd internals for a YAML-writing job."
+    },
+    {
+      "title": "Reviews have become expensive, rewrites have become cheap",
+      "url": "http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by arzh2 · 63 points · 57 comments",
+      "blurb": "A sharp essay arguing that AI has flipped the economics of code review vs. rewrite: when Claude can regenerate a module in minutes, the human cost of carefully reviewing mediocre code may exceed just discarding and regenerating it. This has real implications for PR culture and team workflows. Provocative and worth discussing with your team."
+    },
+    {
+      "title": "Game Engine White Papers: Commander Keen",
+      "url": "https://forgottenbytes.net/commander_keen.html",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by mfiguiere · 207 points · 69 comments",
+      "blurb": "A lovingly detailed technical breakdown of the Commander Keen engine — EGA smooth scrolling, the adaptive tile refresh system, and the early Id Software innovations that made it sing on 1990 PC hardware. Essential reading for anyone interested in game engine history or low-level graphics cleverness. A wonderful piece of preservation work."
+    },
+    {
+      "title": "What every coder should know about gamma (2016)",
+      "url": "https://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by sph · 98 points · 28 comments",
+      "blurb": "This perennial classic resurfaces with good reason: most developers get gamma correction subtly wrong in ways that cause muddy colors and broken blending. The article is comprehensive, visual, and genuinely corrective — after reading it you'll never look at an alpha blend the same way. Highly relevant to anyone doing any rendering, image processing, or UI work."
+    },
+    {
+      "title": "Getting Creative with Perlin Noise Fields",
+      "url": "https://sighack.com/post/getting-creative-with-perlin-noise-fields",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by 0x000xca0xfe · 9 points · 0 comments",
+      "blurb": "A hands-on guide to using Perlin noise flow fields for generative art — particle simulations, contour curves, and layered textures, all with code examples. Low score but genuinely high quality; this is exactly the kind of creative coding tutorial Pinboard would surface if it weren't down today. Great weekend rabbit hole for the generative-art curious."
+    },
+    {
+      "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+      "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookofjoe · 304 points · 108 comments",
+      "blurb": "Monash University researchers found that a copper-transporting drug clears amyloid and tau proteins in mouse models of Alzheimer's while restoring memory — a mechanism distinct from existing antibody therapies. The results are striking enough to generate serious HN discussion. A rare piece of medical research that feels genuinely new rather than incremental."
+    },
+    {
+      "title": "Making glass-to-metal seals for home­made vacuum tubes",
+      "url": "https://maurycyz.com/projects/glass/1/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by zdw · 140 points · 45 comments",
+      "blurb": "A meticulous, photo-heavy account of hand-crafting glass-to-metal seals for homemade vacuum tubes — a craft so difficult that entire industries were built around it. The level of patience and precision on display is humbling, and the physics of thermal expansion matching is genuinely interesting. A perfect antidote to software-only days."
+    },
+    {
+      "title": "Factoring \"short-sleeve\" RSA keys with polynomials",
+      "url": "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ledoge · 92 points · 2 comments",
+      "blurb": "Trail of Bits details a new polynomial-based technique for factoring a class of RSA keys they dub \"short-sleeve\" — keys with specific structural weaknesses that make them vulnerable even at standard bit lengths. The math is advanced but the implications are practical: if you generate RSA keys with certain flawed implementations, they may be breakable. Sobering cryptography research from a credible team."
+    },
+    {
+      "title": "Fox to buy Roku",
+      "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by thm · 319 points · 391 comments",
+      "blurb": "Fox's acquisition of Roku raises immediate questions about platform neutrality, data collection, and what happens to Roku's relatively open TV OS under media-company ownership. With 391 comments, the community is deeply worried about the privacy and advertising implications for what is currently one of the more developer-friendly TV platforms. Worth watching if you have a Roku or build for it."
+    }
+  ]
+}
