@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-17",
+  "stories": [
+    {
+      "title": "Running local models is good now",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "hn_link": "https://news.ycombinator.com/item?id=48555993",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jfb · 1323 points · 507 comments",
+      "blurb": "Vicki Boykis makes the case that the local LLM experience has crossed a threshold — hardware is fast enough, tooling is mature, and the quality gap with cloud models has narrowed dramatically. If you've been running Claude Code and wondering whether local models are worth revisiting for offline or privacy-sensitive workflows, this is the post to read. 507 comments means there's a real conversation happening about which models and rigs are actually worth it."
+    },
+    {
+      "title": "SpaceX to buy Cursor for $60B",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "hn_link": "https://news.ycombinator.com/item?id=48553224",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by itsmarcelg · 1022 points · 1520 comments",
+      "blurb": "The biggest AI dev-tools deal in history: SpaceX is acquiring Anysphere (maker of Cursor) for $60 billion. If you're using Cursor or evaluating it against Claude Code, this acquisition raises serious questions about where the product goes under Elon Musk's orbit. The 1,520-comment thread is a must-read for anyone with a stake in the AI coding assistant market."
+    },
+    {
+      "title": "I admire Fabrice Bellard. He is almost certainly a better overall programmer",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+      "hn_link": "https://news.ycombinator.com/item?id=48550779",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by apitman · 889 points · 435 comments",
+      "blurb": "John Carmack publicly crowning Fabrice Bellard — creator of QEMU, FFmpeg, and tinycc — as a better programmer than himself is a rare and remarkable moment of humility from one legend about another. The HN thread spirals into a wonderful celebration of Bellard's improbable one-person output. Essential reading for anyone who cares about what exceptional programming looks like."
+    },
+    {
+      "title": "Apple's weird anti-nausea dots cured my car sickness",
+      "url": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
+      "hn_link": "https://news.ycombinator.com/item?id=48557530",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by neilfrndes · 763 points · 235 comments",
+      "blurb": "Apple's Vehicle Motion Cues feature — animated dots on the screen edges that sync with vehicle movement — turns out to actually work for motion sickness sufferers. This Verge review is surprisingly enthusiastic, and the HN thread has plenty of people sharing their own results. A genuinely useful accessibility feature hiding in plain sight in iOS/macOS."
+    },
+    {
+      "title": "GrapheneOS has been ported to Android 17",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "hn_link": "https://news.ycombinator.com/item?id=48561654",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 760 points · 376 comments",
+      "blurb": "GrapheneOS — the gold standard for privacy-focused Android — is already running on Android 17 with official releases imminent. For anyone who recommends or uses GrapheneOS as a de-Googled daily driver, this is great news: the port is ahead of schedule and the project remains the most hardened Android available. Official releases should follow quickly."
+    },
+    {
+      "title": "Apple is about to make Hide My Email useless",
+      "url": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
+      "hn_link": "https://news.ycombinator.com/item?id=48559935",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by SXX · 485 points · 297 comments",
+      "blurb": "A sharp analysis of upcoming Apple changes that would effectively neuter Hide My Email — one of the most useful privacy features in iCloud+. The author explains exactly what's changing and why it matters for people who rely on email aliasing to keep their real address private. If you're an iCloud+ subscriber using this feature, read before the change rolls out."
+    },
+    {
+      "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+      "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "hn_link": "https://news.ycombinator.com/item?id=48558018",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mrshu · 418 points · 191 comments",
+      "blurb": "A nifty Bash trick: `/dev/tcp/host/port` lets you make raw HTTP requests in pure shell with zero dependencies. Useful when you're in a minimal container, a locked-down CI environment, or just want to impress your team during a debugging session. The HN comments stack up more shell tricks in the same vein."
+    },
+    {
+      "title": "Stop Using JWTs",
+      "url": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+      "hn_link": "https://news.ycombinator.com/item?id=48558147",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dzonga · 386 points · 225 comments",
+      "blurb": "A direct, well-argued GitHub Gist making the case that JWTs are almost always the wrong tool — session cookies with server-side storage handle the real-world requirements better and with far fewer footguns. Relevant for any .NET or Angular developer building auth flows. The HN thread is predictably heated, but the core argument holds up."
+    },
+    {
+      "title": "Is Meta destroying its engineering organization?",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "hn_link": "https://news.ycombinator.com/item?id=48558045",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by throwarayes · 582 points · 505 comments",
+      "blurb": "Gergely Orosz digs into reports that Meta is hollowing out its engineering culture through aggressive AI-replacement mandates and restructuring. The piece cuts through the PR and talks to engineers on the inside. Essential context for anyone thinking about big-tech career moves or watching how the industry responds to AI productivity claims."
+    },
+    {
+      "title": "Mechanical Watch (2022)",
+      "url": "https://ciechanow.ski/mechanical-watch/",
+      "hn_link": "https://news.ycombinator.com/item?id=48553550",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by razin · 698 points · 118 comments",
+      "blurb": "Bartosz Ciechanowski's legendary interactive explainer on how mechanical watches work is back on the front page — and it deserves every view. The interactive animations make escapements and gear trains genuinely intuitive. If you've never seen Ciechanowski's work, this is the perfect introduction; if you have, it's worth revisiting."
+    },
+    {
+      "title": "While I slept, my 5-year-old MacBook ran Gemma 4 locally and indexed a year of video — simbastack",
+      "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: local, ai",
+      "blurb": "A practical experiment in local AI: leaving a 5-year-old MacBook to run Gemma 4 overnight and index a year's worth of personal video footage. This is exactly the kind of 'running local models is good now' story that complements today's top HN post, with real-world Mac performance numbers and a privacy-first workflow that requires zero cloud."
+    },
+    {
+      "title": "How to run a local coding agent with Gemma 4 and Pi | Patrick Loeber",
+      "url": "https://patloeber.com/gemma-4-pi-agent/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, local, coding, tools",
+      "blurb": "Step-by-step guide to building a local coding agent using Gemma 4 and the Pi framework — no cloud, no API keys, just your own hardware. For developers curious about self-hosted alternatives to Claude Code or Cursor, this is a concrete starting point with working code. Pairs perfectly with today's local-models HN discussion."
+    },
+    {
+      "title": "A GitHub Repo With One File Just Hit 144,000 Stars. It's a Claude Skill.",
+      "url": "https://medium.com/@aitrends24/a-github-repo-with-one-file-just-hit-144-000-stars-its-a-claude-skill-d82f8b6fa789",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Claude Skills ecosystem apparently exploded overnight — a single-file repo hit 144k GitHub stars, signaling genuine mass interest in extending Claude's capabilities. The article breaks down what actually happened and highlights the skills worth installing. Directly relevant to Claude Code users looking to supercharge their workflows."
+    },
+    {
+      "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance | Chroma",
+      "url": "https://www.trychroma.com/research/context-rot",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "Chroma's research team quantifies 'context rot' — the measurable degradation in LLM output quality as context windows fill up. For anyone using Claude Code on long sessions or building RAG pipelines, this explains why your model seems to 'forget' things mid-conversation and what you can do about it. Practical and well-evidenced."
+    },
+    {
+      "title": "Surpassing Frontier Performance with Fusion — OpenRouter Blog",
+      "url": "https://openrouter.ai/blog/announcements/fusion-beats-frontier/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: moe, research",
+      "blurb": "OpenRouter announces Fusion, a mixture-of-experts routing approach that claims to beat frontier single-model performance on deep research tasks — and possibly coding too. This is a significant claim from the team that routes more AI traffic than almost anyone. Worth a close read if you're building AI-powered tools and want to squeeze out more quality."
+    },
+    {
+      "title": "Introducing CSS Grid Lanes | WebKit",
+      "url": "https://webkit.org/blog/17660/introducing-css-grid-lanes/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: css, masonry, grid-lanes",
+      "blurb": "WebKit introduces CSS Grid Lanes, a new spec that finally gives developers a proper native masonry layout without JavaScript hacks. Angular/TypeScript developers building component-heavy UIs will want to understand this now — it's coming to browsers soon and will change how you think about complex grid layouts."
+    },
+    {
+      "title": "It Is Trivially Easy to Use Reddit to Manipulate AI Search, Research Suggests",
+      "url": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, misinformation, how_to",
+      "blurb": "404 Media covers research showing that AI search tools (Perplexity, ChatGPT search, etc.) are trivially manipulable via planted Reddit posts that get scraped into training and retrieval pipelines. A sobering look at the fragility of AI-powered research tools. Anyone using AI search for developer decision-making needs to understand this attack surface."
+    },
+    {
+      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48521236",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Trace is a new Mac app that transcribes meetings entirely offline — no audio leaves your machine — and lets you flag moments mid-call for later review. For privacy-conscious Mac users who need meeting notes without feeding conversations to a cloud service, this fills a real gap. The offline-first approach is exactly right."
+    },
+    {
+      "title": "Arch Linux AUR Hit By Another Wave Of Now More Sophisticated Malware Attack - Phoronix",
+      "url": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Malware",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "The AUR is under attack again — this time with more sophisticated malware that's harder to spot in package build scripts. If you or your team uses Arch Linux in any part of your stack, this is a timely reminder to audit your AUR packages. The attack vectors are evolving and the community-maintained nature of AUR means vigilance is always required."
+    },
+    {
+      "title": "Subterranean fungi networks more than 100 quadrillion km in length",
+      "url": "https://www.theguardian.com/science/2026/jun/11/arbuscular-mycorrhizal-fungi-plant-life-climate-global-mapping-study",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by tosh · 67 points · 11 comments",
+      "blurb": "A new global mapping study finds that mycorrhizal fungal networks stretch over 100 quadrillion kilometers — more than the observable universe is wide. The scale is genuinely hard to comprehend, and the climate implications for carbon sequestration are significant. The kind of mind-expanding science story that makes the rest of the news feel small."
+    }
+  ]
+}
