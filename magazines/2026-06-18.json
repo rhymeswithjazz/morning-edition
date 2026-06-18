@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-18",
+  "stories": [
+    {
+      "title": "Lore – Open source version control system designed for scalability",
+      "url": "https://lore.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48571081",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by regnerba · 1132 points · 606 comments",
+      "blurb": "Epic Games just open-sourced Lore, a version control system built to handle the kind of massive binary and asset repositories that git and Perforce choke on. With 606 comments, the HN discussion is a goldmine of war stories from devs dealing with monorepo scale. If you've ever waited 20 minutes for a git clone, this is worth your attention."
+    },
+    {
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "hn_link": "https://news.ycombinator.com/item?id=48567759",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by himata4113 · 852 points · 415 comments",
+      "blurb": "Zhipu AI's GLM-5.2 has dethroned every other open-weights model on the Artificial Analysis intelligence index — a big deal for anyone who wants frontier performance without paying API bills. The implications for local AI workflows and self-hosted coding assistants are significant. Watch this one."
+    },
+    {
+      "title": "Midjourney Medical",
+      "url": "https://www.midjourney.com/medical/blogpost",
+      "hn_link": "https://news.ycombinator.com/item?id=48579650",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ricochet11 · 720 points · 488 comments",
+      "blurb": "Midjourney is pivoting into medical imaging and diagnostics, a surprising and controversial move from a company built on generative art. The HN thread erupts over FDA implications, hallucination risks, and whether visual AI is actually ready for clinical settings. A must-read for understanding where AI image generation is heading next."
+    },
+    {
+      "title": "Volkswagen started blocking GrapheneOS users",
+      "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+      "hn_link": "https://news.ycombinator.com/item?id=48571526",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by microtonal · 676 points · 405 comments",
+      "blurb": "VW's app now actively detects and blocks GrapheneOS, refusing to work on one of the most privacy-respecting Android builds available. This is the latest in a troubling trend of apps weaponizing Play Integrity API against privacy-conscious users. If you care about owning your device, this thread will make your blood boil."
+    },
+    {
+      "title": "RFC 10008: The new HTTP Query Method",
+      "url": "https://www.rfc-editor.org/info/rfc10008/",
+      "hn_link": "https://news.ycombinator.com/item?id=48568502",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by schappim · 372 points · 156 comments",
+      "blurb": "After years of hacks (GET with a body, POST for read-only queries), HTTP finally gets a proper QUERY method — semantically safe and cacheable, designed for structured request bodies. This directly affects API design patterns you're probably using today with REST and GraphQL. Update your mental model."
+    },
+    {
+      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "hn_link": "https://news.ycombinator.com/item?id=48576838",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Bender · 316 points · 180 comments",
+      "blurb": "Tesco is migrating 40,000 VMware workloads in a very public rebuke of Broadcom's post-acquisition pricing tactics. This is one of the largest enterprise defections yet, and it signals the VMware exodus is accelerating industry-wide. If your org is still locked in, now is a good time to build the business case for alternatives."
+    },
+    {
+      "title": "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
+      "url": "https://browser-use.com/posts/firecracker-browser-infra",
+      "hn_link": "https://news.ycombinator.com/item?id=48556561",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by gregpr07 · 276 points · 176 comments",
+      "blurb": "A deep technical dive into how browser-use.com spins up isolated browser environments in under a second using Firecracker microVMs inside EC2. The engineering is clever — snapshotting pre-warmed VMs, restoring them on demand — and directly applicable if you're building AI agents that need web access. Superb infra write-up."
+    },
+    {
+      "title": "The founder's playbook: Building an AI-native startup",
+      "url": "https://claude.com/blog/the-founders-playbook",
+      "hn_link": "https://news.ycombinator.com/item?id=48566832",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by e2e4 · 230 points · 160 comments",
+      "blurb": "Anthropic's own playbook for founders building on Claude — covering agentic architectures, system prompt design, and when to use Claude Code versus the API. Opinionated and practical, this is essentially the official guide to the tool you're already using. Worth bookmarking in Obsidian."
+    },
+    {
+      "title": "Local Qwen isn't a worse Opus, it's a different tool",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "hn_link": "https://news.ycombinator.com/item?id=48580209",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alphabettsy · 207 points · 96 comments",
+      "blurb": "Alex Ellis makes a sharp, contrarian argument: stop benchmarking local models against Opus and start thinking about what they're actually good at — fast iteration, offline use, and privacy-sensitive tasks. This reframes how to integrate local AI into your coding workflow alongside cloud models. Genuinely useful perspective."
+    },
+    {
+      "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
+      "hn_link": "https://news.ycombinator.com/item?id=48582320",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by lompad · 71 points · 21 comments",
+      "blurb": "AMD quietly dropped Secure Memory Encryption (SME) from consumer Ryzen chips via a firmware update, with no changelog entry and engineers going silent when asked about it. This is the kind of stealth security regression that should require a CVE and public disclosure. Check your AGESA version."
+    },
+    {
+      "title": "AI demands more engineering discipline. Not less",
+      "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: engineering, LLMs, culture, change, ai",
+      "blurb": "Charity Majors makes the counterintuitive case that AI-generated code raises the bar for engineering rigor, not lowers it — because when code is disposable, the real product is your team's shared understanding and evaluation frameworks. The 'materialized view of understanding' framing is one of the sharpest takes on AI-assisted development you'll read this year. Required reading."
+    },
+    {
+      "title": "Agentic coding and persistent returns to expertise Anthropic",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic's research finds that expertise compounds dramatically in agentic coding contexts — experienced developers get disproportionately more out of Claude Code than novices do. This has big implications for how you invest in your own skills versus leaning on AI automation. If you use Claude Code daily, this validates doubling down on deep domain knowledge."
+    },
+    {
+      "title": "Stop Prompting Claude. Use Karpathy's Method Instead. - YouTube",
+      "url": "https://www.youtube.com/watch?v=7zZy1QTvokM",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Methodik, Karpathy_Andrej, AI, agentic, programming, SPEC.md",
+      "blurb": "A walkthrough of Andrej Karpathy's structured approach to AI-assisted coding: write a detailed SPEC first, let the model interview you to fill gaps, then generate. This spec-driven workflow dramatically improves output quality versus ad-hoc prompting and maps perfectly onto Claude Code's agentic capabilities."
+    },
+    {
+      "title": "opencode",
+      "url": "https://opencode.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: TOOLS, editors, coding, tui, terminal, cli, subject:cs.CL",
+      "blurb": "Opencode is a new open-source, terminal-native AI coding assistant — a TUI-first alternative to Claude Code and Cursor that runs entirely in your shell. For developers who live in the terminal and want full control over model selection and data routing, this is worth evaluating immediately. Highly actionable."
+    },
+    {
+      "title": "Critical Copilot vulnerability allowed hackers to seal 2FA code from users - Ars Technica",
+      "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, Feedly",
+      "blurb": "A critical vulnerability in GitHub Copilot allowed attackers to steal 2FA tokens from users — a nasty combination of AI assistant access and authentication bypass. This is a reminder that AI coding tools have elevated privilege in your dev environment and deserve the same threat modeling as any other critical tool. Patch and audit."
+    },
+    {
+      "title": "I fixed Claude's memory problem with a Postgres database and it changed everything",
+      "url": "https://www.makeuseof.com/fixed-claudes-memory-problem-postgres-database-changed-everything/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, Claude, memory, database",
+      "blurb": "A practical walkthrough of wiring a Postgres database to Claude so it maintains persistent context across sessions — solving the goldfish-memory problem that plagues all LLM workflows. The approach is straightforward enough to implement this weekend and directly relevant to anyone building on the Claude API. Highly actionable."
+    },
+    {
+      "title": "Running local models is good now | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48555993",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, diy",
+      "blurb": "A sprawling HN thread on how dramatically the local AI experience has improved — from Ollama to LM Studio to llama.cpp optimizations on Apple Silicon. Practical tips on which models run well on M-series Macs, quantization choices, and real-world performance. If you haven't revisited local models in 6 months, this thread will surprise you."
+    },
+    {
+      "title": "Apple confirms price increases are coming to its products due to RAM shortage - 9to5Mac",
+      "url": "https://9to5mac.com/2026/06/17/apple-confirms-price-increases-are-coming-to-its-products-due-to-ram-shortage/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Tim Cook confirmed Apple hardware price hikes are imminent, driven by a global memory chip shortage — bad timing ahead of what's expected to be a major Mac and iPhone refresh cycle. If you've been sitting on a Mac upgrade decision, the calculus just changed. Buy before the increases hit."
+    },
+    {
+      "title": "GitHub - DietrichGebert/ponytail: Makes your AI agent think like the laziest senior dev in the room.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Ponytail is a prompt/workflow layer that pushes AI coding agents to avoid unnecessary code generation — 'the best code is the code you never wrote.' It nudges agents toward leveraging existing libraries, patterns, and deletions over additions. A philosophical counterweight to AI's tendency to over-engineer."
+    },
+    {
+      "title": "brevio — Free, Private Browser Tools",
+      "url": "https://brevio.pro/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: online, browser, tools, PDF, image, resize, merge, signature, extract, text, rotate",
+      "blurb": "162+ browser-based utility tools — PDF manipulation, image resizing, text extraction — that run entirely client-side with no uploads, no signup, and no data leaving your machine. A privacy-respecting Swiss Army knife for the daily file-wrangling tasks you'd otherwise send to sketchy web services. Bookmark this."
+    }
+  ]
+}
