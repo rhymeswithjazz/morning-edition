@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-19",
+  "stories": [
+    {
+      "title": "I found 10k GitHub repositories distributing Trojan malware",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "hn_link": "https://news.ycombinator.com/item?id=48583928",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by theorchid · 790 points · 206 comments",
+      "blurb": "A researcher uncovered a massive network of 10,000+ GitHub repos used as malware distribution infrastructure, often mimicking popular tools to lure developers. If you install dependencies from GitHub links, this is a must-read. The scale and sophistication of the supply-chain attack is genuinely alarming."
+    },
+    {
+      "title": ".gitignore Isn't the only way to ignore files in Git",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
+      "hn_link": "https://news.ycombinator.com/item?id=48583356",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by FergusArgyll · 417 points · 131 comments",
+      "blurb": "Most devs only know `.gitignore`, but Git has at least two other ignore mechanisms — `.git/info/exclude` for local-only rules and a global ignore file in your home directory. These are genuinely useful for keeping machine-specific files or editor artifacts out of repos without polluting shared `.gitignore`. Quick read, immediately actionable."
+    },
+    {
+      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "hn_link": "https://news.ycombinator.com/item?id=48589501",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 387 points · 223 comments",
+      "blurb": "A privacy consultant documents his five-year journey reporting Elkjøp's illegal cookie consent walls to regulators — and watching them finally get hit with a €1.8M GDPR fine. A satisfying vindication story that also doubles as a primer on what \"forced consent\" means legally. Relevant to anyone building consent flows in web apps."
+    },
+    {
+      "title": "Show HN: Are You in the Weights?",
+      "url": "https://www.intheweights.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48591348",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by turtlesoup · 343 points · 195 comments",
+      "blurb": "A tool that lets you check whether your own writing may have been included in LLM training data — a genuinely novel and slightly eerie capability. The methodology is interesting and the HN discussion digs into both its accuracy and implications. If you've published writing online, this is worth a look."
+    },
+    {
+      "title": "Noam Shazeer Joins OpenAI",
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "hn_link": "https://news.ycombinator.com/item?id=48578913",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lukasgross · 327 points · 323 comments",
+      "blurb": "Noam Shazeer — co-inventor of the Transformer and founder of Character.AI — is joining OpenAI in a blockbuster move. This is the kind of talent consolidation that reshapes the AI landscape; the HN thread is full of informed speculation about what it means for Gemini, Character, and the broader model race."
+    },
+    {
+      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
+      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
+      "hn_link": "https://news.ycombinator.com/item?id=48585866",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ksec · 339 points · 289 comments",
+      "blurb": "Ubiquiti is entering the enterprise NAS market with a ZFS-based appliance that fits their Unifi ecosystem. For homelabbers and small teams already in the Unifi stack, this could be a natural fit — and the 289-comment HN thread is a goldmine of NAS opinions. The ZFS choice is a strong signal of reliability focus."
+    },
+    {
+      "title": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "hn_link": "https://news.ycombinator.com/item?id=48592163",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by niyikiza · 195 points · 66 comments",
+      "blurb": "The MCP team announces enterprise-managed auth that lets organizations centrally provision OAuth credentials for AI agents — no manual token wrangling per user. This is a significant enterprise maturity step for MCP-based tooling, directly relevant to anyone building Claude Code integrations at work. Reduces friction for rolling out agentic workflows in corporate environments."
+    },
+    {
+      "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
+      "url": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
+      "hn_link": "https://news.ycombinator.com/item?id=48553388",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by marklit · 173 points · 58 comments",
+      "blurb": "A deep dive into the internals behind DuckDB's legendary analytical query speed — columnar storage, vectorized execution, and clever buffer management. If you use DuckDB in your data pipelines (and you should), understanding why it's fast helps you use it better. Well-written and technically rigorous."
+    },
+    {
+      "title": "Many Let's Encrypt renewals had errors today",
+      "url": "https://letsencrypt.status.io/#2026",
+      "hn_link": "https://news.ycombinator.com/item?id=48594715",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by widdakay · 141 points · 90 comments",
+      "blurb": "Let's Encrypt experienced widespread renewal failures today — if you're seeing cert errors on your services, this is why. The HN thread has workarounds and diagnosis steps. A good reminder that cert automation failures are silent until they're not, and monitoring expiry dates matters."
+    },
+    {
+      "title": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "hn_link": "https://news.ycombinator.com/item?id=48583897",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Vinnl · 278 points · 68 comments",
+      "blurb": "The Modos Paper Monitor is pushing color e-ink technology toward usable refresh rates and color fidelity for developers who want eye-strain-free coding setups. It's not quite retina yet, but this IEEE piece shows how fast the technology is progressing. Worth watching for anyone who codes for long hours."
+    },
+    {
+      "title": "SpaceX to acquire the AI coding startup Cursor for $60 billion | CNBC",
+      "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: machinelearning, llm, blogit, spacex",
+      "blurb": "SpaceX acquiring Cursor — the AI coding editor — for $60B is one of the wilder M&A stories of the year. For developers already using AI coding assistants daily, this raises immediate questions about product direction, pricing, and independence. The implications for the competitive landscape with GitHub Copilot and Claude Code are huge."
+    },
+    {
+      "title": "Cotypist – AI Autocomplete for Mac | Type Faster, Write Better",
+      "url": "https://cotypist.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac_apps, apps, AI, autocomplete",
+      "blurb": "Cotypist brings system-wide AI autocomplete to the Mac — think GitHub Copilot but for every text field in every app, not just your code editor. For anyone deep in the Apple ecosystem and using AI tools daily, this is a natural extension of that workflow. Potentially transforms writing in Obsidian, email, and Slack alike."
+    },
+    {
+      "title": "Introducing Lettera: A Native Markdown Editor for Mac, Now in Beta",
+      "url": "https://blog.bear.app/2026/06/introducing-lettera-a-native-markdown-editor-for-mac-now-in-beta/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The makers of Bear are launching Lettera, a new native Mac markdown editor now in beta. Given Bear's track record for polish and the Apple-native feel, this is immediately interesting for anyone in the Obsidian/markdown ecosystem who's been curious what a Bear-quality desktop markdown editor looks like. Worth signing up for the beta."
+    },
+    {
+      "title": "inessential: NetNewsWire Status",
+      "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, Instapaper",
+      "blurb": "Brent Simmons gives a candid update on the state of NetNewsWire, the beloved open-source RSS reader for Mac and iOS. If you care about the health of indie Mac software and RSS as a protocol, Brent's transparency here is both refreshing and worth your attention. A cornerstone app for staying on top of content like this newsletter."
+    },
+    {
+      "title": "GitHub - devenjarvis/lathe: Generate hands-on, multi-part technical tutorials on demand, with LLM skills tuned to make content approachable.",
+      "url": "https://github.com/devenjarvis/lathe",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: learning, claude, tutorials",
+      "blurb": "Lathe uses LLMs (including Claude) to generate personalized, hands-on multi-part technical tutorials on demand — then makes you work through them yourself rather than just reading. It's an interesting approach to AI-assisted learning that avoids the \"just give me the answer\" trap. Tagged explicitly with Claude, making it directly relevant for Claude Code users exploring AI-augmented learning."
+    },
+    {
+      "title": "Stop Using JWTs | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48558147",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: jwt, hn",
+      "blurb": "A Pinboard-popular HN thread debating the well-worn \"stop using JWTs\" argument — the discussion cuts through the noise with concrete cases for and against. For .NET and web developers implementing auth flows, this is one of those eternal debates worth revisiting as the ecosystem has evolved. The nuanced comments are the real value here."
+    },
+    {
+      "title": "Migrating from GNU stow to chezmoi | Redowan's Reflections",
+      "url": "https://rednafi.com/misc/chezmoi/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: chezmoi, mac, stow, brew",
+      "blurb": "A practical guide to moving dotfile management from GNU stow to chezmoi, with Mac-specific context. Chezmoi's templating and secret management make it significantly more powerful for multi-machine setups. If you manage dotfiles across multiple Macs, this migration path is well worth the hour it takes."
+    },
+    {
+      "title": "A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok? — OpenRouter Blog",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, large-language-models, benchmarking",
+      "blurb": "OpenRouter ran 11 LLMs through a 2D battle royale game across 30 matches to benchmark agent decision-making — one model won 43% of matches, three never won. It's a novel and fun benchmark format that reveals real differences in agentic reasoning quality. The cost-per-win metric is a genuinely useful framing for evaluating LLMs for coding agents."
+    },
+    {
+      "title": "Revised rules of engineering leadership. | Irrational Exuberance",
+      "url": "https://lethain.com/revised-rules-of-engineering-leadership/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, management, engineering-leadership, softwareengineering, organizations, decision-making, execution",
+      "blurb": "Will Larson revises his engineering leadership principles in the AI era, arguing that AI raises the cost of bad judgment rather than eliminating the need for it. Migrations are cheaper, first-pass code is abundant — but organizational alignment and durable decisions matter more than ever. A clear-eyed reframe for senior devs stepping into tech lead or staff roles."
+    },
+    {
+      "title": "inkwash · how it works",
+      "url": "https://johnowhitaker.github.io/inkwash/about",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: art, web, interface, interaction",
+      "blurb": "A WebGL pen-and-ink rendering tool that physically simulates water and pigment density, diffusing ink through wet paper areas in real time. The technical writeup on how water/ink physics are modeled in the shader is genuinely impressive. A beautiful example of creative coding that bridges generative art and physical simulation."
+    }
+  ]
+}
