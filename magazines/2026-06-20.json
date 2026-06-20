@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-20",
+  "stories": [
+    {
+      "title": "John Jumper to join Anthropic",
+      "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "hn_link": "https://news.ycombinator.com/item?id=48601162",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by artninja1988 · 128 points · 95 comments",
+      "blurb": "The Nobel Prize-winning co-creator of AlphaFold is joining Anthropic — the company behind Claude. This is a massive talent acquisition that signals Anthropic doubling down on scientific AI research. If you're a Claude Code user, this is your lab leveling up in a serious way."
+    },
+    {
+      "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+      "url": "https://arrowtsx.dev/bigger-models/",
+      "hn_link": "https://news.ycombinator.com/item?id=48600167",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by oshrimpton · 132 points · 35 comments",
+      "blurb": "A benchmark comparison finding that OpenAI's flagship GPT-5.5 hallucinates at triple the rate of an MIT-licensed open-weights competitor is a striking result — and directly relevant to anyone choosing AI coding assistants. Take methodology with a grain of salt, but the discussion is worth reading."
+    },
+    {
+      "title": "Norway imposes near ban on AI in elementary school",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "hn_link": "https://news.ycombinator.com/item?id=48600093",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ilreb · 652 points · 446 comments",
+      "blurb": "Norway is among the first countries to formally restrict AI tools in early education, citing concerns over cognitive development and dependency. The policy debate is heating up globally as AI writing/coding assistants become ubiquitous. A useful data point for anyone thinking about AI's societal role."
+    },
+    {
+      "title": "Zen and the Art of Machine Learning Research",
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+      "hn_link": "https://news.ycombinator.com/item?id=48549118",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jxmorris12 · 256 points · 92 comments",
+      "blurb": "A reflective essay on the mindset and craft behind ML research — less about math, more about patience, iteration, and intellectual honesty. Highly readable for developers who build with AI tools but want a window into how the models they rely on actually get made."
+    },
+    {
+      "title": "Court Records Should Be Free",
+      "url": "https://www.eff.org/deeplinks/2026/06/court-records-should-be-free",
+      "hn_link": "https://news.ycombinator.com/item?id=48600946",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hn_acker · 360 points · 77 comments",
+      "blurb": "The EFF argues that PACER's paywalled court records system is an affront to open justice — and lays out a concrete legislative path to fix it. A perennial issue that flares whenever a high-profile case hits the news, and the EFF's framing here is sharp."
+    },
+    {
+      "title": "A new bill takes aim at government pressure to silence lawful online speech",
+      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "hn_link": "https://news.ycombinator.com/item?id=48600950",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hn_acker · 276 points · 122 comments",
+      "blurb": "The EFF covers a new bill designed to codify protections against backroom government jawboning of platforms to remove content. An important digital rights development with real implications for how the open web functions."
+    },
+    {
+      "title": "Think of the children: How to force real ID for all internet traffic (2023)",
+      "url": "https://nochan.net/b/Internet-Crap/20230829-Think-Of-The-Children/",
+      "hn_link": "https://news.ycombinator.com/item?id=48602817",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Bender · 201 points · 118 comments",
+      "blurb": "A sharp technical takedown of real-ID-for-the-internet proposals, showing how the \"think of the children\" framing is used to justify sweeping surveillance infrastructure. Resurfaces with 200+ points because the policy proposals keep coming back. Essential reading."
+    },
+    {
+      "title": "AURpocalypse now: a look at the recent AUR attacks",
+      "url": "https://lwn.net/SubscriberLink/1077619/f7b07c5489fdd43a/",
+      "hn_link": "https://news.ycombinator.com/item?id=48600593",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jwilk · 78 points · 50 comments",
+      "blurb": "LWN digs into a wave of supply-chain attacks targeting the Arch User Repository. Even if you're not an Arch user, the attack patterns — typosquatting, account takeovers, malicious PKGBUILDs — are directly relevant to any developer who pulls community packages."
+    },
+    {
+      "title": "Ten years of ClickHouse in open source",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "hn_link": "https://news.ycombinator.com/item?id=48546890",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by saisrirampur · 300 points · 82 comments",
+      "blurb": "ClickHouse reflects on a decade as an open-source analytical database — from Yandex internal tool to the go-to columnar store for developer data stacks. A great retrospective on what made the project stick, with technical lessons for anyone building data-heavy .NET or TypeScript backends."
+    },
+    {
+      "title": "There are no instances in ATProto",
+      "url": "https://overreacted.io/there-are-no-instances-in-atproto/",
+      "hn_link": "https://news.ycombinator.com/item?id=48599515",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by danabramov · 436 points · 225 comments",
+      "blurb": "Dan Abramov — yes, the React guy — has been deep-diving ATProto and this essay reframes the whole protocol in a way that clicks. If you've struggled to grok what makes Bluesky's architecture different from Mastodon federation, this is the explainer you've been waiting for."
+    },
+    {
+      "title": "Hyundai buys Boston Dynamics",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ck2 · 812 points · 360 comments",
+      "blurb": "SoftBank exits Boston Dynamics for $325M as Hyundai takes full control of the robotics icon. The question now: does a car company have the patience and vision to turn Atlas into a commercial product? The HN discussion is lively on exactly this point."
+    },
+    {
+      "title": "Satellite reveals immense scale of GPS signal tampering",
+      "url": "https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by y1n0 · 71 points · 22 comments",
+      "blurb": "New satellite data reveals GPS spoofing and jamming is far more widespread than previously understood — affecting commercial aviation and shipping lanes across multiple conflict zones. The scale here is genuinely alarming and has downstream effects on everything that uses location data."
+    },
+    {
+      "title": "The discovery that changed how scientists think about memory",
+      "url": "https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rbanffy · 49 points · 11 comments",
+      "blurb": "IBM profiles the Kavli Prize-winning research that overturned the standard model of how memories are stored and retrieved in the brain. The findings have implications for AI architecture research and for understanding neurological diseases. Genuinely surprising science."
+    },
+    {
+      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by philonoist · 591 points · 365 comments",
+      "blurb": "Project Valhalla's value types finally land in JDK 28 after ten years of design work — this is one of the most significant Java changes in a generation. Even if you're a TypeScript/.NET developer, the concepts (flattened memory layouts, primitive-like objects) are worth understanding as they ripple into other runtimes."
+    },
+    {
+      "title": "Hey, n00b, we didn't hire you to complete tasks",
+      "url": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by rrvsh · 168 points · 86 comments",
+      "blurb": "Kent Beck challenges the task-completion framing that AI coding agents are optimizing for, arguing that the real value of a new hire (human or AI) is in building shared understanding and context — not throughput. A thought-provoking read for any developer steering Claude Code or similar agents."
+    },
+    {
+      "title": "I Stored a Website in a Favicon",
+      "url": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 109 points · 33 comments",
+      "blurb": "A delightful hack: encoding an entire self-contained website inside a 32×32 favicon using data URIs and creative compression. It's the kind of constrained-programming puzzle that's both genuinely educational and immediately fun to try yourself."
+    },
+    {
+      "title": "Surprising economics of load-balanced systems",
+      "url": "https://brooker.co.za/blog/2020/08/06/erlang.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by KraftyOne · 107 points · 24 comments",
+      "blurb": "Marc Brooker's classic explainer on Erlang's queue model resurfaces and remains essential: why adding servers to a load-balanced pool produces wildly non-linear latency improvements. Mandatory background reading for any developer building distributed .NET or cloud services."
+    },
+    {
+      "title": "The AirPods Effect",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by herbertl · 412 points · 716 comments",
+      "blurb": "A cultural essay on how AirPods have fundamentally reshaped social norms around attention and presence — the most-commented HN story today by far. If you're deep in the Apple ecosystem, this dissects something you've probably felt but haven't quite named."
+    },
+    {
+      "title": "Cirrus: ATProto Personal Data Server That Runs on Cloudflare Workers",
+      "url": "https://github.com/ascorbic/cirrus",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by gurjeet · 16 points · 2 comments",
+      "blurb": "A lightweight ATProto PDS (Personal Data Server) that runs entirely on Cloudflare Workers — making self-hosting your Bluesky identity essentially free and zero-ops. For developers curious about the decentralized social web, this is the lowest-friction on-ramp yet."
+    },
+    {
+      "title": "Where to Find the Colors Your Screen Can't Show You",
+      "url": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by moultano · 90 points · 21 comments",
+      "blurb": "A beautiful deep-dive into the physics of colors that exist outside any screen's gamut — imaginary colors, impossible pigments, and how to perceive them through optical tricks. Directly relevant to photographers and designers pushing wide-gamut displays, and just genuinely fascinating."
+    }
+  ]
+}
