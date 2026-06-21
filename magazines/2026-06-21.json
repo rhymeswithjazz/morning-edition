@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-21",
+  "stories": [
+    {
+      "title": "The Wholesale Plagiarism of Obscure Sorrows",
+      "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "hn_link": "https://news.ycombinator.com/item?id=48611411",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ridesisapis · 369 points · 147 comments",
+      "blurb": "Andy Baio documents how AI-generated content has wholesale copied the beloved \"Dictionary of Obscure Sorrows\" — invented emotional vocabulary and all — without credit. A sharp, concrete case study in how LLMs launder creative work at scale, and why provenance in AI training data actually matters."
+    },
+    {
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "url": "https://github.com/mysk-research/loupe",
+      "hn_link": "https://news.ycombinator.com/item?id=48608645",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 276 points · 101 comments",
+      "blurb": "Open-source iOS app from mysk-research that visualizes what data native apps can silently access — contacts, photos, location, pasteboard, and more. Essential reading for anyone in the Apple ecosystem who cares about privacy hygiene and wants to hold app developers accountable."
+    },
+    {
+      "title": "SMPTE Makes Its Standards Freely Accessible",
+      "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+      "hn_link": "https://news.ycombinator.com/item?id=48610827",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by zdw · 261 points · 79 comments",
+      "blurb": "The Society of Motion Picture and Television Engineers has unlocked its entire standards library — previously paywalled at hundreds of dollars per document — to the public. Massive win for indie developers building video/audio tooling who previously couldn't afford to even read the spec."
+    },
+    {
+      "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+      "url": "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48609766",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by LowLevelMahn · 250 points · 64 comments",
+      "blurb": "A meticulous reverse-engineering effort on the 1989 MicroProse classic is calling for volunteers with period-correct DOS hardware to run test builds. The project is deep in the weeds of 16-bit real-mode assembly — fascinating for anyone who wants to see how far static analysis can go on legacy binaries."
+    },
+    {
+      "title": "Temporary Cloudflare accounts for AI agents",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "hn_link": "https://news.ycombinator.com/item?id=48608394",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by farhadhf · 206 points · 110 comments",
+      "blurb": "Cloudflare introduces ephemeral, scoped accounts for AI agents — think temporary credentials that expire after a task completes. This is a practical building block for agentic workflows where you don't want a long-lived credential dangling after every Claude Code run."
+    },
+    {
+      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+      "url": "https://www.lispm.net/apps/uhf-x11/",
+      "hn_link": "https://news.ycombinator.com/item?id=48610853",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 203 points · 38 comments",
+      "blurb": "Someone actually ported X11 to visionOS, enabling classic X Window applications to run on Apple Vision Pro. Whether it's useful or just impressive wizardry, it's a wild demonstration of what's possible in the Apple spatial computing ecosystem — and the HN thread has great technical detail."
+    },
+    {
+      "title": "Linux eliminates the strncpy API after six years of work, 360 patches",
+      "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+      "hn_link": "https://news.ycombinator.com/item?id=48612943",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by simonpure · 198 points · 172 comments",
+      "blurb": "Six years, 360 patches, and untold kernel developer patience later: strncpy is finally gone from Linux 7.2. A landmark cleanup of one of C's most misused APIs, and a lesson in how long it takes to unwind decades of dangerous defaults in a massive codebase."
+    },
+    {
+      "title": "When I reject AI code even if it works",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "hn_link": "https://news.ycombinator.com/item?id=48614631",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vnbrs · 172 points · 99 comments",
+      "blurb": "A thoughtful take on the subtler reasons to reject AI-generated code beyond correctness — things like ownership, readability, and architectural coherence. Directly relevant if you're using Claude Code daily and want to stay a deliberate engineer rather than a code reviewer on autopilot."
+    },
+    {
+      "title": "Slow breathing modulates brain function and risk behavior",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "hn_link": "https://news.ycombinator.com/item?id=48613555",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by croes · 197 points · 43 comments",
+      "blurb": "New research in Cell's Neuron journal finds that deliberate slow breathing causally modulates brain circuits involved in risk-taking and decision-making — not just stress reduction. The mechanisms are more specific than prior work suggested, with implications for cognitive performance under pressure."
+    },
+    {
+      "title": "Building reliable agentic AI systems",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48615680",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sarangk90 · 98 points · 19 comments",
+      "blurb": "Martin Fowler's site hosts this detailed engineering piece on patterns for making agentic LLM systems actually reliable in production — covering retries, validation, human-in-the-loop design, and failure modes. Required reading if you're building anything beyond a chatbot with Claude or similar."
+    },
+    {
+      "title": "oMLX — LLM inference, optimized for your Mac",
+      "url": "https://omlx.ai/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: omlx",
+      "blurb": "A native macOS app for running LLM inference locally using Apple's MLX framework, optimized for Apple Silicon. If you want Claude-level conversations without the API bill, or need air-gapped AI for sensitive codebases, this is the tool to evaluate first."
+    },
+    {
+      "title": "Every Frame Perfect",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: design, wayland, macos",
+      "blurb": "Nikita Tonsky's deep dive into how imprecise UI animations — even subtle frame-timing errors — erode user trust in software. The macOS examples are particularly pointed, and it's the kind of article that makes you see jank in everything you've built."
+    },
+    {
+      "title": "cli-authentication-the-right-way",
+      "url": "https://www.abgeo.dev/blog/cli-authentication-the-right-way/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: oauth, authentication, howto",
+      "blurb": "A practical walkthrough of implementing OAuth device-flow authentication in CLI tools — the approach used by GitHub CLI, Vercel, and others. If you're building any CLI tool that needs user auth, this is the pattern to copy, not roll yourself."
+    },
+    {
+      "title": "Is AI ruining our skills? Early results are in — and they're not good",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: so_called_ai, research, health",
+      "blurb": "Nature rounds up early empirical research on skill atrophy from AI assistance — and the findings are sobering. Developers offloading cognition to AI tools may be quietly losing the problem-solving muscles they'd need if the tools disappeared. Uncomfortable but important reading."
+    },
+    {
+      "title": "Ataraxy-Labs/sem: Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 16 languages via tree-sitter.",
+      "url": "https://github.com/Ataraxy-Labs/sem",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup, programming",
+      "blurb": "A semantic version control CLI that understands code at the entity level — functions, classes, methods — rather than raw lines, powered by tree-sitter across 16 languages. The \"blame\" and \"impact analysis\" commands alone could transform how you navigate TypeScript or C# codebases."
+    },
+    {
+      "title": "No, Artificial Intelligence Is Not Conscious by Ted Chiang (The Atlantic, 6/3/2026)",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: tedchiang, artificialintelligence, ai, claude, anthropomorphism, consciousness",
+      "blurb": "Ted Chiang makes a careful, unsentimental argument that current AI systems — including Claude — are not conscious, and that anthropomorphizing them leads to bad decisions for both humans and the development of the technology. The counterpoint to every AI feelings discourse you've read this year."
+    },
+    {
+      "title": "Michael Tsai: WWDC 2026 Links",
+      "url": "https://mjtsai.com/blog/2026/06/17/wwdc-2026-links/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Michael Tsai's annual WWDC link roundup is the single best starting point for Apple developer news — curated commentary from across the Mac/iOS dev community, organized by announcement. If you only read one WWDC recap, make it this one."
+    },
+    {
+      "title": "AI Engineer Claims to Have Cracked Linear A — AI Clambake",
+      "url": "https://aiclambake.com/clamtakes/linear-a/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: claude, ai, lang, crypto",
+      "blurb": "An AI engineer claims to have used Claude and other LLMs to make progress on Linear A, the undeciphered Bronze Age Minoan script. The piece walks through the methodology — skepticism warranted, but the approach is genuinely novel and the discussion of LLMs as decipherment tools is fascinating."
+    },
+    {
+      "title": "Loop Library: Repeatable AI Agent Workflows | Forward Future",
+      "url": "https://signals.forwardfuture.ai/loop-library/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: loop, ai",
+      "blurb": "A curated library of reusable, composable AI agent workflow patterns — think recipes for common agentic tasks like research loops, code review cycles, and document synthesis. Directly actionable if you're wiring together Claude Code or other agents in production pipelines."
+    },
+    {
+      "title": "America is headed toward the infinite workweek",
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, exhaustion, workers",
+      "blurb": "The Atlantic's sharp piece on how managing AI coding agents is creating a new kind of cognitive exhaustion — not fewer tasks, but more simultaneous context-switching. If you're running multiple Claude Code sessions and feeling drained, you're not alone: BCG found 18% of developers reporting AI-induced fatigue."
+    }
+  ]
+}
