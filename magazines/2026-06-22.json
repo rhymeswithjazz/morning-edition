@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-22",
+  "stories": [
+    {
+      "title": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "hn_link": "https://news.ycombinator.com/item?id=48618455",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bathory · 758 points · 630 comments",
+      "blurb": "Anthropic is rolling out identity verification for Claude — a significant policy move that affects how the model behaves for verified vs. unverified users. With 630 comments, this is the day's biggest conversation in AI. If you use Claude Code or Claude API, understanding how identity tiers work matters for what you can and can't do."
+    },
+    {
+      "title": "Show HN: Recall – Local project memory for Claude Code",
+      "url": "https://github.com/raiyanyahya/recall",
+      "hn_link": "https://news.ycombinator.com/item?id=48622590",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mateenah · 114 points · 70 comments",
+      "blurb": "Recall gives Claude Code persistent, per-project memory stored locally — no cloud sync, no privacy leakage. This is exactly the kind of glue tool that makes AI coding assistants feel less amnesiac between sessions. Drop-in, open source, worth trying today."
+    },
+    {
+      "title": "There is minimal downside to switching to open models",
+      "url": "https://www.marble.onl/posts/cancel_claude.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48622518",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by amarble · 226 points · 186 comments",
+      "blurb": "A firsthand account of ditching Claude for open-weight models and barely noticing the quality drop. The author argues the capability gap has closed faster than most people think. Given today's identity verification news, the timing of this post is pointed — and the comment thread is a goldmine of model swap war stories."
+    },
+    {
+      "title": "Prefer duplication over the wrong abstraction (2016)",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "hn_link": "https://news.ycombinator.com/item?id=48620090",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rafaepta · 491 points · 316 comments",
+      "blurb": "Sandi Metz's 2016 classic gets its perennial HN revival, and it keeps earning it. The core insight — that the cost of a wrong abstraction compounds far worse than a little copy-paste — is timeless advice for anyone wrestling with Angular service hierarchies or .NET shared libraries. Read it again."
+    },
+    {
+      "title": "Deno Desktop",
+      "url": "https://docs.deno.com/runtime/desktop/",
+      "hn_link": "https://news.ycombinator.com/item?id=48626137",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by GeneralMaximus · 378 points · 156 comments",
+      "blurb": "Deno now ships a desktop runtime that lets you build native-feeling apps with TypeScript — no Electron, no Node, just Deno APIs and web standards. For a TypeScript developer this is immediately interesting as an alternative to heavy cross-platform app stacks. Still early, but the direction is clear."
+    },
+    {
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=48622778",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by T-A · 384 points · 129 comments",
+      "blurb": "A new open foundation model project pitched explicitly at European AI sovereignty — trained on non-US infrastructure, designed for regulated industries. With the EU AI Act tightening, this is the kind of project that could matter to enterprise deployments that can't send data to US providers. Worth watching."
+    },
+    {
+      "title": "Danish privacy activist Lars Andersen raided by police",
+      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+      "hn_link": "https://news.ycombinator.com/item?id=48625823",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by I_am_tiberius · 267 points · 201 comments",
+      "blurb": "A prominent Danish privacy activist had his home raided by police in what appears to be connected to his advocacy work. The chilling-effect implications for European privacy activism are substantial. The HN thread digs into the legal context and what it signals for activists who take on data brokers and surveillance infrastructure."
+    },
+    {
+      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "hn_link": "https://news.ycombinator.com/item?id=48623434",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dev-experiments · 135 points · 30 comments",
+      "blurb": "A practical, reproducible walkthrough of fine-tuning a tiny local model (Qwen 3 at 600M params) to do classification tasks reliably. This is the pragmatic local-AI story: you don't need a 70B model for structured output tasks. Actionable for anyone building AI workflows that need to run offline or cheaply."
+    },
+    {
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "url": "https://github.com/openai/codex/issues/28224",
+      "hn_link": "https://news.ycombinator.com/item?id=48626930",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vantareed · 89 points · 53 comments",
+      "blurb": "A nasty bug in OpenAI's Codex CLI can silently fill your SSD with logs — users are reporting terabytes of disk consumption before noticing. If you have Codex installed, check your disk usage right now. This is the kind of production footgun that warrants an immediate investigation and possible uninstall."
+    },
+    {
+      "title": "Help I accidentally a wigglegram",
+      "url": "https://lmao.center/blog/wiggle-accidents/",
+      "hn_link": "https://news.ycombinator.com/item?id=48605561",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by gregsadetsky · 244 points · 46 comments",
+      "blurb": "A delightful deep-dive into how the author stumbled into making wigglegrams — those hypnotic pseudo-3D animated GIFs — and then automated the whole process. Part photo-nerd essay, part creative coding adventure. The kind of joyful rabbit hole that makes you want to open your camera app immediately."
+    },
+    {
+      "title": "Why AI hasn't replaced software engineers, and won't",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming",
+      "blurb": "A measured, non-hype take on why coding agents remain augmentation tools rather than replacements — focusing on system design, context management, and accountability. Pairs well as a counterpoint to today's HN debate about switching to open models. Good reading for anyone building or defending AI-assisted dev workflows."
+    },
+    {
+      "title": "CS 6120: The Self-Guided Course",
+      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: compiler, programming, language, compsci, course, cornell",
+      "blurb": "Cornell's advanced compilers course, fully self-guided online with lectures, assignments, and a complete LLVM-based project arc. One of the most rigorous free CS resources available — if you've ever wanted to actually understand what happens between your TypeScript and machine code, this is the path."
+    },
+    {
+      "title": "Running microVMs in Proxmox VE, The Easy Way - Tao of Mac",
+      "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: proxmox, virtualization, Blog, howto, microvm",
+      "blurb": "A practical guide from the Tao of Mac blog on spinning up lightweight microVMs in Proxmox — the kind of setup that's perfect for isolated dev environments or self-hosted AI inference. Clear, opinionated, and immediately actionable if you run any home lab infrastructure."
+    },
+    {
+      "title": "Apple to Release These 20 New Products Across Rest of 2026 and 2027 - MacRumors",
+      "url": "https://www.macrumors.com/2026/06/21/20-rumored-apple-products-in-2026-and-2027/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacRumors rounds up all 20 rumored Apple product launches through 2027 — covering hardware refreshes, new form factors, and software platforms. Essential reading for anyone planning purchases or building software targeting the Apple ecosystem. The roadmap implications for macOS and iOS developers are significant."
+    },
+    {
+      "title": "GitHub - vercel/eve: The Framework for Building Agents",
+      "url": "https://github.com/vercel/eve",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, github",
+      "blurb": "Vercel's new open-source framework for building AI agents, sitting alongside their Eve hosted product. It brings Vercel's deployment-first ergonomics to agentic workflows — worth a look if you're building TypeScript-based AI pipelines and want something with first-class hosting integration."
+    },
+    {
+      "title": "To study how chips really work, MIT researchers built their own operating system",
+      "url": "https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Tech",
+      "blurb": "MIT's Fractal OS is a bare-metal research kernel built specifically to study processor internals — and its first target was Apple's M1, where it discovered previously unknown vulnerability to 'Phantom' speculative attacks. If you run Apple Silicon, this is directly relevant security research wrapped in genuinely fascinating systems work."
+    },
+    {
+      "title": "Kage - shadow any website by downloading it as a binary",
+      "url": "https://github.com/tamnd/kage",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ideas, githubrepo, testing, workflow",
+      "blurb": "Kage packages entire websites as self-contained, navigable offline binaries — no web server needed. Brilliant for archiving docs, testing against a frozen snapshot, or keeping reference sites available without internet. Instantly actionable for anyone who relies on third-party documentation."
+    },
+    {
+      "title": "Meet Alice. Alice is impatient. - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: performance, latency, observability, formulas, monitoring",
+      "blurb": "Marc Brooker (AWS) uses a simple queuing model to illustrate how tail latency and impatient users interact in ways that confound standard p99 metrics. Clear math, clear intuition, clear implications for API design. The kind of post that makes you rethink your SLO definitions."
+    },
+    {
+      "title": "Effective use-cases for LLMs - Aggressively Paraphrasing Me",
+      "url": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A grounded, practitioner-written breakdown of where LLMs actually deliver ROI versus where they disappoint — without the hype or doomerism. Specific, opinionated, and useful for anyone deciding which parts of their dev workflow to hand to an AI assistant. A good checklist for Claude Code users."
+    },
+    {
+      "title": "Conceptual Mass and the Compaction Discipline - The Phoenix Architecture",
+      "url": "https://aicoding.leaflet.pub/3mbhnolyzds2d",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, ai",
+      "blurb": "An architectural essay arguing that AI-assisted codebases need deliberate 'compaction' strategies to stay coherent as context windows fill up — introducing the idea of 'conceptual mass' as a design metric. Sharp thinking for anyone building serious systems with Claude Code or similar tools where context management is a real constraint."
+    }
+  ]
+}
