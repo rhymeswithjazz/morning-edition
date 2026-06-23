@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-23",
+  "stories": [
+    {
+      "title": "Steam Machine launches today",
+      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
+      "hn_link": "https://news.ycombinator.com/item?id=48632884",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by theschwa · 1572 points · 1363 comments",
+      "blurb": "Valve's long-awaited Steam Machine hardware is officially out, and it's the most-discussed tech launch on HN today. With 1363 comments, the community is deep in debate about what this means for PC gaming on the couch. This is Valve's biggest hardware bet since the Steam Deck."
+    },
+    {
+      "title": "Pledging another $400k to the Zig software foundation",
+      "url": "https://mitchellh.com/writing/zig-donation-2026",
+      "hn_link": "https://news.ycombinator.com/item?id=48630020",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tosh · 774 points · 263 comments",
+      "blurb": "Mitchell Hashimoto (Ghostty, ex-HashiCorp) doubles down on his commitment to Zig with another massive donation. This signals serious belief in Zig as a foundational systems language — the kind of infrastructure bet that shapes the next decade of tooling."
+    },
+    {
+      "title": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+      "url": "https://ipvm.com/reports/police-chiefs-track",
+      "hn_link": "https://news.ycombinator.com/item?id=48634694",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jhonovich · 511 points · 220 comments",
+      "blurb": "Police chiefs used Flock's license-plate-reader network to stalk women — no warrant, no oversight, no accountability. A damning case study in how mass surveillance infrastructure gets weaponized by the people entrusted with it. Essential reading for anyone who cares about digital rights and physical safety."
+    },
+    {
+      "title": "GLM-5.2 – How to Run Locally",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "hn_link": "https://news.ycombinator.com/item?id=48636377",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by TechTechTech · 379 points · 167 comments",
+      "blurb": "Unsloth's guide to running GLM-5.2 locally is a practical on-ramp to one of the most capable open-weight models right now. If you're building AI workflows or just want a local alternative to cloud APIs, this is your weekend project. Pairs with the HN comparison against Claude Opus."
+    },
+    {
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "hn_link": "https://news.ycombinator.com/item?id=48630171",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by DSemba · 289 points · 69 comments",
+      "blurb": "A tiny 200M parameter model that punches way above its weight class on image inpainting — matching or beating 10B models on key benchmarks. For photo editing workflows and creative pipelines, this is a serious efficiency win. The demo results are genuinely impressive."
+    },
+    {
+      "title": "Show HN: Oak – Git alternative designed for agents",
+      "url": "https://oak.space/oak/oak",
+      "hn_link": "https://news.ycombinator.com/item?id=48631726",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zdgeier · 185 points · 162 comments",
+      "blurb": "Git was designed for humans; Oak is being designed for AI coding agents that make rapid, parallel changes. If you're using Claude Code or similar tools, the pain points Oak addresses — concurrent edits, non-linear history, agent-friendly branching — are ones you've almost certainly hit."
+    },
+    {
+      "title": "Prompt Injection as Role Confusion",
+      "url": "https://role-confusion.github.io",
+      "hn_link": "https://news.ycombinator.com/item?id=48631888",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by x312 · 184 points · 99 comments",
+      "blurb": "A sharp new framing for prompt injection attacks: they work by convincing a model to confuse its roles (assistant vs. tool vs. user). Understanding this mental model is essential for anyone building agentic systems or using AI coding assistants against untrusted input."
+    },
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "hn_link": "https://news.ycombinator.com/item?id=48639240",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by timhigins · 180 points · 70 comments",
+      "blurb": "A 3B model beating Claude Opus 4.5 on reasoning benchmarks via a novel training recipe is a headline worth scrutinizing. If the results hold up, it's another data point that small, well-trained models can outperform massive ones on specific tasks — with big implications for local AI tooling."
+    },
+    {
+      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "hn_link": "https://news.ycombinator.com/item?id=48639063",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by AaronO · 87 points · 46 comments",
+      "blurb": "OpenAI launches DayBreak, a cybersecurity-focused GPT-5.5 variant aimed at helping defenders find and fix vulnerabilities. The dual-use implications are enormous, and OpenAI's framing of it as a security tool deserves careful reading — especially as these capabilities proliferate."
+    },
+    {
+      "title": "The new HTTP QUERY method explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "hn_link": "https://news.ycombinator.com/item?id=48640974",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by CommonGuy · 76 points · 36 comments",
+      "blurb": "The HTTP QUERY method is a new standard for sending a request body with a read-only, cacheable query — solving the longstanding GET-with-body awkwardness. Web API and .NET developers should get familiar with this now before it lands everywhere."
+    },
+    {
+      "title": "Never Give Them Your Face",
+      "url": "https://nevergivethemyourface.com/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy, security, trends, photography",
+      "blurb": "A practical guide and resource hub for protecting your biometric identity — your face — from surveillance systems, data brokers, and corporate databases. In the same week as the Flock/police stalking story, this is perfectly timed and directly actionable."
+    },
+    {
+      "title": "macOS Golden Gate Icon Comparison — Basic Apple Guy",
+      "url": "https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Basic Apple Guy's meticulous icon-by-icon comparison of the new macOS Golden Gate aesthetic against previous releases. If you care about the Apple design language and how your tools will look on the next OS, this is the visual reference you want bookmarked."
+    },
+    {
+      "title": "Read this before you vibe-code another app | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge lays out the real security risks lurking in AI-generated code — from prompt injection to insecure defaults that slip through because no human reviewed the logic. If you're shipping anything built with Claude Code or Cursor, read this and audit accordingly."
+    },
+    {
+      "title": "GLM-5.2 vs Claude Opus | Tech Stackups",
+      "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: glm, subject:cs.AI, subject:cs.CL, claude, blogs, year:2026",
+      "blurb": "A head-to-head benchmark breakdown of GLM-5.2 versus Claude Opus — directly relevant if you're deciding whether to run a local model or stick with Anthropic's API. Complements the Unsloth local-run guide and gives you the trade-off data to make that call."
+    },
+    {
+      "title": "StarTrail-org/PixelRAG: The end of web parsing. The beginning of scalable pixel-native search.",
+      "url": "https://github.com/StarTrail-org/PixelRAG",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: rag, subject:cs.AI, subject:cs.CL, research, year:2026",
+      "blurb": "PixelRAG is a RAG system that operates directly on pixel-level document representations rather than parsed text, bypassing the fragile extraction layer that breaks on PDFs, charts, and complex layouts. A genuinely novel approach to retrieval that could reshape AI document pipelines."
+    },
+    {
+      "title": "graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: markdown, agents, skills",
+      "blurb": "Graphify turns any folder of code, docs, papers, or images into a queryable knowledge graph — exactly the kind of tool that pairs naturally with an Obsidian vault or a codebase you want AI agents to reason over. Local-first and open source."
+    },
+    {
+      "title": "Eve - Vercel",
+      "url": "https://vercel.com/eve",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agent, framework",
+      "blurb": "Vercel's Eve is an AI agent framework tightly integrated with the Vercel deployment platform. For developers building agentic web apps, this is worth watching — Vercel has a track record of making complex infrastructure feel seamless, and they're applying that philosophy to agents."
+    },
+    {
+      "title": "Developers don't understand CORS - Chris Foster",
+      "url": "https://fosterelli.co/developers-dont-understand-cors",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cors",
+      "blurb": "A perennially relevant deep-dive that keeps resurfacing because CORS confusion keeps causing real security vulnerabilities — including recent issues with Zoom. Clear, no-nonsense explanation of what CORS actually does (and doesn't) protect you from. Bookmark it and send it to your team."
+    },
+    {
+      "title": "British Columbia, Time Zones, and Postgres | Crunchy Data Blog",
+      "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A forensic look at how BC's time zone history creates subtle, nasty bugs in PostgreSQL queries — the kind of edge case that bites you in production on a Saturday. Crunchy Data's blog consistently produces the most practically useful Postgres content on the web."
+    },
+    {
+      "title": "De-datafication",
+      "url": "https://www.robinsloan.com/lab/de-datafication/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: robinsloan, data, de-datafication, 2026, internet, web, online, infrastructure, corporations, centralization, datafication",
+      "blurb": "Robin Sloan reflects on an upcoming Georgetown Law conference asking the radical question: what would it take to rebuild the internet without constant data extraction? The provocations — including what to do when a few corporations control all infrastructure — read like a manifesto for the next decade of tech resistance."
+    }
+  ]
+}
