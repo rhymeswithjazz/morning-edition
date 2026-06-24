@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-24",
+  "stories": [
+    {
+      "title": "The Coming Loop",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "hn_link": "https://news.ycombinator.com/item?id=48643180",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ingve · 387 points · 270 comments",
+      "blurb": "Armin Ronacher (Flask/Jinja author) writes about the emerging agentic loop that's reshaping how software gets built with LLMs. Deeply thoughtful take from someone who's actually building with these tools every day. Essential reading if you're using Claude Code or any AI coding assistant."
+    },
+    {
+      "title": "FUTO Swipe – A new swipe typing model",
+      "url": "https://swipe.futo.tech/",
+      "hn_link": "https://news.ycombinator.com/item?id=48648619",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by futohq · 531 points · 167 comments",
+      "blurb": "FUTO — the privacy-first software org — releases a new swipe keyboard model that runs entirely on-device. No cloud, no telemetry, just a genuinely good swipe typing experience that doesn't phone home. A direct shot at Gboard and SwiftKey for privacy-conscious users."
+    },
+    {
+      "title": "Fired by Google for creating the Google workspace CLI",
+      "url": "https://twitter.com/JPoehnelt/status/2069482265953087602",
+      "hn_link": "https://news.ycombinator.com/item?id=48649011",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by justinwp · 519 points · 302 comments",
+      "blurb": "A Google engineer built an unofficial CLI for Google Workspace in their spare time — and got fired for it. The intersection of open source, corporate IP policy, and developer autonomy makes this a cautionary and infuriating tale. The 300-comment HN thread is worth your time."
+    },
+    {
+      "title": "Vulnerability reports are not special anymore",
+      "url": "https://words.filippo.io/vuln-reports/",
+      "hn_link": "https://news.ycombinator.com/item?id=48653216",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by goranmoomin · 258 points · 143 comments",
+      "blurb": "Cryptographer Filippo Valsorda argues that the vulnerability disclosure ecosystem is broken: AI-assisted fuzzing and scanning have made vuln reports a commodity, overwhelming maintainers. A sharp provocation about what responsible disclosure should look like in the age of AI-generated security reports."
+    },
+    {
+      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+      "url": "https://tikz.dev/editor/",
+      "hn_link": "https://news.ycombinator.com/item?id=48645437",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by DominikPeters · 388 points · 71 comments",
+      "blurb": "A fully browser-based WYSIWYG editor for TikZ diagrams that compiles LaTeX in real time. If you've ever suffered through the edit-compile-preview loop for LaTeX figures, this is a significant quality-of-life upgrade. Great for technical documentation and academic work."
+    },
+    {
+      "title": "Swift Package Index joins Apple",
+      "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+      "hn_link": "https://news.ycombinator.com/item?id=48648779",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by JDevlieghere · 203 points · 66 comments",
+      "blurb": "The beloved community-run Swift Package Index is being acquired by Apple, meaning the canonical package discovery tool for the Swift ecosystem is now officially first-party. Good news for discoverability; the usual questions about what happens to community-built things once Apple takes over apply."
+    },
+    {
+      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+      "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+      "hn_link": "https://news.ycombinator.com/item?id=48653575",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by 1vuio0pswjnm7 · 237 points · 157 comments",
+      "blurb": "Meta's internal employee surveillance program — which tracked productivity and communications — was paused after the surveillance data itself got leaked internally. The irony is exquisite: the watchers got watched. A sobering reminder that mass surveillance infrastructure creates its own security risks."
+    },
+    {
+      "title": "Usbliter8: an A12/A13 SecureROM Exploit",
+      "url": "https://ps.tc/pages/blog-usbliter8.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48585852",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by givinguflac · 139 points · 27 comments",
+      "blurb": "A detailed write-up of a new bootrom-level exploit targeting Apple's A12 and A13 chips — the kind of vulnerability that enables jailbreaking but also informs Apple's security posture going forward. Deep technical content for anyone interested in Apple silicon and low-level iOS security."
+    },
+    {
+      "title": "Printing Gaussian Splats",
+      "url": "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+      "hn_link": "https://news.ycombinator.com/item?id=48618481",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ilnmtlbnm · 294 points · 32 comments",
+      "blurb": "Someone figured out how to turn 3D Gaussian Splat captures into physical 3D prints, bridging the gap between photorealistic neural rendering and the physical world. The process and results are genuinely stunning — a peek at where computational photography meets fabrication."
+    },
+    {
+      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+      "hn_link": "https://news.ycombinator.com/item?id=48654465",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by retroplasma · 88 points · 31 comments",
+      "blurb": "A hilariously clever workaround for cursor lag on the new MacBook Neo — a tiny script that forces macOS to continuously refresh screen capture permissions, tricking the OS into staying alert. Actionable today if you're hitting this bug; also a window into how fragile macOS's screen recording throttling can be."
+    },
+    {
+      "title": "Claude Tag Anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: multiplayer, AI, collaboration, agents, automation, slack, communication, humanintheloop, productivity",
+      "blurb": "Anthropic introduces Claude Tag, a multiplayer collaboration feature that lets teams loop Claude into Slack conversations and workflows with a simple @mention. Direct relevance for anyone building AI-assisted developer workflows — this is the human-in-the-loop pattern becoming a first-class product."
+    },
+    {
+      "title": "The Flat Curve Society. Hi-ho, we've reached the moment, in… | by Steve Yegge | Jun, 2026 | Medium",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, training, agenticEngineering",
+      "blurb": "Steve Yegge — whose AI essays have consistently been ahead of the curve — makes the case that we've hit a plateau in LLM capability scaling and what that means for agentic engineering. Required reading for anyone building seriously with AI tools who wants to calibrate their expectations."
+    },
+    {
+      "title": "GitHub - headroomlabs-ai/headroom: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, github",
+      "blurb": "Headroom is an open-source library/proxy/MCP server that compresses tool outputs, logs, and RAG chunks before they hit the LLM context window — claiming 60–95% token reduction with no loss in answer quality. Directly actionable for anyone building Claude Code tools or RAG pipelines where context costs add up fast."
+    },
+    {
+      "title": "Trace: Meeting transcripts that never leave your Mac",
+      "url": "https://traceapp.info/?ref=labnotes.org",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: utils, trans, localai, meetings",
+      "blurb": "Trace is a macOS app that transcribes meetings locally — no cloud upload, no subscription to a SaaS that will enshittify. For privacy-conscious Mac users who want meeting notes without sending audio to a third-party server, this hits the sweet spot."
+    },
+    {
+      "title": "My AI Opinions - by Scott Alexander - Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/my-ai-opinions",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Scott Alexander's comprehensive state-of-the-art opinion piece on AI — covering timelines, risk, capability, and the current moment. SSC/ACX posts on AI have historically been some of the most rigorous lay analysis; this one has been spreading fast across the rationalist and tech communities."
+    },
+    {
+      "title": "Stanford CS336 | Language Modeling from Scratch (2025)",
+      "url": "https://cs336.stanford.edu/spring2025/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: learning",
+      "blurb": "Stanford's full course on building language models from scratch — lectures, assignments, and code all available publicly. If you want to understand what's actually happening inside the models you use every day with Claude Code, this is the best structured resource available."
+    },
+    {
+      "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+      "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: bash, tcp, tip, networking",
+      "blurb": "A dead-simple TIL showing how to make raw HTTP requests from a minimal container using only bash's built-in /dev/tcp pseudo-device — no curl, no wget required. The kind of trick that saves you when you're debugging a stripped-down Docker image at 2am."
+    },
+    {
+      "title": "Alisa's book of LLMs",
+      "url": "https://alisawuffles.notion.site/alisa-s-book-of-llms",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, tutorials, transformers, learning, education",
+      "blurb": "A curated Notion-based reading list and reference on LLMs from an NLP researcher — transformers, fine-tuning, RLHF, and evaluation, all organized and annotated. Excellent structured reference for developers who want to go deeper than the API surface."
+    },
+    {
+      "title": "Apple's weird anti-nausea dots cured my car sickness | The Verge",
+      "url": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apple, smartphone, Accessibility",
+      "blurb": "The Verge's writer tests Apple's Vehicle Motion Cues feature — animated dots on screen that help your vestibular system reconcile phone use with car movement — and reports it actually works. An underrated iOS accessibility feature that doubles as a practical quality-of-life improvement for anyone who reads on their phone in transit."
+    },
+    {
+      "title": "An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt",
+      "url": "https://lr0.org/blog/p/arabic/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, fonts",
+      "blurb": "A beautifully interactive deep dive into why rendering Arabic text is so technically hard — bidirectionality, contextual letter shaping, ligatures, and decades of software debt. Essential context for any developer whose app needs to go international, and gorgeous on its own terms as a piece of technical writing."
+    }
+  ]
+}
