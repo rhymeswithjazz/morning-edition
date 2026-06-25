@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-25",
+  "stories": [
+    {
+      "title": "We're making Bunny DNS free",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "hn_link": "https://news.ycombinator.com/item?id=48657030",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dabinat · 880 points · 261 comments",
+      "blurb": "Bunny is making its enterprise-grade DNS service completely free for everyone, with anycast routing across 100+ PoPs. For developers who care about reliability and speed without vendor lock-in, this is an immediate actionable win. The 261-comment HN thread is lively with comparisons to Cloudflare DNS."
+    },
+    {
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "hn_link": "https://news.ycombinator.com/item?id=48663324",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jamdesk · 698 points · 387 comments",
+      "blurb": "OpenAI's first custom silicon is a direct shot across NVIDIA's bow — vertical integration of inference hardware is the next frontier in the AI arms race. If training and inference costs drop as a result, every Claude Code and GPT-powered workflow benefits downstream. Huge strategic story."
+    },
+    {
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "hn_link": "https://news.ycombinator.com/item?id=48664814",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by htrp · 402 points · 690 comments",
+      "blurb": "Anthropic is accusing Alibaba of systematically distilling Claude's capabilities into competing models — a landmark IP dispute that will shape how AI companies protect their most valuable assets. Directly relevant to anyone building on Claude Code or Anthropic's API. The 690-comment thread is the real story."
+    },
+    {
+      "title": "Computer use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "hn_link": "https://news.ycombinator.com/item?id=48662999",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by swolpers · 215 points · 138 comments",
+      "blurb": "Google brings computer-use capabilities to Gemini 3.5 Flash, entering the agentic AI space that Anthropic pioneered with Claude. For developers building AI workflows, having a fast, cheap model that can interact with desktop UIs is a game-changer for automation. Worth benchmarking against Claude's computer use."
+    },
+    {
+      "title": "GLM-5.2 is a step change for open agents",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "hn_link": "https://news.ycombinator.com/item?id=48639840",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vantareed · 229 points · 128 comments",
+      "blurb": "Nathan Lambert's analysis of GLM-5.2 argues it represents a genuine leap for open-weight agentic models — the kind of thing that could make self-hosted AI agents practical. If you're evaluating alternatives to Claude Code for local or private workflows, this is essential reading."
+    },
+    {
+      "title": "Krea 2: SOTA open-weights 12B image model",
+      "url": "https://www.krea.ai/blog/krea-2-technical-report",
+      "hn_link": "https://news.ycombinator.com/item?id=48646659",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by mattnewton · 379 points · 41 comments",
+      "blurb": "Krea releases a fully open-weights 12B image generation model claiming state-of-the-art results — you can run it locally without API costs. For developers and creatives building generative image pipelines, open weights means fine-tuning, private deployment, and no rate limits. A strong challenger to Flux."
+    },
+    {
+      "title": "A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding",
+      "url": "https://labs.iximiuz.com/tutorials/ssh-tunnels",
+      "hn_link": "https://news.ycombinator.com/item?id=48606222",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by signa11 · 329 points · 62 comments",
+      "blurb": "A beautifully illustrated interactive tutorial on SSH tunneling — local, remote, and dynamic forwarding explained with live demos in the browser. This is the definitive reference to bookmark and share; the kind of evergreen resource that makes complex infrastructure concepts immediately clickable."
+    },
+    {
+      "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "url": "https://github.com/nubjs/nub",
+      "hn_link": "https://news.ycombinator.com/item?id=48660267",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by colinmcd · 239 points · 66 comments",
+      "blurb": "Nub brings Bun's developer-experience philosophy — bundler, test runner, package manager — to vanilla Node.js without requiring a runtime switch. If you have a large Node codebase you can't migrate, this is worth a hard look. Actionable today."
+    },
+    {
+      "title": "Show HN: Monolisa v3 – a typeface for developers and creatives",
+      "url": "https://www.monolisa.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=48630318",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by bebraw · 174 points · 75 comments",
+      "blurb": "MonoLisa v3 ships with a major refresh — refined letter shapes, extended ligature set, and better coverage for coding-heavy scripts. If you spend all day staring at a terminal or editor, your font choice is a quality-of-life investment. The v3 upgrade is substantial enough to revisit even if you already own it."
+    },
+    {
+      "title": "Cloudflare launched self-managed OAuth for all",
+      "url": "https://blog.cloudflare.com/oauth-for-all/",
+      "hn_link": "https://news.ycombinator.com/item?id=48668033",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by terryds · 157 points · 65 comments",
+      "blurb": "Cloudflare now lets any developer run a full OAuth 2.0 provider on its infrastructure for free, removing a major barrier for apps that need identity without a third-party auth vendor. Great for privacy-conscious developers who'd rather not funnel user logins through Auth0 or Okta. Actionable right now."
+    },
+    {
+      "title": "GitHub - DeusData/codebase-memory-mcp: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 64 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependen",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, mcp, codebase, index",
+      "blurb": "A zero-dependency MCP server that indexes your entire codebase into a persistent knowledge graph in milliseconds, then answers sub-millisecond queries with 99% fewer tokens than naive context stuffing. Claude Code users should install this immediately — it's a direct upgrade to codebase-aware AI assistance."
+    },
+    {
+      "title": "Pure Effect: Business logic as plain data",
+      "url": "https://pure-effect.org/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: javascript, typescript, effects, effect-ts",
+      "blurb": "Pure Effect proposes modeling all business logic as plain, serializable data rather than imperative function calls — think Effect-TS but with an emphasis on inspectability and testability. TypeScript developers building .NET-style layered architectures will find the ideas immediately transferable. The companion HN thread is worth reading alongside."
+    },
+    {
+      "title": "News from WWDC26: WebKit in Safari 27 beta | WebKit",
+      "url": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The official WebKit rundown of what's new in Safari 27 beta, fresh from WWDC26 — new CSS features, View Transitions improvements, and Web API additions that will affect every web app running on macOS and iOS. Essential reading if you're testing Angular apps against Safari. Via Daring Fireball."
+    },
+    {
+      "title": "Swift Package Index joins Apple, pledges to remain open source - 9to5Mac",
+      "url": "https://9to5mac.com/2026/06/23/swift-package-index-joins-apple-pledges-to-remain-open-source/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple has acquired the Swift Package Index — the community-run registry for Swift libraries — while publicly committing to keep it open source. A big deal for the Apple developer ecosystem; it signals Apple is investing seriously in Swift's tooling story rather than leaving it to volunteers."
+    },
+    {
+      "title": "Vibecoding is becoming a deal-breaker test for software acquisitions",
+      "url": "https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI, code",
+      "blurb": "Due diligence teams are reportedly now red-flagging codebases that were primarily vibe-coded with AI tools — poorly structured, low-test-coverage code generated at speed is becoming an M&A liability. A sobering counterpoint to the AI-coding hype, directly relevant to anyone building products with Claude Code or Cursor."
+    },
+    {
+      "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
+      "url": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "AWS Blocks is an open-source TypeScript framework where each \"Block\" bundles app code, local mocks, and AWS infrastructure together — designed so AI agents can generate correct, deployable backends from the start. Runs locally without an AWS account; deploys to Lambda, DynamoDB, and Bedrock unchanged. TypeScript-first developers should watch this closely."
+    },
+    {
+      "title": "Postgres Is Enough",
+      "url": "https://postgresisenough.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: PostgreSQL",
+      "blurb": "A curated, browsable directory of PostgreSQL extensions and tools that let you replace Redis, Elasticsearch, Kafka, and MongoDB with the one database you already know. This is the practical companion site to the manifesto — actionable for .NET developers who want to simplify their infrastructure stack."
+    },
+    {
+      "title": "Animating The Dialog Element Using View Transitions - Pqina",
+      "url": "https://pqina.nl/blog/animating-the-dialog-element-using-view-transitions/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: dialog, command, button, view-transition, progressive-enhancement",
+      "blurb": "A hands-on tutorial animating the native HTML `<dialog>` element with the View Transition API, following progressive enhancement best practices. Directly applicable to Angular component libraries that use dialogs/modals — you can swap in native browser animations without a third-party library."
+    },
+    {
+      "title": "GitHub - DietrichGebert/ponytail: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Ponytail is a prompt-layer that nudges AI coding agents toward the laziest correct solution — pushing back on unnecessary complexity, preferring deletion over addition. A useful guardrail for Claude Code sessions that have a tendency to over-engineer. Install it and see if your output shrinks."
+    },
+    {
+      "title": "baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ocr",
+      "blurb": "Baidu open-sources a long-horizon document OCR model that can parse entire books or complex multi-page documents in a single pass, rather than page-by-page. The \"one-shot\" architecture is a genuine advance for document intelligence pipelines. Interesting for anyone building RAG systems over scanned or PDF content."
+    }
+  ]
+}
