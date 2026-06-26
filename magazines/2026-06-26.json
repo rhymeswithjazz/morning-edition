@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-26",
+  "stories": [
+    {
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "url": "https://scrollprize.org/firstscroll",
+      "hn_link": "https://news.ycombinator.com/item?id=48675179",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by verditelabs · 1288 points · 269 comments",
+      "blurb": "The Vesuvius Challenge team has achieved the milestone everyone was waiting for: a complete Herculaneum scroll — carbonized by the 79 AD eruption — read end to end for the first time in nearly 2,000 years. AI-driven optical coherence tomography and a global crowd of researchers cracked what archaeologists had given up on. This is genuinely one of the most astonishing feats of applied machine learning ever, and it unlocks an entire lost library."
+    },
+    {
+      "title": "The 'papers, please' era of the internet will decimate your privacy",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+      "hn_link": "https://news.ycombinator.com/item?id=48679608",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bilsbie · 694 points · 326 comments",
+      "blurb": "FIRE argues that mandatory age verification and ID-gating of websites is creating a de facto surveillance infrastructure for the entire internet. Every site that checks your ID is a site that logs your visit, identity, and behavior — permanently. If you care about anonymous browsing or the open web, this is the threat model that matters most right now."
+    },
+    {
+      "title": "Apple raises prices of MacBooks, iPads",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "hn_link": "https://news.ycombinator.com/item?id=48672732",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by virgildotcodes · 714 points · 1027 comments",
+      "blurb": "Apple has raised prices across MacBook and iPad lines, blaming soaring memory costs — Micron locking in high DRAM prices for five years is part of the same story. For developers who live in the Apple ecosystem, this is a direct hit to hardware upgrade budgets. HN's 1,000+ comment thread is a reliable gut-check on how the community is reacting."
+    },
+    {
+      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+      "hn_link": "https://news.ycombinator.com/item?id=48676795",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by scrlk · 254 points · 237 comments",
+      "blurb": "Gurman reports Apple is skipping M6 Pro/Max/Ultra entirely and jumping straight to a neural-engine-heavy M7 lineup — a clear signal that on-device AI inference is now the primary design constraint for Mac silicon. If you're planning a Mac upgrade cycle, this changes the calculus significantly: wait for M7."
+    },
+    {
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "hn_link": "https://news.ycombinator.com/item?id=48675435",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by engomez · 271 points · 133 comments",
+      "blurb": "An open-source knowledge base that puts AI retrieval at the center rather than bolting it on — direct competition for Obsidian's AI plugin ecosystem. For heavy Obsidian users curious about where the AI-native knowledge tools are heading, this is worth evaluating. The fact that it's self-hostable gives it an immediate privacy advantage over cloud-first competitors."
+    },
+    {
+      "title": "IBM debuts sub-1 nanometer chip technology",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "hn_link": "https://news.ycombinator.com/item?id=48674967",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by porridgeraisin · 314 points · 172 comments",
+      "blurb": "IBM claims a working sub-1nm process node, which would be a fundamental materials science leap — silicon's physical limits were supposed to stop us around 2nm. The HN thread is appropriately skeptical about what 'sub-1nm' actually means in marketing vs. engineering terms, but if even partially real, this reshapes the next decade of compute."
+    },
+    {
+      "title": "What happened after 2k people tried to hack my AI assistant",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "hn_link": "https://news.ycombinator.com/item?id=48681687",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cuchoi · 141 points · 51 comments",
+      "blurb": "A developer built a public AI legal assistant and deliberately invited 2,000 people to jailbreak it — then documented every attack pattern and what defenses actually worked. Essential reading if you're building AI-facing products with Claude Code or any other assistant. Prompt injection, role-play bypasses, and system prompt extraction all make an appearance."
+    },
+    {
+      "title": "Political bias in AI: Where the AI models stand",
+      "url": "https://trakkr.ai/bias",
+      "hn_link": "https://news.ycombinator.com/item?id=48672779",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mektrik · 145 points · 255 comments",
+      "blurb": "Trakkr runs a standardized political compass battery across major LLMs and tracks the results over time. For developers who rely on models for code review, writing, and analysis, knowing where the defaults lean is important calibration. The methodology debate in the HN thread is as informative as the scores themselves."
+    },
+    {
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "hn_link": "https://news.ycombinator.com/item?id=48679007",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by babelfish · 148 points · 34 comments",
+      "blurb": "Instead of diffusion or transformers, Un-0 generates images using networks of coupled oscillators — a genuinely different computational substrate. The results are visually distinctive and the approach sidesteps many of the training-data IP problems that plague diffusion models. Worth watching as an alternative image generation paradigm."
+    },
+    {
+      "title": "You can't unit test for taste",
+      "url": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
+      "hn_link": "https://news.ycombinator.com/item?id=48657049",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by kalli · 270 points · 124 comments",
+      "blurb": "A sharp essay arguing that the craft of software — the judgment calls that make code readable, maintainable, and elegant — cannot be mechanically verified, only cultivated. Directly relevant to the vibe-coding / AI-generated code debate: tests can confirm behavior, but taste is what separates a codebase you love from one you dread opening."
+    },
+    {
+      "title": "Mistral OCR 4 : SOTA OCR for Document Intelligence",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI",
+      "blurb": "Mistral's fourth-generation OCR model targets document intelligence — structured extraction from PDFs, scans, and mixed-layout documents. If you're building document pipelines or RAG systems with Claude Code, having a best-in-class open-weight OCR in the toolchain changes what's possible. Worth benchmarking against Tesseract and AWS Textract."
+    },
+    {
+      "title": "The Problem is Prompt Debt",
+      "url": "https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, teaching",
+      "blurb": "Drew Breunig coins 'prompt debt' — the accumulation of brittle, undocumented prompts scattered across a codebase that nobody understands anymore, analogous to technical debt. This is a real and growing problem for anyone shipping AI features, and the post offers a framework for thinking about prompt lifecycle management before your system prompt becomes unmaintainable legacy code."
+    },
+    {
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend. — HollandTech",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, ai, architecture, engineering, culture, leadership",
+      "blurb": "A pointed critique of developers who outsource architectural decisions to Claude and then wonder why their systems are incoherent. The argument: LLMs are excellent at implementing decisions, terrible at holding the context and constraints that make architectural choices good. Directly relevant if you use Claude Code daily — knowing where to draw the delegation line matters."
+    },
+    {
+      "title": "British Police Built a Sprawling Crime-Prediction Machine. Some Results Couldn't Be Trusted",
+      "url": "https://www.wired.com/story/british-police-built-a-sprawling-crime-prediction-machine-some-results-couldnt-be-trusted/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, models, prediction, transparency, accountability, participation, police, minorityreport, analytics, datascience, judgedreddwithamacbook",
+      "blurb": "Wired's investigation into the UK's predictive policing system reveals that outputs were used to make real enforcement decisions despite internal doubts about their accuracy. The accountability gap between 'the model said so' and 'we verified this' is the central civil liberties crisis of applied ML. Required reading for anyone building AI tools that affect human outcomes."
+    },
+    {
+      "title": "White House app auto-downloads to government phones, can't be uninstalled - Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/white-house-app-auto-downloads-to-government-phones-cant-be-uninstalled/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "A government-mandated app that force-installs itself, can't be removed, and was previously caught sharing location data and IP addresses with third parties. The developer is a small WordPress shop. This is a textbook case of MDM capabilities being weaponized, and the privacy implications extend to everyone who interacts with federal employees carrying these devices."
+    },
+    {
+      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: share, linkedin",
+      "blurb": "AWS Lambda now exposes Firecracker MicroVMs directly, giving developers full lifecycle control over lightweight sandboxes — boot, pause, snapshot, and restore. This is a big deal for AI agent sandboxing, code execution environments, and any workload that needs true process isolation without the overhead of full EC2. The Claude Code use case writes itself."
+    },
+    {
+      "title": "calesthio/OpenMontage: World's first open-source, agentic video production system",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup, clanker, agents, ai, llm",
+      "blurb": "OpenMontage is an agentic pipeline that takes a plain-language brief and produces a finished video — research, scripting, stock footage retrieval, editing, and render — all orchestrated by an LLM agent with 52 tools and 500+ skills. Unlike 'animate some stills' tools, it actually works with real motion clips. The most ambitious open-source AI video project to date."
+    },
+    {
+      "title": "How to Write an Effective Software Design Document",
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, architecture, writing, tutorial, learning, bestpractices, tips, productivity",
+      "blurb": "A practical, no-fluff guide to design docs that actually get read and used — covering structure, scope, and how to present trade-offs. In an era where AI can generate code faster than humans can review it, the design doc is becoming the critical artifact that keeps teams aligned. Bookmark this one."
+    },
+    {
+      "title": "t8y2/dbx: Open-source, lightweight, cross-platform database client",
+      "url": "https://github.com/t8y2/dbx",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: gui, database, desktop",
+      "blurb": "A single desktop app that speaks MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, and SQL Server. For .NET and TypeScript developers juggling multiple data stores across projects, a unified client that isn't TablePlus-priced is genuinely useful. Open-source and cross-platform means it works wherever your stack lives."
+    },
+    {
+      "title": "How The Heck Do Synthesizers Work? (An Interactive Exploration)",
+      "url": "https://perthirtysix.com/how-the-heck-do-synthesizers-work",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: mathematics, music, technology",
+      "blurb": "A beautifully crafted interactive explainer that walks from sine waves through oscillators, filters, envelopes, and LFOs — with playable elements at every step. This is the kind of thing that makes the web worth having. Whether you're curious about audio programming or just want to understand what the knobs on a synth actually do, this is an afternoon well spent."
+    }
+  ]
+}
