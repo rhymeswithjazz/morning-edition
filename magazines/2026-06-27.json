@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-27",
+  "stories": [
+    {
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "hn_link": "https://news.ycombinator.com/item?id=48690101",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alain94040 · 1009 points · 1056 comments",
+      "blurb": "OpenAI's most capable model will require U.S. government vetting before access is granted — a dramatic shift in how frontier AI is distributed. This is the biggest policy story in AI this year, with direct implications for who can build with cutting-edge models. If you're a developer relying on OpenAI APIs, this could eventually affect your access tier."
+    },
+    {
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "hn_link": "https://news.ycombinator.com/item?id=48689028",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 986 points · 614 comments",
+      "blurb": "OpenAI officially previews GPT-5.6 Sol, the model that's now being gate-kept by the U.S. government. The companion piece to today's top story — read this to understand what the fuss is about. Benchmark numbers and capability claims are significant enough to justify the policy circus."
+    },
+    {
+      "title": "U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "hn_link": "https://news.ycombinator.com/item?id=48692995",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bobrenjc93 · 416 points · 449 comments",
+      "blurb": "The government-vetted model story isn't just OpenAI — Anthropic's Mythos is also entering a controlled-release regime for 'trusted' U.S. organizations. As a Claude Code user, this is directly relevant: Anthropic's most powerful models may soon live behind a national-security paywall. The implications for developer tooling are enormous."
+    },
+    {
+      "title": "We can still stop California's 3D printer surveillance scheme",
+      "url": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+      "hn_link": "https://news.ycombinator.com/item?id=48692051",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hn_acker · 388 points · 129 comments",
+      "blurb": "California is considering legislation that would require 3D printers to embed tracking/surveillance identifiers — the EFF is sounding the alarm and asking for action. The same logic that kills printer anonymity can be applied to any personal fabrication device. An actionable EFF call-to-action with a concrete deadline."
+    },
+    {
+      "title": "Om",
+      "url": "https://daringfireball.net/2026/06/om",
+      "hn_link": "https://news.ycombinator.com/item?id=48693391",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by throw0101a · 353 points · 15 comments",
+      "blurb": "John Gruber's tribute to Om Malik, the tech journalist and blogger who passed away this week at 59. Om was a fixture of the Apple and tech-media world for decades — this is required reading for anyone who grew up with GigaOM. A rare moment of the HN community pausing for something that isn't a product launch."
+    },
+    {
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "hn_link": "https://news.ycombinator.com/item?id=48688700",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by adchurch · 167 points · 97 comments",
+      "blurb": "A middleware layer that routes prompts intelligently between models inside Claude, Codex, and Cursor — automatically choosing cheaper or faster models for simpler tasks. As a Claude Code user this is immediately actionable for cutting costs without sacrificing quality on complex tasks. Open source and designed to drop in with minimal config."
+    },
+    {
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "hn_link": "https://news.ycombinator.com/item?id=48692058",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kkm · 197 points · 163 comments",
+      "blurb": "A rigorous, data-driven look at how much open-weights models still trail the frontier closed-source labs — and where the gap is narrowing fastest. Directly relevant context for anyone deciding whether to self-host or stay on API. The government-vetting stories make this analysis even more timely."
+    },
+    {
+      "title": "PlayStation Is Deleting 551 Movies from Customers' Accounts",
+      "url": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
+      "hn_link": "https://news.ycombinator.com/item?id=48691346",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ortusdux · 264 points · 145 comments",
+      "blurb": "Sony is wiping purchased movies from PlayStation accounts due to a licensing dispute with StudioCanal — including Terminator 2 and Robocop. A brutal reminder that 'buying' digital content is really just renting goodwill. The implications extend well beyond gaming to any platform-dependent media purchase."
+    },
+    {
+      "title": "Ultrasound imaging of the brain",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "hn_link": "https://news.ycombinator.com/item?id=48685558",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rossant · 275 points · 113 comments",
+      "blurb": "Functional ultrasound (fUS) is emerging as a viable alternative to fMRI for brain imaging — portable, cheaper, and with millisecond resolution. A beautifully written technical explainer from a neuroscience startup. The 'weird science' angle: you can now image brain activity through a skull with a device that fits in a backpack."
+    },
+    {
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "hn_link": "https://news.ycombinator.com/item?id=48694631",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by signa11 · 51 points · 8 comments",
+      "blurb": "A detailed forensic postmortem of a sophisticated, likely nation-state attack that was caught and stopped — the author walks through every stage of the intrusion attempt. Essential reading for developers who maintain any public-facing infrastructure. The level of operational detail here is unusually high for a public writeup."
+    },
+    {
+      "title": "Incident Report: CVE-2026-LGTM | Andrew Nesbitt",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: computers, programming, security, infosec, ai, gpt3, packagemanagers",
+      "blurb": "A fictional-but-plausible incident report exploring how AI-assisted code review enabled a supply-chain compromise — the CVE name 'LGTM' is the punchline. As AI coding assistants become standard, this kind of trust-but-don't-verify failure mode is a real emerging threat. A sharp, uncomfortable read for anyone using Claude Code or Copilot in production."
+    },
+    {
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML | Claude",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: html, vs, markdown, claude, why",
+      "blurb": "Anthropic's own blog explains why Claude Code works better with HTML output than Markdown — a counter-intuitive finding with immediate workflow implications. If you're using Claude Code daily, this is a must-read that could meaningfully change how you structure prompts and outputs. Practical, opinionated, and straight from the source."
+    },
+    {
+      "title": "Prompt Injection as Role Confusion",
+      "url": "https://role-confusion.github.io/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, cybersecurity",
+      "blurb": "A research site framing prompt injection attacks through the lens of role confusion — when a model can't distinguish between instructions from a trusted operator and injected commands from untrusted content. Clear taxonomy and worked examples make this the best conceptual primer on prompt injection available. Essential reading before deploying any LLM-powered agent."
+    },
+    {
+      "title": "CVE-2026-8461 Turns Video into a Host for Remote Code Execution",
+      "url": "https://jfrog.com/blog/pixelsmash-critical-ffmpeg-vulnerability-turns-media-files-into-weapons/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: codec, security",
+      "blurb": "A critical FFmpeg vulnerability (dubbed PixelSmash) allows arbitrary code execution via a crafted video file — and FFmpeg is embedded in thousands of apps and services. If you run any media processing pipeline, patch now. The JFrog writeup includes a full technical breakdown of the exploit chain."
+    },
+    {
+      "title": "Running local models is good now | ✰Vicki Boykis✰",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-local",
+      "blurb": "Vicki Boykis makes a compelling case that the local model experience has crossed a usability threshold in 2026 — hardware costs are down, tooling is mature, and privacy benefits are real. Given today's government-vetting news for frontier models, local inference looks even more attractive as a fallback. Highly relevant for privacy-conscious developers."
+    },
+    {
+      "title": "What I'm Finding About LLM Code Style and Token Costs - Jim Montgomery jimmont.com",
+      "url": "https://www.jimmont.com/llm-style-token-costs",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llmBlog",
+      "blurb": "A practical developer's notebook on how code style choices — naming conventions, comments, whitespace — meaningfully impact token consumption and LLM costs. As the 'Tokenpocalypse' story also surfacing today confirms, token costs are a real operational concern. Actionable tips you can apply in your next Claude Code session."
+    },
+    {
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+      "url": "https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, accenture, techindustry",
+      "blurb": "404 Media reports that enterprise AI spending is spiraling out of control, with companies shocked by token bills that dwarf initial estimates. The piece coins 'tokenpocalypse' for the reckoning hitting finance teams right now. A useful reality check to pair with the smart-routing Show HN from earlier in today's edition."
+    },
+    {
+      "title": "Anthropic's Safety Superpower – Stratechery by Ben Thompson",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml, ai, ai-coding, anthropic",
+      "blurb": "Ben Thompson argues that Anthropic's safety-first positioning is becoming a genuine competitive moat — particularly as government relationships tighten around frontier model access. Context-setting analysis for today's Mythos story. Required reading for anyone building on Anthropic's APIs who wants to understand the company's strategic trajectory."
+    },
+    {
+      "title": "GitHub - cobusgreyling/loop-engineering: Practical patterns, starters & CLI tools for loop engineering with AI coding agents",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A GitHub repo collecting practical patterns and CLI tools for designing agentic loops — the kind of orchestration you need when Claude Code or similar agents run multi-step tasks. Inspired by Addy Osmani and Boris Cherny's work on agent design. Immediately useful for anyone building AI-assisted workflows beyond single-shot prompting."
+    },
+    {
+      "title": "tw-fade - Tailwind CSS scroll-edge fading with CSS masks",
+      "url": "https://pete.design/tw-fade",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: tailwind, language:css, web-design, web-development",
+      "blurb": "A tiny, polished Tailwind plugin that adds scroll-edge fade effects using CSS masks — the kind of UI detail that makes apps feel native. Drop-in for any Angular or web project using Tailwind. The demo site is itself a great showcase of the effect in action."
+    }
+  ]
+}
