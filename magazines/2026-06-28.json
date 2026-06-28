@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-28",
+  "stories": [
+    {
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "url": "https://github.com/bikini/exploitarium",
+      "hn_link": "https://news.ycombinator.com/item?id=48698617",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by binyu · 795 points · 310 comments",
+      "blurb": "An anonymous GitHub account is dropping live, undisclosed zero-day exploits into the open with no CVE coordination or vendor notification — chaos as a service. With 310 comments and nearly 800 points, the security community is very much awake and arguing. If you run anything on the public internet, pay attention to what lands here."
+    },
+    {
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=48696585",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aurenvale · 759 points · 320 comments",
+      "blurb": "DeepSeek drops a technical paper on DSpark, a speculative decoding approach that meaningfully cuts LLM inference latency without sacrificing output quality. Speculative decoding is becoming the dominant strategy for making large models fast enough for real-time use — Claude Code users especially benefit when the underlying API is faster. Worth reading for anyone optimizing AI-assisted workflows."
+    },
+    {
+      "title": "OpenRA",
+      "url": "https://www.openra.net/",
+      "hn_link": "https://news.ycombinator.com/item?id=48697560",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by tosh · 698 points · 132 comments",
+      "blurb": "OpenRA is the beloved open-source reimplementation of classic Command & Conquer, Red Alert, and Dune 2000 — and it's back on HN's front page with 700 points, suggesting a meaningful update or renewed community excitement. If you grew up on Westwood Studios games, this is your weekend sorted."
+    },
+    {
+      "title": "Fintech Engineering Handbook",
+      "url": "https://w.pitula.me/fintech-engineering-handbook/",
+      "hn_link": "https://news.ycombinator.com/item?id=48696982",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 554 points · 172 comments",
+      "blurb": "A comprehensive, opinionated handbook covering the engineering realities of building fintech products — compliance, ledgers, payment rails, and the subtle bugs that get companies fined. Densely practical and freely available online. Even if you're not in fintech, the systems-thinking around money and correctness transfers broadly."
+    },
+    {
+      "title": "The case for physical media ownership",
+      "url": "https://dervis.de/physical/",
+      "hn_link": "https://news.ycombinator.com/item?id=48697335",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cemdervis · 431 points · 291 comments",
+      "blurb": "A thoughtful essay arguing that streaming and cloud dependency have quietly eroded your actual ownership of media — and that physical copies are a hedge against platform rot and license revocation. Connects directly to digital rights concerns that matter for anyone who cares about long-term access to their own data and purchases. 291 comments means the discourse is lively."
+    },
+    {
+      "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+      "url": "https://ipcrawl.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48700834",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by arm32 · 295 points · 147 comments",
+      "blurb": "A site cataloging publicly accessible webcams found via internet scanning — a sobering reminder of how many devices are exposed with default credentials. Part Shodan, part voyeurism study, and entirely a wake-up call about IoT security hygiene. If you have any networked cameras, go check your firewall rules right now."
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "hn_link": "https://news.ycombinator.com/item?id=48697958",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bogdiyan · 224 points · 171 comments",
+      "blurb": "Asian AI startups are shipping frontier-grade models to fill the gap left by Anthropic's ongoing export restrictions — directly relevant to anyone building with Claude or evaluating model alternatives. The geopolitics of AI access are reshaping which tools developers worldwide can actually use. If you build with Anthropic APIs, the competitive landscape just got more complicated."
+    },
+    {
+      "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
+      "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+      "hn_link": "https://news.ycombinator.com/item?id=48698559",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Versipelle · 147 points · 54 comments",
+      "blurb": "A security practitioner's level-headed take on what the post-Mythos threat landscape actually means for defenders — cutting through the hype to focus on durable security practices. Pairs well with the 0-day story above for a full picture of today's threat environment. Good calibration reading if you're responsible for any production systems."
+    },
+    {
+      "title": "Choosing a Public DNS Resolver",
+      "url": "https://evilbit.de/dns-resolver-guide.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48702273",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by pawal · 153 points · 47 comments",
+      "blurb": "A rigorous, privacy-focused guide comparing public DNS resolvers — 1.1.1.1, 9.9.9.9, NextDNS, and others — on logging policies, performance, and threat blocking. DNS is the first and most overlooked privacy lever most developers never tune. Actionable in five minutes on macOS or your router."
+    },
+    {
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "hn_link": "https://news.ycombinator.com/item?id=48701512",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by kageroumado · 108 points · 71 comments",
+      "blurb": "A tiny macOS utility that keeps your lid-closed Mac alive precisely as long as an AI agent job is running — then lets it sleep. Built for the Claude Code and Cursor crowd who run long agentic tasks overnight on a clamshell MacBook. Scratches a very real itch with surgical precision."
+    },
+    {
+      "title": "AI learns the \"dark art\" of RFIC design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Brajeshwar · 231 points · 149 comments",
+      "blurb": "IEEE Spectrum reports on AI systems that have cracked the notoriously arcane craft of radio frequency IC design — a domain so specialized it takes humans decades to master. It's a striking example of AI tackling expert-level engineering work that goes well beyond code generation. The implications for chip design timelines are significant."
+    },
+    {
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by handfuloflight · 61 points · 12 comments",
+      "blurb": "An open-source router that deterministically decides whether a given query goes to a local model (Ollama etc.) or a hosted API like Claude — based on rules you define. Essential infrastructure for developers who want privacy-sensitive queries to stay on-device while complex tasks hit the cloud. Highly actionable for any AI-augmented workflow."
+    },
+    {
+      "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
+      "url": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by saisrirampur · 66 points · 4 comments",
+      "blurb": "ClickHouse engineers rewrote the popular WAL-G PostgreSQL backup tool in Rust, claiming substantial performance and reliability improvements. If you use Postgres in production — and who doesn't — this is worth evaluating as a drop-in replacement with lower memory overhead and faster restores."
+    },
+    {
+      "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jackpriceburns · 117 points · 39 comments",
+      "blurb": "An interactive learning site teaching the craft of game decompilation — reverse-engineering GameCube binaries back into compilable, matching C code. It's a niche skill with broad payoffs: you'll come out understanding assembly, compilers, and ABI conventions at a deep level. Surprisingly polished for a Show HN."
+    },
+    {
+      "title": "Regular expressions that work \"everywhere\"",
+      "url": "https://www.johndcook.com/blog/2026/06/23/regex-everywhere/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ColinWright · 53 points · 25 comments",
+      "blurb": "John D. Cook catalogs the regex subset that reliably works across JavaScript, Python, .NET, grep, and sed without surprises — an invaluable reference for developers who context-switch between languages. For .NET and TypeScript devs especially, knowing the portable core saves debugging time. Bookmark this one."
+    },
+    {
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by jakogut · 129 points · 36 comments",
+      "blurb": "A detailed guide for clustering AMD Strix Halo APUs with RDMA to run vLLM at scale — turning consumer-grade hardware into a serious local LLM inference cluster. As GPU costs stay high, RDMA-linked APU clusters are emerging as a real alternative for self-hosted inference. Highly technical and highly practical."
+    },
+    {
+      "title": "Ford hired AI and sacked humans. It backfired badly",
+      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by speckx · 182 points · 103 comments",
+      "blurb": "Ford's aggressive push to replace knowledge workers with AI systems ran into quality and institutional knowledge problems that cost more to fix than the automation saved. A useful data point in the ongoing debate about where AI substitution actually works versus where it destroys organizational capability. Read before your next AI ROI conversation."
+    },
+    {
+      "title": "How do you keep Web MIDI from crashing a 1983 synthesizer?",
+      "url": "https://knob.monster/how-do-you-keep-web-midi-from-crashing-a-1983-synthesizer",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by halfradaition · 45 points · 20 comments",
+      "blurb": "A deep-dive into the surprisingly gnarly problem of driving vintage hardware via Web MIDI — buffer flooding, timing jitter, and 40-year-old firmware that never anticipated a browser sending SysEx at gigabit speeds. Delightful engineering archaeology for anyone interested in creative coding or hardware interfacing."
+    },
+    {
+      "title": "Suspicious Discontinuities (2020)",
+      "url": "https://danluu.com/discontinuities/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by tosh · 237 points · 76 comments",
+      "blurb": "Dan Luu's classic essay cataloging data distributions with suspiciously convenient round-number clustering — performance benchmarks, survey responses, scientific results — and what that implies about measurement integrity. A must-read for anyone who relies on benchmarks to make engineering decisions. It will make you permanently more skeptical of tidy data."
+    },
+    {
+      "title": "Bashblog – a single bash script to create blogs",
+      "url": "https://github.com/cfenollosa/bashblog",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ludicrousdispla · 37 points · 6 comments",
+      "blurb": "Bashblog is a single shell script that turns a folder of markdown files into a complete static blog — no Node, no Ruby, no build pipeline. In an era of ever-bloating static site generators, its radical simplicity is the feature. If you've been meaning to start writing but kept tripping over tooling, this removes every excuse."
+    }
+  ]
+}
