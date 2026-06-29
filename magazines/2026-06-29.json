@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-29",
+  "stories": [
+    {
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "hn_link": "https://news.ycombinator.com/item?id=48709670",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jms703 · 839 points · 391 comments",
+      "blurb": "Semgrep's security-focused benchmarks show GLM 5.2 outperforming Claude on cyber tasks — a direct challenge to Anthropic's dominance in the coding assistant space. The title riffs on Anthropic's own Mythos model saga, making this doubly relevant. If you're using Claude Code for security-sensitive work, this is worth a hard look."
+    },
+    {
+      "title": "The KIDS Act would require age checks to get online",
+      "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
+      "hn_link": "https://news.ycombinator.com/item?id=48706560",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bilsbie · 483 points · 378 comments",
+      "blurb": "The EFF breaks down the KIDS Act, which would mandate age verification as a gateway to internet access. This isn't just about protecting children — it's a massive surveillance infrastructure play that affects every developer building web services. Read alongside the companion piece below."
+    },
+    {
+      "title": "Age verification is just a precursor to automated attribution of speech",
+      "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "hn_link": "https://news.ycombinator.com/item?id=48714529",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by arkhiver · 459 points · 259 comments",
+      "blurb": "A sharp editorial argument that age verification laws aren't really about kids — they're about building the infrastructure to tie online speech to legal identities. The slippery slope here is unusually well-argued. Essential reading for anyone who cares about anonymous internet use."
+    },
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "hn_link": "https://news.ycombinator.com/item?id=48708941",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by engmarketer · 431 points · 568 comments",
+      "blurb": "A developer feeds their own MRI scans into Claude Code Opus and documents what the model gets right, what it hedges, and where it falls short. The 568 comments make this a lightning rod for debate about AI in medicine. A genuinely fascinating use case that pushes Claude Code well outside its coding comfort zone."
+    },
+    {
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "hn_link": "https://news.ycombinator.com/item?id=48713832",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by sambellll · 422 points · 150 comments",
+      "blurb": "A writer stress-tests HackerRank's newly open-sourced AI resume screener and finds wildly inconsistent scores on the same document. It's a compelling demolition of black-box AI hiring tools and a timely reminder that 'objective' scoring is often anything but. Worth reading before your next job application."
+    },
+    {
+      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "url": "https://github.com/openai/codex/issues/2847",
+      "hn_link": "https://news.ycombinator.com/item?id=48706714",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by pikseladam · 207 points · 131 comments",
+      "blurb": "A widely-tracked GitHub issue reveals that OpenAI Codex still has no supported way to exclude sensitive files (secrets, credentials, private configs) from being sent to the API. If you're using any AI coding assistant on real codebases, this is a concrete, unresolved risk you should know about. The discussion is packed with workarounds."
+    },
+    {
+      "title": "Librepods: AirPods liberated",
+      "url": "https://github.com/librepods-org/librepods",
+      "hn_link": "https://news.ycombinator.com/item?id=48710232",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by rbanffy · 390 points · 130 comments",
+      "blurb": "An open-source project that unlocks AirPods features (Adaptive Transparency, Personalized Volume, head gesture controls) on non-Apple operating systems. For the Apple ecosystem user who also runs Linux or just wants more control, this is a practical tool you can install today. The 130 HN comments are full of setup tips."
+    },
+    {
+      "title": "Dissecting Apple's Sparse Image Format (ASIF)",
+      "url": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/",
+      "hn_link": "https://news.ycombinator.com/item?id=48708644",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by supermatou · 76 points · 3 comments",
+      "blurb": "A deep reverse-engineering dive into ASIF, Apple's undocumented sparse disk image format used internally in macOS. Exactly the kind of low-level Apple internals post that rarely surfaces outside niche circles. If you build macOS tools or care about Apple's file system choices, this is a gem."
+    },
+    {
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "hn_link": "https://news.ycombinator.com/item?id=48714802",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mzehrer · 67 points · 35 comments",
+      "blurb": "Herdr lets you run and coordinate multiple AI coding agents simultaneously from a single terminal session — think Claude Code, Codex, and custom agents side by side. For developers already deep in AI-assisted workflows, this is the missing orchestration layer. Actionable and installable today."
+    },
+    {
+      "title": "Jimmy is a tool to convert your notes from different formats to Markdown",
+      "url": "https://marph91.github.io/jimmy/",
+      "hn_link": "https://news.ycombinator.com/item?id=48711681",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by CTOSian · 21 points · 0 comments",
+      "blurb": "Jimmy is a CLI tool that converts notes from Notion, Evernote, Bear, Joplin, and a dozen other apps into clean Markdown — perfect for migrating into Obsidian. Low score but extremely high practical value for the note-taking power user. If you've been stuck in a proprietary format, this is your escape hatch."
+    },
+    {
+      "title": "Evan's Jujutsu Tutorial",
+      "url": "https://evmar.github.io/jjtut/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, versioncontrol, jujutsu, tutorial, learning, productivity",
+      "blurb": "A comprehensive hands-on tutorial for Jujutsu (jj), the Git-compatible version control system that's been winning over developers who want a cleaner mental model than Git's. Written by Evan Martin (ex-Google), it's the most approachable entry point yet. If you've been jj-curious, start here."
+    },
+    {
+      "title": "Lessons from Anthropic on building effective human-agent teams",
+      "url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic's own blog post on structuring workflows where humans and AI agents collaborate — covering task decomposition, trust calibration, and when to keep humans in the loop. Directly relevant to anyone orchestrating Claude Code or multi-agent pipelines. Practical frameworks, not just theory."
+    },
+    {
+      "title": "Omnigent — a meta-harness for building and running AI agents",
+      "url": "https://omnigent.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, agent, tool",
+      "blurb": "Omnigent provides a unified layer over Claude Code, Codex, and custom agents — swap or combine them without rewriting glue code, enforce policies, sandbox execution, and collaborate on live sessions from any device. This is exactly the kind of infrastructure that serious AI-tooling shops are building internally. Now it's a product."
+    },
+    {
+      "title": "Why Local AI Is Apple's Play - MacSparky",
+      "url": "https://www.macsparky.com/blog/2026/06/why-local-ai-is-apples-play/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacSparky's David Sparks makes the case that Apple's real AI moat is on-device inference — privacy-preserving, latency-free, and tied to hardware Apple controls end-to-end. A clear-eyed strategic read for anyone watching how Apple Intelligence evolves. Directly relevant to the Apple-ecosystem developer."
+    },
+    {
+      "title": "How to create a macOS Golden Gate USB install drive [Video] - 9to5Mac",
+      "url": "https://9to5mac.com/2026/06/28/how-to-create-a-macos-golden-gate-usb-install-drive-video/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A step-by-step video guide for creating a bootable USB installer for macOS Golden Gate — handy for clean installs, IT setups, or recovering machines without internet access. Purely actionable. Bookmark it before you need it."
+    },
+    {
+      "title": "Nearly a million passports and photo IDs were left unprotected on the public internet | The Verge",
+      "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Cannabis club management software (Nefos/PuffPal) left nearly a million government IDs and passport scans in a publicly accessible S3 bucket. A textbook example of what happens when regulated industries bolt on compliance software without security basics. A useful reminder of the real-world cost of misconfigured cloud storage."
+    },
+    {
+      "title": "Vibe slop is the symptom. Context debt is the disease. - The New Stack",
+      "url": "https://thenewstack.io/vibe-coding-context-debt/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A sharp diagnosis of why AI-assisted codebases degrade over time: it's not the vibe coding itself, it's the accumulating 'context debt' as models lose coherent understanding of a growing codebase. This reframes the problem in a way that points toward actual solutions — better context management, structured specs, tighter scopes. Essential for Claude Code users."
+    },
+    {
+      "title": "\"Code should be regenerated, not maintained\": Codeplain makes the case for spec-driven development - The New Stack",
+      "url": "https://thenewstack.io/codeplain-spec-driven-regenerative-code/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Codeplain argues that in an AI-native world, code is a build artifact — write the spec, regenerate the implementation. It's a provocative rethink of what 'maintaining a codebase' even means. Pairs perfectly with the context-debt piece above and will resonate with anyone doing serious AI-assisted development."
+    },
+    {
+      "title": "Modern GPU Programming For MLSys — Modern GPU Programming For MLSys",
+      "url": "https://mlc.ai/modern-gpu-programming-for-mlsys/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: mlgpu",
+      "blurb": "A free, comprehensive online textbook on GPU programming specifically for machine learning systems — covering CUDA, memory hierarchies, kernel fusion, and more. If you've ever wanted to understand what's actually happening inside LLM inference, this is the definitive starting point. Bookmarkable reference."
+    },
+    {
+      "title": "Software Engineering in the Age of AI",
+      "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, software_development, agentic_ai",
+      "blurb": "A thoughtful practitioner's essay on how the role of a software engineer is actually changing — not disappearing — as agentic AI takes over boilerplate. Strong on the distinction between direction-setting (hard to automate) and implementation (increasingly automated). A grounding read amid the hype."
+    }
+  ]
+}
