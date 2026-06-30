@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-30",
+  "stories": [
+    {
+      "title": "Qwen 3.6 27B is the sweet spot for local development",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+      "hn_link": "https://news.ycombinator.com/item?id=48721903",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by stared · 902 points · 608 comments",
+      "blurb": "With 902 points and 608 comments, this is the week's biggest HN conversation. The author makes a compelling case that Qwen 3.6 27B hits the optimal balance of capability, speed, and hardware requirements for everyday local dev use — small enough to run on a decent machine, smart enough to actually help. If you're running Claude Code and want a free local fallback, this is the model to benchmark against."
+    },
+    {
+      "title": "US Supreme Court rules geofence warrants require constitutional protections",
+      "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+      "hn_link": "https://news.ycombinator.com/item?id=48720924",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cdrnsf · 523 points · 245 comments",
+      "blurb": "A landmark Fourth Amendment ruling: SCOTUS has decided that police cannot simply vacuum up everyone's location data from Google without a warrant. This closes a major surveillance loophole that law enforcement has exploited for years. A genuine win for digital rights with real implications for how your phone's location history can be used against you."
+    },
+    {
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "hn_link": "https://news.ycombinator.com/item?id=48724230",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by HumanCCF · 502 points · 285 comments",
+      "blurb": "The Human-Centered Computing Foundation is proposing a `.self` TLD specifically designed for self-hosted services — local-network-resolvable, privacy-preserving, and not under ICANN's corporate thumb. A fascinating DNS-layer approach to reclaiming infrastructure. 285 comments means the community has strong opinions about whether this is visionary or wishful thinking."
+    },
+    {
+      "title": "Free the Icons",
+      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "hn_link": "https://news.ycombinator.com/item?id=48698908",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 449 points · 129 comments",
+      "blurb": "Rogue Amoeba — the gold standard for Mac audio software — is advocating for Apple to liberate app icons from the rigid squircle cage, arguing for more expressive, distinctive icon shapes. This is a design philosophy piece with teeth: Rogue Amoeba has the credibility and the visual track record to make this argument stick. Essential reading for anyone who cares about macOS aesthetics."
+    },
+    {
+      "title": "Rocketlab acquires Iridium",
+      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "hn_link": "https://news.ycombinator.com/item?id=48719485",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by everfrustrated · 410 points · 273 comments",
+      "blurb": "Rocket Lab just swallowed Iridium in a deal that creates a vertically integrated satellite company spanning launch, constellation, and ground services. This is a massive consolidation play in the commercial space industry — Iridium's 66-satellite LEO network plus Rocket Lab's launch capability is a genuinely formidable stack. SpaceX should be paying attention."
+    },
+    {
+      "title": "A native graphical shell for SSH",
+      "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48720758",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mrcslws · 303 points · 166 comments",
+      "blurb": "SSH has been text-only for 30 years, but this project proposes a native graphical shell layer that lets remote sessions render real GUI widgets, not just terminal emulation. Think file pickers, progress bars, and image previews over a standard SSH connection. This could fundamentally change how developers interact with remote machines."
+    },
+    {
+      "title": "One million passports leaked online",
+      "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal",
+      "hn_link": "https://news.ycombinator.com/item?id=48706389",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jruohonen · 262 points · 143 comments",
+      "blurb": "A cannabis club membership software company (Nefos/PuffPal) exposed a million passport scans online — the kind of high-value identity document that enables serious fraud. This is a stark reminder that the weakest link in your identity security is whoever you hand your passport to. The breach has already surfaced on criminal forums."
+    },
+    {
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "hn_link": "https://news.ycombinator.com/item?id=48702825",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by Jimmc414 · 167 points · 22 comments",
+      "blurb": "A deep technical paper finally pulling back the curtain on Apple's Neural Engine — the on-device ML accelerator baked into every Apple Silicon chip. Covers the microarchitecture, how to actually program it, and real performance characteristics. If you're building on-device AI features for macOS/iOS, this is the reference you've been waiting for."
+    },
+    {
+      "title": "US Supreme Court Just Blew Up EU-US Data Transfers",
+      "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+      "hn_link": "https://news.ycombinator.com/item?id=48728740",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tomwas54 · 165 points · 109 comments",
+      "blurb": "noyb (Max Schrems' privacy org) argues that the same SCOTUS ruling that restricted geofence warrants may have inadvertently invalidated the legal framework underpinning the EU-US Data Privacy Framework. If correct, this is Schrems III — another potential collapse of transatlantic data transfer legality. European developers and companies using US cloud services need to read this immediately."
+    },
+    {
+      "title": "Working With AI: A concrete example",
+      "url": "https://htmx.org/essays/working-with-ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=48720064",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by comma_at · 160 points · 51 comments",
+      "blurb": "Carson Gross (the htmx creator) walks through a real, concrete session of working with an AI coding assistant — including where it helped, where it went wrong, and what the productive human-AI collaboration loop actually looks like in practice. No hype, no doom: just honest craft notes from someone who thinks carefully about software. Counterpoint energy to the vibe-coding discourse."
+    },
+    {
+      "title": "Karpathy CLAUDE.md Grows to Ten Rules: New Self-Check Protocol for AI Coding Loops",
+      "url": "https://www.techtimes.com/articles/319214/20260628/karpathy-claudemd-grows-ten-rules-new-self-check-protocol-ai-coding-loops.htm",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Claude, code, md",
+      "blurb": "Andrej Karpathy has evolved his CLAUDE.md to ten rules with a new self-check protocol designed to reduce costly mistakes in AI coding loops. For Claude Code users, this is immediately actionable: Karpathy's prompting discipline is as close to a best-practice standard as the field currently has. Copy, adapt, improve."
+    },
+    {
+      "title": "Karpathy-Inspired Claude Code Guidelines",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: octo, knowledge, karpathy, claude-code, guidelines, best-practices, llm-coding, agent-skills, simplicity",
+      "blurb": "A GitHub repo distilling Karpathy's CLAUDE.md observations into four core principles: explicit thinking, simplicity, surgical changes, and goal-driven execution. Available as a Claude Code plugin or a drop-in CLAUDE.md file. If you use Claude Code daily, installing this is a ten-minute investment that could save hours of rework."
+    },
+    {
+      "title": "Using Local Coding Agents - by Sebastian Raschka, PhD",
+      "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, blog, claude",
+      "blurb": "Raschka (a respected ML educator) walks through his hands-on experience with local coding agents — what works, what doesn't, and how they compare to cloud-hosted alternatives like Claude. A practical complement to the Qwen 3.6 story: once you have the model, how do you actually wire it into a useful agentic coding workflow?"
+    },
+    {
+      "title": "Git 2.55 Released With Rust Support Enabled By Default",
+      "url": "https://www.phoronix.com/news/Git-2.55-Released",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git, ping, rustlang, scm",
+      "blurb": "Git 2.55 ships with Rust components enabled by default for the first time — a milestone in the ongoing effort to rewrite performance-critical git internals in memory-safe code. This is a quiet but significant step: Rust is now part of the canonical git experience, not an opt-in experiment."
+    },
+    {
+      "title": "DeFlock",
+      "url": "https://deflock.org/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ALPRs, mapper, mapping, search, project, open-source, DeFlock, Flock, automatic, license, plate, readers, privacy",
+      "blurb": "DeFlock is an open-source crowdsourced map of Flock Safety automatic license plate readers (ALPRs) across the US. It lets you see exactly how many surveillance cameras are watching your neighborhood and commute routes. Pairs perfectly with the Flock cameras Engadget story — this is the actionable privacy tool."
+    },
+    {
+      "title": "AI and Liability - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Bruce Schneier cuts through the AI liability debate with characteristic clarity: who's legally responsible when an AI system causes harm? As AI tools become embedded in developer workflows and shipped products, understanding the liability landscape isn't optional. Schneier's framing here will shape how this conversation evolves."
+    },
+    {
+      "title": "Introducing Daily Chat",
+      "url": "https://dayoneapp.com/blog/introducing-daily-chat/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Day One — the beloved journaling app deeply integrated with the Apple ecosystem — has launched Daily Chat, an AI-powered conversational journaling mode. This is a direct competitor to the kind of AI reflection features being explored by Obsidian users. Worth trying if you already use Day One, and worth watching if you're building AI features for personal knowledge tools."
+    },
+    {
+      "title": "Consistency, But in Excellence Not Appearance - Jim Nielsen's Blog",
+      "url": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, icons, design, apple, mac, macos",
+      "blurb": "A thoughtful counterpart to the Rogue Amoeba icons post: Jim Nielsen argues that Apple's obsession with visual consistency has come at the cost of excellence — that HIG compliance has become a substitute for craft. Tagged explicitly with apple, mac, macos; this is the kind of design criticism that ages well."
+    },
+    {
+      "title": "ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "url": "https://github.com/ripienaar/free-for-dev#major-cloud-providers",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, hosting, free, cloud",
+      "blurb": "The canonical list of free-tier cloud services for developers — continuously updated and genuinely useful when you're spinning up a new project and want to stay off the credit card. Evergreen bookmark that resurfaces on Pinboard popular periodically because people keep finding it for the first time. If it's not in your bookmarks, fix that."
+    },
+    {
+      "title": "Engineering for Bounded Cognition",
+      "url": "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software-design",
+      "blurb": "\"The mind that builds software is far smaller than the software it builds\" — this essay explores how all good software engineering practices are fundamentally adaptations to human cognitive limits. A slow-read piece that reframes abstractions, modularity, and documentation as cognitive prosthetics rather than mere conventions. The kind of thing that changes how you think about system design."
+    }
+  ]
+}
