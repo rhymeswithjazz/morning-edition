@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-01",
+  "stories": [
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "hn_link": "https://news.ycombinator.com/item?id=48734373",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kirushik · 1966 points · 576 comments",
+      "blurb": "A researcher discovered that Claude Code is embedding hidden steganographic markers inside its prompts — meaning Anthropic can identify requests originating from Claude Code even when users try to mask them. If you use Claude Code daily, this directly affects your understanding of what data is being sent and how. With 576 comments, the community reaction is intense and worth reading."
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "hn_link": "https://news.ycombinator.com/item?id=48736605",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by marinesebastian · 1114 points · 660 comments",
+      "blurb": "Anthropic drops Claude Sonnet 5, the new flagship model for everyday coding and reasoning tasks. If you're building with Claude Code or using the API in your dev workflow, this is the upgrade you'll want to benchmark immediately. The HN thread has 660 comments full of real-world impressions."
+    },
+    {
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "hn_link": "https://news.ycombinator.com/item?id=48740771",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Pragmata · 670 points · 384 comments",
+      "blurb": "The US Department of Commerce has removed export restrictions on two previously controlled Anthropic models, opening them up globally. This is a significant policy shift with major implications for international AI development and competition. Marks a notable change in how the US government is approaching AI model exports."
+    },
+    {
+      "title": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "hn_link": "https://news.ycombinator.com/item?id=48735770",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lebovic · 484 points · 146 comments",
+      "blurb": "Anthropic launches a dedicated Claude product tier aimed at scientific research — think autonomous literature review, hypothesis generation, and experimental design assistance. This positions Claude directly against OpenAI's deep research tools in the high-stakes science market. Worth watching if you use AI to stay on top of research in your field."
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "hn_link": "https://news.ycombinator.com/item?id=48735444",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 374 points · 149 comments",
+      "blurb": "Google DeepMind releases a new ultra-lightweight Gemini image model (the HN title is a placeholder name that stuck). It's aimed at high-throughput, cost-sensitive image processing tasks — a direct competitor to GPT-4o mini-class vision models. If you're building multimodal pipelines, this belongs in your evaluation queue."
+    },
+    {
+      "title": "Building a custom octocopter from scratch with no prior hardware experience",
+      "url": "https://karolina.mgdubiel.com/drone/",
+      "hn_link": "https://news.ycombinator.com/item?id=48704289",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by noleary · 366 points · 78 comments",
+      "blurb": "A beautifully documented build diary of going from zero hardware knowledge to a flying eight-rotor drone. The writing is honest about failures and the learning curve is instructive for anyone thinking about physical computing projects. One of those rare posts that makes you want to pick up a soldering iron."
+    },
+    {
+      "title": "I ported Kubernetes to the browser",
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "hn_link": "https://news.ycombinator.com/item?id=48738985",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by peterdemin · 260 points · 79 comments",
+      "blurb": "An ngrok engineer compiled K8s to WebAssembly and got it running entirely in a browser tab — no server needed. Beyond the impressive technical feat, it has real implications for education, demos, and sandboxed dev environments. The write-up is detailed and explains exactly how the WASM compilation pipeline was structured."
+    },
+    {
+      "title": "CERN bids farewell to the LHC and enters Long Shutdown 3",
+      "url": "https://home.cern/cern-bids-farewell-to-the-lhc-and-enters-long-shutdown-3/",
+      "hn_link": "https://news.ycombinator.com/item?id=48723484",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by HelloUsername · 224 points · 62 comments",
+      "blurb": "The Large Hadron Collider shuts down for a multi-year upgrade cycle, marking the end of an era in particle physics. Long Shutdown 3 will prep the HL-LHC (High-Luminosity upgrade), promising 10x more collision data when it returns. A quiet but historic moment for big science."
+    },
+    {
+      "title": "Leanstral 1.5",
+      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+      "hn_link": "https://news.ycombinator.com/item?id=48738938",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vetronauta · 216 points · 65 comments",
+      "blurb": "Mistral releases Leanstral 1.5, a compact model optimized for code and structured reasoning at very low inference cost. Mistral's lean models have punched above their weight before, and this one is worth benchmarking if you're self-hosting or cost-optimizing API calls. Particularly interesting for .NET/TypeScript codegen pipelines."
+    },
+    {
+      "title": "Google copybara: moving code between repositories",
+      "url": "https://github.com/google/copybara",
+      "hn_link": "https://news.ycombinator.com/item?id=48740698",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by reconnecting · 204 points · 33 comments",
+      "blurb": "Google's internal tool for transforming and moving code between repos is back in the spotlight — it's what Google uses to sync between their monorepo and open-source mirrors. If you manage multi-repo setups, monorepo migrations, or OSS forks of internal projects, this is a serious tool worth knowing. The HN discussion surfaces practical use cases."
+    },
+    {
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by alok-g · 156 points · 82 comments",
+      "blurb": "Meta AI's Brain2QWERTY project decodes intended keystrokes from non-invasive brain recordings with enough accuracy to enable typing-free text input. No surgery required — it uses MEG and EEG headsets. Still early-stage but the jump in non-invasive BCI accuracy here is genuinely striking."
+    },
+    {
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pjmlp · 74 points · 41 comments",
+      "blurb": "The Godot team draws a hard line: no AI-generated code in contributions, citing maintainability and the inability to trust that AI-code authors understand what they're submitting. This is a landmark open-source policy decision that will ripple through other projects. If you contribute to OSS with AI assistance, the norms are shifting fast."
+    },
+    {
+      "title": "TabFM: A zero-shot foundation model for tabular data",
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by brandonb · 77 points · 10 comments",
+      "blurb": "Google Research introduces a foundation model that works on tabular data zero-shot — no fine-tuning required for new datasets. This is a meaningful advance for data engineers who work with structured data and want LLM-style generalization without training pipelines. Could replace a lot of bespoke feature engineering work."
+    },
+    {
+      "title": "Reading the internals of Postgres: Database cluster, databases, and tables",
+      "url": "https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by buraksen · 77 points · 1 comments",
+      "blurb": "A clear, illustrated walkthrough of how Postgres organizes data on disk — clusters, databases, and table heap files explained from first principles. Essential reading for any .NET or full-stack developer who uses Postgres beyond the ORM layer. The kind of foundational knowledge that unlocks better query optimization."
+    },
+    {
+      "title": "Scaling Laws, Carefully",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by tehnub · 60 points · 16 comments",
+      "blurb": "Lilian Weng (OpenAI) takes a rigorous look at what scaling laws actually say vs. what the industry hype claims — with careful caveats on data quality, compute efficiency, and emergent capabilities. If you want to cut through the noise on AI progress claims, this is required reading. Weng's posts are consistently the best technically grounded AI writing available."
+    },
+    {
+      "title": "ArXiv's Next Chapter",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by subset · 102 points · 37 comments",
+      "blurb": "ArXiv announces significant changes to its infrastructure, submission policies, and long-term sustainability model. For anyone who depends on arXiv as a daily research feed — or builds tools on top of its API — the direction of these changes matters. The open-access preprint system turns 35 this year and is clearly at a crossroads."
+    },
+    {
+      "title": "Stroustrup's Rule (2024)",
+      "url": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by bmacho · 99 points · 26 comments",
+      "blurb": "Hillel Wayne unpacks \"Stroustrup's Rule\" — the observation that features look more complex in the language that introduced them than in languages that copied them. It's a sharp lens for understanding why C++ gets unfairly maligned and how language design perception works. Compact, thought-provoking, and applicable to any language you're evaluating today."
+    },
+    {
+      "title": "The first early human eggs from stem cells",
+      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by dsr12 · 104 points · 60 comments",
+      "blurb": "Conception.bio announces the creation of the first early-stage human egg cells derived entirely from stem cells — a potential milestone in reproductive biology. The implications for fertility treatment and our understanding of human development are enormous, and the ethical questions aren't far behind. One of the genuinely consequential biology stories of the year."
+    },
+    {
+      "title": "Ante: A new way to blend borrow checking and reference counting",
+      "url": "https://verdagon.dev/blog/ante-blending-borrowing-rc",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by g0xA52A2A · 92 points · 20 comments",
+      "blurb": "The Ante language proposes a novel memory management hybrid that avoids the verbosity of Rust's borrow checker by combining it with reference counting in a principled way. If you follow programming language design or care about memory safety beyond Rust, this is a fascinating alternative approach. The blog post is technically dense but well worth the time."
+    },
+    {
+      "title": "Knoppix",
+      "url": "https://www.knopper.net/knoppix/index-en.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by hoangvmpc · 304 points · 111 comments",
+      "blurb": "The legendary live Linux distribution Knoppix is back in the HN spotlight — likely a new release or significant update that's rekindled nostalgia and practical interest. Knoppix pioneered the idea of a fully functional OS running entirely from a CD/USB, and it remains a go-to rescue and diagnostic tool. The 111-comment thread is full of old-school Linux war stories."
+    }
+  ]
+}
