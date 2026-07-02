@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-02",
+  "stories": [
+    {
+      "title": "For first time, a cell built from scratch grows and divides",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "hn_link": "https://news.ycombinator.com/item?id=48747304",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by defrost · 852 points · 276 comments",
+      "blurb": "Researchers have synthesized a cell from non-living components that can grow and divide — a milestone in synthetic biology that's been decades in the making. This isn't incremental; it's the first demonstration that life's core machinery can be bootstrapped from scratch. The implications for medicine, materials, and our understanding of life itself are genuinely hard to overstate."
+    },
+    {
+      "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+      "hn_link": "https://news.ycombinator.com/item?id=48745456",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Tiberium · 710 points · 704 comments",
+      "blurb": "Sony is officially killing physical game discs for PlayStation by early 2028, making the all-digital future compulsory rather than optional. This is the ownership and preservation debate made concrete: your games become licenses, and Sony holds the kill switch. With 704 comments, HN is loudly processing the implications."
+    },
+    {
+      "title": "ZCode – Harness for GLM-5.2",
+      "url": "https://zcode.z.ai/en",
+      "hn_link": "https://news.ycombinator.com/item?id=48753715",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chvid · 390 points · 289 comments",
+      "blurb": "Z.ai's ZCode is a coding assistant harness built around GLM-5.2, positioning itself as a direct competitor in the Claude Code / Cursor / Copilot space. With 289 comments of community scrutiny, this one is worth a look if you're evaluating agentic coding tools. Benchmark results and real-world feel are always the question with new entrants."
+    },
+    {
+      "title": "Fable 5 is Back",
+      "url": "https://twitter.com/claudeai/status/2072402636813607381",
+      "hn_link": "https://news.ycombinator.com/item?id=48752030",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 376 points · 365 comments",
+      "blurb": "Anthropic's Claude AI account announced the return of Fable 5, a narrative/creative project previously shelved — generating enormous community buzz with 365 HN comments. The intersection of Claude and interactive storytelling is directly relevant to anyone watching how Anthropic deploys creative AI. Pair with the Pinboard item on Anthropic's redeployment announcement for full context."
+    },
+    {
+      "title": "FFmpeg 9.1's new AAC encoder",
+      "url": "https://hydrogenaudio.org/index.php/topic,129691.0.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48747116",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ledoge · 372 points · 113 comments",
+      "blurb": "FFmpeg 9.1 ships a brand-new native AAC encoder that the audio community is putting through its paces — and early results are impressive across bitrates. For anyone doing video production, podcast processing, or any audio pipeline work, this is a drop-in quality upgrade. Hydrogenaudio's measurement-obsessed crowd has the receipts."
+    },
+    {
+      "title": "A new Android malware from Google",
+      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48755965",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by drewfax · 350 points · 164 comments",
+      "blurb": "F-Droid's security team has published a detailed advisory on Android malware they're attributing to Google's own infrastructure — a provocative claim that's drawing heavy scrutiny and commentary. Whatever the ultimate attribution, the technical breakdown of the malware's behavior is worth reading for anyone thinking about mobile security. Apple ecosystem users can feel a little smug today."
+    },
+    {
+      "title": "What to learn to be a graphics programmer",
+      "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "hn_link": "https://news.ycombinator.com/item?id=48750710",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by atan2 · 334 points · 177 comments",
+      "blurb": "A comprehensive, opinionated roadmap from a working graphics programmer covering math, rasterization, ray tracing, shaders, and beyond. This is the guide you'd send to a talented developer friend asking how to break into graphics. 177 comments means the community is actively debating and enriching the curriculum."
+    },
+    {
+      "title": "Monetization Gateway: Charge for any resource behind Cloudflare via x402",
+      "url": "https://blog.cloudflare.com/monetization-gateway/",
+      "hn_link": "https://news.ycombinator.com/item?id=48746914",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by soheilpro · 295 points · 207 comments",
+      "blurb": "Cloudflare is now letting you put a pay-wall on any resource using the x402 HTTP payment protocol — no checkout page, no subscription flow, just a header. This is genuinely novel infrastructure for metered APIs and paywalled content at the edge. The x402 spec is worth understanding even if you're not deploying this today."
+    },
+    {
+      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+      "hn_link": "https://news.ycombinator.com/item?id=48753979",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by consumer451 · 153 points · 143 comments",
+      "blurb": "Google is open-sourcing its ZKP-based age verification tech, which lets a site confirm a user is over a threshold age without learning anything else about them. This is a rare case of privacy-preserving design getting serious corporate backing. Given the incoming wave of age-verification regulation globally, this stack could matter a lot."
+    },
+    {
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "hn_link": "https://news.ycombinator.com/item?id=48756602",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by unliftedq · 134 points · 44 comments",
+      "blurb": "Moonshot AI's Kimi K2.7 Code model is now selectable inside GitHub Copilot, expanding the multi-model lineup beyond the usual OpenAI/Anthropic/Google trio. For developers already living in VS Code or JetBrains with Copilot, this is a free new option to benchmark against Claude and GPT-4o on your actual codebase. Competition is good."
+    },
+    {
+      "title": "Getting started with loops | Claude by Anthropic",
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, tips",
+      "blurb": "The Claude Code team's own guide to agentic loops — from simple turn-based interactions through goal-based, time-based, and proactive loops — with concrete advice on when to use each pattern. If you're building with Claude Code or any agentic system, this is primary-source architecture guidance. Bookmark-worthy reference material."
+    },
+    {
+      "title": "Redeploying Claude Fable 5 Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, Anthropic, Fable_5, Mythos, conditions, Mythos_5, safeguards, timeline",
+      "blurb": "Anthropic's official announcement explaining the conditions and safeguards under which Fable 5 (their ambitious creative AI project) is being redeployed. This is the primary source behind the HN 'Fable 5 is Back' story — read this for the policy and technical details behind the decision. Directly relevant to anyone watching how frontier labs govern creative AI deployments."
+    },
+    {
+      "title": "Parse, Don't Validate — In a Language That Doesn't Want You To · cekrem.github.io",
+      "url": "https://cekrem.github.io/posts/parse-dont-validate-typescript/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, typescript, via:reddit, languagedesign",
+      "blurb": "A deep dive into applying the 'Parse, Don't Validate' principle in TypeScript — a language whose structural typing makes it genuinely tricky. The author works through practical patterns using discriminated unions and branded types to make illegal states unrepresentable. Directly applicable if you're writing TypeScript in Angular or .NET-adjacent frontend code."
+    },
+    {
+      "title": "Apple 'Hide My Email' Vulnerability Reveals Peoples' Real Email Addresses",
+      "url": "https://www.404media.co/apple-hide-my-email-vulnerability-reveals-peoples-real-email-addresses/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A security flaw in Apple's Hide My Email feature — part of iCloud+ and Sign in with Apple — can leak users' actual email addresses under certain conditions, defeating the privacy feature's core promise. If you're an iCloud+ subscriber relying on Hide My Email for privacy, this warrants immediate attention. 404 Media has the technical details."
+    },
+    {
+      "title": "Headless Macs and Hamstrung iPads - MacStories",
+      "url": "https://www.macstories.net/stories/headless-macs-and-hamstrung-ipads/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacStories digs into the persistent frustrations with headless Mac setups and iPadOS's continued limitations for power users — perennially relevant for developers trying to use Apple hardware as serious workstations. This is the kind of considered Apple-ecosystem criticism that shapes how you plan your next hardware purchase."
+    },
+    {
+      "title": "Daring Fireball: The Supreme Court Rules That Law Enforcement's Use of 'Geofence Warrant' Was a 'Search'",
+      "url": "https://daringfireball.net/2026/06/scotus_geofence_warrant_search",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "SCOTUS has ruled that geofence warrants — where police demand location data for everyone near a crime scene — constitute a Fourth Amendment 'search.' Gruber walks through why this matters (and why the 'technically moot' wrinkle is frustrating). A landmark privacy ruling with direct implications for every smartphone user and every company holding location data."
+    },
+    {
+      "title": "Friends Don't Let Friends Use Ollama | Sleeping Robots",
+      "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "A pointed argument against defaulting to Ollama for local LLM inference, with recommendations for what to use instead depending on your use case (llama.cpp direct, LM Studio, vLLM, etc.). If you're running local models as part of your AI toolchain, this is a useful forcing function to reconsider your stack. Opinionated, practical, and worth arguing with."
+    },
+    {
+      "title": "Qwen 3.6 27B is the sweet spot for local development | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48721903",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: jun26, ai, local",
+      "blurb": "Community consensus is forming around Qwen 3.6 27B as the best local model for development tasks — hitting a quality/speed/VRAM tradeoff that 7B models can't match and 70B+ models make impractical. If you're supplementing cloud AI with local inference for offline or privacy-sensitive work, this HN thread is the benchmarking discussion to read."
+    },
+    {
+      "title": "Gnome — Quickly Share GIFs on Your Mac",
+      "url": "https://lexfriedman.com/gnome/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apps, gifs, via:ethan",
+      "blurb": "Gnome is a lightweight macOS utility from Lex Friedman for instantly sharing GIFs from your Mac — the kind of frictionless tool that sounds trivial until you use it daily in Slack or documentation. Pinboard surfaces these small-but-excellent Mac utilities that HN never bothers with. Classic 'just works' Apple ecosystem software."
+    },
+    {
+      "title": "Flock Cameras Track More Than Your License Plate, And They're Spreading Fast",
+      "url": "https://www.engadget.com/2203000/flock-cameras-recording-license-plate/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: us, surveillance, camera, road, ai",
+      "blurb": "Flock Safety's network of AI-powered surveillance cameras has quietly become pervasive in American suburbs — and they're far more capable than simple ALPR, enabling searches by vehicle description, color, and accessories. The infrastructure for mass movement tracking is being built now, paid for by HOAs and small municipalities. An important surveillance-state-by-default story."
+    }
+  ]
+}
