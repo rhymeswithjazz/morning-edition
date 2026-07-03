@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-03",
+  "stories": [
+    {
+      "title": "Virginia bans sale of geolocation data",
+      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "hn_link": "https://news.ycombinator.com/item?id=48767347",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by toomuchtodo · 749 points · 122 comments",
+      "blurb": "Virginia becomes the latest state to explicitly ban the sale of precise geolocation data — a major win for privacy advocates who've watched data brokers quietly monetize people's physical movements for years. The law closes one of the most egregious loopholes in U.S. privacy law. Watch for other states to follow suit."
+    },
+    {
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "hn_link": "https://news.ycombinator.com/item?id=48759634",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by doener · 612 points · 285 comments",
+      "blurb": "PeerTube is having a moment on HN with 612 points and nearly 300 comments — suggesting a renewed appetite for YouTube alternatives that don't harvest your data. Built on ActivityPub, it federates with the wider Fediverse. If you've been meaning to self-host video, this is worth a serious look."
+    },
+    {
+      "title": "Podman v6.0.0",
+      "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=48762098",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by soheilpro · 521 points · 203 comments",
+      "blurb": "Podman v6 is a major milestone for the Docker-compatible daemonless container runtime, with significant performance and compatibility improvements. For .NET developers wary of Docker Desktop licensing, Podman on macOS just keeps getting better. Dig into the changelog — there's a lot here."
+    },
+    {
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "url": "https://mathstodon.xyz/@iblech/116769502749142438",
+      "hn_link": "https://news.ycombinator.com/item?id=48763035",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by IngoBlechschmid · 462 points · 203 comments",
+      "blurb": "A serious regression: since Linux 6.9, suspending a LUKS-encrypted system no longer wipes disk encryption keys from RAM, leaving them exposed to cold-boot and memory-scraping attacks. If you rely on full-disk encryption on any Linux machine, this needs your immediate attention. A patch exists but may not be in your distro yet."
+    },
+    {
+      "title": "Immich 3.0",
+      "url": "https://github.com/immich-app/immich/discussions/29439",
+      "hn_link": "https://news.ycombinator.com/item?id=48761944",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by hashier · 401 points · 195 comments",
+      "blurb": "Immich 3.0 is a massive update to the self-hosted Google Photos alternative, with a redesigned UI, improved mobile apps, and better performance on large libraries. For anyone in the Apple ecosystem who refuses to hand their photo library to Google or iCloud indefinitely, this is the gold-standard self-hosted option. The iOS app is excellent."
+    },
+    {
+      "title": "An American Privacy Emergency",
+      "url": "https://scottaaronson.blog/?p=9902",
+      "hn_link": "https://news.ycombinator.com/item?id=48768992",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by flowercalled · 300 points · 94 comments",
+      "blurb": "Scott Aaronson — a CS theorist, not a pundit — sounds the alarm on the systematic dismantling of U.S. privacy infrastructure. He frames the current moment as genuinely unprecedented and calls for concrete technical and legal responses. Essential reading to understand where the threat landscape actually stands."
+    },
+    {
+      "title": "The short leash AI coding method for beating Fable",
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+      "hn_link": "https://news.ycombinator.com/item?id=48766026",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Riseed · 130 points · 153 comments",
+      "blurb": "A detailed, opinionated methodology for keeping AI coding agents productive without letting them go off the rails — tight feedback loops, small tasks, constant review. If you use Claude Code daily, the \"short leash\" framing is immediately practical and the 153-comment discussion is full of refinements. This is the workflow post HN has been waiting for."
+    },
+    {
+      "title": "CarPlay Is Additive",
+      "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+      "hn_link": "https://news.ycombinator.com/item?id=48769397",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by sprawl_ · 276 points · 337 comments",
+      "blurb": "Casey Liss pushes back hard on the narrative that CarPlay is somehow bad or redundant — arguing it's strictly additive to whatever the car already does. The title alone is perfect, and the 337-comment HN thread turns into a rich debate about Apple's place in the car ecosystem. Required reading for anyone who's ever plugged in at the center console."
+    },
+    {
+      "title": "The Safari MCP server for web developers",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+      "hn_link": "https://news.ycombinator.com/item?id=48769639",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by coloneltcb · 83 points · 14 comments",
+      "blurb": "WebKit's official Safari MCP server lets AI coding assistants directly interact with Safari — inspecting the DOM, running JavaScript, and pulling page state — without leaving your dev workflow. For macOS developers using Claude Code or any MCP-compatible agent, this is a first-class integration worth setting up today. Apple is quietly building out its MCP story."
+    },
+    {
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "hn_link": "https://news.ycombinator.com/item?id=48772443",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nsoonhui · 16 points · 3 comments",
+      "blurb": "Reuters reports Alibaba is banning Claude Code internally over alleged backdoor concerns — a geopolitically loaded claim that will ripple through enterprise AI adoption conversations. Whether the concern is technical or political posturing, it signals the AI coding tools market is entering a new phase of scrutiny. If you use Claude Code professionally, understand the context."
+    },
+    {
+      "title": "The AI Compass",
+      "url": "https://bambamramfan.github.io/ai-compass/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, viaKottke, thanksKottke",
+      "blurb": "An interactive compass-style visualization for mapping your position on various AI dimensions — hype vs. skepticism, open vs. closed, tool vs. agent. It's the kind of quick self-assessment that's actually useful for clarifying your own priors. Via Kottke, which means it's getting wide play in the thoughtful-tech crowd."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "herdr is a persistent terminal multiplexer purpose-built for running multiple AI coding agents simultaneously — with built-in state awareness for blocked, done, and working agents. Think tmux, but the sessions understand what your agents are doing. If you're running Claude Code or similar agents in parallel, this is immediately useful."
+    },
+    {
+      "title": "Cursor · CursorBench",
+      "url": "https://cursor.com/evals",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, agent, coding, benchmark",
+      "blurb": "Cursor has published CursorBench, its internal evaluation suite for AI coding agents — a rare look at how a leading AI IDE actually measures model performance on real coding tasks. Useful both for benchmarking your own tool choices and for understanding what \"better at coding\" actually means in practice."
+    },
+    {
+      "title": "The twilight of the chatbots",
+      "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: to_share, ai-agents, anthropic-guide, openai-tutorial, google-reference, work-framework, capability-example",
+      "blurb": "Ethan Mollick argues we're past peak chatbot and entering the age of agents — a shift that changes how developers should think about integrating AI into their workflows. The piece is practical and grounded, not hype. Essential context for anyone building with or on top of AI tools right now."
+    },
+    {
+      "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
+      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy, security, tv, samsung",
+      "blurb": "Spur's research finds that nearly half of LG Smart TV apps silently bundle residential proxy SDKs — turning your TV into a node in someone else's proxy network without your knowledge or consent. This is a stunning finding with major implications for home network privacy. If you have a smart TV on your LAN, read this."
+    },
+    {
+      "title": "What's wrong with EU age verification? · blog.vrypan.net",
+      "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A sharp technical breakdown of why the EU's age verification proposals are a privacy disaster in disguise — requiring identity checks that create surveillance infrastructure even if that's not the intent. The author is a protocol-level thinker, and the argument is rigorous rather than reactionary. The regulation vs. privacy tension is only going to intensify."
+    },
+    {
+      "title": "ZeroFS",
+      "url": "https://www.zerofs.net/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: filesystem, s3, block, object, network, rust, opensource, software",
+      "blurb": "ZeroFS is an open-source, Rust-built filesystem that presents S3-compatible object storage as a block device — bridging the gap between cloud object storage and applications that expect a traditional filesystem. For developers building infrastructure on top of S3 or S3-compatible stores, this could simplify a lot of plumbing. Worth a close look."
+    },
+    {
+      "title": "Announcing Box3D :: Box2D",
+      "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: physics-engines, canvas-climb",
+      "blurb": "The legendary Box2D physics engine — used in countless games and creative coding projects — is announcing Box3D, bringing its battle-tested approach to 3D physics simulation. A huge deal for game developers and creative coders who've relied on Box2D's simplicity and correctness. The 2D original powered everything from Angry Birds to indie classics."
+    },
+    {
+      "title": "Internal Combustion Engine – Bartosz Ciechanowski",
+      "url": "https://ciechanow.ski/internal-combustion-engine/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: car, visualization, explanation, engine, combustion",
+      "blurb": "Bartosz Ciechanowski's interactive explainers are consistently the best technical writing on the web, and this deep dive into internal combustion engines is no exception — beautifully animated, rigorously accurate, and genuinely illuminating. Even if you know how engines work, this will show you something you didn't. Bookmark it."
+    },
+    {
+      "title": "Vim Scoops, Learn Vim Motions the Fun Way",
+      "url": "https://vimscoops.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Vim Scoops is a bite-sized, gamified way to learn Vim motions — structured as short daily lessons rather than a steep wall of documentation. Even if you live in VS Code or a JetBrains IDE, Vim motions are available everywhere and worth internalizing. A surprisingly polished approach to a topic most developers keep putting off."
+    }
+  ]
+}
