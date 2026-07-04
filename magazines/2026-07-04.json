@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-04",
+  "stories": [
+    {
+      "title": "Half-Baked Product",
+      "url": "https://weli.dev/blog/half-baked-product/",
+      "hn_link": "https://news.ycombinator.com/item?id=48772388",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by weli · 1263 points · 382 comments",
+      "blurb": "The highest-scoring HN post of the day tackles the uncomfortable reality of shipping products that aren't fully baked. With 382 comments, this clearly hit a nerve — the tension between 'done' and 'good enough' is one every developer building with AI tools faces daily. Essential reading for anyone deciding when to ship."
+    },
+    {
+      "title": "Espionage Against the European Parliament",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+      "hn_link": "https://news.ycombinator.com/item?id=48779683",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ledoge · 362 points · 89 comments",
+      "blurb": "Citizen Lab documents how a member of the EU committee investigating Pegasus spyware was themselves hacked with Pegasus — a brazen, recursive irony. This is the definitive surveillance-state story of the week, with serious implications for digital rights across Europe and beyond."
+    },
+    {
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "url": "https://github.com/jamesob/local-llm",
+      "hn_link": "https://news.ycombinator.com/item?id=48775921",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by livestyle · 336 points · 151 comments",
+      "blurb": "A practical, opinionated GitHub guide to running state-of-the-art LLMs on your own hardware — covering model selection, quantization, and inference tooling. If you're building with AI tools and care about privacy, local inference is the natural next step. Bookmark this."
+    },
+    {
+      "title": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
+      "url": "https://wordgard.net/",
+      "hn_link": "https://news.ycombinator.com/item?id=48772573",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by indy · 295 points · 97 comments",
+      "blurb": "Marijn Haverbeke — the brain behind ProseMirror and CodeMirror — has launched a new browser-based rich text editor. If his track record is any guide, this will become foundational infrastructure for the next decade of web editing. Worth watching closely."
+    },
+    {
+      "title": "Leanstral 1.5: Proof abundance for all",
+      "url": "https://mistral.ai/news/leanstral-1-5/",
+      "hn_link": "https://news.ycombinator.com/item?id=48780801",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by programLyrique · 218 points · 52 comments",
+      "blurb": "Mistral ships a model fine-tuned for formal mathematical proof in the Lean 4 theorem prover — 'proof abundance' is the bold framing. This is a meaningful milestone for AI-assisted verification and a signal that LLMs are getting serious about correctness, not just plausibility."
+    },
+    {
+      "title": "Hunting a 16-year-old SQLite WAL bug with TLA+",
+      "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected",
+      "hn_link": "https://news.ycombinator.com/item?id=48730953",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by peterparker204 · 207 points · 22 comments",
+      "blurb": "A deep-dive into using TLA+ formal specification to track down a lurking SQLite write-ahead log bug that went undetected for 16 years. A masterclass in why formal methods matter — and a sobering reminder that the databases we all depend on carry hidden histories."
+    },
+    {
+      "title": "SearXNG: A free internet metasearch engine",
+      "url": "https://github.com/searxng/searxng",
+      "hn_link": "https://news.ycombinator.com/item?id=48779454",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by theanonymousone · 206 points · 56 comments",
+      "blurb": "SearXNG is the self-hostable, privacy-respecting metasearch engine that aggregates results without tracking you. With AI-driven search reshaping the landscape, having a self-hosted fallback has never felt more relevant. You can run this today."
+    },
+    {
+      "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+      "url": "https://news.ycombinator.com/item?id=48771515",
+      "hn_link": "https://news.ycombinator.com/item?id=48771515",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yehiaabdelm · 149 points · 168 comments",
+      "blurb": "A goldmine of real-world, practitioner-tested LLM coding workflows — 168 comments from developers sharing what's actually working. If you use Claude Code, there are almost certainly patterns here you haven't tried yet. This is the thread to read this weekend."
+    },
+    {
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "hn_link": "https://news.ycombinator.com/item?id=48780056",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cubefox · 98 points · 32 comments",
+      "blurb": "Epoch AI tracks a suspicious spike in serious CVEs correlating with a major Claude model release — raising thorny questions about AI-assisted vulnerability discovery (or creation). Whether causation or coincidence, this is exactly the kind of empirical signal the security community needs to be watching."
+    },
+    {
+      "title": "Agentic coding notes from Galapagos Island",
+      "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "hn_link": "https://news.ycombinator.com/item?id=48782671",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gm678 · 77 points · 30 comments",
+      "blurb": "Dan Luu's characteristically rigorous field notes on agentic coding loops — written partly using the tools being reviewed. His take on where agentic AI coding succeeds and fails is more grounded than most hype-cycle takes. Required reading for Claude Code users."
+    },
+    {
+      "title": "10 Claude Code Settings That Made Me a Faster Software Architect",
+      "url": "https://jsdev.space/claude-code-settings-software-architect/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, claude, programming",
+      "blurb": "A practical listicle that actually delivers — ten specific Claude Code configuration tweaks that improve architectural-scale coding tasks. If you're a daily Claude Code user, at least two or three of these will be new to you. Start here before your next session."
+    },
+    {
+      "title": "GitHub - HUANGCHIHHUNGLeo/claude-real-video: Let Claude (or any LLM) actually watch a video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llms, claude, video, open.source, tools, local",
+      "blurb": "An open-source tool that feeds scene-aware, deduplicated video frames plus transcript to Claude or any LLM — runs entirely locally. Unlocks video understanding for workflows that previously couldn't touch it. MIT licensed and ready to plug into your pipeline today."
+    },
+    {
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "url": "https://deep-reinforce.com/ornith_1_0.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, learning, models",
+      "blurb": "Ornith-1.0 is a family of open-source models designed from the ground up for agentic coding — they can scaffold their own execution loops. It's an early but significant entry in the race to purpose-build models for multi-step code generation rather than just chat."
+    },
+    {
+      "title": "smol machines",
+      "url": "https://smolmachines.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: +, vm, via:hackernews, agent, os, linux",
+      "blurb": "Virtual machines that boot in under one second — built specifically for agent tasks and code sandboxing. If you're running agentic coding loops, you need cheap, fast, disposable execution environments. Smol machines is a purpose-built answer to that exact problem."
+    },
+    {
+      "title": "DeepSWE",
+      "url": "https://deepswe.datacurve.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A new benchmark specifically measuring frontier coding agents on original, long-horizon software engineering tasks — not the toy problems that existing evals use. As agentic coding matures, knowing which models actually hold up over a multi-day task is increasingly critical."
+    },
+    {
+      "title": ".gitignore Isn't the Only Way To Ignore Files in Git | Nelson Figueroa",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git, ignore",
+      "blurb": "A short, actionable explainer covering `.git/info/exclude` and global gitignore configs — the two git ignore mechanisms most developers have forgotten or never learned. Exactly the kind of quiet productivity boost that Pinboard surfaces and HN misses."
+    },
+    {
+      "title": "The Goldilocks customizable select height - JakeArchibald.com",
+      "url": "https://jakearchibald.com/2026/goldilocks-select-height/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: select, custom-select, picker, height",
+      "blurb": "Jake Archibald digs into the surprisingly gnarly problem of getting custom `<select>` heights right across browsers and platforms. For Angular/TypeScript developers building forms, this is the kind of browser-quirk deep dive that saves hours of debugging."
+    },
+    {
+      "title": "The Case for Co-Locating Workflow State with Your Data | DBOS",
+      "url": "https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: PostgreSQL, SQL, Database, Atomicity, Idempotency, TransactionalOutbox",
+      "blurb": "DBOS makes a compelling architectural argument for keeping workflow state in the same database as your application data — eliminating the dreaded distributed-transaction problem via co-location. Relevant for anyone building durable workflows on top of Postgres and .NET."
+    },
+    {
+      "title": "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For | EFF",
+      "url": "https://www.eff.org/deeplinks/2026/06/hate-algorithm-rss-one-tools-youve-been-looking",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The EFF makes the case for RSS as a practical, privacy-preserving antidote to algorithmic feeds. For an Obsidian user who already curates their own information diet, this is a natural pairing — and the EFF's framing as a digital-rights tool gives it extra weight."
+    },
+    {
+      "title": "A new era of Midjourney • Midjourney blog",
+      "url": "https://www.midjourney.com/medical/blogpost",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ultrasound, medicine, midjourney",
+      "blurb": "Midjourney pivots hard into medical imaging — announcing a whole-body ultrasound system using half a million piezoelectric elements and GPU-scale compute to reconstruct 3D body maps. This is the most unexpected company pivot of 2026, and it just might be the most consequential one too."
+    }
+  ]
+}
