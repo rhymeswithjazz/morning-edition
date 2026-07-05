@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-05",
+  "stories": [
+    {
+      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "hn_link": "https://news.ycombinator.com/item?id=48785485",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chatmasta · 295 points · 130 comments",
+      "blurb": "A reported security issue in Claude Code where session or cache data may leak between workspace instances — a serious concern if you're using it for client work. If you use Claude Code daily, you need to read this thread and understand the scope before your next session. Anthropic's response and remediation timeline are being tracked in the issue."
+    },
+    {
+      "title": "Better Models: Worse Tools",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "hn_link": "https://news.ycombinator.com/item?id=48788599",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by leemoore · 166 points · 55 comments",
+      "blurb": "Armin Ronacher (Flask, Jinja) argues that as LLMs get smarter, the tooling ecosystem around them is actually regressing — becoming bloated, fragile, and harder to reason about. A sharp counter-narrative to the 'everything is getting better' AI hype cycle. Essential reading for anyone building AI-powered dev workflows."
+    },
+    {
+      "title": "Leaking YouTube creators' private videos",
+      "url": "https://javoriuski.com/post/youtube",
+      "hn_link": "https://news.ycombinator.com/item?id=48786781",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by javxfps · 605 points · 331 comments",
+      "blurb": "A researcher found a method to access YouTube creators' private videos — a significant platform security failure. The write-up is a clean bug report with enough technical detail to understand the attack surface. Big implications for anyone using YouTube's 'private' or 'unlisted' settings to share sensitive content."
+    },
+    {
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "hn_link": "https://news.ycombinator.com/item?id=48789428",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by maille · 261 points · 98 comments",
+      "blurb": "Users are reporting that GPT-5.5 Codex is performing worse on coding tasks, and a leading theory is that reasoning-token clustering is causing the degradation. This is a live GitHub issue with reproducible examples — important signal if you've noticed quality regressions in OpenAI's coding models. Worth bookmarking while OpenAI investigates."
+    },
+    {
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "hn_link": "https://news.ycombinator.com/item?id=48788283",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by asronline · 556 points · 227 comments",
+      "blurb": "A full native port of C&C Generals to macOS, iPhone, and iPad — built using the Fable AI coding tool, which makes it a fascinating proof-of-concept for AI-assisted porting. The repo is open source and installs cleanly on Apple Silicon. Retro strategy gaming meets modern Apple hardware, and the Fable angle is a genuinely interesting case study."
+    },
+    {
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "hn_link": "https://news.ycombinator.com/item?id=48791708",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ognyankulev · 40 points · 38 comments",
+      "blurb": "Simon Willison documents how he used Claude Fable to write the bulk of sqlite-utils 4.0, tracking token costs and sharing what worked and what didn't. This is a rare, honest cost-benefit breakdown of AI-assisted open source development from one of the most thoughtful practitioners in the space. Directly applicable if you're using Claude Code for real projects."
+    },
+    {
+      "title": "Explanation of everything you can see in htop/top on Linux (2019)",
+      "url": "https://peteris.rocks/blog/htop/",
+      "hn_link": "https://news.ycombinator.com/item?id=48784777",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 469 points · 58 comments",
+      "blurb": "An evergreen deep-dive into every field, color, and metric shown in htop — load averages, memory breakdown, CPU states, and more. If you've ever stared at htop without fully knowing what you're looking at (most of us), this is the guide to bookmark. Still the best single reference on the topic seven years later."
+    },
+    {
+      "title": "What ORMs have taught me: just learn SQL (2014)",
+      "url": "https://wozniak.ca/blog/2014/08/03/1/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48742175",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ciconia · 185 points · 214 comments",
+      "blurb": "A perennial resurfacer with 214 comments in its latest run — the argument is as relevant as ever as ORMs get more complex and AI code generators default to them. The author makes a compelling case that ORM abstraction leaks constantly and SQL mastery is non-negotiable for serious backend work. The HN thread is lively with counter-arguments worth reading."
+    },
+    {
+      "title": "Shadcn/UI now defaults to Base UI instead of Radix",
+      "url": "https://ui.shadcn.com/docs/changelog",
+      "hn_link": "https://news.ycombinator.com/item?id=48791328",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dabinat · 110 points · 33 comments",
+      "blurb": "Shadcn/UI is switching its default primitive layer from Radix UI to Base UI — a meaningful shift for the most popular headless component system in the React/TypeScript ecosystem. If you're building Angular components or consuming shadcn in any stack, this affects your dependency graph and upgrade path. The changelog has migration notes."
+    },
+    {
+      "title": "If you're a button, you have one job",
+      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+      "hn_link": "https://news.ycombinator.com/item?id=48790689",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nozzlegear · 187 points · 90 comments",
+      "blurb": "A sharp essay on the semantic and UX crimes committed against the humble HTML button — misusing divs, breaking accessibility, confusing toggles with triggers. Written by the same author as the Finder eliding piece (also in today's issue), so you know it's good. Required reading for anyone shipping UI components in Angular or any other framework."
+    },
+    {
+      "title": "Daring Fireball: Claude's Criminally Bad Electron Mac App Is an Inside Job",
+      "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "John Gruber goes in on the Claude desktop app for Mac, calling out its Electron underpinnings as an embarrassment for a company whose AI is used by developers who care about native quality. If you use Claude Code on macOS, this surfaces the tension between Anthropic's AI quality and their Mac app craftsmanship. The 'inside job' angle in the headline refers to internal knowledge of how bad it is."
+    },
+    {
+      "title": "Agentic coding notes from Galapogos Island",
+      "url": "https://danluu.com/ai-coding/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, coding, firsthand",
+      "blurb": "Dan Luu's characteristically thorough firsthand account of using AI coding agents in the field — with the kind of specificity and intellectual honesty you don't get from marketing posts. He documents what actually works, what doesn't, and where the current tools fall flat. A must-read companion to any AI coding workflow discussion."
+    },
+    {
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: to_share, ai-code-explanation, micro-worlds, notion-collaboration, claude-agents, literate-diff",
+      "blurb": "Geoffrey Litt argues that as AI generates more code faster, the human bottleneck has shifted from writing to understanding — and proposes concrete tools like explainer docs, quizzes, and micro-worlds to address it. This is a genuinely fresh take that goes beyond 'AI writes code' to ask what comes after. Directly relevant to anyone using Claude Code on large codebases."
+    },
+    {
+      "title": "Finder's elite eliding – Unsung",
+      "url": "https://unsung.aresluna.org/finders-elite-eliding/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, macos, design, usability",
+      "blurb": "A detailed look at how macOS Finder handles text truncation and eliding — where it's brilliant, where it's inconsistent, and what tooltip behavior should look like. From the same author as the button essay in today's HN picks, this is meticulous Apple UX criticism at its best. If you care about macOS polish or ship native-ish apps, it's worth your attention."
+    },
+    {
+      "title": "I found a malware hiding in my tailwindcss config file.",
+      "url": "https://infosecwriteups.com/i-found-north-korean-dprk-malware-hiding-in-my-tailwind-config-js-45af2283742c",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software_security, 2026",
+      "blurb": "A developer discovers North Korean DPRK-attributed malware embedded in their Tailwind CSS config file — a supply-chain attack vector that most devs aren't scrutinizing. Even if the writeup has some AI-generated prose (flagged by the tagger), the threat is real and the attack surface is one every JS/TS developer has in their project. Worth auditing your own configs."
+    },
+    {
+      "title": "teamchong/pxpipe: cut Fable 5 token usage by rendering text context as images",
+      "url": "https://github.com/teamchong/pxpipe",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, ai-tools",
+      "blurb": "A clever hack that reduces Claude/Fable token usage by converting text context into images before sending — exploiting the visual input channel to sidestep token limits. It's a novel technique with a working implementation you can try today. If you're hitting context limits in Claude Code workflows, this is a creative workaround worth experimenting with."
+    },
+    {
+      "title": "Making LLMs Better at Creative Writing using Entropy — Count Bayesie",
+      "url": "https://www.countbayesie.com/blog/2026/7/1/making-llms-better-at-creative-writing-using-entropy",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "A clear-headed explainer on why LLMs default to boring, predictable prose (high-scoring tokens win) and how entropy-based sampling techniques can force more interesting word choices. The annotation says it well: 'Temperature randomizes a little, but for creative writing the high-scoring tokens are the BORING writing.' Practical techniques for anyone prompting LLMs for creative output."
+    },
+    {
+      "title": "Senior SWE-Bench",
+      "url": "https://senior-swe-bench.snorkel.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Snorkel AI's harder variant of SWE-Bench, designed to test AI coding agents on more complex, senior-level software engineering tasks that the original benchmark has become too easy for top models. A useful reference for evaluating which AI coding tools are actually advancing versus just benchmark-gaming. Bookmark this for your next model comparison."
+    },
+    {
+      "title": "Spain Orders Blacklist of US Tech Giant Palantir From Public and Private Companies",
+      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: XDN, War, Governance",
+      "blurb": "Spain is ordering state-controlled companies to stop contracting with Palantir over national sovereignty and data security concerns — following France's similar move in June. A significant geopolitical signal about European governments reassessing reliance on US data analytics firms with deep ties to the Trump administration. The detail on active defense contracts still in play is notable."
+    },
+    {
+      "title": "\"Beyond the limit\": Satellites and mirrors in space pose threat to the night sky",
+      "url": "https://www.eso.org/public/news/eso2607/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Breadmaker · 143 points · 237 comments",
+      "blurb": "ESO researchers warn that the proliferation of satellites and proposed space mirrors is pushing light pollution 'beyond the limit' for ground-based astronomy. With 237 HN comments, there's a spirited debate about who owns the night sky and what regulatory levers exist. A slow-moving but consequential story about infrastructure colliding with scientific access."
+    }
+  ]
+}
