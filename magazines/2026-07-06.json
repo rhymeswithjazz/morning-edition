@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-06",
+  "stories": [
+    {
+      "title": "Organic Maps",
+      "url": "https://organicmaps.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=48794446",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tosh · 978 points · 295 comments",
+      "blurb": "A free, open-source offline maps app built on OpenStreetMap with zero ads, no tracking, and no data collection. For privacy-conscious developers who hate that every map app wants to sell their location history, this is the answer. Works beautifully on iOS and Android — and it's genuinely good."
+    },
+    {
+      "title": "OpenPrinter",
+      "url": "https://www.opentools.studio/",
+      "hn_link": "https://news.ycombinator.com/item?id=48797916",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by bouh · 842 points · 209 comments",
+      "blurb": "An open-source, browser-based print layout and design tool that puts real typographic control back in your hands without a subscription. Think of it as a lightweight InDesign alternative you can self-host or use instantly. With 842 points and 209 comments, HN clearly found it striking a nerve."
+    },
+    {
+      "title": "It's not about physical vs. digital games, it's about ownership",
+      "url": "https://popcar.bearblog.dev/its-about-ownership/",
+      "hn_link": "https://news.ycombinator.com/item?id=48794750",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by popcar2 · 481 points · 364 comments",
+      "blurb": "A sharp essay arguing that the digital-vs-physical debate is a red herring — the real issue is that you don't actually own digital purchases. Directly relevant to anyone who cares about digital rights and has watched storefronts disappear with their libraries. 364 comments means this touched a nerve."
+    },
+    {
+      "title": "The future of Flipper Zero development",
+      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+      "hn_link": "https://news.ycombinator.com/item?id=48796552",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by croes · 323 points · 137 comments",
+      "blurb": "The Flipper Zero team lays out their roadmap — new hardware partnerships, an open SDK push, and plans to make the firmware ecosystem more modular. If you've ever wanted a programmable multi-tool for hardware hacking, this is where the platform is headed. Big implications for the hobbyist security space."
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "hn_link": "https://news.ycombinator.com/item?id=48799614",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 280 points · 207 comments",
+      "blurb": "OpenAI is bringing GPT-5.6 Sol Ultra — reportedly a significant step up in coding capability — to Codex, their agentic coding product. For anyone already living in Claude Code or Copilot, this is direct competition worth benchmarking. 207 comments of vigorous debate on what this actually means."
+    },
+    {
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "url": "https://arxiv.org/abs/2605.20049",
+      "hn_link": "https://news.ycombinator.com/item?id=48798815",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by softwaredoug · 119 points · 64 comments",
+      "blurb": "Researchers ran a controlled experiment pairing clean vs. messy codebases and measured how well AI coding agents performed on each — the answer will not surprise you, but the effect sizes will. Directly actionable if you use Claude Code: clean code isn't just for humans anymore. Required reading."
+    },
+    {
+      "title": "When AI Costs More Than the Engineer",
+      "url": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "hn_link": "https://news.ycombinator.com/item?id=48801493",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kiyanwang · 74 points · 62 comments",
+      "blurb": "Tom Tunguz models out when AI API costs will exceed the salary of a software engineer — and the crossover point is closer than you'd think. Essential framing for teams deciding how aggressively to automate with LLMs. The unit economics of AI coding are about to become a C-suite conversation."
+    },
+    {
+      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "hn_link": "https://news.ycombinator.com/item?id=48798313",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Callicles · 62 points · 41 comments",
+      "blurb": "A slick Rust-powered terminal UI that shows DNS propagation in real time across global resolvers — exactly the kind of tool you wish existed the last time you launched something and wondered why half the planet was still hitting the old IP. Install it once, reach for it forever."
+    },
+    {
+      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
+      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=48770291",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by jfil · 177 points · 38 comments",
+      "blurb": "An artist-in-residence at Aalto University built a generative paint toy and stumbled into a genuinely novel cellular automaton. The writeup is charming and the visuals are mesmerizing — proof that creative coding accidents are still the best kind. A great Sunday-morning rabbit hole."
+    },
+    {
+      "title": "Building relationships with customers through support didn't turn out as hoped",
+      "url": "https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support",
+      "hn_link": "https://news.ycombinator.com/item?id=48799929",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by dabluck · 115 points · 72 comments",
+      "blurb": "The developer behind Castro — the beloved iOS podcast app — reflects candidly on what they got wrong about using support as a relationship-building channel. Rare honest post-mortem from a beloved indie Apple app maker. If you build iOS/macOS apps or just love Castro, this is worth your time."
+    },
+    {
+      "title": "Snow | Classic Macintosh emulator, written in Rust, with a focus on hardware accuracy",
+      "url": "https://snowemu.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: emulation, macintosh, rust",
+      "blurb": "A new, hardware-accurate classic Mac emulator written in Rust — boots real 68k Mac ROMs with cycle-accurate precision. For macOS users who want to run vintage Mac software or just appreciate the craftsmanship, this is a beautiful piece of work. The Rust rewrite trend reaches the most nostalgic possible target."
+    },
+    {
+      "title": "stonerl/Thaw: Menu bar manager for macOS",
+      "url": "https://github.com/stonerl/Thaw",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, menubar, github",
+      "blurb": "An open-source macOS menu bar manager — think Bartender or Ice, but free and hackable. With Bartender's ownership drama still fresh in minds, a transparent open-source alternative with active development is exactly what the community needed. Drop-in replacement for anyone decluttering their menu bar."
+    },
+    {
+      "title": "ogulcancelik/herdr: herd your agents. terminal workspace manager for AI coding agents.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, terminal",
+      "blurb": "A terminal workspace manager purpose-built for running and orchestrating multiple AI coding agents simultaneously. If you're running Claude Code alongside other agents on a large codebase, this is exactly the kind of tooling the ecosystem has been missing. Grab it while it's still early."
+    },
+    {
+      "title": "Why traditional CI/CD fails for LLMs (and the release gates we built to fix it) - The New Stack",
+      "url": "https://thenewstack.io/why-cicd-fails-llms/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llmCodeDev, llmNow",
+      "blurb": "LLMs don't fail the way deterministic software fails — which means your existing CI/CD pipeline is flying blind. This piece diagnoses the problem and describes the evaluation gates teams are building to catch regressions. Practical, opinionated, and directly applicable if you're shipping anything LLM-powered."
+    },
+    {
+      "title": "Prompt Injection as Role Confusion",
+      "url": "https://role-confusion.github.io/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, cybersecurity",
+      "blurb": "A rigorous framing of prompt injection attacks as a fundamental problem of role confusion — the model can't reliably distinguish instructions from data. Goes beyond CTF tricks into principled defense strategies. Essential security reading for anyone building LLM-powered tools or agents."
+    },
+    {
+      "title": "[untitled — ClickHouse is winning the observability wars]",
+      "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: clickhouse",
+      "blurb": "A practitioner's argument that ClickHouse has quietly become the default choice for observability backends, outpacing Elasticsearch and purpose-built solutions on cost, speed, and simplicity. If you're evaluating logging/metrics infrastructure for a .NET or any backend project, this is the case you'll be making to your team."
+    },
+    {
+      "title": "Fixing full-bleed CSS – David Bushell – Web Dev (UK)",
+      "url": "https://dbushell.com/2026/07/03/fixing-full-bleed-css/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: css, yam, yat",
+      "blurb": "David Bushell digs into the persistent CSS full-bleed layout problem and presents clean, modern solutions using current spec features. Exactly the kind of practical CSS deep-dive that saves you 30 minutes of Stack Overflow archaeology. Angular component authors dealing with layout containment will find this immediately useful."
+    },
+    {
+      "title": "Introduction to Compilers and Language Design | Prof. Douglas Thain at Notre Dame",
+      "url": "https://dthain.github.io/books/compiler/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: books, compilers, computer-science, programming, programming-language",
+      "blurb": "A free, full-length compiler design textbook from Notre Dame — covers scanning, parsing, type checking, code generation, and optimization with modern, approachable prose. One of the better free CS textbooks making the rounds right now. Bookmark it for the next time you want to understand what your tools are actually doing."
+    },
+    {
+      "title": "Command & Conquer Generals: Zero Hour (macOS/iOS/iPadOS port)",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, ios, pc, rts, strategy, game",
+      "blurb": "A native port of Command & Conquer Generals: Zero Hour that runs on macOS, iPhone, and iPad with RTS-optimized touch controls — requires the original game assets from Steam. The Apple ecosystem rarely gets love from classic RTS titles, so this is a genuine treat for fans. Impressive solo effort."
+    },
+    {
+      "title": "Astrophysicists Puzzle Over Webb's New Universe | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "James Webb is handing cosmologists data that doesn't fit the standard model — galaxies too big, too early, too strange. Quanta does their usual excellent job making the theoretical stakes legible for non-specialists. When the universe stops making sense, you read Quanta."
+    }
+  ]
+}
