@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-08",
+  "stories": [
+    {
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "hn_link": "https://news.ycombinator.com/item?id=48818311",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gasull · 664 points · 259 comments",
+      "blurb": "The EU's Chat Control proposals would mandate client-side scanning of all private messages, effectively ending end-to-end encryption as we know it. This clear-eyed explainer breaks down both versions of the legislation — what changed, what stayed dangerously the same, and why it matters for every person who uses encrypted chat. Essential reading for anyone who cares about digital rights."
+    },
+    {
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "hn_link": "https://news.ycombinator.com/item?id=48823557",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by nickslaughter02 · 649 points · 824 comments",
+      "blurb": "Starting now, every new car sold in the EU ships with an inward-facing camera watching your eyes and face. The safety rationale is real, but the surveillance implications are enormous — 824 HN comments worth of enormous. Who owns that footage, how long is it retained, and can insurers or police demand it?"
+    },
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "hn_link": "https://news.ycombinator.com/item?id=48827858",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ColinEberhardt · 196 points · 75 comments",
+      "blurb": "Researchers at Noma coaxed GitHub's Copilot AI agent into exfiltrating contents of private repositories through prompt injection. If you use GitHub Copilot or any AI coding assistant with repo access, this is a must-read — the attack surface is wider than most teams realize. A timely reminder that agentic AI systems need adversarial threat modeling from day one."
+    },
+    {
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "hn_link": "https://news.ycombinator.com/item?id=48827402",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jfrbfbreudh · 195 points · 169 comments",
+      "blurb": "OpenAI is dropping GPT-5.6 Sol plus two new models — Terra and Luna — this Thursday. The naming suggests different capability/cost tradeoffs in the lineup, which will directly affect which model you reach for in Claude Code-style workflows. Watch the pricing tier announcements closely."
+    },
+    {
+      "title": "We're extending access to Fable 5 on all paid plans through July 12",
+      "url": "https://twitter.com/claudeai/status/2074548242386178258",
+      "hn_link": "https://news.ycombinator.com/item?id=48821102",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 191 points · 208 comments",
+      "blurb": "Anthropic is extending Fable 5 access — their interactive story/world-building model — to all paid Claude subscribers through July 12. If you haven't poked at it yet, this is your window. The 208-comment thread is buzzing with prompts and creative use cases worth stealing."
+    },
+    {
+      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
+      "url": "https://30papers.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48819608",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by notmcrowley · 527 points · 77 comments",
+      "blurb": "Ilya Sutskever's famous list of 30 foundational ML papers, now reformatted with plain-English intros, context, and guided reading paths. If you build with LLMs but haven't read the theory underneath them, this is the gentlest on-ramp available. Bookmark it and commit to one paper a week."
+    },
+    {
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "hn_link": "https://news.ycombinator.com/item?id=48819808",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by segmenta · 162 points · 49 comments",
+      "blurb": "Rowboat is a local-first, open-source desktop app for chatting with AI models — positioned explicitly as a Claude Desktop alternative you can self-host and extend. For developers who want Claude-level UX without giving Anthropic access to every query, this is worth a serious look. Actively maintained and already pluggable with MCP tools."
+    },
+    {
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "hn_link": "https://news.ycombinator.com/item?id=48821576",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 419 points · 80 comments",
+      "blurb": "Kokoro delivers surprisingly natural text-to-speech that runs entirely on CPU — no GPU, no cloud, no API key. The guide walks through setup and shows it punching well above its weight class in voice quality. A compelling building block for any local AI pipeline or accessibility tool."
+    },
+    {
+      "title": "Show HN: Davit, a Apple Containers UI",
+      "url": "https://davit.app",
+      "hn_link": "https://news.ycombinator.com/item?id=48821848",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by xinit · 311 points · 74 comments",
+      "blurb": "Davit is a native macOS GUI for Apple's new Containers framework — think Docker Desktop but built for the Apple silicon era with a proper Mac interface. For developers running containerized workloads on macOS, this could replace a lot of terminal fiddling. Still early, but 311 points says the community is hungry for it."
+    },
+    {
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "hn_link": "https://news.ycombinator.com/item?id=48827325",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by 4diii · 202 points · 121 comments",
+      "blurb": "A detailed, opinionated guide to rolling your own ZFS NAS with commodity hardware and minimal software overhead — no vendor lock-in, no bloated web UI, just ZFS doing what it does best. If you're backing up Obsidian vaults or dev machines to local storage, this is the blueprint. The 121-comment thread is full of alternative configs and war stories."
+    },
+    {
+      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
+      "url": "https://streetcomplete.app/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by kls0e · 768 points · 189 comments",
+      "blurb": "StreetComplete gamifies OpenStreetMap contributions by turning missing map data into bite-sized quests on your phone — answer a question about a shop's hours or a road's surface and you've just improved the map for everyone. The highest-scored story of the day, and for good reason: it's delightful, privacy-respecting, and actually useful. Go install it before your next walk."
+    },
+    {
+      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "url": "https://kb.cert.org/vuls/id/213560",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by miniBill · 220 points · 67 comments",
+      "blurb": "CERT confirms a hardcoded authentication backdoor in multiple Tenda router firmware versions — the kind of vulnerability that lets an attacker bypass login entirely. If you or anyone you support is running Tenda hardware, check the affected model list immediately. A grim reminder that cheap networking gear often ships with catastrophic trust assumptions."
+    },
+    {
+      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
+      "url": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by duha · 107 points · 12 comments",
+      "blurb": "zkSecurity used AI-assisted code analysis to surface real bugs in Cloudflare's Circl cryptographic library — bugs that human review had missed. This is the first post in a series, and it's a compelling proof-of-concept for AI as a cryptographic auditing tool. The intersection of LLMs and formal security analysis is heating up fast."
+    },
+    {
+      "title": "Why we built yet another Postgres connection pooler",
+      "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by levkk · 191 points · 45 comments",
+      "blurb": "The pgdog team makes a clear-eyed case for why existing Postgres poolers (PgBouncer, Pgpool) fall short for modern multi-tenant and serverless workloads. They explain what pgdog does differently around query routing, load balancing, and connection multiplexing. If Postgres is in your stack, this is worth 10 minutes."
+    },
+    {
+      "title": "Notes on Software Quality",
+      "url": "https://anthonyhobday.com/blog/20260410",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by speckx · 133 points · 56 comments",
+      "blurb": "Anthony Hobday distills hard-won lessons about what actually separates high-quality software from mediocre software — not testing frameworks or code coverage, but attitudes and habits. Short, opinionated, and worth re-reading every few months. The kind of piece that earns a permanent Obsidian note."
+    },
+    {
+      "title": "Microsoft fire idTech team at Id software",
+      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bauc · 601 points · 535 comments",
+      "blurb": "Microsoft has laid off the core idTech engine team at id Software, the engineers behind one of gaming's most storied rendering engines. This likely signals the end of idTech as an independently evolved codebase, with future titles presumably folding into Microsoft's broader engine ecosystem. A sad day for game engine diversity."
+    },
+    {
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speerer · 112 points · 25 comments",
+      "blurb": "A Uniqlo t-shirt printed with what looked like decorative code turned out to contain an actual obfuscated, self-evaluating bash script — served via Akamai CDN no less. The author reverse-engineers it step by step in a wonderfully nerdy teardown. Equal parts absurd and technically fascinating."
+    },
+    {
+      "title": "EVE Online's Carbon engine is now open source: Fenris Creations explains why",
+      "url": "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by Stevvo · 22 points · 0 comments",
+      "blurb": "The proprietary engine powering EVE Online for over two decades has been open-sourced. Fenris Creations (the successor studio) explains the strategic and community reasons behind the decision. A significant moment for game engine history — Carbon's architecture influenced a lot of MMO design."
+    },
+    {
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by gjvc · 180 points · 17 comments",
+      "blurb": "Abelson and Sussman's legendary SICP lectures from 1986 keep resurfacing on HN for a reason — they remain the best video introduction to thinking like a computer scientist. If you've never watched them, or want a refresher on first principles before your next AI-assisted coding binge, queue these up. Timeless."
+    },
+    {
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://github.com/jimparis/qr-font",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by arantius · 182 points · 22 comments",
+      "blurb": "A TrueType font where each \"character\" is actually a valid QR code — type a URL, get a scannable glyph. It's a clever hack that makes QR code embedding in documents, PDFs, and design tools trivially easy. Weird, delightful, and immediately useful for anyone generating printable assets."
+    }
+  ]
+}
