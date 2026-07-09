@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-09",
+  "stories": [
+    {
+      "title": "TypeScript 7",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=48833715",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by DanRosenwasser · 638 points · 250 comments",
+      "blurb": "TypeScript 7 is here, and for Angular/.NET developers this is a must-read. Expect significant type-system improvements, performance gains, and new features that will reshape how you write TypeScript day to day. With 638 points and 250 comments, the community is buzzing — get ahead of the migration curve now."
+    },
+    {
+      "title": "Chatto is now open source",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "hn_link": "https://news.ycombinator.com/item?id=48833116",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 987 points · 270 comments",
+      "blurb": "Chatto, a fast team-chat app for communities that care about data ownership, has gone open source. The top HN story of the day with nearly 1,000 points — self-hosters and privacy-minded teams now have a compelling Slack alternative to evaluate and fork."
+    },
+    {
+      "title": "GPT‑Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "hn_link": "https://news.ycombinator.com/item?id=48834405",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by logickkk1 · 717 points · 478 comments",
+      "blurb": "OpenAI's GPT-Live brings real-time, low-latency conversational AI into the product lineup. With 478 comments, it's generating serious debate about use cases ranging from voice coding assistants to live customer support. If you build AI-powered tools, this changes the latency calculus."
+    },
+    {
+      "title": "EU now one step away from reviving private message scanning rules",
+      "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/",
+      "hn_link": "https://news.ycombinator.com/item?id=48834296",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ggirelli · 430 points · 164 comments",
+      "blurb": "The EU's controversial client-side scanning proposal is back and closer than ever to becoming law. This would mandate scanning of encrypted private messages — a fundamental threat to end-to-end encryption and digital privacy. Every developer who cares about user privacy needs to be tracking this."
+    },
+    {
+      "title": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "hn_link": "https://news.ycombinator.com/item?id=48835111",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by BoumTAC · 662 points · 1030 comments",
+      "blurb": "xAI drops Grok 4.5 with a massive 1,030-comment HN thread — the most discussed story of the day. With the LLM landscape evolving fast, understanding where Grok sits relative to Claude and GPT matters for anyone choosing a coding assistant or building on top of frontier models."
+    },
+    {
+      "title": "Rewriting Bun in Rust",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "hn_link": "https://news.ycombinator.com/item?id=48837877",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by afturner · 623 points · 362 comments",
+      "blurb": "The Bun team announces a major architectural shift, rewriting large portions of the JavaScript runtime in Rust. This is a significant technical decision with real implications for performance, safety, and community contributions — and the Zig creator has opinions (see also: Andrew Kelley's response piece)."
+    },
+    {
+      "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+      "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "hn_link": "https://news.ycombinator.com/item?id=48837696",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tanelpoder · 102 points · 40 comments",
+      "blurb": "Real-world benchmarking of AI coding agents — not synthetic toy problems — on an actual production codebase with millions of lines. This is the kind of signal that matters when deciding whether Claude Code or a rival is actually useful at scale. Actionable data for teams evaluating AI dev tooling."
+    },
+    {
+      "title": "Cloudflare Drop",
+      "url": "https://www.cloudflare.com/drop/",
+      "hn_link": "https://news.ycombinator.com/item?id=48836233",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by coloneltcb · 448 points · 247 comments",
+      "blurb": "Cloudflare launches Drop, a new product with 448 points and a lively 247-comment thread. Cloudflare keeps expanding its developer platform in surprising directions — worth a look to understand where the edge-computing giant is heading next."
+    },
+    {
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "hn_link": "https://news.ycombinator.com/item?id=48838876",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by djoldman · 889 points · 173 comments",
+      "blurb": "A landmark FTC settlement forces John Deere to provide repair rights — a huge win for the right-to-repair movement. The precedent this sets for software-locked hardware extends well beyond tractors: it's a signal to every company that embeds locked software in physical products."
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "hn_link": "https://news.ycombinator.com/item?id=48837396",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sk4rekr0w · 219 points · 80 comments",
+      "blurb": "OpenAI digs into the methodology behind coding benchmarks and what actually separates meaningful evals from gaming. If you're choosing an AI coding assistant or building your own evaluation suite, this is essential reading — benchmark inflation is a real problem and this piece names it directly."
+    },
+    {
+      "title": "Davit — a native macOS UI for Apple containers",
+      "url": "https://davit.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: docker, container",
+      "blurb": "Davit is a polished native macOS app that gives Apple's new container runtime a proper GUI. For macOS developers who've been waiting for a Docker Desktop alternative that actually feels at home on a Mac, this could be the answer. Free to try and actively developed."
+    },
+    {
+      "title": "macOS 27 Has a Hidden LLM Inside — 10 (Amazing) Things You Can Do With It",
+      "url": "https://medium.com/macoclock/macos-27-has-a-hidden-llm-inside-10-amazing-things-you-can-do-with-it-44a28d8cc042",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: terminal",
+      "blurb": "macOS 27 ships with an on-device LLM accessible from the terminal — and most users don't know it's there. This piece walks through 10 practical uses, from smart file search to scriptable text processing, all without sending data to the cloud. A privacy-conscious AI power user's dream."
+    },
+    {
+      "title": "PSA: macOS 28 will drop support for encrypted Mac OS Extended volumes",
+      "url": "https://9to5mac.com/2026/07/08/psa-macos-28-will-drop-support-for-encrypted-mac-os-extended-volumes/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is dropping support for encrypted HFS+ (Mac OS Extended) volumes in macOS 28 — if you have any old encrypted drives or Time Machine backups in this format, you need to act now before upgrading. This is the kind of PSA that saves people from data loss scenarios."
+    },
+    {
+      "title": "Viability of local models for coding",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Martin Fowler's site examines the factors that determine whether local LLMs are actually viable for coding tasks — context window, latency, accuracy, and privacy tradeoffs. Essential reading for developers who want AI coding help without sending proprietary code to the cloud."
+    },
+    {
+      "title": "Harness Engineering for Self-Improvement | Lil'Log",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: harness",
+      "blurb": "Lilian Weng's latest deep-dive explores how AI systems can use structured evaluation harnesses to improve themselves — a concept at the frontier of agent design and self-play training. Dense, research-grade, and exactly the kind of mechanistic AI thinking that shapes the next generation of tools."
+    },
+    {
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI_madness",
+      "blurb": "Anthropic's interpretability team (Transformer Circuits) publishes new research connecting LLM internals to Global Workspace Theory — a leading theory of consciousness. This is the same \"J-lens\" work that's generating buzz; reading the primary source beats the VentureBeat take. Genuinely weird science meets AI mechanistic interpretability."
+    },
+    {
+      "title": "WhatCable: Know what your USB-C cable can really do",
+      "url": "https://www.whatcable.uk/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, app, usbc, cable",
+      "blurb": "WhatCable is a macOS utility that reads e-marker data from connected USB-C cables and explains in plain English exactly what each cable supports — speed, charging wattage, display output. If you've ever grabbed the wrong cable for your MacBook Pro display setup, this tool pays for itself immediately."
+    },
+    {
+      "title": "Find Any File in Seconds",
+      "url": "https://whimfiles.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Whim is a native Mac file manager built around real-time filtering — filter by type, date, and size simultaneously to find anything instantly. For developers who live in the terminal but want a fast visual file navigator, this looks like a worthy Finder replacement to evaluate."
+    },
+    {
+      "title": "Getting Started with Anchor Positioning • Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/css/anchor-positioning/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: css",
+      "blurb": "The CSS Anchor Positioning API finally lets you attach tooltips, dropdowns, and popovers to target elements without any JavaScript — just declarative CSS. Josh Comeau's interactive tutorial is the clearest introduction available. Angular/web devs: this will clean up a surprising amount of positioning code."
+    },
+    {
+      "title": "Your Worker can now have its own cache in front of it",
+      "url": "https://blog.cloudflare.com/workers-cache/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: development, cloudflare",
+      "blurb": "Cloudflare launches Workers Cache — a regionally tiered cache that sits directly in front of Worker entrypoints, configured via standard HTTP headers. For developers running APIs or SSR apps on Cloudflare Workers, this is a significant performance and cost-reduction primitive that requires zero new dependencies."
+    }
+  ]
+}
