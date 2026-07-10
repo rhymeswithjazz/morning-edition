@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-10",
+  "stories": [
+    {
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "hn_link": "https://news.ycombinator.com/item?id=48843923",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by rapnie · 1423 points · 678 comments",
+      "blurb": "The EU Parliament has approved Chat Control 1.0, mandating scanning of private communications — a seismic blow to end-to-end encryption across Europe. If you use Signal, WhatsApp, or any encrypted messenger, this affects you directly. The 678-comment HN thread is a must-read for the technical and civil-liberties fallout."
+    },
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "hn_link": "https://news.ycombinator.com/item?id=48849066",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by logickkk1 · 1319 points · 922 comments",
+      "blurb": "OpenAI drops another incremental update to the GPT-5 line, and the community is debating whether it's a meaningful leap or a marketing tick. With 922 comments, this is the day's liveliest AI discussion — essential reading if you're integrating OpenAI APIs or comparing models for Claude Code workflows."
+    },
+    {
+      "title": "Show HN: 18 Words",
+      "url": "https://18words.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48845049",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by pompomsheep · 1009 points · 326 comments",
+      "blurb": "A minimalist creative writing tool that constrains you to exactly 18 words per piece — a fascinating constraint-based approach to writing. Solo-built and clearly resonating with HN's maker crowd. Worth a quick visit to see if creative constraints spark anything in your own work."
+    },
+    {
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "url": "https://github.com/JustVugg/colibri",
+      "hn_link": "https://news.ycombinator.com/item?id=48842459",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vforno · 707 points · 170 comments",
+      "blurb": "Colibri is a lightweight runner that gets the powerful GLM 5.2 model working on underpowered hardware — no beefy GPU required. For anyone wanting to run capable LLMs locally without cloud costs or privacy trade-offs, this is exactly the kind of scrappy tooling that matters. The repo is the place to start."
+    },
+    {
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "url": "https://github.com/malisper/pgrust",
+      "hn_link": "https://news.ycombinator.com/item?id=48841676",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by SweetSoftPillow · 693 points · 582 comments",
+      "blurb": "pgrust has crossed a major milestone: full compatibility with the official Postgres regression test suite. A Postgres-compatible database in Rust could unlock memory-safety guarantees and new embedding possibilities for .NET and other stacks. The 582-comment discussion digs into the hard tradeoffs."
+    },
+    {
+      "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "hn_link": "https://news.ycombinator.com/item?id=48849292",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by veqq · 266 points · 127 comments",
+      "blurb": "The creator of Vagrant, Packer, and now Ghostty — arguably the best macOS terminal emulator in years — talks about why he chose Zig and what's next. If you're a macOS developer who lives in the terminal, this is a rare deep-dive into the craft behind the tool."
+    },
+    {
+      "title": "Hy3",
+      "url": "https://hy.tencent.com/research/hy3",
+      "hn_link": "https://news.ycombinator.com/item?id=48847552",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by andai · 487 points · 101 comments",
+      "blurb": "Tencent's Hy3 is a new multimodal model making waves with strong benchmark performance across text, image, and video understanding. The HN thread debates where it sits against OpenAI and Anthropic's offerings — a useful checkpoint for anyone tracking the global LLM race."
+    },
+    {
+      "title": "Muse Spark 1.1",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "hn_link": "https://news.ycombinator.com/item?id=48846184",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ot · 380 points · 189 comments",
+      "blurb": "Meta's Muse Spark 1.1 is a generative creative model now available via API, targeting image and creative content generation workflows. For developers building creative tools or exploring multimodal AI, this is a new API worth benchmarking against existing options."
+    },
+    {
+      "title": "Buried Apple feature turns an iPhone into the perfect kids' dumb phone",
+      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+      "hn_link": "https://news.ycombinator.com/item?id=48803004",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by PotatoNinja · 349 points · 225 comments",
+      "blurb": "Wired surfaces a lesser-known iOS restriction mode that strips a full iPhone down to a handful of approved contacts and apps — no social media, no browser. If you're navigating the screen-time question for your own household, this is a practical, actionable read you can implement today."
+    },
+    {
+      "title": "TLS certificates for internal services done right",
+      "url": "https://tuxnet.dev/posts/tls-for-internal-services/",
+      "hn_link": "https://news.ycombinator.com/item?id=48846995",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by mrl5 · 157 points · 112 comments",
+      "blurb": "A practical, opinionated walkthrough for getting proper TLS on internal homelab or dev services — no more browser warnings, no self-signed cert hacks. If you run local dev infrastructure or internal tooling, this covers the right way to set up a private CA and issue legitimate-looking certs."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Herdr is a persistent terminal multiplexer purpose-built for coding agents like Claude Code — detach and reattach while agents keep running in the background, with built-in state tracking for blocked, working, and done states. This is exactly the infrastructure missing from most AI coding setups. Try it today if you run long agentic sessions."
+    },
+    {
+      "title": "Slopfix — we refactor vibecoded codebases",
+      "url": "https://odra.dev/slopfix/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: refactor, vibecode, programming",
+      "blurb": "Slopfix is a three-person consultancy that takes AI-generated codebases and refactors them back to maintainability — collapsing duplicated logic, cutting line counts by 60%+, and leaving behind CLAUDE.md guardrails. A fascinating new service category that emerges directly from the vibe-coding era, and the description of their process is worth reading even if you'd never hire them."
+    },
+    {
+      "title": "Daring Fireball: What's Good for the iOS Goose Is Often Not Good for the MacOS Gander",
+      "url": "https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Gruber makes the case that Apple's habit of porting iOS design patterns to macOS often backfires — the two platforms have fundamentally different interaction models and user expectations. Essential reading for anyone building or evaluating Mac software in a world where SwiftUI blurs the lines."
+    },
+    {
+      "title": "How to Prevent Meta From Using Your Instagram Images in A.I.",
+      "url": "https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A practical NYT guide walking through the (deliberately obscured) steps to opt your Instagram content out of Meta's AI training pipeline. If you or anyone you know has photos on Instagram, this is immediately actionable — share it widely."
+    },
+    {
+      "title": "A field guide to Claude Fable 5: Finding your unknowns | Claude | Claude by Anthropic",
+      "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic's official guide to getting the most out of Claude Fable 5's reasoning capabilities — specifically around surfacing unknown unknowns in complex problems. For Claude Code users and anyone building AI-assisted workflows, this is a practical prompt-engineering resource straight from the source."
+    },
+    {
+      "title": "Show HN: Davit, a Apple Containers UI | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48821848",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: admin, virtual, container, mac, app, hackernews",
+      "blurb": "Davit is a native macOS GUI for Apple's new Containers framework — giving you a point-and-click interface to manage lightweight Linux VMs on Apple Silicon without touching the CLI. If you're a Mac-first developer who wants container workflows without Docker Desktop friction, this is worth installing immediately."
+    },
+    {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: visualization",
+      "blurb": "Microsoft's Flint is a declarative visualization language designed to be generated by LLMs — describe a chart in natural language, get a structured spec, render it. It's positioned as the missing link between AI code generation and data visualization, and the live playground is immediately explorable."
+    },
+    {
+      "title": "Free Mermaid Live Editor & Diagram Maker | Moxie Docs",
+      "url": "https://moxiedocs.com/mermaid-diagram-editor",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A polished, free browser-based Mermaid editor with live preview — no login, no friction. If you document architecture or workflows in Obsidian or markdown READMEs, Mermaid is the go-to diagramming syntax, and this is the fastest way to draft and iterate on diagrams."
+    },
+    {
+      "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness | VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, consciousness",
+      "blurb": "Anthropic's interpretability team has developed a \"Jacobian lens\" that reveals what appears to be an internal scratchpad-like workspace in Claude's activations — eerily consistent with Global Workspace Theory of consciousness. For anyone building with or thinking seriously about LLMs, this is fascinating and a little unsettling."
+    },
+    {
+      "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
+      "url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by tosh · 85 points · 108 comments",
+      "blurb": "An Apple Silicon exec pulls back the curtain on why Mac Mini demand has spiked — AI inference workloads running locally on M-series chips. This is Apple's on-device AI pitch made concrete, and it has direct implications for anyone using or evaluating local LLM setups on Apple hardware."
+    }
+  ]
+}
