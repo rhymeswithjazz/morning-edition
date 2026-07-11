@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-11",
+  "stories": [
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "hn_link": "https://news.ycombinator.com/item?id=48865019",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by stock_toaster · 1061 points · 545 comments",
+      "blurb": "The biggest tech legal story of the year: Apple alleges former engineers walked out with proprietary IP and handed it to OpenAI. With 545 comments and 1,061 points, HN is on fire debating what this means for the AI talent war and Apple Intelligence's competitive future. If you're in the Apple ecosystem, this reshapes the landscape."
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=48863490",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by scrlk · 451 points · 363 comments",
+      "blurb": "A frontier AI model claims to have solved a long-standing open problem in graph theory — the Cycle Double Cover Conjecture. Whether the proof holds up to scrutiny is the burning question; the 363-comment HN thread is already doing forensics. A genuine milestone if verified, or a cautionary tale about AI-generated math."
+    },
+    {
+      "title": "Good Tools Are Invisible",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "hn_link": "https://news.ycombinator.com/item?id=48858121",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 430 points · 198 comments",
+      "blurb": "A philosophical essay on what makes developer tooling actually great — the best tools disappear into the work rather than demanding attention. Directly relevant if you live in Claude Code, VSCode, or any IDE all day. The 198-comment thread is a gold mine of tool philosophy."
+    },
+    {
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "hn_link": "https://news.ycombinator.com/item?id=48861717",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 580 points · 192 comments",
+      "blurb": "Jeff Geerling gets his hands on a software-defined radio device that can passively map your home's WiFi topology and detect nearby drones — from outside your walls. A vivid, hands-on demonstration of how much RF leaks from modern homes, with deep implications for privacy."
+    },
+    {
+      "title": "New York City to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "hn_link": "https://news.ycombinator.com/item?id=48863464",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by randycupertino · 517 points · 250 comments",
+      "blurb": "NYC is moving to make dark patterns around subscriptions illegal — no more hiding the cancel button or auto-enrolling users. A meaningful consumer-rights win that could set a template for other cities and pressure app developers to clean up their UX. Worth watching as a regulatory trend."
+    },
+    {
+      "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+      "url": "https://nebusec.ai/research/ionstack-part-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=48864969",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by djfergus · 79 points · 16 comments",
+      "blurb": "Researchers detail a use-after-free vulnerability baked into Linux's io_uring stack that went undetected for 15 years across every major distro. Deep technical write-up with exploitation implications for servers and containers. Patch your Linux boxes."
+    },
+    {
+      "title": "After 7 years in production, Scarf has reluctantly moved away from Haskell",
+      "url": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48859673",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by aviaviavi · 136 points · 172 comments",
+      "blurb": "An honest post-mortem from Scarf's founder on why a beloved Haskell codebase became untenable in production — hiring, onboarding, and ecosystem friction all cited. A measured, non-inflammatory take on language pragmatism that's sparking a rich HN debate."
+    },
+    {
+      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
+      "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
+      "hn_link": "https://news.ycombinator.com/item?id=48866134",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by hhs · 241 points · 84 comments",
+      "blurb": "New research from Brown confirms that relativistic effects — where electrons near heavy nuclei travel near light speed — directly shape how elements like gold and mercury behave chemically. A beautiful intersection of quantum mechanics and special relativity with real materials-science consequences."
+    },
+    {
+      "title": "The tech of 'Terminator 2' – an oral history (2017)",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "hn_link": "https://news.ycombinator.com/item?id=48862365",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by markus_zhang · 216 points · 76 comments",
+      "blurb": "A deep-dive oral history on the CGI breakthroughs that made T2's liquid-metal T-1000 possible in 1991 — morphing algorithms, compositing pipelines, and the ILM team that invented tools on the fly. Essential reading for anyone interested in the history of creative software and visual effects."
+    },
+    {
+      "title": "AI 2040: Plan A",
+      "url": "https://ai-2040.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48848425",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kschaul · 261 points · 274 comments",
+      "blurb": "An interactive, richly illustrated scenario document exploring what a positive AI future could look like by 2040 — governance, economics, creative work, and more. Unusually thoughtful and non-doom; the 274-comment HN debate is itself a great read on AI futures."
+    },
+    {
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50% - Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-and-education, cheating, brown-university",
+      "blurb": "A Brown professor mandated an in-person final after suspecting widespread AI cheating — and scores cratered by half. The story crystallizes the central tension of AI-assisted learning: productivity vs. actual skill development. Essential context for anyone building with or thinking about AI coding tools."
+    },
+    {
+      "title": "Better tools made Copilot code review worse. Here's how we actually improved it.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: copilot, github, code, review, unix-style, exploration, efficiency, pull, requests",
+      "blurb": "GitHub's Copilot team shares a counter-intuitive finding: giving AI agents more powerful tools actually hurt code review quality until they redesigned the workflow around Unix-style evidence gathering. Packed with practical lessons for anyone optimizing AI agent pipelines — directly relevant to Claude Code users."
+    },
+    {
+      "title": "My Thoughts on the Bun Rust Rewrite - Andrew Kelley",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Zig, Bun, Andrew_Kelly, Jarred_Summer",
+      "blurb": "Zig creator Andrew Kelley weighs in on Bun's decision to rewrite parts of itself in Rust — a pointed, technical critique from someone with deep skin in the systems-languages game. Sparks a real conversation about Zig vs. Rust ergonomics and the future of fast JS runtimes."
+    },
+    {
+      "title": "microsoft/flint-chart: 🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
+      "url": "https://github.com/microsoft/flint-chart",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, charts, tool, 2try",
+      "blurb": "Microsoft open-sources Flint, a declarative chart-spec language purpose-built for AI agents — the idea being that LLMs generate reliable, human-readable specs rather than raw Vega or D3. Could be a game-changer for data viz in AI workflows; worth integrating into your Claude Code setup today."
+    },
+    {
+      "title": "DocuBrowser: local AI powered Document search engine for macOS",
+      "url": "https://github.com/linuxrebel/DocuBrowser",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apps_osx, apps_ai",
+      "blurb": "DocuBrowser brings local AI-powered semantic search to your documents on macOS — think Spotlight that actually understands what's in your PDFs and notes. Tagged apps_osx and apps_ai on Pinboard, this is exactly the kind of privacy-respecting local AI tool our reader profile craves, especially alongside Obsidian."
+    },
+    {
+      "title": "The fastest way to fall in love with Pi.",
+      "url": "https://lazypi.org/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: pi, ai, shell",
+      "blurb": "LazyPi is a one-command installer that bundles 60+ community skills, MCP servers, Claude Code CLI provider, memory plugins, and 76 themes for the Pi AI shell. If you're already using Claude Code, this is an immediately actionable way to supercharge your terminal AI setup."
+    },
+    {
+      "title": "A new way to reflect on how you use Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic ships a new feature letting you visualize and analyze your own Claude usage patterns — how often, for what tasks, and whether it aligns with your goals. A meta-tool for AI power users who want to be intentional about their assistant workflows, directly relevant to Claude Code daily drivers."
+    },
+    {
+      "title": "Daring Fireball: John Ternus Should Reverse Apple's Slide Down the Advertising Slippery Slope",
+      "url": "https://daringfireball.net/2026/07/ternus_apple_slippery_slope",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Gruber makes the case that Apple's increasing ad surface area — App Store search ads, lock screen placements, and more — is eroding the brand promise of privacy and user-first design. A pointed call to action for the incoming Apple leadership to reverse course before the rot sets in."
+    },
+    {
+      "title": "Your 'App' Could Have Been a Webpage (so I fixed it for you…) – Dan Q",
+      "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: engineering, web, apps, android, culture",
+      "blurb": "A developer reverse-engineered a travel itinerary app, stripped the tracking and ads, and rebuilt it as a plain web page — complete with deep links, print support, and zero surveillance. A fun, actionable polemic against unnecessary app-ification that's also a mini tutorial in API reverse engineering."
+    },
+    {
+      "title": "Introducing Meerkat: an experiment in global consensus",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: cloudflare",
+      "blurb": "Cloudflare introduces Meerkat, a new experiment in building global distributed consensus at internet scale — potentially a foundational primitive for coordination problems across their edge network. Scant on details but the architecture implications are intriguing for anyone building distributed systems."
+    }
+  ]
+}
