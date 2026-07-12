@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-12",
+  "stories": [
+    {
+      "title": "Prefer strict tables in SQLite",
+      "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "hn_link": "https://news.ycombinator.com/item?id=48873940",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ingve · 289 points · 136 comments",
+      "blurb": "SQLite's STRICT mode enforces actual column types instead of the famously permissive affinity system — meaning a column declared INTEGER won't silently accept a string. A must-read if you're using SQLite in any production context, and an easy win to add to your next schema. The lively comment thread surfaces real-world gotchas and migration strategies."
+    },
+    {
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "hn_link": "https://news.ycombinator.com/item?id=48876505",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tionis · 257 points · 58 comments",
+      "blurb": "Iroh's peer-to-peer networking layer gets put to an ambitious use: spreading LLM inference across multiple machines without a central coordinator. This is early but genuinely interesting architecture for anyone who wants to run large models without a single beefy box. The approach could pair neatly with local-first AI workflows."
+    },
+    {
+      "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+      "url": "https://antjs.org",
+      "hn_link": "https://news.ycombinator.com/item?id=48875377",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by theMackabu · 269 points · 115 comments",
+      "blurb": "Another challenger enters the JS runtime wars — Ant bills itself as a fresh take on the Node/Deno/Bun ecosystem with its own twist on the standard library and toolchain. The HN comment thread is skeptical but engaged, probing its performance claims and compatibility story. Worth a look if you track where the JS runtime landscape is heading."
+    },
+    {
+      "title": "We scaled PgBouncer to 4x throughput",
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "hn_link": "https://news.ycombinator.com/item?id=48872874",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by saisrirampur · 209 points · 48 comments",
+      "blurb": "ClickHouse's team digs into the internals of PgBouncer and explains the specific changes they made to quadruple connection-pooling throughput on managed Postgres. Concretely useful for any .NET or backend developer hitting connection limits under load. The write-up is technical, detailed, and reproducible."
+    },
+    {
+      "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+      "url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/",
+      "hn_link": "https://news.ycombinator.com/item?id=48876619",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by marzukia · 57 points · 24 comments",
+      "blurb": "A hands-on account of tracking down and squashing three bugs in mlx-lm to get the massive Qwen3.5-122B model running reliably on a Mac Studio — no cloud needed. Directly relevant if you're chasing local LLM performance on Apple Silicon. The author's patches are already upstream."
+    },
+    {
+      "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "hn_link": "https://news.ycombinator.com/item?id=48878682",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cosmtrek · 49 points · 17 comments",
+      "blurb": "Mindwalk visualises coding-agent session replays as a navigable 3D graph of your codebase, so you can see exactly where an AI agent went and what it touched. For anyone using Claude Code or similar agents on a large codebase, this is the kind of observability tool that could change how you audit and debug agent runs."
+    },
+    {
+      "title": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
+      "url": "https://shipthatcode.com",
+      "hn_link": "https://news.ycombinator.com/item?id=48871973",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by acley · 172 points · 50 comments",
+      "blurb": "A project-based learning platform that has you build Redis, Git, SQLite, and other core tools from scratch in your language of choice. The best way to deeply understand the tools you use every day is to write them yourself, and this gives you a structured path to do it. Immediately useful as a weekend challenge or team exercise."
+    },
+    {
+      "title": "An agent in 100 lines of Lisp",
+      "url": "https://thebeach.dev/posts/lisp-agent/",
+      "hn_link": "https://news.ycombinator.com/item?id=48823981",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jamiebeach · 150 points · 28 comments",
+      "blurb": "A beautifully minimal LLM agent built in 100 lines of Lisp, exposing just how simple the core agentic loop really is when you strip away framework bloat. Great for anyone who wants to understand agent architecture at a first-principles level before layering on abstractions. Thought-provoking alongside heavier tools like Claude Code."
+    },
+    {
+      "title": "Amber the programming language compiled to Bash/Ksh/Zsh",
+      "url": "https://amber-lang.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48822441",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by _superposition_ · 80 points · 60 comments",
+      "blurb": "Amber is a typed, modern scripting language that transpiles to Bash, Ksh, or Zsh — giving you safety, syntax, and familiar shell portability all at once. If you've ever wished you could write shell scripts with proper types and sane error handling, this is worth a serious look. Installable and usable today."
+    },
+    {
+      "title": "EF Core 11 makes your split queries faster",
+      "url": "https://steven-giesel.com/blogPost/d4401fd0-805a-4703-9d9e-5fe3b57c25ea",
+      "hn_link": "https://news.ycombinator.com/item?id=48785102",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rellem · 41 points · 11 comments",
+      "blurb": "EF Core 11 quietly ships meaningful performance improvements to split queries — the feature that avoids Cartesian explosion when loading related collections. Essential reading for .NET developers who rely on Entity Framework in production. The benchmarks show real-world gains you can get just by upgrading."
+    },
+    {
+      "title": "Scrapers are destroying the open internet",
+      "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: internet, doom",
+      "blurb": "LWN takes a clear-eyed look at how AI training crawlers and mass scrapers are throttling small sites, overwhelming servers, and eroding the incentive to publish openly on the web. The piece connects the scraping tsunami directly to the AI data-hunger economy. Essential context for anyone building public APIs or open content."
+    },
+    {
+      "title": "AI Surveillance and Social Progress - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Bruce Schneier argues that AI-powered surveillance is qualitatively different from what came before — cheaper, scalable, and increasingly used against the very social movements that historically drove progress. A characteristically sharp take that connects AI capability to civil-liberties risk. Required reading if you care about the downstream effects of the tools you build."
+    },
+    {
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs - Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: mitp",
+      "blurb": "Ars Technica reports that OpenAI allegedly misrepresented its ability to search training data and concealed billions of log entries in its copyright litigation with the New York Times. If the allegations hold up, this could fundamentally reshape how AI companies disclose training data. One of the most consequential legal stories in the AI space right now."
+    },
+    {
+      "title": "Patreon Blocks Crawlers From Stealing Creators' Work for AI Training | 404 Media",
+      "url": "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, patreon, cloudflare, training-data",
+      "blurb": "Patreon has teamed up with Cloudflare to actively block AI training crawlers from harvesting creators' paid content — one of the more concrete opt-out moves by a major platform. The policy framework they're building around consent, credit, and payment is a template other platforms may adopt. Good to watch as the training-data consent debate heats up."
+    },
+    {
+      "title": "Publishers Are Preparing to Opt Out of Google Search",
+      "url": "https://www.adweek.com/media/publishers-opt-out-google-search/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Google, ai, Gemini, Web",
+      "blurb": "A cohort of major publishers is now seriously weighing opting out of Google Search indexing as AI Overviews siphon traffic without compensation. This is a tipping-point story: if big content producers defect from Google's index, it has cascading effects on search quality and the AI training pipeline. Watch this space."
+    },
+    {
+      "title": "The Descent — What Happened to the Frontend While You Weren't Watching",
+      "url": "https://davidpoblador.com/deep-dives/what-happened-to-the-frontend/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: webdev, frontend, history",
+      "blurb": "A sweeping retrospective on how frontend development transformed from a simple button and an FTP upload into the sprawling ecosystem it is today — bundlers, frameworks, build pipelines, and all. Written to be accessible to those who stepped away and came back confused. Angular/TypeScript devs will recognise the inflection points firsthand."
+    },
+    {
+      "title": "Ghost Font: The Anti-AI Font Only Humans Can Read",
+      "url": "https://www.mixfont.com/ghost-font",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: fonts, ai, technology, inspiration",
+      "blurb": "Ghost Font is a typeface deliberately designed to be legible to humans but invisible to current AI OCR and vision models — a creative hack at the intersection of typography and adversarial ML. You can type a message and download a video clip to share it. A delightful creative provocation and a genuinely usable steganographic trick."
+    },
+    {
+      "title": "clipart.studio — magazine collage maker",
+      "url": "https://clipart.studio/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A browser-based digital collage studio that lets you pull scanned magazines from the Internet Archive, clip elements, and compose them on a canvas. The kind of creative tool that makes the Archive's vast holdings actually tactile and fun to work with. Instant weekend time-sink for anyone who likes generative or mixed-media art."
+    },
+    {
+      "title": "patterncollider: A web interactive for generating and exploring quasiperiodic tiling patterns (Penrose Tilings and other patterns)",
+      "url": "https://github.com/aatishb/patterncollider",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: programming, graphics, patterns, tiles, javascript, fun, opensource, visualization, onlinetools, free, learning, interesting, art, interactive",
+      "blurb": "Pattern Collider is an open-source, browser-based explorer for quasiperiodic tilings — think Penrose tiles and beyond — where you can tweak parameters and watch intricate patterns emerge in real time. Both a beautiful creative toy and a legitimate maths visualization tool. Pairs well with anyone doing generative or algorithmic art."
+    },
+    {
+      "title": "Buried Apple feature turns an iPhone into the perfect kids' dumb phone | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48803004",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apple, ios, accessibility, kids, safety",
+      "blurb": "An HN-surfaced tip about a little-known iOS accessibility mode that strips an iPhone down to a minimal set of apps — essentially turning it into a dumb phone without buying new hardware. Extremely practical for parents in the Apple ecosystem who want safer devices for kids. The thread is full of complementary Screen Time and Focus mode tricks."
+    }
+  ]
+}
