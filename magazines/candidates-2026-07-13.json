@@ -1,0 +1,1294 @@
+{
+  "date": "2026-07-13",
+  "fetched_at": "2026-07-13T11:17:04",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Ask HN: Add flag for AI-generated articles",
+        "url": "https://news.ycombinator.com/item?id=48886741",
+        "hn_id": 48886741,
+        "hn_link": "https://news.ycombinator.com/item?id=48886741",
+        "score": 722,
+        "author": "levkk",
+        "comments": 324,
+        "byline_hint": "by levkk · 722 points · 324 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+        "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+        "hn_id": 48883275,
+        "hn_link": "https://news.ycombinator.com/item?id=48883275",
+        "score": 605,
+        "author": "systima",
+        "comments": 328,
+        "byline_hint": "by systima · 605 points · 328 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+        "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+        "hn_id": 48877371,
+        "hn_link": "https://news.ycombinator.com/item?id=48877371",
+        "score": 479,
+        "author": "jhoho",
+        "comments": 173,
+        "byline_hint": "by jhoho · 479 points · 173 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Old and new apps, via modern coding agents",
+        "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+        "hn_id": 48880170,
+        "hn_link": "https://news.ycombinator.com/item?id=48880170",
+        "score": 437,
+        "author": "subset",
+        "comments": 127,
+        "byline_hint": "by subset · 437 points · 127 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I love LLMs, I hate hype",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+        "hn_id": 48883343,
+        "hn_link": "https://news.ycombinator.com/item?id=48883343",
+        "score": 434,
+        "author": "therepanic",
+        "comments": 270,
+        "byline_hint": "by therepanic · 434 points · 270 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How to read more books",
+        "url": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
+        "hn_id": 48882056,
+        "hn_link": "https://news.ycombinator.com/item?id=48882056",
+        "score": 391,
+        "author": "silcoon",
+        "comments": 209,
+        "byline_hint": "by silcoon · 391 points · 209 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+        "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+        "hn_id": 48889637,
+        "hn_link": "https://news.ycombinator.com/item?id=48889637",
+        "score": 344,
+        "author": "crowdhailer",
+        "comments": 169,
+        "byline_hint": "by crowdhailer · 344 points · 169 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Vint Cerf, “father of the Internet”, is retiring",
+        "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+        "hn_id": 48854168,
+        "hn_link": "https://news.ycombinator.com/item?id=48854168",
+        "score": 322,
+        "author": "compiler-guy",
+        "comments": 181,
+        "byline_hint": "by compiler-guy · 322 points · 181 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ghostel.el: Terminal emulator powered by libghostty",
+        "url": "https://dakra.github.io/ghostel/",
+        "hn_id": 48879504,
+        "hn_link": "https://news.ycombinator.com/item?id=48879504",
+        "score": 283,
+        "author": "signa11",
+        "comments": 58,
+        "byline_hint": "by signa11 · 283 points · 58 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Tiny Emulators",
+        "url": "https://floooh.github.io/tiny8bit-preview/index.html",
+        "hn_id": 48884395,
+        "hn_link": "https://news.ycombinator.com/item?id=48884395",
+        "score": 272,
+        "author": "naves",
+        "comments": 23,
+        "byline_hint": "by naves · 272 points · 23 comments"
+      },
+      {
+        "source": "hn",
+        "title": "LARP – Revenue infrastructure for serious founders",
+        "url": "https://www.larp.website/",
+        "hn_id": 48882569,
+        "hn_link": "https://news.ycombinator.com/item?id=48882569",
+        "score": 256,
+        "author": "BerislavLopac",
+        "comments": 51,
+        "byline_hint": "by BerislavLopac · 256 points · 51 comments"
+      },
+      {
+        "source": "hn",
+        "title": "So you want to learn physics (second edition, 2021)",
+        "url": "https://www.susanrigetti.com/physics",
+        "hn_id": 48827126,
+        "hn_link": "https://news.ycombinator.com/item?id=48827126",
+        "score": 237,
+        "author": "azhenley",
+        "comments": 42,
+        "byline_hint": "by azhenley · 237 points · 42 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+        "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+        "hn_id": 48882716,
+        "hn_link": "https://news.ycombinator.com/item?id=48882716",
+        "score": 213,
+        "author": "brryant",
+        "comments": 91,
+        "byline_hint": "by brryant · 213 points · 91 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Cyberpunk Comics, Manga and Graphic Novels",
+        "url": "https://shellzine.net/cyberpunk-comics/",
+        "hn_id": 48885643,
+        "hn_link": "https://news.ycombinator.com/item?id=48885643",
+        "score": 201,
+        "author": "zdw",
+        "comments": 68,
+        "byline_hint": "by zdw · 201 points · 68 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Sam Neill has died",
+        "url": "https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78",
+        "hn_id": 48888468,
+        "hn_link": "https://news.ycombinator.com/item?id=48888468",
+        "score": 191,
+        "author": "j4mie",
+        "comments": 45,
+        "byline_hint": "by j4mie · 191 points · 45 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why write code in 2026",
+        "url": "https://softwaredoug.com/blog/2026/07/09/write-code",
+        "hn_id": 48861923,
+        "hn_link": "https://news.ycombinator.com/item?id=48861923",
+        "score": 170,
+        "author": "softwaredoug",
+        "comments": 218,
+        "byline_hint": "by softwaredoug · 170 points · 218 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ask HN: What Are You Working On? (July 2026)",
+        "url": "https://news.ycombinator.com/item?id=48884984",
+        "hn_id": 48884984,
+        "hn_link": "https://news.ycombinator.com/item?id=48884984",
+        "score": 165,
+        "author": "david927",
+        "comments": 541,
+        "byline_hint": "by david927 · 165 points · 541 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I Learned to Read Again",
+        "url": "https://substack.magazinenongrata.com/p/how-i-learned-to-read-again",
+        "hn_id": 48883238,
+        "hn_link": "https://news.ycombinator.com/item?id=48883238",
+        "score": 159,
+        "author": "georgex7",
+        "comments": 58,
+        "byline_hint": "by georgex7 · 159 points · 58 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How we can reduce traffic congestion",
+        "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
+        "hn_id": 48881967,
+        "hn_link": "https://news.ycombinator.com/item?id=48881967",
+        "score": 140,
+        "author": "raahelb",
+        "comments": 206,
+        "byline_hint": "by raahelb · 140 points · 206 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
+        "url": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+        "hn_id": 48879902,
+        "hn_link": "https://news.ycombinator.com/item?id=48879902",
+        "score": 136,
+        "author": "thunderbong",
+        "comments": 155,
+        "byline_hint": "by thunderbong · 136 points · 155 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Automation Without Understanding",
+        "url": "https://arxiv.org/abs/2607.06377",
+        "hn_id": 48882554,
+        "hn_link": "https://news.ycombinator.com/item?id=48882554",
+        "score": 122,
+        "author": "root-parent",
+        "comments": 55,
+        "byline_hint": "by root-parent · 122 points · 55 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Graph That Should Be Front-Page News",
+        "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+        "hn_id": 48888331,
+        "hn_link": "https://news.ycombinator.com/item?id=48888331",
+        "score": 120,
+        "author": "rakel_rakel",
+        "comments": 69,
+        "byline_hint": "by rakel_rakel · 120 points · 69 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Designing and assembling my first PCB",
+        "url": "https://vilkeliskis.com/b/2026/0711.html",
+        "hn_id": 48885728,
+        "hn_link": "https://news.ycombinator.com/item?id=48885728",
+        "score": 119,
+        "author": "tadasv",
+        "comments": 52,
+        "byline_hint": "by tadasv · 119 points · 52 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Against Usefulness",
+        "url": "https://www.motivenotes.ai/p/against-usefulness",
+        "hn_id": 48882956,
+        "hn_link": "https://news.ycombinator.com/item?id=48882956",
+        "score": 111,
+        "author": "supo",
+        "comments": 33,
+        "byline_hint": "by supo · 111 points · 33 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+        "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+        "hn_id": 48883090,
+        "hn_link": "https://news.ycombinator.com/item?id=48883090",
+        "score": 103,
+        "author": "adunk",
+        "comments": 72,
+        "byline_hint": "by adunk · 103 points · 72 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Backtrack-Free Cursive",
+        "url": "https://mmapped.blog/posts/52-backtrack-free-cursive",
+        "hn_id": 48888518,
+        "hn_link": "https://news.ycombinator.com/item?id=48888518",
+        "score": 98,
+        "author": "dmit",
+        "comments": 43,
+        "byline_hint": "by dmit · 98 points · 43 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Kode Dot Programmable pocket device for makers, pentesters and geeks",
+        "url": "https://kode.diy",
+        "hn_id": 48884992,
+        "hn_link": "https://news.ycombinator.com/item?id=48884992",
+        "score": 87,
+        "author": "iNic",
+        "comments": 22,
+        "byline_hint": "by iNic · 87 points · 22 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Interrail: 6,379Km and 13 Countries over 7 weeks",
+        "url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks/",
+        "hn_id": 48889350,
+        "hn_link": "https://news.ycombinator.com/item?id=48889350",
+        "score": 79,
+        "author": "coinfused",
+        "comments": 53,
+        "byline_hint": "by coinfused · 79 points · 53 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Quadrupling code performance with a \"useless\" if",
+        "url": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
+        "hn_id": 48889148,
+        "hn_link": "https://news.ycombinator.com/item?id=48889148",
+        "score": 73,
+        "author": "birdculture",
+        "comments": 11,
+        "byline_hint": "by birdculture · 73 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
+        "url": "https://github.com/schlae/BeavisUltrasound",
+        "hn_id": 48888193,
+        "hn_link": "https://news.ycombinator.com/item?id=48888193",
+        "score": 68,
+        "author": "mariuz",
+        "comments": 23,
+        "byline_hint": "by mariuz · 68 points · 23 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Guy took Jupiter photo with Game Boy Camera, giant telescope, publishes tutorial",
+        "url": "https://www.engadget.com/2211886/guy-who-took-photo-of-jupiter-with-a-game-boy-camera-and-giant-telescope-publishes-diy-tutorial/",
+        "hn_id": 48859526,
+        "hn_link": "https://news.ycombinator.com/item?id=48859526",
+        "score": 58,
+        "author": "thunderbong",
+        "comments": 27,
+        "byline_hint": "by thunderbong · 58 points · 27 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Berkshire's $397B Bet Against an Overheated Market",
+        "url": "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market/",
+        "hn_id": 48889429,
+        "hn_link": "https://news.ycombinator.com/item?id=48889429",
+        "score": 55,
+        "author": "emsidisii",
+        "comments": 37,
+        "byline_hint": "by emsidisii · 55 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The social physics of conversation: Communication patterns matter",
+        "url": "https://andiroberts.com/citizenship/the-social-physics-of-conversation-citizenship-leadership",
+        "hn_id": 48828576,
+        "hn_link": "https://news.ycombinator.com/item?id=48828576",
+        "score": 54,
+        "author": "kiyanwang",
+        "comments": 7,
+        "byline_hint": "by kiyanwang · 54 points · 7 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Are you telling me a readonly property is wrecking my performance?",
+        "url": "https://shub.club/writings/2026/july/check-your-scrollheight/",
+        "hn_id": 48849983,
+        "hn_link": "https://news.ycombinator.com/item?id=48849983",
+        "score": 40,
+        "author": "forthwall",
+        "comments": 19,
+        "byline_hint": "by forthwall · 40 points · 19 comments"
+      },
+      {
+        "source": "hn",
+        "title": "First look at Quest, the final ship of Antarctic explorer Shackleton",
+        "url": "https://www.cbc.ca/news/canada/quest-shipwreck-expedition-images-9.7262229",
+        "hn_id": 48831840,
+        "hn_link": "https://news.ycombinator.com/item?id=48831840",
+        "score": 36,
+        "author": "curmudgeon22",
+        "comments": 3,
+        "byline_hint": "by curmudgeon22 · 36 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Converting colors in JavaScript at 6B operations per second",
+        "url": "https://dkryaklin.com/blog/colordx-gpu",
+        "hn_id": 48844554,
+        "hn_link": "https://news.ycombinator.com/item?id=48844554",
+        "score": 30,
+        "author": "dkryaklin",
+        "comments": 8,
+        "byline_hint": "by dkryaklin · 30 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Frieve Vinyl Explained – Microscopic stylus/groove physics simulation",
+        "url": "https://frieve-a.github.io/sound_toolbox/vinyl_explained/vinyl_explained.html",
+        "hn_id": 48843775,
+        "hn_link": "https://news.ycombinator.com/item?id=48843775",
+        "score": 20,
+        "author": "XzetaU8",
+        "comments": 2,
+        "byline_hint": "by XzetaU8 · 20 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ask HN: Does anyone let AI agents play games just for fun?",
+        "url": "https://news.ycombinator.com/item?id=48848741",
+        "hn_id": 48848741,
+        "hn_link": "https://news.ycombinator.com/item?id=48848741",
+        "score": 7,
+        "author": "nodivbyzero",
+        "comments": 5,
+        "byline_hint": "by nodivbyzero · 7 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Loot Raiders – an ARC Raiders-inspired inventory game in Svelte",
+        "url": "https://loot-raiders.vercel.app",
+        "hn_id": 48889064,
+        "hn_link": "https://news.ycombinator.com/item?id=48889064",
+        "score": 4,
+        "author": "refrigerator-12",
+        "comments": 1,
+        "byline_hint": "by refrigerator-12 · 4 points · 1 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "Networking and the Internet, from First Principles · Faza",
+        "url": "https://fazamhd.com/mental-models/networking/",
+        "description": "How controlled disturbances of electricity, light, and radio, cooperatively routed across a web of independent networks, deliver data across the world in milliseconds.",
+        "tags": [
+          "networking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: networking"
+      },
+      {
+        "source": "pinboard",
+        "title": "Stacks — run classic HyperCard stacks on modern macOS",
+        "url": "https://morphing.cloud/hypercard/",
+        "description": "",
+        "tags": [
+          "hypercard"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: hypercard"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Proportional Web",
+        "url": "https://owickstrom.github.io/the-proportional-web/",
+        "description": "",
+        "tags": [
+          "typography"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: typography"
+      },
+      {
+        "source": "pinboard",
+        "title": "Solo Dev's Train Sim Created Is Being Called The Best Ever Made",
+        "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+        "description": "",
+        "tags": [
+          "videogame",
+          "japan"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: videogame, japan"
+      },
+      {
+        "source": "pinboard",
+        "title": "The End of Reading Is Here",
+        "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
+        "description": "In 2024, in a national test, just 35 percent of high-school seniors were “proficient” at skills such as analyzing complex fictional themes and evaluating the effectiveness of an author’s argument. About the same number scored below “basic,” meaning that they may struggle to draw conclusions from concepts explicitly included in a text, or to use context clues to determine the meaning of an unknown word. Adult-literacy scores have also dropped: Nearly 30 percent of American adults cannot paraphrase or make inferences from a multipage text. In 2017, that number was less than 20 percent.  And yet, strangely, Americans are probably reading more words than ever before. What has changed is what they read, and how. People are bombarded with emails, text messages, X posts, Reddit threads, Instagram captions. This explosion of textual fragments has come at the expense of devoting sustained attention to longer written works that convey rich and complicated information. Maryanne Wolf, a cognitive neuroscientist at UCLA, argues that people are losing the ability to think deeply about writing. That doesn’t mean they are forgetting how to decode individual words. Rather, they are losing the higher-order abilities of comprehension and synthesis. America, in other words, isn’t illiterate. It’s postliterate.\n....\nIn 1985, Postman, a friend and disciple of McLuhan’s, published Amusing Ourselves to Death. He argued that television had hijacked Americans’ attention and turned politics into cheap entertainment. “The problem is not that television presents us with entertaining subject matter but that all subject matter is presented as entertaining,” Postman wrote. “Television is our culture’s principal mode of knowing about itself.”",
+        "tags": [
+          "public-education",
+          "internet",
+          "social-media-bad",
+          "books",
+          "tv",
+          "media-criticism",
+          "writing",
+          "artificial-intelligence"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: public-education, internet, social-media-bad, books, tv, media-criticism, writing, artificial-intelligence"
+      },
+      {
+        "source": "pinboard",
+        "title": "Grumpy Website",
+        "url": "https://grumpy.website/1723",
+        "description": "\"The original Windows 95 interface is _functional_. It has a function and it executes it very well. It works for you, without trying to be clever or sophisticated. Also, it follows system conventions, which also helps you, the user. I’m not sure whom the bottom interface helps. It’s a puzzle, an art object, but it doesn’t work for you. It’s not here to make your life easier.\" UIs need better shadows and contrast.",
+        "tags": [
+          "via:drafts",
+          "ux",
+          "windows",
+          "linkroll"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: via:drafts, ux, windows, linkroll"
+      },
+      {
+        "source": "pinboard",
+        "title": "Everything a child learns",
+        "url": "https://withmarble.com/curriculum/",
+        "description": "",
+        "tags": [
+          "visualization",
+          "data",
+          "learning",
+          "education",
+          "schools",
+          "opengov",
+          "kids"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: visualization, data, learning, education, schools, opengov, kids"
+      },
+      {
+        "source": "pinboard",
+        "title": "ICE are heavily armed killers. They’re also huge losers | The Verge",
+        "url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
+        "description": "via The Verge https://ift.tt/APqXj2p",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pressed for time? 20 brilliant books you can read in a day | Fiction | The Guardian",
+        "url": "https://www.theguardian.com/books/ng-interactive/2026/jul/11/pressed-for-time-20-brilliant-books-you-can-read-in-a-day",
+        "description": "",
+        "tags": [
+          "book"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: book"
+      },
+      {
+        "source": "pinboard",
+        "title": "withmarbleapp/os-taxonomy",
+        "url": "https://github.com/withmarbleapp/os-taxonomy",
+        "description": "",
+        "tags": [
+          "visualization",
+          "learning"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: visualization, learning"
+      },
+      {
+        "source": "pinboard",
+        "title": "Berlin Review · Un-Doing Philosophy",
+        "url": "https://blnreview.de/en/ausgaben/2026-08/als-ob-philosophieren-lily-hu",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Collections: The Late Bronze Age Collapse, A Very Brief Introduction",
+        "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Does a 13-Year-Old See on Snapchat in a Normal Week?",
+        "url": "https://www.afterbabel.com/p/snapchat-recommends-harmful-content-kids-brooke-istook-2026",
+        "description": "It’s extraordinarily difficult for families to know how to protect their kids in today’s tech landscape. Design choices made by trillion‑dollar companies expose kids to wide-ranging risks. The companies’ leaders are aware that their products harm children, and they bury the evidence. Meanwhile, the available parental controls are time-consuming to figure out, confusing to navigate, and often easy for kids to circumvent.\n\nSnapchat is no exception and its features pose significant risks, from exposure to violent or sexual content to grooming to sextortion. With nearly one‑third of American 9- to 12‑year‑olds and more than half of 13‑ to 17‑year‑olds using Snapchat daily, it’s essential for parents — and for the people designing technical, legal, and cultural solutions — to understand what kids actually experience on the platform. While adults often know their own concerns, they don’t always understand what kids experience online, in part because their own online experience is so different.",
+        "tags": [
+          "social"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: social"
+      },
+      {
+        "source": "pinboard",
+        "title": "How Successful Companies Go Blind",
+        "url": "https://ianreppel.org/how-successful-companies-go-blind/",
+        "description": "",
+        "tags": [
+          "productivity",
+          "startup"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: productivity, startup"
+      },
+      {
+        "source": "pinboard",
+        "title": "Billion Dollar PDFs",
+        "url": "https://billiondollarpdf.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Lunacy — Lunatic Fringe for modern macOS",
+        "url": "https://morphing.cloud/lunacy/",
+        "description": "via Daring Fireball https://ift.tt/WcnxtZ5",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "COMBUSTION LAB — Interactive Engine Dynamics Simulator",
+        "url": "https://combustionlab.net/",
+        "description": "",
+        "tags": [
+          "web",
+          "internet",
+          "simulation",
+          "physics",
+          "cool",
+          "top10"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: web, internet, simulation, physics, cool, top10"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Glass Backbone: Why the Army’s Logistics Will Break in the Next War - Modern War Institute",
+        "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
+        "description": "",
+        "tags": [
+          "military",
+          "army",
+          "war",
+          "westpoint"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: military, army, war, westpoint"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Vintage Beauty Of Soviet Control Rooms – Design You Trust",
+        "url": "https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/",
+        "description": "Just for the pleasure, a selection of vintage control rooms dating back to the Soviet era! A beautiful collection of control rooms filled with large buttons and analog dials, long before the democratization of computers and screens.",
+        "tags": [
+          "design"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design"
+      },
+      {
+        "source": "pinboard",
+        "title": "Alternate Clock Designs & Time Systems",
+        "url": "https://serialc.github.io/altClocks/",
+        "description": "https://news.ycombinator.com/item?id=48810543",
+        "tags": [
+          "clock",
+          "datetime",
+          "math",
+          "visualization",
+          "interesting"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: clock, datetime, math, visualization, interesting"
+      },
+      {
+        "source": "pinboard",
+        "title": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
+        "url": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
+        "description": "",
+        "tags": [
+          "slop",
+          "stats",
+          "Research",
+          "t",
+          "linkedin",
+          "sm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: slop, stats, Research, t, linkedin, sm"
+      },
+      {
+        "source": "pinboard",
+        "title": "A History of Menus is a Menu of History | The Pudding",
+        "url": "https://pudding.cool/2026/06/menu-story/",
+        "description": "What do America's earliest restaurant menus teach us about America?",
+        "tags": [
+          "restaurant",
+          "design",
+          "food",
+          "history",
+          "usa",
+          "culture",
+          "newsdesign",
+          "interactive"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: restaurant, design, food, history, usa, culture, newsdesign, interactive"
+      },
+      {
+        "source": "pinboard",
+        "title": "Daring Fireball: Exactly Like Om Malik",
+        "url": "https://daringfireball.net/2026/07/exactly_like_om_malik",
+        "description": "via Daring Fireball https://ift.tt/A1m6jhg",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI in science research boosts speed, but limits scope • IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+        "description": "Elie Dolgin: <blockquote><p>AI is turning scientists into publishing machines—and quietly funneling them into the same crowded corners of research.\n\nThat’s the conclusion of an analysis of more than 40 million academic papers, which found that scientists who use AI tools in their research publish more papers, accumulate more citations, and reach leadership roles sooner than peers who don’t.\n\nBut there’s a catch. As individual scholars soar through the academic ranks, science as a whole shrinks its curiosity. AI-heavy research covers less topical ground, clusters around the same data-rich problems, and sparks less follow-on engagement between studies.\n\nThe findings highlight a tension between personal career advancement and collective scientific progress, as tools such as ChatGPT and AlphaFold seem to reward speed and scale—but not surprise.\n\n“You have this conflict between individual incentives and science as a whole,” says James Evans, a sociologist at the University of Chicago who led the study.\n\nAnd as more researchers pile onto the same scientific bandwagons, some experts worry about a feedback loop of conformity and declining originality. “This is very problematic,” says Luís Nunes Amaral, a physicist who studies complex systems at Northwestern University. “We are digging the same hole deeper and deeper.”\n\nEvans and his colleagues <a href=\"https://doi.org/10.1038/s41586-025-09922-y\" target=\"_blank\">published the findings January 14 in the journal Nature.</a></p></blockquote>",
+        "tags": [
+          "science",
+          "ai",
+          "research",
+          "funnel"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: science, ai, research, funnel"
+      },
+      {
+        "source": "pinboard",
+        "title": "The AI Picbreeder Experiment: In Search of Automatic Open-Endedness",
+        "url": "https://pub.sakana.ai/picbreeder-vlm/",
+        "description": "",
+        "tags": [
+          "synapsien"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: synapsien"
+      },
+      {
+        "source": "pinboard",
+        "title": "NEvo: Neural-Guided Evolutionary Video Synthesis",
+        "url": "https://nevo-project.epfl.ch/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Shipping up in Boston - angel_deux - Heated Rivalry (TV) [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/88386626",
+        "description": "Shane is traded to Boston during the hookup era, and his attempts to act normal and professional around Rozanov are a little too successful: fans start shipping him with Marleau, instead.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "nfdn: In Emacs, Everything Looks Like a Service",
+        "url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+        "description": "",
+        "tags": [
+          "2026",
+          "emacs"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 2026, emacs"
+      },
+      {
+        "source": "pinboard",
+        "title": "Brown Professor Suspects Most of His Class Used AI to Cheat",
+        "url": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Every Frame Perfect",
+        "url": "https://tonsky.me/blog/every-frame-perfect/",
+        "description": "How imprecise UI animations erode trust in product",
+        "tags": [
+          "design",
+          "wayland",
+          "macos"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design, wayland, macos"
+      },
+      {
+        "source": "pinboard",
+        "title": "What if It’s Not the Phones? - The Atlantic",
+        "url": "https://www.theatlantic.com/technology/2026/07/phones-haidt-play-gray/687846/",
+        "description": "",
+        "tags": [
+          "PeterGray",
+          "RestoringChildhood",
+          "CommonCore",
+          "smartphones",
+          "JonathanHaidt"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: PeterGray, RestoringChildhood, CommonCore, smartphones, JonathanHaidt"
+      },
+      {
+        "source": "pinboard",
+        "title": "A WWDC 27 Update on Building a Mac-assed App with SwiftUI - Paulo's Blog",
+        "url": "https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/",
+        "description": "via Daring Fireball https://ift.tt/WcnxtZ5",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Java 27: What’s new? | Loic's Blog",
+        "url": "https://www.loicmathieu.fr/wordpress/informatique/java-27-whats-new/",
+        "description": "Now that Java 27 is features complete (Rampdown Phase One at the day of writing), it’s time to walk through all the functionalities that bring to us, developers, this new version. This article is part of a series on what’s new on the last versions of Java, for those who wants to read the others,",
+        "tags": [
+          "twis"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: twis"
+      },
+      {
+        "source": "pinboard",
+        "title": "Heat : Death threat phone call scene - YouTube",
+        "url": "https://www.youtube.com/watch?v=ClASuxd8jQY",
+        "description": "Heat : Death threat phone call scene",
+        "tags": [
+          "youtube",
+          "video"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: youtube, video"
+      },
+      {
+        "source": "pinboard",
+        "title": "Plein Air",
+        "url": "https://art.joonas.wtf/",
+        "description": "",
+        "tags": [
+          "art"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: art"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pro-Palantir data has litany of errors, English hospitals admit",
+        "url": "https://www.ft.com/content/977aeda7-c055-44b7-8fb7-df1570849035?syn-25a6b1a6=1",
+        "description": "",
+        "tags": [
+          "palantir"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: palantir"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Second Derivative: Why No One Understands the AI Boom",
+        "url": "https://www.groundbrkr.com/p/the-second-derivative-why-no-one",
+        "description": "The market misremembers 2008. That same blind spot sits at the center of the AI boom.",
+        "tags": [
+          "ai",
+          "finance"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, finance"
+      },
+      {
+        "source": "pinboard",
+        "title": "Faster solutions, lower test scores: How AI is eroding math skills",
+        "url": "https://hechingerreport.org/proof-points-ai-eroding-math-skills/",
+        "description": "\"Researchers detect ‘cognitive surrender’ in answering word problems\"\n\n[via:\nhttps://2ndbreakfast.audreywatters.com/end-over-end/ ]",
+        "tags": [
+          "education",
+          "schools",
+          "schooling",
+          "2026",
+          "ai",
+          "artificialintelligence",
+          "mathe",
+          "matheducation",
+          "learning",
+          "howwelearn",
+          "jillbarshay",
+          "edtech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: education, schools, schooling, 2026, ai, artificialintelligence, mathe, matheducation, learning, howwelearn, jillbarshay, edtech"
+      },
+      {
+        "source": "pinboard",
+        "title": "This High Schooler Developed an A.I. Tool to Diagnose Autism and ADHD Using the Retina",
+        "url": "https://www.smithsonianmag.com/innovation/this-high-schooler-developed-an-ai-tool-to-diagnose-autism-and-adhd-using-the-retina-180988694/",
+        "description": "Edward Kang’s RetinaMind analyzes patients’ retinal images and accurately diagnoses neurodevelopmental disorders 89 percent of the time\n\nKang’s invention won second place and an award of $175,000 at the 2026 Regeneron Science Talent Search, the oldest and most prestigious science, technology, engineering and math competition for high school students in the United States. Society for Science\n\nThree years ago, Edward Kang was sifting through research papers for ideas for a school project when he came across an intriguing study by researchers at the Chinese University of Hong Kong that used retinal images to diagnose autism.\n\n“I thought it was fascinating and really unintuitive that you can use something like the eye to understand what’s happening in the brain,” says Kang, now a 17-year-old high school senior at Bergen County Academies in Hackensack, New Jersey.\n\nThe teenager set out to make the researchers’ model even more accurate. Ultimately, these efforts led him to develop RetinaMind—an A.I. tool that diagnoses autism spectrum disorder and attention deficit hyperactivity disorder using retinal images.\nDiagnosing neurodevelopment disorders\n\nAffecting 1 in 54 children in the United States, autism spectrum disorder (ASD) is the fastest-growing neurodevelopmental disorder in the country. Attention deficit hyperactivity disorder (ADHD) is one of the most common childhood disorders, experienced by nearly seven million children in the U.S.\n\n“Both are neurologically based conditions that are described by development of skills or by unusual or problematic behaviors,” says Paul Lipkin, a neurodevelopmental pediatrician at Kennedy Krieger Institute and professor of pediatrics at Johns Hopkins Medicine. Considered to be “behavioral phenotypes” with no biomarkers, the two disorders are derived from brain functions. They are also usually accompanied by other brain-based developmental or behavioral issues. “In the case of development,” explains Lipkin, “those affected by autism and/or ADHD frequently have intellectual or learning as well as language disabilities and motor coordination problems.”\n\nThough studies have found that early intervention—especially in the case of autism—can result in better long-term effects for children, early diagnosis of these disorders is difficult. Currently, with no physical tests to diagnose autism and ADHD, medical professionals often use developmental and behavioral tests like the American Psychiatric Association’s Diagnostic and Statistical Manual, the Autism Diagnostic Observation Schedule and Conners Rating Scales to diagnose the two respective disorders.\n\n“My hope is that RetinaMind will enable earlier diagnoses for neurodevelopmental disorders than currently possible, unlocking earlier treatment and, therefore, a higher quality of life for the millions of patients of autism and ADHD around the world,” says Kang.",
+        "tags": [
+          "XDN",
+          "Tech",
+          "Med"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Tech, Med"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Vanilla JS",
+        "url": "https://guseyn.com/html/posts/why-vanilla-js.html",
+        "description": "",
+        "tags": [
+          "javascript"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: javascript"
+      },
+      {
+        "source": "pinboard",
+        "title": "On Ditching Vagrant - benjamintoll.com",
+        "url": "https://benjamintoll.com/2026/06/29/on-ditching-vagrant/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "context.dev",
+        "url": "https://www.context.dev/",
+        "description": "URL submitted via Discord intake. Fetch returned 429 (rate limited) and fallback via removepaywall.com did not yield content. Wiki stub created; content to be revisited.",
+        "tags": [
+          "developer-tools",
+          "octo",
+          "knowledge"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: developer-tools, octo, knowledge"
+      },
+      {
+        "source": "pinboard",
+        "title": "Analysis: CO2 from UK data centres could be ‘hundreds of times’ higher than thought - Carbon Brief",
+        "url": "https://www.carbonbrief.org/analysis-co2-from-uk-data-centres-could-be-hundreds-of-times-higher-than-thought/",
+        "description": "",
+        "tags": [
+          "climate_change",
+          "so_called_ai",
+          "infrastructure"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: climate_change, so_called_ai, infrastructure"
+      },
+      {
+        "source": "pinboard",
+        "title": "La narrativa generata dall’AI è riconoscibile dalla sua struttura prevedibile",
+        "url": "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/",
+        "description": "Uno studio di University of Maryland e Google DeepMind mostra che la fiction scritta da AI è spesso distinguibile non solo da tic stilistici, ma da caratteristiche narrative: trame lineari, temi sovraspiegati, moralismi espliciti, poca ambiguità e scarsa complessità temporale. Il sistema StoryScope analizza questi pattern per separare testi umani e artificiali, riaprendo il dibattito su rilevamento, autorialità e copyright.",
+        "tags": [
+          "N8N",
+          "#AI_and_Tech",
+          "AI&TECH",
+          "TW2026-28"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #AI_and_Tech, AI&TECH, TW2026-28"
+      },
+      {
+        "source": "pinboard",
+        "title": "Drew Pusateri on X: \"Our statement in response to this suit: We have no interest in other companies' trade secrets. We remain focused on building innovative technology that empowers people everywhere.\" / X",
+        "url": "https://x.com/drewpusateri/status/2075708238650089981",
+        "description": "via Daring Fireball https://ift.tt/A1m6jhg",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Sam Altman on X: \"homeboy you're the one sellling public market investors on short-term space datacenters\" / X",
+        "url": "https://x.com/sama/status/2075982617976230043",
+        "description": "via Daring Fireball https://ift.tt/WcnxtZ5",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "yusukebe/ax: The AI-era curl",
+        "url": "https://github.com/yusukebe/ax",
+        "description": "The AI-era curl. Contribute to yusukebe/ax development by creating an account on GitHub.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The AI Hype Reckoning Is Upon Us - The massive chasm between AI hype and reality is finally reaching the breaking point.",
+        "url": "https://karlbode.com/the-ai-hype-reckoning-is-upon-us/",
+        "description": "",
+        "tags": [
+          "technology",
+          "ai",
+          "economics",
+          "politics",
+          "culture",
+          "interesting"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: technology, ai, economics, politics, culture, interesting"
+      },
+      {
+        "source": "pinboard",
+        "title": "Wyrm Math — solve algebra by touch",
+        "url": "https://dicroce.github.io/wyrm/home.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "help.openai.com",
+        "url": "https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app",
+        "description": "via Daring Fireball https://ift.tt/WcnxtZ5",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Prompt caching: 10x cheaper LLM tokens, but how? | ngrok blog",
+        "url": "https://ngrok.com/blog/prompt-caching",
+        "description": "Learn prompt caching techniques to achieve 10x cheaper LLM tokens. Implement effective strategies and understand the trade-offs for significant cost savings.",
+        "tags": [
+          "llm",
+          "caching",
+          "tokens",
+          "prompt-optimization",
+          "openai-tutorial",
+          "cost-reduction",
+          "to_share"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, caching, tokens, prompt-optimization, openai-tutorial, cost-reduction, to_share"
+      },
+      {
+        "source": "pinboard",
+        "title": "Computation as a Universal and Fundamental Concept - Tim Roughgarden",
+        "url": "https://ergo.org/courses/computation-as-a-universal-and-fundamental-concept",
+        "description": "https://news.ycombinator.com/item?id=48861213",
+        "tags": [
+          "programming",
+          "math",
+          "technology",
+          "history",
+          "philosophy",
+          "tutorial",
+          "learning",
+          "interesting"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, math, technology, history, philosophy, tutorial, learning, interesting"
+      },
+      {
+        "source": "pinboard",
+        "title": "the intricate brocade of this happiness - waxing__crescent - Heated Rivalry (TV) [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/86725211",
+        "description": "",
+        "tags": [
+          "fanfic",
+          "slash",
+          "ilya/shane",
+          "post.cottage",
+          "heatedrivalry",
+          "ilya.rozanov",
+          "pov!ilya",
+          "character_study",
+          "a:waxing__crescent",
+          "@ao3",
+          "~saved",
+          "depression",
+          "childhood"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: fanfic, slash, ilya/shane, post.cottage, heatedrivalry, ilya.rozanov, pov!ilya, character_study, a:waxing__crescent, @ao3, ~saved, depression, childhood"
+      },
+      {
+        "source": "pinboard",
+        "title": "exercises-dataset",
+        "url": "https://github.com/hasaneyldrm/exercises-dataset",
+        "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "tags": [
+          "fitness",
+          "data",
+          "reference"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: fitness, data, reference"
+      },
+      {
+        "source": "pinboard",
+        "title": "Easy Swiss Chard Recipe | SimplyRecipes.com",
+        "url": "https://www.simplyrecipes.com/recipes/swiss_chard/",
+        "description": "",
+        "tags": [
+          "veggie"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: veggie"
+      },
+      {
+        "source": "pinboard",
+        "title": "mclearc/emacs-ipad: A sideloaded port of GNU Emacs to the iPad - Codeberg.org",
+        "url": "https://codeberg.org/mclearc/emacs-ipad",
+        "description": "",
+        "tags": [
+          "emacs",
+          "ios",
+          "ipad"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: emacs, ios, ipad"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI 2040 and the Cult of Intelligence | the singularity is nearer",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "description": "",
+        "tags": [
+          "subject:cs.AI",
+          "subject:cs.CL",
+          "blogs",
+          "george-hotz",
+          "year:2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, blogs, george-hotz, year:2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "野果子 · 从电影里，找家的配色与灵感",
+        "url": "https://www.yeguozi.com/",
+        "description": "",
+        "tags": [
+          "art",
+          "color",
+          "film"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: art, color, film"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Every Python Developer Should Know About the CPython ABI | Labs",
+        "url": "https://labs.quansight.org/blog/python-abi-abi3t",
+        "description": "",
+        "tags": [
+          "python",
+          "c"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: python, c"
+      },
+      {
+        "source": "pinboard",
+        "title": "Cuelume — interaction sounds for the web",
+        "url": "https://cuelume-site.pages.dev/",
+        "description": "",
+        "tags": [
+          "interface",
+          "sounds"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: interface, sounds"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ant, a lightweight JavaScript runtime",
+        "url": "https://antjs.org/",
+        "description": "Ant is a lightweight, high-performance JavaScript runtime built from scratch. It runs real npm packages, starts instantly and ships as a portable 9 MB binary.\n\nNo 50 MB download, no toolchain to set up. The engine, Ant Silver, is hand-built. It is not a wrapper around V8, JSC, or SpiderMonkey.",
+        "tags": [
+          "js",
+          "node"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: js, node"
+      },
+      {
+        "source": "pinboard",
+        "title": "You paid me, a long-time Linux user, to use Windows 11 exclusively for a month: here’s how it went – OSnews",
+        "url": "https://www.osnews.com/story/145459/you-paid-me-a-long-time-linux-user-to-use-windows-11-exclusively-for-a-month-heres-how-it-went/",
+        "description": "via @nina_kali_nina@tech.lgbt boost of https://mstdn.social/@osnews/116886712934272720",
+        "tags": [
+          "windows"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: windows"
+      },
+      {
+        "source": "pinboard",
+        "title": "Wren6991/RISCBoy: Portable games console, designed from scratch: CPU, graphics, PCB, and the kitchen sink",
+        "url": "https://github.com/Wren6991/RISCBoy",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Old and new apps, via modern coding agents by Terry Tao | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=48880170",
+        "description": "",
+        "tags": [
+          "Mathematik",
+          "Tao_Terence",
+          "Tools_Software",
+          "Relativitätstheorie",
+          "Physik"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Mathematik, Tao_Terence, Tools_Software, Relativitätstheorie, Physik"
+      },
+      {
+        "source": "pinboard",
+        "title": "John Lanchester · Squillions: Where’s all the cash?",
+        "url": "https://www.lrb.co.uk/the-paper/v48/n09/john-lanchester/squillions",
+        "description": "John Lanchester · Squillions: Where’s all the cash? via Instapaper https://ift.tt/IUoYZJv",
+        "tags": [
+          "IFTTT",
+          "Instapaper"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: IFTTT, Instapaper"
+      },
+      {
+        "source": "pinboard",
+        "title": "We know how to mourn other humans – but what about ecological grief? | Environment | The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/jul/10/ecological-grief",
+        "description": "\"In Iceland, people commemorated its first glacier formally declared lost to climate change. Western culture needs more of these rituals\"",
+        "tags": [
+          "grief",
+          "grieving",
+          "ecology",
+          "climatechange",
+          "climate",
+          "globalwarming",
+          "glaciers",
+          "iceland",
+          "rituals",
+          "ritual",
+          "mourning",
+          "meganmayhewbergman",
+          "environment",
+          "climatecrisis"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: grief, grieving, ecology, climatechange, climate, globalwarming, glaciers, iceland, rituals, ritual, mourning, meganmayhewbergman, environment, climatecrisis"
+      },
+      {
+        "source": "pinboard",
+        "title": "randoFont",
+        "url": "https://randofont.alesh.com/",
+        "description": "A simple but handy little tool for randomly exploring Google fonts. You can specify categories (serif, sans, mono, display) and then just shuffle through the fonts. When you don't have specific requirements and are just looking for a good font, it's a lot nicer to see a few at a time than pages of results...",
+        "tags": [
+          "typography",
+          "font",
+          ".blogit"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: typography, font, .blogit"
+      },
+      {
+        "source": "pinboard",
+        "title": "ilograph interactive diagrams",
+        "url": "https://www.ilograph.com/",
+        "description": "Interesting take on interactive diagrams that collapse or fold certain parts to give focus to different perspectives, and to make efficient use of screen space.",
+        "tags": [
+          "diagrams"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: diagrams"
+      },
+      {
+        "source": "pinboard",
+        "title": "UPI: Anatomy of a Transaction",
+        "url": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
+        "description": "",
+        "tags": [
+          "payment-processing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: payment-processing"
+      },
+      {
+        "source": "pinboard",
+        "title": "I found a hidden Chrome feature that made my browser the ultimate productivity tool",
+        "url": "https://www.androidpolice.com/hidden-chrome-feature-made-browser-ultimate-productivity-tool/",
+        "description": "",
+        "tags": [
+          "browser",
+          "chrome",
+          "skill",
+          "llm",
+          "prompt"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: browser, chrome, skill, llm, prompt"
+      },
+      {
+        "source": "pinboard",
+        "title": "Not your keys, not your songs",
+        "url": "https://components.news/not-your-keys-not-your-songs-nina-protocol/",
+        "description": "Last rites for Nina Protocol",
+        "tags": [
+          "internet",
+          "bandcamp",
+          "music",
+          "crypto"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: internet, bandcamp, music, crypto"
+      },
+      {
+        "source": "pinboard",
+        "title": "Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For | Electronic Frontier Foundation",
+        "url": "https://www.eff.org/deeplinks/2026/06/hate-algorithm-rss-one-tools-youve-been-looking",
+        "description": "Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For | Electronic Frontier Foundation",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Six principles for AI democracy",
+        "url": "https://observer.co.uk/news/columnists/article/the-six-principles-of-ai-a-kings-speech-for-andy-burnham",
+        "description": "John Naughton, The Observer, 07.26\nPDF version here if the Observer paywalls this. https://memex.naughtons.org/wp-content/uploads/2026/07/The-six-principles-of-AI-%E2%80%93-a-kings-speech-for-Andy-Burnham.pdf",
+        "tags": [
+          "AI",
+          "AI_critique",
+          "JohnNaughton"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI, AI_critique, JohnNaughton"
+      },
+      {
+        "source": "pinboard",
+        "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+        "url": "https://transformer-circuits.pub/2026/workspace/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 39,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 74
+  }
+}

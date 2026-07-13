@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-13",
+  "stories": [
+    {
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "hn_link": "https://news.ycombinator.com/item?id=48886741",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by levkk · 722 points · 324 comments",
+      "blurb": "The highest-scoring HN thread today asks whether platforms should label AI-generated content — a question directly relevant to anyone building with LLMs or reading AI-assisted output. With 324 comments, the community is deeply divided on feasibility and scope. If you care about information quality and AI workflows, this debate is essential reading."
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "hn_link": "https://news.ycombinator.com/item?id=48883275",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by systima · 605 points · 328 comments",
+      "blurb": "A wire-level breakdown showing Claude Code's enormous token preamble versus leaner competitors — this directly hits your wallet and latency if you're a heavy Claude Code user. The 4.7x overhead difference is striking and has real cost implications at scale. Must-read for anyone evaluating AI coding assistant economics."
+    },
+    {
+      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "hn_link": "https://news.ycombinator.com/item?id=48877371",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jhoho · 479 points · 173 comments",
+      "blurb": "Someone sniffed the network traffic from xAI's Grok CLI and published what it actually phones home — a timely privacy audit of a tool many developers are evaluating. In an era where AI coding tools have deep filesystem access, knowing what data leaves your machine matters enormously. Essential companion to the Claude Code token story above."
+    },
+    {
+      "title": "Old and new apps, via modern coding agents",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "hn_link": "https://news.ycombinator.com/item?id=48880170",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by subset · 437 points · 127 comments",
+      "blurb": "Fields Medal mathematician Terry Tao writes about using modern AI coding agents to build and revive apps — an unusually credible voice on what these tools can actually do for a power user. When a mathematician of Tao's caliber is publicly experimenting with coding agents, it's a signal worth paying attention to. Insightful and grounded."
+    },
+    {
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48883343",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by therepanic · 434 points · 270 comments",
+      "blurb": "George Hotz delivers his characteristically unfiltered take: LLMs are genuinely useful tools, but the surrounding hype is toxic and counterproductive. A sharp antidote to both the boosters and the doomers, grounded in hands-on experience building real AI infrastructure. Worth reading alongside the Zig/Anthropic piece below."
+    },
+    {
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "hn_link": "https://news.ycombinator.com/item?id=48889637",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by crowdhailer · 344 points · 169 comments",
+      "blurb": "A pointed critique of Anthropic's marketing versus the reality of what AI coding tools deliver, sparked by comments from the Zed editor creator. The piece dissects how AI vendor messaging obscures important nuances about capability and reliability. Anyone building seriously with Claude Code should read this with clear eyes."
+    },
+    {
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "hn_link": "https://news.ycombinator.com/item?id=48882716",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by brryant · 213 points · 91 comments",
+      "blurb": "A concrete migration report from a real production AI agent — the kind of benchmark data that's hard to find outside of vendor marketing. 2.2x speed and 27% cost reduction are meaningful numbers that change the calculus for anyone running LLM-powered workflows. Actionable today if you're evaluating model upgrades."
+    },
+    {
+      "title": "Ghostel.el: Terminal emulator powered by libghostty",
+      "url": "https://dakra.github.io/ghostel/",
+      "hn_link": "https://news.ycombinator.com/item?id=48879504",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 283 points · 58 comments",
+      "blurb": "An Emacs terminal emulator built on libghostty, the same library powering the popular Ghostty terminal app. This is a niche but exciting crossover for Emacs users who want Ghostty's rendering quality inside their editor. Dev tool curiosity of the day."
+    },
+    {
+      "title": "Automation Without Understanding",
+      "url": "https://arxiv.org/abs/2607.06377",
+      "hn_link": "https://news.ycombinator.com/item?id=48882554",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by root-parent · 122 points · 55 comments",
+      "blurb": "An arxiv paper tackling the fundamental question of whether AI systems that automate tasks are actually understanding anything — or just pattern-matching at scale. This is the theoretical counterpart to all the practical AI tool coverage today. If you're building workflows that depend on LLM reasoning, these questions have real engineering implications."
+    },
+    {
+      "title": "Quadrupling code performance with a \"useless\" if",
+      "url": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
+      "hn_link": "https://news.ycombinator.com/item?id=48889148",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by birdculture · 73 points · 11 comments",
+      "blurb": "A delightful deep-dive into how a seemingly redundant branch condition can unlock massive compiler optimizations, quadrupling runtime performance. The kind of micro-optimization post that reminds you how much headroom exists below the surface. Essential reading for anyone who cares about performance at the instruction level."
+    },
+    {
+      "title": "Stacks — run classic HyperCard stacks on modern macOS",
+      "url": "https://morphing.cloud/hypercard/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: hypercard",
+      "blurb": "A macOS app from morphing.cloud that lets you run original HyperCard stacks on modern Apple hardware — no emulator required. For anyone who grew up on HyperCard or has old stacks collecting digital dust, this is a genuine treasure. A love letter to one of computing's most creative environments, revived for the Apple Silicon era."
+    },
+    {
+      "title": "Lunacy — Lunatic Fringe for modern macOS",
+      "url": "https://morphing.cloud/lunacy/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Another app from morphing.cloud, Lunacy is a modern macOS revival of Lunatic Fringe — the classic space shooter that shipped with early Mac systems. This is the kind of thoughtful Apple-ecosystem nostalgia project that Daring Fireball readers will immediately recognize. Grab it for a trip down Mac gaming memory lane."
+    },
+    {
+      "title": "Every Frame Perfect",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: design, wayland, macos",
+      "blurb": "Nikita Tonsky (of Fira Code fame) argues that imprecise UI animations — dropped frames, judder, inconsistent timing — silently erode user trust in software quality. The post diagnoses the problem across macOS, Wayland, and Electron apps with his trademark obsessive precision. If you care about shipping polished software on Apple platforms, this is a must-read."
+    },
+    {
+      "title": "Prompt caching: 10x cheaper LLM tokens, but how? | ngrok blog",
+      "url": "https://ngrok.com/blog/prompt-caching",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, caching, tokens, prompt-optimization, openai-tutorial, cost-reduction, to_share",
+      "blurb": "A practical explainer on prompt caching techniques that can slash LLM API costs by up to 10x — directly actionable for anyone running production AI agents or heavy Claude Code workflows. Covers the mechanics, trade-offs, and implementation patterns clearly. Pairs perfectly with today's token overhead story from HN."
+    },
+    {
+      "title": "yusukebe/ax: The AI-era curl",
+      "url": "https://github.com/yusukebe/ax",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A CLI tool designed as the AI-era equivalent of curl — send requests to LLM APIs from the command line with minimal friction. For developers who live in the terminal and want to script or prototype AI interactions without SDK boilerplate, this is an immediately useful addition to your toolkit. Try it today."
+    },
+    {
+      "title": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
+      "url": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: slop, stats, Research, t, linkedin, sm",
+      "blurb": "404 Media's analysis of browsing data finds that AI-generated content has flooded LinkedIn and X to a measurable, significant degree — giving hard numbers to what many have suspected anecdotally. This connects directly to the HN thread about flagging AI content. The signal-to-noise problem on social platforms is getting structurally worse."
+    },
+    {
+      "title": "A WWDC 27 Update on Building a Mac-assed App with SwiftUI - Paulo's Blog",
+      "url": "https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "An update to the beloved \"Mac-assed Mac app\" series, now incorporating WWDC 27 SwiftUI improvements — a practical look at how the platform is (slowly) maturing for serious macOS development. Linked from Daring Fireball, it's a thoughtful check-in on SwiftUI's progress for developers who care about native macOS quality. Essential for anyone in the Apple ecosystem."
+    },
+    {
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "url": "https://transformer-circuits.pub/2026/workspace/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "New research from Anthropic's interpretability team at transformer-circuits.pub, finding that LLMs appear to form a \"global workspace\" of verbalizable internal representations — a significant result for mechanistic interpretability. This is the kind of foundational science that will shape how we build and trust AI systems. Dense but rewarding."
+    },
+    {
+      "title": "ilograph interactive diagrams",
+      "url": "https://www.ilograph.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: diagrams",
+      "blurb": "Ilograph is an interactive diagramming tool that lets you define a single model and view it from multiple perspectives — collapsing irrelevant parts to focus on what matters. For developers documenting complex systems (microservices, .NET architectures, cloud infra), this is a genuinely different approach to the Mermaid/draw.io landscape. Worth evaluating today."
+    },
+    {
+      "title": "randoFont",
+      "url": "https://randofont.alesh.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, font, .blogit",
+      "blurb": "A delightfully simple tool for randomly exploring Google Fonts by category — serif, sans, mono, display — without wading through endless gallery pages. When you need a font and don't have a specific requirement, this is far more pleasant than the official Google Fonts browser. A tiny but genuinely useful creative tool."
+    }
+  ]
+}
