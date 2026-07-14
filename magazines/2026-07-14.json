@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-14",
+  "stories": [
+    {
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48894752",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by get-inscribe · 536 points · 212 comments",
+      "blurb": "Apple's new SpeechAnalyzer API lands with serious benchmark numbers — and this post puts it head-to-head against OpenAI Whisper and the older SFSpeechRecognizer. If you're building any on-device transcription for macOS or iOS, this is required reading before you commit to a third-party model."
+    },
+    {
+      "title": "Building and shipping Mac and iOS apps without opening Xcode",
+      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+      "hn_link": "https://news.ycombinator.com/item?id=48896665",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by speckx · 472 points · 204 comments",
+      "blurb": "A deep dive into using command-line tools — xcodebuild, altool, notarytool — to build and ship Apple platform apps entirely outside of Xcode's GUI. For anyone who prefers living in the terminal or wants to integrate Apple builds into a CI pipeline, this is the workflow you didn't know you needed."
+    },
+    {
+      "title": "The git history command",
+      "url": "https://lalitm.com/post/git-history/",
+      "hn_link": "https://news.ycombinator.com/item?id=48901010",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by turbocon · 300 points · 171 comments",
+      "blurb": "A proposed `git history` command that makes navigating and querying a repo's past dramatically more ergonomic than git log incantations. With 171 comments of community debate, this is sparking real conversation about what git's CLI should have shipped years ago."
+    },
+    {
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "url": "https://github.com/clawkwork/clawk",
+      "hn_link": "https://news.ycombinator.com/item?id=48892859",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by celrenheit · 196 points · 153 comments",
+      "blurb": "Clawk spins up ephemeral Linux VMs so your coding agents — Claude Code, Copilot, whatever — can run arbitrary code without touching your actual machine. This is the sandboxing story AI agentic workflows have been missing, and it's actionable today."
+    },
+    {
+      "title": "Precursor",
+      "url": "https://blog.cloudflare.com/introducing-precursor/",
+      "hn_link": "https://news.ycombinator.com/item?id=48893446",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by AznHisoka · 185 points · 151 comments",
+      "blurb": "Cloudflare announces Precursor, a new primitive for building composable, durable workflows on their edge platform. Cloudflare keeps quietly shipping infrastructure primitives that would have required an entire backend team five years ago."
+    },
+    {
+      "title": "What will be left for us to work on?",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "hn_link": "https://news.ycombinator.com/item?id=48901292",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by randomwalker · 136 points · 164 comments",
+      "blurb": "A sharp-eyed essay on what human developer work actually looks like as AI agents absorb more of the stack. Not doomer-y, not hype — just a clear-eyed accounting of where human judgment still compounds. Worth the 10 minutes if you're building with AI tools daily."
+    },
+    {
+      "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+      "url": "https://github.com/jbwinters/jacquard-lang",
+      "hn_link": "https://news.ycombinator.com/item?id=48894630",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jbwinters · 88 points · 47 comments",
+      "blurb": "Jacquard is a new language designed from first principles around the workflow of AI generating code and humans reviewing it — with explicit affordances for diffs, intent comments, and provenance. Bold premise: what if the language itself knew it would be written by an LLM?"
+    },
+    {
+      "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "hn_link": "https://news.ycombinator.com/item?id=48903777",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by roundabout-host · 107 points · 63 comments",
+      "blurb": "The EU's age verification technical spec effectively mandates Android or iOS, locking out alternative platforms and creating a government-mandated device duopoly. Privacy advocates are sounding alarms about what this means for the EU Digital Identity Wallet's supposed openness."
+    },
+    {
+      "title": "YouTrackDB is a general-use object-oriented graph database",
+      "url": "https://github.com/JetBrains/youtrackdb",
+      "hn_link": "https://news.ycombinator.com/item?id=48902026",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by gjvc · 123 points · 37 comments",
+      "blurb": "JetBrains open-sources the graph database engine powering YouTrack, positioning it as a general-purpose object-oriented graph store. Unexpected move from a tooling company — worth watching if you're evaluating graph databases for your stack."
+    },
+    {
+      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "url": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+      "hn_link": "https://news.ycombinator.com/item?id=48901569",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by donohoe · 481 points · 114 comments",
+      "blurb": "Japanese researchers crack a recycling process that recovers up to 90% of lithium from spent EV batteries — a potential game-changer for supply chain independence. The second-most-voted story of the day, and for good reason: battery recycling is the unsexy bottleneck nobody's talking enough about."
+    },
+    {
+      "title": "Control the ideas, not the code - <antirez>",
+      "url": "https://antirez.com/news/169",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, process, work, quality, ai, llm, computers, productivity, software, learning, communication, collaboration, open-source",
+      "blurb": "Redis creator antirez argues that in the AI coding era, the critical skill shifts from writing code to owning the ideas behind it — and that mindlessly delegating to LLMs erodes the very judgment that makes you useful. A necessary counter-weight to the \"just vibe-code it\" discourse."
+    },
+    {
+      "title": "From Prompt Engineering to Intent Engineering | Daniel Miessler",
+      "url": "https://danielmiessler.com/blog/intent-engineering",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, 2read",
+      "blurb": "Miessler argues the next skill beyond prompt engineering is \"intent engineering\" — the ability to precisely articulate what you want at a higher level of abstraction so AI systems can do the heavy lifting. Practically useful framing for anyone building AI-assisted workflows with Claude or similar tools."
+    },
+    {
+      "title": "This free Mac app reveals the truth about your mystery USB-C cables | The Verge",
+      "url": "https://www.theverge.com/gadgets/963759/whatcable-usb-c-cable-tester-app-mac",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "WhatCable is a free macOS app that interrogates USB-C cables plugged into your Mac and tells you their actual capabilities — USB 2, Thunderbolt, USB4, charging wattage, the works. Every developer's junk drawer of mystery cables just became auditable."
+    },
+    {
+      "title": "LLMs can't program  ❤︎  samir : coffee → nonsense",
+      "url": "https://functional.computer/blog/llms-cant-program",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A functional-programming perspective on why LLMs generate plausible-looking code that systematically fails at the hard parts — reasoning about state, invariants, and composition. Provocative but grounded; a useful antidote before you fully trust your AI pair programmer."
+    },
+    {
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "url": "https://raymyers.org/post/zig-creator-calls-spade-a-spade/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, anthropic, bun",
+      "blurb": "Andrew Kelley (Zig) gets quoted on the absurdity of solving agent-induced complexity with more agents, and this post unpacks why the \"more tokens, more agents\" sales pitch from AI labs is worth scrutinizing. Bracing read for anyone building seriously with agentic AI tools."
+    },
+    {
+      "title": "Your Browser Does Math Differently on Every OS, and Anti-Bot Systems Read the Bits · scrapfly.dev",
+      "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: browser, fingerprinting",
+      "blurb": "Floating-point rounding differences in libm across macOS, Windows, and Linux mean that Math.tanh and CSS trig functions silently fingerprint your OS — and anti-bot systems are actively exploiting this. Deeply nerdy and genuinely unsettling privacy research."
+    },
+    {
+      "title": "Postgres Is Enough",
+      "url": "https://postgresisenough.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: PostgreSQL",
+      "blurb": "A curated directory of PostgreSQL extensions that let you retire Redis, Elasticsearch, Kafka, and MongoDB — replacing your whole data stack with one database you already know. Actionable today: pick an extension and delete a service."
+    },
+    {
+      "title": "floodtide/dom-docx: Convert semantic HTML fragments to native, editable Word documents (OOXML)",
+      "url": "https://github.com/floodtide/dom-docx",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: docx, word, generator, conversion",
+      "blurb": "dom-docx converts semantic HTML into proper native Word documents (.docx / OOXML) without the fidelity-destroying round-trips of other approaches. If your app ever needs to export reports or contracts that clients can actually edit in Word, this fills a real gap."
+    },
+    {
+      "title": "networkQuality - a command line utility on Mac for .... testing network quality.",
+      "url": "https://keith.github.io/xcode-man-pages/networkQuality.8.html",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: til, mlp, mac, network, cli, man",
+      "blurb": "`networkQuality` is a built-in macOS CLI tool that runs a proper responsiveness test (measuring RPM alongside throughput) instead of the blunt instrument of ping. Ships with macOS 12+ and most Mac developers still don't know it exists."
+    },
+    {
+      "title": "AI in science research boosts speed, but limits scope • IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: science, ai, research, funnel",
+      "blurb": "A Nature-published analysis of 40 million papers finds AI-assisted researchers publish more and get cited more — but science as a whole narrows, clustering around data-rich problems and losing originality. The individual-vs-collective incentive tension maps uncomfortably well onto software development too."
+    }
+  ]
+}
