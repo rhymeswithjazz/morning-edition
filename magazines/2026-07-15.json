@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-15",
+  "stories": [
+    {
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "hn_link": "https://news.ycombinator.com/item?id=48910545",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xenova · 598 points · 211 comments",
+      "blurb": "A 27-billion-parameter model that actually fits and runs on a phone is a genuine milestone — this isn't a toy quantization hack. If the benchmarks hold up, it reshapes what on-device AI coding assistance could look like without a cloud round-trip. Directly relevant to anyone thinking about private, local LLM workflows."
+    },
+    {
+      "title": "How to stop Claude from saying load-bearing",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "hn_link": "https://news.ycombinator.com/item?id=48905248",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shintoist · 528 points · 558 comments",
+      "blurb": "The most Claude-Code-user thing imaginable: a deep-dive into prompt engineering tricks to kill Claude's verbal tics. The 558-comment thread is a goldmine of practical system-prompt surgery. If you use Claude daily, you'll recognize the annoyances and want the fixes immediately."
+    },
+    {
+      "title": "Are we offloading too much of our thinking to AI?",
+      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "hn_link": "https://news.ycombinator.com/item?id=48908178",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yenniejun111 · 473 points · 431 comments",
+      "blurb": "A data scientist examines whether leaning on LLMs is quietly eroding our own reasoning muscles — with actual experiments, not just hand-wringing. Essential reading for anyone who uses Claude Code all day and wonders if they're getting smarter or dumber. The 431-comment discussion is unusually substantive."
+    },
+    {
+      "title": "The Tower Keeps Rising",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "hn_link": "https://news.ycombinator.com/item?id=48909785",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cdrnsf · 470 points · 223 comments",
+      "blurb": "Armin Ronacher (Flask, Rye) argues that AI-assisted dev is creating an ever-taller abstraction tower that becomes brittle when it cracks. From the creator of foundational Python tooling, this is a thoughtful warning worth hearing before you let Claude scaffold your entire codebase. Sharp and opinionated."
+    },
+    {
+      "title": "Jurassic Park computers in excruciating detail",
+      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=48915709",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by vinhnx · 453 points · 110 comments",
+      "blurb": "Fabien Sanglard does his signature forensic teardown — this time on every computer prop and screen in Jurassic Park (1993). A love letter to SGI workstations, UNIX terminals, and the era when Hollywood got tech gloriously wrong. Pure weekend reading joy."
+    },
+    {
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "hn_link": "https://news.ycombinator.com/item?id=48910676",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Synthetic7346 · 365 points · 171 comments",
+      "blurb": "Researchers found a critical 0-day in Cursor — the AI coding editor used by millions — and went full-disclosure after the vendor dragged its feet. If you or your team uses Cursor, this is not optional reading. A sobering reminder that AI dev tools are a juicy new attack surface."
+    },
+    {
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "hn_link": "https://news.ycombinator.com/item?id=48916975",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by macleginn · 306 points · 141 comments",
+      "blurb": "A clever attack chain that exfiltrates data from Claude's memory features via prompt injection — demonstrated end-to-end. For Claude Code users who store sensitive context in memory, this is a concrete threat model to understand now. The write-up is unusually clear and reproducible."
+    },
+    {
+      "title": "Dependabot version updates introduce default package cooldown",
+      "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
+      "hn_link": "https://news.ycombinator.com/item?id=48913050",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by woodruffw · 176 points · 112 comments",
+      "blurb": "GitHub is baking in a mandatory waiting period before Dependabot proposes new package versions — a direct response to supply-chain attacks that exploit the \"update immediately\" reflex. If you have Dependabot wired up in your .NET or Angular projects, your PR queue is about to change. Good security default."
+    },
+    {
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "url": "https://tailscale.com/security-bulletins",
+      "hn_link": "https://news.ycombinator.com/item?id=48915004",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jervant · 152 points · 79 comments",
+      "blurb": "Tailscale discloses a nasty SSH argument-handling bug that could hand an attacker root on affected nodes. If you use Tailscale SSH for remote dev or homelab access, patch immediately. The vendor's transparency here is commendable — clear timeline, clear impact."
+    },
+    {
+      "title": "Microsoft has released software updates to plug at least 570 security holes",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "hn_link": "https://news.ycombinator.com/item?id=48913190",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by robin_reala · 132 points · 82 comments",
+      "blurb": "Krebs on Security covers a record-breaking Patch Tuesday — 570 CVEs in a single drop. For .NET developers shipping on Windows or Azure, several of these touch the runtime and common libraries. The number alone is the story: this is what legacy complexity looks like at scale."
+    },
+    {
+      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48896665",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apple, ios, xcode, tools, agentic, llm",
+      "blurb": "A Pinboard-surfaced HN thread exploring fully agentic workflows for building Apple platform apps — no Xcode GUI, just CLI tooling and LLM agents. For developers in the Apple ecosystem who already use Claude Code, this is a natural next frontier. The thread aggregates tools and war stories."
+    },
+    {
+      "title": "darrylmorley/whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A tiny macOS menu-bar utility that inspects every USB-C cable connected to your Mac and reports its actual capabilities in plain English — no more guessing whether your cable supports Thunderbolt, DisplayPort, or just slow charging. Pairs perfectly with the USB-C maximalist ethos on HN today. Install immediately."
+    },
+    {
+      "title": "rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, agentic-coding, ai-coding, anthropic, claude-code, cli, command-line-tool, cost-reduction, developer-tools, llm, open-source, productivity, rust, token-optimization",
+      "blurb": "A single Rust binary that proxies your CLI tool calls and slashes LLM token consumption by 60–90% on common dev commands — explicitly tagged for Claude Code users. Zero dependencies, open source, and the kind of thing that pays for itself in days if you're running agentic loops. This is the most directly actionable tool in today's batch."
+    },
+    {
+      "title": "MengTo/Skills: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+      "url": "https://github.com/MengTo/Skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: skill",
+      "blurb": "A curated library of reusable \"skills\" — prompt templates and agent configurations — for Claude, Codex, and Cursor, aimed at designers and builders. Think of it as a cookbook for agentic coding workflows. If you're standardizing how your team interacts with AI coding tools, this is a useful starting point."
+    },
+    {
+      "title": "Prompt Injection as Role Confusion",
+      "url": "https://role-confusion.github.io/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, cybersecurity",
+      "blurb": "A research site framing prompt injection attacks through the lens of \"role confusion\" — when an LLM can't distinguish its principal's instructions from adversarial content. Cleanly written theory with practical attack examples. Essential background for anyone building agentic apps on top of Claude."
+    },
+    {
+      "title": "How Claude's values vary by model and language",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, sentiment, psychology, languages",
+      "blurb": "Anthropic's own research reveals that Claude's expressed values and opinions shift meaningfully across model versions and the language you prompt in. For developers building multilingual or multi-model products with Claude, this is a concrete calibration concern, not just academic curiosity."
+    },
+    {
+      "title": "Why write code in 2026",
+      "url": "https://softwaredoug.com/blog/2026/07/09/write-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, career, philosophy, technology, ai, interesting",
+      "blurb": "A measured, honest argument for why human-written code still matters even as AI generates the majority of it — not a Luddite screed, but a thoughtful take on craft, understanding, and ownership. Required reading for developers wrestling with how much to delegate to Claude Code versus write themselves."
+    },
+    {
+      "title": "A fast, modern terminal",
+      "url": "https://otty.sh/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Terminal, Tools",
+      "blurb": "Otty is a new GPU-accelerated terminal emulator entering the crowded-but-still-exciting space alongside Ghostty and WezTerm. For macOS developers running Claude Code sessions all day, terminal performance and latency actually matter. Worth a quick benchmark against your current setup."
+    },
+    {
+      "title": "NameThat — the visual dictionary of UI",
+      "url": "https://namethatui.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ui, reference, design",
+      "blurb": "A visual reference that names every UI component and pattern — the thing you describe to Claude and hope it understands. Knowing the right vocabulary makes prompts sharper and design reviews faster. Bookmark it; you'll reach for it more than you expect."
+    },
+    {
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://qr.jim.sh/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: fonts",
+      "blurb": "A genuine hack: a real OpenType font that uses built-in shaping rules to render bracketed text as QR codes — no image generation step, no preprocessing. Type [hello], apply the font, get a scannable QR code. Delightful abuse of the typography stack and immediately useful for print workflows."
+    }
+  ]
+}
