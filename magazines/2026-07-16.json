@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-16",
+  "stories": [
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "hn_link": "https://news.ycombinator.com/item?id=48924912",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vimarsh6739 · 985 points · 248 comments",
+      "blurb": "Thinking Machines drops a new open-weights model into a crowded arena and immediately tops the HN charts. Open-weights releases matter because they shift negotiating power back to developers — you can self-host, fine-tune, and audit. Worth a close look to see how it benchmarks against Gemma and Llama for code-heavy workloads."
+    },
+    {
+      "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
+      "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+      "hn_link": "https://news.ycombinator.com/item?id=48919363",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by bilsbie · 697 points · 370 comments",
+      "blurb": "A large-scale Oxford study finds that when you sleep matters more than how long — irregular sleepers face meaningfully higher mortality risk regardless of total hours logged. For developers burning the midnight oil in irregular sprints, this is the peer-reviewed nudge to fix the schedule, not just the alarm."
+    },
+    {
+      "title": "Grok Build is open source",
+      "url": "https://github.com/xai-org/grok-build",
+      "hn_link": "https://news.ycombinator.com/item?id=48926590",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by skp1995 · 453 points · 497 comments",
+      "blurb": "xAI has open-sourced Grok Build, its distributed build system — and the 497-comment thread is full of hot takes. If it lives up to the hype it could be a serious alternative to Bazel for monorepo shops. The discussion alone is worth reading for the architectural nuances."
+    },
+    {
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "hn_link": "https://news.ycombinator.com/item?id=48922434",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by neomindryan · 289 points · 187 comments",
+      "blurb": "A detailed engineering post showing how quantization, memory-mapped weights, and careful threading squeeze 5 tok/s out of decade-old server iron. If you're experimenting with local LLMs or Claude Code alternatives without a GPU budget, the techniques here are directly transferable."
+    },
+    {
+      "title": "SQLite should have (Rust-style) editions",
+      "url": "https://mort.coffee/home/sqlite-editions/",
+      "hn_link": "https://news.ycombinator.com/item?id=48928135",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by gnyeki · 276 points · 116 comments",
+      "blurb": "A thoughtful argument that SQLite's legendary backwards-compatibility guarantee has become a cage, preventing fixes to quirky default behaviors. The Rust editions model is a clever proposal: opt-in breaking changes per database file. Directly relevant if you're embedding SQLite in .NET or Electron apps."
+    },
+    {
+      "title": "Show HN: Firefox in WebAssembly",
+      "url": "https://developer.puter.com/labs/firefox-wasm/",
+      "hn_link": "https://news.ycombinator.com/item?id=48926939",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by coolelectronics · 207 points · 104 comments",
+      "blurb": "Puter's team compiled a real Firefox build to WASM and it runs in the browser. It's a proof-of-concept but the implications for sandboxed testing environments and browser-in-browser dev tools are genuinely interesting. Go click it — it works."
+    },
+    {
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "url": "https://brainless.swerdlow.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=48926085",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by benswerd · 123 points · 24 comments",
+      "blurb": "A ready-to-drop-in Shadcn component library styled to match the terminal aesthetics of Claude Code, OpenAI Codex, and Grok. If you're building an AI-facing UI today this saves hours of fiddling with dark-mode monospace design. Directly actionable."
+    },
+    {
+      "title": "Command Line Interface Guidelines",
+      "url": "https://clig.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=48881064",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by subset · 133 points · 28 comments",
+      "blurb": "The canonical open-source guide to designing great CLIs — covering output formatting, flags, stdin/stdout conventions, and human-first UX. Resurfaces regularly on HN for good reason; if you're building any CLI tooling this is the spec to write against."
+    },
+    {
+      "title": "If you want to create a button from scratch, you must first create the universe",
+      "url": "https://madcampos.dev/blog/2026/07/accessibility-from-scratch/",
+      "hn_link": "https://news.ycombinator.com/item?id=48930136",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by treve · 136 points · 61 comments",
+      "blurb": "A deep-dive into everything you sacrifice the moment you reach for a `<div>` instead of a `<button>` — ARIA roles, keyboard handling, focus management, and more. Angular devs building custom component libraries need to read this before shipping anything that vaguely resembles interactive UI."
+    },
+    {
+      "title": "G# – A modern .NET language with Go, Kotlin, and Swift ergonomics",
+      "url": "https://davidobando.github.io/gsharp/",
+      "hn_link": "https://news.ycombinator.com/item?id=48871721",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by serial_dev · 100 points · 68 comments",
+      "blurb": "An ambitious proposal (with working prototype) for a new .NET-native language that borrows Go's simplicity, Kotlin's null safety, and Swift's ergonomics — all compiling to .NET IL. Directly relevant if you live in the .NET ecosystem and have ever wished C# were a little less ceremonial."
+    },
+    {
+      "title": "Evan's Jujutsu Tutorial",
+      "url": "https://evmar.github.io/jjtut/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, versioncontrol, jujutsu, tutorial, learning, productivity",
+      "blurb": "A ground-up interactive tutorial for Jujutsu (jj), the Git-compatible VCS gaining serious momentum among power users. If you've been meaning to try it but bounced off the docs, this is the clearest on-ramp available. Version control nerds, your weekend project is sorted."
+    },
+    {
+      "title": "Aphera • A Mac photo editor",
+      "url": "https://aphera.co/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: photography, software, macos",
+      "blurb": "A new native macOS photo editor that positions itself as a lighter, faster alternative to Lightroom and Darkroom. The macOS-first creative software space is heating up post-Affinity acquisition, and this one's worth bookmarking if you shoot on iPhone and edit on Mac."
+    },
+    {
+      "title": "WhatCable: Know what your USB-C cable can really do",
+      "url": "https://www.whatcable.uk/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, app, usbc, cable",
+      "blurb": "A macOS utility that interrogates your connected USB-C cables and explains their actual speed caps, charging limits, and e-marker data in plain English — no more mystery cables refusing to drive your Studio Display. Exactly the kind of niche-but-essential Mac tool Pinboard surfaces that HN misses."
+    },
+    {
+      "title": "Generative AI Is an Engineering Disaster - The Atlantic",
+      "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Instapaper",
+      "blurb": "The Atlantic makes a pointed case that the engineering discipline around generative AI is fundamentally broken — from hallucination rates to deployment practices to evaluation gaps. A useful critical counterweight if you're deep in AI-assisted dev workflows and want to stress-test your own assumptions."
+    },
+    {
+      "title": "Un hack svela come Suno avrebbe addestrato l'AI musicale con dati da YouTube, Deezer e Genius",
+      "url": "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/",
+      "category": "Privacy & security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: N8N, #AI_and_Tech, AI&TECH, TW2026-29",
+      "blurb": "Leaked Suno source code reveals the AI music generator scraped millions of songs, lyrics, and podcasts from YouTube Music, Deezer, and Genius without disclosed consent. A significant data-provenance story that has implications for every generative AI product — training data transparency is the next legal frontier."
+    },
+    {
+      "title": "A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance",
+      "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/",
+      "category": "Privacy & security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: surveillance, police, sanfrancisco, USA, drone",
+      "blurb": "Wired reports on leaked SFPD drone footage that reveals how pervasive aerial surveillance of city residents has become — and how casually that footage moves through systems. A concrete look at the gap between policy promises and operational reality in urban surveillance deployments."
+    },
+    {
+      "title": "I investigated Palantir's foothold in the British state – and what I found should worry us all",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/15/palantir-british-state-political-access-us-tech-firm-nhs",
+      "category": "Privacy & security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: palantir, uk, public-sector",
+      "blurb": "A deeply reported Guardian piece tracing how Palantir has woven itself into NHS data infrastructure and UK government contracts, raising hard questions about data sovereignty and lock-in. Essential reading for anyone thinking about state-level AI data pipelines."
+    },
+    {
+      "title": "The Mole in the Model - You've Hired an Adversary",
+      "url": "https://www.originhq.com/research/the-mole-in-the-model",
+      "category": "Privacy & security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: via:feedbin",
+      "blurb": "Origin's research team lays out how a fine-tuned or supply-chain-poisoned model can behave as an adversary inside your own stack — subtly misrouting outputs or exfiltrating context. If you're integrating third-party models or using Claude Code against private codebases, this threat model is worth internalizing."
+    },
+    {
+      "title": "GitHub - juggler-ai/juggler: The Juggler Code Agent",
+      "url": "https://github.com/juggler-ai/juggler",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "Juggler is an open-source code agent designed to autonomously tackle multi-step engineering tasks — think Claude Code but self-hostable and hackable. Worth a star and a test run if you're comparing agentic coding assistants or want to build your own workflow on top."
+    },
+    {
+      "title": "Latent Space as a New Medium - by Kevin Kelly",
+      "url": "https://kevinkelly.substack.com/p/latent-space-as-a-new-medium",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "Kevin Kelly argues that latent space — the high-dimensional embedding landscape inside LLMs — is genuinely a new creative medium, not just a tool. For developers building AI-powered creative apps, this is the conceptual framing that helps explain why the outputs feel categorically different from previous generative techniques."
+    }
+  ]
+}
