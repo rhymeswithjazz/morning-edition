@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-17",
+  "stories": [
+    {
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "hn_link": "https://news.ycombinator.com/item?id=48935342",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vincent_s · 1638 points · 966 comments",
+      "blurb": "Moonshot AI drops Kimi K3, a new open frontier model that's generating serious buzz — 1,638 points and nearly a thousand comments says this is no minor release. Open weights + frontier-level capability is the combination that matters: it means you can run and fine-tune it locally. Worth benchmarking against whatever you're currently using in your Claude Code workflows."
+    },
+    {
+      "title": "Microsoft Comic Chat is now open source",
+      "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+      "hn_link": "https://news.ycombinator.com/item?id=48936426",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by jervant · 682 points · 150 comments",
+      "blurb": "The 1996 IRC client that turned chat into auto-generated comic strips is now fully open source. A delightful piece of computing history that was genuinely ahead of its time — the automatic avatar expression system was surprisingly sophisticated. Dig in for nostalgia and some unexpectedly creative ideas about visual communication in chat."
+    },
+    {
+      "title": "Decoy Font",
+      "url": "https://www.mixfont.com/experiments/decoy-font",
+      "hn_link": "https://news.ycombinator.com/item?id=48936584",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ray__ · 557 points · 129 comments",
+      "blurb": "A typeface engineered to fool AI OCR and text-extraction models — characters look normal to humans but are subtly distorted to break machine reading. It's a fascinating intersection of typography, privacy, and adversarial ML. Practical for anyone who wants to watermark or protect text-heavy designs from scraping."
+    },
+    {
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "hn_link": "https://news.ycombinator.com/item?id=48936451",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xnx · 308 points · 155 comments",
+      "blurb": "Google rebrands NotebookLM under the Gemini umbrella, signaling deeper integration with the broader Gemini ecosystem. For developers already using AI tools for research and note-taking — think Obsidian-adjacent workflows — this is a product to keep eyes on. The rebrand also likely means tighter context windows and better grounding capabilities incoming."
+    },
+    {
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "hn_link": "https://news.ycombinator.com/item?id=48939524",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by hershyb_ · 272 points · 375 comments",
+      "blurb": "A head-to-head $100 budget experiment pitting Claude Fable 5 against GPT-5.6 Sol on AI music video generation — the kind of real-world vibe-check that benchmark leaderboards can't replicate. The comment section is especially lively with opinions on where each model shines and falls apart. Directly relevant if you're choosing between frontier models for creative workflows."
+    },
+    {
+      "title": "Ente – Opening Our Books",
+      "url": "https://ente.com/open/",
+      "hn_link": "https://news.ycombinator.com/item?id=48932697",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Sherex · 258 points · 99 comments",
+      "blurb": "Ente, the end-to-end encrypted photo backup app, publishes a full financial transparency report. This is rare and admirable in the privacy-focused app space — it signals the company is sustainable enough to keep the lights on and your encrypted photos safe long-term. A strong alternative to iCloud Photos for privacy-minded Apple users."
+    },
+    {
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "hn_link": "https://news.ycombinator.com/item?id=48939662",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 251 points · 89 comments",
+      "blurb": "LM Studio's new Bionic mode turns the local model runner into a full agentic system — tool use, multi-step reasoning, and file system access, all running on open weights locally. For developers already using Claude Code who want a local, private alternative for certain tasks, this is a major upgrade. No API costs, no data leaving your machine."
+    },
+    {
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "hn_link": "https://news.ycombinator.com/item?id=48933310",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by JeremyTheo · 230 points · 241 comments",
+      "blurb": "An honest, nuanced take from a developer who acknowledges every valid critique of LLMs — hallucinations, overconfidence, deskilling — and explains why the productivity gains still win out. This is the essay to send colleagues who are either fully LLM-skeptic or uncritically LLM-maximalist. The 241-comment discussion is worth just as much as the post."
+    },
+    {
+      "title": "The human-in-the-loop is tired",
+      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
+      "hn_link": "https://news.ycombinator.com/item?id=48942000",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by haritha1313 · 214 points · 118 comments",
+      "blurb": "Pydantic's team argues that the current model of constantly prompting humans to approve AI actions is unsustainable — approval fatigue is real and undermines the whole point of automation. They lay out a more thoughtful framework for when and how humans should actually intervene in agentic workflows. Essential reading if you're building or using Claude Code agents."
+    },
+    {
+      "title": "GrapheneOS recommended for domestic abuse victims",
+      "url": "https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/",
+      "hn_link": "https://news.ycombinator.com/item?id=48942454",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by aussieguy1234 · 149 points · 115 comments",
+      "blurb": "Australian privacy advocates are now formally recommending GrapheneOS for domestic abuse victims as the gold standard for mobile privacy and safety. A sobering reminder of how high the stakes can be for mobile OS security choices. The article is a practical primer on threat modeling for the highest-risk users."
+    },
+    {
+      "title": "Goes-19 weather satellite enters Safe Hold mode",
+      "url": "https://www.spaceweather.gov/news/goes-19-safe-hold",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by yabones · 166 points · 84 comments",
+      "blurb": "GOES-19, the newest and most capable US weather satellite, unexpectedly triggered a protective safe hold mode — potentially disrupting forecasting at a critical time. A surprisingly gripping story about space infrastructure fragility and the cascading consequences when a single satellite goes dark. The HN thread digs into the technical causes."
+    },
+    {
+      "title": "Detecting LLM-Generated Texts with \"Classical\" Machine Learning",
+      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by uneven9434 · 201 points · 143 comments",
+      "blurb": "Can you reliably detect AI-written text using old-school ML — SVMs, logistic regression, TF-IDF — instead of another neural net? This post runs the experiment and the results are more interesting than you'd expect. Relevant for anyone building content pipelines or trying to audit AI-assisted codebases for provenance."
+    },
+    {
+      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by zhinit · 137 points · 63 comments",
+      "blurb": "A delightfully practical walkthrough for training a diffusion model to generate custom kick drum samples on consumer hardware. The democratization of generative audio is real — you don't need an A100 to make it happen. Great inspiration for creative coders who want to go beyond text and image generation."
+    },
+    {
+      "title": "The privacy problems hidden in your period tracker",
+      "url": "https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by tchalla · 97 points · 48 comments",
+      "blurb": "BBC Future investigates how popular period tracking apps share intimate health data with third parties — advertisers, data brokers, and potentially law enforcement. A concrete case study in health app privacy failure that applies to the broader category of sensitive personal data apps. Important background for anyone building or recommending health-adjacent software."
+    },
+    {
+      "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
+      "url": "https://www.science.org/doi/10.1126/science.aea9708",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by anyonecancode · 110 points · 32 comments",
+      "blurb": "Astronomers detect helium bleeding off a rocky exoplanet sitting in the habitable zone of a nearby star — a first of its kind measurement. This spectroscopic fingerprint tells us a lot about atmospheric retention and what makes a world potentially life-friendly. Fascinating for anyone who follows the slow, methodical detective work of exoplanet science."
+    },
+    {
+      "title": "The Little Book of Reinforcement Learning",
+      "url": "https://github.com/alxndrTL/little-book-rl/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mustaphah · 138 points · 15 comments",
+      "blurb": "A concise, free book on reinforcement learning aimed at practitioners who want to understand the fundamentals behind modern AI reasoning systems like those powering o-series and Gemini models. Given the explosion of RL-trained frontier models, understanding the basics has never been more practically useful. A weekend read that will pay dividends."
+    },
+    {
+      "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+      "url": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by divbzero · 132 points · 86 comments",
+      "blurb": "New analysis of a 1,900-year-old Roman latrine is yielding fresh clues about why Roman concrete continues to outlast modern materials. The self-healing chemistry of volcanic ash concrete is something materials scientists are still trying to fully replicate. A beautiful example of archaeology as materials research."
+    },
+    {
+      "title": "Pebble Mega Update – July 2026",
+      "url": "https://repebble.com/blog/pebble-mega-update-july-2026",
+      "category": "New Apple Apps",
+      "applies": false,
+      "byline": "by crazysaem · 118 points · 38 comments",
+      "blurb": "The revived Pebble smartwatch project drops a big July update covering hardware, firmware, and ecosystem progress. Pebble's comeback is one of the more heartwarming tech revivals in recent memory — open, hackable, and built for people who want a watch that lasts a week on a charge. Worth checking in on if you've been following the reboot."
+    },
+    {
+      "title": "'Likweli': A new monkey species discovered in the Congo Basin",
+      "url": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gmays · 80 points · 18 comments",
+      "blurb": "Yale researchers describe a brand-new primate species — the Likweli monkey — from the Congo Basin, a region still yielding biological surprises. Discovering a new monkey in 2026 is a reminder of how much of Earth's biodiversity remains undocumented. A genuinely joyful science story in a week that needs one."
+    },
+    {
+      "title": "Immersive Linear Algebra Book with Interactive Figures (2015)",
+      "url": "https://immersivemath.com/ila/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by srean · 225 points · 27 comments",
+      "blurb": "This 2015 interactive linear algebra textbook keeps resurfacing on HN because it remains the best free visual introduction to the math underlying ML, graphics, and data science. Every concept is paired with a manipulable interactive figure — no static diagrams. Bookmark it, or finally work through it this weekend."
+    }
+  ]
+}
