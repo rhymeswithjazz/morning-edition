@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-18",
+  "stories": [
+    {
+      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "hn_link": "https://news.ycombinator.com/item?id=48945241",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by nprateem · 1178 points · 702 comments",
+      "blurb": "AWS sent billing estimates that were off by $1.7 billion — not a rounding error, a systemic failure in estimated cost data. With 702 comments, this has engineers rightly furious and auditing their own dashboards. If you trust AWS cost estimates for budgeting, read this immediately."
+    },
+    {
+      "title": "The state of open source AI",
+      "url": "https://stateofopensource.ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=48947825",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rellem · 437 points · 315 comments",
+      "blurb": "A comprehensive snapshot of where open-source AI stands in mid-2026 — models, tooling, licensing debates, and the widening gap between open and closed frontier systems. Essential reading if you're deciding which models to build on top of. The 315-comment thread is full of sharp takes."
+    },
+    {
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+      "hn_link": "https://news.ycombinator.com/item?id=48947717",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by droidjj · 337 points · 179 comments",
+      "blurb": "Simon Willison digs into Moonshot AI's Kimi K3 and uses the pelican benchmark as a lens for understanding what coding LLMs are actually good at. Practical and opinionated — exactly the kind of model evaluation that helps you pick the right tool for Claude Code-style workflows."
+    },
+    {
+      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "hn_link": "https://news.ycombinator.com/item?id=48952880",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gnabgib · 506 points · 326 comments",
+      "blurb": "Frontline nurses at Kaiser report that AI monitoring tools and surveillance systems are degrading care quality — a stark real-world counterpoint to AI optimism. The tension between algorithmic efficiency and human judgment is sharpest in high-stakes environments like healthcare."
+    },
+    {
+      "title": "Evidence of inconsistencies in evaluation process and selection of winners",
+      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+      "hn_link": "https://news.ycombinator.com/item?id=48946010",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by twerkmeister · 460 points · 287 comments",
+      "blurb": "Serious allegations of irregularities in Kaggle's \"Measuring AGI\" competition — including inconsistent judging criteria and possible favoritism in winner selection. Benchmark credibility is foundational to AI progress; when that's in question, everything built on it wobbles."
+    },
+    {
+      "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+      "hn_link": "https://news.ycombinator.com/item?id=48947560",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by neversaydie · 457 points · 271 comments",
+      "blurb": "Astronomers have detected an atmosphere on an Earth-sized planet sitting in the habitable zone of its star — a genuine first. This is the kind of discovery that deserves a pause from whatever you're debugging. The universe just got a little more interesting."
+    },
+    {
+      "title": "Regressive JPEGs",
+      "url": "https://maurycyz.com/projects/bad_jpeg/",
+      "hn_link": "https://news.ycombinator.com/item?id=48954851",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by vitaut · 320 points · 28 comments",
+      "blurb": "A delightful creative coding experiment that generates JPEGs that get worse the more you compress them — inverting the usual compression tradeoff in visually striking ways. Part art project, part deep dive into JPEG internals. Genuinely fun to explore."
+    },
+    {
+      "title": "Learning a few things about running SQLite",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "hn_link": "https://news.ycombinator.com/item?id=48950122",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 252 points · 66 comments",
+      "blurb": "Julia Evans does what she does best: explores SQLite in production with fresh eyes and surfaces non-obvious gotchas around concurrency, WAL mode, and deployment. If you've ever shipped SQLite in a real app, you'll find something new here."
+    },
+    {
+      "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
+      "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
+      "hn_link": "https://news.ycombinator.com/item?id=48952565",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by BadChemical · 127 points · 33 comments",
+      "blurb": "A researcher found that TP-Link Kasa cameras broadcast home GPS coordinates over unauthenticated UDP — for six years — meaning anyone on the network could grab your precise home location. A damning IoT security failure with direct privacy implications for anyone with these cameras at home."
+    },
+    {
+      "title": "Static search trees: 40x faster than binary search (2024)",
+      "url": "https://curiouscoding.nl/posts/static-search-tree/",
+      "hn_link": "https://news.ycombinator.com/item?id=48951898",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by lalitmaganti · 122 points · 6 comments",
+      "blurb": "A thorough exploration of B-tree-style layouts in memory that exploit cache lines and SIMD to blow past binary search in benchmarks. The kind of low-level algorithm post that makes you rethink assumptions you've held for years."
+    },
+    {
+      "title": "Linus Torvalds on AI in the Linux kernel: \"AI is a tool, just like other tools we use\"",
+      "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: linux, subject:cs.AI, subject:cs.CL, open-source, author:linus_torvalds, community",
+      "blurb": "Linus Torvalds fires off a characteristically blunt mailing list post defending LLM use in the Linux kernel and threatening to ignore anyone who argues against it. \"Linux is not one of those anti-AI projects\" — a decisive moment from the top-level maintainer of the world's most important open source project."
+    },
+    {
+      "title": "Guide to data tools landscape for developers · OlegWock",
+      "url": "https://sinja.io/blog/data-landscape-guide-for-developers",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: dataEngineering",
+      "blurb": "A developer-focused map of the sprawling data tooling ecosystem — databases, pipelines, warehouses, orchestration — with opinionated guidance on what to actually pick. The landscape moves fast and this is a solid orientation for anyone building data-adjacent features."
+    },
+    {
+      "title": "Making 768 servers look like 1 — PlanetScale",
+      "url": "https://planetscale.com/blog/making-768-servers-look-like-1",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: database",
+      "blurb": "PlanetScale digs into the distributed systems engineering behind their Vitess-based MySQL sharding — how they make hundreds of database servers appear as a single logical database to applications. A rare look inside hyperscale database infrastructure from engineers who built it."
+    },
+    {
+      "title": "How Our Rust-to-Zig Rewrite is Going",
+      "url": "https://rtfeldman.com/rust-to-zig",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: via:lobsters, programming, rust, zig, roc",
+      "blurb": "Richard Feldman gives a candid mid-rewrite postmortem on porting the Roc compiler from Rust to Zig — what Zig gets right for this specific use case, and the surprising reasons it's working better than expected. Unusually honest systems programming writing."
+    },
+    {
+      "title": "The Archaeologist's Copilot",
+      "url": "https://martinfowler.com/articles/archaeologist-copilot.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: shared, ai",
+      "blurb": "A Martin Fowler article on using AI to modernize a Java 1.5 legacy codebase — using a stable Docker environment and test-guided incremental refactoring as guardrails. Directly applicable to anyone using Claude Code or Copilot to wrestle with inherited codebases."
+    },
+    {
+      "title": "langchain-ai/openwiki: OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agent, documentation",
+      "blurb": "LangChain's openwiki is a CLI tool that uses AI agents to auto-generate and keep codebase documentation up to date. For Claude Code users drowning in undocumented legacy code, this is worth a try today — it's a directly actionable workflow improvement."
+    },
+    {
+      "title": "Why I Left Google DeepMind",
+      "url": "https://turntrout.com/why-i-left-google-deepmind",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI, safety, essay, longbets",
+      "blurb": "An AI safety researcher's detailed account of trying — and failing — to stop Google from handing its AI to the military without restrictions against killer robots, including breakdowns from Stuart Russell and Jeff Dean. A long, disturbing read about how AI ethics commitments collapse under institutional pressure."
+    },
+    {
+      "title": "'Adversarial clothing': are garments designed to confuse facial recognition systems about to go mainstream?",
+      "url": "https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy, identity, ai, funny, clothing",
+      "blurb": "From LED-equipped hoods that dazzle infrared cameras to prints that trick facial recognition into seeing multiple faces, adversarial fashion is creeping toward mainstream. Equal parts absurd and serious — surveillance is ubiquitous enough that people are dressing to fight it."
+    },
+    {
+      "title": "I Got Slopped",
+      "url": "https://www.nytimes.com/2026/07/16/technology/ai-slop-books-biography-amazon.html",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: poetical.engines",
+      "blurb": "NYT tech journalist Kashmir Hill discovers an unauthorized AI-generated biography of herself on Amazon — and finds thousands more like it flooding the platform. A first-person look at the AI slop economy and what it means when anyone can generate a fake book about you."
+    },
+    {
+      "title": "Netflix says around 300 titles used generative AI",
+      "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Netflix disclosed in its Q2 2026 earnings that roughly 300 titles on the platform used generative AI in production. This is the clearest signal yet that AI-assisted video production has crossed from experiment to industrial practice at the largest streaming platform on earth."
+    }
+  ]
+}
