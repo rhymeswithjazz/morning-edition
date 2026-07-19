@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-19",
+  "stories": [
+    {
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "hn_link": "https://news.ycombinator.com/item?id=48959392",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ykev · 232 points · 158 comments",
+      "blurb": "A practical walkthrough for turning a spare Mac into a Claude Code-controlled agent machine — exactly the kind of setup our reader is already thinking about. Offloading agentic tasks to a dedicated box keeps your primary workflow clean while letting Claude run wild. Required reading if you use Claude Code seriously."
+    },
+    {
+      "title": "LG monitors silently install software through Windows Update without consent",
+      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "hn_link": "https://news.ycombinator.com/item?id=48956688",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by baranul · 1130 points · 574 comments",
+      "blurb": "LG is quietly pushing monitor management software onto Windows machines via Windows Update — without users ever asking for it. This is a textbook supply-chain trust violation, and the 574-comment HN thread is a goldmine of outrage and workarounds. Another reason to appreciate the Mac ecosystem's tighter app controls."
+    },
+    {
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "hn_link": "https://news.ycombinator.com/item?id=48957779",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mbustamanter · 562 points · 360 comments",
+      "blurb": "A Reddit thread with serious mathematical credibility: GPT-5.6 apparently bridged a 30-year-old open problem in convex optimization using a single carefully constructed prompt. Whether this is a genuine breakthrough or a very convincing-looking output is exactly what the 360-comment thread debates. Either way, the implications for AI-assisted research are enormous."
+    },
+    {
+      "title": "Transcribe.cpp",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "hn_link": "https://news.ycombinator.com/item?id=48963879",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sebjones · 523 points · 109 comments",
+      "blurb": "A native C++ transcription tool built on whisper.cpp — local, fast, and zero cloud dependency. For developers who want accurate speech-to-text without sending audio to anyone's servers, this is the pragmatic choice. Pairs beautifully with the Claude Code Mac setup story above."
+    },
+    {
+      "title": "Speech Recognition and TTS in less than 500kb",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "hn_link": "https://news.ycombinator.com/item?id=48911793",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by petewarden · 453 points · 59 comments",
+      "blurb": "Moonshine Micro squeezes both speech recognition and text-to-speech into under 500KB — a remarkable feat of model compression. This is genuinely deployable on-device, including on Apple Silicon Macs and iPhones. Voice interfaces just got a lot more accessible for indie developers."
+    },
+    {
+      "title": "The Kimi K3 Moment",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "hn_link": "https://news.ycombinator.com/item?id=48960218",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sbochins · 402 points · 429 comments",
+      "blurb": "A blog post arguing that Moonshot AI's Kimi K3 represents a genuine inflection point in frontier model competition — the kind of \"GPT-4 moment\" that reshapes developer tool choices. With 429 comments, the HN community is deeply split on whether this is hype or history. Worth reading before you lock in your AI tool stack."
+    },
+    {
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "hn_link": "https://news.ycombinator.com/item?id=48956879",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by couAUIA · 240 points · 116 comments",
+      "blurb": "A rigorous head-to-head benchmark pitting Anthropic's Fable 5 against GPT-5.6 Sol on NP-hard problems, with a specific focus on whether the `/goal` prompt directive changes outcomes. This is the kind of practical prompt-engineering research that directly informs how you use AI coding assistants. The results are nuanced and surprising."
+    },
+    {
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "hn_link": "https://news.ycombinator.com/item?id=48964185",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by subset · 207 points · 78 comments",
+      "blurb": "A sharp, acerbic essay from Ludicity arguing that AI hype is degrading institutional decision-making at scale — not by being wrong, but by crowding out careful deliberation. The writing is excellent and the argument is more specific and grounded than the clickbait title suggests. A necessary counterweight to today's other AI enthusiasm stories."
+    },
+    {
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "hn_link": "https://news.ycombinator.com/item?id=48962983",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by gnabgib · 471 points · 206 comments",
+      "blurb": "New York City may mandate disclosure when AI-generated images are used in real estate listings — a first-of-its-kind policy with broad implications for AI content labeling generally. The photography angle (via PetaPixel) adds a creative software dimension: AI image generation is now a regulated activity in some jurisdictions. Watch this space."
+    },
+    {
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "hn_link": "https://news.ycombinator.com/item?id=48966120",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nh43215rgb · 114 points · 55 comments",
+      "blurb": "Alibaba's Qwen3.8 is dropping as an open-weight model imminently — another high-quality option for local inference and self-hosted AI workflows. Given that Qwen3 has consistently punched above its weight class on coding tasks, this is directly relevant to anyone running LLMs locally or building AI-assisted dev tools."
+    },
+    {
+      "title": "1Password now lets Claude sign in to websites without seeing your passwords",
+      "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "1Password has integrated with Claude to enable AI-driven web authentication without ever exposing your actual credentials to the model — a genuinely clever privacy-preserving design. For anyone building or using Claude-powered agents that need to log into services, this is a game-changer. The Apple/Mac angle is strong via 9to5Mac coverage."
+    },
+    {
+      "title": "What have note-taking PKMs accomplished, really? · brennan.day",
+      "url": "https://brennan.day/what-have-note-taking-pkms-accomplished-really/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: pkm, notetaking, knowledge, tools, research",
+      "blurb": "A thoughtful provocation for Obsidian users: after years of PKM tools, what tangible intellectual output have they actually produced? The author doesn't trash the tools but asks for honest accounting. If you live in Obsidian, this essay will either validate your workflow or make you uncomfortable — either outcome is useful."
+    },
+    {
+      "title": "Harness Handbook — Making Agent Harnesses Understandable, Auditable & Editable",
+      "url": "https://ruhan-wang.github.io/Harness-Handbook/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A practical handbook for designing AI agent harnesses that are human-readable, auditable, and editable — exactly the discipline that separates toy agents from production-grade ones. If you're building with Claude Code or any agentic AI framework, this is the missing manual for the scaffolding layer. Dense with actionable patterns."
+    },
+    {
+      "title": "Flue — The Agent Harness Framework",
+      "url": "https://flueframework.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, typescript, sandbox",
+      "blurb": "Flue is a TypeScript-first framework for building AI agent harnesses with sandboxed execution. The TypeScript angle is a direct match for our reader's Angular/.NET stack, and the sandboxing approach addresses a real pain point in agentic systems. Pairs naturally with the Harness Handbook above."
+    },
+    {
+      "title": "LLM cliché highlighter",
+      "url": "https://tools.simonwillison.net/llm-cliche-highlighter",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, LLM",
+      "blurb": "Simon Willison's browser tool scans text and highlights the classic LLM clichés — \"delve\", \"it's worth noting\", the whole rogues' gallery. Instantly useful for editing AI-generated content before it ships. Bookmarkable and shareable; your team will thank you."
+    },
+    {
+      "title": "LocalSend",
+      "url": "https://localsend.org/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "LocalSend is an open-source, cross-platform AirDrop alternative that works over local Wi-Fi with no cloud intermediary — fully private, no account required. It supports macOS, iOS, Windows, Android, and Linux, making it the tool of choice when AirDrop's Apple-only constraint gets in the way. Free and genuinely excellent."
+    },
+    {
+      "title": "Towards demystifying the creativity of diffusion models",
+      "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Machine-Learning",
+      "blurb": "Google Research digs into how diffusion models produce outputs that appear creative — specifically whether they're interpolating training data or doing something more interesting. This is the kind of foundational ML research that informs how you think about and prompt image generation tools. Accessible writing for a deep topic."
+    },
+    {
+      "title": "patonw/leaves: A text-mode disk usage visualization utility",
+      "url": "https://github.com/patonw/leaves",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "Leaves is a terminal-based disk usage visualizer that renders interactive tree views in text mode — think ncdu but with a fresh take on the interface. Developers who live in the terminal will find this immediately useful for hunting down disk hogs without leaving the command line. Drop-in daily driver material."
+    },
+    {
+      "title": "clipart.studio — magazine collage maker",
+      "url": "https://clipart.studio/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A delightful browser-based digital collage tool that pulls real magazine pages from the Internet Archive — clip, arrange, and compose directly in the browser. The creative concept is clever and the execution is surprisingly polished. A fun bookmark for design inspiration or actual collage work."
+    },
+    {
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Google is folding NotebookLM into the Gemini brand as \"Gemini Notebook\" — a rebranding that signals deeper integration with Google's AI stack but may concern users who valued NotebookLM's focused, research-oriented identity. For Obsidian users and knowledge workers who've been eyeing NotebookLM as a complement to their PKM, this is worth tracking."
+    }
+  ]
+}
