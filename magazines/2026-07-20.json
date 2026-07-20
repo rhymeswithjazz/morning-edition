@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-20",
+  "stories": [
+    {
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "hn_link": "https://news.ycombinator.com/item?id=48966569",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 533 points · 707 comments",
+      "blurb": "Simon Willison digs into Claude Code's runtime shift to Bun — itself compiled in Rust — a notable architectural move for Anthropic's flagship coding assistant. If you use Claude Code daily, this explains recent performance changes and has big implications for how the tool ships and runs. 707 comments means the community has a lot of feelings about this."
+    },
+    {
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "hn_link": "https://news.ycombinator.com/item?id=48973869",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by loubbrad · 431 points · 255 comments",
+      "blurb": "Claude's research-oriented \"Fable\" mode apparently produced a counterexample to a 50-year-old unsolved problem in algebraic geometry. Whether it holds up to scrutiny or not, this is the kind of AI-does-math moment that will be dissected for weeks. Essential reading for anyone tracking frontier AI capabilities."
+    },
+    {
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "hn_link": "https://news.ycombinator.com/item?id=48968606",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by section33 · 2376 points · 259 comments",
+      "blurb": "The highest-scored HN story today: a developer reverse-engineered an entire bowling alley management system and rebuilt it on cheap microcontrollers for a fraction of the cost. A masterclass in embedded systems, reverse engineering, and the absurdity of enterprise hardware pricing."
+    },
+    {
+      "title": "Blender 5.2 LTS",
+      "url": "https://www.blender.org/download/releases/5-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=48911021",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by makizar · 400 points · 166 comments",
+      "blurb": "Blender drops a new Long-Term Support release, meaning this version gets backported bug fixes for years — the safe bet for production pipelines. If you've been putting off upgrading your creative 3D toolkit, LTS is the moment to do it."
+    },
+    {
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "hn_link": "https://news.ycombinator.com/item?id=48975665",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by infosecau · 118 points · 61 comments",
+      "blurb": "A security researcher used a $25 AI API run to surface a WordPress RCE that exploit brokers would pay half a million dollars for. This is a watershed moment for AI-assisted vulnerability research — and a wake-up call for anyone running WordPress. The cost asymmetry between attackers and defenders just got a lot worse."
+    },
+    {
+      "title": "Orion Browser by Kagi",
+      "url": "https://orionbrowser.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48970894",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by sebjones · 213 points · 151 comments",
+      "blurb": "Kagi's Orion browser — WebKit-based, with native support for Chrome and Firefox extensions on macOS — is getting renewed attention. It's one of the most privacy-respecting browsers available on Apple platforms, with zero telemetry. If you're deep in the Apple ecosystem and want to ditch Safari or Chrome, this is the serious alternative."
+    },
+    {
+      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "hn_link": "https://news.ycombinator.com/item?id=48966713",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by chipweinberger · 497 points · 232 comments",
+      "blurb": "A software developer who shipped 2,500 physical MIDI devices shares candid lessons about manufacturing, supply chains, and the emotional reality of hardware. Surprisingly actionable for any developer who's ever thought \"I should build a thing.\" The MIDI/music angle makes it extra relevant for creative tooling fans."
+    },
+    {
+      "title": "I burned all my tokens researching how to save tokens",
+      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+      "hn_link": "https://news.ycombinator.com/item?id=48967355",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bkotrys · 135 points · 184 comments",
+      "blurb": "A practical deep-dive into building custom AI research pipelines while trying to minimize token costs — with the ironic twist that the research itself burned more tokens than it saved. Essential reading for anyone building agentic workflows or trying to get Claude to do research tasks cheaply."
+    },
+    {
+      "title": "How proprietary formats have become Microsoft's main tool for lock-in",
+      "url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/",
+      "hn_link": "https://news.ycombinator.com/item?id=48974476",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by cube00 · 105 points · 71 comments",
+      "blurb": "The Document Foundation makes the case that Microsoft's proprietary format extensions are a deliberate interoperability tax, not accidental complexity. Relevant for any developer dealing with Office file formats, and a useful lens for thinking about vendor lock-in in general."
+    },
+    {
+      "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "url": "https://github.com/hgaiser/moonshine",
+      "hn_link": "https://news.ycombinator.com/item?id=48972970",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by wertyk · 201 points · 86 comments",
+      "blurb": "Moonshine is an open-source NVIDIA GameStream host that works with the Moonlight client — letting you stream PC games to any device without needing a GeForce GPU. A significant gap-filler for the self-hosted game streaming crowd, especially on AMD or Intel hardware."
+    },
+    {
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48959392",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A step-by-step guide to configuring a spare Mac as a headless Claude Code agent — essentially a personal AI workstation that runs tasks autonomously. If you use Claude Code and have an old Mac collecting dust, this is an immediately actionable weekend project."
+    },
+    {
+      "title": "AgriciDaniel/claude-obsidian: Claude + Obsidian knowledge companion",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, knowledge, base, obsidian, wiki, llm",
+      "blurb": "An open-source project that pairs Claude with Obsidian to create a persistent, compounding wiki vault — based on Karpathy's LLM Wiki pattern. For Obsidian users who also work with Claude, this is a direct hit: commands like /wiki, /save, and /autoresearch bring AI into your second brain."
+    },
+    {
+      "title": "Security incident disclosure — July 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: large_language_models, cybersecurity, adversarial_attacks",
+      "blurb": "Hugging Face discloses a security incident involving adversarial attacks on its platform. As the central hub for open-source model distribution, any breach here has downstream implications for the entire ML ecosystem. Worth reading if you pull models or datasets from HF in your AI workflows."
+    },
+    {
+      "title": "AI advice made people three times less accurate but twice as confident, researchers found",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: currently-reading",
+      "blurb": "A new study found AI availability collapsed willingness to say 'I don't know' from 44% to 3%, accuracy from 27% to 9%, while confidence rose to 76%. A stark empirical warning for anyone integrating AI assistants into decision-making workflows — the confidence-competence gap is real and measurable."
+    },
+    {
+      "title": "BBEdit 16 is here! | Bare Bones Software",
+      "url": "https://www.barebones.com/products/bbedit/bbedit16.html",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "BBEdit 16 lands — the beloved Mac text editor that's been a developer staple for decades just got a major version bump. If you're in the macOS ecosystem and haven't kept up with recent BBEdit releases, this is worth a look at what's new."
+    },
+    {
+      "title": "GitHub - ayghri/i-have-adhd: Claude Code skill to stop it from burying the answer",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A Claude Code skill/prompt configuration that forces the AI to lead with the answer instead of burying it in verbose preamble. ADHD-friendly output design, but honestly useful for everyone tired of scrolling through paragraphs of hedging to find the actual response."
+    },
+    {
+      "title": "AddyOsmani.com - Loop Engineering",
+      "url": "https://addyosmani.com/blog/loop-engineering/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agenticAI, agenticEngineering",
+      "blurb": "Addy Osmani explores \"loop engineering\" — the practice of designing agentic AI workflows that iterate, verify, and self-correct. As Claude Code and similar tools move from single-shot to multi-step agents, understanding loop patterns becomes a core developer skill."
+    },
+    {
+      "title": "Investigation reveals dozens of disguised gambling apps on the App Store in Brazil - 9to5Mac",
+      "url": "https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "An investigation found dozens of apps disguising themselves as innocuous utilities while running illegal gambling operations on Apple's App Store in Brazil. A damaging story for Apple's \"curated\" App Store narrative, and a reminder that review processes have systematic blind spots."
+    },
+    {
+      "title": "Half a Second",
+      "url": "https://www.half-second.com/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: vulnerability, hack, literature, creativecommons, ebook",
+      "blurb": "A narrative non-fiction book (free, Creative Commons) about the XZ Utils supply-chain attack — telling the full story of the burned-out maintainer who was manipulated into surrendering the codebase, the engineer whose half-second of curiosity caught it, and the still-unidentified attacker. Essential reading for anyone in open-source."
+    },
+    {
+      "title": "Making Software: How to make a font.",
+      "url": "https://www.makingsoftware.com/chapters/how-to-make-a-font",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A deep, visually rich chapter from the \"Making Software\" project explaining the craft of designing a typeface from scratch — covering bezier curves, hinting, spacing, and the toolchain. A surprisingly accessible entry point into type design for developers who want to understand the creative software side of typography."
+    }
+  ]
+}
