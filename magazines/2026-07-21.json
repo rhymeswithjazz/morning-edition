@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-21",
+  "stories": [
+    {
+      "title": "China's open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "hn_link": "https://news.ycombinator.com/item?id=48979269",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by benwerd · 1115 points · 843 comments",
+      "blurb": "The highest-scoring story of the day argues that America's closed, proprietary AI model strategy is ceding the global market to China's open-weights approach — models anyone can run, fine-tune, and deploy without API gatekeepers. With 843 comments, this is the conversation the whole industry is having right now. If you're building with AI tools, the balance of power in the model ecosystem directly affects your stack choices."
+    },
+    {
+      "title": "Who's afraid of Chinese models?",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "hn_link": "https://news.ycombinator.com/item?id=48977128",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 658 points · 464 comments",
+      "blurb": "Ben Thompson's Stratechery digs into the geopolitics and economics of Chinese frontier models — Kimi K3, Qwen, and friends — and asks whether Western developers should actually be worried. A great companion read to the top story, with Thompson's usual sharp framework for thinking about platform competition. Essential context if you're evaluating which models to build on."
+    },
+    {
+      "title": "Hacker wipes Romania's land registry database",
+      "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+      "hn_link": "https://news.ycombinator.com/item?id=48978605",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 648 points · 362 comments",
+      "blurb": "A hacker completely wiped Romania's national land registry — no ransom, no exfiltration, just destruction. This is a stark reminder that critical government infrastructure can be annihilated with no recovery path if backups are inadequate. The Risky Biz team has the full breakdown of how it happened."
+    },
+    {
+      "title": "Kimi Work",
+      "url": "https://www.kimi.com/products/kimi-work",
+      "hn_link": "https://news.ycombinator.com/item?id=48981703",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ms7892 · 564 points · 240 comments",
+      "blurb": "Moonshot AI just launched Kimi Work, a workplace AI assistant built on their frontier Kimi K3 model. It's entering the same space as Copilot and Gemini Workspace but with a model that's been benchmarking impressively against GPT-4 class competitors. Worth evaluating if you're rethinking your AI-assisted dev workflow."
+    },
+    {
+      "title": "Jelly UI: Soft-body physics for native HTML form controls",
+      "url": "https://jelly-ui.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48981620",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by baldvinmar · 502 points · 157 comments",
+      "blurb": "Someone built wobbly, soft-body physics into standard HTML form elements — checkboxes, toggles, sliders — and the result is delightfully weird. It's pure creative coding joy, and the demo page alone is worth a click. A reminder that there's still huge creative space in web UI that nobody has explored."
+    },
+    {
+      "title": "Human mathematicians are being outcounterexampled",
+      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+      "hn_link": "https://news.ycombinator.com/item?id=48983382",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by artninja1988 · 352 points · 145 comments",
+      "blurb": "The Xena Project blog documents cases where AI systems are now finding counterexamples to conjectures faster than human mathematicians — a genuine milestone in AI capability. This isn't just neat math trivia; it signals that LLMs are crossing into creative deductive reasoning territory. A must-read for anyone thinking about where AI tools are heading."
+    },
+    {
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "hn_link": "https://news.ycombinator.com/item?id=48980019",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cl42 · 338 points · 312 comments",
+      "blurb": "A sharp economic analysis of the frontier AI lab landscape — arguing that cheap Chinese models are squeezing Anthropic's margins and business model. Since Claude Code is central to your workflow, anything affecting Anthropic's trajectory is worth your attention. The 312 HN comments are a goldmine of industry takes."
+    },
+    {
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "url": "https://blaizzy.github.io/nativ/",
+      "hn_link": "https://news.ycombinator.com/item?id=48982681",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by aratahikaru5 · 283 points · 93 comments",
+      "blurb": "Nativ is a new macOS app that lets you run open frontier models locally with a clean native interface — no Docker, no CLI wrangling. Built for Apple Silicon, it's the kind of polished Mac-first experience that Ollama lacks. If you want local AI inference without leaving the Apple ecosystem, this is it."
+    },
+    {
+      "title": "Agent swarms and the new model economics",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "hn_link": "https://news.ycombinator.com/item?id=48982535",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jlaneve · 200 points · 87 comments",
+      "blurb": "Cursor's engineering blog on how running swarms of cheap smaller models can outperform single expensive frontier model calls — with real cost breakdowns. This is directly actionable for anyone building AI-assisted dev workflows. The economics shift when you stop thinking about one model and start thinking about orchestration."
+    },
+    {
+      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "hn_link": "https://news.ycombinator.com/item?id=48981206",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dopamine_daddy · 226 points · 155 comments",
+      "blurb": "A methodologically honest investigation into AI-generated text detection on academic papers — and a frank accounting of where the classifiers fail. The findings matter for anyone using LLMs to draft technical docs or research summaries, and for understanding what the academic literature is actually measuring. Refreshingly self-critical."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Herdr is a persistent terminal multiplexer purpose-built for coding agents — think tmux but with built-in state awareness for \"blocked,\" \"done,\" and \"working\" agent states. Lets you detach and reattach while your agents keep running. If you're running Claude Code or similar tools on long tasks, this solves the exact problem of babysitting your terminal."
+    },
+    {
+      "title": "The Right Amount of Spec for Agentic Development – O'Reilly",
+      "url": "https://www.oreilly.com/radar/the-right-amount-of-spec-for-agentic-development/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI, code",
+      "blurb": "O'Reilly Radar tackles one of the most practical questions in AI-assisted development: how much specification do you actually need to give an agent before it goes off the rails? Too little and it hallucinates intent; too much and you've just written the code yourself. Concrete guidance for anyone using Claude Code or Cursor in real projects."
+    },
+    {
+      "title": "GitHub - lopopolo/harness-engineering: 🐎 Ryan Lopopolo's anthology, field guide, and agent context bundle for harness engineering",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, stars",
+      "blurb": "A curated anthology and field guide for \"harness engineering\" — the craft of structuring context, tools, and scaffolding so AI agents actually do what you want. Think of it as a living opinionated playbook for agentic workflows. An essential reference if you're building on top of Claude Code or other coding agents."
+    },
+    {
+      "title": "GitHub - handy-computer/transcribe.cpp: ggml speech-to-text inference for 16+ model families",
+      "url": "https://github.com/handy-computer/transcribe.cpp",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, stars",
+      "blurb": "A ggml-based speech-to-text CLI that supports 16+ model families including Whisper variants — all running locally, no API keys needed. If you want offline transcription on your Mac without sending audio to the cloud, this is a compelling privacy-respecting option. Pairs perfectly with Obsidian voice notes workflows."
+    },
+    {
+      "title": "Faulty Towers, vibe sickness, and the vibe bobsled",
+      "url": "https://dustycloud.org/blog/faulty-towers-vibe-sickness-and-the-vibe-bobsled/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "A sharp and funny critique of \"vibe coding\" — the practice of iterating by vibes with an LLM until something works, without understanding why. The author coins \"vibe sickness\" for the disorientation that sets in when the accumulated AI suggestions create an incoherent codebase. Essential reading for anyone who uses Claude Code daily and wants to stay grounded."
+    },
+    {
+      "title": "wp2shell: Pre Authentication RCE in WordPress Core",
+      "url": "https://wp2shell.com/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: wordpress, vulnerability, testing, webdev",
+      "blurb": "A disclosed pre-authentication remote code execution vulnerability in WordPress core — the kind that can compromise sites before a single login attempt. The dedicated site documents the exploit chain in detail. If you maintain any WordPress installations, patch or take action now."
+    },
+    {
+      "title": "Mermaid ASCII Diagram Generator",
+      "url": "https://github.com/AlexanderGrooff/mermaid-ascii",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: onlinetools, visualization, opensource, golang",
+      "blurb": "Convert Mermaid diagram syntax into ASCII art diagrams — useful for embedding architecture diagrams in plain-text docs, READMEs, or Obsidian notes without images. Built in Go, runs locally, open source. A tiny but genuinely useful tool for developers who live in text editors and markdown."
+    },
+    {
+      "title": "stupside/castor",
+      "url": "https://github.com/stupside/castor",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "Castor is a CLI that extracts video streams from arbitrary websites and casts them directly to your TV — handling format compatibility on the fly with optional burned-in subtitles. It solves the annoying reality that most smart TVs won't cast from random URLs. A clever Unix-philosophy tool: one job, done well."
+    },
+    {
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: router, homelab",
+      "blurb": "A detailed walkthrough of replacing a consumer router with MikroTik hardware for proper network control at home. MikroTik gives you real firewall rules, VLANs, and traffic inspection without cloud phone-home behavior. If privacy and network control matter to you, this is the kind of homelab upgrade that pays long-term dividends."
+    },
+    {
+      "title": "The U.S. just approved a giant space mirror to test 'sunlight on demand.' Low Earth orbit is getting weird",
+      "url": "https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: XDN, Economy, Ecology",
+      "blurb": "The FCC just approved a satellite that will reflect sunlight back to Earth on demand — and SpaceX simultaneously filed for one million more satellites for AI data centers. The Conversation lays out the cascade of safety, astronomical, and environmental concerns this creates. Low Earth orbit has officially entered its chaotic era."
+    }
+  ]
+}
