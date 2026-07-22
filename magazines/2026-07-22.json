@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-22",
+  "stories": [
+    {
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "hn_link": "https://news.ycombinator.com/item?id=48997548",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by mfiguiere · 1184 points · 821 comments",
+      "blurb": "A security incident during model evaluation on Hugging Face — the biggest story on HN today by a wide margin. The supply-chain attack surface of shared model hosting is a real and underappreciated risk for anyone building AI workflows. 821 comments means the community has a lot to say; read before you push your next model to the Hub."
+    },
+    {
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=48996571",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by montecarl · 784 points · 576 comments",
+      "blurb": "OpenAI officially opens a self-serve ads platform for ChatGPT, confirming the long-dreaded pivot toward advertising revenue. This changes the incentive structure of the product millions use daily and has major implications for anyone relying on ChatGPT's outputs as a neutral tool. The backlash thread is worth reading."
+    },
+    {
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "hn_link": "https://news.ycombinator.com/item?id=48993414",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by logickkk1 · 695 points · 531 comments",
+      "blurb": "Google drops three new Gemini variants in one go, including a security-focused \"Cyber\" model. Flash-Lite is positioned as the cheapest option for high-volume tasks — directly relevant for anyone routing AI calls in Claude Code workflows. Compare pricing and context windows before your next architecture decision."
+    },
+    {
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "hn_link": "https://news.ycombinator.com/item?id=48999291",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by piotrgrabowski · 644 points · 348 comments",
+      "blurb": "Moonshot's Kimi K3 is matching Anthropic's Fable on benchmarks, and combining the two sets a new state-of-the-art. The open-weight insurgency from Chinese labs is compressing the frontier faster than anyone predicted — worth benchmarking against your own Claude Code use cases."
+    },
+    {
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "url": "https://freeink.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=48996318",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by FriedPickles · 570 points · 122 comments",
+      "blurb": "An open-source initiative to build a fully open e-reader ecosystem — hardware, firmware, and software. Kindle lock-in has been a frustration for years and this is the most serious organized effort yet to crack it. Watch this space if you care about open hardware."
+    },
+    {
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "hn_link": "https://news.ycombinator.com/item?id=48997221",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by healsdata · 567 points · 99 comments",
+      "blurb": "The EU Court of Justice rules unambiguously that VPNs are lawful tools, in a case involving the Anne Frank House and copyright. This landmark decision pushes back against years of ISP and rightsholder pressure to treat VPN users as presumptive pirates. A genuinely good day for digital rights in Europe."
+    },
+    {
+      "title": "Apple defeats liability for not scanning iCloud for CSAM",
+      "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+      "hn_link": "https://news.ycombinator.com/item?id=48992870",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 419 points · 400 comments",
+      "blurb": "Apple wins the case but the judge's displeasure signals ongoing legal and political pressure to scan private cloud storage. Eric Goldman's analysis is the best read on this — the ruling preserves iCloud privacy for now but leaves the door open. Critical reading for anyone in the Apple ecosystem."
+    },
+    {
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "hn_link": "https://news.ycombinator.com/item?id=48996652",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by BeetleB · 379 points · 319 comments",
+      "blurb": "$1.5 billion is a record settlement in AI copyright litigation and sets a concrete financial precedent every AI company is now watching. It doesn't resolve the underlying questions about training data legality, but it establishes the price of getting it wrong. Directly relevant to anyone building products on top of Claude."
+    },
+    {
+      "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
+      "url": "https://e360.yale.edu/digest/benin-coral-reef",
+      "hn_link": "https://news.ycombinator.com/item?id=48993816",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by speckx · 351 points · 75 comments",
+      "blurb": "Scientists discover a living, thriving coral reef off Benin that was thought to be dead — a rare piece of good environmental news. The reef survived in conditions that should have killed it, raising fascinating questions about coral resilience. A palate cleanser for the doom scroll."
+    },
+    {
+      "title": "Apple Private Cloud Compute SoC 3 audit reports",
+      "url": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
+      "hn_link": "https://news.ycombinator.com/item?id=48995796",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by throwfaraway4 · 130 points · 51 comments",
+      "blurb": "Apple publishes the SOC 3 audit reports for Private Cloud Compute — the infrastructure that powers AI features in Apple Intelligence. Third-party attestation of the privacy claims Apple has been making is a meaningful step; this is the receipt. Essential reading if you're evaluating Apple Intelligence for privacy-sensitive use cases."
+    },
+    {
+      "title": "You only need the frontier model for one single edit — Stencil",
+      "url": "https://stencil.so/blog/prewalk",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, programming, performance",
+      "blurb": "Stencil's engineering blog argues that for most code editing tasks, you can pre-analyze the codebase with a cheap model and only invoke the expensive frontier model for the final targeted edit — dramatically cutting costs and latency. A practical architectural pattern directly applicable to Claude Code workflows. Lean and actionable."
+    },
+    {
+      "title": "Claude Is Not a Compiler - exe.dev blog",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: engineering, ai, claude",
+      "blurb": "A sharp post arguing that treating Claude like a deterministic compiler — feeding it specs and expecting exact outputs — fundamentally misunderstands how to work with LLMs effectively. Uses the Empire State Building construction as an analogy for iterative, collaborative development. Required reading before your next Claude Code session."
+    },
+    {
+      "title": "Reviewing AI Code Is Not A Viable Argument",
+      "url": "https://www.softwaremaxims.com/blog/reviewing-ai-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-assisted, ai, programming, career, culture, philosophy, productivity",
+      "blurb": "A provocative essay challenging the \"just review the AI output\" defense — arguing that the cognitive load of reviewing unfamiliar AI-generated code at scale breaks the assumption that code review is a reliable quality gate. Uncomfortable and important for anyone using AI coding assistants in production. Pairs well with the Claude Is Not a Compiler piece."
+    },
+    {
+      "title": "block/buzz: A hive mind communication platform",
+      "url": "https://github.com/block/buzz",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: clanker",
+      "blurb": "Jack Dorsey's Block open-sources Buzz on GitHub — a Nostr-based platform where every message, reaction, workflow step, code review, and git event is a signed event in one unified log. The same identity model covers humans and AI agents. An interesting architectural bet worth watching if you care about open dev tooling."
+    },
+    {
+      "title": "A global workspace in language models Anthropic",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude",
+      "blurb": "Anthropic research applies Global Workspace Theory — a neuroscience model of consciousness — to explain information routing inside large language models. Beyond the interpretability interest, this has practical implications for understanding why agentic Claude behaviors emerge the way they do. Dense but rewarding."
+    },
+    {
+      "title": "The EU is about to sell our most sensitive data to the US for visa-free travel - European Digital Rights (EDRi)",
+      "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: us, eu, visa",
+      "blurb": "EDRi warns that the EU is negotiating away biometric and travel data for all European citizens in exchange for visa-free US access — potentially the largest state-sanctioned data transfer in history. The privacy implications dwarf most of the breaches that dominate the news cycle. Read this."
+    },
+    {
+      "title": "AI Companies Are Buying Tons of Old Books Because They're Free of AI Slop",
+      "url": "https://www.404media.co/ai-companies-are-buying-tons-of-old-books-because-theyre-free-of-ai-slop/?ref=daily-stories-newsletter",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: books, training_data, artificial_intelligence, LLMs",
+      "blurb": "Pre-2022 physical books are becoming premium AI training data because they're structurally guaranteed to be free of AI-generated text — avoiding the \"model collapse\" trap of training on synthetic content. A fascinating economic and epistemic loop: human writing from before the LLM era is now a scarce, valuable commodity."
+    },
+    {
+      "title": "Visual design rules you can safely follow every time",
+      "url": "https://anthonyhobday.com/sideprojects/saferules/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: webdesign, color, typography, grid, reference, optimization, inspiration, design, ui, ux",
+      "blurb": "A concise, opinionated reference of visual design rules that reliably produce good results — covering color, typography, spacing, and layout. The kind of bookmark you share with every developer who has to design something. Actionable immediately and worth printing out."
+    },
+    {
+      "title": "OpenSpec — A lightweight spec‑driven framework",
+      "url": "https://openspec.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, specification, spec, planning, development",
+      "blurb": "OpenSpec is a lightweight framework for writing machine-readable specs that drive LLM-assisted development — essentially a structured contract between the developer and the AI coding assistant. A natural complement to Claude Code workflows that helps tame scope creep and hallucinated implementations."
+    },
+    {
+      "title": "Cagire - Forth-based live coding sequencer",
+      "url": "https://cagire.raphaelforment.fr/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Cagire is a live-coding music sequencer built on Forth — a wildly unconventional stack-based language that turns out to be surprisingly expressive for real-time audio sequencing. A niche gem for anyone at the intersection of creative coding and music performance. The demo videos are worth watching."
+    }
+  ]
+}
