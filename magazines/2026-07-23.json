@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-23",
+  "stories": [
+    {
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "hn_link": "https://news.ycombinator.com/item?id=49010345",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 894 points · 517 comments",
+      "blurb": "The world's most famous living mathematician used ChatGPT to work through a potential counterexample to one of mathematics' longest-standing open problems. This is a landmark demonstration of AI as a genuine research collaborator — not just a code autocomplete. Watch a Fields Medalist think out loud with an LLM and see exactly where the model helps and where it struggles."
+    },
+    {
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "hn_link": "https://news.ycombinator.com/item?id=49008211",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by starfallg · 851 points · 190 comments",
+      "blurb": "A self-contained presentation tool that packs editing, viewing, data, and collaboration into a single HTML file — no server required. For developers who are tired of Google Slides and heavy installs, this is the kind of clever local-first design worth bookmarking. The data-in-HTML approach is surprisingly powerful and very shareable."
+    },
+    {
+      "title": "John C. Dvorak has died",
+      "url": "https://twitter.com/na_announce/status/2079952538040672302",
+      "hn_link": "https://news.ycombinator.com/item?id=49012070",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by coleca · 758 points · 251 comments",
+      "blurb": "John C. Dvorak, the cantankerous tech columnist and podcaster who shaped PC Magazine's voice for decades, has passed away. A polarizing but undeniably influential figure who never softened his opinions about the industry he covered. The HN thread is a touching collection of memories from readers who grew up reading him."
+    },
+    {
+      "title": "Are AI labs pelicanmaxxing?",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49010129",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dcastm · 548 points · 211 comments",
+      "blurb": "A sharp essay arguing that AI labs are optimizing hard for benchmark metrics — fishing pelican-style — while ignoring whether those gains translate to real-world usefulness. If you've felt skeptical of model release hype cycles, this piece gives you a vocabulary and a framework for that skepticism. Essential reading for anyone evaluating which AI tools to actually use."
+    },
+    {
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "url": "https://github.com/marcelroed/gigatoken/",
+      "hn_link": "https://news.ycombinator.com/item?id=49010167",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by syrusakbary · 514 points · 107 comments",
+      "blurb": "A SIMD-accelerated tokenizer claiming roughly 1000x speedups over standard implementations — a drop-in replacement you can try today. If you're running local LLM inference pipelines or building AI tooling, tokenization is often a silent bottleneck. This could be a meaningful win for production throughput."
+    },
+    {
+      "title": "So Reddit has decided that plain HTML is unsafe",
+      "url": "https://www.cole-k.com/2026/07/21/reddit/",
+      "hn_link": "https://news.ycombinator.com/item?id=49005747",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by montroser · 478 points · 482 comments",
+      "blurb": "Reddit is now flagging plain HTML files as unsafe — a baffling security theater move that breaks legitimate developer use cases. The author dissects exactly what Reddit is blocking, why the reasoning is flawed, and what it signals about the platform's increasingly hostile relationship with technical users. Maddening and instructive in equal measure."
+    },
+    {
+      "title": "Everyone should know SIMD",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "hn_link": "https://news.ycombinator.com/item?id=49010648",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by WadeGrimridge · 441 points · 159 comments",
+      "blurb": "Mitchell Hashimoto (of Vagrant/Terraform fame) makes the case that SIMD isn't just for performance nerds — it's a foundational concept every developer should have in their toolkit. With GigaToken also in today's issue using SIMD for LLM tokenization, the timing couldn't be better. An approachable intro to a topic that pays dividends fast."
+    },
+    {
+      "title": "LG to ban residential proxies from smart TV apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "hn_link": "https://news.ycombinator.com/item?id=49000864",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by DemiGuru · 429 points · 437 comments",
+      "blurb": "Brian Krebs digs into LG's move to block residential proxy traffic from smart TV apps — a response to ad fraud and geo-spoofing, but with significant collateral damage for privacy-minded users using legitimate VPNs. The 437-comment HN thread is where the real debate happens about what this means for the open internet."
+    },
+    {
+      "title": "The startup's Postgres survival guide",
+      "url": "https://hatchet.run/blog/postgres-survival-guide",
+      "hn_link": "https://news.ycombinator.com/item?id=49005787",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by abelanger · 415 points · 192 comments",
+      "blurb": "A practical, battle-tested guide to not accidentally destroying your Postgres database as your startup scales — covering connection pooling, vacuuming, index bloat, and more. This is the kind of ops knowledge that usually costs you a 3am incident to learn. Bookmark it before you need it."
+    },
+    {
+      "title": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "url": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
+      "hn_link": "https://news.ycombinator.com/item?id=48989006",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by xgpyc2qp · 19 points · 6 comments",
+      "blurb": "A security researcher demonstrates how ANSI escape sequences injected into MCP server responses are invisible to human reviewers but fully interpreted by LLMs — a subtle new attack vector for anyone building AI agents. If you're using Claude Code or any MCP-enabled workflow, this is a threat model you need to understand right now. Low score on HN but high real-world relevance."
+    },
+    {
+      "title": "AI Didn't Make Programming Easier. It Just Made It Differently Difficult – Communications of the ACM",
+      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A Communications of the ACM opinion piece that cuts through the hype: AI coding tools shift difficulty rather than eliminate it, introducing new challenges around verification, trust, and understanding generated code. This is the nuanced take on AI-assisted development that the breathless press releases won't give you. Required reading for daily Claude Code users."
+    },
+    {
+      "title": "Davit — a native macOS UI for Apple containers",
+      "url": "https://davit.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: docker, container",
+      "blurb": "A polished native macOS app for managing Apple's new container infrastructure, providing the kind of GUI experience that Docker Desktop long promised but never quite delivered on Mac. If you're running containerized .NET or other workloads on Apple Silicon, this looks like the missing piece. Native = fast and properly integrated with macOS conventions."
+    },
+    {
+      "title": "nativ",
+      "url": "https://github.com/Blaizzy/nativ",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "A native macOS app for running MLX models locally — chat, serve, monitor, and connect AI models without cloud dependency. For the privacy-conscious developer who wants local LLM inference on Apple Silicon without the command-line friction, this is exactly what you've been waiting for. Pairs perfectly with a reader who cares about both the Apple ecosystem and AI tooling."
+    },
+    {
+      "title": "[cw] Stop Using OpenCode",
+      "url": "https://wren.wtf/shower-thoughts/stop-using-opencode/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, programming",
+      "blurb": "A provocative take on OpenCode (an AI coding tool) arguing it's \"naturally adversarial\" to users even if not maliciously so — the kind of critical infrastructure analysis that's missing from most AI tool coverage. Directly relevant if you're evaluating coding assistants and want a counterweight to the marketing. Short, sharp, and worth the five minutes."
+    },
+    {
+      "title": "AI Mania Is Eviscerating Global Decision-Making — Ludicity",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Ludicity's characteristically blunt argument that AI hype isn't just inflating valuations — it's actively degrading the quality of decisions being made at institutional scale. A sobering counterpoint to the optimism permeating the rest of today's issue. The writing is excellent and the thesis is uncomfortable in the best way."
+    },
+    {
+      "title": "chenglou/freerange: Static @fit checks for ordinary TypeScript layout code",
+      "url": "https://github.com/chenglou/freerange",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: language:typescript, hypothesistesting, testing, web-development, frameworks, UI",
+      "blurb": "A static analysis tool for TypeScript that catches layout constraint violations at compile time — think property-based testing meets CSS layout, without the runtime surprises. For Angular/TypeScript developers who've been burned by layout bugs that only appear at certain screen sizes, this is a genuinely novel approach. The author is the creator of React's reconciler, so the pedigree is real."
+    },
+    {
+      "title": "How Google's A.I. Search Is Imperiling the Open Web - The New York Times",
+      "url": "https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: kula_fan_non-fiction, computational_advertising, internet_end_times",
+      "blurb": "The NYT documents in detail how AI Overviews are cannibalizing web traffic for publishers and independent sites — the structural threat to the open web from Google's AI pivot. The economic model that funded a generation of independent technical writing is crumbling. Essential context for anyone who publishes or depends on the open web."
+    },
+    {
+      "title": "late.sh - a cozy terminal clubhouse for developers",
+      "url": "https://late.sh/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ssh, shell, onlinetools, free, simplicity, minimalism, programming, games, fun, interesting, rust, opensource, socialmedia",
+      "blurb": "SSH into a Rust-powered terminal social space and hang out with other developers in a cozy BBS-style environment — complete with IRC, games, and a community vibe. It's a delightful antidote to Slack fatigue, and you can try it right now with a single `ssh late.sh` command. The retrocomputing charm is real."
+    },
+    {
+      "title": "A deep dive into my Forgejo setup • Alexander Fortin",
+      "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, github",
+      "blurb": "A detailed walkthrough of self-hosting Forgejo as a GitHub alternative, covering the infrastructure decisions, migration gotchas, and ongoing maintenance story. With Codeberg banning crypto projects also in today's issue, self-hosted Git forges are having a moment. This is the practical guide for anyone seriously considering the switch."
+    },
+    {
+      "title": "Anthropic's $1.5 billion book piracy settlement approved by judge | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A federal judge has approved Anthropic's $1.5 billion settlement with authors over training data copyright — the largest AI copyright settlement to date and one that will set precedents across the industry. If you use Claude (and this newsletter assumes you do), this is the legal backstory shaping what future models can and can't be trained on. Big deal."
+    }
+  ]
+}
