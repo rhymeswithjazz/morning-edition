@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-24",
+  "stories": [
+    {
+      "title": "OpenAI's accidental attack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "hn_link": "https://news.ycombinator.com/item?id=49015639",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by abhisek · 526 points · 401 comments",
+      "blurb": "Simon Willison breaks down how OpenAI's infrastructure inadvertently hammered Hugging Face — a jaw-dropping incident that blurs the line between accident and cyberattack. If you build on top of AI platforms, this is a vivid reminder of how centralized dependencies can cascade catastrophically. Required reading for anyone thinking seriously about AI supply chain risk."
+    },
+    {
+      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "hn_link": "https://news.ycombinator.com/item?id=49023019",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dhorthy · 323 points · 232 comments",
+      "blurb": "A sharp, opinionated post on why the \"just add scaffolding\" approach to AI coding agents keeps failing in production. The author argues that context engineering is the actual differentiator — not prompt templates or harnesses. If you're using Claude Code or any agentic coding tool, this reframes what you should be optimizing for."
+    },
+    {
+      "title": "Flux 3",
+      "url": "https://bfl.ai/blog/flux-3",
+      "hn_link": "https://news.ycombinator.com/item?id=49031796",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by ThouYS · 295 points · 68 comments",
+      "blurb": "Black Forest Labs drops Flux 3, the next generation of their image generation model — widely considered the best open-weight image model available. Early results show significant quality jumps in photorealism and prompt adherence. If you're building creative pipelines or just want the best local image gen, this is the new baseline."
+    },
+    {
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "hn_link": "https://news.ycombinator.com/item?id=49026810",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by adam_rida · 390 points · 182 comments",
+      "blurb": "A team claims they've matched Fable's AI storytelling/video quality at a third of the cost by running open-weight models efficiently. This is the kind of cost-performance breakthrough that makes proprietary API pricing look hard to justify. Worth watching the demo if you're working on AI-generated media or creative tooling."
+    },
+    {
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "hn_link": "https://news.ycombinator.com/item?id=49023016",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by theanonymousone · 944 points · 781 comments",
+      "blurb": "Founders are pushing back hard on potential restrictions on models like DeepSeek and Qwen, arguing that cutting off access would kneecap American startups that rely on them. The policy stakes here are enormous — open-weight models underpin huge swaths of the current AI startup ecosystem. The HN thread is one of the most active in recent memory."
+    },
+    {
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "hn_link": "https://news.ycombinator.com/item?id=49023427",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Jonathanfishner · 100 points · 30 comments",
+      "blurb": "As AI coding agents get handed more credentials to do their jobs, the attack surface grows fast. OneCLI intercepts and proxies secrets so agents never see raw API keys or tokens — a critical gap in most current setups. If you're running Claude Code or any agentic workflow with production credentials, this is directly relevant."
+    },
+    {
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "hn_link": "https://news.ycombinator.com/item?id=49022911",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by harrisontin · 161 points · 26 comments",
+      "blurb": "A native macOS video editor designed from the ground up to integrate AI features — not bolted on as an afterthought. Open source and already generating buzz as a serious alternative for developers who want scriptable, AI-enhanced video editing without subscription bloat. Worth a look if you do any video work on Mac."
+    },
+    {
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "hn_link": "https://news.ycombinator.com/item?id=49022152",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by dwwoelfel · 1324 points · 597 comments",
+      "blurb": "Neal Stephenson — yes, that Neal Stephenson — makes a compelling case that handwriting engages the brain in ways keyboards simply don't, backed by actual research. For Obsidian users who also keep paper notes, this is validating. The HN comment thread is a goldmine of note-taking system debate."
+    },
+    {
+      "title": "I regret migrating to Codeberg",
+      "url": "https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/",
+      "hn_link": "https://news.ycombinator.com/item?id=49021856",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by boramalper · 313 points · 213 comments",
+      "blurb": "An honest post-mortem from a developer who moved their projects to Codeberg (Gitea-based, privacy-first) and found the ecosystem gaps painful enough to regret it. Covers CI/CD limitations, discoverability, and the network effect problem. Useful counterpoint if you're considering an escape from GitHub."
+    },
+    {
+      "title": "Claude Cookbook",
+      "url": "https://platform.claude.com/cookbook/",
+      "hn_link": "https://news.ycombinator.com/item?id=49031409",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by saikatsg · 60 points · 21 comments",
+      "blurb": "Anthropic's official cookbook of Claude recipes — practical, copy-pasteable examples covering everything from tool use to document summarization to agentic workflows. An underrated resource that just got surfaced again; if you're building with Claude's API or Claude Code, bookmark this and actually read through it."
+    },
+    {
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by jjfoooo4 · 283 points · 195 comments",
+      "blurb": "A systematic takedown of the most common arguments for restricting open-weight AI models — safety theater, competitive moats dressed up as ethics, and regulatory capture. Clear-headed and well-sourced; pairs well with the Politico story above for a full picture of the policy moment we're in."
+    },
+    {
+      "title": "Quickly rewrite Git repository history",
+      "url": "https://github.com/newren/git-filter-repo",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by modinfo · 45 points · 3 comments",
+      "blurb": "git-filter-repo is the officially recommended replacement for git filter-branch — faster, safer, and way less footgun-prone. If you've ever needed to scrub a secret from history, extract a subdirectory into its own repo, or clean up a mess before open-sourcing, this is the tool. Resurfaces today as a handy reminder."
+    },
+    {
+      "title": "What happened to TheNumbers.com",
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by nickthegreek · 381 points · 173 comments",
+      "blurb": "A beloved, long-running film industry data site quietly changed hands and gutted its free data — a cautionary tale about the fragility of independent web resources. The author argues this is a canary-in-the-coal-mine moment for niche data commons. Essential reading for anyone who builds on or relies on third-party data sources."
+    },
+    {
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by louis030195 · 76 points · 54 comments",
+      "blurb": "Screenpipe records your screen and activity, then uses that context to build personalized AI agents that understand how you actually work — not just how you describe your workflow. It's a fascinating and slightly unsettling idea with serious productivity upside. Privacy-conscious users should read the thread carefully before installing."
+    },
+    {
+      "title": "Nothing works and everyone is euphoric",
+      "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pchm · 51 points · 22 comments",
+      "blurb": "A bracingly honest essay about the gap between AI hype and the actual reliability of AI-generated code and systems in production. The author isn't anti-AI — they're calling out the collective willingness to overlook failure modes when demos look impressive. A necessary reality check for anyone shipping AI-assisted code."
+    },
+    {
+      "title": "98.css",
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by lopespm · 476 points · 108 comments",
+      "blurb": "A CSS library that faithfully recreates the Windows 98 UI — complete with beveled borders, status bars, and dialog boxes. It's a delightful piece of nostalgia engineering that's also genuinely useful for retro-themed web projects. The HN comments are full of people building wild things with it."
+    },
+    {
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by r2sk5t · 250 points · 272 comments",
+      "blurb": "DARPA's Air Combat Evolution program successfully flew an AI-controlled F-16 in a dogfighting scenario — a genuine milestone in autonomous systems. The implications for both military AI and the broader question of AI decision-making in life-or-death situations are enormous. The HN thread is lively and technically substantive."
+    },
+    {
+      "title": "The Beam Engine",
+      "url": "https://glinscott.github.io/beam-engine/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by glinscott · 394 points · 74 comments",
+      "blurb": "A beautiful, interactive browser-based demo of a Victorian-era beam engine simulation — detailed mechanical animation running entirely in the browser. It's a masterclass in creative coding and WebGL, and the kind of thing that reminds you why the web is still a magical canvas. Click around; it's genuinely mesmerizing."
+    },
+    {
+      "title": "Span-First C#: Designing Around Span<T>",
+      "url": "https://slicker.me/c_sharp/span-first.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by pjmlp · 4 points · 0 comments",
+      "blurb": "A deep-dive into designing .NET APIs and data structures with Span<T> as a first-class concern — not an afterthought. For .NET developers, Span is one of the most impactful modern additions to the runtime, and this post makes the design philosophy concrete with real examples. Low score but high signal for the reader profile."
+    },
+    {
+      "title": "Building on ATProto",
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 163 points · 82 comments",
+      "blurb": "A developer's honest account of what it's actually like to build an app on the AT Protocol (the tech behind Bluesky) — the good, the rough edges, and the design decisions that make decentralized social genuinely different from REST APIs. If you're curious about the decentralized web stack, this is the most grounded take yet."
+    }
+  ]
+}
