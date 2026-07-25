@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-25",
+  "stories": [
+    {
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "hn_link": "https://news.ycombinator.com/item?id=49038433",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alvis · 1554 points · 898 comments",
+      "blurb": "Anthropic drops its most capable model yet, and it's already sitting at #1 on the Artificial Analysis Intelligence Leaderboard. If you're building with Claude Code or Claude API, this is the new ceiling — expect significantly stronger reasoning, coding, and agentic task completion. Required reading for anyone in the Claude ecosystem."
+    },
+    {
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "url": "https://hhh.hn/hanwha-github-token/",
+      "hn_link": "https://news.ycombinator.com/item?id=49034292",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hhh · 594 points · 191 comments",
+      "blurb": "A researcher discovered that their Hanwha security camera was embedding a live GitHub admin token directly in the login page HTML — accessible to anyone on the local network. A masterclass in supply-chain security negligence and a sobering reminder to audit every device you let onto your home network."
+    },
+    {
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "hn_link": "https://news.ycombinator.com/item?id=49038060",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rwmj · 489 points · 281 comments",
+      "blurb": "The Guardian pushes back hard on OpenAI's narrative about an AI agent \"going rogue\" to exploit a Redis server, suggesting the framing may be more marketing than genuine safety incident. Critical lens on AI safety theater versus real risk — essential reading before you form an opinion on agentic AI danger."
+    },
+    {
+      "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
+      "url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
+      "hn_link": "https://news.ycombinator.com/item?id=49036433",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by rootkea · 467 points · 343 comments",
+      "blurb": "India's government ordered GitHub to take down Jack Dorsey's Bitchat — a decentralized, Bluetooth mesh chat app — citing security concerns. This is a significant precedent for government censorship of open-source comms tools and the reach of state power over GitHub-hosted projects."
+    },
+    {
+      "title": "Firefox Containers Preview",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+      "hn_link": "https://news.ycombinator.com/item?id=48995409",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by twapi · 339 points · 97 comments",
+      "blurb": "Mozilla is giving Containers — the privacy feature that isolates site tracking across browsing contexts — a major overhaul with a new UI and expanded capabilities. For developers and privacy-conscious users, this is the browser privacy feature that actually works at a structural level, not just a setting to toggle."
+    },
+    {
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "hn_link": "https://news.ycombinator.com/item?id=49040296",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by KraftyOne · 304 points · 59 comments",
+      "blurb": "DBOS tears down the conventional wisdom that Postgres LISTEN/NOTIFY is a toy feature that breaks under load — benchmarks show it handling serious throughput with the right architecture. If you're already on Postgres and reaching for Redis pub/sub, read this first."
+    },
+    {
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49035303",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by louiereederson · 607 points · 266 comments",
+      "blurb": "Three of the biggest names in AI infrastructure are jointly lobbying against heavy-handed open-weight model regulation, warning it would entrench closed incumbents. The debate has real stakes for developers who rely on local and open models — follow this closely as legislative frameworks take shape."
+    },
+    {
+      "title": "India's first privately-developed rocket reaches orbit on debut launch",
+      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "hn_link": "https://news.ycombinator.com/item?id=48973835",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sohkamyung · 612 points · 173 comments",
+      "blurb": "India's private space sector hits a historic milestone with a successful first orbital launch — joining SpaceX, Rocket Lab, and others in the commercial launch club. The geopolitical and commercial implications for the global launch market are enormous."
+    },
+    {
+      "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
+      "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
+      "hn_link": "https://news.ycombinator.com/item?id=49033099",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by kristoff_it · 280 points · 181 comments",
+      "blurb": "Buz is a drop-in Bun replacement rebuilt with modern Zig that achieves sub-second incremental builds — a meaningful leap for large TypeScript projects. Coming from an Angular/TypeScript background, faster rebuild cycles are always welcome; worth watching this project closely."
+    },
+    {
+      "title": "Android May Soon Restrict On-Device ADB",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "hn_link": "https://news.ycombinator.com/item?id=49045159",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by shscs911 · 198 points · 96 comments",
+      "blurb": "Google appears to be planning restrictions on on-device ADB access, which would hamper power users, security researchers, and ROM developers who rely on wireless debugging. A concerning trend toward locking down the Android platform that parallels iOS-style control."
+    },
+    {
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mollick, AGI, agenic, LLM",
+      "blurb": "Ethan Mollick cuts through model-choice paralysis with a practical, opinionated breakdown of which AI tools actually shine for which tasks — coding, writing, research, and more. With Opus 5 just dropping, this is the guide to revisit today to recalibrate your AI workflow."
+    },
+    {
+      "title": "26 Tool Calls, One Script, $0.02: Measuring \"Code Mode\" in Production | Agent Swarm",
+      "url": "https://www.agent-swarm.dev/blog/code-mode-token-savings",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml-agents",
+      "blurb": "A detailed breakdown of running a real agentic coding task — 26 tool calls, one complete script, for just two cents in API costs. Concrete benchmarks on token efficiency in production agentic workflows are rare; this one is immediately useful for anyone budgeting Claude Code usage."
+    },
+    {
+      "title": "Setting up a remote environment for agentic coding on a VPS · ma.ttias.be",
+      "url": "https://ma.ttias.be/remote-coding-environment-vps/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, ssh, programming",
+      "blurb": "Step-by-step guide to provisioning a VPS as a persistent, always-on environment for running coding agents like Claude Code — SSH tunnels, tmux sessions, and all. If you're tired of agents timing out on your laptop, this is the practical setup guide you've been waiting for."
+    },
+    {
+      "title": "Build models. Understand AI.",
+      "url": "https://languagemodelbuilder.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llms, editors, apps, macos, tohomebrew, tolearn, totry, onlinelearning, via:twitter",
+      "blurb": "Language Model Builder is a free native Mac app that walks you through training a small LLM from scratch — tokenizer, data selection, pre-training, fine-tuning, and chat. Hands-on understanding of what's actually happening inside the models you use every day; perfect for a weekend deep dive on macOS."
+    },
+    {
+      "title": "Kero — A native terminal workspace for macOS",
+      "url": "https://kero.sh/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Kero is a keyboard-first, native macOS terminal workspace with built-in project management, sessions, a command palette, and inline git diffs — all in one native window. For developers who live in the terminal on macOS, this looks like a serious challenger to iTerm2 and Warp."
+    },
+    {
+      "title": "Fake Job Interview with Malware",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, via:lobsters, hiring",
+      "blurb": "A developer received a legit-looking take-home coding test that was actually a sophisticated malware delivery vector hidden inside a git hook. The attack is clever and the writeup is detailed — every developer who does take-home assessments should read this before cloning another repo."
+    },
+    {
+      "title": "Prompt Caching In Agents | EARENDIL",
+      "url": "https://earendil.com/posts/prompt-caching/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: pi, devpro",
+      "blurb": "A focused technical post on how to correctly implement prompt caching in multi-step agent loops — where to place cache breakpoints, how to measure hit rates, and the cost impact. Directly applicable to anyone building with Anthropic's API and trying to keep costs sane at scale."
+    },
+    {
+      "title": "andrewyng/openworker",
+      "url": "https://github.com/andrewyng/openworker",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, agent, Tools, Repos",
+      "blurb": "Andrew Ng's new open-source agent framework for building browser-based workers — a lightweight, composable approach to agentic task execution. Given Ng's track record with practical AI tooling, this repo is worth a close look if you're architecting agent workflows."
+    },
+    {
+      "title": "no-ai-slop: Removes 20+ patterns of AI slop from any piece of writing.",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: writing, AI, generative, textgeneration, opensource, copywriting, tools, skills, agents, automation",
+      "blurb": "An open-source CLI/library that detects and strips 20+ telltale AI writing patterns — \"delve\", \"it's worth noting\", the em-dash overload — from any piece of text. Handy as a post-processing step in any AI-assisted writing workflow, and eye-opening for auditing your own AI-generated output."
+    },
+    {
+      "title": "Canvas UI: Creative Canvas and WebGL Component Library",
+      "url": "https://canvasui.dev/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: javascript, canvas, html, demos, components, library",
+      "blurb": "Canvas UI is an open-source component library that layers creative HTML-in-canvas and WebGL effects directly over live DOM content — works with React, Vue, Svelte, and vanilla JS. If you're building anything visually ambitious on the web, this is the kind of creative coding toolkit that opens new doors."
+    }
+  ]
+}
