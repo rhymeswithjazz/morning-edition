@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-26",
+  "stories": [
+    {
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "hn_link": "https://news.ycombinator.com/item?id=49051361",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mellosouls · 331 points · 218 comments",
+      "blurb": "Straight from Anthropic: the Claude Code team deleted 80% of their system prompt and saw no quality drop. The new paradigm shifts from rules to judgment, from front-loaded instructions to progressive disclosure, and from manual memory to automatic memory. If you're building agents or using Claude Code, this rewrites how you should be thinking about prompts."
+    },
+    {
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "hn_link": "https://news.ycombinator.com/item?id=49048034",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tknaup · 376 points · 291 comments",
+      "blurb": "The argument: open-weight models are at the same inflection point Kubernetes was when it became the undeniable default for container orchestration — messy, complex, but inevitable. The essay makes a compelling case that self-hosted and open models are about to standardize in ways that will reshape how developers build AI workflows. Worth reading before the wave hits."
+    },
+    {
+      "title": "Did they ghost you?",
+      "url": "https://didtheyghostyou.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49051120",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by mooreds · 402 points · 179 comments",
+      "blurb": "A clever tool that lets you check whether a recruiter or company has ghosted you by seeing if others have reported the same. The top-scored story of the day taps into a universal frustration in the job market. Simple, useful, and savagely cathartic."
+    },
+    {
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "hn_link": "https://news.ycombinator.com/item?id=49052564",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by alphabetatango · 122 points · 96 comments",
+      "blurb": "Cloudflare is giving site owners granular controls to block, allow, or monetize AI crawler traffic — a significant shift in how the web can push back against scraping. For developers who host content or APIs, this is a practical set of knobs you can flip today. The 'Content Independence Day' framing is a bit much, but the features are real."
+    },
+    {
+      "title": "LLM Usage in Debian: Three Proposals",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "hn_link": "https://news.ycombinator.com/item?id=49050859",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zdw · 159 points · 143 comments",
+      "blurb": "Debian is putting AI policy to a formal vote — three competing proposals range from permissive to restrictive about LLM use in package development and documentation. This is a landmark moment: one of the most influential open-source projects is codifying its stance on AI-generated code. Whatever passes will set precedent across the ecosystem."
+    },
+    {
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "hn_link": "https://news.ycombinator.com/item?id=49050512",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by boveyking · 188 points · 42 comments",
+      "blurb": "Someone got a real language model running on an ESP32 for eight dollars. It's slow, it's tiny, but it works — and the repo shows exactly how. This is edge AI in its most literal, tangible form, and it's a useful benchmark for where the floor of LLM hardware is in 2026."
+    },
+    {
+      "title": "A shell colon does nothing. Use it anyway",
+      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
+      "hn_link": "https://news.ycombinator.com/item?id=49047453",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by olexsmir · 199 points · 66 comments",
+      "blurb": "The shell builtin `:` is a no-op that returns true — and it turns out it's genuinely useful for conditional defaults, placeholder commands, and self-documenting scripts. A short, sharp explainer that'll make you a slightly better shell scripter by the time you finish your coffee."
+    },
+    {
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "hn_link": "https://news.ycombinator.com/item?id=49055169",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 71 points · 32 comments",
+      "blurb": "GrapheneOS lays out its layered defenses against forensic extraction tools like Cellebrite — covering memory scrubbing, auto-reboot timers, and exploit hardening. Timely reading given the border-search phone-wipe story making rounds this week. Even if you're on iPhone, understanding these mitigations informs your own threat model."
+    },
+    {
+      "title": "How My Images Are Dithered",
+      "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49006096",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by surprisetalk · 234 points · 76 comments",
+      "blurb": "A beautifully written deep-dive into dithering algorithms — Floyd-Steinberg, ordered dithering, and custom approaches — with stunning visual examples. It's equal parts art and computer science, and the kind of post that reminds you why the indie web is worth reading. Implementers will find the code directly usable."
+    },
+    {
+      "title": "Git rebase -I is not that scary",
+      "url": "https://cachebag.sh/journal/interactive-rebasing/",
+      "hn_link": "https://news.ycombinator.com/item?id=49053385",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vinhnx · 71 points · 76 comments",
+      "blurb": "A calm, practical walkthrough of interactive rebase that strips away the intimidation factor. Covers squashing, reordering, editing commit messages, and recovering from mistakes. If you've been avoiding `git rebase -i` in your Angular/TypeScript projects, this is the nudge to finally make it part of your workflow."
+    },
+    {
+      "title": "US accuses American of allegedly wiping his phone using a 'duress' password during border search | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "A US citizen is being prosecuted for allegedly using a duress wipe password at the border — turning a privacy feature into a federal accusation. This is a chilling precedent for anyone crossing international borders with a phone full of client code, credentials, or sensitive comms. Read alongside the GrapheneOS story above."
+    },
+    {
+      "title": "Echo - Frontier intelligence. Without frontier pricing.",
+      "url": "https://echo.tracerml.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, models, AI, openai, openweights, performance, claude, api",
+      "blurb": "Echo is a benchmarking and comparison layer for LLM models — think Artificial Analysis but with a focus on cost-vs-quality trade-offs for Claude, GPT, and open-weight alternatives. For developers choosing models for production pipelines, this kind of independent performance data is invaluable. Bookmark it next time you're debating which model to route to."
+    },
+    {
+      "title": "Thariq: Claude 5 時代の Context Engineering 新規律",
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, Claude, Claude-5, context-engineering, system-prompt, agent, Anthropic, via:hermes",
+      "blurb": "A concise Chinese-language thread distilling six paradigm shifts in Claude 5 context engineering — rules→judgment, examples→interface design, front-loading→progressive disclosure. It's a crisp complement to the official Anthropic blog post, with sharp framing specifically aimed at agent framework designers. The signal: over-constraining new models actively hurts performance."
+    },
+    {
+      "title": "Claude Code Web の Routine で日々の開発を自動化する",
+      "url": "https://zenn.dev/mizchi/scraps/4e5d72496e2bfc",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A Japanese-language Zenn post showing how to use Claude Code Web's Routine feature to automate daily development tasks. Mizchi is a respected JS/TS author and this is a practical walkthrough of scheduling recurring agentic workflows. If you use Claude Code, this demonstrates a capability you may not have explored yet."
+    },
+    {
+      "title": "MengTo/Skills: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+      "url": "https://github.com/MengTo/Skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: skill",
+      "blurb": "MengTo's open-source collection of agent skill definitions for Claude, Cursor, and Codex — essentially reusable prompt modules that make AI coding agents more capable at design-to-code tasks. Think of it as a community library of Claude Code skills you can drop into your own projects. Directly actionable for the reader's daily workflow."
+    },
+    {
+      "title": "bIRC — a native IRC client for macOS",
+      "url": "https://birc.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A polished, native macOS IRC client surfaced via Daring Fireball — built with SwiftUI, respects the macOS design language, and doesn't feel like a port. IRC isn't dead in developer communities, and having a proper native client rather than a web wrapper is a genuine quality-of-life upgrade on Apple Silicon Macs."
+    },
+    {
+      "title": "BBC Sound Effects",
+      "url": "https://sound-effects.bbcrewind.co.uk/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: audio, sound, library, useful, aftereffects",
+      "blurb": "The BBC's enormous archive of 33,000+ professionally recorded sound effects, free for personal, educational, and some commercial use. This resurfaces periodically and always earns its spot — it's genuinely one of the best free audio resources on the internet for video editors, game devs, and creative coders."
+    },
+    {
+      "title": "Protecting our FLOSS commons from LLMs — Codeberg News",
+      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: opensource, ai, economy, hardware, environment",
+      "blurb": "Codeberg, the open-source Gitea-based GitHub alternative, outlines concrete steps to protect FLOSS repositories from LLM scraping — including robots.txt policies, rate limiting, and legal framing. A grounded, non-hysterical take on a real tension facing open-source communities right now. Relevant if you host or maintain public repos."
+    },
+    {
+      "title": "A device hidden in cars across the US leaves them vulnerable to hacking and paralysis. Patch it now • WIRED",
+      "url": "https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: car, alarm, vulnerability, hacking",
+      "blurb": "UC San Diego researchers found the KARR aftermarket car alarm — installed in 2M+ US vehicles by dealers without buyers' knowledge — can be exploited over Bluetooth to unlock doors, kill the ignition, or track the vehicle. A firmware patch is available, but you have to know you have the device first. Actionable: check if your car has it."
+    },
+    {
+      "title": "Stinkpot: SQLite-backed shell history",
+      "url": "https://tangled.org/oppi.li/stinkpot",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nerdypepper · 62 points · 15 comments",
+      "blurb": "Stinkpot replaces your flat-file shell history with a SQLite database, enabling rich querying, deduplication, and per-directory history filtering. If you live in the terminal — and Claude Code means you increasingly do — this is a small quality-of-life upgrade with outsized daily payoff. Written in Rust, fast, and easy to drop in."
+    }
+  ]
+}
