@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-28",
+  "stories": [
+    {
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "hn_link": "https://news.ycombinator.com/item?id=49076057",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 932 points · 1350 comments",
+      "blurb": "Anthropic — maker of Claude — lays out its official stance on open-weights AI models, a topic with massive implications for the field. With 1,350 comments, this is the hottest AI policy discussion of the day. If you use Claude Code, understanding where Anthropic stands on open models affects your toolchain choices for years to come."
+    },
+    {
+      "title": "Benchmarking Opus 5 on SlopCodeBench",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "hn_link": "https://news.ycombinator.com/item?id=49076391",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dhorthy · 300 points · 68 comments",
+      "blurb": "A real benchmark of Claude Opus 5 specifically targeting 'sloppy' code generation — the lazy, copy-paste patterns that coding agents tend to produce. Direct relevance for anyone using Claude Code who cares about output quality. The methodology of SlopCodeBench itself is worth stealing."
+    },
+    {
+      "title": "Using an open model feels surprisingly good",
+      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+      "hn_link": "https://news.ycombinator.com/item?id=49078583",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by msaltz · 285 points · 107 comments",
+      "blurb": "A practitioner's honest take on switching from frontier models to open-weights alternatives for daily coding work — and finding the experience better than expected. Pairs perfectly with today's Anthropic open-weights piece. Essential reading for anyone evaluating self-hosted AI workflows."
+    },
+    {
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/",
+      "hn_link": "https://news.ycombinator.com/item?id=49078454",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 199 points · 53 comments",
+      "blurb": "A $500 reinforcement-learning fine-tune of a 9B parameter open model outperformed GPT-4-class frontier models on a specific domain task. This is the 'small beats big with the right training data' story that will keep repeating. Actionable insight for teams considering task-specific fine-tuning."
+    },
+    {
+      "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
+      "url": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/",
+      "hn_link": "https://news.ycombinator.com/item?id=49073513",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by cdrnsf · 315 points · 128 comments",
+      "blurb": "A federal judge refused to let Google weaponize the DMCA to stop a competitor from scraping its public data. This ruling has huge implications for the open web, AI training data, and who controls access to publicly visible information. A win for the anti-walled-garden crowd."
+    },
+    {
+      "title": "A missing underscore sent innocent man to prison for 18 months",
+      "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
+      "hn_link": "https://news.ycombinator.com/item?id=49076116",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by quantified · 313 points · 180 comments",
+      "blurb": "Police pattern-matched a username without accounting for an underscore character, arrested the wrong person, and an innocent man spent 18 months in prison. A gut-punch reminder of how brittle digital forensics can be and how catastrophically software errors interact with the justice system."
+    },
+    {
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "hn_link": "https://news.ycombinator.com/item?id=49070756",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by EatonZ · 159 points · 52 comments",
+      "blurb": "A security researcher found critical vulnerabilities in Volvo/Eicher's commercial fleet management platform that would have allowed full takeover of all user accounts and physical vehicles. Detailed writeup with real exploitation steps — a masterclass in API security failures at scale."
+    },
+    {
+      "title": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
+      "url": "https://github.com/FrigadeHQ/yap",
+      "hn_link": "https://news.ycombinator.com/item?id=49073834",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by pancomplex · 72 points · 26 comments",
+      "blurb": "Yap is a free, open-source macOS voice dictation tool that uses Apple's built-in speech recognition — no model download, no cloud, no subscription. It's the privacy-respecting Whisper alternative that just works on your Mac. Exactly the kind of utility power users have been waiting for."
+    },
+    {
+      "title": "Vehicle Motion Cues",
+      "url": "https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios",
+      "hn_link": "https://news.ycombinator.com/item?id=49077999",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by Austin_Conlon · 125 points · 55 comments",
+      "blurb": "Apple's Vehicle Motion Cues feature — animated dots that reduce motion sickness while using iPhone in a moving vehicle — is getting HN attention for its clever accessibility design. A quiet gem in iOS that most users don't know exists. The discussion digs into how it actually works."
+    },
+    {
+      "title": "About the security content of macOS Tahoe 26.6",
+      "url": "https://support.apple.com/en-us/128067",
+      "hn_link": "https://news.ycombinator.com/item?id=49081555",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by andor · 27 points · 12 comments",
+      "blurb": "Apple's security release notes for macOS Tahoe 26.6 just dropped. If you're on macOS, this is your cue to check for updates — patch notes reveal what was being exploited in the wild. Required reading for anyone in the Apple ecosystem who takes security seriously."
+    },
+    {
+      "title": "Paged Out #9 [pdf]",
+      "url": "https://pagedout.institute/download/PagedOut_009.pdf",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by laurensr · 246 points · 26 comments",
+      "blurb": "Issue 9 of Paged Out!, the free experimental hacker zine where every article is exactly one page. Packed with low-level tricks, reverse engineering nuggets, and systems curiosities. The kind of content that makes you feel smarter after reading it on a coffee break."
+    },
+    {
+      "title": "Watching Go's new garbage collector move through the heap",
+      "url": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by matheusmoreira · 230 points · 28 comments",
+      "blurb": "A deep visual walkthrough of Go's new garbage collector compared to the old one, showing how it traverses the heap in real time. Understanding GC behavior is critical for performance-sensitive services, and this piece makes the abstract concrete with great diagrams."
+    },
+    {
+      "title": "Self-contained highly-portable Python distributions",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jcbhmr · 147 points · 32 comments",
+      "blurb": "Gregory Szorc's python-build-standalone project provides fully self-contained Python binaries that run anywhere without system dependencies. If you've ever fought Python version hell in CI or Docker, this is the clean solution. Directly actionable for .NET/TypeScript devs who also script in Python."
+    },
+    {
+      "title": "Securing Services with Rootless Containers",
+      "url": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 99 points · 29 comments",
+      "blurb": "A practical guide to running containers without root privileges, reducing the blast radius of a container escape or privilege escalation. Step-by-step with real configuration examples. Any developer deploying services should be doing this and most aren't."
+    },
+    {
+      "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by snyy · 109 points · 26 comments",
+      "blurb": "FeyNoBg is an open-source background removal model and training library that you can run locally or fine-tune on your own data. Competing with remove.bg but without the API costs or privacy concerns. Useful for creative pipelines, product photography automation, or custom dataset work."
+    },
+    {
+      "title": "Ray tracing massive amounts of animated geometry using tetrahedral cages",
+      "url": "https://gpuopen.com/learn/ray-tracing-massive-amounts-animated-geometry/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by LorenDB · 108 points · 13 comments",
+      "blurb": "AMD GPUOpen explains a technique using tetrahedral cages to ray trace massive animated scenes without blowing up BVH rebuild costs. Beautiful technical deep-dive relevant to anyone doing real-time graphics, game dev, or creative rendering work. The kind of GPU wizardry that makes engines faster."
+    },
+    {
+      "title": "Don't ask an LLM for a confidence score",
+      "url": "https://justinflick.com/2026/07/27/llm-confidence-scores.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pamplemeese · 33 points · 2 comments",
+      "blurb": "A concise, well-argued post explaining why asking LLMs to rate their own confidence is unreliable and what to do instead. This is a common mistake in AI-assisted workflows and the fix is actionable. Essential calibration for anyone building on top of LLMs."
+    },
+    {
+      "title": "VLC for Unity now supported on Linux",
+      "url": "https://code.videolan.org/videolan/vlc-unity",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by martz · 165 points · 52 comments",
+      "blurb": "The VLC Unity plugin — bringing VLC's rock-solid media playback into Unity projects — now has full Linux support. This matters for interactive installations, game developers using video, and anyone building media-rich applications in Unity. A long-requested platform gap finally closed."
+    },
+    {
+      "title": "RTX 2080 Ti Memory Upgrade to 22 GB",
+      "url": "https://gpusolutions.net/rbservices/graphics-card-upgrade/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by wslh · 113 points · 72 comments",
+      "blurb": "A service that physically upgrades RTX 2080 Ti GPUs from 11 GB to 22 GB of VRAM, breathing new life into aging cards for local LLM inference. At a time when VRAM is the bottleneck for running bigger open models locally, this is a surprisingly practical option compared to buying new hardware."
+    },
+    {
+      "title": "7.1 Earthquake in Japan",
+      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by krembo · 228 points · 54 comments",
+      "blurb": "Japan's Meteorological Agency live data for a significant 7.1 magnitude earthquake that struck today. The JMA's real-time public data infrastructure is itself a marvel of engineering — and the HN thread is tracking developments in real time. Worth watching as aftershock data rolls in."
+    }
+  ]
+}
