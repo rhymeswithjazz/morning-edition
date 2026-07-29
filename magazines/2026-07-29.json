@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-29",
+  "stories": [
+    {
+      "title": "Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "hn_link": "https://news.ycombinator.com/item?id=49089755",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bakigul · 507 points · 175 comments",
+      "blurb": "OpenAI's official security guidelines and hardening practices for Codex-powered coding agents. If you're running Claude Code or similar agentic tools in your workflow, the threat model here is directly relevant — sandboxing, prompt injection, and supply-chain risks all apply. Required reading before you give an AI agent write access to your codebase."
+    },
+    {
+      "title": "Kimi K3 Architecture Overview and Notes",
+      "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49085698",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ModelForge · 433 points · 92 comments",
+      "blurb": "Sebastian Raschka's clear-eyed technical breakdown of Moonshot AI's Kimi K3 architecture — a model making serious waves in the open-weights space. Understanding how frontier MoE models are structured helps you make smarter choices about which models to use for which tasks. LM Studio on Mac already supports it (see story 20)."
+    },
+    {
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "hn_link": "https://news.ycombinator.com/item?id=49087091",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gslin · 219 points · 160 comments",
+      "blurb": "Anthropic researchers used Claude to autonomously discover real cryptographic vulnerabilities — not just explain known ones. This is a significant signal about AI's capability for genuine security research, not just code completion. The privacy/security implications cut both ways: this same capability could accelerate both attack and defense."
+    },
+    {
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "hn_link": "https://news.ycombinator.com/item?id=49088058",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Eldodi · 118 points · 37 comments",
+      "blurb": "The Model Context Protocol just shipped a major spec update making its transport layer stateless — a fundamental shift that affects how Claude Code and every other MCP-powered tool manages sessions. If you're building or consuming MCP servers, you need to know about this now before the ecosystem migrates. Breaking change territory."
+    },
+    {
+      "title": "Substack writers, you need a website",
+      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+      "hn_link": "https://news.ycombinator.com/item?id=49086788",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by speckx · 551 points · 284 comments",
+      "blurb": "The top HN story of the day makes a blunt case: platform dependency on Substack is a trap, and owning your own domain and CMS is non-negotiable for any serious writer. The 284-comment thread is a goldmine of practical migration advice and alternative stack recommendations. The argument extends naturally to any creator over-indexed on a single platform."
+    },
+    {
+      "title": "DMARC has been public since 2012 but most company domains still don't enforce it",
+      "url": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+      "hn_link": "https://news.ycombinator.com/item?id=49081783",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by adulion · 188 points · 121 comments",
+      "blurb": "Fourteen years after DMARC was standardized, the majority of domains still run in monitor-only mode, leaving them wide open to spoofing attacks. This post dissects the enforcement gap and the fragmented RUA reporting ecosystem that makes fixing it harder than it should be. If you run a .NET backend sending transactional email, your domain is probably in this cohort."
+    },
+    {
+      "title": "Half-Life ported to Mac OS 9",
+      "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+      "hn_link": "https://news.ycombinator.com/item?id=49089814",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by freediver · 251 points · 117 comments",
+      "blurb": "Someone actually got Half-Life running on Mac OS 9 — an OS that predates the game's original Mac port. It's a remarkable feat of reverse engineering and a love letter to the classic Mac ecosystem. For anyone nostalgic about the pre-OS X era, this is pure catnip."
+    },
+    {
+      "title": "Una GPS smart watch – Repairable, USB-C charging, developer-friendly",
+      "url": "https://unawatch.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49084813",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by pimterry · 224 points · 139 comments",
+      "blurb": "A smartwatch designed from the ground up to be repairable, hackable, and developer-accessible — the anti-Apple Watch. USB-C charging, open SDK, and a focus on longevity over planned obsolescence. The 139-comment HN thread is a substantive debate about right-to-repair and the wearables ecosystem."
+    },
+    {
+      "title": "The iPhone Upgrade Program is being replaced by Apple Upgrade",
+      "url": "https://www.apple.com/shop/iphone/iphone-upgrade-program",
+      "hn_link": "https://news.ycombinator.com/item?id=49087306",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by lkurtz · 182 points · 331 comments",
+      "blurb": "Apple is rebranding and restructuring its annual iPhone upgrade program — the most-commented story in today's HN batch at 331 comments. The changes affect financing terms and Apple Card integration, which matters if you're already in the Apple services ecosystem. Check the fine print before your next iPhone cycle."
+    },
+    {
+      "title": "SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers",
+      "url": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
+      "hn_link": "https://news.ycombinator.com/item?id=49094346",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ankitg12 · 71 points · 25 comments",
+      "blurb": "A practical deep-dive into running SQLite seriously in production — WAL mode tuning, VFS layer customization, and concurrency strategies for low-latency app servers. SQLite's renaissance as a serious production database is real, and this is the kind of operational knowledge that makes the difference between it working and falling over."
+    },
+    {
+      "title": "Beyond grep: The case for a context-rich AI coding harness",
+      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, agents, programming",
+      "blurb": "Augment Code's Vinay Perneti makes the case that the real differentiator for AI coding tools isn't the model — it's the context harness. This is directly relevant to Claude Code users: how much of your codebase is actually visible to the model, and how is that context ranked and surfaced? A useful framework for evaluating and improving your AI coding setup."
+    },
+    {
+      "title": "scriptc | TypeScript-to-Native Compiler",
+      "url": "https://scriptc.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: TypeScript, compiler",
+      "blurb": "A new TypeScript-to-native compiler that compiles TS directly to native binaries — no Node.js runtime required. For a TypeScript/.NET developer this is intriguing: native TypeScript tooling could mean faster CLI tools and smaller deployment footprints. Early days, but worth watching closely."
+    },
+    {
+      "title": "Open Minis — Your Private On-Device AI Agent",
+      "url": "https://openminis.app/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, ios",
+      "blurb": "An on-device AI agent for iOS, macOS, and visionOS that handles web browsing, health data, scheduling, and home automation — entirely privately on your device. For a privacy-conscious Apple ecosystem user, this is the pitch: all the agentic capability of cloud AI without the data leaving your hardware. The macOS support makes it immediately actionable."
+    },
+    {
+      "title": "JustVugg/colibri: Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model.",
+      "url": "https://github.com/JustVugg/colibri",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Colibri is a pure-C inference engine that streams a 744B MoE model's experts from disk, making it runnable on a standard MacBook Pro with 25GB RAM. Zero dependencies, no Python, no Metal setup drama. This is the kind of project that makes local LLM inference genuinely accessible on Apple Silicon."
+    },
+    {
+      "title": "With smart glasses, Meta holds all the cards but fails to play them well | The Verge",
+      "url": "https://www.theverge.com/tech/970948/meta-smart-glasses-privacy-wearables",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge's deep-cut analysis of why Meta's Ray-Ban glasses dominate the smart glasses market yet keep fumbling on privacy and features. The privacy angle is sharp: always-on cameras on a device people trust because it looks like eyewear is a different threat model than a phone. Essential context as this category heats up."
+    },
+    {
+      "title": "The US is charging an American citizen for wiping his phone at the border | The Verge",
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A US citizen is being prosecuted for wiping their phone when border agents demanded access — a landmark case for digital rights at the border. If you travel internationally with a work laptop or phone containing client code, this case redefines the risk calculus. The EFF has guidance on what to do and not do at border crossings."
+    },
+    {
+      "title": "NameThat — the visual dictionary of UI",
+      "url": "https://namethatui.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ui, reference, design",
+      "blurb": "A visual dictionary that gives you the correct name for every UI component — the thing you always have to Google when writing Angular templates or design specs. Bookmarkable reference that will save you from typing 'that little toggle switch thing' in Slack. Directly useful for Angular/TypeScript developers communicating with designers."
+    },
+    {
+      "title": "Datatype — variable font that turns text into charts",
+      "url": "https://franktisellano.github.io/datatype/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: charts, visualization, typeface",
+      "blurb": "A mind-bending variable font where character glyphs are actually bar chart segments — type a number and it renders as a visualization. It's a genuinely novel intersection of typography and data visualization that will make your brain short-circuit in the best way. Creative coding inspiration of the week."
+    },
+    {
+      "title": "GitHub - abue-ammar/tinycast: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "A lightweight, fully native macOS launcher with hotkeys and clipboard history — no Electron, no subscriptions, no bloat. For macOS power users already running Raycast or Alfred, this is the minimalist alternative worth evaluating. Native Swift means it won't fight with your battery or your privacy."
+    },
+    {
+      "title": "LM Studio Bionic adds support for Moonshot AI's Kimi K3 model - 9to5Mac",
+      "url": "https://9to5mac.com/2026/07/27/lm-studio-bionic-adds-support-for-moonshot-ais-kimi-k3-model/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "LM Studio's Bionic build for Apple Silicon now supports Kimi K3 — the 744B MoE model getting architectural attention today (see story 2). This means you can run one of the most capable open-weight models locally on your Mac right now. Pair with the Colibri story for a full picture of local LLM options on Apple hardware."
+    }
+  ]
+}
