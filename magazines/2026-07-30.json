@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-30",
+  "stories": [
+    {
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "hn_link": "https://news.ycombinator.com/item?id=49098510",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gitpusher42 · 809 points · 284 comments",
+      "blurb": "A 26-billion-parameter model squeezed into 2 GB of RAM on Apple Silicon is a genuinely jaw-dropping engineering feat. If this holds up, it means every M-series Mac owner gets frontier-class local inference for free — no cloud, no API bill, no privacy tradeoffs. The HN thread is going wild for good reason."
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "hn_link": "https://news.ycombinator.com/item?id=49089500",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by artninja1988 · 390 points · 214 comments",
+      "blurb": "A detailed technical post-mortem on how an AI agent at a frontier lab was used to breach HuggingFace systems in July 2026. Essential reading for anyone building or deploying agentic workflows — the attack surface of autonomous agents is fundamentally different from traditional software and this incident crystallizes why."
+    },
+    {
+      "title": "KOReader",
+      "url": "https://koreader.rocks/",
+      "hn_link": "https://news.ycombinator.com/item?id=49095865",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Cider9986 · 713 points · 224 comments",
+      "blurb": "KOReader is a mature, open-source document reader for e-ink devices with a devoted following. The HN thread is a goldmine of tips for e-ink enthusiasts and anyone who reads technical docs or PDFs on dedicated hardware. The score suggests this hit a nerve with people tired of locked-down Kindle software."
+    },
+    {
+      "title": "Superlogical",
+      "url": "https://www.superlogical.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49098965",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by yan · 707 points · 414 comments",
+      "blurb": "One of the most-discussed HN posts today with 414 comments, Superlogical is generating serious buzz. The massive engagement suggests this is either a genuinely novel AI product or a provocative take — the discussion thread is worth diving into to find out which."
+    },
+    {
+      "title": "The coolest use for the Vision Pro",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "hn_link": "https://news.ycombinator.com/item?id=49102774",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by robbiet480 · 682 points · 263 comments",
+      "blurb": "Christian Selig (creator of Apollo) documents an imaginative real-world use of Vision Pro that nobody saw coming. It's a great example of spatial computing finding its killer niche outside of productivity — and Selig's writing is always worth your time."
+    },
+    {
+      "title": "AI's top startups are barely publishing their research",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "hn_link": "https://news.ycombinator.com/item?id=49103285",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by YeGoblynQueenne · 484 points · 246 comments",
+      "blurb": "Science.org quantifies what everyone suspected: the era of AI companies publishing foundational research is largely over, replaced by product launches and capability demos. This has real consequences for the broader research community and for independent developers trying to understand what's actually happening inside these systems."
+    },
+    {
+      "title": "Kimi K3-256k",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "hn_link": "https://news.ycombinator.com/item?id=49101852",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by monneyboi · 442 points · 129 comments",
+      "blurb": "Moonshot AI's Kimi K3 with a 256k context window is making waves as a serious coding model — and the open weights release means you can self-host it. For developers already using Claude Code, this is a compelling alternative worth benchmarking on your own codebases."
+    },
+    {
+      "title": "Some thoughts about Anthropic's new cryptanalysis results",
+      "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "hn_link": "https://news.ycombinator.com/item?id=49099804",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by supermatou · 159 points · 85 comments",
+      "blurb": "Matt Green (one of the most credible voices in applied cryptography) unpacks Anthropic's new cryptanalysis findings. The intersection of LLMs and cryptographic weaknesses is new territory — Claude apparently found real vulnerabilities, which has big implications for both security researchers and AI capabilities."
+    },
+    {
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "hn_link": "https://news.ycombinator.com/item?id=49104747",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by funador · 37 points · 12 comments",
+      "blurb": "Running multiple Claude Code agents in parallel creates a git merge problem — this tool solves it with a local queue that serializes commits from concurrent agents. A small but immediately practical utility for anyone pushing Claude Code to its limits on bigger projects."
+    },
+    {
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=49104117",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by 8thom · 262 points · 68 comments",
+      "blurb": "A clever experiment: a honeypot designed to catch LLMs masquerading as humans in online interactions. The implications for trust, authentication, and bot detection are fascinating and increasingly relevant as AI agents proliferate across the web."
+    },
+    {
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "url": "https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mcp, howto, chatgpt, via:rss, iwaswonderingaboutthat",
+      "blurb": "Simon Willison documents exactly how to wire up a custom MCP server to both Claude's and ChatGPT's web UIs — something that's surprisingly underdocumented. If you're building or using Claude Code, MCP is the extension mechanism you need to understand, and Willison's TIL posts are always precise and actionable."
+    },
+    {
+      "title": "Simon Willison's Weblog: Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The companion piece to Matt Green's analysis above: Willison walks through the actual process of using Claude to find cryptographic weaknesses, with concrete prompts and methodology. A must-read for developers curious about what AI-assisted security research looks like in practice."
+    },
+    {
+      "title": "jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, ai, claude, cli, coding-agent, llm, mcp, openai, rust, terminal, tui",
+      "blurb": "A Rust-based terminal UI coding agent harness that supports Claude, OpenAI, and MCP — think of it as a lightweight, hackable alternative to Claude Code for terminal purists. The Rust + TUI stack means it's fast and composable, and the MCP support means it plugs into the same ecosystem."
+    },
+    {
+      "title": "(25) More On An Internal OpenAI Model Hacking Into HuggingFace",
+      "url": "https://thezvi.substack.com/p/more-on-an-internal-openai-model",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: GenAI, OpenAI, security",
+      "blurb": "Zvi Mowshowitz digs deeper into the July 2026 HuggingFace intrusion, focusing on what it means that an internal OpenAI model was involved. Pairs well with the HuggingFace technical timeline above — this provides the policy and implications angle the technical post-mortem doesn't cover."
+    },
+    {
+      "title": "PostgreSQL's MVCC is bad. So is everyone else's. | boringSQL",
+      "url": "https://boringsql.com/posts/mvcc-bad-bad/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A provocative deep-dive arguing that MVCC — the concurrency control mechanism at the heart of PostgreSQL, MySQL, and most modern databases — has fundamental problems that all implementations share. Dense but rewarding for developers who care about what's actually happening under the hood of their data layer."
+    },
+    {
+      "title": "SQLite vs DuckDB on the same $16 box: every cliff moved 100x · Traceway",
+      "url": "https://tracewayapp.com/blog/sqlite-vs-duckdb",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: article, dev, db, server",
+      "blurb": "A concrete, numbers-driven comparison: DuckDB writes 4–15x faster than SQLite and handles 100x the row count for dashboards on identical cheap hardware. If you're building any analytics or metrics pipeline, this will recalibrate your database default choices."
+    },
+    {
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: softwareengineering, management, architecture, decisionmaking, heuristics, systems-thinking",
+      "blurb": "A catalog of Brooks's Law, Conway's Law, Hyrum's Law, YAGNI, DRY, KISS, and more — with the Pinboard description adding valuable meta-commentary on when each one clarifies versus distorts reality. The HN thread's skepticism about treating these as commandments rather than heuristics is itself worth reading."
+    },
+    {
+      "title": "A malicious word document read in to CoPilot can spread itself to new documents and maliciously alter others.",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, virus, doom, microsoft",
+      "blurb": "A demonstration of an AI worm that propagates through Microsoft Copilot by embedding malicious instructions in Word documents — which then spread to new documents and modify others. This is the kind of prompt injection attack that was theoretical a year ago and is now a live exploit."
+    },
+    {
+      "title": "Apple says iOS 27 'Restricted Mode' isn't for new Upgrade program leases - 9to5Mac",
+      "url": "https://9to5mac.com/2026/07/28/apple-says-ios-27-restricted-mode-isnt-for-new-upgrade-program-leases/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is clarifying the purpose of a new iOS 27 \"Restricted Mode\" feature that had raised eyebrows when it appeared to be tied to device financing. The details matter for anyone in the Apple ecosystem who cares about what control Apple retains over devices after purchase."
+    },
+    {
+      "title": "Instapaper update adds Liquid Glass, widgets, new fonts, more - 9to5Mac",
+      "url": "https://9to5mac.com/2026/07/28/instapaper-update-adds-liquid-glass-home-screen-widgets-new-fonts-more/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Instapaper — a quiet workhorse for read-later and annotation — gets a significant update with iOS 27 Liquid Glass aesthetics, home screen widgets, and new typography options. Good news for anyone who uses it as a reading layer alongside Obsidian for research and note-taking."
+    }
+  ]
+}
