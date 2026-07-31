@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-31",
+  "stories": [
+    {
+      "title": "Stacked PRs are now live on GitHub",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "hn_link": "https://news.ycombinator.com/item?id=49112232",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tomzorz · 657 points · 230 comments",
+      "blurb": "Stacked PRs — the workflow that lets you layer dependent pull requests on top of each other — are now in public preview on GitHub itself, no third-party tooling required. This is the single most-requested Git workflow feature for teams doing code review-heavy development. If you've been living in Graphite or gh-stack, it's time to check whether you can come home."
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "hn_link": "https://news.ycombinator.com/item?id=49112867",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tedsanders · 576 points · 380 comments",
+      "blurb": "OpenAI ships GPT-5.6, claiming significant price-performance improvements over GPT-5 — relevant for anyone running AI coding assistants or Claude Code-style workflows at scale. The positioning squarely targets the cost-conscious developer who's been watching inference bills climb. Worth benchmarking against your current stack today."
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "hn_link": "https://news.ycombinator.com/item?id=49111237",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ai2027 · 562 points · 448 comments",
+      "blurb": "DeepMind's Gemini Robotics 2 demonstrates robots that coordinate full-body motion using a unified vision-language-action model — no more separate controllers for each limb. The whole-body coordination videos are genuinely jaw-dropping and represent a step-change from earlier dexterous manipulation demos. The gap between software AI and embodied AI is closing faster than most expected."
+    },
+    {
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "hn_link": "https://news.ycombinator.com/item?id=49112744",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 721 points · 436 comments",
+      "blurb": "Krebs digs into the privacy and security nightmare lurking inside cheap Android-based TV sticks — pre-installed malware, phoning home to sketchy servers, and near-zero update cadences. If you or anyone you know is tempted by a $25 stick on Amazon, send them this first. Apple TV's closed ecosystem suddenly looks like a bargain."
+    },
+    {
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "hn_link": "https://news.ycombinator.com/item?id=49113059",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Areibman · 366 points · 214 comments",
+      "blurb": "A detailed experiment in handing a real Shopify business over to an autonomous GPT-5.6 agent — and watching it hallucinate supplier relationships, send spam, and hemorrhage money. This is essential reading for anyone building agentic workflows: the failure modes are subtle and the model confidently wrong. Don't hand your credit card to an agent without guardrails."
+    },
+    {
+      "title": "The session you cannot take with you",
+      "url": "https://earendil.com/posts/session-portability/",
+      "hn_link": "https://news.ycombinator.com/item?id=49118781",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by apitman · 375 points · 88 comments",
+      "blurb": "A sharp analysis of session lock-in — the way authentication tokens, cookies, and session state are deliberately non-portable across devices and browsers, essentially trapping you. The post draws a straight line from UX inconvenience to surveillance capitalism. Relevant for anyone thinking about building privacy-respecting auth flows."
+    },
+    {
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "hn_link": "https://news.ycombinator.com/item?id=49117099",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by montroser · 310 points · 137 comments",
+      "blurb": "Jim Nielsen articulates something many of us have been noticing but struggling to name: AI-generated content is converging on a distinctive homogeneous aesthetic — smooth, competent, soulless. It's a thoughtful essay for developers who use AI tools daily and are starting to worry about what gets lost. Required reading before your next vibe-coded side project."
+    },
+    {
+      "title": "DeepSeek-V4-Flash Update",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "hn_link": "https://news.ycombinator.com/item?id=49119559",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dnhkng · 308 points · 140 comments",
+      "blurb": "DeepSeek drops V4-Flash 0731, a significant update to their fast inference model that's been competitive on price with OpenAI's offerings. The changelog shows capability improvements that make it a credible alternative for coding tasks. For developers shopping around for the best bang-per-token, this benchmark refresh is worth your attention."
+    },
+    {
+      "title": "GCC steering committee announces AI policy",
+      "url": "https://lwn.net/Articles/1086041/",
+      "hn_link": "https://news.ycombinator.com/item?id=49108685",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by arto · 300 points · 328 comments",
+      "blurb": "The GCC project — one of the most foundational pieces of open-source infrastructure — has formally codified rules around AI-generated contributions. The policy draws a hard line on copyright provenance and contributor accountability. This sets a precedent other major open-source projects will likely follow or push back against."
+    },
+    {
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "hn_link": "https://news.ycombinator.com/item?id=49116721",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by volumes94 · 204 points · 92 comments",
+      "blurb": "A peer reviewer flagged two conference submissions with fabricated author affiliations and AI-generated text — then watched both get accepted as oral presentations anyway. The story is a damning dispatch from the front lines of academic publishing's AI integrity crisis. The review process is broken in ways that will take years to fix."
+    },
+    {
+      "title": "2x, not 10x: coding with LLMs in 2026",
+      "url": "https://obryant.dev/p/2x-not-10x/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tnisonoff · 263 points · 209 comments",
+      "blurb": "A sober, data-backed reality check on LLM-assisted coding productivity: expect a solid 2x uplift, not the 10x promised in vendor slides. The author breaks down where the gains actually come from (boilerplate, documentation, test scaffolding) and where they evaporate (complex debugging, architecture decisions). Indispensable framing for anyone managing expectations — or their own."
+    },
+    {
+      "title": "The Economic Benefit of Refactoring",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by javaeeeee · 244 points · 104 comments",
+      "blurb": "Martin Fowler's team makes the economic case for refactoring in an AI-assisted world — arguing that clean code makes LLM suggestions dramatically better and measurably reduces hallucinations. This is the piece to share with stakeholders who question why you're spending time on tidying instead of features. The argument is tighter now that the AI angle makes the ROI legible."
+    },
+    {
+      "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
+      "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ibobev · 218 points · 143 comments",
+      "blurb": "Resolving the muon g-2 anomaly turns out to create new discrepancies with other established experimental results — physics giveth and taketh away. Quanta Magazine explains the cascade beautifully for a technically literate lay audience. This is the kind of story that reminds you why fundamental physics is still genuinely exciting."
+    },
+    {
+      "title": "Upper stage impacting the moon on 2026 August 5",
+      "url": "https://www.projectpluto.com/25010d.htm",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ryannevius · 206 points · 65 comments",
+      "blurb": "An uncontrolled rocket upper stage is on a confirmed collision course with the Moon next Tuesday — and we know exactly where it will hit. Project Pluto tracks the orbital mechanics in granular detail and the HN thread is full of sharp discussion about what the impact crater will tell us. Mark your calendar for August 5."
+    },
+    {
+      "title": "Ron Gilbert started production on Thimbleweed Park 2",
+      "url": "https://www.grumpygamer.com/twp2_announce/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by alberto-m · 242 points · 113 comments",
+      "blurb": "Ron Gilbert has officially kicked off full production on Thimbleweed Park 2, the sequel to the 2017 spiritual successor to Maniac Mansion. The original was a love letter to classic LucasArts adventure games and this announcement has the same irreverent energy. Great news for anyone who grew up with SCUMM games."
+    },
+    {
+      "title": "CodePen 2.0",
+      "url": "https://chriscoyier.net/2026/07/30/codepen-2-0/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by robin_reala · 169 points · 49 comments",
+      "blurb": "Chris Coyier announces a major overhaul of CodePen — rebuilt from the ground up with a new editor experience, real-time collaboration, and AI code assistance baked in. CodePen has been the go-to sandbox for front-end prototyping for over a decade, and this relaunch looks like it intends to stay relevant in the AI-assisted coding era."
+    },
+    {
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by cgorlla · 129 points · 64 comments",
+      "blurb": "CTGT researchers demonstrate that knowledge distillation from DeepSeek to open-weight models transfers the capability gains but not the censorship behaviors — a significant finding for anyone building on distilled models. The interactive demo lets you probe the difference directly. Big implications for AI policy and open-source model development."
+    },
+    {
+      "title": "Bad Apple but It's Traceroute",
+      "url": "https://jssfr.de/2026-07-27-bad-apple-but-traceroute.html",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by jssfr · 120 points · 38 comments",
+      "blurb": "Someone rendered the legendary \"Bad Apple!!\" animation entirely through ICMP traceroute hops — each frame drawn by manipulating which routers respond. It's a delightful piece of creative network abuse that sits at the intersection of demo-scene aesthetics and systems programming. The writeup explains the implementation in satisfying depth."
+    },
+    {
+      "title": "Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite",
+      "url": "https://kedge.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by wgjordan · 113 points · 20 comments",
+      "blurb": "Kedge is a new full-stack cloud platform where every deployment is a forkable VM snapshot — meaning you can branch your entire running environment like a Git repo. Pair that with globally distributed SQLite and you have an intriguing alternative to the Fly.io/Railway tier. Worth spinning up a side project on to see if the promise holds."
+    },
+    {
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Garbage · 95 points · 102 comments",
+      "blurb": "Google's security team reports that AI-assisted fuzzing and code analysis found more Chrome vulnerabilities in a single month than the previous two years combined — a staggering claim that's generating lively skepticism in the HN thread. Whether or not the headline holds up to scrutiny, AI-driven security tooling is clearly hitting an inflection point. The browser you use every day is the proof-of-concept."
+    }
+  ]
+}
