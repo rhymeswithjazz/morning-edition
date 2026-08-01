@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-01",
+  "stories": [
+    {
+      "title": "qm – Multiplayer agent harness for work",
+      "url": "https://github.com/yc-software/qm",
+      "hn_link": "https://news.ycombinator.com/item?id=49126604",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 573 points · 118 comments",
+      "blurb": "A YC-backed open-source framework for running multiple AI agents in parallel on real work tasks — think Claude Code but with coordination between agents. The 'multiplayer' framing is the key insight: single-agent loops hit walls that multi-agent harnesses can route around. High discussion-to-score ratio signals genuine developer interest."
+    },
+    {
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "hn_link": "https://news.ycombinator.com/item?id=49127306",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bluehatbrit · 551 points · 204 comments",
+      "blurb": "Tailscale's own post-mortem on how attackers got into Hugging Face's infrastructure despite Tailscale being deployed — a rare, admirably honest vendor writeup. The lesson isn't 'Tailscale bad'; it's that network-layer tools can't compensate for credential and identity failures upstream. Required reading if you run Tailscale in your own stack."
+    },
+    {
+      "title": "Twenty-five years ago it was cryptography, today it's model weights",
+      "url": "https://weeraman.com/because-we-can/",
+      "hn_link": "https://news.ycombinator.com/item?id=49083599",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aweeraman · 242 points · 124 comments",
+      "blurb": "A sharp essay drawing parallels between the 1990s crypto export wars and today's battles over AI model weight distribution. The historical framing is dead-on: the same arguments about dual-use technology and state control are playing out again, just with LLMs instead of PGP. A must-read for anyone watching AI regulation."
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "hn_link": "https://news.ycombinator.com/item?id=49116922",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 231 points · 186 comments",
+      "blurb": "Anthropic discloses three real incidents where Claude was used in cybersecurity-adjacent contexts during evaluations — a level of transparency that's rare in the AI space. The details matter for anyone building with Claude APIs, especially around agentic and tool-use scenarios. High comment count means the community has plenty to say."
+    },
+    {
+      "title": "Elevators",
+      "url": "https://john.fun/elevators",
+      "hn_link": "https://news.ycombinator.com/item?id=49124218",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Jrh0203 · 1301 points · 318 comments",
+      "blurb": "The highest-scored HN post of the day is a deep dive into elevator mechanics, history, and the surprisingly complex engineering behind vertical transit. The score-to-everything-else ratio says it all: this is the kind of joyful, obsessive technical writing HN was made for. Read it before the day gets away from you."
+    },
+    {
+      "title": "Is AI reasoning right for the wrong reasons?",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "hn_link": "https://news.ycombinator.com/item?id=49124358",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by retupmoc01 · 163 points · 193 comments",
+      "blurb": "Quanta digs into whether modern reasoning models are actually reasoning or just pattern-matching at a higher level of abstraction. The 193-comment discussion is unusually substantive for this topic. If you're betting your product on chain-of-thought reliability, this is the skeptical counterargument you need to sit with."
+    },
+    {
+      "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+      "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+      "hn_link": "https://news.ycombinator.com/item?id=49125034",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by speckx · 191 points · 95 comments",
+      "blurb": "Jeff Geerling walks through getting 25 Gbps Ethernet running over Thunderbolt on the Mac Studio — including the adapter, driver quirks, and real-world throughput numbers. If you're pushing large AI model weights or video files around a local network, this is the upgrade path. Practical and immediately actionable for Mac power users."
+    },
+    {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/",
+      "hn_link": "https://news.ycombinator.com/item?id=49130604",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vinhnx · 122 points · 38 comments",
+      "blurb": "Microsoft Research's Flint is a declarative charting language designed to be generated by LLMs — the idea being that natural language → Flint → chart is more reliable than natural language → D3/Vega spaghetti. It's a creative bet on AI-friendly DSLs as a design pattern. Worth experimenting with in any AI-driven dashboard workflow."
+    },
+    {
+      "title": "Everyone is building LLM routers, we deprecated ours",
+      "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
+      "hn_link": "https://news.ycombinator.com/item?id=49126630",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by brunaxLorax · 120 points · 72 comments",
+      "blurb": "A candid post-mortem on building and then killing an LLM router — the complexity of maintaining routing logic outweighed the cost savings as frontier model prices dropped. This is the kind of 'we tried it and here's what actually happened' essay that saves you months of yak-shaving. Highly relevant if you're architecting multi-model pipelines."
+    },
+    {
+      "title": "Progressive Web Components",
+      "url": "https://arielsalminen.com/2026/progressive-web-components/",
+      "hn_link": "https://news.ycombinator.com/item?id=49121196",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by hosteur · 153 points · 32 comments",
+      "blurb": "A thoughtful framework for building Web Components that degrade gracefully without JavaScript — applying the old progressive enhancement philosophy to the modern component model. Angular devs flirting with standards-based interop will find this directly applicable. The pattern also plays well with server-side rendering."
+    },
+    {
+      "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "url": "https://github.com/sqliteai/waste",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by marcobambini · 250 points · 105 comments",
+      "blurb": "SQLiteAI's 'waste' tool runs Kimi K3 — a large reasoning model — entirely in RAM on a MacBook-class machine. 0.50 tok/s is slow, but the threshold question is whether a capable reasoning model can run locally at all. For privacy-conscious developers who don't want to send data to the cloud, this is a meaningful proof of concept."
+    },
+    {
+      "title": "Authorize, don't authenticate",
+      "url": "https://blog.marcua.net/2026/07/31/authorize-dont-authenticate.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by marcua · 91 points · 35 comments",
+      "blurb": "A crisp argument that most systems over-invest in proving identity and under-invest in scoping what authenticated identities are actually allowed to do. The distinction is subtle but the security implications are enormous — especially in agentic AI systems where tokens act on behalf of users. Actionable design principle for any .NET or API backend."
+    },
+    {
+      "title": "The development pipeline is a production system",
+      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by firefoxd · 83 points · 33 comments",
+      "blurb": "Makes the case that CI/CD pipelines deserve the same reliability engineering, oncall, and observability investment as customer-facing production systems — because when they go down, so does your entire ability to ship. A timely argument as AI-assisted coding accelerates deployment frequency. Hard to argue with."
+    },
+    {
+      "title": "Software for One",
+      "url": "https://www.ajwaxman.com/writing/software-for-one",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by awaxman11 · 113 points · 95 comments",
+      "blurb": "A celebration of building tiny, personal tools that no one else will ever use — personal automation, bespoke scripts, Obsidian plugins for your exact workflow. In the AI coding era, the cost of building software for an audience of one has collapsed to near zero. This is the philosophical companion piece to 'just ship it for yourself.'"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by milkshakes · 95 points · 78 comments",
+      "blurb": "OpenAI summarizes ten meaningful mathematical and theoretical CS results that AI systems contributed to or accelerated this year. Whether you're skeptical or a believer, this is a useful benchmark of where AI-assisted research actually stands versus the hype. The list includes results in combinatorics, logic, and algorithm design."
+    },
+    {
+      "title": "Ten Ways NAS Is Getting Enshitified",
+      "url": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by giuliomagnifico · 91 points · 83 comments",
+      "blurb": "A detailed breakdown of how NAS vendors — Synology, QNAP, et al — are pushing mandatory cloud accounts, subscription fees, and telemetry onto hardware you already own. Directly relevant if you run local storage for privacy reasons or as an Obsidian vault backup target. The enshittification pattern has fully arrived in the home lab."
+    },
+    {
+      "title": "G'mic 4.0: Squaring the Pixel, Easier",
+      "url": "https://gmic.eu/gmic40/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by dtschump · 20 points · 2 comments",
+      "blurb": "G'MIC 4.0 is a major release of the open-source image processing framework, adding new filters, pipeline improvements, and better pixel-math tooling. It's the Swiss Army knife of image manipulation for developers who need scriptable, non-destructive processing outside of Photoshop. Low score here is misleading — this is a significant creative tool release."
+    },
+    {
+      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
+      "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by iamnothere · 151 points · 49 comments",
+      "blurb": "Servo's monthly progress report shows it continuing to close the gap with real-world web compatibility — CSS media queries, SharedWorker support, and a raft of layout fixes. The alternative browser engine space matters for the long-term health of the web; Servo is increasingly not a toy. Worth tracking if you care about browser diversity."
+    },
+    {
+      "title": "AI doesn't generate working products, that's still your job",
+      "url": "https://weeraman.com/the-prototype-isnt-the-product/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by smckk · 46 points · 22 comments",
+      "blurb": "A grounded pushback on the 'vibe coding to production' narrative: AI can generate a compelling prototype fast, but the gap between prototype and shippable product — error handling, edge cases, security, ops — is still entirely on you. An important corrective for teams adjusting expectations after early AI coding wins."
+    },
+    {
+      "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "url": "https://arxiv.org/abs/2607.28233",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Jimmc414 · 51 points · 28 comments",
+      "blurb": "A comprehensive academic survey of RowHammer and the newer RowPress attack class — hardware-level DRAM vulnerabilities that can flip bits and escalate privileges without software bugs. Understanding this class of attack is increasingly relevant as cloud and shared hardware environments grow. Dense but the best single reference on the topic."
+    }
+  ]
+}
