@@ -1,0 +1,1483 @@
+{
+  "date": "2026-08-02",
+  "fetched_at": "2026-08-02T10:00:32",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "How Google helped destroy adoption of RSS feeds (2023)",
+        "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
+        "hn_id": 49136821,
+        "hn_link": "https://news.ycombinator.com/item?id=49136821",
+        "score": 529,
+        "author": "pudgywalsh",
+        "comments": 182,
+        "byline_hint": "by pudgywalsh · 529 points · 182 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Diátaxis",
+        "url": "https://diataxis.fr/",
+        "hn_id": 49138188,
+        "hn_link": "https://news.ycombinator.com/item?id=49138188",
+        "score": 353,
+        "author": "ryanseys",
+        "comments": 42,
+        "byline_hint": "by ryanseys · 353 points · 42 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Seedance 2.5",
+        "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+        "hn_id": 49138302,
+        "hn_link": "https://news.ycombinator.com/item?id=49138302",
+        "score": 339,
+        "author": "njaremko",
+        "comments": 183,
+        "byline_hint": "by njaremko · 339 points · 183 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+        "hn_id": 49139102,
+        "hn_link": "https://news.ycombinator.com/item?id=49139102",
+        "score": 300,
+        "author": "foxtrot8672",
+        "comments": 275,
+        "byline_hint": "by foxtrot8672 · 300 points · 275 comments"
+      },
+      {
+        "source": "hn",
+        "title": "NetBSD 11.0",
+        "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+        "hn_id": 49136736,
+        "hn_link": "https://news.ycombinator.com/item?id=49136736",
+        "score": 284,
+        "author": "jaypatelani",
+        "comments": 128,
+        "byline_hint": "by jaypatelani · 284 points · 128 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Go 1.27 Interactive Tour",
+        "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+        "hn_id": 49140218,
+        "hn_link": "https://news.ycombinator.com/item?id=49140218",
+        "score": 214,
+        "author": "Hixon10",
+        "comments": 78,
+        "byline_hint": "by Hixon10 · 214 points · 78 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The tiny holdout building in the middle of Macy’s is back in view",
+        "url": "https://ephemeralnewyork.wordpress.com/2026/07/27/hidden-by-billboards-for-over-100-years-the-tiny-holdout-building-in-the-middle-of-macys-is-back-in-view/",
+        "hn_id": 49091614,
+        "hn_link": "https://news.ycombinator.com/item?id=49091614",
+        "score": 213,
+        "author": "donohoe",
+        "comments": 63,
+        "byline_hint": "by donohoe · 213 points · 63 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+        "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+        "hn_id": 49140396,
+        "hn_link": "https://news.ycombinator.com/item?id=49140396",
+        "score": 165,
+        "author": "tomilan",
+        "comments": 39,
+        "byline_hint": "by tomilan · 165 points · 39 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Postmortem for Kernel Soundness Bug #14576",
+        "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+        "hn_id": 49137060,
+        "hn_link": "https://news.ycombinator.com/item?id=49137060",
+        "score": 147,
+        "author": "juhopitk",
+        "comments": 57,
+        "byline_hint": "by juhopitk · 147 points · 57 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga",
+        "url": "https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe",
+        "hn_id": 49135426,
+        "hn_link": "https://news.ycombinator.com/item?id=49135426",
+        "score": 145,
+        "author": "stasomatic",
+        "comments": 86,
+        "byline_hint": "by stasomatic · 145 points · 86 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+        "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+        "hn_id": 49141073,
+        "hn_link": "https://news.ycombinator.com/item?id=49141073",
+        "score": 129,
+        "author": "ilreb",
+        "comments": 37,
+        "byline_hint": "by ilreb · 129 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Manual: •.,:;…!?·",
+        "url": "https://type.today/en/journal/dots",
+        "hn_id": 49105013,
+        "hn_link": "https://news.ycombinator.com/item?id=49105013",
+        "score": 123,
+        "author": "behnamoh",
+        "comments": 32,
+        "byline_hint": "by behnamoh · 123 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Linux on ESP32",
+        "url": "https://github.com/GrieferPig/esp32-s31-linux",
+        "hn_id": 49087499,
+        "hn_link": "https://news.ycombinator.com/item?id=49087499",
+        "score": 118,
+        "author": "boveyking",
+        "comments": 39,
+        "byline_hint": "by boveyking · 118 points · 39 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Explorative modeling: Train on the best of K guesses",
+        "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
+        "hn_id": 49135245,
+        "hn_link": "https://news.ycombinator.com/item?id=49135245",
+        "score": 102,
+        "author": "DSemba",
+        "comments": 25,
+        "byline_hint": "by DSemba · 102 points · 25 comments"
+      },
+      {
+        "source": "hn",
+        "title": "But can your calculator run Linux?",
+        "url": "https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html",
+        "hn_id": 49137713,
+        "hn_link": "https://news.ycombinator.com/item?id=49137713",
+        "score": 96,
+        "author": "jandeboevrie",
+        "comments": 9,
+        "byline_hint": "by jandeboevrie · 96 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "CISA Alert: Water Sector PLC Targeting",
+        "url": "https://censys.com/blog/cisa-alert-water-tower-plc-targeting/",
+        "hn_id": 49137228,
+        "hn_link": "https://news.ycombinator.com/item?id=49137228",
+        "score": 90,
+        "author": "speckx",
+        "comments": 64,
+        "byline_hint": "by speckx · 90 points · 64 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A big win for Android interoperability",
+        "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+        "hn_id": 49124051,
+        "hn_link": "https://news.ycombinator.com/item?id=49124051",
+        "score": 89,
+        "author": "soheilpro",
+        "comments": 26,
+        "byline_hint": "by soheilpro · 89 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Glyphs 4 – the leading Mac font editor",
+        "url": "https://glyphsapp.com",
+        "hn_id": 49085065,
+        "hn_link": "https://news.ycombinator.com/item?id=49085065",
+        "score": 84,
+        "author": "microflash",
+        "comments": 13,
+        "byline_hint": "by microflash · 84 points · 13 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I don't recommend Tailwind CSS",
+        "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+        "hn_id": 49141891,
+        "hn_link": "https://news.ycombinator.com/item?id=49141891",
+        "score": 81,
+        "author": "andros",
+        "comments": 74,
+        "byline_hint": "by andros · 81 points · 74 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Unraveling the mysteries of habit formation",
+        "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+        "hn_id": 49139383,
+        "hn_link": "https://news.ycombinator.com/item?id=49139383",
+        "score": 79,
+        "author": "hhs",
+        "comments": 29,
+        "byline_hint": "by hhs · 79 points · 29 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Atom is better than RSS, in ways that matter",
+        "url": "https://chrismorgan.info/atom%3Erss",
+        "hn_id": 49138897,
+        "hn_link": "https://news.ycombinator.com/item?id=49138897",
+        "score": 79,
+        "author": "frizlab",
+        "comments": 37,
+        "byline_hint": "by frizlab · 79 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Nyctography: A substituton cypher by Lewis Carroll",
+        "url": "https://en.wikipedia.org/wiki/Nyctography",
+        "hn_id": 49081851,
+        "hn_link": "https://news.ycombinator.com/item?id=49081851",
+        "score": 75,
+        "author": "nanna",
+        "comments": 13,
+        "byline_hint": "by nanna · 75 points · 13 comments"
+      },
+      {
+        "source": "hn",
+        "title": "ASRock BC-250: Building the Budget Steam Machine",
+        "url": "https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/",
+        "hn_id": 49140213,
+        "hn_link": "https://news.ycombinator.com/item?id=49140213",
+        "score": 64,
+        "author": "plug_world",
+        "comments": 25,
+        "byline_hint": "by plug_world · 64 points · 25 comments"
+      },
+      {
+        "source": "hn",
+        "title": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+        "url": "https://www.rfc-editor.org/rfc/rfc10015.html",
+        "hn_id": 49139711,
+        "hn_link": "https://news.ycombinator.com/item?id=49139711",
+        "score": 59,
+        "author": "Jimmc414",
+        "comments": 15,
+        "byline_hint": "by Jimmc414 · 59 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+        "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+        "hn_id": 49140702,
+        "hn_link": "https://news.ycombinator.com/item?id=49140702",
+        "score": 56,
+        "author": "goldenskye",
+        "comments": 2,
+        "byline_hint": "by goldenskye · 56 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Deep-sea vehicles spot 'alien' sharks deep beneath the waves in the Pacific",
+        "url": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific#",
+        "hn_id": 49140599,
+        "hn_link": "https://news.ycombinator.com/item?id=49140599",
+        "score": 53,
+        "author": "pkaeding",
+        "comments": 20,
+        "byline_hint": "by pkaeding · 53 points · 20 comments"
+      },
+      {
+        "source": "hn",
+        "title": "We accidentally built an LLVM compiler for Jax",
+        "url": "https://iza.ac/posts/2026/07/accidental-llvm-compiler-for-jax/",
+        "hn_id": 49117303,
+        "hn_link": "https://news.ycombinator.com/item?id=49117303",
+        "score": 46,
+        "author": "infinitewalk",
+        "comments": 12,
+        "byline_hint": "by infinitewalk · 46 points · 12 comments"
+      },
+      {
+        "source": "hn",
+        "title": "When random.bytes() runs but doesn't work",
+        "url": "https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt",
+        "hn_id": 49140405,
+        "hn_link": "https://news.ycombinator.com/item?id=49140405",
+        "score": 43,
+        "author": "Funes-",
+        "comments": 18,
+        "byline_hint": "by Funes- · 43 points · 18 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Elena, a library for building Progressive Web Components",
+        "url": "https://elenajs.com/",
+        "hn_id": 49109759,
+        "hn_link": "https://news.ycombinator.com/item?id=49109759",
+        "score": 33,
+        "author": "brianzelip",
+        "comments": 2,
+        "byline_hint": "by brianzelip · 33 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Drug reverses autism-like brain changes in adult mice within hours",
+        "url": "https://www.uclahealth.org/news/release/drug-reverses-autism-like-brain-changes-adult-mice-within",
+        "hn_id": 49139052,
+        "hn_link": "https://news.ycombinator.com/item?id=49139052",
+        "score": 27,
+        "author": "gmays",
+        "comments": 7,
+        "byline_hint": "by gmays · 27 points · 7 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI opens new era in cognitive studies of wild primates",
+        "url": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
+        "hn_id": 49139232,
+        "hn_link": "https://news.ycombinator.com/item?id=49139232",
+        "score": 20,
+        "author": "hhs",
+        "comments": 5,
+        "byline_hint": "by hhs · 20 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Prospects for 128 Bit Processors ( John Mashey SGI 1995)",
+        "url": "https://yarchive.net/comp/128bit.html",
+        "hn_id": 49140174,
+        "hn_link": "https://news.ycombinator.com/item?id=49140174",
+        "score": 19,
+        "author": "Alien1Being",
+        "comments": 4,
+        "byline_hint": "by Alien1Being · 19 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Dark Hours",
+        "url": "https://darkhours.io",
+        "hn_id": 49139994,
+        "hn_link": "https://news.ycombinator.com/item?id=49139994",
+        "score": 19,
+        "author": "jparise",
+        "comments": 2,
+        "byline_hint": "by jparise · 19 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "P[drive failure]: how reliable is your NAS?",
+        "url": "https://khz.ac/low-voltage/drive-failure.html",
+        "hn_id": 49114441,
+        "hn_link": "https://news.ycombinator.com/item?id=49114441",
+        "score": 11,
+        "author": "nosolace",
+        "comments": 7,
+        "byline_hint": "by nosolace · 11 points · 7 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
+        "url": "https://blog.silentsignal.eu/2026/07/28/the-cipher-behind-qsyrupwd-reconstructing-ibm-i-password-hashes/",
+        "hn_id": 49090268,
+        "hn_link": "https://news.ycombinator.com/item?id=49090268",
+        "score": 9,
+        "author": "kencausey",
+        "comments": 8,
+        "byline_hint": "by kencausey · 9 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Instrumenting my espresso machine with OpenTelemetry",
+        "url": "https://clickhouse.com/blog/espresso-machine-observability-with-otel",
+        "hn_id": 49107216,
+        "hn_link": "https://news.ycombinator.com/item?id=49107216",
+        "score": 7,
+        "author": "g0xA52A2A",
+        "comments": 1,
+        "byline_hint": "by g0xA52A2A · 7 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
+        "url": "https://sinusoft.com/loganbasic/",
+        "hn_id": 49115423,
+        "hn_link": "https://news.ycombinator.com/item?id=49115423",
+        "score": 7,
+        "author": "Sinusoid314",
+        "comments": 3,
+        "byline_hint": "by Sinusoid314 · 7 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The time filter in Google Search broke a few days ago",
+        "url": "https://mastodon.online/@mwichary/117023736804129342",
+        "hn_id": 49142458,
+        "hn_link": "https://news.ycombinator.com/item?id=49142458",
+        "score": 7,
+        "author": "latexr",
+        "comments": 3,
+        "byline_hint": "by latexr · 7 points · 3 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "Recipe Table — any recipe, one glance",
+        "url": "https://recipetables.com/",
+        "description": "Paste any recipe and get it back as a nested prep table — ingredients as rows, steps as merged columns. The whole recipe readable at a glance, no scrolling through a life story.",
+        "tags": [
+          "cooking",
+          "recipe",
+          "design"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cooking, recipe, design"
+      },
+      {
+        "source": "pinboard",
+        "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide - Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+        "description": "This sums up how I tend to use AI. Not for anything I can't check, nor for any skills I want to keep.",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "The End of an Era - Hugh Howey",
+        "url": "https://hughhowey.com/the-end-of-an-era/",
+        "description": "",
+        "tags": [
+          "writing",
+          "essay",
+          "llm",
+          "genai",
+          "storytelling",
+          "style"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: writing, essay, llm, genai, storytelling, style"
+      },
+      {
+        "source": "pinboard",
+        "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack | MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+        "description": "Explore why LLMs are fundamentally unable to distinguish between user prompts and internal logic, making them permanently vulnerable to hijacking.",
+        "tags": [
+          "to_share",
+          "cybersecurity",
+          "jailbreak",
+          "openai",
+          "chain-of-thought",
+          "prompt-injection",
+          "red-teaming"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, cybersecurity, jailbreak, openai, chain-of-thought, prompt-injection, red-teaming"
+      },
+      {
+        "source": "pinboard",
+        "title": "Removing Intrusive AI from stuff – librarian.net",
+        "url": "https://www.librarian.net/NoToAI/",
+        "description": "",
+        "tags": [
+          "issue280",
+          "resources"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: issue280, resources"
+      },
+      {
+        "source": "pinboard",
+        "title": "Github - AminBlg/SimpleEnglish: Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical English — no AI slop",
+        "url": "https://github.com/AminBlg/SimpleEnglish",
+        "description": "",
+        "tags": [
+          "from:ifttt",
+          "github",
+          "from:n8n"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: from:ifttt, github, from:n8n"
+      },
+      {
+        "source": "pinboard",
+        "title": "Emily Wilson · An Uncomplicated Man",
+        "url": "https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man",
+        "description": "Yes, Emily Wilson!\n\n\"Nolan’s Odyssey lacks many of the elements that make the poem great. It has nothing convincing to say about time, memory, history, war, or about the relationship between one warrior’s glorious return and the lives of his family, adversaries, comrades, friends and neighbours. It lacks psychological, emotional, political and ethical depth. Its narrative structure is gimmicky. The writing is abysmal. None of the characters has convincing motivation for their actions or words. There are no sex scenes, and all the food looks horrible.\"",
+        "tags": [
+          "theodyssey",
+          "emilywilson",
+          "londonreviewofbooks",
+          "criticism",
+          "homer"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: theodyssey, emilywilson, londonreviewofbooks, criticism, homer"
+      },
+      {
+        "source": "pinboard",
+        "title": "Internet Security by Zscaler",
+        "url": "https://lastmuseum.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - mokshablr/gander: Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code. · GitHub",
+        "url": "https://github.com/mokshablr/gander",
+        "description": "",
+        "tags": [
+          "lup"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: lup"
+      },
+      {
+        "source": "pinboard",
+        "title": "For sale: early access to Trump's Truth Social posts: The president's media company is offering investors early access to his Truth Social feed for up to $100,000 a month; experts say the service may violate insider trading laws | NPR",
+        "url": "https://www.npr.org/2026/08/01/nx-s1-5912219/trump-truth-social-access-insider-trading",
+        "description": "",
+        "tags": [
+          "Trump2"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Trump2"
+      },
+      {
+        "source": "pinboard",
+        "title": "wsj.com",
+        "url": "https://www.wsj.com/opinion/the-ai-future-is-for-everyone-a0c24e20?st=T6AAwM",
+        "description": "from Daring Fireball \n\nMark Zuckerberg, in an op-ed Tuesday for The Wall Street Journal (gift link; and irony isn’t lost that “everyone” needs a paid WSJ subscription to read this):\n\nWe are fortunate to live at an incredible moment in history. In\nthe next few years, people will be able to use superintelligence\nbeyond human capacity to create and discover extraordinary new\nthings, build new businesses, express our ideas, learn new\nconcepts, and improve our lives, health, relationships and\ncareers.\n\nPerhaps we’ll be able to use it to build a metaverse too. Or to keep our attention on a major initiative for more than two or three years.\n\n ★",
+        "tags": [
+          "ifttt",
+          "daringfireball"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ifttt, daringfireball"
+      },
+      {
+        "source": "pinboard",
+        "title": "Dark Hours, what's actually visible in your sky tonight",
+        "url": "https://darkhours.io/",
+        "description": "ref https://indieweb.social/@tg/117022764569677489",
+        "tags": [
+          "astronomy",
+          "stargazing",
+          "outdoors"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: astronomy, stargazing, outdoors"
+      },
+      {
+        "source": "pinboard",
+        "title": "Rogue Amoeba - Under the Microscope » Blog Archive » Unobtrusive Update Notifications",
+        "url": "https://weblog.rogueamoeba.com/2026/04/28/unobtrusive-update-notifications/",
+        "description": "via Daring Fireball https://ift.tt/rKHBa7w",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Apple Upgrade Situation – Rands in Repose",
+        "url": "https://randsinrepose.com/archives/the-apple-upgrade-situation/",
+        "description": "Analyze the shift from Apple’s iPhone Upgrade Program to the new Klarna lease. Evaluate the true cost of AppleCare and how to spot a \"deal.\"",
+        "tags": [
+          "to_share",
+          "apple",
+          "finance",
+          "lease",
+          "upgrade-program",
+          "consumer-analysis",
+          "hardware-insurance"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, apple, finance, lease, upgrade-program, consumer-analysis, hardware-insurance"
+      },
+      {
+        "source": "pinboard",
+        "title": "Best Travel Clothes For Men",
+        "url": "https://www.theprofessionalhobo.com/best-travel-clothes-for-men/",
+        "description": "Article listing best travel clothing for men.",
+        "tags": [
+          "clothes",
+          "travel"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: clothes, travel"
+      },
+      {
+        "source": "pinboard",
+        "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation - Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+        "description": "\"To prevent people from using successive AI checks to tune a bypass workflow, Google limits SynthID to “approximately 10 image checks” per day. In my testing, the verifier will lock you out even faster if you upload too many similar-looking images. If you’re suspicious that an image may be generated by AI more than a few times on a given day, you may be out of luck.\"",
+        "tags": [
+          "artificial_intelligence",
+          "algorithms",
+          "image_processing",
+          "images",
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: artificial_intelligence, algorithms, image_processing, images, security"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Religion of Speed – The Gospel According to Graybeard",
+        "url": "https://graybeard.ing/the-religion-of-speed/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Bodies upon the gears",
+        "url": "https://flaminghydra.com/issue-617/",
+        "description": "“Civilization as we know it is collapsing, but that civilization is not civilization at all.”\n--\n'They formed cooperative stores that they could own and govern, purchasing goods on their own terms. A mill owner in Scotland, Robert Owen, experimented with a factory run for the benefit of workers above the goal of wealth accumulation.'\n--\n'...workers struggling to survive the abuses of the textile industry.'\n--\n'On this basis, the struggle against big tech can have two stories in one: the vibrant resistance and refusal, but also the effort to build a better economy under workers’ and users’ control. With these combined, we need not accept defeat so easily.'",
+        "tags": [
+          "yes",
+          "survival",
+          "coop"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: yes, survival, coop"
+      },
+      {
+        "source": "pinboard",
+        "title": "You have been mislead about lightbulbs (Maurycy's blog)",
+        "url": "https://maurycyz.com/misc/tungsten/",
+        "description": "The story goes, the light bulb makers had a cartel that ensured no light bulb lasted more than 10,000 hours, in order to maximize their profits. In truth, it was in order to keep the quality of bulbs high, because making it last longer means it wastes (significantly) more energy.",
+        "tags": [
+          "physics",
+          "via:lobsters"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: physics, via:lobsters"
+      },
+      {
+        "source": "pinboard",
+        "title": "severance - lcamtuf’s thing",
+        "url": "https://lcamtuf.substack.com/p/severance",
+        "description": "",
+        "tags": [
+          "heh",
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: heh, ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to plant a nuclear plant in Iran",
+        "url": "https://www.digitaldigging.org/p/how-to-plant-a-nuclear-plant-in-iran",
+        "description": "",
+        "tags": [
+          "ai",
+          "teaching"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, teaching"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to Exist",
+        "url": "https://www.raptitude.com/2026/07/how-to-exist/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Cooking For Engineers - Step by Step Recipes and Food for the Analytically Minded",
+        "url": "https://www.cookingforengineers.com/",
+        "description": "",
+        "tags": [
+          "cooking",
+          "recipes"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cooking, recipes"
+      },
+      {
+        "source": "pinboard",
+        "title": "Saudi Arabia prepares sea and possible land offensive against Houthis | Saudi Arabia | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/30/saudi-forces-planning-major-offensive-against-houthis-central-yemen",
+        "description": "",
+        "tags": [
+          "sapoli",
+          "houthis",
+          "yemen",
+          "iran"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sapoli, houthis, yemen, iran"
+      },
+      {
+        "source": "pinboard",
+        "title": "Dream-Cubed: Controllable Generative Modeling in Minecraft by Training on Billions of Cubes",
+        "url": "https://pub.sakana.ai/dream-cubed/",
+        "description": "",
+        "tags": [
+          "minecraft",
+          "generation",
+          "ai",
+          "awesome",
+          "voxel"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: minecraft, generation, ai, awesome, voxel"
+      },
+      {
+        "source": "pinboard",
+        "title": "Untitled (https://www.pbs.org/wgbh/nova/article/how-a-worm-gave-the-south-a-bad-name/)",
+        "url": "https://www.pbs.org/wgbh/nova/article/how-a-worm-gave-the-south-a-bad-name/",
+        "description": "One of the most incredible things I have ever read. By @RachelNuwer",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ghosted After a Job Interview? Report the Company",
+        "url": "https://didtheyghostyou.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Maybe we shouldn’t give 24-year-olds billions of dollars to bet on AI | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+        "description": "via The Verge https://ift.tt/8YpuKfX",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence (Google Research)",
+        "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+        "description": "Introducing the Science One Framework, an experimental research prototype designed to eliminate hallucinations by natively building verifiable evidence chains, and CoE Audit, an automated protocol to evaluate the integrity of AI-generated papers.\n\nLarge language models (LLMs) are increasingly being deployed not just as coding assistants but as autonomous agents capable of conducting end-to-end scientific research workflows. Recent systems (e.g., Sakana’s AI-Scientist, AutoResearchClaw, DeepScientist, AI-Researcher) can review literature, formulate hypotheses, execute experiments and write complete manuscripts that are comparable to human-authored papers. However, as the surface-level quality of these AI-generated manuscripts improves, a critical structural problem has emerged: verifiability. Because current autonomous research pipelines generate text iteratively, errors introduced at any stage are amplified. Some existing systems can generate non-existent citations, exhibit misalignments between the described methods and the actual code, and report experimental scores that are not fully reproducible from the provided code.\n\nIn our paper, we tackle this problem by introducing Chain-of-Evidence (CoE), a new verifiability framework for AI-driven research. We instantiate CoE with the Science One Framework, an autonomous research prototype that natively builds and maintains evidence chains, and the CoE Audit, a set of automated evaluation metrics that measures the integrity of AI-generated papers against their underlying code and evidence. Our results show that baseline systems hallucinate up to 21% of their references and frequently misalign their code and text, whereas the Science One Framework achieves zero phantom references and fully verifiable scores while achieving state-of-the-art performance on frontier benchmarks like MLE-Bench and Parameter-Golf.\nChain-of-Evidence: A framework for verifiable research\n\nThe CoE is a conceptual framework that defines what makes a research artifact trustworthy, much as ACID defines what makes a database transaction reliable. Rather than prescribing how to build a research agent, the framework specifies the properties its outputs must have. It follows a single principle with two halves: every claim in a research artifact must carry a recorded evidence chain (completeness), and each chain must genuinely support the claim it is attached to (correctness). A claim may be a reference, a reported number, a method description, or a conclusion, that must link back to corresponding evidence, such as a peer-reviewed paper, an experimental log line, the code that actually ran, or the results table.\n\nA hallucinated reference points to a paper that does not exist. An unreproducible score does not reappear when the code is re-run. A misdescribed method claims one algorithm in the paper while the code implements another. Each is a claim whose chain back to its evidence is broken; the CoE Audit makes these breaks measurable.\nThe Science One Framework\n\nTo demonstrate that verifiable AI research is possible without sacrificing problem-solving performance, we designed the Science One Framework. Unlike previous agents that generate a paper and try to link facts retroactively, the Science One Framework instantiates the CoE framework by construction through three main modules:\n\n    Problem investigator (literature grounding): To prevent hallucinated references, the Science One Framework builds a citation graph via the Semantic Scholar API. It reads up to 100 full-text PDFs per topic to produce a structured research brief. Every reference in the final paper originates from this grounded API call entirely eliminating reliance on model memory.\n    Discovery engine (parallel explore-exploit): The Science One Framework systematically explores and exploits ideas across multiple parallel branches. In each isolated cycle, a Solver agent implements a solution and a task-specific evaluator scores it. High-performing branches are iteratively refined, and all raw evaluator outputs are compiled into a strict, read-only record.\n    Paper writer and claim verifier: Before rendering the manuscript, the Science One Framework builds a structured representation of every factual claim with an inline evidence tag binding it to a specific workspace artifact. A dedicated Claim Verifier checks every claim against its declared source. Claims that outrun their evidence are reconciled with the source — restated conservatively rather than removed, keeping the paper aligned with what the work supports.",
+        "tags": [
+          "XDN",
+          "Applied-AI",
+          "Research-into-AI",
+          "Edu",
+          "Tech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Applied-AI, Research-into-AI, Edu, Tech"
+      },
+      {
+        "source": "pinboard",
+        "title": "Humans did not invent art. It was the other way around | Aeon Essays",
+        "url": "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around",
+        "description": "\"When early humans first painted cave walls, they began to find out who they really were: our minds emerged from our images\"",
+        "tags": [
+          "art",
+          "humanity",
+          "artmaking",
+          "2026",
+          "jfmartel",
+          "lascaux",
+          "cavepaintings",
+          "ancienthistory",
+          "johnkeats",
+          "wernerherzog",
+          "vincentvangogh",
+          "science",
+          "experience",
+          "sensory",
+          "senses",
+          "universe",
+          "mortality",
+          "despair",
+          "baudelaire",
+          "artifice",
+          "excess",
+          "spinoza",
+          "williamjames",
+          "henribergson",
+          "markrothko",
+          "anthropocentrism",
+          "humanexceptionalsism",
+          "sigmundfreud",
+          "freud",
+          "picasso",
+          "pablopicasso",
+          "impressionists",
+          "oscarwilde",
+          "paulklee",
+          "gillesdeleuze",
+          "deleuze",
+          "ai",
+          "artificialintelligence",
+          "anthropology",
+          "beauty",
+          "aesthetics",
+          "plato",
+          "ecstasy"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: art, humanity, artmaking, 2026, jfmartel, lascaux, cavepaintings, ancienthistory, johnkeats, wernerherzog, vincentvangogh, science, experience, sensory, senses, universe, mortality, despair, baudelaire, artifice, excess, spinoza, williamjames, henribergson, markrothko, anthropocentrism, humanexceptionalsism, sigmundfreud, freud, picasso, pablopicasso, impressionists, oscarwilde, paulklee, gillesdeleuze, deleuze, ai, artificialintelligence, anthropology, beauty, aesthetics, plato, ecstasy"
+      },
+      {
+        "source": "pinboard",
+        "title": "Amazon finds cases of AI causing runaway spending on tech projects",
+        "url": "https://www.ft.com/content/77baac40-d803-4084-94f3-a133653072cf?syn-25a6b1a6=1",
+        "description": "",
+        "tags": [
+          "amazon",
+          "costs",
+          "ai",
+          "fail"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: amazon, costs, ai, fail"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Is Everyone Trying to Build a Solid-State Battery?",
+        "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+        "description": "very clear explanation",
+        "tags": [
+          "engineering",
+          "chemistry",
+          "tech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: engineering, chemistry, tech"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Productivity Mirage / frantic.im",
+        "url": "https://frantic.im/mirage/",
+        "description": "Stop over-optimizing tools and focus on solving the right problems. Learn why product intuition and impact matter more than your technical setup.",
+        "tags": [
+          "to_share",
+          "productivity",
+          "facebook",
+          "engineering",
+          "product-taste",
+          "software-development",
+          "problem-solving"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, productivity, facebook, engineering, product-taste, software-development, problem-solving"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to spot AI writing",
+        "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing",
+        "description": "Large language models like long words and em-dashes—or do they?\nAghost writer is haunting the English language. The linguistic spectre can turn its hand to prose, poetry, journalese and corporate jargon. It is frightfully versatile: you can get it to mimic Shakespeare’s sonnets or a schlocky beach read; Ernest Hemingway’s taut prose or the office-printer manual. It is frightfully fast, churning out thousands of words a minute. (Hemingway rarely produced as many in a day, and required much more booze.) Wordsmiths are spooked.\nAI writing is everywhere. It is in your inbox and on your LinkedIn feed. It is all over the internet, drafting more than a third of new websites by one count. Large language models (llms) are helping students write essays and probably helping scientists write papers. Some allege AI-generated prose won the Commonwealth Short Story prize this year, with judges praising its “quiet authority”. (The Commonwealth Foundation denied the claim.)\nllms have stylistic quirks. They are thought to maximise the use of long em-dashes—and the use of words like “maximise”. They like to “deep dive” (and, better yet, “delve”) into the “rich tapestry” of the world. AI writing is not about a single word or phrase, but a rich tapestry of things.\nSpotting AI texts can be tricky. This is in part because you need evidence beyond a few words or dashes: claiming that a text is by an llm because it uses the word “delve” is like claiming one is by Jane Austen because it uses “imprudence”. Bots also write in slightly different ways. There is no single style of AI writing, explains Karolina Rudnicka, a linguist at the University of Gdansk in Poland, just as there is no single style of human writing. Writers have idiosyncrasies—Emily Dickinson, for instance, loved em-dashes—and bots may do, too.\nBut there are a few ways to identify llm-generated text. One is to use detection algorithms that are trained to spot the texture of human or AI prose. Pangram, a leading firm, claims to have 99.98% accuracy. (It has partnered with Substack, a blogging platform, on such a tool.) Detectors, however, are black-box algorithms that can give false positives. They do not give reasons for why they reach their conclusions.\nResearchers have also tried scouring texts for suspicious words or comparing papers from before and after llms were made available to the public. But these approaches have drawbacks too, not least because it is hard to disentangle AI quirks from other language trends.\nYou can discover AI’s hallmarks by comparing the writing of man and machine. To do this you need a baseline that is distinctive and familiar. The Economist turned to prose that we’re sure is human and that readers will recognise: our own. We designed a study to ask top llms—OpenAI’s Chatgpt, Anthropic’s Claude, Google’s Gemini and xAI’s Grok—to write versions of our articles without consulting the web. (As a prompt, we gave them the AI-generated summaries that we have experimentally added to some of our articles.)\nThis gave us a corpus of human and AI creations and we compared them across 55,940 sentences and 1.2m words. To make sure we were detecting AI quirks rather than our own, we also checked the AI texts against journalism from cnn, the New York Times and the Washington Post. Excerpts from hit novels published between 1950 and 2022 offered another test.\nOur findings are surprising. AI prose is distinguishable by word and punctuation choice as well as sentence and paragraph structure. But its hallmarks are not what you might expect, partly because its writing style has changed with software updates. That does not mean that llms are great writers: their prose lacks lucidity and elegance and is often formulaic. So those aspiring to be impressive (human) storytellers should avoid the following peculiarities in their own prose.",
+        "tags": [
+          "language",
+          "grammar",
+          "writing",
+          "AI/ML",
+          "howto",
+          "2020s",
+          "LLM"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: language, grammar, writing, AI/ML, howto, 2020s, LLM"
+      },
+      {
+        "source": "pinboard",
+        "title": "(5) Writing by Hand is Good for your Brain - Here's how to do it",
+        "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+        "description": "",
+        "tags": [
+          "read",
+          "write"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: read, write"
+      },
+      {
+        "source": "pinboard",
+        "title": "Africa map: US admits 'unfortunate error' after mislabelling countries",
+        "url": "https://www.bbc.com/news/articles/c89n0xykw2go",
+        "description": "",
+        "tags": [
+          "GOP",
+          "idiots",
+          "tech",
+          "maps"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: GOP, idiots, tech, maps"
+      },
+      {
+        "source": "pinboard",
+        "title": "Russian missile destroys US firm’s Kyiv drone factory | Ukraine | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/30/us-firm-drone-factory-terminal-autonomy-ukraine-russia",
+        "description": "A drone factory in Kyiv destroyed by a Russian ballistic missile on Friday was owned by a US corporation registered in Delaware, in what appears to be the first time Moscow has targeted a US company in the conflict.\n\nTerminal Autonomy makes precision “deep-strike” drones with guidance systems that are resistant to Russian jamming signals, according to a person familiar with the company.\n\nThe phrase “terminal autonomy” refers to the final phase of a kamikaze drone’s attack in which AI takes over control of the weapon after the defending force jams radio waves or mobile service.\n\nState records show that the corporation was registered in Delaware in 2023. The company’s website says: “We deploy AI-guided loitering munitions and precision munitions, which are already in active service against enemy assets on the frontline.”",
+        "tags": [
+          "XDN",
+          "War"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, War"
+      },
+      {
+        "source": "pinboard",
+        "title": "Modern email can be built from borrowed parts | Andros Fenollosa",
+        "url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/",
+        "description": "",
+        "tags": [
+          "fedi-me",
+          "retro-web"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: fedi-me, retro-web"
+      },
+      {
+        "source": "pinboard",
+        "title": "ccsim — CC Lab",
+        "url": "https://ccsim.fly.dev/",
+        "description": "",
+        "tags": [
+          "network",
+          "simulation",
+          "simulator",
+          "bbr",
+          "tcp"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: network, simulation, simulator, bbr, tcp"
+      },
+      {
+        "source": "pinboard",
+        "title": "So Someone You Know Is Having the Worst Time of Their Life… – signalstation",
+        "url": "https://www.signalstation.com/so-someone-you-know-is-having-the-worst-time-of-their-life/",
+        "description": "",
+        "tags": [
+          "grief",
+          "signalstation",
+          "howto"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: grief, signalstation, howto"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Lost Civic Life of Movie Rental Stores | The MIT Press Reader",
+        "url": "https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/",
+        "description": "",
+        "tags": [
+          "history"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: history"
+      },
+      {
+        "source": "pinboard",
+        "title": "twalichiewicz/HNewhere: A lightweight userscript that adds Hacker News discussions to any article.",
+        "url": "https://github.com/twalichiewicz/HNewhere",
+        "description": "Instantly view Hacker News discussions in a sidebar on any article. Track new comments and browse community insights without leaving the page.",
+        "tags": [
+          "to_share",
+          "javascript",
+          "userscript",
+          "sidebar",
+          "algolia",
+          "hacker-news",
+          "browser-extension"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, javascript, userscript, sidebar, algolia, hacker-news, browser-extension"
+      },
+      {
+        "source": "pinboard",
+        "title": "Anthropic is quietly turning Claude into a productivity OS and it’s awesome",
+        "url": "https://www.xda-developers.com/anthropic-quietly-turning-claude-into-productivity-os-and-its-awesome/",
+        "description": "One workspace for almost everything.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "‘What can you live without?’: How the Nordics have perfected the summer cabin",
+        "url": "https://www.bbc.com/culture/article/20260730-nine-stunning-nordic-cabins-and-summerhouses",
+        "description": "",
+        "tags": [
+          "IFTTT",
+          "Instapaper"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: IFTTT, Instapaper"
+      },
+      {
+        "source": "pinboard",
+        "title": "A bitter pill: are you wasting your money on supplements? | Health & wellbeing | The Guardian",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/jul/31/supplements-multivitamins-creatine-collagen-magnesium-omega",
+        "description": "",
+        "tags": [
+          "nutrition",
+          "food",
+          "guardian"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: nutrition, food, guardian"
+      },
+      {
+        "source": "pinboard",
+        "title": "Daring Fireball: Temu Is a Comically Bad App",
+        "url": "https://daringfireball.net/2026/07/temu_is_a_comically_bad_app",
+        "description": "",
+        "tags": [
+          "internet",
+          "retail",
+          "china",
+          "bullshit",
+          "money",
+          "business",
+          "software",
+          "marketing",
+          "quality"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: internet, retail, china, bullshit, money, business, software, marketing, quality"
+      },
+      {
+        "source": "pinboard",
+        "title": "clockwise spiral rule",
+        "url": "https://c-faq.com/decl/spiral.anderson.html",
+        "description": "",
+        "tags": [
+          "c"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: c"
+      },
+      {
+        "source": "pinboard",
+        "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? - The New York Times",
+        "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "that sudden rush of the world by ingberry",
+        "url": "https://archiveofourown.org/works/89533436",
+        "description": "“This is just crazy,” J.J. said. “Give me that, Pike, I’ve got one he absolutely can’t pass.”\n\n“Oh, so you’re saying it’s my fault?” Hayden asked.\n\n“Skill issue.” J.J. paused. “Ok. Pedro Pascal.” His voice was smug. \n\nA long silence stretched while Shane Hollander looked at the camera, seemingly deciding whether it was worth it to lie.\n\n“No!” J.J. said, horrified. \n\n“Pass… I—What?”\n\n“The entire internet wants to fuck this man!”\n\n“Okay?!” Shane Hollander said, throwing his arms out. “I don’t know what to tell you!”\n\n“Jesus Christ, okay.” Hayden shuffled behind the camera. “Ilya Rozanov.”\n\nA flush bloomed across Shane Hollander’s freckled face, intensifying so fast it looked like his face was on fire. \n\n“Uhm.” He pressed his lips together before his shoulders dropped in resignation. “Smash.”\n\nOr: A clip of Shane Hollander playing smash or pass goes viral and Ilya wants to eat him alive.",
+        "tags": [
+          "Shane/Ilya",
+          "HeatedRivalry",
+          "Words:10.000-20.000"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Shane/Ilya, HeatedRivalry, Words:10.000-20.000"
+      },
+      {
+        "source": "pinboard",
+        "title": "Logic for Programmers",
+        "url": "https://logicforprogrammers.com/",
+        "description": "",
+        "tags": [
+          "TLA+"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: TLA+"
+      },
+      {
+        "source": "pinboard",
+        "title": "Making Postgres Queues Scale | DBOS",
+        "url": "https://www.dbos.dev/blog/making-postgres-queues-scale",
+        "description": "xceptions and need to be retried.",
+        "tags": [
+          "postgres",
+          "redmap",
+          "read.later",
+          "distributed",
+          "architecture"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: postgres, redmap, read.later, distributed, architecture"
+      },
+      {
+        "source": "pinboard",
+        "title": "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA - Ars Technica",
+        "url": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
+        "description": "",
+        "tags": [
+          "archaeology",
+          "humanOrigins",
+          "Denisovans",
+          "Neanderthals",
+          "Africa",
+          "DNA"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: archaeology, humanOrigins, Denisovans, Neanderthals, Africa, DNA"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Unilever's 300,000-creator network actually looks like",
+        "url": "https://digiday.com/marketing/inside-unilevers-300000-creator-network-the-logistics-behind-the-headline-number/",
+        "description": "",
+        "tags": [
+          "influence",
+          "e.Marketing",
+          "creator"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: influence, e.Marketing, creator"
+      },
+      {
+        "source": "pinboard",
+        "title": "Reading matters deeply - A Working Library",
+        "url": "https://aworkinglibrary.com/writing/reading-matters-deeply",
+        "description": "\"In Virtue Hoarders, Catherine Liu’s polemic against the professional managerial class, she calls attention to how Obama talked about reading in the waning days of his presidency. In his farewell address on January 10, 2017, he said:\n\n<blockquote>Social attitudes oftentimes take generations to change. But if our democracy is to work in this increasingly diverse nation, then each one of us need to try to heed the advice of a great character in American fiction—Atticus Finch—who said “You never really understand a person until you consider things from his point of view…until you climb into his skin and walk around in it.”</blockquote>\n\nObama paraphrased this line a few days later, in an interview with Michiko Kakutani for the New York Times book review, where he said that reading allowed him to “get in somebody else’s shoes.” It’s a curious reference. Finch is the white lawyer who represents a Black man falsely accused of raping a white woman, in Harper Lee’s 1960 novel, To Kill a Mockingbird. The villain in the novel is a man named Bob Ewell, the woman’s father, who beats her and helps her frame the Black man for the crime. As Liu notes, the book holds up Finch as the “good” white man who fights for justice while Ewells are the “bad” white people who live off public assistance. But in Go Set a Watchman, the sequel published1 in 2015—eighteen months before Obama’s speech—it’s revealed that Atticus Finch was a member of the Klan.\n\nMany Klansmen were in fact educated and upstanding citizens by day, even as they donned hoods and rained terror at night. Their daytime performance of polite civilization was as much a mask for the violence and brutality as the hoods themselves. Similarly, Liu points out that Finch’s righteousness and commitment to justice contrasts with Ewell’s “white trash” status to elevate Finch into white saviorhood while simultaneously denigrating the people who depend on welfare—valorizing the performance of justice absent the realization of it.\n\nLiu locates a similar move in Obama’s embrace of his role as “reader-in-chief.” Despite a public commitment to raising educational standards, Obama’s policies “left 19.3 percent of American children under the age of five living in extreme poverty.”2 That is, while Obama ostensibly raised educational standards, he did not substantially increase funding to schools, nor did he upend the anti-labor practices that punished teachers when their (often poor) students didn’t make the cut. And those same standards promoted an approach to reading in which stories were stripped of their social and political standpoint and read naively, as if the world from which the stories emerged didn’t exist. Liu asks us to imagine a child from that nineteen percent of the population, being instructed to read a book in which those who take public assistance are dismissed as trash, while responding to a prescriptive writing prompt about how the book asks people to “take a stand.” But who is taking that stand, and for what?\n\nLiu writes: “Atticus and Obama showed us that individual acts of empathy and private self-cultivation would produce justice and understanding in a world torn apart by racism and violence.”3 This is what Jade Davis warns of in The Other Side of Empathy, the reproduction of an empathy culture in which “change and action stop being necessary…because the feeling and sense of understanding are action enough.”4 Rather than giving someone money, we feel what it’s like to walk in their shoes; rather than ending social disparities, we passively read stories about their lives. In this mode, empathy is a kind of terminating gesture: once you’ve empathized with someone else, you’re relieved of taking any action on their behalf.\n\nLiu proposes: “Let us read Atticus Finch as a political project and the novel in which he exists as a piece of well-crafted, anti-welfare state, antisocialist propaganda. Reading matters deeply, but not in the way Obama and Kakutani want it to.”5 That is, reading isn’t about reaching empathic dead ends, or recruiting platitudes about how we must understand each other; it isn’t about the performance of social class absent a criticism of that class structure. To reduce reading to the practice of empathy is to divorce it of its real power and pleasure: to enjoy the fruits of another person’s creative effort, to think with the writer and their characters, not becoming them, but becoming more fully yourself. But this means that you are there when you are reading; you, the reader, with your feet on the ground, a ground on which racism, misogyny, and extreme poverty are not so easily dispatched. You must read where you are, not in some hypothetical sanitized reading room, but in the dirt. To use reading to step into someone else’s shoes is to leave yourself behind.\"",
+        "tags": [
+          "mandybrown",
+          "howweread",
+          "reading",
+          "empathy",
+          "action",
+          "2026",
+          "barackobama",
+          "pmc",
+          "professionalmanagerialclass",
+          "society",
+          "catherineliu",
+          "virtuehoarders",
+          "michikokakutani",
+          "harperlee",
+          "tokillamockingbird",
+          "performativity",
+          "poverty",
+          "eucation",
+          "elitism",
+          "jadedavis",
+          "literature",
+          "inequality",
+          "class",
+          "racism",
+          "misogyny",
+          "power",
+          "pleasure",
+          "whatmatters",
+          "socialjustice",
+          "democracy",
+          "labor",
+          "work",
+          "workers",
+          "rttt",
+          "policy",
+          "virtuesignaling"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: mandybrown, howweread, reading, empathy, action, 2026, barackobama, pmc, professionalmanagerialclass, society, catherineliu, virtuehoarders, michikokakutani, harperlee, tokillamockingbird, performativity, poverty, eucation, elitism, jadedavis, literature, inequality, class, racism, misogyny, power, pleasure, whatmatters, socialjustice, democracy, labor, work, workers, rttt, policy, virtuesignaling"
+      },
+      {
+        "source": "pinboard",
+        "title": "stablyai/orca: Orca is the next-gen IDE for building with coding agents",
+        "url": "https://github.com/stablyai/orca",
+        "description": "",
+        "tags": [
+          "programming",
+          "tools",
+          "ai",
+          "harnesss"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, tools, ai, harnesss"
+      },
+      {
+        "source": "pinboard",
+        "title": "prime-radiant-inc/smevals: A framework for running evals against small (and large) models",
+        "url": "https://github.com/prime-radiant-inc/smevals",
+        "description": "A framework for running evals against small (and large) models - prime-radiant-inc/smevals",
+        "tags": [
+          "llm",
+          "evaluation",
+          "python",
+          "framework"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, evaluation, python, framework"
+      },
+      {
+        "source": "pinboard",
+        "title": "Eval-driven development: Lessons from evaluating GenAI at scale | by Rohit Girme | The Airbnb Tech Blog | Jul, 2026 | Medium",
+        "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788",
+        "description": "<blockquote>Eval-driven development: Lessons from evaluating GenAI at scale How Airbnb teams build trustworthy Generative AI products by treating evaluation as a first-class engineering discipline; not an …</blockquote>",
+        "tags": [
+          "eval"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: eval"
+      },
+      {
+        "source": "pinboard",
+        "title": "Il debito nascosto dietro la corsa ai data center per l’AI",
+        "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+        "description": "Un’inchiesta di Nikkei Asia stima che Alphabet, Microsoft, Amazon, Meta e Oracle abbiano 1.650 miliardi di dollari di debiti fuori bilancio legati agli investimenti in AI e data center. L’uso di veicoli societari speciali richiama i rischi del caso Enron e alimenta i timori di una bolla, soprattutto se la domanda non giustificherà i costi dell’infrastruttura.",
+        "tags": [
+          "N8N",
+          "#AI_and_Tech",
+          "AI&TECH",
+          "TW2026-30"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #AI_and_Tech, AI&TECH, TW2026-30"
+      },
+      {
+        "source": "pinboard",
+        "title": "What it means for an API to be RESTful | Andros Fenollosa",
+        "url": "https://en.andros.dev/blog/9761fd2e/what-it-means-for-an-api-to-be-restful/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Cameron's World",
+        "url": "https://www.cameronsworld.net/",
+        "description": "",
+        "tags": [
+          "1998"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 1998"
+      },
+      {
+        "source": "pinboard",
+        "title": "sirius_ate_my_homework - If you're a heretic, then so am I - Project Hail Mary (2026), Project Hail Mary - Andy Weir [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/89001956",
+        "description": "<blockquote>Ilyukhina flops back down onto the bed. “You’re no fun. Hey, Rocky, what it is like sharing a head with Grace?”\n\nLeaky. Memories always falling out. Have to remind it eat, much disgust.\n\nI put up a finger. “First of all, Rocky doesn’t share a head with me. He has his own head. It’s just that he’s always butting into mine.”\n\nOnly because I love you.\n\n“Love you too, buddy.”\n\n“Aww, you guys are so cute.” Ilyukhina rolls onto her stomach. “Hey Rocky, did you know that Grace once accidentally called Stratt ‘mom’?”</blockquote> \n\n(Grace introduces Rocky to Ilyukhina. Too late, he realizes this was a mistake.) \n\n(Words: 6,663) | Part 2 of Me, Myself, and My Imaginary Alien Bestie",
+        "tags": [
+          "!!!fandom",
+          "!!fic",
+          "|site:ao3",
+          "+fandom:project.hail.mary.(2026)",
+          "+fandom:project.hail.mary.-.andy.weir",
+          "::rating:general.audiences",
+          "::category:gen",
+          "character:ryland.grace",
+          "character:rocky.(project.hail.mary)",
+          "character:olesya.ilyukhina",
+          "character:eva.stratt",
+          "character:martin.dubois.(project.hail.mary)",
+          "character:annie.shapiro.(project.hail.mary)",
+          "relationship:ryland.grace.&.rocky",
+          "relationship:ryland.grace.&.olesya.ilyukhina",
+          "relationship:olesya.ilyukhina.&.rocky",
+          "relationship:ryland.grace.&.eva.stratt",
+          "~ao3:soulsong.au",
+          "~ao3:now.with.plot!",
+          "~ao3:(a.little.bit)",
+          "~ao3:olesya.ilyukhina.is.a.menace",
+          "~ao3:ryland.grace.and.olesya.ilyukhina.are.like.siblings",
+          "~ao3:ryland.grace.&.rocky.are.best.friends",
+          "~ao3:ryland.grace.and.rocky.are.soulmates",
+          "~ao3:stratt's.vat.(project.hail.mary)",
+          "~ao3:nonbinary.ryland.grace",
+          "~ao3:ryland.grace.wears.a.skirt",
+          "~ao3:and.gets.struck.with",
+          "~ao3:internalized.queerphobia",
+          "~ao3:tm.-.freeform",
+          "~ao3:aromantic.asexual.ryland.grace",
+          "~ao3:neurodivergent.ryland.grace",
+          "~ao3:the.ultimate.triple-a.battery.(agender.aroace.audhd)",
+          "~"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: !!!fandom, !!fic, |site:ao3, +fandom:project.hail.mary.(2026), +fandom:project.hail.mary.-.andy.weir, ::rating:general.audiences, ::category:gen, character:ryland.grace, character:rocky.(project.hail.mary), character:olesya.ilyukhina, character:eva.stratt, character:martin.dubois.(project.hail.mary), character:annie.shapiro.(project.hail.mary), relationship:ryland.grace.&.rocky, relationship:ryland.grace.&.olesya.ilyukhina, relationship:olesya.ilyukhina.&.rocky, relationship:ryland.grace.&.eva.stratt, ~ao3:soulsong.au, ~ao3:now.with.plot!, ~ao3:(a.little.bit), ~ao3:olesya.ilyukhina.is.a.menace, ~ao3:ryland.grace.and.olesya.ilyukhina.are.like.siblings, ~ao3:ryland.grace.&.rocky.are.best.friends, ~ao3:ryland.grace.and.rocky.are.soulmates, ~ao3:stratt's.vat.(project.hail.mary), ~ao3:nonbinary.ryland.grace, ~ao3:ryland.grace.wears.a.skirt, ~ao3:and.gets.struck.with, ~ao3:internalized.queerphobia, ~ao3:tm.-.freeform, ~ao3:aromantic.asexual.ryland.grace, ~ao3:neurodivergent.ryland.grace, ~ao3:the.ultimate.triple-a.battery.(agender.aroace.audhd), ~"
+      },
+      {
+        "source": "pinboard",
+        "title": "With Switch 2, iPhone, and laptop tricks, the Sharge Disk Pro 2 is finally a worthy EDC | The Verge",
+        "url": "https://www.theverge.com/gadgets/973886/sharge-disk-pro-2-hands-on-switch-2-hdmi-usb-c-dock",
+        "description": "",
+        "tags": [
+          "Hardware",
+          "BUY!",
+          "Source:The-Verge",
+          "2026",
+          "Read-√"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Hardware, BUY!, Source:The-Verge, 2026, Read-√"
+      },
+      {
+        "source": "pinboard",
+        "title": "Parakeet Blog: The Shape of Apps",
+        "url": "https://parakeet.co/blog/the-shape-of-apps/",
+        "description": "via Daring Fireball https://ift.tt/fFD76Z0",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Chip Builder - Build a computer from scratch. Start with logic gates, design circuits, construct a CPU, and write programs that run on your creation.",
+        "url": "https://select.supply/game/chipbuilder",
+        "description": "https://news.ycombinator.com/item?id=49108571",
+        "tags": [
+          "electronics",
+          "programming",
+          "games",
+          "learning",
+          "fun"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: electronics, programming, games, learning, fun"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Timeline of the Future",
+        "url": "https://when.val.run/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "How AI Is Transforming Modern Warfare | Proton Data Wars | VICE News - YouTube",
+        "url": "https://www.youtube.com/watch?v=xjhywQlzJYo",
+        "description": "\"AI is shrinking the military “kill chain” from days or weeks to milliseconds. Using the 2026 US war against Iran as a case study, this episode examines how Palantir’s Maven Smart System and technology from Google, Microsoft, OpenAI, Amazon and other Silicon Valley companies are being integrated into military intelligence, targeting and strike planning.\n\nIt also investigates the dangers of automated warfare, including how outdated targeting data can lead to catastrophic mistakes, how Israel has used AI systems such as Lavender and Project Nimbus in Gaza, and how Iran is using American AI tools to strengthen its own capabilities. As Big Tech moves deeper into defense, one question becomes impossible to ignore: who decides who gets targeted, who profits and what happens when humans are removed from the process?\n\n============================ \n\nChapters:\n0:00 The Kill Chain and Modern Warfare\n1:24 How AI Shrinks Targeting Time\n1:58 Inside Palantir’s Maven Smart System\n3:43 Silicon Valley Sells Algorithmic Warfare\n4:08 The Deadly Cost of Outdated Data\n5:06 Big Tech’s Military AI Gold Rush\n5:53 Lavender and Project Nimbus in Gaza\n6:45 Iran Uses American AI to Fight Back\n7:17 The Risk of Fully Autonomous Weapons\"",
+        "tags": [
+          "ai",
+          "artificialintelligence",
+          "war",
+          "weapons",
+          "killchain",
+          "2026",
+          "iran",
+          "google",
+          "microsoft",
+          "openai",
+          "amazon",
+          "siliconvalley",
+          "technology",
+          "palantir",
+          "lavender",
+          "projectnimbus",
+          "palestine",
+          "gaza",
+          "israel",
+          "us",
+          "bigtech",
+          "warprofiteering",
+          "aiwarfare",
+          "warfare",
+          "data",
+          "joshlong",
+          "projectmaven",
+          "mavensmartsystem",
+          "business",
+          "alexkarp",
+          "collaterdamage",
+          "torture",
+          "targeting",
+          "algorithms",
+          "autonomousweapons",
+          "drones"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, artificialintelligence, war, weapons, killchain, 2026, iran, google, microsoft, openai, amazon, siliconvalley, technology, palantir, lavender, projectnimbus, palestine, gaza, israel, us, bigtech, warprofiteering, aiwarfare, warfare, data, joshlong, projectmaven, mavensmartsystem, business, alexkarp, collaterdamage, torture, targeting, algorithms, autonomousweapons, drones"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Talk Show ✪: Ep. 453, With Louie Mantia",
+        "url": "https://daringfireball.net/thetalkshow/2026/07/31/ep-453",
+        "description": "from Daring Fireball \n\nLouie Mantia returns to the show to talk about the state of UI and icon design on Apple’s platforms, and some speculation on Apple’s trade secret lawsuit against OpenAI.\n\nSponsored by:\n\nNotion: The collaborative AI workspace where teams and\nagents work side by side, with a Developer Platform teams can build on.\n\nEven Realities: Even G2, the everyday display smart glasses. Use promo code talkshow to save 10% off the R1 Ring and/or Even Clip.\n\nSquarespace: Save 10% off your first purchase of a website or domain using code TALKSHOW.\n\n ★",
+        "tags": [
+          "ifttt",
+          "daringfireball"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ifttt, daringfireball"
+      },
+      {
+        "source": "pinboard",
+        "title": "Frozen Peanut Butter Bars Recipe | The Kitchn",
+        "url": "https://www.thekitchn.com/frozen-peanut-butter-bars-recipe-23791179",
+        "description": "",
+        "tags": [
+          "cooking",
+          "baking_recipes",
+          "bars",
+          "frozen.desserts"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cooking, baking_recipes, bars, frozen.desserts"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI Mania Is Eviscerating Global Decisionmaking · Radically Ethical Data Consulting",
+        "url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+        "description": "If you’re being asked to review huge volumes of terrible AI code, just assume that the organisation is going to burn you out and fire you. You will not convince the person drowning you in 2000 line PRs to stop. Start looking for a new job as if you have already been fired.",
+        "tags": [
+          "work",
+          "llm",
+          "chatgpt",
+          "strategy",
+          "organisations",
+          "consulting"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: work, llm, chatgpt, strategy, organisations, consulting"
+      },
+      {
+        "source": "pinboard",
+        "title": "Software Should Work",
+        "url": "https://softwareshould.work/",
+        "description": "An independent conference on software reliability.",
+        "tags": [
+          "software",
+          "reliability",
+          "conference",
+          "events"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: software, reliability, conference, events"
+      },
+      {
+        "source": "pinboard",
+        "title": "Hatchet · The startup's Postgres survival guide",
+        "url": "https://hatchet.run/blog/postgres-survival-guide",
+        "description": "https://news.ycombinator.com/item?id=49005787",
+        "tags": [
+          "postgres",
+          "hn"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: postgres, hn"
+      },
+      {
+        "source": "pinboard",
+        "title": "sish",
+        "url": "https://docs.ssi.sh/",
+        "description": "",
+        "tags": [
+          "fedi-me",
+          "ssh"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: fedi-me, ssh"
+      },
+      {
+        "source": "pinboard",
+        "title": "So you want to use plants to reduce CO₂",
+        "url": "https://dynomight.net/plants/",
+        "description": "<blockquote>You face certain challenges</blockquote>",
+        "tags": [
+          "co2",
+          "physics",
+          "chemistry",
+          "plants"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: co2, physics, chemistry, plants"
+      },
+      {
+        "source": "pinboard",
+        "title": "trycompai/crm",
+        "url": "https://github.com/trycompai/crm",
+        "description": "",
+        "tags": [
+          "crm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: crm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Keep the Robots Out of the Gym | Daniel Miessler",
+        "url": "https://danielmiessler.com/blog/keep-the-robots-out-of-the-gym",
+        "description": "",
+        "tags": [
+          "ai",
+          "llm",
+          "vision",
+          "learning",
+          "gym"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, llm, vision, learning, gym"
+      },
+      {
+        "source": "pinboard",
+        "title": "calling a wolf a wolf - Chapter 1 - sunshineonrye - Heated Rivalry (TV) [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/88628771/chapters/235151196",
+        "description": "\"You're disappointed in me,\" Ilya says when the silence drags on too long.\n\nIt snaps Irina out of her thoughts. No, she wants to say, you're my perfect boy, though she knows she shouldn't. She can't bring herself to say yes either. \"You're my son,\" Irina says. \"I love you.\"\n\n\"I'm sorry, Mama,\" he says, voice small, smaller than Irina has heard in years. He sounds like a child again, five and besieged by nightmares of a snowstorm, begging for reassurances than their house won't be buried under an insurmountable blanket of white, that she would find him and hold him even if it was.\n\n\"It's not my apology to accept, Ilyusha,\" she says instead.\n\n(Irina Rozanova lives! It doesn't fix Ilya.)",
+        "tags": [
+          "category:fanfiction",
+          "fandom:heated_rivalry",
+          "pairing:shane.hollander/ilya.rozanov",
+          "genre:slash",
+          "genre:established_relationship",
+          "rating:mature",
+          "au:canon_divergence",
+          "content:outside_pov"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: category:fanfiction, fandom:heated_rivalry, pairing:shane.hollander/ilya.rozanov, genre:slash, genre:established_relationship, rating:mature, au:canon_divergence, content:outside_pov"
+      },
+      {
+        "source": "pinboard",
+        "title": "It's getting harder to focus every day | Glyphack",
+        "url": "https://glyphack.com/attention/",
+        "description": "",
+        "tags": [
+          "C0_KIDS_FAMILY_HOME",
+          "C10_SELF_HEALTH_SPORT",
+          "C4_TECH_IT_PROGRAM",
+          "C8_CAREER"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: C0_KIDS_FAMILY_HOME, C10_SELF_HEALTH_SPORT, C4_TECH_IT_PROGRAM, C8_CAREER"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 39,
+    "hn_after_dedup": 38,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 77
+  }
+}

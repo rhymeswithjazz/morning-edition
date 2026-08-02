@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-02",
+  "stories": [
+    {
+      "title": "How Google helped destroy adoption of RSS feeds (2023)",
+      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
+      "hn_link": "https://news.ycombinator.com/item?id=49136821",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by pudgywalsh · 529 points · 182 comments",
+      "blurb": "A well-documented autopsy of how Google Reader's 2013 shutdown didn't just kill a product — it poisoned the entire RSS ecosystem by pulling away the mainstream user base and developer investment. If you've ever wondered why RSS never recovered, this is the definitive explanation. Timely given the ongoing Atom vs. RSS discussion also trending on HN today."
+    },
+    {
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "hn_link": "https://news.ycombinator.com/item?id=49138188",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ryanseys · 353 points · 42 comments",
+      "blurb": "Diátaxis is a practical framework for organizing technical documentation into four types: tutorials, how-to guides, explanations, and references. If you've ever felt your docs were simultaneously too much and not enough, this framework gives you a concrete structural model to fix that. Essential reading for any developer who ships SDKs, APIs, or open-source tools."
+    },
+    {
+      "title": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "hn_link": "https://news.ycombinator.com/item?id=49138302",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by njaremko · 339 points · 183 comments",
+      "blurb": "ByteDance's Seedance 2.5 introduces one-take video generation with flexible visual referencing — you can anchor characters, objects, or scenes from reference images and maintain consistency across a full clip. The \"flexible referencing\" approach is a meaningful step beyond simple text-to-video prompting and worth watching for anyone building creative AI workflows."
+    },
+    {
+      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "hn_link": "https://news.ycombinator.com/item?id=49139102",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by foxtrot8672 · 300 points · 275 comments",
+      "blurb": "MIT Sloan researchers find LLMs can give genuinely useful financial guidance when queries are structured carefully — reinforcing that prompt engineering is the real skill gap, not model capability. The flip side: they also hallucinate confidently on edge cases, so the framework for \"when to trust\" matters as much as the advice itself. Directly relevant if you're building AI workflows for any domain that requires accuracy."
+    },
+    {
+      "title": "NetBSD 11.0",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+      "hn_link": "https://news.ycombinator.com/item?id=49136736",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jaypatelani · 284 points · 128 comments",
+      "blurb": "A major release of NetBSD with improved hardware support, security hardening, and performance tweaks across the board. Not your daily driver, but NetBSD often surfaces techniques and design decisions that eventually influence mainstream OS development — and it's still the gold standard for portability across wild hardware targets."
+    },
+    {
+      "title": "Go 1.27 Interactive Tour",
+      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49140218",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Hixon10 · 214 points · 78 comments",
+      "blurb": "VictoriaMetrics has built a beautifully interactive walkthrough of every major feature in Go 1.27, complete with runnable examples inline. Even if you're primarily a .NET/TypeScript shop, this is the kind of resource that sets the bar for how language release notes should look. Bookmark it and mine the new language features for cross-language inspiration."
+    },
+    {
+      "title": "Postmortem for Kernel Soundness Bug #14576",
+      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+      "hn_link": "https://news.ycombinator.com/item?id=49137060",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by juhopitk · 147 points · 57 comments",
+      "blurb": "Leo de Moura, creator of the Lean theorem prover, writes a candid postmortem on a soundness bug found in Lean's kernel — the trusted core that is supposed to be unforgeable. These postmortems are rare in formal verification land and extremely instructive for anyone thinking about correctness guarantees in software. A reminder that even the foundations have cracks."
+    },
+    {
+      "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "hn_link": "https://news.ycombinator.com/item?id=49141073",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ilreb · 129 points · 37 comments",
+      "blurb": "Wafer AI benchmarks MoonShot's Kimi K3 model on AMD's MI355X accelerator and finds it beats NVIDIA's B300 on price-performance — a significant data point in the GPU wars that matter to anyone running self-hosted inference. AMD's ROCm ecosystem is maturing fast, and the cost argument is becoming harder to ignore."
+    },
+    {
+      "title": "CISA Alert: Water Sector PLC Targeting",
+      "url": "https://censys.com/blog/cisa-alert-water-tower-plc-targeting/",
+      "hn_link": "https://news.ycombinator.com/item?id=49137228",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 90 points · 64 comments",
+      "blurb": "CISA is warning that threat actors are actively targeting water utility PLCs exposed to the internet — a disturbingly low-effort attack surface given how many ICS devices run default credentials. Censys scans show the exposure is widespread. A sobering illustration of critical infrastructure security debt and how slowly operational technology gets patched."
+    },
+    {
+      "title": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+      "url": "https://www.rfc-editor.org/rfc/rfc10015.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49139711",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Jimmc414 · 59 points · 15 comments",
+      "blurb": "A freshly published RFC formally deprecates RSA key exchange, static DH, and other legacy TLS 1.2 cipher suites that have been security liabilities for years. If your .NET services or APIs still negotiate these, now you have an official IETF standard to cite when pushing for an upgrade. Action item: audit your TLS negotiation configs today."
+    },
+    {
+      "title": "Should You Use AI for a Task? Here's a Simple Way to Decide - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Bruce Schneier distills a practical decision framework: use AI only for tasks where you can verify the output and don't mind losing the underlying skill. It's a refreshingly unsentimental take from a security legend who has no interest in being anti-AI for its own sake. Essential mental model for anyone building with Claude Code or integrating LLMs into professional workflows."
+    },
+    {
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack | MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: to_share, cybersecurity, jailbreak, openai, chain-of-thought, prompt-injection, red-teaming",
+      "blurb": "MIT Tech Review digs into why LLMs are structurally incapable of distinguishing between their own instructions and user-injected content — making prompt injection not a bug to patch but an architectural property to work around. If you're building agentic workflows with Claude Code or any tool-using LLM, this is the threat model you need to understand."
+    },
+    {
+      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation - Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial_intelligence, algorithms, image_processing, images, security",
+      "blurb": "Ars puts Google's SynthID watermarking through its paces and finds it's technically impressive but limited to ~10 checks per day per user — a rate limit that makes it nearly useless for any serious verification workflow. The deeper problem: watermarking is a labeling game, not a trust game. Worth reading before building any AI content provenance pipeline."
+    },
+    {
+      "title": "stablyai/orca: Orca is the next-gen IDE for building with coding agents",
+      "url": "https://github.com/stablyai/orca",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, tools, ai, harnesss",
+      "blurb": "Orca is an early-stage open-source IDE purpose-built for agentic coding workflows — think Claude Code but with a UI designed around multi-agent task delegation rather than single-turn chat. For developers already living in AI coding tools, this is worth watching as an alternative architecture to the incumbent approaches."
+    },
+    {
+      "title": "Anthropic is quietly turning Claude into a productivity OS and it's awesome",
+      "url": "https://www.xda-developers.com/anthropic-quietly-turning-claude-into-productivity-os-and-its-awesome/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "XDA covers how Anthropic is bundling Projects, memory, tool integrations, and soon MCP connections into Claude.ai — essentially positioning it as a unified workspace rather than a chatbot. If you're using Claude Code alongside Claude.ai, understanding this product direction matters for how you structure your workflows and data."
+    },
+    {
+      "title": "Eval-driven development: Lessons from evaluating GenAI at scale | by Rohit Girme | The Airbnb Tech Blog",
+      "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: eval",
+      "blurb": "Airbnb engineering details how they treat LLM evaluation as a first-class engineering discipline — building evals before shipping features, not after. This is the missing chapter in most \"we added AI\" blog posts, and the patterns here are directly transferable to any team shipping AI-powered features on top of TypeScript or .NET backends."
+    },
+    {
+      "title": "Making Postgres Queues Scale | DBOS",
+      "url": "https://www.dbos.dev/blog/making-postgres-queues-scale",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: postgres, redmap, read.later, distributed, architecture",
+      "blurb": "DBOS digs into the failure modes of naive Postgres-as-queue implementations and presents concrete solutions using SKIP LOCKED, partitioning, and advisory locks. If you're running background job queues on Postgres in a .NET or TypeScript stack — and many teams quietly are — this is the architecture review you didn't know you needed."
+    },
+    {
+      "title": "Hatchet · The startup's Postgres survival guide",
+      "url": "https://hatchet.run/blog/postgres-survival-guide",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: postgres, hn",
+      "blurb": "A practical, opinionated guide to keeping Postgres healthy under real startup load: vacuuming, connection pooling, index bloat, and the settings that bite you first. Complements the DBOS queuing piece perfectly — consider this the operational handbook to run alongside it."
+    },
+    {
+      "title": "Rogue Amoeba - Under the Microscope » Blog Archive » Unobtrusive Update Notifications",
+      "url": "https://weblog.rogueamoeba.com/2026/04/28/unobtrusive-update-notifications/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Rogue Amoeba — makers of Audio Hijack, Fission, and other beloved Mac audio tools — writes thoughtfully about designing update notifications that respect user attention. This is the kind of macOS UI craftsmanship post that only Rogue Amoeba writes, and it's a useful reference for anyone building Mac or iOS apps that need to surface non-urgent information."
+    },
+    {
+      "title": "The Talk Show ✪: Ep. 453, With Louie Mantia",
+      "url": "https://daringfireball.net/thetalkshow/2026/07/31/ep-453",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ifttt, daringfireball",
+      "blurb": "John Gruber and icon designer Louie Mantia discuss the current state of UI and icon design across Apple's platforms — a conversation that always surfaces real insight about where Apple's design language is heading and what it means for third-party apps. The sidebar on Apple's trade secret lawsuit against OpenAI is an unexpected bonus."
+    }
+  ]
+}
