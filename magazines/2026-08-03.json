@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-03",
+  "stories": [
+    {
+      "title": "Don't be a meat proxy",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "hn_link": "https://news.ycombinator.com/item?id=49151933",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ngruhn · 723 points · 312 comments",
+      "blurb": "A sharp essay on the trap of becoming a mindless rubber-stamp for AI output — approving code and decisions you don't actually understand. With 312 comments it clearly hit a nerve in the developer community. Essential reading for anyone leaning on Claude Code or Copilot daily."
+    },
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "hn_link": "https://news.ycombinator.com/item?id=49150470",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ai2027 · 644 points · 320 comments",
+      "blurb": "Alibaba's Qwen team drops a new frontier model explicitly optimized for coding and collaborative AI workflows. 320 comments of benchmarks, comparisons, and real-world tests make this a must-read for developers evaluating alternatives to GPT-4o and Claude. Directly relevant if you're shopping for a coding assistant."
+    },
+    {
+      "title": "Karpathy's Pelican",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "hn_link": "https://news.ycombinator.com/item?id=49140998",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by delichon · 580 points · 394 comments",
+      "blurb": "Andrej Karpathy's latest viral AI experiment is generating a massive HN thread with 394 comments. Whatever the pelican does, Karpathy's demos reliably point to where LLM capabilities are heading next. Worth clicking just to see what the conversation is about."
+    },
+    {
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "hn_link": "https://news.ycombinator.com/item?id=49153374",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mpweiher · 86 points · 61 comments",
+      "blurb": "A practical antidote to the \"meat proxy\" problem: retyping AI-generated code forces you to actually read and internalize it, building understanding rather than just shipping. Directly actionable advice for Claude Code users who want to stay sharp. Pairs perfectly with today's top story."
+    },
+    {
+      "title": "Note-Taking and Personal Knowledge Management",
+      "url": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
+      "hn_link": "https://news.ycombinator.com/item?id=49084324",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 209 points · 70 comments",
+      "blurb": "A deep survey of the PKM landscape covering tools, philosophies, and workflows — highly relevant for Obsidian users looking to sharpen their system. 209 points suggests it covers ground most PKM posts miss. Good for anyone who's ever wondered if their note-taking setup is actually working."
+    },
+    {
+      "title": "SwiftUI After 7 Years",
+      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "hn_link": "https://news.ycombinator.com/item?id=49147263",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by mpweiher · 206 points · 186 comments",
+      "blurb": "A candid, experienced-developer autopsy of SwiftUI at the seven-year mark — cataloguing what still doesn't work, what got better, and what Apple quietly abandoned. 186 comments of battle-tested opinions from iOS/macOS devs. If you touch the Apple ecosystem, this is the state-of-the-union you weren't going to get from WWDC."
+    },
+    {
+      "title": "Developers are attached to tools because tools encode trust",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "hn_link": "https://news.ycombinator.com/item?id=49097961",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by HieronymusBosch · 217 points · 120 comments",
+      "blurb": "Stack Overflow's blog makes a compelling case that tool loyalty isn't irrational nostalgia — it's accumulated trust in predictable, well-understood behavior. A useful framework for thinking about why switching from a beloved editor or CLI feels like a betrayal. Directly relevant as AI tooling disrupts long-settled workflows."
+    },
+    {
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
+      "hn_link": "https://news.ycombinator.com/item?id=49145937",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by vlad_kalinkin · 223 points · 56 comments",
+      "blurb": "An audacious project that lets you run macOS ARM binaries on Linux without Apple hardware — essentially a userspace macOS compatibility layer. Huge implications for CI pipelines and cross-platform dev work. Early days, but 223 points says the community sees the potential."
+    },
+    {
+      "title": "The myth of Snow Leopard",
+      "url": "https://www.rubenerd.au/the-myth-of-snow-leopard/",
+      "hn_link": "https://news.ycombinator.com/item?id=49146960",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by speckx · 106 points · 84 comments",
+      "blurb": "Every few years the \"Snow Leopard was perfect\" myth resurfaces; this post digs into whether macOS's beloved 2009 release was actually the pinnacle of polish or a nostalgic illusion. Historically interesting and surprisingly relevant to current debates about macOS bloat. Required reading for Apple ecosystem devotees."
+    },
+    {
+      "title": "AI migrated legacy COBOL programs to Java, bugs included",
+      "url": "https://arxiv.org/abs/2607.28271",
+      "hn_link": "https://news.ycombinator.com/item?id=49150773",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by felineflock · 71 points · 57 comments",
+      "blurb": "A new arxiv paper finds that AI-assisted COBOL-to-Java migration faithfully reproduced not just the logic — but also the original bugs. A sobering data point about trusting AI code translation for any legacy modernization project. Directly relevant if you're evaluating AI for .NET or other migration work."
+    },
+    {
+      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw\"",
+      "url": "https://frogs.vaguespac.es/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by thebigship · 142 points · 76 comments",
+      "blurb": "A delightfully absurd but genuinely useful benchmark: comparing how well various LLMs can render a specific, weird SVG prompt. Side-by-side visual comparisons reveal surprising capability gaps between models. More informative than many formal evals, and way more fun."
+    },
+    {
+      "title": "Show HN: Isopolis – Isometric pixel map of SF",
+      "url": "https://sf.isopolis.city/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by nuwandavek · 238 points · 52 comments",
+      "blurb": "A gorgeous hand-crafted isometric pixel-art map of San Francisco that's as technically impressive as it is visually stunning. A great example of creative coding producing something genuinely beautiful. Click it just to see what obsessive creative work looks like."
+    },
+    {
+      "title": "Show HN: ssh ssh.place",
+      "url": "https://ssh.place",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jeninh · 125 points · 74 comments",
+      "blurb": "SSH into ssh.place and see what happens — a fun, mysterious terminal experience that's drawing curious developers in droves. The Show HN thread has 74 comments of people discovering what's inside. Sometimes the best dev tools are also toys."
+    },
+    {
+      "title": "The AI Productivity Gap",
+      "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kiyanwang · 58 points · 60 comments",
+      "blurb": "Why are aggregate productivity numbers not moving despite widespread AI adoption? This post argues that the gains are real but unevenly distributed — and explains what separates the developers who benefit from those who don't. Actionable framing for anyone trying to get more out of their AI coding workflow."
+    },
+    {
+      "title": "Rust project goals: Immobile types and guaranteed destructors",
+      "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by paavohtl · 95 points · 23 comments",
+      "blurb": "The Rust project's official goals doc for immobile types and guaranteed destructors — a long-awaited feature that would unlock safer async and embedded patterns. If you write Rust or care about systems programming language design, this is a concrete preview of what's coming. The move trait has been a missing piece for years."
+    },
+    {
+      "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
+      "url": "https://www.rfc-editor.org/rfc/rfc9851.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Jimmc414 · 37 points · 21 comments",
+      "blurb": "It's official: TLS 1.2 is now in feature freeze per RFC 9851, signaling the industry's full pivot to TLS 1.3. If you maintain any backend services or .NET APIs still advertising TLS 1.2 support, now is the time to review your configuration. A quiet but consequential milestone for web security."
+    },
+    {
+      "title": "Why we write our own C and C++ inference engines",
+      "url": "https://localai.io/blog/why-we-write-our-own-engines/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by eatonphil · 67 points · 30 comments",
+      "blurb": "LocalAI explains the technical and philosophical reasons they roll their own inference engines rather than wrapping existing frameworks. A rare look inside the performance, portability, and control trade-offs that matter for self-hosted AI. Relevant for anyone thinking about running models locally."
+    },
+    {
+      "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+      "url": "https://github.com/graham33/nixos-dgx-spark",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by graham33 · 118 points · 36 comments",
+      "blurb": "NixOS running on NVIDIA's DGX Spark — the desktop AI supercomputer — opens up fully reproducible, declarative ML environments on beefy hardware. A practical win for anyone who wants NixOS-style reliability on a local AI workstation. The repo is already functional and documented."
+    },
+    {
+      "title": "What DMARC Protects You From, and What It Does Not",
+      "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by adulion · 25 points · 6 comments",
+      "blurb": "A clear-eyed breakdown of DMARC's actual protections versus the gaps that still leave you vulnerable to phishing and spoofing. Developers who manage domains or send transactional email often deploy DMARC and call it done — this explains why that's not enough. Actionable and concise."
+    },
+    {
+      "title": "EU enforces labeling AI generated content",
+      "url": "https://www.euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nucatus · 11 points · 4 comments",
+      "blurb": "The EU's AI Act mandatory labeling requirement for AI-generated content just took effect — companies publishing AI-written or AI-generated media must now disclose it. Compliance implications are real for any developer building products that ship AI content to EU users. A policy shift with immediate engineering consequences."
+    }
+  ]
+}
