@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-04",
+  "stories": [
+    {
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "hn_link": "https://news.ycombinator.com/item?id=49161518",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by MaxMussio · 980 points · 416 comments",
+      "blurb": "The most-upvoted HN story today argues that LLMs don't level the playing field — they amplify the gap between experts and novices. If you already know what good looks like, you can steer the model; if you don't, you get plausible garbage. Essential reading for anyone building or coaching with AI tools."
+    },
+    {
+      "title": "Devtools must be open source",
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "hn_link": "https://news.ycombinator.com/item?id=49156111",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bryanmikaelian · 620 points · 206 comments",
+      "blurb": "A sharp manifesto arguing that closed-source devtools are a liability — they disappear, get acquired, or spy on you. The case is made with historical receipts and lands squarely for anyone who's been burned by a shuttered SaaS. 206 comments means the community has strong opinions."
+    },
+    {
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "hn_link": "https://news.ycombinator.com/item?id=49155629",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by vblanco · 300 points · 87 comments",
+      "blurb": "MiniMax H3 drops open weights for a model that does native audio and 2K video generation — and ComfyUI had support on day zero. If you're in the visual AI space, this is the new baseline for what open models can produce locally."
+    },
+    {
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "hn_link": "https://news.ycombinator.com/item?id=49158333",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by leonickson · 190 points · 84 comments",
+      "blurb": "Swiftlet is a new Swift-native app that runs frontier-scale LLMs in absurdly little RAM on Mac and iPhone using aggressive quantization and memory-mapped weights. For Mac developers who want on-device AI without paying the cloud tax, this is worth cloning today."
+    },
+    {
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "hn_link": "https://news.ycombinator.com/item?id=49158581",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ascorbic · 221 points · 58 comments",
+      "blurb": "Cloudflare's Workers AI team breaks down how they're running Kimi and GLM efficiently at the edge — covering quantization, batching, and safety filtering at scale. Concrete engineering detail for anyone thinking about deploying inference in production."
+    },
+    {
+      "title": "Twenty Years of Pandoc",
+      "url": "https://pandoc.org/twenty-years-of-pandoc.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49156750",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by fiddlosopher · 270 points · 31 comments",
+      "blurb": "John MacFarlane reflects on two decades of Pandoc, the universal document converter that quietly underpins half the tech writing on the internet. A rare retrospective from a solo maintainer who stayed the course — and a reminder that boring, reliable tools are the backbone of the ecosystem."
+    },
+    {
+      "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
+      "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+      "hn_link": "https://news.ycombinator.com/item?id=49156011",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by nikolay_sivko · 314 points · 67 comments",
+      "blurb": "CMU database legend Andy Pavlo is leaving academia to run ClickHouse Labs, the research arm of the fastest OLAP database in the game. This is a big signal that ClickHouse is serious about pushing the research frontier — expect interesting papers and features to follow."
+    },
+    {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "hn_link": "https://news.ycombinator.com/item?id=49154228",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 221 points · 80 comments",
+      "blurb": "AirLLM uses layer-by-layer streaming from disk to run 70B parameter models on a single 4GB GPU — no quantization required. The speed tradeoff is real, but the accessibility story is remarkable for researchers without beefy hardware."
+    },
+    {
+      "title": "FFmpeg 9.0",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES",
+      "hn_link": "https://news.ycombinator.com/item?id=49166202",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by gyan · 130 points · 13 comments",
+      "blurb": "FFmpeg 9.0 lands with new codec support, API changes, and continued performance work on the tool that processes a significant fraction of all video on Earth. If you script video pipelines — and many developers do — check the release notes for breaking changes before upgrading."
+    },
+    {
+      "title": "Massively Parallel Postgres Backups",
+      "url": "https://planetscale.com/blog/massively-parallel-postgres-backups",
+      "hn_link": "https://news.ycombinator.com/item?id=49124213",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ksec · 109 points · 12 comments",
+      "blurb": "PlanetScale's engineering blog details how they parallelized Postgres backups to dramatically cut backup windows for large databases. The techniques here — chunk-level parallelism, WAL coordination — are transferable to any team running Postgres at scale."
+    },
+    {
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mcp, subject:cs.AI, subject:cs.CL, blogs, author:simon_willison, year:2026",
+      "blurb": "Simon Willison digs into stateless MCP — the Model Context Protocol variant that doesn't require persistent connections — and ships two new tools: mcp-explorer and datasette-mcp. Anyone building Claude Code integrations or MCP servers needs to understand this design shift."
+    },
+    {
+      "title": "Daring Fireball: Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App",
+      "url": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: boris_cherny, Mac, blogs, claude-code, development, desktop, year:2026, interviews",
+      "blurb": "Boris Cherny — Claude Code's creator — attempts to use Claude Code to rewrite the Claude macOS app in Swift, and Daring Fireball covers the outcome. A fascinating dog-food exercise that reveals both the power and the current limits of AI-assisted native app development."
+    },
+    {
+      "title": "TerminalWidget for Mac, iPhone, and iPad | Terminal Widget",
+      "url": "https://terminalwidget.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: widget, macos, terminal, command, output, chart",
+      "blurb": "TerminalWidget lets you run shell commands and display their output — including charts — as native iOS/macOS widgets. Perfect for a developer who wants live system stats, git status, or custom monitoring dashboards right on the home screen or desktop."
+    },
+    {
+      "title": "SwiftUI After 7 Years | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49147263",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: swiftui",
+      "blurb": "A retrospective on SwiftUI at year seven — what's matured, what's still paper-thin, and whether it's finally production-ready for complex apps. The HN thread surfaces war stories from developers who've shipped real products with it."
+    },
+    {
+      "title": "How rogue officers turned a nationwide camera network into a tool for stalking",
+      "url": "https://www.washingtonpost.com/technology/2026/08/02/how-police-officers-used-vast-network-cameras-spy-their-exes/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: law-enforcement, license-plate-readers",
+      "blurb": "At least 50 law enforcement officers were charged or accused of misusing Flock's license-plate camera network to stalk ex-partners and others. A chilling investigation into how ubiquitous surveillance infrastructure becomes a weapon when access controls are weak."
+    },
+    {
+      "title": "How China Keeps Tabs on Foreigners - The New York Times",
+      "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The NYT reveals the scope of China's surveillance database targeting foreign nationals — tracking movements, contacts, and digital activity. A sobering look at state-level surveillance architecture that sets a template other governments are studying."
+    },
+    {
+      "title": "The Shape of Things to Come, Part 1: The Continuous Thunderdome — Steve Yegge",
+      "url": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: author:steve_yegge, subject:cs.AI, subject:cs.CL, subject:cs.SE, blogs, year:2026",
+      "blurb": "Steve Yegge is back with a characteristically unhinged-but-insightful long-form essay on where AI is taking software engineering. He coined \"the Thunderdome\" for the coming competitive collapse among developers — essential provocative reading for anyone whose job involves writing code."
+    },
+    {
+      "title": "MCP vs. REST: What's the right way to connect AI agents to your API? — WorkOS",
+      "url": "https://workos.com/blog/mcp-vs-rest",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "WorkOS breaks down the architectural tradeoffs between MCP and REST for connecting AI agents to backend APIs — covering statefulness, tooling maturity, and when each makes sense. A practical decision framework for teams building agentic systems right now."
+    },
+    {
+      "title": "firecrawl/pdf-inspector: Fast Rust library for PDF inspection, classification, and text extraction",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: PDF-extract",
+      "blurb": "A fast Rust library from the Firecrawl team that intelligently classifies PDFs as scanned vs. text-based before deciding how to extract content — avoiding expensive OCR when it's not needed. Drop this into any document-processing pipeline for smarter routing."
+    },
+    {
+      "title": "A shell colon does nothing. Use it anyway. | Filip Roséen",
+      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: shell",
+      "blurb": "The shell's `:` command is a no-op — but it has surprisingly useful applications in scripts: placeholder commands, conditional default assignments, and keeping syntax valid in pipelines. One of those bite-sized shell tricks that actually sticks with you."
+    }
+  ]
+}
