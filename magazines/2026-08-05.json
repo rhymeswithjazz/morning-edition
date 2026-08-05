@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-05",
+  "stories": [
+    {
+      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+      "hn_link": "https://news.ycombinator.com/item?id=49176697",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by lapcat · 117 points · 16 comments",
+      "blurb": "A nasty WebKit bug leaks your real IP and DNS queries even when you're behind a proxy or have iCloud Private Relay enabled — exactly the scenario where you think you're protected. If you rely on iCloud Private Relay for privacy on macOS or iOS, this is must-read. Patch pressure on Apple incoming."
+    },
+    {
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "hn_link": "https://news.ycombinator.com/item?id=49176830",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tchalla · 218 points · 180 comments",
+      "blurb": "ACM Queue takes a rigorous, research-backed axe to the GenAI hype cycle — covering myths like \"AI will replace developers\" and \"benchmarks reflect real-world performance.\" Essential reading for anyone who builds with coding assistants and wants to separate signal from marketing noise."
+    },
+    {
+      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "hn_link": "https://news.ycombinator.com/item?id=49171268",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by riadsila · 427 points · 110 comments",
+      "blurb": "Mistral drops a compact, open-weights 3B model purpose-built for content moderation across text and images. Running safety guardrails locally or cheaply in your own pipeline just got a lot more tractable. Worth evaluating if you're building AI-assisted workflows that touch user-generated content."
+    },
+    {
+      "title": "Xbox goes down. You can't play games you own on disc",
+      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "hn_link": "https://news.ycombinator.com/item?id=49167448",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by surprisetalk · 661 points · 692 comments",
+      "blurb": "When Xbox's authentication servers went down, owners of physical discs couldn't play their own games — a perfect illustration of how \"ownership\" is increasingly fictional in the DRM era. The 692-comment thread is a pressure cooker of user rights fury that echoes far beyond gaming."
+    },
+    {
+      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2602.16763",
+      "hn_link": "https://news.ycombinator.com/item?id=49170915",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by doppp · 99 points · 99 comments",
+      "blurb": "A systematic look at what happens when LLMs saturate standard benchmarks — and why \"state of the art\" announcements should come with an asterisk. Critically relevant for anyone evaluating which AI coding assistant or model to trust for real work."
+    },
+    {
+      "title": "Show HN: Maple-Preview – Ternary 20B MoE running at 120 tok/s on a iPhone",
+      "url": "https://deepgrove.ai/maple-preview",
+      "hn_link": "https://news.ycombinator.com/item?id=49173984",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by edwardbzhang · 123 points · 36 comments",
+      "blurb": "A 20B Mixture-of-Experts model squeezed into a ternary weight format and hitting 120 tokens/second on an iPhone — that's a jaw-dropping on-device inference result. If local, private AI on Apple hardware is your thing, this is the benchmark to watch."
+    },
+    {
+      "title": "Pi's Minimalism Is Its Advantage",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "hn_link": "https://news.ycombinator.com/item?id=49176038",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by luispa · 380 points · 162 comments",
+      "blurb": "An argument that Inflection's Pi chatbot wins precisely because it doesn't try to do everything — a focused, conversational UX beats feature bloat. Thoughtful contrast to the kitchen-sink AI assistant trend, with implications for how you design AI workflows."
+    },
+    {
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "hn_link": "https://news.ycombinator.com/item?id=49175826",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by bookofjoe · 248 points · 194 comments",
+      "blurb": "Interpol reports AI is now the primary engine behind over half of cybercrime in Africa, supercharging scam operations at scale. A sobering data point on the dual-use reality of the same tools we celebrate — and a preview of what's coming globally."
+    },
+    {
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "url": "https://toneyalexander.github.io/inclusive-color-space/",
+      "hn_link": "https://news.ycombinator.com/item?id=49170165",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by automatoney · 541 points · 93 comments",
+      "blurb": "A beautiful interactive demo of a principled algorithm for generating perceptually diverse, realistic skin tones from a compact color space. Practically useful for UI design, avatar systems, or any generative art project that needs human-representative palettes."
+    },
+    {
+      "title": "\"Clean\" Code, Horrible Performance (2023)",
+      "url": "https://www.computerenhance.com/p/clean-code-horrible-performance",
+      "hn_link": "https://news.ycombinator.com/item?id=49166331",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by FrojoS · 136 points · 149 comments",
+      "blurb": "Casey Muratori's classic dissection of how following \"clean code\" principles can tank performance by an order of magnitude — with benchmarks. Resurfaces on HN for good reason: the tension between abstraction and raw efficiency never gets old, especially in .NET and TypeScript land."
+    },
+    {
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "url": "https://arxiv.org/abs/2607.29377",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 43 points · 9 comments",
+      "blurb": "A paper proposing memory operations for LLM agents that consume zero tokens from the context window — a potential breakthrough for long-running agentic workflows. Directly relevant if you're building Claude Code-style autonomous agents that hit context limits."
+    },
+    {
+      "title": "libexpat now funded by the City of Munich for up to 6 months",
+      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by spyc · 283 points · 64 comments",
+      "blurb": "Munich's city government is directly funding maintenance of libexpat, one of the most widely deployed XML parsers in existence. A rare and encouraging example of public-sector investment in foundational open source infrastructure that underpins countless projects."
+    },
+    {
+      "title": "We finally learned to center a div, then browsers added sidebars",
+      "url": "https://seg6.space/posts/center-div/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by seg6 · 137 points · 117 comments",
+      "blurb": "Browsers are rolling out permanent UI sidebars that chew into viewport width, breaking carefully crafted centered layouts. A sharp, practical look at how browser chrome changes are the new responsive design headache — important for any frontend dev working with Angular."
+    },
+    {
+      "title": "Video2NAND – Abusing video codecs for great computational power",
+      "url": "https://sharedobject.blog/posts/vp8-combinatorial-logic/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by firer · 66 points · 13 comments",
+      "blurb": "Someone figured out how to implement NAND gates using VP8 video codec operations — turning a video decoder into a general-purpose logic engine. Gloriously unhinged systems hacking that belongs in the creative-abuse-of-hardware hall of fame."
+    },
+    {
+      "title": "Don't stop early: Case-folding source code at memory speed",
+      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sbulaev · 71 points · 30 comments",
+      "blurb": "GitHub Engineering digs into a counter-intuitive SIMD optimization: don't bail early on case-folding, process everything at memory bandwidth limits instead. A meaty low-level engineering post for devs who care about search and text processing performance."
+    },
+    {
+      "title": "Flowise is shutting down",
+      "url": "https://flowiseai.com/sunset",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by llmgraph · 50 points · 35 comments",
+      "blurb": "Flowise, a popular open-source visual LLM workflow builder, is sunsetting. If you've integrated it into any AI pipelines this is your migration signal — and a broader reminder that the no-code AI orchestration space is consolidating fast."
+    },
+    {
+      "title": "Bugtraq is back",
+      "url": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by bashtoni · 49 points · 15 comments",
+      "blurb": "The legendary Bugtraq security mailing list — the original venue for full-disclosure vulnerability announcements — has been revived. A piece of internet history returning at a moment when coordinated disclosure norms are more contested than ever."
+    },
+    {
+      "title": "Rio-vt and librio: Rio's terminal engine, now embeddable",
+      "url": "https://rioterm.com/blog/2026/07/27/rio-vt-and-librio",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vinhnx · 36 points · 12 comments",
+      "blurb": "Rio, the GPU-accelerated terminal emulator, is spinning out its VT parsing engine as a standalone embeddable library. If you're building a dev tool, IDE plugin, or macOS app that needs a fast terminal component, librio is now on your radar."
+    },
+    {
+      "title": "Zigbee vs. Matter over Thread: Understanding IoT Protocol Performance in Practice",
+      "url": "https://arxiv.org/abs/2603.04221",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by teleforce · 93 points · 75 comments",
+      "blurb": "A real-world performance study pitting Zigbee against Matter over Thread — the two dominant low-power mesh protocols fighting for your smart home. Latency, reliability, and range data you won't find in marketing decks; essential if you're building or buying IoT gear."
+    },
+    {
+      "title": "Godox Transparent Viewfinder Camera C100",
+      "url": "https://www.godox.com/product-e/C100.html",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by routeroff · 43 points · 27 comments",
+      "blurb": "Godox — best known for strobes — launches the C100, a camera with a fully transparent body that shows off its internal components as an aesthetic choice. A wild industrial design statement from an unlikely brand that signals serious ambitions in the camera hardware space."
+    }
+  ]
+}
