@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-07",
+  "stories": [
+    {
+      "title": "Mario Meets Pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "hn_link": "https://news.ycombinator.com/item?id=49195231",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by theanonymousone · 1036 points · 157 comments",
+      "blurb": "A delightful interactive essay that uses Mario-style platformer mechanics to explain the Pareto front and multi-objective optimization. The visualization approach is genuinely clever — abstract math concepts click immediately when you're physically trading off jump height for speed. A masterclass in creative technical communication."
+    },
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "hn_link": "https://news.ycombinator.com/item?id=49201970",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by itvision · 637 points · 490 comments",
+      "blurb": "AMD snaps up Taalas, a startup that bakes model weights directly into custom silicon — think ASICs tuned at the hardware level for specific LLM architectures. This is the inference cost war going nuclear: if it works, it could dramatically undercut Nvidia's dominance for production AI workloads. Worth watching for anyone building AI-powered products."
+    },
+    {
+      "title": "Taste Is All That's Left",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "hn_link": "https://news.ycombinator.com/item?id=49199346",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tsak · 408 points · 300 comments",
+      "blurb": "A sharp provocation: as AI tools commoditize code generation, the only moat left for developers is aesthetic judgment — knowing what good looks like. Directly relevant to anyone using Claude Code daily and wondering what their craft means in 2026. The 300-comment thread is equally worth reading."
+    },
+    {
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "hn_link": "https://news.ycombinator.com/item?id=49198302",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Footkerchief · 396 points · 319 comments",
+      "blurb": "Major GitHub Actions and Pages outage today — if your CI/CD pipelines are mysteriously silent, this is why. The HN thread has real-time workarounds and the usual cathartic venting. Bookmark the status page if you don't already have it pinned."
+    },
+    {
+      "title": "Software development with AI is starting to feel like cooking steak",
+      "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+      "hn_link": "https://news.ycombinator.com/item?id=49198069",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yusyd · 365 points · 385 comments",
+      "blurb": "The analogy: sous vide made great steak accessible to anyone, just as AI coding tools are lowering the floor — but the ceiling remains for those who understand heat, fat, and timing. A nuanced take on the deskilling debate that avoids both utopian and doomer clichés. Essential reading for Claude Code users thinking about where they add value."
+    },
+    {
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "hn_link": "https://news.ycombinator.com/item?id=49195468",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Wirbelwind · 299 points · 211 comments",
+      "blurb": "A large-scale study found that human overseers approved dangerous AI agent actions one-third of the time — even when explicitly asked to watch for threats. This has direct implications for anyone using agentic coding tools like Claude Code with broad filesystem or shell permissions. The complacency bias is real and measurable."
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "hn_link": "https://news.ycombinator.com/item?id=49199357",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tedsanders · 234 points · 176 comments",
+      "blurb": "OpenAI ships iterative improvements to its frontier models and opens up Luna to free-tier users — the model capability race keeps accelerating. For developers comparing AI coding assistants, knowing what's shipping in GPT-5.6 helps calibrate where Claude holds its edge. The versioning nomenclature is also getting entertainingly baroque."
+    },
+    {
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "url": "https://www.aleksagordic.com/blog/vllm",
+      "hn_link": "https://news.ycombinator.com/item?id=49202852",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sebg · 103 points · 5 comments",
+      "blurb": "A deep technical teardown of vLLM — the open-source inference engine powering a huge chunk of self-hosted LLM deployments. Covers PagedAttention, continuous batching, and the scheduling decisions that make high-throughput serving possible. If you're thinking about running your own models, this is the architectural primer you need."
+    },
+    {
+      "title": "Framework discloses data breach via Metabase 0-day",
+      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+      "hn_link": "https://news.ycombinator.com/item?id=49206130",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by RobinHirst11 · 72 points · 27 comments",
+      "blurb": "Framework — the beloved modular laptop maker — discloses a breach triggered by a zero-day in Metabase, an analytics tool many companies run internally. A good reminder that your data exposure surface includes every third-party tool your vendors use, not just their core product. Check if you're a Framework customer and what data was exposed."
+    },
+    {
+      "title": "Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun",
+      "url": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/",
+      "hn_link": "https://news.ycombinator.com/item?id=49184355",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by neversaydie · 221 points · 44 comments",
+      "blurb": "The NSF's Inouye Solar Telescope — the sharpest solar imager ever built — has spotted Kelvin-Helmholtz instabilities playing out on the solar surface, a fluid dynamics phenomenon previously seen in clouds and ocean waves but never confirmed on the Sun. A genuinely exciting observational first that changes models of how energy moves through the solar atmosphere."
+    },
+    {
+      "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+      "url": "https://github.com/CopilotKit/channels-sdk",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by davidmckayv · 103 points · 22 comments",
+      "blurb": "CopilotKit's open-source Channels SDK lets you deploy any AI agent to Slack, MS Teams, or other messaging platforms with minimal integration code. If you're building internal AI tooling or want to give Claude-powered agents a Slack front-end, this is an actionable starting point today. TypeScript-first, which will feel right at home."
+    },
+    {
+      "title": "I stopped trusting USB-C cable labels and started testing them",
+      "url": "https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by baranul · 177 points · 150 comments",
+      "blurb": "USB-C cable labeling is a regulatory disaster — cables claiming USB 3.2 speeds often deliver USB 2.0, and Thunderbolt imposters are everywhere. This piece walks through using an inexpensive USB-C power meter to actually verify what you've got. Essential for anyone with a Mac desk covered in cables of uncertain provenance."
+    },
+    {
+      "title": "New Mexico court orders Meta to pay $567m over harms to children's mental health",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by boplicity · 236 points · 151 comments",
+      "blurb": "A landmark ruling: New Mexico courts hit Meta with a $567M judgment tied to algorithmic design choices that harmed minors' mental health. This is the biggest US state-level tech accountability verdict in years and will set precedent for how platform algorithms are treated as a legal liability. The privacy and design implications ripple industry-wide."
+    },
+    {
+      "title": "Learn how chips are made with this Rollercoaster Tycoon-inspired animation",
+      "url": "https://laurentiugabriel.github.io/ChipTycoon/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by laurentiurad · 150 points · 42 comments",
+      "blurb": "An interactive browser animation that walks through semiconductor fabrication — lithography, doping, etching — in the visual language of RollerCoaster Tycoon. Surprisingly educational and genuinely fun to click through. With AMD's Taalas acquisition also in today's edition, it's a good day to brush up on how silicon actually gets made."
+    },
+    {
+      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by gnabgib · 149 points · 23 comments",
+      "blurb": "Troy Hunt's HIBP continues its quiet global expansion: Nepal becomes the latest government to gain domain-wide API access to check their .gov.np addresses against breach data. The program is a model for how breach intelligence can be shared with governments without surrendering control of the dataset. Slow, steady, important work."
+    },
+    {
+      "title": "Can you reverse engineer an ASIC?",
+      "url": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bschne · 89 points · 54 comments",
+      "blurb": "Jane Street's engineering blog digs into the surprisingly accessible world of ASIC reverse engineering — electron microscopes, delayering, and what you can actually learn from a chip's physical layout. A great companion to today's AMD/Taalas story about baking models into silicon, grounding the hype in physical reality."
+    },
+    {
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Audiophilip · 123 points · 30 comments",
+      "blurb": "Researchers have engineered a chewing gum that delivers antiviral proteins capable of neutralizing HPV in saliva. It's a genuinely novel drug delivery vector — leveraging a mundane consumer product to hit a mucosal infection route that pills can't easily reach. Weird, clever, and potentially impactful."
+    },
+    {
+      "title": "Quake – 30th Anniversary Update",
+      "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by dsubburam · 301 points · 150 comments",
+      "blurb": "Quake turns 30 and Bethesda drops a new anniversary update — new episode, enhanced features, and cross-play. The game that invented modern 3D game engines, shipped the first client-side prediction networking code, and launched a thousand modding communities still gets official love. The HN thread is a warm nostalgia bath."
+    },
+    {
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by collinmanderson · 206 points · 138 comments",
+      "blurb": "Herdr — a developer tool for managing and orchestrating background job runtimes — announces YC S26 and commits to keeping its core runtime open source. The \"we're getting funded but staying open\" pledge is worth scrutinizing, but the project itself addresses a real pain point in distributed systems workflows. One to watch."
+    },
+    {
+      "title": "Building Progressively Enhanced Forms Using htmx",
+      "url": "https://www.rafa.ee/articles/progressive-enhanced-forms-htmx/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mpweiher · 80 points · 12 comments",
+      "blurb": "A practical walkthrough of building forms that work without JavaScript and get progressively richer with htmx — the old-school web philosophy made ergonomic again. For .NET and Angular developers curious about lighter-weight hypermedia approaches, this is a clean demonstration of what you give up and what you gain. Actionable today."
+    }
+  ]
+}
