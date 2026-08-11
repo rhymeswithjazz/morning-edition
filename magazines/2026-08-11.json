@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-11",
+  "stories": [
+    {
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "hn_link": "https://news.ycombinator.com/item?id=49241679",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by riordan · 1107 points · 606 comments",
+      "blurb": "Meta drops a 30B open model purpose-built for agentic, always-on use — think persistent background agents rather than one-shot chat. With 606 comments already, this is the week's biggest AI story. If you're running Claude Code or building local AI workflows, this is the open-weight alternative worth benchmarking."
+    },
+    {
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "hn_link": "https://news.ycombinator.com/item?id=49243880",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by root-parent · 500 points · 457 comments",
+      "blurb": "Zuckerberg's FT interview signals a strategic pivot back to open-source AI as a weapon against OpenAI and Google. The business logic is clear: Meta commoditizes the model layer to win on apps and ads. Paired with Muse Glimmer, Meta's open-AI play is suddenly very real again."
+    },
+    {
+      "title": "The UK's war on anonymity has come to America",
+      "url": "https://www.effort.news/uk-lobby",
+      "hn_link": "https://news.ycombinator.com/item?id=49251411",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by slowin · 480 points · 360 comments",
+      "blurb": "A detailed investigation into how UK-backed lobbying efforts are pushing age-verification and anti-anonymity laws in US states — a direct export of the Online Safety Act playbook. This matters beyond the UK: the same legal frameworks could force ID checks at the browser level globally. Privacy-conscious developers should read this."
+    },
+    {
+      "title": "Sonic Pi v5",
+      "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+      "hn_link": "https://news.ycombinator.com/item?id=49208296",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by samaaron · 368 points · 89 comments",
+      "blurb": "Sam Aaron's legendary live-coding music environment hits version 5, a major milestone for one of the most beloved creative-coding tools in existence. Sonic Pi treats music composition as software development — if you've never tried live-coding a beat, this release is a great excuse."
+    },
+    {
+      "title": "Mars Bar from 1991 found – and it's 20g bigger than today's",
+      "url": "https://www.bbc.com/news/articles/c1j1kjy7gewo",
+      "hn_link": "https://news.ycombinator.com/item?id=49245023",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by RickJWagner · 347 points · 513 comments",
+      "blurb": "A time-capsule candy bar becomes the tastiest evidence yet of systematic shrinkflation over three decades. 513 comments of collective nostalgia and outrage proves the internet never gets tired of being cheated by food companies."
+    },
+    {
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "hn_link": "https://news.ycombinator.com/item?id=49246804",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by HenryNdubuaku · 319 points · 114 comments",
+      "blurb": "A 14MB LLM that can run agentic tasks on a microcontroller is genuinely wild — this is the floor of the edge-AI stack, and it's already here. If you're thinking about embedding intelligence into IoT devices or building privacy-first local agents, Needle2 is a landmark proof-of-concept."
+    },
+    {
+      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "url": "https://github.com/antirez/h3.c",
+      "hn_link": "https://news.ycombinator.com/item?id=49252179",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by swyx · 246 points · 41 comments",
+      "blurb": "Antirez (Redis creator) ships a pure C implementation of MiniMax-H3 inference tuned specifically for Apple Silicon Metal. This is local LLM inference that actually respects your Mac's architecture — no Python, no overhead. Mac-based AI builders should clone this immediately."
+    },
+    {
+      "title": "As AI eats the web, the internet's collective memory is disappearing",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "hn_link": "https://news.ycombinator.com/item?id=49250836",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by awnird · 248 points · 237 comments",
+      "blurb": "A sharp essay on how AI-generated content is polluting the indexed web, causing Google's utility to collapse and threatening the archive of human knowledge that LLMs were trained on in the first place. It's a feedback loop that affects everyone who uses AI coding assistants — the training data well is being poisoned."
+    },
+    {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "hn_link": "https://news.ycombinator.com/item?id=49247070",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 192 points · 133 comments",
+      "blurb": "Anthropic publishes a deep-dive into Claude's reasoning about the Riemann Zeta function, probing where frontier math capabilities actually live in the model. Directly relevant to Claude Code users who lean on the model for algorithmic or numerical work — know what your tool can and can't do."
+    },
+    {
+      "title": "What's the best programming language for coding agents?",
+      "url": "http://danluu.com/pl-tokens/",
+      "hn_link": "https://news.ycombinator.com/item?id=49245936",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chaychoong · 167 points · 115 comments",
+      "blurb": "Dan Luu crunches token counts and language-model familiarity across programming languages to ask which PL gives coding agents the best shot at success. TypeScript fans will find validation; the analysis has real implications for how you scaffold Claude Code projects."
+    },
+    {
+      "title": "How Claude marks AI-generated content",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 167 points · 118 comments",
+      "blurb": "Anthropic's official explainer on how Claude watermarks and signals AI-generated output — a topic that's suddenly very relevant as content provenance standards mature. If you're shipping Claude-powered features to users, understanding what disclosures Anthropic builds in (or doesn't) is essential."
+    },
+    {
+      "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
+      "url": "https://github.com/AntigmaLabs/ante",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ubermon · 131 points · 78 comments",
+      "blurb": "A self-contained coding agent that ships as a single binary and works fully offline — no API key, no cloud. This is the privacy-respecting, air-gapped alternative to Claude Code for environments where you can't phone home. Worth keeping in your toolbox."
+    },
+    {
+      "title": "Exploiting System Management Mode with a very long interrupt",
+      "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by WhiteDawn · 159 points · 58 comments",
+      "blurb": "The xoreaxeaxeax crew is back with another mind-bending low-level exploit — this time abusing System Management Mode via absurdly long SMI interrupts to escape conventional security boundaries. Pure security research artistry, with a GitHub repo that's as entertaining as it is alarming."
+    },
+    {
+      "title": "Hyperspace",
+      "url": "https://hypercritical.co/hyperspace/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by swyx · 70 points · 48 comments",
+      "blurb": "John Siracusa's new macOS utility Hyperspace promises to supercharge Spaces and window management on the Mac — coming from the author of legendary OS X reviews, this is worth watching closely. macOS power users who live in multiple desktops will want to get on the beta list."
+    },
+    {
+      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
+      "url": "https://github.com/activeing123/mcptoon",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mcptokensaver · 40 points · 28 comments",
+      "blurb": "A CLI client for the Model Context Protocol designed from the ground up to minimize token usage — relevant if you're orchestrating MCP servers with Claude Code and watching your API bill. Slim tooling for the MCP ecosystem is still sparse; this fills a real gap."
+    },
+    {
+      "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
+      "url": "https://ethw.org/Milestones:Parametron,_1954",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by xeonmc · 222 points · 53 comments",
+      "blurb": "The Parametron is a 1954 Japanese computing element that uses magnetic resonance instead of transistors or vacuum tubes — a forgotten third path in computing history. A beautiful reminder that the technology landscape of the early computer era was far stranger and more creative than the standard Silicon Valley narrative."
+    },
+    {
+      "title": "Humanising LLM Outputs Is Dumb",
+      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kuberwastaken · 210 points · 142 comments",
+      "blurb": "A pointed argument that adding filler phrases, casual asides, and performative warmth to LLM output makes it worse, not better — and that the obsession with \"sounding human\" actively degrades utility. Provokes useful thinking for anyone designing prompts or AI-powered features."
+    },
+    {
+      "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
+      "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sshh12 · 142 points · 20 comments",
+      "blurb": "A clever empirical investigation into when models' training data actually ends, revealing gaps between stated and apparent cutoff dates. Essential reading if you're depending on Claude Code or GPT-4 to know about recent APIs, libraries, or security advisories — the answer is messier than the marketing implies."
+    },
+    {
+      "title": "Stowaway – Take the window seat on any plane or satellite overhead",
+      "url": "https://stowaway.live/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by thunderbong · 258 points · 29 comments",
+      "blurb": "A gorgeous web app that lets you see the real-time view from any commercial flight or satellite currently overhead — pick a plane on the map and look out its virtual window. A creative technical project that sits at the intersection of live flight data, satellite imagery, and delightful UI."
+    },
+    {
+      "title": "Claude Code pricing: same tokens, same model, up to 40x the price",
+      "url": "https://quesma.com/blog/claude-code-pricing-for-enterprise/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jakozaur · 5 points · 0 comments",
+      "blurb": "A detailed breakdown showing Claude Code's enterprise pricing can reach 40x the raw API cost for identical tokens and model — the premium is essentially for the IDE integration and tooling. Fresh off the presses with zero comments yet, but directly actionable for anyone evaluating whether to run Claude Code at scale or roll their own API integration."
+    }
+  ]
+}
