@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-12",
+  "stories": [
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49257876",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by quantumgarbage · 619 points · 277 comments",
+      "blurb": "Researchers demonstrate that reasoning traces — the internal chain-of-thought that models like o3 use — can be partially reconstructed from API responses, leaking model internals you weren't supposed to see. If you're building with proprietary LLM APIs, this is a must-read for understanding what your prompts and outputs may be exposing. The implications for competitive IP and prompt confidentiality are significant."
+    },
+    {
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "hn_link": "https://news.ycombinator.com/item?id=49263497",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nikolay · 515 points · 211 comments",
+      "blurb": "A sharp explainer from ngrok's team on the deep equivalence between data compression and prediction — the same insight that underlies modern LLMs. This is the conceptual foundation that connects zip files to GPT, explained with rare clarity. Essential reading for developers who want to actually understand why large language models work."
+    },
+    {
+      "title": "OpenAI's head of ethics leaves less than a year after joining",
+      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "hn_link": "https://news.ycombinator.com/item?id=49257160",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilamont · 430 points · 415 comments",
+      "blurb": "OpenAI's ethics chief is out after less than a year — the latest in a string of safety-focused departures from the company. Combined with the congressional letter demanding transparency on the HuggingFace incident, it's becoming harder to dismiss these exits as routine churn. Anyone betting on AI tools for critical workflows should be tracking the institutional health of these labs."
+    },
+    {
+      "title": "Mojo 1.0",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "hn_link": "https://news.ycombinator.com/item?id=49261128",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dayanruben · 383 points · 192 comments",
+      "blurb": "Mojo, the Python-superset language built for AI systems programming, hits 1.0. It promises Python-compatible syntax with C-level performance, making it a credible option for anyone tired of the Python-to-C-extension treadmill. A stable release means it's finally worth evaluating seriously for production AI tooling."
+    },
+    {
+      "title": "Go is an ideal language for AI-assisted software engineering",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "hn_link": "https://news.ycombinator.com/item?id=49261133",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 0xedb · 374 points · 425 comments",
+      "blurb": "Google's engineering blog argues Go's verbosity and explicit style actually make it easier for AI coding assistants to generate correct, auditable code. The argument has teeth: less magic means fewer AI hallucination failure modes. Worth reading alongside your Claude Code workflows, even if you're firmly in the TypeScript camp."
+    },
+    {
+      "title": "London Underground begins scanning passengers' faces",
+      "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
+      "hn_link": "https://news.ycombinator.com/item?id=49255496",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by BlueBerry2001 · 328 points · 373 comments",
+      "blurb": "British Transport Police is expanding live facial recognition to London Underground stations, one of the world's busiest transit systems. This is a major escalation of mass biometric surveillance in public space, with no opt-out for millions of daily commuters. The HN thread is a heated debate about efficacy, civil liberties, and the creeping normalization of always-on identity checks."
+    },
+    {
+      "title": "Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo",
+      "url": "https://photosynthesis.camera",
+      "hn_link": "https://news.ycombinator.com/item?id=49226623",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by sajomes · 280 points · 255 comments",
+      "blurb": "Photosynthesis fires both iPhone camera lenses at the exact same moment and computationally merges the exposures into a single image — think of it as manual multi-aperture fusion. The results shown in the thread are genuinely impressive for low-light and detail situations. A clever use of the multi-lens hardware that Apple's own Camera app doesn't expose."
+    },
+    {
+      "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
+      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "hn_link": "https://news.ycombinator.com/item?id=49256057",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by j0selit0 · 180 points · 25 comments",
+      "blurb": "A developer ran GitHub Copilot's traffic through a MitM proxy and documented exactly what data it phones home — code context, file paths, and more. If you use any AI coding assistant (Copilot, Claude Code, Cursor), this is essential due-diligence reading on what leaves your machine. The findings are eye-opening for anyone working in a sensitive codebase."
+    },
+    {
+      "title": "Show HN: Git-knife – Edit commit messages, authors, and dates like a spreadsheet",
+      "url": "https://github.com/TheRealYT/git-knife",
+      "hn_link": "https://news.ycombinator.com/item?id=49259611",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by YonathanTesfaye · 151 points · 99 comments",
+      "blurb": "Git-knife gives you a spreadsheet-style TUI to bulk-edit commit metadata — messages, authors, timestamps — without touching interactive rebase. It's the tool for those messy history cleanup sessions before a PR or open-source release. A genuinely ergonomic approach to a workflow that's historically been painful."
+    },
+    {
+      "title": "Making holograms with a pen plotter",
+      "url": "https://blog.jordan.matelsky.com/Penplotter-holography/",
+      "hn_link": "https://news.ycombinator.com/item?id=49262811",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by DemiGuru · 159 points · 16 comments",
+      "blurb": "Jordan Matelsky figured out how to produce rainbow holograms using nothing but a standard pen plotter drawing diffraction-grating patterns onto card stock. The physics explanation is meticulous and the results are beautiful. A wonderful example of creative coding meeting physical output."
+    },
+    {
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by droidjj · 226 points · 115 comments",
+      "blurb": "Nvidia drops Nemotron 3.5 Lightning, a fast inference-optimized model family, alongside NeMo Switchyard — a routing layer for mixing models mid-inference. This is Nvidia making a serious play for the local/on-prem AI stack beyond just selling GPUs. Relevant to anyone building AI workflows who wants to reduce cloud API dependency."
+    },
+    {
+      "title": "llama.cpp",
+      "url": "https://llama.app",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kristianpaul · 200 points · 81 comments",
+      "blurb": "llama.app is a polished new web front-end for running llama.cpp locally, making local LLM inference accessible without any terminal wrangling. The HN thread is discussing what this means for on-device AI as a serious alternative to API-based services. Privacy-first developers take note: capable models, running entirely on your machine."
+    },
+    {
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by EwanG · 221 points · 67 comments",
+      "blurb": "Tencent's Hunyuan team demonstrates an agentic system that procedurally generates large-scale, coherent 3D open worlds at a quality level that was science fiction two years ago. The demo videos are jaw-dropping. This will fundamentally change what small game and simulation studios can build."
+    },
+    {
+      "title": "England set to be one of the first countries to eliminate hepatitis C",
+      "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by stevekemp · 537 points · 381 comments",
+      "blurb": "England is on track to eliminate hepatitis C as a public health threat, driven by universal access to direct-acting antivirals and aggressive screening programs. It's a rare public health success story and a model for how to actually eradicate a disease in a developed country. The HN thread digs into the policy decisions that made it possible."
+    },
+    {
+      "title": "The Human Is the Loop",
+      "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by burnto · 98 points · 41 comments",
+      "blurb": "A sharp essay arguing that 'human in the loop' has it backwards — we're increasingly the loop that AI systems run on, rather than the reverse. As AI coding agents become more autonomous, this reframing matters for how you design your review and approval workflows. Required philosophical reading for anyone using Claude Code or similar agentic tools."
+    },
+    {
+      "title": "Show HN: Write.md – A free, open-source, themeable Markdown editor for macOS",
+      "url": "https://writemd.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by danielbilekq · 92 points · 72 comments",
+      "blurb": "Write.md is a native macOS Markdown editor with strong theming support, released free and open-source. Obsidian users will want to evaluate this as a lightweight alternative for distraction-free writing sessions that don't need a full vault. The open-source angle is a breath of fresh air in the increasingly crowded paid-app Markdown editor space."
+    },
+    {
+      "title": "Neutrinos from Deep Inside Earth Provide a New Picture of the Mantle",
+      "url": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rbanffy · 47 points · 2 comments",
+      "blurb": "Scientists are using geoneutrinos — particles emitted by radioactive decay deep in Earth's mantle — to construct the first direct measurements of Earth's interior heat budget. Quanta Magazine brings its usual clarity to a genuinely strange physics story. We are literally imaging the inside of the planet with ghost particles."
+    },
+    {
+      "title": "pg_clickhouse v0.10: Subquery pushdown and 1000x faster TPC-H queries",
+      "url": "https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by saisrirampur · 56 points · 5 comments",
+      "blurb": "The pg_clickhouse extension lets PostgreSQL push analytical queries directly to ClickHouse for columnar execution — v0.10 adds subquery pushdown and achieves 1000x speedups on TPC-H benchmarks. If you're already on Postgres but need OLAP performance without rearchitecting, this is the cleanest path. A serious engineering achievement squeezed into a point release."
+    },
+    {
+      "title": "CSS properties you should know for better text designs",
+      "url": "https://master.dev/blog/typographic-css-tricks/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 113 points · 18 comments",
+      "blurb": "A well-curated roundup of underused CSS typography properties — `text-wrap: balance`, `hanging-punctuation`, `font-variant-numeric`, and more — that most developers have never touched. Angular developers building polished UIs will find several immediately applicable wins here. The kind of post you bookmark and return to when a design looks almost right but not quite."
+    },
+    {
+      "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
+      "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by andsoitis · 82 points · 25 comments",
+      "blurb": "Horseshoe crab blood contains Limulus amebocyte lysate (LAL), the only substance that reliably detects bacterial endotoxins — meaning nearly every injectable drug or vaccine you've ever received was tested with it. The species is now under pressure from overharvesting for biomedical use, threatening a safety system the entire pharmaceutical industry depends on. A quietly alarming story about a single species holding a critical civilizational function."
+    }
+  ]
+}
