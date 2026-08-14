@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-14",
+  "stories": [
+    {
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "hn_link": "https://news.ycombinator.com/item?id=49289112",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thisisauserid · 819 points · 431 comments",
+      "blurb": "Google's latest Flash model drops with 819 HN points and 431 comments — a clear signal this is a big deal. Flash models have consistently punched above their weight on speed-to-quality ratio, making them the go-to for agentic loops and tool use. If you're building AI workflows, this is the model to benchmark against."
+    },
+    {
+      "title": "DeepSeek Harness developer preview",
+      "url": "https://deepseek.com/harness/en/",
+      "hn_link": "https://news.ycombinator.com/item?id=49285244",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bjin · 653 points · 273 comments",
+      "blurb": "DeepSeek's new plugin-everything agent framework lands as a developer preview with serious community traction. The architecture treats every capability as a swappable plugin, which makes it far more composable than monolithic agent SDKs. Worth a look if you're designing tool-use pipelines or evaluating alternatives to LangChain."
+    },
+    {
+      "title": "Spaghettifying DRAM",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "hn_link": "https://news.ycombinator.com/item?id=49286341",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by matt_d · 614 points · 160 comments",
+      "blurb": "The legendary xoreaxeaxeax is back with another hardware-pushing exploit toolkit, this time targeting DRAM in ways the physics textbooks didn't anticipate. This is the kind of low-level hardware hacking that reminds you how fragile the memory abstractions we rely on actually are. Deeply weird and deeply impressive."
+    },
+    {
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "hn_link": "https://news.ycombinator.com/item?id=49289844",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pr337h4m · 586 points · 235 comments",
+      "blurb": "Cerebras is running OpenAI's GPT-5.6 Sol at speeds that make the hosted API feel glacial — this is the inference acceleration story of the week. If you're hitting latency walls in real-time AI features, this shows what's possible when you throw custom silicon at the problem. The wafer-scale chip approach is finally delivering on its promise."
+    },
+    {
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "hn_link": "https://news.ycombinator.com/item?id=49294997",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pella · 413 points · 171 comments",
+      "blurb": "GLM-5.3 from Zhipu AI positions itself as a frontier coding model with security-relevant emergent capabilities — the kind of thing that gets both AI safety researchers and CTF players excited. The benchmark numbers on coding tasks are competitive with top-tier Western models. An important data point for anyone tracking the global AI model landscape."
+    },
+    {
+      "title": "Mistral OCR 4.1",
+      "url": "https://docs.mistral.ai/models/ocr-4-1",
+      "hn_link": "https://news.ycombinator.com/item?id=49288889",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by spelk · 338 points · 135 comments",
+      "blurb": "Mistral's OCR model gets a significant update, and the benchmarks suggest it's now genuinely competitive for document extraction pipelines. If you're processing PDFs, scanned contracts, or invoices in any workflow, this is the dedicated model to test against multimodal generalists. Practical and actionable today."
+    },
+    {
+      "title": "Choose Boring Technology (2015)",
+      "url": "https://mcfunley.com/choose-boring-technology",
+      "hn_link": "https://news.ycombinator.com/item?id=49289512",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tosh · 336 points · 173 comments",
+      "blurb": "Dan McKinley's evergreen essay resurfaces at exactly the right moment — in an era of new AI frameworks dropping weekly, the case for boring, well-understood technology is more compelling than ever. The core idea: you have a limited budget of innovation tokens, spend them where they count. Required reading for anyone who keeps reaching for the shiny new thing."
+    },
+    {
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "hn_link": "https://news.ycombinator.com/item?id=49290299",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sebg · 324 points · 171 comments",
+      "blurb": "Geoffrey Litt argues that as AI generates code faster than we can review it, human comprehension — not generation — has become the real constraint. This reframes the entire conversation about what makes a good AI coding workflow. Directly relevant to anyone using Claude Code or Copilot and wondering why velocity gains feel hollow."
+    },
+    {
+      "title": "Choosing an AI model: one prompt, 11 models, different results",
+      "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+      "hn_link": "https://news.ycombinator.com/item?id=49285327",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by toddmorey · 203 points · 87 comments",
+      "blurb": "Netlify ran the same prompt through 11 different models and documented the divergence — a practical comparison that goes beyond benchmark leaderboards. The variance in output style, format, and correctness is larger than most people expect. Essential for deciding which model to wire up to which part of your stack."
+    },
+    {
+      "title": "Text AI watermarks will always be trivial to remove",
+      "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+      "hn_link": "https://news.ycombinator.com/item?id=49287153",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by pseudolus · 122 points · 133 comments",
+      "blurb": "Sean Goedecke makes a compelling technical case that text watermarking is fundamentally broken — any semantic-preserving transformation destroys the signal. This matters as regulators push for AI provenance tracking, and as tools for removing watermarks (see the Pinboard section today) proliferate. The policy implications are significant."
+    },
+    {
+      "title": "cathrynlavery/diagram-design: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude_skills",
+      "blurb": "A curated library of 29 diagram types specifically tuned for Claude Code to generate — clean HTML+SVG with no AI-generated visual noise. If you're tired of Mermaid diagrams that look like they were made in 2012, this is the prompt-compatible design system you didn't know you needed. Directly actionable for anyone using Claude in documentation workflows."
+    },
+    {
+      "title": "TDD inside the agent loop - theater or actual value?",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-assisted-software-development, ai, agentic-ai, tdd",
+      "blurb": "Martin Fowler's site tackles whether test-driven development inside an AI agent loop is genuinely useful or just performance art. The conclusion is nuanced: tests serve as executable specs that keep agents on track, but the workflow requires careful design. Critical reading for anyone building agentic coding pipelines."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "herdr is a persistent terminal multiplexer purpose-built for coding agents — detach, reattach, and your agents keep running with built-in awareness of blocked/done/working states. Think tmux, but the first-class citizen is an AI agent rather than a human shell session. Exactly the kind of infrastructure tooling the agentic coding era needs."
+    },
+    {
+      "title": "What's the best programming language for coding agents?",
+      "url": "https://danluu.com/pl-tokens/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, subject:cs.PL, blogs, year:2026, author:dan_luu",
+      "blurb": "Dan Luu digs into how token efficiency varies by programming language and what that means for agent codegen quality — a question that matters more than most people realize when you're paying per token or hitting context limits. TypeScript developers may find the results surprising. Rigorous, data-backed analysis as always from Luu."
+    },
+    {
+      "title": "Terabytes of credentials leaked in massive supply-chain attack - Ars Technica",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, credentials, leaked, attack, supply-chain, article, 2026",
+      "blurb": "Ars Technica reports on a supply-chain attack that exfiltrated terabytes of credentials — the scale here is alarming. Supply-chain attacks are the threat vector that keeps security teams up at night precisely because your own code can be clean while a dependency isn't. Rotate secrets and audit your dependency tree."
+    },
+    {
+      "title": "McDonald's Built a 515-Page Dossier on Me. It Says I'll Never Stop Eating There",
+      "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: surveillance, privacy, corp, capitalism, manip, data, intelligence, strategy, consumption, DSEE",
+      "blurb": "A GDPR data subject access request to McDonald's returns a 515-page algorithmic profile — predictive purchase modeling, behavioral segmentation, the works. This is what loyalty programs actually are: surveillance infrastructure dressed up as discounts. A vivid, concrete example of the data economy in action."
+    },
+    {
+      "title": "Photosynthesis",
+      "url": "https://photosynthesis.camera/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: iphone, app, camera, photoshop",
+      "blurb": "Photosynthesis fires both iPhone cameras simultaneously and fuses the results into a single high-res photo — with zero generative AI involved. This is computational photography done the honest way, using real sensor data rather than hallucinated pixels. Coming to iPhone in 2026 and already looking like the most interesting camera app in years."
+    },
+    {
+      "title": "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor - 9to5Mac",
+      "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Cursor team teaming up with xAI to ship a native iPhone and Mac app is the unexpected crossover of the week. Cursor's editor DNA combined with Grok's model could make for a compelling native coding assistant outside VS Code. Worth watching for anyone invested in the macOS AI tooling ecosystem."
+    },
+    {
+      "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49259611",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git, tools",
+      "blurb": "Git-knife gives you a spreadsheet-style interface for bulk-editing commit metadata — messages, authors, dates — without wrestling with interactive rebase. The kind of tool that pays for itself the first time you need to clean up a messy branch history before a PR. Actionable and useful today."
+    },
+    {
+      "title": "A Home for Personal Context – O'Reilly",
+      "url": "https://www.oreilly.com/radar/a-home-for-personal-context/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, ai, context, memory, personalisation",
+      "blurb": "O'Reilly Radar makes the case for user-owned personal context that travels between AI agents rather than being siloed per vendor. This is the missing infrastructure layer of the agentic era — right now every agent you use rebuilds its model of you from scratch. A thoughtful piece about where the ecosystem needs to go."
+    }
+  ]
+}

@@ -1,0 +1,1305 @@
+{
+  "date": "2026-08-14",
+  "fetched_at": "2026-08-14T09:11:17",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Gemini 3.7 Flash",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+        "hn_id": 49289112,
+        "hn_link": "https://news.ycombinator.com/item?id=49289112",
+        "score": 819,
+        "author": "thisisauserid",
+        "comments": 431,
+        "byline_hint": "by thisisauserid · 819 points · 431 comments"
+      },
+      {
+        "source": "hn",
+        "title": "DeepSeek Harness developer preview",
+        "url": "https://deepseek.com/harness/en/",
+        "hn_id": 49285244,
+        "hn_link": "https://news.ycombinator.com/item?id=49285244",
+        "score": 653,
+        "author": "bjin",
+        "comments": 273,
+        "byline_hint": "by bjin · 653 points · 273 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Spaghettifying DRAM",
+        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+        "hn_id": 49286341,
+        "hn_link": "https://news.ycombinator.com/item?id=49286341",
+        "score": 614,
+        "author": "matt_d",
+        "comments": 160,
+        "byline_hint": "by matt_d · 614 points · 160 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Accelerating GPT-5.6 Sol Ultrafast",
+        "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+        "hn_id": 49289844,
+        "hn_link": "https://news.ycombinator.com/item?id=49289844",
+        "score": 586,
+        "author": "pr337h4m",
+        "comments": 235,
+        "byline_hint": "by pr337h4m · 586 points · 235 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Gloomberb",
+        "url": "https://gloom.sh/",
+        "hn_id": 49285982,
+        "hn_link": "https://news.ycombinator.com/item?id=49285982",
+        "score": 414,
+        "author": "rbanffy",
+        "comments": 219,
+        "byline_hint": "by rbanffy · 414 points · 219 comments"
+      },
+      {
+        "source": "hn",
+        "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+        "url": "https://z.ai/blog/glm-5.3",
+        "hn_id": 49294997,
+        "hn_link": "https://news.ycombinator.com/item?id=49294997",
+        "score": 413,
+        "author": "pella",
+        "comments": 171,
+        "byline_hint": "by pella · 413 points · 171 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Mistral OCR 4.1",
+        "url": "https://docs.mistral.ai/models/ocr-4-1",
+        "hn_id": 49288889,
+        "hn_link": "https://news.ycombinator.com/item?id=49288889",
+        "score": 338,
+        "author": "spelk",
+        "comments": 135,
+        "byline_hint": "by spelk · 338 points · 135 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Choose Boring Technology (2015)",
+        "url": "https://mcfunley.com/choose-boring-technology",
+        "hn_id": 49289512,
+        "hn_link": "https://news.ycombinator.com/item?id=49289512",
+        "score": 336,
+        "author": "tosh",
+        "comments": 173,
+        "byline_hint": "by tosh · 336 points · 173 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Understanding is the new bottleneck",
+        "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+        "hn_id": 49290299,
+        "hn_link": "https://news.ycombinator.com/item?id=49290299",
+        "score": 324,
+        "author": "sebg",
+        "comments": 171,
+        "byline_hint": "by sebg · 324 points · 171 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
+        "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
+        "hn_id": 49285418,
+        "hn_link": "https://news.ycombinator.com/item?id=49285418",
+        "score": 308,
+        "author": "vinayakborkar",
+        "comments": 179,
+        "byline_hint": "by vinayakborkar · 308 points · 179 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ordinary Abundance",
+        "url": "https://ordinaryabundance.com/",
+        "hn_id": 49285770,
+        "hn_link": "https://news.ycombinator.com/item?id=49285770",
+        "score": 300,
+        "author": "yen223",
+        "comments": 158,
+        "byline_hint": "by yen223 · 300 points · 158 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+        "url": "https://donkeybas.com/",
+        "hn_id": 49289465,
+        "hn_link": "https://news.ycombinator.com/item?id=49289465",
+        "score": 229,
+        "author": "jkrauska",
+        "comments": 105,
+        "byline_hint": "by jkrauska · 229 points · 105 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+        "url": "https://github.com/systemd/systemd/issues/40262",
+        "hn_id": 49290215,
+        "hn_link": "https://news.ycombinator.com/item?id=49290215",
+        "score": 211,
+        "author": "ValdikSS",
+        "comments": 133,
+        "byline_hint": "by ValdikSS · 211 points · 133 comments"
+      },
+      {
+        "source": "hn",
+        "title": "NP-overrated",
+        "url": "https://gruhn.me/blog/2026-08-13/",
+        "hn_id": 49291268,
+        "hn_link": "https://news.ycombinator.com/item?id=49291268",
+        "score": 206,
+        "author": "theanonymousone",
+        "comments": 142,
+        "byline_hint": "by theanonymousone · 206 points · 142 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Choosing an AI model: one prompt, 11 models, different results",
+        "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+        "hn_id": 49285327,
+        "hn_link": "https://news.ycombinator.com/item?id=49285327",
+        "score": 203,
+        "author": "toddmorey",
+        "comments": 87,
+        "byline_hint": "by toddmorey · 203 points · 87 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Hello, me. It's been a while",
+        "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+        "hn_id": 49290166,
+        "hn_link": "https://news.ycombinator.com/item?id=49290166",
+        "score": 197,
+        "author": "somesoftdev",
+        "comments": 94,
+        "byline_hint": "by somesoftdev · 197 points · 94 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+        "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+        "hn_id": 49286485,
+        "hn_link": "https://news.ycombinator.com/item?id=49286485",
+        "score": 186,
+        "author": "stevehipwell",
+        "comments": 78,
+        "byline_hint": "by stevehipwell · 186 points · 78 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Where did the old web go? We followed 657,607 links to find out",
+        "url": "https://0.mk/blog/link-rot",
+        "hn_id": 49289532,
+        "hn_link": "https://news.ycombinator.com/item?id=49289532",
+        "score": 178,
+        "author": "tdx",
+        "comments": 168,
+        "byline_hint": "by tdx · 178 points · 168 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Bluesky Protocol Services",
+        "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+        "hn_id": 49293324,
+        "hn_link": "https://news.ycombinator.com/item?id=49293324",
+        "score": 161,
+        "author": "danabramov",
+        "comments": 32,
+        "byline_hint": "by danabramov · 161 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Compaction Works in Pi",
+        "url": "https://earendil.com/posts/compaction-in-pi/",
+        "hn_id": 49289654,
+        "hn_link": "https://news.ycombinator.com/item?id=49289654",
+        "score": 160,
+        "author": "tosh",
+        "comments": 62,
+        "byline_hint": "by tosh · 160 points · 62 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Heart aerospace completes first flight of largest electric aircraft",
+        "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+        "hn_id": 49286270,
+        "hn_link": "https://news.ycombinator.com/item?id=49286270",
+        "score": 130,
+        "author": "chha",
+        "comments": 130,
+        "byline_hint": "by chha · 130 points · 130 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Text AI watermarks will always be trivial to remove",
+        "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+        "hn_id": 49287153,
+        "hn_link": "https://news.ycombinator.com/item?id=49287153",
+        "score": 122,
+        "author": "pseudolus",
+        "comments": 133,
+        "byline_hint": "by pseudolus · 122 points · 133 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI At Home Part 1: A Box Of Scraps",
+        "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+        "hn_id": 49288293,
+        "hn_link": "https://news.ycombinator.com/item?id=49288293",
+        "score": 117,
+        "author": "timmmmmmay",
+        "comments": 55,
+        "byline_hint": "by timmmmmmay · 117 points · 55 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+        "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+        "hn_id": 49290768,
+        "hn_link": "https://news.ycombinator.com/item?id=49290768",
+        "score": 106,
+        "author": "malshe",
+        "comments": 64,
+        "byline_hint": "by malshe · 106 points · 64 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Gödel's Proof Works (2020)",
+        "url": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
+        "hn_id": 49290969,
+        "hn_link": "https://news.ycombinator.com/item?id=49290969",
+        "score": 103,
+        "author": "tzury",
+        "comments": 42,
+        "byline_hint": "by tzury · 103 points · 42 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Blog about things you don't understand yet",
+        "url": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+        "hn_id": 49293087,
+        "hn_link": "https://news.ycombinator.com/item?id=49293087",
+        "score": 98,
+        "author": "gfysfm",
+        "comments": 31,
+        "byline_hint": "by gfysfm · 98 points · 31 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+        "url": "https://www.codewithbullet.com",
+        "hn_id": 49283063,
+        "hn_link": "https://news.ycombinator.com/item?id=49283063",
+        "score": 98,
+        "author": "adi1",
+        "comments": 74,
+        "byline_hint": "by adi1 · 98 points · 74 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Finite State Machines in Forth (1994)",
+        "url": "https://www.forth.org/literature/noble.html",
+        "hn_id": 49223964,
+        "hn_link": "https://news.ycombinator.com/item?id=49223964",
+        "score": 75,
+        "author": "ofalkaed",
+        "comments": 2,
+        "byline_hint": "by ofalkaed · 75 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "an ambiguity in C89 which will never be fixed",
+        "url": "https://sebsite.pw/w/20260810-c89ambiguity.html",
+        "hn_id": 49240615,
+        "hn_link": "https://news.ycombinator.com/item?id=49240615",
+        "score": 61,
+        "author": "runningmike",
+        "comments": 29,
+        "byline_hint": "by runningmike · 61 points · 29 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Legend of the Novell NE2000 [video]",
+        "url": "https://www.youtube.com/watch?v=nNXzQ7V1S_k",
+        "hn_id": 49232753,
+        "hn_link": "https://news.ycombinator.com/item?id=49232753",
+        "score": 46,
+        "author": "voxadam",
+        "comments": 14,
+        "byline_hint": "by voxadam · 46 points · 14 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Cave of the Crystals",
+        "url": "https://en.wikipedia.org/wiki/Cave_of_the_Crystals",
+        "hn_id": 49221431,
+        "hn_link": "https://news.ycombinator.com/item?id=49221431",
+        "score": 46,
+        "author": "ColinWright",
+        "comments": 2,
+        "byline_hint": "by ColinWright · 46 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: C# Game Engine with its own scripting language and IDE",
+        "url": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+        "hn_id": 49258085,
+        "hn_link": "https://news.ycombinator.com/item?id=49258085",
+        "score": 36,
+        "author": "am-gm",
+        "comments": 4,
+        "byline_hint": "by am-gm · 36 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How a device finds encrypted DNS by itself",
+        "url": "https://blog.dundns.eu/posts/ddr-encrypted-dns-discovery/",
+        "hn_id": 49210740,
+        "hn_link": "https://news.ycombinator.com/item?id=49210740",
+        "score": 32,
+        "author": "majorchord",
+        "comments": 5,
+        "byline_hint": "by majorchord · 32 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Library of Ashurbanipal (2025)",
+        "url": "https://www.historytoday.com/archive/feature/library-ashurbanipal",
+        "hn_id": 49248769,
+        "hn_link": "https://news.ycombinator.com/item?id=49248769",
+        "score": 31,
+        "author": "samizdis",
+        "comments": 9,
+        "byline_hint": "by samizdis · 31 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Eclipse: The Xiaomi 17 Ultra Confuses the Moon and the Sun",
+        "url": "https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil",
+        "hn_id": 49295515,
+        "hn_link": "https://news.ycombinator.com/item?id=49295515",
+        "score": 27,
+        "author": "n_plus_1_acc",
+        "comments": 11,
+        "byline_hint": "by n_plus_1_acc · 27 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Credibility is the barrier to entry in silicon",
+        "url": "https://www.siliconimist.com/p/credibility-is-the-barrier-to-entry",
+        "hn_id": 49242287,
+        "hn_link": "https://news.ycombinator.com/item?id=49242287",
+        "score": 24,
+        "author": "johncole",
+        "comments": 8,
+        "byline_hint": "by johncole · 24 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+        "url": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+        "hn_id": 49295238,
+        "hn_link": "https://news.ycombinator.com/item?id=49295238",
+        "score": 21,
+        "author": "pentestercrab",
+        "comments": 3,
+        "byline_hint": "by pentestercrab · 21 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Lumabri – Run Moe Models on a P2P Swarm with Colibri",
+        "url": "https://github.com/JustVugg/lumabri",
+        "hn_id": 49293523,
+        "hn_link": "https://news.ycombinator.com/item?id=49293523",
+        "score": 11,
+        "author": "vforno",
+        "comments": 1,
+        "byline_hint": "by vforno · 11 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What an improv stage can teach you about leading cross-cultural teams in Tokyo",
+        "url": "https://www.tokyodev.com/articles/yes-and-what-an-improv-stage-can-teach-you-about-leading-cross-cultural-teams-in-tokyo",
+        "hn_id": 49204232,
+        "hn_link": "https://news.ycombinator.com/item?id=49204232",
+        "score": 10,
+        "author": "pwim",
+        "comments": 2,
+        "byline_hint": "by pwim · 10 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Covert CIA program said to be behind mysterious attacks on Galápagos boats",
+        "url": "https://www.washingtonpost.com/investigations/2026/08/13/covert-cia-program-said-be-behind-mysterious-attacks-galpagos-boats/",
+        "hn_id": 49295872,
+        "hn_link": "https://news.ycombinator.com/item?id=49295872",
+        "score": 8,
+        "author": "u1hcw9nx",
+        "comments": 2,
+        "byline_hint": "by u1hcw9nx · 8 points · 2 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "I'm done using AI – Brett Codes",
+        "url": "https://brettcodes.com/im-done-using-ai/",
+        "description": "",
+        "tags": [
+          "llm",
+          "coding",
+          "firsthand",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, coding, firsthand, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "There are no lossless transformations of natural-language text – Sophie Alpert",
+        "url": "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text",
+        "description": "",
+        "tags": [
+          "ai",
+          "writing",
+          "ideas"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, writing, ideas"
+      },
+      {
+        "source": "pinboard",
+        "title": "World Train Map — Interactive Railway Map · 1,247 Train Routes",
+        "url": "https://worldtrainmap.com/",
+        "description": "",
+        "tags": [
+          "railroads",
+          "trains"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: railroads, trains"
+      },
+      {
+        "source": "pinboard",
+        "title": "On AI Coding and Its Discontents - Cal Newport",
+        "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+        "description": "",
+        "tags": [
+          "software",
+          "development",
+          "artificial_intelligence",
+          "critique",
+          "cal_newport",
+          "reversal",
+          "overshoot"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: software, development, artificial_intelligence, critique, cal_newport, reversal, overshoot"
+      },
+      {
+        "source": "pinboard",
+        "title": "A shell exclamation mark is not for yelling. Be lazy. | Filip Roséen - refp.se",
+        "url": "https://refp.se/articles/your-shell-and-the-lazy-exclamation-mark",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "cathrynlavery/diagram-design: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+        "url": "https://github.com/cathrynlavery/diagram-design",
+        "description": "",
+        "tags": [
+          "ai",
+          "llm",
+          "agentic_ai",
+          "claude_skills"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude_skills"
+      },
+      {
+        "source": "pinboard",
+        "title": "tumbledry.org: iDrive Ads",
+        "url": "https://tumbledry.org/2026/08/07/idrive_ads",
+        "description": "via Daring Fireball https://ift.tt/Wr82qzt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "USS Abraham Lincoln sailors tried to jump overboard amid extended deployment – reports",
+        "url": "https://www.theguardian.com/us-news/2026/aug/12/uss-abraham-lincoln-overboard-extended-deployment",
+        "description": "Aircraft carrierâs crew in ninth month at sea and has spent record 250 days consecutively without making land",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to choose a UI font (and 10 Inter alternatives)",
+        "url": "https://yeptype.com/article/inter-alternatives",
+        "description": "Tired",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "[no title]",
+        "url": "https://www.meta.com/thefutureisforeveryone/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The only reason you’ll ever need not to write with AI — The Carlson Lab",
+        "url": "https://www.carlsonlab.bio/thoughts/the-only-reason-youll-ever-need-not-to-write-with-ai",
+        "description": "",
+        "tags": [
+          "ai",
+          "teaching"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, teaching"
+      },
+      {
+        "source": "pinboard",
+        "title": "What's the best programming language for coding agents?",
+        "url": "https://danluu.com/pl-tokens/",
+        "description": "",
+        "tags": [
+          "subject:cs.AI",
+          "subject:cs.CL",
+          "subject:cs.PL",
+          "blogs",
+          "year:2026",
+          "author:dan_luu"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, subject:cs.PL, blogs, year:2026, author:dan_luu"
+      },
+      {
+        "source": "pinboard",
+        "title": "Company Offering ‘100% Human-Written, Never AI’ Medical Research Is Entirely AI",
+        "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+        "description": "lol. lmao.",
+        "tags": [
+          "Academia",
+          "AI",
+          "Research"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Academia, AI, Research"
+      },
+      {
+        "source": "pinboard",
+        "title": "What sort of maths are LLMs good at? | Gowers's Weblog",
+        "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+        "description": "",
+        "tags": [
+          "LLMs",
+          "Machine-Learning",
+          "Mathematics"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: LLMs, Machine-Learning, Mathematics"
+      },
+      {
+        "source": "pinboard",
+        "title": "The AI takeover of mathematics has begun | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+        "description": "via The Verge https://ift.tt/RWdCs8T",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Large-scale study finds no link between crime and unauthorized immigration",
+        "url": "https://phys.org/news/2026-08-large-scale-link-crime-unauthorized.html",
+        "description": "For more than two decades, Charis E. Kubrin has followed the data wherever it leads. As UC Irvine Chancellor's Professor of Criminology, Law and Society, she has built a career studying one of America's most politically charged questions: Does immigration drive crime?",
+        "tags": [
+          "immigration",
+          "study",
+          "Crime"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: immigration, study, Crime"
+      },
+      {
+        "source": "pinboard",
+        "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI | WIRED",
+        "url": "https://archive.is/P3Icn",
+        "description": "via @futurebird@sauropods.win boost of https://wandering.shop/@susankayequinn/117077495489211387",
+        "tags": [
+          "ai",
+          "career"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, career"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mark Zuckerberg doesn’t understand how to live | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+        "description": "via The Verge https://ift.tt/RWdCs8T",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI Mania Is Eviscerating Global Decision-Making — Ludicity",
+        "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+        "description": "",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "McDonald’s Built a 515-Page Dossier on Me. It Says I’ll Never Stop Eating There",
+        "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave/",
+        "description": "I requested a copy of my data from McDonald’s loyalty program and received an extensive, personalized report that algorithmically predicts my next purchase.",
+        "tags": [
+          "surveillance",
+          "privacy",
+          "corp",
+          "capitalism",
+          "manip",
+          "data",
+          "intelligence",
+          "strategy",
+          "consumption",
+          "DSEE"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: surveillance, privacy, corp, capitalism, manip, data, intelligence, strategy, consumption, DSEE"
+      },
+      {
+        "source": "pinboard",
+        "title": "Google's Pixel 11 lineup offers fewer hardware changes, but much more Gemini | TechCrunch",
+        "url": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
+        "description": "via Daring Fireball https://ift.tt/2bQd4vk",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "how AI text watermarking works: a visual guide",
+        "url": "https://declaude.org/watermarking/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "* Confessions of a Long-Distance Sailor",
+        "url": "https://arachnoid.com/lutusp/sailbook.html",
+        "description": "",
+        "tags": [
+          "sailing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sailing"
+      },
+      {
+        "source": "pinboard",
+        "title": "guillaumemeyer/watermarks-remover: Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+        "url": "https://github.com/guillaumemeyer/watermarks-remover",
+        "description": "Agent skill + stdlib Python scripts to strip multi-vendor AI provenance marks from text and files — for privacy and hygiene on content you own.",
+        "tags": [
+          "clanker"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: clanker"
+      },
+      {
+        "source": "pinboard",
+        "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=49259611",
+        "description": "",
+        "tags": [
+          "git",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: git, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "The 37signals Manager Playbook",
+        "url": "https://basecamp.com/managers",
+        "description": "",
+        "tags": [
+          "37signals",
+          "management"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 37signals, management"
+      },
+      {
+        "source": "pinboard",
+        "title": "Sabrina Halper on X: \"We still have no idea what the human brain is truly capable of.Reed Jobs shares one of the wildest neuroscience stories I’ve ever heard. https://t.co/OXPJt0TUa5\" / X",
+        "url": "https://x.com/SabrinaHalper/status/2086964813788258588?s=46",
+        "description": "via Daring Fireball https://ift.tt/Wr82qzt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history",
+        "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+        "description": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct — public TV channel sues Iron Mountain data center, which hosts archival materials, to ensure preservation\nThis wouldn't have been an issue if the organization bought a $1,000 NAS and populated it with a few hard drives.",
+        "tags": [
+          "tv",
+          "data",
+          "fail",
+          "history"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: tv, data, fail, history"
+      },
+      {
+        "source": "pinboard",
+        "title": "Chad Arimura Agent Setup",
+        "url": "https://chad.cm/posts/2026-8-11-my-agent-setup",
+        "description": "",
+        "tags": [
+          "reading",
+          "utility"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: reading, utility"
+      },
+      {
+        "source": "pinboard",
+        "title": "Photosynthesis",
+        "url": "https://photosynthesis.camera/",
+        "description": "fires two of your iPhone's cameras at once and fuses the results into one high-res photo, with no generative AI. Coming to iPhone in 2026.",
+        "tags": [
+          "iphone",
+          "app",
+          "camera",
+          "photoshop"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: iphone, app, camera, photoshop"
+      },
+      {
+        "source": "pinboard",
+        "title": "show hn: needle2: 14mb agentic llm for phones, wearables, smart home and robots | hacker news",
+        "url": "https://news.ycombinator.com/item?id=49246804",
+        "description": "",
+        "tags": [
+          "llms",
+          "gen-ai",
+          "discussion"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llms, gen-ai, discussion"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI was supposed to destroy jobs. Where’s the carnage? | AI (artificial intelligence) | The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
+        "description": "The AI jobs apocalypse never showed up. Still, jobs are changing and economists expect more to come.",
+        "tags": [
+          "guardian",
+          "work",
+          "artificialintelligence"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: guardian, work, artificialintelligence"
+      },
+      {
+        "source": "pinboard",
+        "title": "Jolt — Clojure on Scheme",
+        "url": "https://jolt-lang.net/",
+        "description": "Jolt is a self-hosted Clojure implementation that runs on Scheme — Chez natively, Gambit for JavaScript. No JVM, no build step — most portable Clojure runs unchanged.\nThe compiler is written in Clojure and compiles itself\nPersistent data, lazy seqs, transducers, multimethods, protocols — full Clojure semantics\nReal concurrency: future, agent, pmap, and core.async on OS threads\njolt build emits a single standalone binary — no Scheme or JVM needed to run it",
+        "tags": [
+          "lisp",
+          "clojure"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: lisp, clojure"
+      },
+      {
+        "source": "pinboard",
+        "title": "deepseek-harness",
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "description": "DeepSeek Harness: Everything is a Plugin.",
+        "tags": [
+          "github-starred",
+          "cordis",
+          "dsh",
+          "dsh-plugin"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: github-starred, cordis, dsh, dsh-plugin"
+      },
+      {
+        "source": "pinboard",
+        "title": "41 of the Greatest Mexican Restaurants In the United States - The New York Times",
+        "url": "https://www.nytimes.com/2026/08/13/dining/best-mexican-restaurants-united-states.html",
+        "description": "",
+        "tags": [
+          "travel",
+          "food",
+          "MexicanFood",
+          "yum"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: travel, food, MexicanFood, yum"
+      },
+      {
+        "source": "pinboard",
+        "title": "amiga-news.de - obituary: amigados developer dr. tim king has passed away",
+        "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+        "description": "",
+        "tags": [
+          "amiga",
+          "amigados",
+          "obituary"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: amiga, amigados, obituary"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Events That Caused World War II Are Now In Motion Again (nobody believed it then either) - YouTube",
+        "url": "https://www.youtube.com/watch?v=41dD-N5-3no",
+        "description": "",
+        "tags": [
+          "Putin_Wladimir",
+          "Hitler_Adolf",
+          "WWII",
+          "book_recommendation",
+          "Warburg_Paul"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Putin_Wladimir, Hitler_Adolf, WWII, book_recommendation, Warburg_Paul"
+      },
+      {
+        "source": "pinboard",
+        "title": "Terabytes of credentials leaked in massive supply-chain attack - Ars Technica",
+        "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+        "description": "",
+        "tags": [
+          "security",
+          "credentials",
+          "leaked",
+          "attack",
+          "supply-chain",
+          "article",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security, credentials, leaked, attack, supply-chain, article, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "herdr — tmux for agents",
+        "url": "https://herdr.dev/",
+        "description": "<blockquote>Persistent terminal multiplexer for coding agents. Detach and reattach, agents keep running. Built-in awareness for blocked, done, and working states. Lives inside your terminal.</blockquote>",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "TDD inside the agent loop - theater or actual value?",
+        "url": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+        "description": "",
+        "tags": [
+          "ai-assisted-software-development",
+          "ai",
+          "agentic-ai",
+          "tdd"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai-assisted-software-development, ai, agentic-ai, tdd"
+      },
+      {
+        "source": "pinboard",
+        "title": "The great silence: why haven’t we found any aliens yet? | Alien life | The Guardian",
+        "url": "https://www.theguardian.com/news/2026/aug/11/the-great-silence-why-havent-we-found-any-aliens-yet",
+        "description": "That doesn’t discourage true believers. Seth Shostak, an astronomer at the California-based Seti Institute, writes that Seti’s “failure is tempered by the fact that the number of star systems sampled is still quite small”. In 2010, astronomer Jill Tarter, one of the leading figures in the field for decades, calculated that so little of the universe had been searched that it was like dipping a single glass into the ocean to determine whether it contains fish.\n\nIf extraterrestrial signals are out there and it’s just a matter of looking in the right place, it’s entirely possible that Seti could find one tomorrow. But it hasn’t happened in more than 65 years of searching and, until it does, alien signals remain as hypothetical as alien spaceships. Not only is there no evidence that extraterrestrials are trying to contact or visit us; there is no evidence that they exist at all. And this non-appearance presents a more serious challenge to modern scientific assumptions than any UFO sighting. It turns out that there really is something unique about Earth: as far as we currently know, it is the only place where life exists. But why?\n\nIn October 1961, a year after Frank Drake failed to detect any alien radio signals with Project Ozma, he invited a dozen scientists to a conference to discuss the future of Seti. To clarify the problem, he tried to calculate how many extraterrestrial civilisations could be broadcasting radio signals in our galaxy. The answer, Drake reasoned, depended on seven variables, including “How many planets in an average system are capable of supporting life?” and “On planets where life exists, how often does an intelligent species like humanity evolve?”\n\nMultiply all of the variables and you get the number of potential targets for Seti in the Milky Way. Drake wrote out the formula, which has been known ever since as the Drake equation. At the time, none of the variables could be estimated with any confidence. Drake’s back-of-the-envelope calculations yielded an estimate of 50,000 transmitting civilisations, but this was essentially just a guess. The real purpose of the Drake equation was to establish a research programme, a set of questions for astronomers to try to answer. In the 21st century, they have made significant progress, thanks to new space-based telescopes that make it possible to see the cosmos in more detail than ever before.\n\nFor the first variable – how fast are new stars formed in the Milky Way – it’s now estimated that 10 to 20 new stars are born every year (a far slower rate than when the galaxy was young and richer in star-forming gas). The total number of stars in our galaxy is on the order of 100bn. In the visible universe as a whole, there are an estimated 2tn galaxies, yielding a total of about 100 sextillion stars. So much is still unknown about the universe that this figure is certain to be revised, but it’s sufficiently mind-boggling to get the Drake equation off to a promising start.\n\nIt is much easier to detect stars than the planets that orbit them, and in 1961 the answers to Drake’s second and third questions – how many stars have planets, and how many of those planets are potentially habitable – were completely unknown. As telescopes gained in power, it became possible to detect exoplanets – planets outside our solar system – by measuring the tiny variations in a star’s light caused by a planetary mass passing in front of it. The first exoplanet was detected in 1992, the second in 1995. The pace of discovery exploded in the 2010s, thanks to observations from the Kepler space telescope and the Transiting Exoplanet Survey Satellite.\n\nAs of 2025, some 6,000 exoplanets have been identified in the Milky Way, including at least three orbiting Proxima Centauri, the closest star to the sun. This is just the tip of the iceberg. While it’s not yet possible to conclusively answer Drake’s second question, a study published in Nature in 2012 suggested a minimum of 100bn planets in our galaxy alone.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Welcome To The Resistance: Meet The Workers Dodging (And Sabotaging) Their Employer's AI Mandates",
+        "url": "https://aftermath.site/ai-resistance-tips-workforce-llm-workers/",
+        "description": "",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "Indo-European Language Tree",
+        "url": "https://djbinder.com/language-tree/",
+        "description": "",
+        "tags": [
+          "visualization",
+          "language"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: visualization, language"
+      },
+      {
+        "source": "pinboard",
+        "title": "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor - 9to5Mac",
+        "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/",
+        "description": "via 9to5Mac https://9to5mac.com/",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Four simple rules behind Japan's most liveable cities",
+        "url": "https://www.bbc.com/travel/article/20260805-four-simple-rules-behind-japans-most-liveable-cities",
+        "description": "",
+        "tags": [
+          "cool"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: cool"
+      },
+      {
+        "source": "pinboard",
+        "title": "Baby Name Popularity & Trends by Country | NameDaisy",
+        "url": "https://namedaisy.com/",
+        "description": "Baby Name Popularity Explorer",
+        "tags": [
+          "baby",
+          "name",
+          "trends",
+          "statistics",
+          "background"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: baby, name, trends, statistics, background"
+      },
+      {
+        "source": "pinboard",
+        "title": "The water footprint of artificial intelligence: Emerging solutions and governance imperatives - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0043135426005488?via%3Dihub",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Text as Music | Jera Value",
+        "url": "https://www.jeravalue.com/en/text-music",
+        "description": "",
+        "tags": [
+          "text",
+          "music"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: text, music"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Are Rivers So Mathematical? | Quanta Magazine",
+        "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+        "description": "",
+        "tags": [
+          "gis"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: gis"
+      },
+      {
+        "source": "pinboard",
+        "title": "Electric is joining Databricks | Electric",
+        "url": "https://electric.ax/blog/2026/08/11/electric-joining-databricks",
+        "description": "Electric is now part of Databricks. We're joining Neon to make Lakebase the best platform for building apps and agents. Everything we've open sourced stays open source.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Good Tools Are Invisible",
+        "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+        "description": "",
+        "tags": [
+          "UX",
+          "usability",
+          "simplicity",
+          "tools",
+          "interactiondesign",
+          "psychology",
+          "design"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: UX, usability, simplicity, tools, interactiondesign, psychology, design"
+      },
+      {
+        "source": "pinboard",
+        "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=49275335",
+        "description": "",
+        "tags": [
+          "sse",
+          "hn"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sse, hn"
+      },
+      {
+        "source": "pinboard",
+        "title": "A New Trick Reveals AI Models’ Inner Thoughts | WIRED",
+        "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "BasicAppleGuy: \"Apple just dropped the hardest icon glow-up for t…\" - Mastodon",
+        "url": "https://mastodon.social/@BasicAppleGuy/117073366339407186",
+        "description": "via Daring Fireball https://ift.tt/Wr82qzt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Home for Personal Context – O’Reilly",
+        "url": "https://www.oreilly.com/radar/a-home-for-personal-context/",
+        "description": "Every agent I use is building a model of me. Claude has learned how I like my prose. ChatGPT remembers what I’m working on. I don’t mind this—every person I have a relationship with carries a model of me in their head, and every company I do business with keeps a profile. Other people’s understandings of me have never been mine to control, after all.\n\nBut an agent occupies a different role. It learns my writing style, my preferences, and the shape of my work and life, all to help me with what I do. Yet if I switch products, I have to start over. If I use three agents, each rebuilds from scratch what the others already know. Everything an agent learns lives with its vendor.",
+        "tags": [
+          "agents",
+          "ai",
+          "context",
+          "memory",
+          "personalisation"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: agents, ai, context, memory, personalisation"
+      },
+      {
+        "source": "pinboard",
+        "title": "Coldcard: the technical autopsy of an entropy failure | Wizardsardine",
+        "url": "https://wizardsardine.com/blog/coldcard-vuln-deep-dive/",
+        "description": "",
+        "tags": [
+          "bitcoin-coldcard"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bitcoin-coldcard"
+      },
+      {
+        "source": "pinboard",
+        "title": "AminBlg/SimpleEnglish: Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical",
+        "url": "https://github.com/AminBlg/SimpleEnglish/tree/main",
+        "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical - AminBlg/SimpleEnglish",
+        "tags": [
+          "claude",
+          "skill",
+          "simple-english",
+          "SimpleEnglish",
+          "simple",
+          "english"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: claude, skill, simple-english, SimpleEnglish, simple, english"
+      },
+      {
+        "source": "pinboard",
+        "title": "tanweai/pua: 你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.",
+        "url": "https://github.com/tanweai/pua",
+        "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement. - tanweai/pua",
+        "tags": [
+          "AI_Skill",
+          "programming"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI_Skill, programming"
+      },
+      {
+        "source": "pinboard",
+        "title": "[no title]",
+        "url": "https://www.beautifului.dev/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Reading",
+        "url": "https://carlkolon.com/reading/",
+        "description": "",
+        "tags": [
+          "programming",
+          "links",
+          "articles",
+          "blog",
+          "best_practices"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, links, articles, blog, best_practices"
+      },
+      {
+        "source": "pinboard",
+        "title": "From guidelines to architecture: How newsrooms are rethinking AI governance | Reuters Institute for the Study of Journalism",
+        "url": "https://reutersinstitute.politics.ox.ac.uk/news/guidelines-architecture-how-newsrooms-are-rethinking-ai-governance",
+        "description": "Explore how global newsrooms are evolving from simple AI guidelines to formal governance architectures that protect brand integrity and trust. Learn to balance human oversight with automated systems while addressing workload fatigue and algorithmic bias.",
+        "tags": [
+          "to_share",
+          "governance",
+          "journalism",
+          "automation",
+          "ai-ethics",
+          "newsroom-strategy",
+          "human-oversight"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, governance, journalism, automation, ai-ethics, newsroom-strategy, human-oversight"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI-Native PhD Students. If you’re a student and just want the… | by Eytan Adar | Aug, 2026 | Medium",
+        "url": "https://eytanadar.medium.com/ai-native-phd-students-f9f6eebc1f91",
+        "description": "",
+        "tags": [
+          "ai",
+          "teaching"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, teaching"
+      },
+      {
+        "source": "pinboard",
+        "title": "The new Pixel 11 feature I want on my iPhone",
+        "url": "https://thenewthings.com/p/the-new-pixel-feature-i-want-on-my-iphone?gift_content=e9bf3ebd-db33-4ee5-91b0-84d7acac3263",
+        "description": "via Daring Fireball https://ift.tt/2bQd4vk",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Perplexity blocca gli annunci di Time pensati per gli agenti AI",
+        "url": "https://digiday.com/media/perplexity-blocks-times-ads-served-to-ai-agents-calling-them-deceptive/",
+        "description": "Perplexity ha bloccato gli annunci inseriti da Time nelle versioni markdown delle pagine web, progettati per essere letti dagli agenti AI invece che dagli utenti umani. La società li definisce potenzialmente “ingannevoli” perché contenuti promozionali potrebbero essere citati come fatti neutrali nelle risposte AI, aprendo un nuovo fronte su fiducia, monetizzazione editoriale e regole dell’advertising nel web agentico.",
+        "tags": [
+          "N8N",
+          "#AI_and_Tech",
+          "AI&TECH",
+          "TW2026-33"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, #AI_and_Tech, AI&TECH, TW2026-33"
+      },
+      {
+        "source": "pinboard",
+        "title": "Take A Chance On Me | Sphinx",
+        "url": "https://thesphinxblog.com/2026/08/11/take-a-chance-on-me/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "This Amazing Archive of Animal Photography Reveals 18,000 Species and Counting. Here's How Joel Sartore Built His 'Photo Ark'",
+        "url": "https://www.smithsonianmag.com/science-nature/this-amazing-archive-of-animal-photography-reveals-18000-species-and-counting-heres-how-joel-sartore-built-his-photo-ark-180989282/",
+        "description": "<blockquote>For 20 years, the National Geographic photographer has showcased Earth’s animals in a series of striking images that make even the tiniest creatures look immense</blockquote>",
+        "tags": [
+          "animal",
+          "photography"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: animal, photography"
+      },
+      {
+        "source": "pinboard",
+        "title": "Qwen/Qwen3.8-2.4T-A95B | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=49273478",
+        "description": "",
+        "tags": [
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Reading List — Crime Pays But Botany Doesn't",
+        "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
+        "description": "",
+        "tags": [
+          "gardening"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: gardening"
+      },
+      {
+        "source": "pinboard",
+        "title": "Bad Request",
+        "url": "https://lapcatsoftware.com/articles/2026/8/4.html",
+        "description": "via Daring Fireball https://ift.tt/Wr82qzt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Bluesky’s active user base is shrinking as its focus expands beyond the app | TechCrunch",
+        "url": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
+        "description": "",
+        "tags": [
+          "bsky",
+          "socialmedia"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bsky, socialmedia"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | A.I. Hype Is Running Into Reality - The New York Times",
+        "url": "https://www.nytimes.com/2026/08/12/opinion/ai-bubble-economy-crash.html",
+        "description": "",
+        "tags": [
+          "finance",
+          "econ",
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: finance, econ, ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Shape of Things to Come, Part 1: The Continuous Thunderdome — Steve Yegge",
+        "url": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+        "description": "",
+        "tags": [
+          "author:steve_yegge",
+          "subject:cs.AI",
+          "subject:cs.CL",
+          "subject:cs.SE",
+          "blogs",
+          "year:2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: author:steve_yegge, subject:cs.AI, subject:cs.CL, subject:cs.SE, blogs, year:2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "This Coin-Sized Device Can Hack a Boeing 737",
+        "url": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+        "description": "",
+        "tags": [
+          "hacking",
+          "airplanes",
+          "Technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: hacking, airplanes, Technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Reviewing code is a skill",
+        "url": "https://typesanitizer.com/blog/code-review.html",
+        "description": "",
+        "tags": [
+          "programming",
+          "education",
+          "review",
+          "tutorial",
+          "lang:en",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: programming, education, review, tutorial, lang:en, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "There are no lossless transformations of natural-language text",
+        "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+        "description": "This standard is good and I think will feel hard soon given the velocity.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Xirp - Powered by Spotify Portal",
+        "url": "https://xirp.spotify.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Just a moment...",
+        "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing?giftId=YWNmMzkyMzAtNTRjMy00MTYyLWE4MGUtYjRmNTMyYjIzY2Fm",
+        "description": "via Daring Fireball https://ift.tt/Wr82qzt",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 40,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 77
+  }
+}
