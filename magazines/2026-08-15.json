@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-15",
+  "stories": [
+    {
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "hn_link": "https://news.ycombinator.com/item?id=49299605",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by erdaltoprak · 1115 points · 686 comments",
+      "blurb": "Alibaba's Qwen team drops a 27B FP8 model that punches well above its weight class — 686 comments means the community is paying close attention. If you're running local models for coding assistance alongside Claude Code, this one's worth a benchmark run. FP8 quantization keeps memory footprint tight enough for serious consumer hardware."
+    },
+    {
+      "title": "Firefox is now the last major browser that still supports uBlock Origin",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49303202",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by DemiGuru · 918 points · 344 comments",
+      "blurb": "Chrome's Manifest V3 transition is now complete, and uBlock Origin is effectively dead on Chromium-based browsers. Firefox is the last holdout, making this a genuine inflection point for anyone who cares about ad-blocking as a privacy tool. If you haven't switched your daily driver, the case just got significantly stronger."
+    },
+    {
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "hn_link": "https://news.ycombinator.com/item?id=49296740",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by numeri · 859 points · 771 comments",
+      "blurb": "The most-discussed story of the day: a developer digs into why Anthropic's flagship model feels less collaborative and more 'assistant-brained' than its predecessor. Directly relevant if you're a Claude Code power user — understanding model personality regressions helps you prompt around them. 771 comments suggests this hit a collective nerve."
+    },
+    {
+      "title": "Every Fucking Website (2020)",
+      "url": "https://lxe.github.io/everywebsite/",
+      "hn_link": "https://news.ycombinator.com/item?id=49299222",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by doubletwoyou · 789 points · 459 comments",
+      "blurb": "A satirical interactive parody of every dark-pattern-laden, cookie-banner-spewing, newsletter-begging website ever built — and it's uncannily accurate. It's funny because it hurts. The 459-comment thread is a cathartic venting session from the developer community."
+    },
+    {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "hn_link": "https://news.ycombinator.com/item?id=49300314",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by u1hcw9nx · 377 points · 219 comments",
+      "blurb": "Google is making real strides toward running AI inference on encrypted data — meaning your inputs never need to be decrypted server-side. For developers building privacy-sensitive applications with AI, this is the direction the field needs to go. Homomorphic encryption has long been 'too slow to matter'; that's changing."
+    },
+    {
+      "title": "Going Dark, and the era of law enforcement hacking",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "hn_link": "https://news.ycombinator.com/item?id=49304447",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by vslira · 328 points · 145 comments",
+      "blurb": "Cryptographer Matthew Green delivers a sobering analysis of how governments are shifting from demanding backdoors to simply hacking devices directly — and why that's arguably worse. Essential reading for anyone who thinks end-to-end encryption solved the surveillance problem. The 'Going Dark' framing is back, and it's more ominous than ever."
+    },
+    {
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "hn_link": "https://news.ycombinator.com/item?id=49300800",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by twapi · 204 points · 119 comments",
+      "blurb": "Anthropic's own guide to getting the most out of Claude Code — from session structure to context management to knowing when to start fresh. If you're using Claude Code daily, there are almost certainly techniques here you're not using yet. Pair this with the Opus 5 discussion above for a complete picture of where the tool is headed."
+    },
+    {
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=49300568",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sans_souse · 290 points · 21 comments",
+      "blurb": "A beautifully designed workbook teaching AI/ML concepts through hand-drawn worked examples — matrix math, attention mechanisms, backprop, all done with pencil-and-paper clarity. The best intuition-builder for developers who want to understand what's happening under the hood of the models they use every day. Printable and genuinely enjoyable."
+    },
+    {
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "hn_link": "https://news.ycombinator.com/item?id=49300759",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rustdesk · 286 points · 119 comments",
+      "blurb": "RustDesk finally cracks one of Linux remote desktop's longest-standing pain points: truly headless, unattended access under Wayland without hacky workarounds. This is a big deal for anyone managing Linux servers or CI boxes remotely. The open-source, self-hostable nature makes it the privacy-respecting alternative to TeamViewer."
+    },
+    {
+      "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
+      "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+      "hn_link": "https://news.ycombinator.com/item?id=49299081",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by speckx · 184 points · 73 comments",
+      "blurb": "A developer built a daily e-ink digest from their RSS feeds to reclaim focused reading away from the infinite scroll of a phone screen. The technical walkthrough covers feed aggregation, layout rendering, and e-ink display integration. A deeply relatable project for anyone with an Obsidian reading workflow who wants to go further offline."
+    },
+    {
+      "title": "Introducing Toast 1",
+      "url": "https://www.mixedbread.com/blog/toast-1",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mplappert · 198 points · 61 comments",
+      "blurb": "Mixedbread releases Toast 1, a new embedding model claiming state-of-the-art retrieval benchmarks at a competitive size. Embedding models are the quiet workhorses of RAG pipelines and semantic search — a better embedding model directly improves any AI-augmented dev workflow. Worth evaluating against OpenAI's text-embedding-3 series."
+    },
+    {
+      "title": "Ultraviolet Bird Photography",
+      "url": "https://uvbirds.com/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by EndXA · 143 points · 23 comments",
+      "blurb": "Birds can see UV light and their plumage is wildly different in that spectrum — this photographer captures it with modified cameras, revealing hidden patterns invisible to human eyes. A genuinely mind-expanding gallery that reframes how we think about color and perception. Stunning images that double as a lesson in sensory biology."
+    },
+    {
+      "title": "eigendrum",
+      "url": "https://eigendrum.com/#p=circle",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bookofjoe · 140 points · 31 comments",
+      "blurb": "A browser-based generative drum machine where rhythmic patterns emerge from mathematical eigenvector decomposition — genuinely musical results from pure linear algebra. Click play and immediately understand why this got traction. A great example of creative coding that produces something you actually want to listen to."
+    },
+    {
+      "title": "The TEMU-Fication of Software, Digital Goods and Services",
+      "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by surprisetalk · 160 points · 112 comments",
+      "blurb": "A sharp essay on how software is racing to the bottom in quality, trustworthiness, and craft — mirroring the cheap-goods-at-any-cost logic of fast-fashion marketplaces. The author connects dark patterns, AI slop, and disposable apps into a coherent critique. Required reading for anyone who still cares about building things that last."
+    },
+    {
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "url": "https://github.com/lajosdeme/mole",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lajosdeme · 69 points · 10 comments",
+      "blurb": "Mole is an open-source CLI research agent that runs deep web research loops directly in your terminal — think Perplexity but self-hostable and composable with your existing shell workflows. Perfect complement to a Claude Code setup where you want AI research without leaving the command line. Worth a star and a test run."
+    },
+    {
+      "title": "Coin-sized device can hack a Boeing 737",
+      "url": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by _tk_ · 62 points · 29 comments",
+      "blurb": "Security researchers demonstrate that a tiny, cheap device can exploit vulnerabilities in avionics systems on commercial aircraft — the implications for critical infrastructure security are alarming. Wired's coverage is measured but the underlying research is genuinely unsettling. A reminder that 'air-gapped' and 'secure' are not synonyms."
+    },
+    {
+      "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
+      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bj-rn · 61 points · 8 comments",
+      "blurb": "An interactive 3D graph mapping the relationships between hundreds of ML models — fine-tunes, merges, forks, and lineages — rendered beautifully in Cosmograph. Immediately useful for understanding how Qwen, Llama, and Mistral derivatives relate to each other. Bookmark this before your next model selection decision."
+    },
+    {
+      "title": "Show HN: Ember – Redshift safe color palettes",
+      "url": "https://github.com/carpdiem/ember",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by carpdiem · 94 points · 19 comments",
+      "blurb": "Ember provides carefully designed color palettes that look correct under Night Shift and Redshift — solving a real pain point for developers who code late at night and find their UI colors go muddy. Directly useful for terminal themes, editor colorschemes, and any macOS app design work. The README explains the color science clearly."
+    },
+    {
+      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "url": "https://chenxiachan.github.io/thoughtdag/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chatchan · 16 points · 1 comments",
+      "blurb": "ThoughtDAG lets you visualize and edit your LLM conversation as a directed acyclic graph — branch, merge, and prune dialogue paths instead of being locked into a linear chat history. A compelling UX experiment for anyone who uses AI for complex reasoning tasks. Feels like what Obsidian Canvas would look like if it understood your AI chats."
+    },
+    {
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by jnord · 6 points · 1 comments",
+      "blurb": "A litigant embedded prompt injection attacks directly into court filings, attempting to manipulate any AI system the court might be using to review documents. It's equal parts absurd and prescient — prompt injection as legal strategy is a sign of how deeply AI anxiety has penetrated everyday institutions. Ars covers the technical angle well."
+    }
+  ]
+}
