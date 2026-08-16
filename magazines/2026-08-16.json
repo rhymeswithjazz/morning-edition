@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-16",
+  "stories": [
+    {
+      "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+      "url": "https://sankalp.bearblog.dev/autoresearch/",
+      "hn_link": "https://news.ycombinator.com/item?id=49309549",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 417 points · 91 comments",
+      "blurb": "A developer uses OpenAI Codex in an autonomous research loop to discover a kernel optimization that's 232× faster than the baseline — without hand-holding the AI at every step. This is the clearest real-world demonstration yet of AI-driven performance engineering as a legitimate workflow, not a demo trick. If you're curious how agentic coding loops actually pay off, this is the case study to read."
+    },
+    {
+      "title": "AI has access to a vastly larger working memory than the human brain",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "hn_link": "https://news.ycombinator.com/item?id=49312845",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rzk · 485 points · 413 comments",
+      "blurb": "The headline is deliberately provocative, but the underlying analysis is sharp: LLMs don't out-reason humans, they out-remember them. Understanding the distinction matters enormously for how you design prompts, context windows, and agent workflows. 413 comments means the HN crowd has opinions — worth skimming the thread too."
+    },
+    {
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "hn_link": "https://news.ycombinator.com/item?id=49316271",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by maxutility · 72 points · 28 comments",
+      "blurb": "Anthropic's own research team catalogs the recurring failure modes and architectural patterns they're seeing in multi-agent deployments. Directly relevant if you're building or orchestrating agent pipelines with Claude Code. Consider this required reading before your next agentic feature ships."
+    },
+    {
+      "title": "A spectre is haunting Unicode",
+      "url": "https://www.dampfkraft.com/ghost-characters.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49310926",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sensanaty · 218 points · 74 comments",
+      "blurb": "A deep-dive into \"ghost characters\" — Unicode code points that exist due to transcription errors in historical Japanese dictionaries, now immortalized in the standard forever. It's part digital archaeology, part cautionary tale about the permanence of mistakes in foundational standards. Genuinely delightful nerd history."
+    },
+    {
+      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "hn_link": "https://news.ycombinator.com/item?id=49243061",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by pdet · 140 points · 10 comments",
+      "blurb": "DuckDB's engineering blog explains how they redesigned their I/O layer to handle async operations without sacrificing the simplicity users love. If you're using DuckDB in any data pipeline, this explains why recent versions feel snappier on remote storage. Excellent systems-level writing from a team that consistently ships."
+    },
+    {
+      "title": "Software Engineering fundamentals matter more",
+      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "hn_link": "https://news.ycombinator.com/item?id=49314902",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ingve · 114 points · 49 comments",
+      "blurb": "A timely counterweight to the AI-does-everything hype: as LLMs generate more code, the humans reviewing and architecting it need stronger fundamentals, not weaker ones. The argument is that AI raises the floor but widens the gap between mediocre and excellent engineers. Good thinking fuel for a Saturday."
+    },
+    {
+      "title": "Tracking down a Zsh history data loss bug",
+      "url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+      "hn_link": "https://news.ycombinator.com/item?id=49314579",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ingve · 69 points · 24 comments",
+      "blurb": "Michael Stapelberg methodically hunts down a nasty Zsh bug that silently truncates your shell history — the kind of data loss you might not notice for months. Essential reading if you rely on history for productivity (and who doesn't). Includes a concrete workaround you can apply today."
+    },
+    {
+      "title": "RISC-V: They Should Have Known Better",
+      "url": "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV",
+      "hn_link": "https://news.ycombinator.com/item?id=49298035",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by dmitrygr · 296 points · 358 comments",
+      "blurb": "A scathing, technically detailed critique of RISC-V's ISA design decisions from an embedded developer who's lived with the consequences. Whether you agree or not, the 358-comment HN debate is one of the best architecture discussions in months. Dmitry Grinberg does not pull punches."
+    },
+    {
+      "title": "A fortuitous decade as an indie software developer",
+      "url": "https://lapcatsoftware.com/articles/2026/8/3.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49244872",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by frizlab · 77 points · 9 comments",
+      "blurb": "Jeff Johnson (of LapCat Software fame) reflects on ten years of building Mac apps independently — the economics, the App Store politics, and the craft of shipping quality software for Apple platforms. A grounding read for anyone considering or already living the indie Mac dev life."
+    },
+    {
+      "title": "Were Touch Bar's problems software rather than hardware?",
+      "url": "https://unsung.aresluna.org/deeper-dive-were-touch-bars-problems-software-rather-than-hardware/",
+      "hn_link": "https://news.ycombinator.com/item?id=49314630",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by ingve · 23 points · 21 comments",
+      "blurb": "A post-mortem argument that Apple's Touch Bar failed not because the hardware was bad, but because Apple never committed the software ecosystem to make it indispensable. The analysis touches on how Apple's internal incentives shape what gets developer support. Relevant to anyone trying to understand Apple platform strategy."
+    },
+    {
+      "title": "How Claude's text watermarking works | Anthropic | Aug 14, 2026",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Tech, Ethics, Edu",
+      "blurb": "Anthropic's detailed, surprisingly transparent explanation of how SynthID-Text watermarking works in Claude outputs — no hidden characters, no quality impact, no user identification. If you ship Claude-powered features, you need to understand what this means for your outputs under the EU AI Act. The Monopoly/pi analogy is the clearest explanation of probabilistic watermarking you'll find anywhere."
+    },
+    {
+      "title": "Maximizing the value of your Claude Code sessions | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49300800",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Claude_Code, Tipps_und_Tricks, AI",
+      "blurb": "A community-curated HN thread of hard-won tips for getting more out of Claude Code sessions — context management, prompt structure, when to start fresh. This is the kind of practical tribal knowledge that doesn't make it into official docs. Directly actionable if Claude Code is in your daily workflow."
+    },
+    {
+      "title": "On AI Coding and Its Discontents - Cal Newport",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, development, artificial_intelligence, critique, cal_newport, reversal, overshoot",
+      "blurb": "Newport takes a serious look at the backlash forming among developers who tried AI coding tools enthusiastically and are now pulling back — and asks what that reversal actually means. Pairs well with the \"I'm done using AI\" piece below for a full picture of the current sentiment landscape. His \"overshoot\" framing is worth chewing on."
+    },
+    {
+      "title": "I'm done using AI – Brett Codes",
+      "url": "https://brettcodes.com/im-done-using-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, coding, firsthand, 2026",
+      "blurb": "A firsthand account from a developer who's walked away from AI coding tools after extended use — not a hot take but a measured reflection on what was lost (flow, understanding, ownership). The counterpoint this reader profile needs to balance the enthusiasm around Claude Code. Read it and form your own position."
+    },
+    {
+      "title": "local.ai — Independent Local AI Benchmarks",
+      "url": "https://local.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Independent benchmarks comparing AI model intelligence, speed, and energy use across Apple Silicon and NVIDIA GPUs — exactly what's missing from vendor marketing. For anyone running local models on an M-series Mac, this is the reference you've been looking for. Bookmark it."
+    },
+    {
+      "title": "Unforgetful",
+      "url": "https://unforgetful.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, ios, reminders",
+      "blurb": "A new macOS and iOS reminders app designed around the specific frustration of forgetting things you already set a reminder for. The design philosophy leans into persistent, context-aware nudges rather than one-and-done alerts. Worth a look if Apple Reminders keeps failing you."
+    },
+    {
+      "title": "30 New Things Your iPhone Can Do in iOS 27 - MacRumors",
+      "url": "https://www.macrumors.com/2026/08/14/new-things-your-iphone-can-do-ios-27/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacRumors' comprehensive roundup of the 30 most notable new iOS 27 capabilities, curated from the beta cycle noise. Essential orientation for any Apple ecosystem developer or power user ahead of the fall release. Several features have direct implications for app developers targeting the new APIs."
+    },
+    {
+      "title": "Read-it-later app Pocket shut down — here are the best alternatives | TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: long, list, pinboard, alternative",
+      "blurb": "Pocket is gone — and TechCrunch has a practical rundown of alternatives including Instapaper, Raindrop, and (notably) Pinboard itself. For Obsidian users with read-later workflows baked into their PKM setup, the migration path matters. Time to evaluate your stack."
+    },
+    {
+      "title": "CBP Workers Allegedly Used Government Databases to Spy on Exes, Crushes, and Colleagues | WIRED",
+      "url": "https://www.wired.com/story/cbp-workers-allegedly-used-government-databases-to-spy-on-exes-crushes-and-colleagues/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: surveillance",
+      "blurb": "A newly released dataset covering 2009–2022 shows CBP officers systematically abusing government surveillance databases for personal stalking — exes, crushes, colleagues. The scale and banality of the abuse is chilling: access to data is access to power over people. A stark reminder of why privacy architecture matters beyond technical compliance."
+    },
+    {
+      "title": "GitHub - github/spec-kit: 💫 Toolkit to help you get started with Spec-Driven Development",
+      "url": "https://github.com/github/spec-kit",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, development, dev, tools, spec, sdd, software",
+      "blurb": "GitHub's official toolkit for Spec-Driven Development — writing structured specs that LLMs can reliably implement from. This is the missing workflow layer between \"vibe coding\" and actual reliable AI-assisted development. If you're using Claude Code for non-trivial features, this scaffolding could be the difference between chaos and consistency."
+    }
+  ]
+}
