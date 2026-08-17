@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-17",
+  "stories": [
+    {
+      "title": "Firefox for iOS now has a native adblocker",
+      "url": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+      "hn_link": "https://news.ycombinator.com/item?id=49319633",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by pentagrama · 654 points · 256 comments",
+      "blurb": "Firefox on iOS finally ships a built-in content blocker, no extensions required. For privacy-conscious Apple users who've been jealously eyeing Safari's ad-blocking ecosystem, this is a real shift. Could tip daily browser choice on iPhone for a meaningful chunk of users."
+    },
+    {
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "hn_link": "https://news.ycombinator.com/item?id=49319556",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 644 points · 254 comments",
+      "blurb": "Anthropic just published release notes for Claude's system prompt behavior — a rare peek into how the platform-level instructions actually work and have evolved. Essential reading if you're building on Claude Code or the API, where system prompts are the primary lever for shaping model behavior."
+    },
+    {
+      "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+      "url": "https://news.ycombinator.com/item?id=49322107",
+      "hn_link": "https://news.ycombinator.com/item?id=49322107",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by stagas · 482 points · 127 comments",
+      "blurb": "A developer discovered that simply transferring nameservers to Cloudflare triggers silent injection of Cloudflare's analytics beacon — without explicit opt-in. This is exactly the kind of invisible supply-chain data collection that should alarm anyone who thinks carefully about what their infrastructure is doing behind the scenes."
+    },
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "hn_link": "https://news.ycombinator.com/item?id=49324985",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bilsbie · 430 points · 190 comments",
+      "blurb": "Simon Willison benchmarks the new Qwen 3.8 27B model and finds it genuinely impressive — but prone to verbose, over-reasoned responses by default. A practical guide to prompting it into shape, with real comparisons you can act on today if you route requests through OpenRouter or Ollama."
+    },
+    {
+      "title": "Stripe will reportedly acquire OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "hn_link": "https://news.ycombinator.com/item?id=49323381",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zacharyozer · 334 points · 205 comments",
+      "blurb": "OpenRouter — the model-agnostic AI gateway that lets developers swap between Claude, GPT, Gemini, and open models with a single API — is reportedly being snapped up by Stripe for north of $7B. If true, this fuses the payments-and-billing layer directly with AI routing, which has huge implications for how AI products are priced and monetized."
+    },
+    {
+      "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "hn_link": "https://news.ycombinator.com/item?id=49324087",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ropbear · 226 points · 208 comments",
+      "blurb": "John Gruber goes scorched-earth on Anthropic's practice of subtly altering Claude's output text to embed watermarking signals — arguing it fundamentally corrupts the writing relationship between tool and user. A sharp, opinionated take that's generating serious debate among Claude Code power users."
+    },
+    {
+      "title": "The AI Credit Resale Economy",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "hn_link": "https://news.ycombinator.com/item?id=49320611",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by mlenhard · 278 points · 113 comments",
+      "blurb": "A deep dive into the grey-market economy of resold AI API credits — who the token brokers are, how they arbitrage pricing across providers, and what it means for the AI industry's actual unit economics. Eye-opening if you've ever wondered why the same model costs wildly different amounts depending on where you call it."
+    },
+    {
+      "title": "Protobuf has LSP support",
+      "url": "https://buf.build/blog/protobuf-lsp",
+      "hn_link": "https://news.ycombinator.com/item?id=49322573",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 152 points · 101 comments",
+      "blurb": "Buf has shipped a proper Language Server Protocol implementation for Protocol Buffers, bringing autocomplete, go-to-definition, and inline diagnostics to any LSP-capable editor. If you're maintaining .NET or TypeScript services that share protobuf contracts, this will meaningfully upgrade your daily workflow."
+    },
+    {
+      "title": "GIMP Development Update",
+      "url": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=49326156",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by lumpa · 120 points · 55 comments",
+      "blurb": "The GIMP team drops its August 2026 development update, detailing progress on the long-anticipated GIMP 3.x branch. Open-source creative tools are gaining serious momentum as Adobe alternatives, and this update shows the project is moving faster than it has in years."
+    },
+    {
+      "title": "Reticulum – Decentralized Mesh Network",
+      "url": "https://reticulum.network/",
+      "hn_link": "https://news.ycombinator.com/item?id=49325061",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by sudo_cowsay · 116 points · 27 comments",
+      "blurb": "Reticulum is a cryptography-based networking stack designed to work over any physical medium — LoRa, packet radio, TCP/IP, serial — enabling fully decentralized, censorship-resistant mesh networks. A fascinating privacy infrastructure project for anyone thinking beyond the standard internet stack."
+    },
+    {
+      "title": "how AI text watermarking works: a visual guide",
+      "url": "https://declaude.org/watermarking/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "With Anthropic's watermarking controversy dominating the discourse today, this visual explainer from declaude.org is the perfect companion piece — breaking down exactly how text watermarking is embedded in LLM outputs, and why it's so hard to detect. Required reading to have an informed opinion on the Gruber piece above."
+    },
+    {
+      "title": "Delta | A Multiplayer Environment for Coding with Agents",
+      "url": "https://delta.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Delta pitches itself as a shared workspace where multiple AI coding agents can collaborate on a codebase alongside human developers — multiplayer, agent-native development. If you live in Claude Code, this is the logical next step worth watching closely."
+    },
+    {
+      "title": "A read-only, agent-orchestrated codebase audit prompt for data structures, state modeling, algorithms, and ownership.",
+      "url": "https://gist.github.com/aarondfrancis/8735edbe48532f97ee5ea818db4dbd47",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai-code-review",
+      "blurb": "A carefully crafted system prompt that turns an AI coding agent into a read-only codebase auditor — analyzing data structures, state modeling, algorithmic choices, and ownership boundaries without making any changes. Drop this into Claude Code on a legacy .NET project and prepare to be humbled."
+    },
+    {
+      "title": "Zeron — control your coding agents from any device",
+      "url": "https://zeron.sh/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Zeron provides a remote control interface for AI coding agents — letting you monitor, steer, and interrupt autonomous coding sessions from your phone or tablet. The kind of tool that becomes essential the moment you trust an agent to run unattended for more than 10 minutes."
+    },
+    {
+      "title": "Indie App Spotlight: 'Notepad.exe' is an ultra-fast, lightweight code editor for your Mac",
+      "url": "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "9to5Mac spotlights Notepad.exe — a deliberately minimal, extremely fast code editor for macOS that launches instantly and stays out of your way. If you've been wishing for something between TextEdit and VS Code, this indie app might hit that sweet spot."
+    },
+    {
+      "title": "ChatGPT can now remember what you did on your Mac — without screenshots",
+      "url": "https://thenewstack.io/openai-chatgpt-computer-history/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI, OpenAI, AI.agent",
+      "blurb": "OpenAI has shipped a macOS feature that gives ChatGPT persistent memory of your computer activity — accessed via system APIs rather than screenshot capture. The privacy implications are significant for Apple-ecosystem users who care about what an AI assistant actually knows about their work."
+    },
+    {
+      "title": "Have I Been Flocked? - Check if Your License Plate is Being Watched",
+      "url": "https://haveibeenflocked.com/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: flock, privacy, driving",
+      "blurb": "A new lookup tool lets you enter a license plate and see if it appears in leaked data from Flock Safety's automated license plate reader network — covering over 27 million recorded searches. Physical-world surveillance infrastructure is far more pervasive than most people realize, and this makes it viscerally concrete."
+    },
+    {
+      "title": "Who's Tracking You? Use This New Service to Find Out – Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: reading-list, surveillance",
+      "blurb": "Brian Krebs covers a new service — almost certainly haveibeenflocked.com above — with his trademark reporting depth, adding context about the Flock Safety network and the broader ALPR surveillance ecosystem. His sourcing and threat framing make this the definitive companion piece."
+    },
+    {
+      "title": "The git history command deserves more attention",
+      "url": "https://lalitm.com/post/git-history/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git, jj, vcs",
+      "blurb": "A focused deep-dive into `git history`, an underused command that surfaces how a specific piece of code evolved over time — beyond what `git log` or `git blame` shows. Something every developer can open a terminal and try in the next five minutes."
+    },
+    {
+      "title": "declaude",
+      "url": "https://declaude.org/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Claude, ai, fav, !!!, slop",
+      "blurb": "Paste in AI-flavored prose and Declaude rewrites it as plain, natural-sounding text — stripping out the telltale hedges, bullet-point obsession, and watermark-adjacent vocabulary. An immediately useful tool for anyone who edits Claude output before shipping it to clients or collaborators."
+    }
+  ]
+}
