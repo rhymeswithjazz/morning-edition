@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-18",
+  "stories": [
+    {
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "hn_link": "https://news.ycombinator.com/item?id=49336573",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mooreds · 851 points · 523 comments",
+      "blurb": "A sharp essay coining 'AI;DR' — the phenomenon where AI-generated summaries are replacing actual reading, eroding comprehension and critical engagement. With 523 comments, HN is clearly feeling this acutely. If you're using Claude Code or LLM tools daily, this is the metacognitive check-in you didn't know you needed."
+    },
+    {
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "hn_link": "https://news.ycombinator.com/item?id=49330781",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ibotty · 624 points · 112 comments",
+      "blurb": "DuckDB v2.0 is a landmark release for the in-process analytical database that's become indispensable for data wrangling. Expect breaking changes alongside major performance and feature leaps. If you're doing any local data analysis or ETL work, clear your schedule to read this."
+    },
+    {
+      "title": "Ask HN: Alternatives to GitHub",
+      "url": "https://news.ycombinator.com/item?id=49331033",
+      "hn_link": "https://news.ycombinator.com/item?id=49331033",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dhruv3006 · 586 points · 368 comments",
+      "blurb": "368 comments of hard-won experience on Gitea, Forgejo, Codeberg, Sourcehut, and self-hosted options. Whether you're privacy-motivated or just hedging against Microsoft lock-in, this thread is the most practical survey of the landscape right now."
+    },
+    {
+      "title": "How Bluesky draws its logo on screenshots",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "hn_link": "https://news.ycombinator.com/item?id=49338459",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by gavide · 467 points · 323 comments",
+      "blurb": "A delightful teardown of Bluesky's clever screenshot watermarking technique — the logo is embedded in a way that's invisible to casual viewers but survives crop and repost cycles. Equal parts creative engineering and brand strategy; the comments are full of similar tricks from other apps."
+    },
+    {
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "hn_link": "https://news.ycombinator.com/item?id=49337392",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by DeepLogin · 448 points · 291 comments",
+      "blurb": "State actors are now building fake institutions specifically to poison LLM training data and influence AI-generated answers — a sobering evolution of influence operations. This is a direct threat to the reliability of any AI tool you use for research. Essential reading for anyone who trusts chatbot outputs."
+    },
+    {
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "hn_link": "https://news.ycombinator.com/item?id=49337602",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Topfi · 411 points · 242 comments",
+      "blurb": "OpenAI slashed GPT-5.6 Sol pricing in half, making their most capable vision model significantly more accessible for API-driven workflows. Pair this with the Roboflow benchmark below and you have a strong case for building vision features into your apps right now."
+    },
+    {
+      "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "hn_link": "https://news.ycombinator.com/item?id=49331423",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by galnagli · 367 points · 141 comments",
+      "blurb": "Wiz's red team demonstrates how Copilot's AI Autofix introduced a vulnerability that was then exploited to compromise Snowflake's Jira instance — a real-world supply chain attack via AI tooling. If you use Copilot or any AI autofix feature in CI/CD, this is mandatory reading before you merge another PR."
+    },
+    {
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "hn_link": "https://news.ycombinator.com/item?id=49329575",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by plurby · 337 points · 161 comments",
+      "blurb": "Roboflow benchmarks GPT-5.6 Sol across a comprehensive suite of vision tasks and it handily beats predecessors across the board. Concrete numbers on object detection, OCR, and spatial reasoning make this the definitive reference for choosing a vision model for your next project."
+    },
+    {
+      "title": "Olo (Color)",
+      "url": "https://en.wikipedia.org/wiki/Olo_(color)",
+      "hn_link": "https://news.ycombinator.com/item?id=49270194",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by inigyou · 418 points · 80 comments",
+      "blurb": "'Olo' is a bluish-green color that can only be perceived through direct retinal stimulation — it doesn't exist in the visible spectrum and cannot be reproduced on any display. A mind-bending rabbit hole into the limits of human perception and the physics of color."
+    },
+    {
+      "title": "The Benchmarkpocalypse",
+      "url": "https://danluu.com/benchpocalypse/",
+      "hn_link": "https://news.ycombinator.com/item?id=49340299",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cyndunlop · 83 points · 20 comments",
+      "blurb": "Dan Luu dissects how AI benchmarks have become systematically gamed and misleading — a problem that directly undermines trust in every model comparison you read. Given the dual GPT-5.6 Sol coverage in today's issue, this is the essential counterweight. Read this before you route your next token."
+    },
+    {
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ColinWright · 295 points · 174 comments",
+      "blurb": "A practical, frequently-updated guide to opting out of AI features baked into products you already use — from Microsoft 365 Copilot to Google's AI Overviews. Invaluable for privacy-conscious users who want fine-grained control over which AI sees their data."
+    },
+    {
+      "title": "An update on leaving Gmail for Fastmail",
+      "url": "https://moddedbear.com/an-update-on-leaving-gmail-for-fastmail/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by neogodless · 215 points · 134 comments",
+      "blurb": "A long-term real-world update (not a honeymoon review) from someone who switched from Gmail to Fastmail. Covers deliverability, migration pain, Apple Mail integration, and what they still miss. Exactly the kind of lived experience that's hard to find for this decision."
+    },
+    {
+      "title": "A particle made of force: physicists say they've found mysterious 'glueball'",
+      "url": "https://www.nature.com/articles/d41586-026-02498-1",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Brajeshwar · 131 points · 40 comments",
+      "blurb": "Physicists may have finally confirmed the existence of glueballs — particles composed entirely of gluons, the carriers of the strong nuclear force, with no quarks involved. Predicted by QCD for decades, this detection would be a genuine milestone in particle physics."
+    },
+    {
+      "title": "How to put 170 atoms in an atom",
+      "url": "https://signoregalilei.com/2026/08/02/how-to-put-170-atoms-in-an-atom/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by surprisetalk · 108 points · 26 comments",
+      "blurb": "An accessible explanation of Rydberg atoms — hydrogen-like atoms whose electrons are excited to enormous orbital radii, large enough to contain hundreds of other atoms inside. The implications for quantum computing and sensing are wild, and the writing makes the physics genuinely fun."
+    },
+    {
+      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+      "url": "https://arxiv.org/abs/2608.13759",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by linggen · 208 points · 42 comments",
+      "blurb": "A research paper presenting a Rust-based framework for portable GPU compute that bypasses the CUDA/Metal/Vulkan fragmentation problem. The promise: write once, run fast everywhere. Significant for anyone building local AI inference or compute-heavy tooling."
+    },
+    {
+      "title": "Quake Shareware, a CD-ROM just a little too full",
+      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by shdon · 321 points · 134 comments",
+      "blurb": "Fabien Sanglard — the guy who literally wrote the book on Quake's source code — digs into why the Quake shareware CD was just barely over the 650MB limit and how id Software solved it. A masterclass in constraints-driven engineering from an era when every byte was a decision."
+    },
+    {
+      "title": "A simple fix for LLM tail latency",
+      "url": "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by oskrim · 49 points · 17 comments",
+      "blurb": "Tail latency in LLM APIs can silently wreck user experience — this post offers a concrete, implementable technique (speculative hedging / redundant requests) to tame p95/p99 response times without rearchitecting your stack. Directly actionable for anyone building on top of OpenAI or Anthropic APIs."
+    },
+    {
+      "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+      "url": "https://desktopcolors.com",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by vlowrian · 146 points · 65 comments",
+      "blurb": "A lovingly curated archive of the default desktop background colors from classic operating systems — Mac System 7's platinum gray, Windows 3.1 teal, BeOS blue and more. A beautiful, nostalgic design reference and a surprising rabbit hole for anyone who grew up on these machines."
+    },
+    {
+      "title": "How do functions like alloca allocate memory from the stack?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ingve · 55 points · 31 comments",
+      "blurb": "Raymond Chen delivers another gem from the Old New Thing vault: a clear, low-level explanation of how alloca and similar functions manipulate the stack pointer to carve out dynamic stack memory. Essential systems knowledge that every C/C++ developer should have locked down."
+    },
+    {
+      "title": "Sun Clock",
+      "url": "https://sunclock.net/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by Gecko4072 · 223 points · 73 comments",
+      "blurb": "A beautifully minimal world clock that visualizes day/night and solar position across the globe in real time. No sign-up, no bloat — just an elegant single-page tool for scheduling across time zones or simply marveling at Earth's terminator line sweeping across continents."
+    }
+  ]
+}
