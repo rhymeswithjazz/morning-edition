@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-19",
+  "stories": [
+    {
+      "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
+      "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
+      "hn_link": "https://news.ycombinator.com/item?id=49344643",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by porridgeraisin · 192 points · 152 comments",
+      "blurb": "A perfect showcase of Claude Code doing the genuinely hard thing: reverse-engineering a Windows-only printer and writing a working macOS driver from scratch. This is exactly the kind of task that used to require weeks of specialist expertise. The HN comments dig into how far AI-assisted driver development has actually come."
+    },
+    {
+      "title": "AI usage patterns in software teams",
+      "url": "https://linear.app/data",
+      "hn_link": "https://news.ycombinator.com/item?id=49353432",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by giuliomagnifico · 132 points · 69 comments",
+      "blurb": "Linear crunched data from real software teams and published a live dashboard on how AI tools are actually being used day-to-day. If you're wondering whether your team's AI habits are typical, this is the benchmark. Expect to see coding assistants dominating, with some surprises in where adoption is stalling."
+    },
+    {
+      "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+      "url": "https://modelmap.cc",
+      "hn_link": "https://news.ycombinator.com/item?id=49354664",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lizhaoliu · 75 points · 7 comments",
+      "blurb": "Paste any HuggingFace model ID and get an interactive, animated visualization of its architecture. Great for understanding what's inside the models you're using with AI tools. A genuinely useful learning aid for anyone building with LLMs who wants to peek under the hood."
+    },
+    {
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
+      "hn_link": "https://news.ycombinator.com/item?id=49354949",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by sunils34 · 255 points · 179 comments",
+      "blurb": "Cerebras just announced the CS-4, the next generation of their wafer-scale AI training chip. The specs are staggering — this is the hardware that could make sub-second LLM inference a commodity. Worth understanding if you care about where AI compute is heading."
+    },
+    {
+      "title": "Apple announces changes for apps in the European Union",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/",
+      "hn_link": "https://news.ycombinator.com/item?id=49348055",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by newusertoday · 179 points · 242 comments",
+      "blurb": "Apple is making another round of App Store concessions in the EU, with ripple effects for developers worldwide. The 242-comment HN thread is where the real analysis is happening — expect takes on what this means for iOS app distribution, alternative marketplaces, and whether it's a genuine opening or more regulatory theater."
+    },
+    {
+      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "hn_link": "https://news.ycombinator.com/item?id=49353221",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "by phoenix120 · 260 points · 102 comments",
+      "blurb": "Someone built a macOS desktop companion app where a 3D animated fruit fly wanders around powered by the actual FlyWire neural connectome data — the mapped brain of a real Drosophila. It's science, art, and macOS weirdness all at once. Absolutely worth installing just to see a neuroscience dataset expressed as a tiny desktop pet."
+    },
+    {
+      "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "hn_link": "https://news.ycombinator.com/item?id=49349898",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by fittingopposite · 246 points · 31 comments",
+      "blurb": "A Rust implementation of Google's TurboQuant quantization technique applied to vector search, promising dramatically faster ANN queries. If you're building RAG pipelines or any AI feature that relies on vector databases, this is the kind of low-level optimization that can make real latency differences."
+    },
+    {
+      "title": "Ask HN: GitHub employees what's going on? Why?",
+      "url": "https://news.ycombinator.com/item?id=49332495",
+      "hn_link": "https://news.ycombinator.com/item?id=49332495",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sharts · 266 points · 209 comments",
+      "blurb": "An unusually candid Ask HN thread where GitHub employees are reportedly speaking up about internal turmoil. With 209 comments, there's real signal in here about the direction of the platform every developer depends on. Worth reading if you care about the future of Copilot, Actions, and GitHub's broader strategy."
+    },
+    {
+      "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
+      "url": "https://www.modular.com/blog/modcon-announcements",
+      "hn_link": "https://news.ycombinator.com/item?id=49358327",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by flaburgan · 17 points · 1 comments",
+      "blurb": "Mojo — the Python-superset language designed for AI/ML performance — has gone open-source following Modular's acquisition by Qualcomm. This is a big deal for the AI tooling ecosystem: a serious compiled language that looks like Python and runs on heterogeneous hardware is now community property. Early days in HN discussion but the announcement itself is worth reading."
+    },
+    {
+      "title": "A 25-year-old video patent just expired, ending a legal headache for Linux",
+      "url": "https://www.xda-developers.com/25-year-old-brazilian-video-patent-expired-legal-headache-linux/",
+      "hn_link": "https://news.ycombinator.com/item?id=49311814",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by theanonymousone · 175 points · 58 comments",
+      "blurb": "A two-decade-old Brazilian video codec patent that cast a shadow over Linux multimedia support has finally expired. This quietly removes a legal landmine that affected distro shipping decisions and codec availability. A good reminder of how patent law shapes the open-source software landscape in ways most users never see."
+    },
+    {
+      "title": "And then the men with guns tell you to do it anyway",
+      "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by _djo_ · 306 points · 194 comments",
+      "blurb": "A pointed essay about what it actually means when governments compel tech companies to act against users' interests — and why \"we had no choice\" is a more honest answer than engineers usually admit. Essential reading for anyone who builds systems that store user data. The HN thread is a sobering discussion."
+    },
+    {
+      "title": "Finger: the 1971 social network that never died",
+      "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by andros · 206 points · 63 comments",
+      "blurb": "A lovely deep-dive into the `finger` protocol — one of the internet's oldest social tools, predating the web by two decades and still running on servers today. A fun historical read that puts modern \"social graphs\" in perspective and will make you want to run `finger` on a few old Unix boxes."
+    },
+    {
+      "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
+      "url": "https://opensource.posit.co/resources/cheatsheets/polars/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by jeroenjanssens · 173 points · 40 comments",
+      "blurb": "A dense, well-organized Polars cheatsheet from the authors of the O'Reilly book — print it or keep it open in a tab. Polars has matured into the go-to DataFrame library for performance-sensitive Python work, and this covers the idioms that trip up pandas veterans. Bookmark it."
+    },
+    {
+      "title": "Solo – a .so loader for static Linux binaries",
+      "url": "https://github.com/pg83/solo",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zX41ZdbW · 138 points · 135 comments",
+      "blurb": "Solo lets static Linux binaries load dynamic shared libraries at runtime — a clever hack that bridges the gap between hermetically sealed static builds and the real-world need for plugins. The 135-comment thread dives into the gnarly linker internals. A must-read if you care about Linux binary distribution."
+    },
+    {
+      "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
+      "url": "https://machine0.io",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bwm · 75 points · 42 comments",
+      "blurb": "machine0 offers persistent CPU and GPU VMs you spin up from a single CLI command — no cloud console wrestling required. For developers running AI workloads or needing beefy remote compute for builds, this is a direct competitor to Modal and Fly.io with a developer-first UX. Try it today."
+    },
+    {
+      "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+      "url": "https://github.com/katiahayati/lucasartsifier/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by wkfauna · 49 points · 20 comments",
+      "blurb": "\"Walking-dead\" states in Sierra adventure games — where you've made the game unwinnable without knowing it — are legendary among retro gamers. This tool automatically detects and patches those states in existing game files. Delightful applied reverse-engineering that doubles as a preservation tool for classic adventure games."
+    },
+    {
+      "title": "Tiny satellite will use the dark side of the Moon as a shield",
+      "url": "https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by NordStreamYacht · 38 points · 6 comments",
+      "blurb": "Cambridge researchers are putting a tiny satellite behind the Moon to listen for radio signals from the early universe — using the Moon as a shield against Earth's radio noise. It's an ingenious low-budget approach to one of cosmology's most ambitious questions. The engineering creativity here is as impressive as the science."
+    },
+    {
+      "title": "Supersonic Trebuchet [video]",
+      "url": "https://www.youtube.com/watch?v=Co57SfcT-h0",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by CharlesW · 88 points · 20 comments",
+      "blurb": "Engineers built a trebuchet capable of launching projectiles past the sound barrier. Yes, really. It's medieval siege engineering meets high-speed physics, and the slow-motion footage is jaw-dropping. A perfect \"what am I watching\" video for a Wednesday morning."
+    },
+    {
+      "title": "Teaching my kid to code with a modern MUD",
+      "url": "https://tau.dev/2026/08/07/canon",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by andrewjanke · 245 points · 62 comments",
+      "blurb": "A developer built a modern MUD (text-based multiplayer game world) specifically as a vehicle for teaching their kid to code. It's a thoughtful alternative to Scratch or code-along tutorials — the game world itself becomes the curriculum. The post details the architecture and pedagogy in ways any parent-dev will appreciate."
+    },
+    {
+      "title": "We turned off Pub/Sub and nobody noticed",
+      "url": "https://incident.io/blog/we-turned-off-pub-sub-and-nobody-noticed",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by patrickhamann · 29 points · 3 comments",
+      "blurb": "incident.io quietly removed their Google Pub/Sub infrastructure and migrated to a simpler model — and nothing broke. A refreshingly honest post-mortem about over-engineered event systems and when simpler queue alternatives actually win. If you've ever added Pub/Sub because it felt like the \"right\" enterprise choice, this one's for you."
+    }
+  ]
+}
