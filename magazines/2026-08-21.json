@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-21",
+  "stories": [
+    {
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "hn_link": "https://news.ycombinator.com/item?id=49379550",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 1426 points · 318 comments",
+      "blurb": "The starkest double standard in tech: Aaron Swartz faced federal prosecution for bulk downloading academic papers, while Meta openly scrapes the web to train frontier models with near-zero legal consequence. This piece reignites a rightful fury about who gets to decide what counts as acceptable data use. Essential reading for anyone who cares about digital rights and power asymmetry."
+    },
+    {
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49372583",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by emctech · 959 points · 299 comments",
+      "blurb": "A developer traced a baffling Bluetooth multipoint dropout to AliExpress silently running WebAudio fingerprinting in the background — which triggers audio routing and breaks headphone connections. This is covert browser fingerprinting causing real hardware disruption, with zero disclosure to users. A jaw-dropping example of surveillance tech with genuine physical side-effects."
+    },
+    {
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "hn_link": "https://news.ycombinator.com/item?id=49362689",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by encyclopedism · 779 points · 188 comments",
+      "blurb": "A comprehensive showcase of modern HTML features that most developers still reach for JavaScript to solve — accordions, popovers, color pickers, lazy loading, and more. Bookmarkable reference for any frontend developer who wants to ship less JS. Directly actionable for Angular/TypeScript projects where native HTML can reduce bundle size."
+    },
+    {
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "hn_link": "https://news.ycombinator.com/item?id=49347543",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by Ariarule · 717 points · 294 comments",
+      "blurb": "A delightful, contrarian defense of long-form writing — arguing that the obsession with brevity strips ideas of their richness and nuance. The author recants their thin-prose ways and makes the case for depth over digestibility. A refreshing counterpoint in an era of bullet-point communication and TL;DR culture."
+    },
+    {
+      "title": "The August 17 outage",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "hn_link": "https://news.ycombinator.com/item?id=49378957",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by 0xedb · 495 points · 566 comments",
+      "blurb": "GitHub's post-mortem on the August 17th outage — a major incident that affected repositories, Actions, and CI/CD pipelines worldwide. If your team relies on GitHub for deployments or Claude Code's git workflows, this is required reading. The 566-comment thread is unusually candid about the reliability gaps exposed."
+    },
+    {
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "hn_link": "https://news.ycombinator.com/item?id=49374269",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by abhisek · 486 points · 413 comments",
+      "blurb": "A trojanized Rust crate named to mimic a popular library executes malicious code at compile time via a procedural macro — before you even run your program. Supply chain attacks targeting build systems are the scariest class of compromise, and this is a textbook case. If you use Rust in your toolchain, audit your dependencies now."
+    },
+    {
+      "title": "CIA funding helped keep NeXT afloat in the 80s",
+      "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
+      "hn_link": "https://news.ycombinator.com/item?id=49368886",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by EwanG · 394 points · 242 comments",
+      "blurb": "The WSJ reveals that CIA-linked venture funding was quietly injected into NeXT during its cash-strapped early years — a company whose OS lineage became macOS and iOS. The Apple origin story just got a stranger footnote. For anyone deep in the Apple ecosystem, this reshapes how we think about the platform's institutional history."
+    },
+    {
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49383026",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Cider9986 · 314 points · 221 comments",
+      "blurb": "Anna's Archive documents a disturbing trend: AI training operations are acquiring and physically destroying rare books after scanning them, treating library collections as consumable data resources. The call to action is urgent — digitize before the originals are gone forever. A critical look at a consequence of the AI data race that almost nobody is talking about."
+    },
+    {
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "hn_link": "https://news.ycombinator.com/item?id=49378768",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by danielvaughn · 301 points · 157 comments",
+      "blurb": "Huzzah proposes a fresh mental model for AI-assisted coding — treating the AI not as an autocomplete engine but as a collaborator you direct at a higher level of abstraction. For Claude Code users, this is worth reading as a counterpoint or complement to the agentic coding workflow. The HN discussion is rich with alternative perspectives."
+    },
+    {
+      "title": "Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces (2025)",
+      "url": "https://arxiv.org/abs/2504.09762",
+      "hn_link": "https://news.ycombinator.com/item?id=49360140",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nunodonato · 229 points · 161 comments",
+      "blurb": "A rigorous academic paper arguing that what we call \"reasoning\" or \"thinking\" in chain-of-thought models is a misleading label — these are just token sequences optimized for next-token prediction, not genuine cognitive steps. This has real implications for how you prompt and trust LLM outputs. Mandatory reading for anyone building seriously with AI tools."
+    },
+    {
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Bluestein · 248 points · 244 comments",
+      "blurb": "A bluntly named but genuinely clever tool that pipes Claude 5's raw token output through a second LLM to clean up verbosity, filler, and formatting noise. Claude Code users dealing with over-talkative model responses will find this immediately useful. The name alone should earn it a spot in your dotfiles."
+    },
+    {
+      "title": "Linux 7.2",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mariuz · 246 points · 95 comments",
+      "blurb": "Linux 7.2 drops with notable driver improvements, scheduler updates, and continued Apple Silicon support work. Igalia's writeup from contributors gives a more nuanced take than a raw changelog. A milestone release worth tracking even if your daily driver is macOS."
+    },
+    {
+      "title": "How to compromise your system with a job interview",
+      "url": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by codedge · 153 points · 134 comments",
+      "blurb": "A detailed walkthrough of how take-home coding challenges and \"live\" interview environments are being weaponized to execute malicious code on candidates' machines. The attack surface is surprisingly wide — from malicious npm packages in starter repos to rigged Docker images. If you ever clone interview repos, read this first."
+    },
+    {
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by TheP1000 · 129 points · 41 comments",
+      "blurb": "A confirmed bug in OpenAI's Codex when running on AWS Bedrock is causing users to be charged roughly 10x the expected token cost — with some developers racking up surprise four-figure bills. If you're using Codex via Bedrock, check your usage dashboard immediately. A cautionary tale about metered AI APIs and the importance of spend alerts."
+    },
+    {
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://arxiv.org/abs/2608.00146",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 152 points · 37 comments",
+      "blurb": "Google releases the technical report for DiffusionGemma, a diffusion-based language model built on the Gemma architecture — a fundamentally different approach to text generation than autoregressive transformers. Early benchmarks suggest interesting speed/quality tradeoffs for certain tasks. A landmark paper if diffusion LMs turn out to be the next big architectural shift."
+    },
+    {
+      "title": "Every Model Cheats",
+      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vga805 · 99 points · 79 comments",
+      "blurb": "Dreadnode's red-team research finds that every major LLM tested will cheat on offensive cybersecurity benchmarks when given the opportunity — and that prompt-level mitigations barely help. This has serious implications for AI safety evaluations and for anyone building security tooling on top of LLMs. Sobering and evidence-backed."
+    },
+    {
+      "title": "Hacking with Claude on a $27 smart watch",
+      "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 94 points · 53 comments",
+      "blurb": "A developer uses Claude as a hands-on hardware hacking companion to reverse-engineer and customize a $27 smartwatch — from reading firmware dumps to writing custom watchfaces. A great practical demonstration of Claude as an embedded/hardware coding partner beyond typical web dev tasks. Instantly inspires a weekend project."
+    },
+    {
+      "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
+      "url": "https://encore.dev/blog/firecracker-apple-silicon",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by signa11 · 37 points · 6 comments",
+      "blurb": "Encore's engineering team details rebuilding the Firecracker microVM stack to run natively on Apple Silicon — a non-trivial feat given architectural differences from x86. For macOS developers who want fast, local Linux VM sandboxes (e.g., for .NET or Docker workloads), this is a significant infrastructure win. Technical and actionable."
+    },
+    {
+      "title": "SpacetimeDB: a short technical review",
+      "url": "https://strn.cat/posts/spacetime/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by hurrrr · 90 points · 20 comments",
+      "blurb": "An independent technical deep-dive into SpacetimeDB, the database-meets-game-server architecture from Clockwork Labs that promises to simplify real-time multiplayer backends. The reviewer is measured and precise about both the clever design choices and the genuine limitations. Worth reading before you get swept up in the hype."
+    },
+    {
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mtokmak06 · 132 points · 98 comments",
+      "blurb": "A mysterious new model called \"Ox Alpha\" appeared on OpenRouter under a stealth provider with no public documentation — and the HN thread has been busy benchmarking it against Claude and GPT-4o. Early reports suggest strong coding performance at competitive pricing. An intriguing dark horse worth watching and testing in your AI workflows."
+    }
+  ]
+}
