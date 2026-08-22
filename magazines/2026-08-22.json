@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-22",
+  "stories": [
+    {
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "url": "https://kagi.com/changelog#11296",
+      "hn_link": "https://news.ycombinator.com/item?id=49388154",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speckx · 1106 points · 361 comments",
+      "blurb": "Kagi quietly shipped one of the most requested features in privacy-focused search: a toggle to strip paywalled results entirely. If you're tired of clicking through to NYT or Bloomberg walls, this is a genuine quality-of-life win. With 1,100+ upvotes, the HN crowd agrees this is a big deal."
+    },
+    {
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49386895",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by floathub · 757 points · 883 comments",
+      "blurb": "A US citizen now faces felony charges simply for wiping their own phone at the border — a chilling escalation of what was already a fraught legal grey zone. The 883-comment thread is a must-read for anyone traveling with a device full of client code or sensitive data. Know your rights before you fly."
+    },
+    {
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49389430",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by colinprince · 684 points · 272 comments",
+      "blurb": "A community-built tool that surfaced directly in the wake of the border-phone felony story — it lets you look up what actions are actually criminalized at US borders and under what statutes. Timely, practical, and a little terrifying."
+    },
+    {
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "hn_link": "https://news.ycombinator.com/item?id=49387570",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by gavide · 533 points · 60 comments",
+      "blurb": "A researcher stumbled into a DNS misconfiguration in the e164.arpa ENUM system and ended up intercepting call-routing metadata for US military installations. Quietly one of the most jaw-dropping accidental security finds of the year — the write-up is meticulous and surprisingly readable."
+    },
+    {
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "hn_link": "https://news.ycombinator.com/item?id=49390427",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by thepoet · 528 points · 186 comments",
+      "blurb": "Cobalt is a new runtime that lets you sideload arbitrary apps onto Kobo e-readers — think custom reading tools, local LLM interfaces, or Obsidian-like note-taking right on e-ink. The HN thread is buzzing with project ideas. A legitimately exciting jailbreak-without-jailbreaking story."
+    },
+    {
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "hn_link": "https://news.ycombinator.com/item?id=49395628",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Jach · 369 points · 268 comments",
+      "blurb": "Dan Luu's classic performance optimisation post gets a 2026 refresh with modern hardware benchmarks. His core thesis — that developers accept unnecessary slowness as a fact of life — stings even more with today's data. Required reading if you write any TypeScript or .NET that users actually wait on."
+    },
+    {
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "hn_link": "https://news.ycombinator.com/item?id=49386699",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rcymerys · 352 points · 352 comments",
+      "blurb": "A developer essays on the growing inability to distinguish AI-generated from human-written content — and what that does to trust, code reviews, and creative judgment. The comment count matches the score, which tells you how raw a nerve this hit. Directly relevant if you live inside Claude Code all day."
+    },
+    {
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "hn_link": "https://news.ycombinator.com/item?id=49388752",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aakil · 258 points · 177 comments",
+      "blurb": "A prompt-engineering library that strips Claude's output of the filler phrases, excessive bullet points, and hollow enthusiasm that plague its default responses. If you've ever groaned at \"Certainly! Here's a comprehensive overview,\" this is for you. Drop it into your Claude Code system prompt today."
+    },
+    {
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "hn_link": "https://news.ycombinator.com/item?id=49357530",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by dash2 · 298 points · 316 comments",
+      "blurb": "The Economist's data team found a clear pattern: AI assistance inflated short-term performance while tanking retention and exam results. The implications stretch well beyond education — this is the clearest empirical evidence yet for the cognitive offloading trap that developers using AI coding assistants should think hard about."
+    },
+    {
+      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "hn_link": "https://news.ycombinator.com/item?id=49390463",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jakelsaunders94 · 97 points · 54 comments",
+      "blurb": "A detailed walkthrough of wiring together local LLMs, sandboxed execution environments, and orchestration layers into a self-hosted coding agent pipeline. If you're experimenting beyond Claude Code or want offline agentic workflows, this is the most actionable architecture post of the week."
+    },
+    {
+      "title": "iAmCorey/Wake: Every coding-agent session on your Mac in one place — browse, search, resume. Rust + GPUI.",
+      "url": "https://github.com/iAmCorey/Wake",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: coding, agent",
+      "blurb": "Wake is a native macOS app (built in Rust with Zed's GPUI framework) that indexes all your coding-agent sessions — Claude Code, Cursor, Aider — and lets you browse, search, and resume them in one place. If you run multiple agents across projects, this fills an obvious gap. Very new, worth watching."
+    },
+    {
+      "title": "Casey Newton si è costruito una wiki personale con gli LLM, su idea di Karpathy",
+      "url": "https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: N8N, #AI_and_Tech, AI&TECH, TW2026-34, BF",
+      "blurb": "Casey Newton (Platformer) details his Karpathy-inspired LLM-powered personal wiki built inside Obsidian — it auto-updates pages, timelines, and concept nodes from notes, archives, and sources. This is exactly the kind of AI-augmented PKM workflow that Obsidian users have been theorising about. The Italian summary is a bonus; the English source link is the payload."
+    },
+    {
+      "title": "Claude Academy · Learn to work and build with Claude",
+      "url": "https://academy.claude.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, learning, resources",
+      "blurb": "Anthropic's official learning hub for Claude just launched, covering everything from basic prompting to rolling out Claude across a team. If you're onboarding colleagues onto Claude Code or building internal tooling, the structured resources here beat scattered blog posts. Bookmark this one."
+    },
+    {
+      "title": "fx: Tiny, open, embeddable, native coding agent",
+      "url": "https://github.com/vercel-labs/fx",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: linux, windows, shell, programming, ai, llm, ai-assisted, opensource, simplicity, minimalism",
+      "blurb": "Vercel Labs' fx is a minimal, embeddable coding agent you can drop into any project or CI pipeline — think Claude Code but stripped to its essential loop and open-sourced. The emphasis on minimalism and embeddability makes it interesting for custom agentic workflows that don't want the full IDE integration overhead."
+    },
+    {
+      "title": "A Practical Guide to Reducing Token Spend",
+      "url": "https://www.adamhjk.com/blog/a-practical-guide-to-reducing-token-spend/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Concrete, actionable techniques for cutting LLM API costs without sacrificing output quality — prompt compression, caching strategies, model routing, and context window hygiene. If you're building production AI workflows, your API bill will thank you for reading this."
+    },
+    {
+      "title": "Build models. Understand AI.",
+      "url": "https://languagemodelbuilder.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llms, editors, apps, macos, tohomebrew, tolearn, totry, onlinelearning, via:twitter",
+      "blurb": "Language Model Builder is a free Mac app that guides you through training a small language model from scratch — tokenizer, data selection, pre-training, fine-tuning, and chat. It's the most hands-on way to actually understand what Claude is doing under the hood, and it runs entirely local."
+    },
+    {
+      "title": "Introducing Dashboard Touch, a build-your-own version of Touch ID - Anil Dash",
+      "url": "https://www.anildash.com/2026/08/20/introducing-dashboard-touch/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: hardware, mac, macos, apple, software",
+      "blurb": "Anil Dash documents his DIY Touch ID-style fingerprint authentication widget for macOS, with the full source on GitHub. It's a clever hack for those who want biometric convenience on machines or setups that Apple doesn't officially support. The companion repo (anildash/dashtouch) has all the code."
+    },
+    {
+      "title": "AprilNEA/OpenLogi: ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup, logitech",
+      "blurb": "If you use a Logitech mouse and loathe the bloated, cloud-connected Options+ software, OpenLogi is the answer: full button remapping, DPI, and SmartShift control over HID++ with zero telemetry and plain TOML config. Native, open-source, and works on macOS. Install this today."
+    },
+    {
+      "title": "Metalterm — the terminal your GPU draws",
+      "url": "https://metalterm.dev/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Metalterm is a new macOS terminal emulator that renders entirely via Apple's Metal GPU API, targeting buttery-smooth scrolling and sub-frame latency that CPU-based renderers can't match. For devs spending hours in the terminal, this could be the Ghostty-competitor worth watching. Very early but the tech is sound."
+    },
+    {
+      "title": "Git at any scale",
+      "url": "https://cursor.com/blog/git-at-any-scale",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: devx, distributed-systems",
+      "blurb": "Cursor's engineering blog digs into the architectural challenges of making Git workflows scale across massive codebases and multi-agent environments — directly relevant as AI coding tools multiply the rate of commits and merges. Practical insights on partial clones, sparse checkouts, and commit throughput that apply well beyond Cursor itself."
+    }
+  ]
+}
