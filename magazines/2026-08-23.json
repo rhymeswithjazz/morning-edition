@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-23",
+  "stories": [
+    {
+      "title": "Stop Making TUIs",
+      "url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "hn_link": "https://news.ycombinator.com/item?id=49384210",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by underdeserver · 405 points · 515 comments",
+      "blurb": "A sharp, opinionated post arguing that most terminal UI apps are solving the wrong problem — and that developers should be shipping proper GUIs or web interfaces instead. 515 comments means this hit a nerve hard. Essential reading for anyone who's ever reached for a TUI library out of habit."
+    },
+    {
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "hn_link": "https://news.ycombinator.com/item?id=49402232",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by felineflock · 325 points · 110 comments",
+      "blurb": "Explains the configuration and hardware mistakes — wrong quantization, bad prompt formatting, suboptimal context settings — that make local models underperform. If you've ever been disappointed by a local LLM versus its hosted counterpart, this is exactly the diagnostic you need. Actionable and practical."
+    },
+    {
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "url": "https://munderdiffl.in/",
+      "hn_link": "https://news.ycombinator.com/item?id=49398152",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by simonpure · 277 points · 118 comments",
+      "blurb": "A multi-agent framework that spins up a simulated \"office\" of LLM agents modeled after your own behavior and preferences. The Office branding is silly but the concept is serious — coordinating swarms of specialized AI workers is exactly where coding assistants are heading. Worth experimenting with today."
+    },
+    {
+      "title": "Hister – A private, full content search index that you control",
+      "url": "https://hister.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=49351802",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by auraham · 336 points · 80 comments",
+      "blurb": "Hister lets you build a local, full-text search index of your browsing history and saved content — no data sent to any third party. A natural complement to Obsidian for the privacy-conscious knowledge worker. Self-hosted, fast, and yours."
+    },
+    {
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "hn_link": "https://news.ycombinator.com/item?id=49399591",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pentagrama · 201 points · 130 comments",
+      "blurb": "The official Model Context Protocol team lays out what's coming next for the standard that connects AI assistants — including Claude Code — to external tools and data sources. If you're building MCP servers or integrating tools into AI workflows, this is required reading. The protocol is maturing fast."
+    },
+    {
+      "title": "A week of using Codex more than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "hn_link": "https://news.ycombinator.com/item?id=49393051",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 189 points · 212 comments",
+      "blurb": "A developer documents a week switching their primary coding assistant from Claude to OpenAI Codex and shares an honest comparison. Real-world workflow observations from someone doing the same kind of work you are — 212 comments means plenty of alternate data points in the thread too."
+    },
+    {
+      "title": "hdiutil is deprecated in macOS 27 Golden Gate",
+      "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49402741",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 181 points · 76 comments",
+      "blurb": "Apple is deprecating hdiutil, the decades-old command-line tool for mounting disk images, in macOS 27 Golden Gate. Lap Cat Software (Jeff Johnson) digs into what this means for developers and automation scripts that rely on it. If you have any macOS build pipelines, check them now."
+    },
+    {
+      "title": "ATProto spaces: A new extension to ATProto that enables non-public data",
+      "url": "https://atproto.com/blog/atproto-spaces-alpha",
+      "hn_link": "https://news.ycombinator.com/item?id=49379732",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by grappler · 142 points · 18 comments",
+      "blurb": "The AT Protocol (the backbone of Bluesky) is adding \"spaces\" — a mechanism for private, permissioned data that doesn't live on the public firehose. A significant architectural addition that could make decentralized social platforms viable for private communities and DMs. Developers building on ATProto should read this now."
+    },
+    {
+      "title": "Autolith: A programming agent with a live runtime",
+      "url": "https://www.lambda-symbolics.com/autolith",
+      "hn_link": "https://news.ycombinator.com/item?id=49376197",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vismit2000 · 123 points · 48 comments",
+      "blurb": "Autolith is a coding agent that maintains a live, running process alongside the code it's writing — so it can observe actual runtime behavior rather than just reasoning about static text. This is a meaningfully different architecture from most coding assistants and points toward how agents will debug in real time."
+    },
+    {
+      "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+      "url": "https://marcua.net/minitools/figmimic/",
+      "hn_link": "https://news.ycombinator.com/item?id=49402213",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by speckx · 94 points · 12 comments",
+      "blurb": "Drop this bookmarklet on any page and it captures the layout as fully editable Figma layers — no plugin install required. A genuinely useful design shortcut for developers who need to mockup or reference existing UIs. Clever, tiny, and immediately usable."
+    },
+    {
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "url": "https://quantumi.sh/public/labs.html",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by jemoka · 392 points · 115 comments",
+      "blurb": "A tongue-in-cheek but genuinely informative survey of the proliferating \"AI Labs\" named after numbers, mapping out who's doing what in the rapidly crowding AI audio/video space. Part satire, part useful competitive landscape — the comment thread is full of additions and corrections worth skimming."
+    },
+    {
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by olalonde · 153 points · 51 comments",
+      "blurb": "Reuters reports on a university student who identified and reported an AI agent that had apparently been manipulated into attempting unauthorized system access. A concrete, real-world example of AI security failure — exactly the kind of incident that should inform how we think about agentic AI deployment."
+    },
+    {
+      "title": "Show HN: Public Muscriptor Instance (latest, most powerful Audio-to-MIDI model)",
+      "url": "https://www.pianoify.net/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by jardy · 41 points · 8 comments",
+      "blurb": "Pianoify runs a public instance of Muscriptor, a state-of-the-art audio-to-MIDI transcription model — upload any audio and get playable MIDI back. Free to try, no signup required. A legitimately impressive tool for musicians and audio hackers who want to extract MIDI from recordings."
+    },
+    {
+      "title": "typ.ing",
+      "url": "https://typ.ing/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by bookofjoe · 262 points · 86 comments",
+      "blurb": "A minimalist, distraction-free typing environment that lives in your browser — no accounts, no persistence, just a clean slate to type. Think of it as a scratchpad with good typography and keyboard focus. Surprisingly popular, with 86 comments debating its simplicity as a feature."
+    },
+    {
+      "title": "A Friendly Introduction to Racket",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by signa11 · 226 points · 118 comments",
+      "blurb": "A warm, accessible on-ramp to Racket that avoids the usual Lisp-dialect intimidation. If you've been curious about language-oriented programming or just want a different mental model from TypeScript's type gymnastics, Racket is worth an afternoon. The comment thread has strong recommendations for next steps."
+    },
+    {
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by stared · 92 points · 26 comments",
+      "blurb": "Prime Intellect tracks the community's ongoing competition to train NanoGPT to a target validation loss as fast and cheaply as possible — a public leaderboard of training efficiency tricks. A living benchmark of what's actually working in ML optimization right now, updated in near-real-time."
+    },
+    {
+      "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "url": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by taubek · 74 points · 52 comments",
+      "blurb": "Wi-Fi 8 (802.11bn) prioritizes latency, determinism, and multi-AP coordination rather than raw throughput — a real philosophical shift for the standard. Relevant for anyone building smart home setups or caring about reliable low-latency connections for remote work. The spec changes are more interesting than the marketing."
+    },
+    {
+      "title": "JIT Compiling Code in 5μs",
+      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zX41ZdbW · 44 points · 5 comments",
+      "blurb": "A deep dive into achieving sub-5-microsecond JIT compilation by aggressively simplifying the compilation pipeline and leaning on machine code templates. The kind of low-level performance craft that makes you appreciate what runtimes do — and occasionally inspires you to do something wild in your own stack."
+    },
+    {
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "url": "https://martypc.net/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by boilerupnc · 105 points · 27 comments",
+      "blurb": "MartyPC emulates IBM PC/XT-era hardware with impressive cycle accuracy — written in Rust, runs on macOS, Windows, and Linux. A passion project with serious technical depth, including a built-in debugger. Fascinating for anyone who wants to understand how modern x86 grew from these roots."
+    },
+    {
+      "title": "One night in Uzbekistan: Why was this one data point so influential?",
+      "url": "https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by paulpauper · 92 points · 17 comments",
+      "blurb": "Andrew Gelman's blog details how a single anomalous data point from Uzbekistan drove an entire published finding — until researchers couldn't reproduce it. A cautionary tale about outlier leverage in statistical models that applies equally to any ML training data audit you'll ever do."
+    }
+  ]
+}
