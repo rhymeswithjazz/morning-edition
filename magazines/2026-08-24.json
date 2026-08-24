@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-24",
+  "stories": [
+    {
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49410932",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ibobev · 299 points · 132 comments",
+      "blurb": "Fabien Sanglard shares a battle-tested agent.md configuration for steering LLMs toward better code output — directly relevant to anyone using Claude Code or similar agentic coding tools. This is the prompt-engineering equivalent of a dotfiles repo: opinionated defaults that actually make AI pair programming less frustrating. Required reading if you've ever wrestled with an AI that confidently writes bad code."
+    },
+    {
+      "title": "Everything I own, owned",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "hn_link": "https://news.ycombinator.com/item?id=49413320",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by schlarpc · 831 points · 242 comments",
+      "blurb": "A meticulous developer catalogs and reflects on every physical object they own, sparking a rich HN thread about minimalism, consumerism, and intentional ownership. Top-scoring story of the day by a wide margin. Whether you're a digital-minimalist or a gadget hoarder, this one will make you think twice before your next Amazon order."
+    },
+    {
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "hn_link": "https://news.ycombinator.com/item?id=49411102",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by naves · 482 points · 433 comments",
+      "blurb": "The FT reports that Claude's premium tier is struggling to convert users even as Anthropic's reputation for quality holds. If you're paying for Claude Pro or building on the API, this is the competitive context you need to understand — and the 433-comment HN thread is a goldmine of developer sentiment. Market dynamics here will directly shape what Claude Code looks like in 12 months."
+    },
+    {
+      "title": "What Is a Harness?",
+      "url": "https://earendil.com/posts/what-is-a-harness/",
+      "hn_link": "https://news.ycombinator.com/item?id=49409092",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tosh · 436 points · 151 comments",
+      "blurb": "A thoughtful conceptual piece unpacking the notion of a 'test harness' and how we think about scaffolding for AI and software systems alike. With 151 comments, the HN crowd clearly found something to chew on. As AI agents get more complex, understanding harness design is becoming a core engineering skill."
+    },
+    {
+      "title": "A website for debloated open source alternatives",
+      "url": "https://debloat.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=49410362",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ryanvogel · 326 points · 104 comments",
+      "blurb": "debloat.dev is a curated directory of lean, open-source replacements for bloated popular software — think lightweight editors, minimal browsers, and no-telemetry CLI tools. Perfect for the privacy-conscious developer who's tired of software that phones home. Bookmark this before your next toolchain audit."
+    },
+    {
+      "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
+      "url": "https://slate.com/technology/2026/08/microsoft-software-nonprofit-data-delete.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49411395",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by tchalla · 246 points · 127 comments",
+      "blurb": "A sweeping data-loss event hit over 170,000 nonprofits, with Microsoft's software policies squarely in the crosshairs. This is a catastrophic failure of cloud data stewardship and raises serious questions about vendor lock-in and backup responsibility. Any organization trusting a single vendor with critical data should read this as a cautionary tale."
+    },
+    {
+      "title": "Malware infects Android-based automotive head unit firmware",
+      "url": "https://securelist.com/android-head-unit-malware/121106/",
+      "hn_link": "https://news.ycombinator.com/item?id=49408550",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by campuscodi · 239 points · 123 comments",
+      "blurb": "Kaspersky's Securelist details malware baked into Android firmware on aftermarket car head units — meaning the infection arrives before you even turn the device on. Supply-chain attacks on consumer electronics are getting bolder and harder to detect. If you've ever plugged a cheap Android head unit into your car's network, this is alarming."
+    },
+    {
+      "title": "How I find problems to solve as a staff engineer",
+      "url": "https://lalitm.com/post/find-problems-staff-engineer/",
+      "hn_link": "https://news.ycombinator.com/item?id=49411643",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by vanpra · 400 points · 127 comments",
+      "blurb": "A staff engineer lays out a practical framework for identifying high-leverage problems rather than just executing on whatever lands in the backlog. The jump from senior to staff is often about problem selection, not implementation skill. Concrete enough to apply to your next week at work."
+    },
+    {
+      "title": "How Complex Systems Fail (1998)",
+      "url": "https://how.complexsystems.fail/",
+      "hn_link": "https://news.ycombinator.com/item?id=49409473",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by shortcrct · 307 points · 72 comments",
+      "blurb": "Richard Cook's classic 1998 paper gets another viral moment on HN — and for good reason. Its 18 observations about how accidents happen in complex systems are more relevant than ever in the age of distributed cloud infrastructure and AI-assisted operations. If you haven't read it, stop and do that now."
+    },
+    {
+      "title": "Fable and the end of the free lunch",
+      "url": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49411468",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by dbreunig · 149 points · 131 comments",
+      "blurb": "Drew Breunig uses Fable (the new Xbox game) as a lens to examine what happens to software when Moore's Law can no longer bail out bad architectural decisions. The implications for AI infrastructure and model efficiency are sharp and well-argued. 131 comments suggests the HN crowd has strong feelings about the post-free-lunch era."
+    },
+    {
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "url": "https://pantel.is/projects/ai-gaming-companion/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pantelisk · 137 points · 26 comments",
+      "blurb": "A developer built a real-time AI companion that watches, comments on, and reacts to Skyrim gameplay with sub-second latency — a surprisingly accessible demo of multimodal AI in a consumer context. The architecture writeup is the real payload: local vision models, streaming TTS, and a clever event-loop design. Directly applicable if you're exploring agentic or real-time AI workflows."
+    },
+    {
+      "title": "Implementation of GPT-2 in pure CMake",
+      "url": "https://github.com/AlpinDale/gpt2.cmake",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by porridgeraisin · 78 points · 15 comments",
+      "blurb": "Someone implemented GPT-2 inference entirely in CMake — no C++, no Python, just build-system macros doing matrix math. It's gloriously absurd and also a genuinely illuminating exercise in understanding what a transformer is at the most mechanical level. If you've ever wanted to explain LLMs to a skeptic, 'it's just a CMakeLists.txt' might do it."
+    },
+    {
+      "title": "AI Chip Architectures",
+      "url": "https://www.jepeake.com/ai-chip-architectures",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Finbarr · 73 points · 27 comments",
+      "blurb": "A comprehensive visual and technical breakdown of AI chip architectures — GPUs, TPUs, Groq, Cerebras, and more — written for software developers who want to understand the hardware their models run on. Essential background as chip architecture increasingly determines which AI workloads are economically viable. The diagrams alone are worth the click."
+    },
+    {
+      "title": "Decoding silent reading from non-invasive EEG",
+      "url": "https://arxiv.org/abs/2608.20186",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by root-parent · 47 points · 23 comments",
+      "blurb": "Researchers demonstrate decoding what a person is silently reading directly from non-invasive EEG signals — no surgery required. It's early-stage and noisy, but the trajectory toward practical brain-computer interfaces without implants just got a bit clearer. Privacy implications alone make this worth watching."
+    },
+    {
+      "title": "Executable Is a SQLite Database",
+      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by setheron · 28 points · 1 comments",
+      "blurb": "A provocative and technically rich post exploring the idea of embedding SQLite as the internal data format within compiled executables — essentially making binaries queryable. It's a mind-bending take on build artifact introspection and debugging. The kind of weird-but-right idea that quietly ends up in production toolchains."
+    },
+    {
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by el1s7 · 291 points · 88 comments",
+      "blurb": "A developer falls into a bizarre Google Workspace billing/classification trap where their custom domain is flagged as an email provider, locking them out of normal account flows. The post is a meticulous bug report and an object lesson in how opaque enterprise SaaS classification systems can hold small users hostage. If you run anything on a custom domain with Google, this is a heads-up."
+    },
+    {
+      "title": "The Work Number: credit score but for your employment history – by Equifax",
+      "url": "https://employees.theworknumber.com",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by firefoxd · 24 points · 29 comments",
+      "blurb": "Equifax quietly operates 'The Work Number,' a database of employment and salary history sourced from payroll integrations — and most employees have no idea it exists or what it says about them. This is surveillance capitalism applied to labor markets, and you almost certainly have a record there. Check it and opt out of anything you can."
+    },
+    {
+      "title": "New EU-wide product repair rules come into force",
+      "url": "https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by austinallegro · 90 points · 22 comments",
+      "blurb": "New EU right-to-repair regulations are now in force, covering smartphones, laptops, and a broad range of consumer electronics — manufacturers must provide spare parts and repair access for years after sale. This is a landmark win for device longevity and consumer autonomy, and will reshape how Apple and others sell products in Europe. Likely to ripple into non-EU markets too."
+    },
+    {
+      "title": "Declarative WebGPU with S-Expressions",
+      "url": "https://hugodaniel.com/posts/declarative-webgpu-with-s-expressions/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by hugodan · 39 points · 4 comments",
+      "blurb": "A creative coding experiment that layers S-expression syntax over WebGPU to make GPU shader programming feel declarative and composable. It's a niche but genuinely interesting intersection of Lisp-style thinking and modern graphics APIs. If you're into creative coding or generative graphics, this is an unusual and fresh approach."
+    },
+    {
+      "title": "Anthropic Claude and API service outages",
+      "url": "https://status.claude.com/uptime",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vikrantrathore · 45 points · 41 comments",
+      "blurb": "Claude's status page surfaced on HN today alongside reports of elevated model errors — a timely reminder that anyone building production workflows on Claude Code or the Anthropic API needs a reliability strategy. Bookmark the uptime page and check the incident log if your AI tooling starts misbehaving. Pairing this with the FT story above paints a complicated picture for Anthropic's platform ambitions."
+    }
+  ]
+}
