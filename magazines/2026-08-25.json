@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-25",
+  "stories": [
+    {
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "hn_link": "https://news.ycombinator.com/item?id=49421158",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ComputerGuru · 695 points · 289 comments",
+      "blurb": "A reverse-engineering deep dive reveals that Microsoft's bundled apps embed an invisible, device-linked GUID watermark into images you create locally — without disclosure. This is a significant privacy story for anyone who assumed local image creation stayed on-device. The 289-comment HN thread is lit."
+    },
+    {
+      "title": "How Europe is killing makers and micro-entrepreneurs",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "hn_link": "https://news.ycombinator.com/item?id=49419237",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by l-one-lone · 1310 points · 809 comments",
+      "blurb": "The top story of the day by a mile: an open letter from the operator of Lectronz (a Tindie-style EU electronics marketplace) detailing how a wave of compliance regulations — CE marking, GPSR, EPR — is crushing small hardware sellers. A cautionary tale for anyone building physical products or selling digital tools in Europe."
+    },
+    {
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "hn_link": "https://news.ycombinator.com/item?id=49426564",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by K7PJP · 436 points · 119 comments",
+      "blurb": "Apple quietly reversed course and confirmed Hide My Email addresses will stay accessible at icloud.com — a relief for privacy-conscious users who rely on the feature to stop spam and protect their real address. Direct Apple developer notice, worth bookmarking for users worried about continuity of their alias ecosystem."
+    },
+    {
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "hn_link": "https://news.ycombinator.com/item?id=49424387",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zdw · 136 points · 65 comments",
+      "blurb": "A sobering security essay: inference engines (llama.cpp, vLLM, etc.) have attack surfaces that a sufficiently motivated model output could exploit to break out of isolation. Directly relevant for anyone running local LLMs as part of a Claude Code or agentic workflow. Read before you run untrusted prompts locally."
+    },
+    {
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "hn_link": "https://news.ycombinator.com/item?id=49420873",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "by tosh · 849 points · 606 comments",
+      "blurb": "Daniel Lemire's benchmarks show Xiaomi's new in-house chip trading blows with Apple Silicon on single-threaded workloads — but blowing it away in multicore. If the numbers hold up, this is the first credible challenger to Apple's IPC dominance since M1 launched. The HN thread is a deep hardware nerd fight."
+    },
+    {
+      "title": "Fences, Not Sandboxes",
+      "url": "https://yegge.ai/essays/fences-not-sandboxes/",
+      "hn_link": "https://news.ycombinator.com/item?id=49423146",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 67 points · 74 comments",
+      "blurb": "Steve Yegge argues that we've been thinking about AI agent safety wrong — sandboxing is the wrong mental model, and \"fences\" (capability limits defined by the principal) are more practical and effective. Directly relevant to anyone designing agentic Claude Code workflows or multi-agent systems."
+    },
+    {
+      "title": "Jabber/XMPP: 25 Years of Digital Independence",
+      "url": "https://gultsch.de/posts/25-years-of-digital-independence/",
+      "hn_link": "https://news.ycombinator.com/item?id=49421536",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by inputmice · 226 points · 119 comments",
+      "blurb": "The author of Conversations (the leading XMPP Android client) reflects on 25 years of federated, open messaging — what worked, what didn't, and why digital independence still matters in the age of Slack and Discord. A thoughtful meditation on protocol design and decentralization that holds up as a counter-narrative to the walled-garden era."
+    },
+    {
+      "title": "The entire city of San Francisco as a video game",
+      "url": "https://sf.thijs.gg/",
+      "hn_link": "https://news.ycombinator.com/item?id=49422784",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by centrosphere · 445 points · 140 comments",
+      "blurb": "A developer turned the full street network and building footprint data of San Francisco into a playable top-down game — all in the browser. A delightful piece of creative coding that shows what's possible when you combine open geospatial data with WebGL. Immediately playable, highly shareable."
+    },
+    {
+      "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
+      "url": "https://ssx360.github.io/rack-02/?src=hn",
+      "hn_link": "https://news.ycombinator.com/item?id=49419351",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ssx360 · 197 points · 36 comments",
+      "blurb": "A fully functional techno drum machine and step sequencer crammed into a single self-contained HTML file, with a clever twist: the rendered audio output is cryptographically verifiable. Peak creative coding — open it, press play, and marvel at what one file can do."
+    },
+    {
+      "title": "Octopus intelligence may be related to never-before-seen mutation",
+      "url": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+      "hn_link": "https://news.ycombinator.com/item?id=49423539",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookofjoe · 152 points · 110 comments",
+      "blurb": "Scientists found a unique RNA-editing mutation in smart octopus species that may allow them to fine-tune protein production in neurons on the fly. It's a completely novel evolutionary path to intelligence — one that has no parallel in vertebrates. Required reading for anyone who thinks biology has run out of surprises."
+    },
+    {
+      "title": "I were 17, I'd learn how to build LLMs from scratch",
+      "url": "https://twitter.com/paulg/status/2091544343589060625",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bilsbie · 542 points · 623 comments",
+      "blurb": "Paul Graham's tweet that learning to build LLMs from scratch is the highest-leverage skill for a teenager today sparked 623 comments debating whether he's right. The HN discussion is the real content here — a lively argument about LLM fundamentals vs. application-layer skills worth scanning for the best takes."
+    },
+    {
+      "title": "Training AI to Paint with Code",
+      "url": "https://surya.website/rling-qwen-to-paint-with-code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Tiberium · 82 points · 9 comments",
+      "blurb": "A walkthrough of fine-tuning Qwen to generate visual art by writing code — think SVG and canvas programs — rather than pixel-pushing. This is a genuinely interesting direction for AI creativity that sidesteps diffusion model limitations and produces fully editable, resolution-independent output."
+    },
+    {
+      "title": "Walgit – a Git server that is one binary in front of an object store",
+      "url": "https://github.com/tobi/walgit",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by matallo · 79 points · 11 comments",
+      "blurb": "Shopify's Tobi Lütke open-sourced Walgit: a minimal Git server that stores everything on S3-compatible object storage as a single binary. No database, no running daemon complexity. If you want private self-hosted Git without the GitHub/Gitea overhead, this is worth a look."
+    },
+    {
+      "title": "Show HN: Screen memory without screenshots, just text to Markdown",
+      "url": "https://github.com/dragthelake/ambient-context",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Dramatize · 41 points · 15 comments",
+      "blurb": "ambient-context passively captures your screen activity as structured Markdown text — no pixel screenshots, no heavy storage. The result is a lightweight, privacy-friendlier \"memory\" layer that can feed context to LLMs. Directly relevant to anyone building Claude Code workflows that need session continuity."
+    },
+    {
+      "title": "Moon (2024)",
+      "url": "https://ciechanow.ski/moon/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by simonebrunozzi · 174 points · 32 comments",
+      "blurb": "Bartosz Ciechanowski's signature interactive explainer, this time on the Moon — orbital mechanics, libration, tidal locking, and more, all rendered with gorgeous real-time WebGL animations. If you haven't encountered his work before, prepare to lose an hour. This is science communication at its absolute best."
+    },
+    {
+      "title": "SeL4 security proofs now complete on AArch64",
+      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by snvzz · 186 points · 43 comments",
+      "blurb": "The seL4 microkernel's full formal security proofs — functional correctness, integrity, and confidentiality — are now complete on 64-bit ARM. This is a landmark for formally verified software; it means the entire correctness proof chain holds for the hardware most modern devices actually run on."
+    },
+    {
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "url": "https://picomq.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by adesh_nalpet · 115 points · 22 comments",
+      "blurb": "PicoMQ brings durable message streams over plain HTTP, backed by object storage — no Kafka, no brokers, no ops nightmare. For .NET/TypeScript developers who need reliable pub/sub without standing up a cluster, this is a genuinely interesting serverless-friendly primitive."
+    },
+    {
+      "title": "Hot Chips 2026: CUDA Targets RISC-V – By Chester Lam",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rbanffy · 86 points · 11 comments",
+      "blurb": "NVIDIA is porting CUDA to RISC-V cores — a strategic move that could reshape GPU computing and open-source chip design simultaneously. Chester Lam's Hot Chips 2026 writeup explains the architecture and what it means for the GPU ecosystem beyond x86 and ARM lock-in."
+    },
+    {
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lbw1215 · 50 points · 17 comments",
+      "blurb": "Headlong is a tiny framework for running persistent LLM agents that survive restarts and maintain state across sessions. For Claude Code users who want long-running autonomous tasks without babysitting a process, this microharness approach is worth studying for its simplicity."
+    },
+    {
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by arbayi · 89 points · 33 comments",
+      "blurb": "A clean self-hosted eBook library server that stores everything on S3-compatible object storage — no heavy database, no Calibre dependency. For developers who want a personal, privacy-respecting alternative to Kindle or cloud reading services, this is immediately deployable and worth an afternoon to set up."
+    }
+  ]
+}
