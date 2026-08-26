@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-26",
+  "stories": [
+    {
+      "title": "Apple introduces M6 and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "hn_link": "https://news.ycombinator.com/item?id=49433292",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by interpol_p · 1120 points · 1079 comments",
+      "blurb": "Apple drops the M6 and M5 Ultra, and the HN comment thread is absolutely on fire with 1,079 comments. The headline numbers promise a massive leap in both raw performance and AI compute — directly relevant to anyone running local models or heavy dev workloads on Apple silicon. This is the chip story of the year."
+    },
+    {
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "hn_link": "https://news.ycombinator.com/item?id=49433316",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by interpol_p · 766 points · 504 comments",
+      "blurb": "The Mac Studio gets the M5 Max and M5 Ultra treatment, making it the obvious desk machine for developers who want desktop-class AI inference without a Mac Pro price tag. If you've been eyeing an upgrade from an M1/M2 Studio, today's the day to run the numbers. Pairs perfectly with the M6 announcement above."
+    },
+    {
+      "title": "New Mac mini, featuring M6 and M5 Pro",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "hn_link": "https://news.ycombinator.com/item?id=49433450",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by runako · 491 points · 301 comments",
+      "blurb": "The Mac mini gets the M6 chip — at what will almost certainly be an aggressive price point. For developers who run Claude Code and heavy TypeScript/.NET builds locally, this is now arguably the best value compute on the market. Three Apple hardware announcements in one day is a genuine event."
+    },
+    {
+      "title": "Nitter and XCancel receive cease and desist notices",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "hn_link": "https://news.ycombinator.com/item?id=49437283",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Banditoz · 898 points · 744 comments",
+      "blurb": "X/Twitter is coming after the last privacy-respecting front-ends with legal muscle. Nitter and XCancel — tools that let you read Twitter without being tracked — have received C&D letters. This is the latest escalation in the war on interoperability and privacy-preserving alternatives. If you relied on either, start planning your exit now."
+    },
+    {
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "hn_link": "https://news.ycombinator.com/item?id=49434378",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bmulholland · 468 points · 302 comments",
+      "blurb": "SemiAnalysis digs into OpenAI's custom silicon play — codenamed Jalapeño — and argues it outperforms Nvidia's Blackwell for inference workloads. If true, this reshapes AI infrastructure economics and OpenAI's dependency on Nvidia. Essential reading for anyone thinking about where AI compute is heading."
+    },
+    {
+      "title": "I miss the old Claude Code",
+      "url": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/",
+      "hn_link": "https://news.ycombinator.com/item?id=49444863",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by akras14 · 22 points · 3 comments",
+      "blurb": "A developer argues that Claude Code's early focus was its killer feature — and that feature creep is diluting what made it great. This is the kind of honest practitioner take that cuts through the hype, and directly relevant if you've noticed Claude Code feeling different lately. Short, opinionated, worth the five minutes."
+    },
+    {
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "hn_link": "https://news.ycombinator.com/item?id=49443523",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gdad · 50 points · 16 comments",
+      "blurb": "As agentic AI workflows mature, context window management and token cost are emerging as first-class architectural concerns — not afterthoughts. This paper frames memory and cost as system design problems, which is exactly the right mental model for anyone building with Claude Code or other long-running AI agents. Practical and timely."
+    },
+    {
+      "title": "C2PA Cameras Do Not Survive Contact with Reality",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49439499",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Retr0id · 145 points · 85 comments",
+      "blurb": "C2PA is the content provenance standard meant to authenticate that photos are real and unmanipulated — but this teardown shows Android's implementation is trivially bypassable. The gap between the standard's promises and real-world security is damning. Important context as C2PA gets pushed as the solution to AI-generated misinformation."
+    },
+    {
+      "title": "Firefox 157 will include JPEG XL by default on all platforms",
+      "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+      "hn_link": "https://news.ycombinator.com/item?id=49437946",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by yboris · 371 points · 94 comments",
+      "blurb": "JPEG XL finally gets the browser support it deserves: Firefox 157 enables it by default everywhere. Combined with Chrome's existing support, this brings the superior image format to effectively the entire browser ecosystem. Web developers can now seriously consider JXL for production use without caveats."
+    },
+    {
+      "title": "Black hole singularity is a surface not a point",
+      "url": "https://arxiv.org/abs/2608.21590",
+      "hn_link": "https://news.ycombinator.com/item?id=49437210",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by raattgift · 237 points · 174 comments",
+      "blurb": "New theoretical work challenges the century-old picture of the black hole singularity as a dimensionless point, arguing it's better described as a surface. This isn't just academic — it has implications for quantum gravity and information paradox research. The HN thread has some genuinely illuminating discussion from people who've read the paper."
+    },
+    {
+      "title": "Queryable Executables",
+      "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rguiscard · 171 points · 36 comments",
+      "blurb": "What if you could SQL-query metadata embedded directly in a compiled binary? This post explores embedding structured, queryable data inside executables — a genuinely novel approach to self-describing binaries. Practical applications for dependency tracking, debugging, and build tooling are immediately obvious."
+    },
+    {
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "url": "https://github.com/jeffhajewski/latticedb",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by smiths1999 · 152 points · 39 comments",
+      "blurb": "A new embedded graph database that aims to be as frictionless as SQLite — no server, no config, just link and go. Graph data models are increasingly relevant for AI knowledge graphs and relationship-heavy app domains. Worth benchmarking if you've ever reached for Neo4j and wished it was lighter."
+    },
+    {
+      "title": "When str.lower() is a security vulnerability in Python",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by rbanffy · 117 points · 48 comments",
+      "blurb": "Unicode case-folding edge cases can turn an innocuous `.lower()` call into a security hole — and this post walks through exactly how. This is the kind of subtle, language-specific gotcha that bites experienced developers. Required reading before you do any string normalization in security-sensitive code paths."
+    },
+    {
+      "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+      "url": "https://github.com/runetes/maiao",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zdw · 78 points · 44 comments",
+      "blurb": "Maiao brings Gerrit's commit-based review model to the forges you actually use — GitHub, GitLab, Gitea. If you've ever worked at a Google-style shop and missed the discipline of single-commit reviews, this is the tool to retrofit that workflow. Could pair well with AI-assisted PR generation from Claude Code."
+    },
+    {
+      "title": "Tooltips need a delay, and then they need to skip it",
+      "url": "https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ibobev · 172 points · 45 comments",
+      "blurb": "A tight, well-argued post on one of UI design's persistent micro-annoyances: tooltip timing. The insight — that tooltips should delay on first hover but skip the delay once you're already navigating between items — is obvious in hindsight but almost nobody implements it correctly. Actionable for any Angular/TypeScript UI work."
+    },
+    {
+      "title": "Run OpenBSD on DigitalOcean for $4/month",
+      "url": "https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 162 points · 72 comments",
+      "blurb": "A practical guide to spinning up OpenBSD — arguably the most security-hardened mainstream OS — on cheap DigitalOcean droplets. OpenBSD's pledge/unveil system and conservative defaults make it compelling for hosting privacy-sensitive services. The guide handles the non-obvious gotchas so you don't have to."
+    },
+    {
+      "title": "Visualizing Binary Files",
+      "url": "https://movq.de/blog/postings/2026-08-05/0/POSTING-en.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by zdw · 114 points · 18 comments",
+      "blurb": "A deep-dive into techniques for making binary file structure visually comprehensible — from entropy visualization to color-coded byte-class maps. Essential for debugging file format parsers, reverse engineering, or understanding what your serializer is actually emitting. Beautiful and practical in equal measure."
+    },
+    {
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by petruspennanen · 135 points · 38 comments",
+      "blurb": "Someone ran Qwen on a Raspberry Pi and bolted it to their dashboard for real-time driving assistance. It's a great existence proof that capable local LLMs fit in genuinely constrained hardware — no cloud, no privacy leakage. The GitHub repo is forkable and the architecture is clean enough to adapt for other embedded AI projects."
+    },
+    {
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sunnynagra · 380 points · 188 comments",
+      "blurb": "The FDA has cleared the first wearable that continuously tracks both ketones and glucose — a meaningful step beyond existing CGMs. For developers interested in health tech or the Apple Health ecosystem, this signals the next frontier of wearable biometrics. Expect Apple Watch integrations to follow."
+    },
+    {
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by swimmingbrain · 92 points · 20 comments",
+      "blurb": "pdfTeX compiled to WebAssembly and running entirely in the browser — no server, no install, instant LaTeX compilation. This is a genuinely impressive technical feat and makes LaTeX accessible in contexts where you can't install software. Great for technical writing, documentation, or just showing off what WASM can do."
+    }
+  ]
+}
