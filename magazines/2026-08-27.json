@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-27",
+  "stories": [
+    {
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "hn_link": "https://news.ycombinator.com/item?id=49458161",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 1746 points · 812 comments",
+      "blurb": "The biggest AI infrastructure story of the year: Nvidia is buying the de-facto home of open-weights models, datasets, and Spaces. If you host anything on Hugging Face — models, demos, fine-tunes — this changes your dependency calculus overnight. 812 comments means the community is already stress-testing every implication."
+    },
+    {
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "hn_link": "https://news.ycombinator.com/item?id=49466917",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 187 points · 81 comments",
+      "blurb": "A well-argued case that sub-10B parameter models are now genuinely useful for production tasks — fast, cheap, and increasingly accurate. For Claude Code users who also run local experiments, this is the inflection point where on-device inference stops being a toy. Practical benchmarks included."
+    },
+    {
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "url": "https://louisabraham.github.io/load-bearing/",
+      "hn_link": "https://news.ycombinator.com/item?id=49461817",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Labo333 · 165 points · 86 comments",
+      "blurb": "An interactive exploration of which tokens in Claude's vocabulary carry the most weight for its reasoning — think of it as an X-ray of the model's semantic skeleton. If you write prompts for Claude Code daily, understanding what the model leans on structurally can sharpen your prompt craft. Genuinely novel interpretability work."
+    },
+    {
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "hn_link": "https://news.ycombinator.com/item?id=49468083",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by TangerineDream · 152 points · 37 comments",
+      "blurb": "Cloudflare's engineering team walks through how they shaved 100 TB of RAM from the world's busiest DNS resolver through careful data-structure surgery. The techniques — compact hash maps, memory layout analysis — are directly applicable to any high-throughput caching system you build. A masterclass in profiling-driven optimization."
+    },
+    {
+      "title": "Show HN: My Claude quota ran out in 10 minutes, so I made a tool to find out why",
+      "url": "https://github.com/kelviq/tare",
+      "hn_link": "https://news.ycombinator.com/item?id=49467551",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sachinneravath · 45 points · 37 comments",
+      "blurb": "A CLI tool that instruments your Claude API calls and surfaces exactly which prompts are eating your token budget. Every Claude Code power user has had this pain; now there's a fix. Fork it, tweak the thresholds, stop burning quota on runaway context windows."
+    },
+    {
+      "title": "Compromising Signal's Contact Discovery Enclave (SGX)",
+      "url": "https://v12.sh/blog/signal",
+      "hn_link": "https://news.ycombinator.com/item?id=49467699",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by RobLach · 6 points · 0 comments",
+      "blurb": "A researcher demonstrates a practical attack path against Signal's SGX-based contact discovery system — the piece that keeps your contact graph private. Low score but high signal: this is the kind of deep security research that surfaces slowly and matters a lot. Essential reading if you recommend Signal to anyone."
+    },
+    {
+      "title": "Flock CEO gets his house blurred out on Google Maps and Zillow",
+      "url": "https://twitter.com/LocumRex/status/2092993787605717176",
+      "hn_link": "https://news.ycombinator.com/item?id=49467750",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by lorecore · 78 points · 28 comments",
+      "blurb": "The irony writes itself: the CEO of a mass surveillance camera company uses privacy-protection tools to hide his own home from public view. A sharp reminder that the people building surveillance infrastructure know exactly how invasive it is. The HN discussion digs into how to do the same for your own address."
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "hn_link": "https://news.ycombinator.com/item?id=49468834",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 12 points · 1 comments",
+      "blurb": "Anthropic is sketching a standard for what hardware Claude (and future models) should be able to expect from the substrate they run on — think of it as an ABI for AI compute. Early days, but if this lands it could reshape how you think about deploying AI workloads. Worth watching even at preview stage."
+    },
+    {
+      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
+      "url": "https://morphing.cloud/afterglow/",
+      "hn_link": "https://news.ycombinator.com/item?id=49457722",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by NaOH · 10 points · 2 comments",
+      "blurb": "Flying Toasters are back, running natively on modern macOS. Afterglow is a polished wrapper that brings the full After Dark screen saver library to your Mac without any emulation weirdness. Pure nostalgia delivered as a proper macOS app — install it before your next meeting starts."
+    },
+    {
+      "title": "CoMaps integration with the wider FLOSS ecosystem",
+      "url": "https://www.comaps.app/news/2026-08-23/comaps-integration-with-the-wider-floss-ecosystem/",
+      "hn_link": "https://news.ycombinator.com/item?id=49464637",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by janandonly · 117 points · 18 comments",
+      "blurb": "CoMaps (the Maps.me fork that doesn't harvest your data) is deepening its ties with the open-source mapping ecosystem — CalDAV sync, OsmAnd interop, and more. If you've been looking for a privacy-respecting Google Maps alternative that actually works offline, this update moves the needle significantly."
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by saretup · 53 points · 9 comments",
+      "blurb": "Google drops an updated multimodal Flash model with improved vision, audio, and code reasoning — and it's fast enough for real-time applications. As a Claude Code user it pays to benchmark the competition; Flash's low latency at reasonable quality makes it a credible fallback for certain use cases."
+    },
+    {
+      "title": "Show HN: RealDiff – runtime behavior diffing for pull requests (six languages)",
+      "url": "https://github.com/issacnitin/RealDiff",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by issacnitin · 35 points · 6 comments",
+      "blurb": "Instead of diffing source code line-by-line, RealDiff instruments your app and diffs actual runtime behavior between branches. TypeScript support is included, which makes this immediately useful for Angular projects where refactors often change nothing visible in diffs but subtly break behavior. A genuinely fresh take on PR review."
+    },
+    {
+      "title": "Show HN: Restoredrill – proves your Postgres backups restore",
+      "url": "https://github.com/ahmadpiran/restoredrill",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ahmadpiran · 31 points · 12 comments",
+      "blurb": "Restoredrill automates the boring but critical job of actually testing that your Postgres backup restores cleanly — not just that the file exists. Untested backups are a liability masquerading as insurance; this tool makes verification a scheduled, repeatable CI step. Drop it in your pipeline today."
+    },
+    {
+      "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
+      "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by RahulMJ · 119 points · 48 comments",
+      "blurb": "Emacs 31 ships a new Tree-sitter-powered Markdown mode and this guide is the best explainer available. Even if you live in VS Code, the architecture of tree-sitter language grammars is worth understanding — it's the same foundation powering syntax highlighting in Neovim and increasingly in other editors too."
+    },
+    {
+      "title": "A curmudgeon tries a language server",
+      "url": "https://entropicthoughts.com/curmudgeon-tries-language-server",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by crescit_eundo · 89 points · 55 comments",
+      "blurb": "A veteran developer who resisted LSP for years finally gives it a real try and reports back honestly. The takeaway is nuanced — LSP is great until it isn't, and the failure modes matter. A good counterbalance to the hype, and useful framing if you're evaluating language tooling for a new stack."
+    },
+    {
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dclavijo · 20 points · 16 comments",
+      "blurb": "A developer vibe-coded a fuzzer with an LLM, pointed it at FFmpeg, and found a real crash-inducing bug. It's a practical proof-of-concept that AI-assisted fuzzing is now accessible to developers without security backgrounds. The issue thread itself is a nice read on responsible disclosure workflow."
+    },
+    {
+      "title": "Decompiling a Nintendo 64 game in 84 days",
+      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by knackers · 87 points · 28 comments",
+      "blurb": "A solo developer decompiled an entire N64 game from MIPS assembly back to readable C in under three months, documenting every technique along the way. The toolchain choices and pattern-recognition tricks for reconstructing compiler output are fascinating — and increasingly relevant as AI tools start helping with decompilation tasks."
+    },
+    {
+      "title": "507 Mechanical Movements",
+      "url": "https://507movements.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by helloplanets · 331 points · 47 comments",
+      "blurb": "An animated, web-based encyclopedia of all 507 classical mechanical movements — cams, levers, gears, escapements — from the 1868 reference book. Each mechanism is rendered as a crisp, looping SVG animation. A stunning piece of creative coding and an endlessly useful reference if you ever venture into physical computing or robotics."
+    },
+    {
+      "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+      "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by vinni2 · 93 points · 49 comments",
+      "blurb": "Airport malaria — where a single disease-carrying mosquito hitchhikes on a long-haul flight and infects ground workers who've never left the country — is a rare but real phenomenon. Two fatalities at a German airport are prompting researchers to revisit how climate change expands the viable range of tropical vectors. Sobering and strange."
+    },
+    {
+      "title": "Engineered yeast for converting plastic and biomass compounds into food",
+      "url": "https://acs.digitellinc.com/live/37/session/586399",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ehwa37 · 27 points · 25 comments",
+      "blurb": "Researchers have engineered yeast strains that can metabolize plastic breakdown products and lignocellulosic biomass into edible protein and nutrients. It's early-stage ACS conference work but the implications are significant: a biological bridge between our plastic waste problem and global food security. Quietly one of the most important things on today's list."
+    }
+  ]
+}
