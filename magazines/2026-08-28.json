@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-28",
+  "stories": [
+    {
+      "title": "\"It works better in the app\"",
+      "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
+      "hn_link": "https://news.ycombinator.com/item?id=49477600",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by blenderob · 598 points · 404 comments",
+      "blurb": "The relentless push to funnel users from mobile web into proprietary apps is a dark pattern with real privacy and lock-in consequences. This post dissects the manipulation tactics and why \"better in the app\" usually means \"better for us, not you.\" With 404 comments, the HN crowd has plenty of opinions on what to do about it."
+    },
+    {
+      "title": "GLM-5.3 is now open-weight",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "hn_link": "https://news.ycombinator.com/item?id=49479878",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jeudesprits · 411 points · 143 comments",
+      "blurb": "ZhipuAI's GLM-5.3 just dropped its weights on Hugging Face, putting a frontier-class model in self-hostable reach. For developers who want to run capable LLMs locally or integrate them without API rate limits, this is a big deal. Pair with the flash-cost variant announcement from ZAI for a full picture."
+    },
+    {
+      "title": "Judge rules Trump administration's blacklisting of Anthropic was illegal",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49473522",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jbegley · 387 points · 302 comments",
+      "blurb": "A federal judge has struck down the administration's blacklisting of Anthropic — the company behind Claude Code — as an illegal overreach. This ruling has direct implications for AI lab operations and government procurement of AI tools. Essential reading if you're building on Claude or following AI policy."
+    },
+    {
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=49475079",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by miniBill · 339 points · 112 comments",
+      "blurb": "An AI-generated DMCA takedown with zero factual basis got an open-source game yanked from Google Play — and Google just complied without question. It's a chilling preview of how automated copyright abuse can silence legitimate projects. The Luanti team's write-up is a thorough and damning account."
+    },
+    {
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49479837",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ckardaris · 325 points · 179 comments",
+      "blurb": "A well-argued manifesto for making every GUI action reachable via keyboard, with concrete design principles. Developers who live in their editors will find plenty to agree with — and the HN thread surfaces a range of toolkits and apps already doing this right. Directly relevant to anyone building or evaluating dev tools."
+    },
+    {
+      "title": "Inception-style curved map for turn-by-turn directions",
+      "url": "https://www.orbify.eu/demo/",
+      "hn_link": "https://news.ycombinator.com/item?id=49477564",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by smoser · 320 points · 113 comments",
+      "blurb": "Orbify's demo renders navigation directions as a curved, \"bent\" map reminiscent of the folded cityscapes in Inception — and it's genuinely easier to read at a glance. A lovely piece of creative cartographic engineering worth opening right now. Interactive and runs in the browser."
+    },
+    {
+      "title": "Htmx 4.0",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "hn_link": "https://news.ycombinator.com/item?id=49478178",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rmsaksida · 315 points · 72 comments",
+      "blurb": "Htmx 4.0 lands today with a major version bump, signaling breaking changes and matured opinions about hypermedia-driven UIs. For .NET and TypeScript developers curious about alternatives to heavy SPA frameworks, htmx keeps being the contrarian bet worth watching. Check the changelog for what's changed."
+    },
+    {
+      "title": "Just the rumour of a bug is enough to find an exploit these days",
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "hn_link": "https://news.ycombinator.com/item?id=49480466",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by avsm · 147 points · 51 comments",
+      "blurb": "Anil Madhavapeddy makes the unsettling case that even vague public hints about a vulnerability now give attackers enough to find and weaponize exploits before patches ship. Disclosure norms and patch windows need rethinking in the age of automated vulnerability research. Sobering and concise."
+    },
+    {
+      "title": "Hilariously fast volume computation with the divergence theorem (2018)",
+      "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49476143",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by luu · 224 points · 60 comments",
+      "blurb": "A delightful old post resurfaces: using the divergence theorem to compute 3D mesh volumes with just a dot product per triangle — blindingly fast and mathematically elegant. The kind of math-meets-code post that makes you feel smart for reading it. Highly recommended lunchtime brain food."
+    },
+    {
+      "title": "Don't use musl if you care about performance",
+      "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
+      "hn_link": "https://news.ycombinator.com/item?id=49479826",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jbellis · 74 points · 43 comments",
+      "blurb": "Benchmarks from the Brokk team show musl libc delivering dramatically worse throughput than glibc for compute-heavy workloads — sometimes 2–3× slower. If you're shipping Docker containers on Alpine Linux without thinking about this, you may be leaving serious performance on the table. Practical and actionable."
+    },
+    {
+      "title": "6 RAG Architectures — and How to Avoid Over-Engineering",
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: RAG",
+      "blurb": "A clear taxonomy of retrieval-augmented generation patterns from naive chunk-and-search all the way to multi-index hybrid pipelines — with honest advice about when the simple approach is enough. Perfect for developers integrating LLMs into existing .NET or TypeScript apps who want to avoid architecture astronautics."
+    },
+    {
+      "title": "Keep AI Out of Your (Obsidian) Vault",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, notebook, wiki, markdown",
+      "blurb": "A mid-2026 essay wrestling with the tension between LLM convenience and the privacy of your personal knowledge base in Obsidian. The author argues for keeping your vault local and using AI at arm's length rather than giving plugins full access to your notes. Directly relevant to any Obsidian user tempted by AI integrations."
+    },
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Ars Technica reports that 227 install commands were found in corporate documentation pointing at packages nobody owns — quietly injected by AI coding assistants including Claude, Codex, and Hermes. If you use Claude Code in a corporate environment, this is a must-read security wake-up call about dependency hallucination at scale."
+    },
+    {
+      "title": "The asteroid currently hitting frontend web development",
+      "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, programming, webdev",
+      "blurb": "Nolan Lawson argues that AI coding agents are reshaping frontend dev in ways that favor React (overrepresented in training data) and shift the value proposition from developer experience to \"agent experience.\" Angular and TypeScript developers should read this for its honest reckoning with what's changing — and what it means for expertise built over years."
+    },
+    {
+      "title": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here's how it imploded.",
+      "url": "https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: artificial, intelligence, facebook, meta, Q3, 2026, expose, campaign, scenario, product, management, model, agent, bullsi, exceptional, layoff, revolt, human, employee",
+      "blurb": "A Reuters investigation into Meta's ambitious \"AI-centric\" product team experiment — and why it fell apart. The piece is rich with detail about what happens when you try to substitute agentic AI for human product judgment at scale. Essential context for anyone thinking seriously about AI replacing software roles."
+    },
+    {
+      "title": "Text Watermarking",
+      "url": "https://www.tbray.org/ongoing/When/202x/2026/08/24/Text-Watermarking",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: anthropic, ai",
+      "blurb": "Tim Bray explains how AI text watermarking actually works — the cryptographic tricks Anthropic and others use to embed imperceptible signals in generated text. Clear, technically honest, and timely given the growing debate about provenance of AI output. Short enough to read in one sitting."
+    },
+    {
+      "title": "Ads and tracking infiltrated TVs. Now they're coming for monitors",
+      "url": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: monitor, advertising, tracking, smart",
+      "blurb": "LG and Samsung smart monitors are running the same ACR-powered ad-serving OSes as their smart TVs, meaning your desktop display could be tracking everything you do on screen. Unlike smart TVs, monitors can't easily be kept offline — making the privacy calculus even worse. A timely warning before you buy that next display."
+    },
+    {
+      "title": "Apple Maps launches ads on iPhone, here's what's new",
+      "url": "https://9to5mac.com/2026/08/25/apple-maps-launches-ads-on-iphone-heres-whats-new/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple Maps is now showing ads — a significant shift for a product that was sold partly on privacy grounds. 9to5Mac breaks down what's new, where ads appear, and how to minimize them. If you rely on Apple Maps as part of the Apple ecosystem, you'll want to know what changed."
+    },
+    {
+      "title": "An iCloud primer – The Eclectic Light Company",
+      "url": "https://eclecticlight.co/2026/08/25/an-icloud-primer/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: icloud, apple, 2020s, storage, cloudkit, email, services, mac, macOS, ELC",
+      "blurb": "Howard Oakley delivers a thorough technical primer on how iCloud actually works in 2026 — covering CloudKit, iCloud Drive, Private Relay, and the surprising mix of Apple, Google Cloud, and AWS infrastructure underneath. Indispensable for macOS developers and power users who want to understand what they're actually syncing."
+    },
+    {
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai",
+      "blurb": "Sean Goedecke makes the counterintuitive case that LLMs amplify expert developers more than they help beginners — because knowing what to ask, how to verify, and when to push back is itself a skill. A useful corrective to both the \"AI replaces devs\" panic and the \"anyone can code now\" hype. Worth reading alongside the Pinboard piece on AI preventing expertise."
+    }
+  ]
+}
