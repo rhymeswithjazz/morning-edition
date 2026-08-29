@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-29",
+  "stories": [
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "hn_link": "https://news.ycombinator.com/item?id=49486172",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 632 points · 360 comments",
+      "blurb": "The biggest AI-coding-tool story of the year: OpenAI responds to Cursor's acquisition by SpaceX, raising immediate questions about data access, competitive dynamics, and what it means for developers who bet their workflow on Cursor. If you're using Cursor or Claude Code, this reshapes the landscape. The 360-comment thread is essential reading."
+    },
+    {
+      "title": "Get your Windows license refund",
+      "url": "https://en.refund4freedom.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=49478340",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by smartmic · 697 points · 293 comments",
+      "blurb": "A step-by-step guide to claiming a refund for the bundled Windows license on laptops you never intended to use Windows on. Surprisingly practical and legally solid in several jurisdictions — the highest-scored story of the day for a reason."
+    },
+    {
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "hn_link": "https://news.ycombinator.com/item?id=49485416",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by matt_d · 190 points · 52 comments",
+      "blurb": "A researcher discovers that the way LLM memory systems track context is structurally equivalent to classic program analysis techniques — and starts exploiting that to do things like taint tracking and data-flow analysis for free. Mind-bending crossover between security research and AI tooling that Claude Code users will appreciate."
+    },
+    {
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "hn_link": "https://news.ycombinator.com/item?id=49485267",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by hentrep · 316 points · 83 comments",
+      "blurb": "A CLI tool that lets you spin up virtual iPhones on Apple Silicon using Apple's own Virtualization.framework — no Xcode simulator required. This is a game-changer for iOS testing and automation pipelines, and the fact that it's open source makes it immediately hackable."
+    },
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "hn_link": "https://news.ycombinator.com/item?id=49486081",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by thclpr · 143 points · 32 comments",
+      "blurb": "Local, open-source AI stem separation that runs entirely on your machine — no cloud, no subscription, no privacy worries. Pull vocals, drums, bass, and instruments from any track. A must-try for anyone interested in audio production or creative AI tools."
+    },
+    {
+      "title": "The Twelve-Factor App (2025)",
+      "url": "https://12factor.net/",
+      "hn_link": "https://news.ycombinator.com/item?id=49472216",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jxmorris12 · 282 points · 159 comments",
+      "blurb": "The classic twelve-factor methodology gets a 2025 refresh, and the HN thread is a lively debate about what's aged well and what needs updating in the age of containers, serverless, and AI-generated infrastructure. Required reading for anyone building cloud-native .NET or Node services."
+    },
+    {
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "url": "https://github.com/kingroryg/turbokv",
+      "hn_link": "https://news.ycombinator.com/item?id=49486334",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rggimbochamp · 132 points · 60 comments",
+      "blurb": "TurboKV is a new Rust key-value store gunning for extreme throughput benchmarks. The implementation details are instructive even if you never deploy it — good discussion in the comments about where the performance claims hold up and where they don't."
+    },
+    {
+      "title": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally/",
+      "hn_link": "https://news.ycombinator.com/item?id=49479951",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 113 points · 90 comments",
+      "blurb": "Concrete benchmarks for running a frontier-class 27B model locally on Apple Silicon — tokens/sec, RAM pressure, quality comparisons. If you're curious whether your Mac Studio can replace cloud API calls for local AI workflows, this answers it with real numbers."
+    },
+    {
+      "title": "Curvature Beziers: Improving on a timeless recipe",
+      "url": "https://acko.net/blog/curvature-beziers/",
+      "hn_link": "https://news.ycombinator.com/item?id=49422743",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by leephillips · 131 points · 15 comments",
+      "blurb": "A deep, beautifully illustrated dive into curvature-continuous splines and why standard Béziers fall short for smooth curve design. Steven Wittens (acko.net) at his best — the kind of mathy creative-coding writing that makes you want to open a canvas immediately."
+    },
+    {
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "hn_link": "https://news.ycombinator.com/item?id=49481455",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by stephenchung · 111 points · 34 comments",
+      "blurb": "Researchers demonstrate multi-agent LLM systems that can autonomously discover non-trivial mathematical conjectures in an open-ended setting — not just verify proofs but generate new ones. A significant step toward AI as a genuine research collaborator rather than autocomplete."
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead | OpenAI",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: openai, subject:cs.AI, subject:cs.CL, huggingface, ai-safety, cyber-security, research, year:2026",
+      "blurb": "OpenAI's post-mortem on a significant security incident involving Hugging Face covers supply-chain risks in the open-source AI model ecosystem. If you pull models for local inference or use Hugging Face in any pipeline, the threat model described here applies directly to you."
+    },
+    {
+      "title": "VMs won't contain cyber-capable agents",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, technology, security",
+      "blurb": "Trail of Bits argues that virtual machines are fundamentally insufficient isolation for AI agents with real cyber capabilities — the escape surface is too large. Sobering and well-reasoned; essential context for anyone building or deploying autonomous coding agents."
+    },
+    {
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Israel, AI, democratiaeth",
+      "blurb": "A fake think-tank published over half a million words in nine days, optimized specifically to be cited by AI chatbots — a real-world demonstration of RAG poisoning at scale. This is what AI-era information warfare looks like, and it's already happening."
+    },
+    {
+      "title": "LLM cliché highlighter",
+      "url": "https://tools.simonwillison.net/llm-cliche-highlighter",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, LLM",
+      "blurb": "Simon Willison's delightfully sharp little tool that highlights the telltale over-used phrases LLMs reach for — 'delve', 'it's worth noting', 'nuanced', etc. Paste in any AI-generated text and watch the clichés light up. Useful for anyone editing or reviewing AI output."
+    },
+    {
+      "title": "Making Your Data Ready for Agentic AI",
+      "url": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, data, automation",
+      "blurb": "Martin Fowler's site hosts a practical framework for structuring data so AI agents can reliably act on it — covering schemas, access patterns, and the delta between 'data for humans' and 'data for agents'. Directly applicable if you're building agent pipelines on top of existing codebases."
+    },
+    {
+      "title": "OpenAI Updates ChatGPT for iOS with Customizable Widgets for ChatGPT Work and Codex Remote",
+      "url": "https://www.macstories.net/ios/openai-updates-chatgpt-for-ios-with-customizable-widgets-for-chatgpt-work-and-codex-remote/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacStories covers new iOS widgets that surface ChatGPT Work and Codex Remote directly from the home screen — meaning you can kick off a remote coding session or check agent status without opening the app. A meaningful quality-of-life upgrade for developers living in the Apple ecosystem."
+    },
+    {
+      "title": "TMOG — Native Task Manager for macOS and Windows",
+      "url": "https://tmog.org/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, apple, software, lukas-zuzanak",
+      "blurb": "A native, lightweight task manager built for macOS that skips the Electron bloat. Clean interface, local-first data, no subscription. Worth a look if you're perpetually unsatisfied with the task management options in the Mac ecosystem."
+    },
+    {
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "url": "https://acceptmarkdown.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: markdown_tools, agents_markdown",
+      "blurb": "A simple but clever spec: use standard HTTP Accept headers to serve Markdown to AI agents instead of HTML, reducing token waste and improving agent comprehension. Immediately actionable for anyone building or maintaining APIs that AI tools interact with."
+    },
+    {
+      "title": "Getting off US tech: a guide",
+      "url": "https://disconnect.blog/getting-off-us-tech-a-guide/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tech, discontent, corp, activism, design, change, boycott",
+      "blurb": "A practical, opinionated guide to replacing US-based cloud services, social platforms, and productivity tools with European or open-source alternatives. More actionable than most 'de-Google' guides — covers everything from email to CI/CD to document storage."
+    },
+    {
+      "title": "Stopping the smart TV from being used against you",
+      "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: smart_tv",
+      "blurb": "A thorough, no-nonsense technical guide to locking down smart TV surveillance — network isolation, DNS blocking, disabling ACR, and firmware hardening. The threat model is real and the steps are concrete; your TV is spying on you more than your phone is."
+    }
+  ]
+}
