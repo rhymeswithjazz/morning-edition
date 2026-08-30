@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-30",
+  "stories": [
+    {
+      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "hn_link": "https://news.ycombinator.com/item?id=49498201",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sparsesignal · 56 points · 49 comments",
+      "blurb": "If you use Claude Code daily, this one stings: it turns out the tool was appending Claude session URLs to your commit messages and PR descriptions by default — leaking AI-assistance metadata into public repos without clear consent. The GitHub issue is already active with workarounds. Check your recent commits."
+    },
+    {
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "url": "https://zackbartel.com/blog/2026/08/tether/",
+      "hn_link": "https://news.ycombinator.com/item?id=49415386",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zackb · 488 points · 193 comments",
+      "blurb": "Tether bridges the Apple messaging ecosystem to Linux by tethering through a Mac, bringing iMessage and SMS to non-Apple machines. For anyone who works across platforms, this is the missing link — and the 193-comment thread has plenty of setup tips and caveats."
+    },
+    {
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+      "hn_link": "https://news.ycombinator.com/item?id=49494182",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by DeepLogin · 340 points · 212 comments",
+      "blurb": "Texas quietly funneled a $1 per-policy auto-insurance surcharge into a grant program that bought Flock license-plate surveillance cameras — without most drivers having any idea. It's a masterclass in how mass surveillance gets funded through obscure fiscal sleight of hand. Privacy advocates should read this one carefully."
+    },
+    {
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "hn_link": "https://news.ycombinator.com/item?id=49495372",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by shscs911 · 435 points · 198 comments",
+      "blurb": "California's age-verification law threatened to snare open-source software distributors in its net — until lawmakers carved out a unanimous exemption for GPL, MIT, BSD, and Apache-licensed software. A rare, clear win for open source that sets a useful precedent for future legislation."
+    },
+    {
+      "title": "Brits would quite like their private messages to stay private",
+      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "hn_link": "https://news.ycombinator.com/item?id=49497063",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by defrost · 196 points · 119 comments",
+      "blurb": "New polling data shows strong UK public opposition to government backdoors in encrypted messaging — a direct rebuke of the Online Safety Act's scanning provisions. The Register's typically sharp take unpacks what the numbers mean for the ongoing fight over end-to-end encryption."
+    },
+    {
+      "title": "Bug Blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "hn_link": "https://news.ycombinator.com/item?id=49494520",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by davidmckenna · 313 points · 191 comments",
+      "blurb": "Dan Luu digs into why developers systematically fail to see bugs that are right in front of them — a mix of cognitive bias, code familiarity, and incentive structures. Essential reading for anyone who's ever shipped a bug they \"obviously\" should have caught, which is everyone."
+    },
+    {
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "hn_link": "https://news.ycombinator.com/item?id=49496918",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by vntok · 100 points · 41 comments",
+      "blurb": "A serious ACE vulnerability in QubesOS — the gold-standard privacy OS — was lurking in its copy-to-VM error reporting channel. The official security bulletin has patches and mitigations. If you or anyone you know runs Qubes, this is drop-everything urgent."
+    },
+    {
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "hn_link": "https://news.ycombinator.com/item?id=49487341",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ingve · 270 points · 104 comments",
+      "blurb": "Chips & Cheese does its usual Hot Chips deep-dive, this time on Samsung's Processing-in-Memory architecture — compute units embedded directly in DRAM to slash the memory-bandwidth bottleneck that throttles AI workloads. This is the hardware story underneath the LLM inference race."
+    },
+    {
+      "title": "Glacier Mice",
+      "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+      "hn_link": "https://news.ycombinator.com/item?id=49424320",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ostacke · 315 points · 64 comments",
+      "blurb": "Glacier mice are softball-sized balls of moss that roll around on glaciers in loose herds — and nobody fully understands why. They move in coordinated patterns, maintain consistent temperature, and host entire micro-ecosystems. A legitimately strange corner of biology for your Sunday brain."
+    },
+    {
+      "title": "Nancy Grace Roman Space Telescope",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "hn_link": "https://news.ycombinator.com/item?id=49490870",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by JumpCrisscross · 231 points · 85 comments",
+      "blurb": "NASA's Roman Space Telescope is generating significant HN discussion — likely tied to a launch or milestone update. With a field of view 100× wider than Hubble, it promises to map dark energy and discover thousands of exoplanets. Worth bookmarking the mission page for the coming months."
+    },
+    {
+      "title": "Benchmarking Pocket-Scale Inference",
+      "url": "https://artificialanalysis.ai/hardware-inference-stack/mobile-phones",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sys42590 · 65 points · 7 comments",
+      "blurb": "Artificial Analysis benchmarks on-device LLM inference across today's flagship phones — tokens per second, model sizes supported, thermal throttling behavior. As Apple Silicon-powered iPhones become serious AI inference platforms, this data is the developer's cheat sheet for what's actually possible locally."
+    },
+    {
+      "title": "EVE Online moves to Python 3",
+      "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by TylerJaacks · 382 points · 206 comments",
+      "blurb": "EVE Online has been running Python 2 in production for over two decades — one of the most extreme legacy Python holdouts in the industry. CCP Games finally documents the migration strategy, and the war stories alone are worth the read for anyone managing long-lived codebases."
+    },
+    {
+      "title": "RISC-V is now officially supported by CPython",
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by lumpa · 229 points · 41 comments",
+      "blurb": "CPython now officially supports RISC-V as a tier-1 platform, joining x86, ARM, and friends. This matters because RISC-V is rapidly appearing in embedded, edge, and server contexts — Python devs can now ship to those targets with full upstream confidence."
+    },
+    {
+      "title": "SQLite as a Document Database (2020)",
+      "url": "https://dgl.cx/2020/06/sqlite-json-support",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by lioeters · 225 points · 54 comments",
+      "blurb": "This evergreen post resurfaces regularly because it keeps being true: SQLite's JSON functions let you use it as a surprisingly capable document store without any additional infrastructure. Practical patterns for .NET and TypeScript developers who want schemaless flexibility without spinning up MongoDB."
+    },
+    {
+      "title": "Functional State Machines in Rust: Typestate and Newtype Patterns",
+      "url": "https://dl.acm.org/doi/10.1145/3830438.3830958",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by matt_d · 104 points · 37 comments",
+      "blurb": "A peer-reviewed treatment of encoding state machines into Rust's type system so illegal states become compile-time errors. The typestate and newtype patterns here translate well to TypeScript's type system too — Angular developers dealing with complex UI state flows will find the mental model valuable."
+    },
+    {
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "url": "https://freecore.org/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sashk · 134 points · 72 comments",
+      "blurb": "When iXsystems deprecated TrueNAS Core in favor of the Python-rewritten Scale, the community forked it. FreeCORE is that fork — continuing the BSD-based, mature NAS platform for users who don't want the new stack. A significant community infrastructure story with real staying power."
+    },
+    {
+      "title": "Spark: Sparklines in your shell",
+      "url": "https://git.zx2c4.com/spark/about/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by hskimse · 44 points · 10 comments",
+      "blurb": "Spark renders Unicode sparkline charts directly in your terminal from a stream of numbers — pipe in CPU usage, API response times, or build durations and get instant visual feedback without leaving the shell. Tiny tool, immediately useful, install-it-today energy."
+    },
+    {
+      "title": "Everyone Should Build Their Own Network Stack",
+      "url": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by uneven9434 · 58 points · 47 comments",
+      "blurb": "A hands-on walkthrough of building a custom network stack on DN42 — the hobbyist BGP internet — covering routing, tunnels, and DNS from scratch. If you've ever wanted to understand what actually happens below the HTTP layer, this is the most actionable starting point I've seen."
+    },
+    {
+      "title": "Hy4 preview",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shenli3514 · 347 points · 208 comments",
+      "blurb": "Tencent releases and open-sources Hy4, a new large model with a preview available now. With 208 comments already, the HN community is dissecting its capabilities and positioning against Western frontier models. Worth watching as another serious open-weight contender enters the field."
+    },
+    {
+      "title": "Calibrate Before You Accelerate: Bias Toward Action in a New Role",
+      "url": "https://tucker.wales/writing/bias-towards-action/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by tuckerwales · 166 points · 69 comments",
+      "blurb": "A sharp counterpoint to the \"move fast\" mantra: when you're new to a role, premature action based on incomplete context causes more damage than moving carefully. The framework here — calibrate first, then accelerate — is practical and specific enough to actually use in your next 90-day plan."
+    }
+  ]
+}
