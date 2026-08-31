@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-31",
+  "stories": [
+    {
+      "title": "\"I just chose words carefully\"",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "hn_link": "https://news.ycombinator.com/item?id=49503601",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zdw · 1089 points · 300 comments",
+      "blurb": "The top story of the day with nearly 1,100 points and 300 comments — a deep dive into the art of prompt engineering and how precise word choice dramatically changes AI outputs. Essential reading for anyone building with LLMs. If you use Claude Code daily, this one is directly applicable."
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "hn_link": "https://news.ycombinator.com/item?id=49506819",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Recursing · 266 points · 82 comments",
+      "blurb": "A security researcher breaks down how Claude Code's Opus 5 Auto Mode can be manipulated — directly relevant if you're running Claude Code in autonomous or semi-autonomous workflows. Understanding these failure modes is critical before trusting any agentic tool with real codebases. Required reading for Claude Code users."
+    },
+    {
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "hn_link": "https://news.ycombinator.com/item?id=49504625",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 282 points · 155 comments",
+      "blurb": "Simon Willison unpacks how ChatGPT's Work mode actually operates under the hood, cutting through the marketing to explain the mechanics. If you're evaluating AI coding tools and workflows, Willison's analysis is always the most grounded take available. 155 comments means the HN crowd has strong opinions too."
+    },
+    {
+      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "hn_link": "https://news.ycombinator.com/item?id=49507822",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by metrofun · 380 points · 89 comments",
+      "blurb": "OpenShot 4.0 is a major milestone for the open-source video editor — adding recording, improved color grading, and a slew of new editing features. It's free, cross-platform, and now punching closer to paid competitors. If you produce video content on the side, this release is worth a serious look."
+    },
+    {
+      "title": "Agent Memory as a File Format",
+      "url": "https://calpaterson.com/memoryfields.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49508317",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ingve · 102 points · 51 comments",
+      "blurb": "A thought-provoking proposal for treating AI agent memory as a structured file format rather than an opaque blob — deeply relevant as agentic workflows mature. This has real implications for Claude Code and any long-running AI agent you're building. The Obsidian crowd will also find the plain-file philosophy familiar and appealing."
+    },
+    {
+      "title": "How to build a diffusion language model",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "hn_link": "https://news.ycombinator.com/item?id=49503956",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by volodia · 158 points · 19 comments",
+      "blurb": "Diffusion models for language are one of the most exciting research frontiers right now — this is a hands-on guide to actually building one from scratch. If you want to understand where LLMs might go next beyond the autoregressive paradigm, this is the clearest technical walkthrough available. Highly recommended for the builder mindset."
+    },
+    {
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "hn_link": "https://news.ycombinator.com/item?id=49505219",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dbalatero · 194 points · 73 comments",
+      "blurb": "A clever engineering deep-dive into achieving near-zero-latency autocomplete over 240 million domain names using pre-computation and memory tricks. The techniques here — trie structures, WASM, edge caching — are transferable to any large-scale search or autocomplete problem. This is the kind of \"how did they do that\" post worth bookmarking."
+    },
+    {
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "url": "https://github.com/astral-sh/uv/pull/21327",
+      "hn_link": "https://news.ycombinator.com/item?id=49506142",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tosh · 156 points · 72 comments",
+      "blurb": "Astral's uv keeps getting better — this PR adds hard-link deduplication across the wheel cache, potentially saving gigabytes on disk for developers with many Python environments. If you've adopted uv as your package manager (and you should have by now), this is a welcome quality-of-life improvement arriving soon. The 72-comment thread has good discussion on the implementation."
+    },
+    {
+      "title": "A CVE Dispute",
+      "url": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "hn_link": "https://news.ycombinator.com/item?id=49508290",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by theanonymousone · 148 points · 34 comments",
+      "blurb": "curl's Daniel Stenberg goes public with a dispute over a CVE assignment he believes is inaccurate and unfair — shedding light on the political and bureaucratic dysfunction inside the CVE system. A must-read for anyone who ships software and has ever had to deal with vulnerability disclosures. The broader implications for open-source maintainers are significant."
+    },
+    {
+      "title": "My hobby of building miniatures and taking pretty pictures",
+      "url": "https://sandyuraz.com/blogs/tiny-cafe/",
+      "hn_link": "https://news.ycombinator.com/item?id=49481141",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by thecsw · 299 points · 49 comments",
+      "blurb": "A delightful personal blog post about crafting intricate miniature scenes and photographing them with macro lenses — it's a gorgeous intersection of physical craft, photography, and patient artistry. The photos alone are worth the click, and the write-up on the creative process is genuinely inspiring. A welcome palate cleanser from the AI news cycle."
+    },
+    {
+      "title": "A 12TB Steam \"teraleak\" spills more than a decade of lost PC gaming history",
+      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by WithinReason · 298 points · 54 comments",
+      "blurb": "A massive 12TB leak of Steam internal data has surfaced years of unreleased games, internal builds, and lost gaming history — Valve's largest data exposure ever. Beyond the gaming nostalgia angle, this is a serious case study in insider threat and long-term data retention risks. Ars has the most thorough breakdown of what's actually in the trove."
+    },
+    {
+      "title": "Transfer files over an Ethernet patch cable",
+      "url": "https://maurycyz.com/misc/etherfiles/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jllyhill · 117 points · 125 comments",
+      "blurb": "A hands-on guide to transferring files directly between two machines using nothing but a crossover (or patch) Ethernet cable — no switches, no routers, no internet. It's a beautifully minimal approach to air-gapped or quick local transfers that every developer should have in their toolkit. The 125-comment thread is packed with tips and alternative approaches."
+    },
+    {
+      "title": "Malleable software = solid bases and custom code",
+      "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tablet · 58 points · 20 comments",
+      "blurb": "A well-argued essay on the philosophy of malleable software — the idea that good tools should provide opinionated solid foundations while leaving room for custom code to grow on top. This maps directly onto how modern dev tooling (and AI assistants) should work. Resonates with anyone who's wrestled with the customization-vs-convention tradeoff in Angular or .NET."
+    },
+    {
+      "title": "What 2000 Buried Underpants Revealed About Where Soil Is Most Alive",
+      "url": "https://studyfinds.com/what-2000-buried-underpants-revealed-about-where-soil-is-most-alive/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by mdp2021 · 68 points · 14 comments",
+      "blurb": "Researchers buried 2,000 pairs of cotton underpants across the globe to measure soil biodiversity — and the results are genuinely illuminating about microbial activity in different ecosystems. It's the kind of creative, low-tech experimental design that makes science fun again. The methodology is so absurd it loops back around to brilliant."
+    },
+    {
+      "title": "Apache Iggy, a message streaming platform in Rust, graduates to an Apache TLP",
+      "url": "https://iggy.apache.org/blogs/2026/08/24/apache-iggy-top-level-project-tlp-graduation/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by spetz · 40 points · 9 comments",
+      "blurb": "Apache Iggy — a Kafka alternative written in Rust — has graduated to a top-level Apache project, signalling serious production readiness. If you're evaluating message streaming infrastructure and want something leaner and faster than Kafka without the JVM overhead, Iggy is now a legitimate contender. A milestone worth watching."
+    },
+    {
+      "title": "Study: Blue light impairs the eye's ability to distinguish fine detail most",
+      "url": "https://research.uga.edu/news/blue-light-has-a-surprising-effect-on-your-eyes-study-finds/",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "by giuliomagnifico · 57 points · 36 comments",
+      "blurb": "New research from UGA finds that blue light specifically degrades fine-detail discrimination — the exact kind of vision you rely on when reading code all day. This is more nuanced than the usual blue-light-bad narrative and has real implications for display calibration and Night Shift settings. Worth reading before dismissing it as yet another screen-time scare."
+    },
+    {
+      "title": "Matrox: Graphics for Professionals",
+      "url": "https://www.abortretry.fail/p/matrox",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by BirAdam · 165 points · 63 comments",
+      "blurb": "A lovingly researched history of Matrox, the Canadian graphics card company that dominated professional and workstation markets in the '90s before being eclipsed by gaming GPU makers. The AbortRetryFail blog consistently delivers the best hardware history writing on the internet. Nostalgia-fueled but also genuinely informative about why pro graphics diverged from consumer cards."
+    },
+    {
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dataking · 10 points · 6 comments",
+      "blurb": "The EU is moving to classify ChatGPT under the DSA's toughest tier of regulation, which would impose major transparency and auditing requirements on OpenAI. This sets a precedent that will ripple through every AI tool used by European developers and businesses. If you build or deploy AI products in Europe, this regulatory direction matters now."
+    },
+    {
+      "title": "Using floci to emulate Cloud platforms (GCP, AWS, Azure)",
+      "url": "https://flowg.cloud/blog/using-floci-local-emulators",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by linkdd · 27 points · 9 comments",
+      "blurb": "floci is a local emulation layer for GCP, AWS, and Azure — letting you develop and test cloud-dependent code without hitting real (billed) cloud infrastructure. This is the kind of tool that pays for itself in the first week of use. If you're building .NET or TypeScript services with cloud dependencies, this belongs in your local dev stack."
+    },
+    {
+      "title": "DNS Abuse and Criminal Infrastructure",
+      "url": "https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jruohonen · 24 points · 10 comments",
+      "blurb": "RIPE Labs publishes a rigorous analysis of how criminal actors exploit DNS infrastructure — going well beyond simple blocklists to examine the structural vulnerabilities in the domain system. Essential context for anyone thinking seriously about internet security and the limits of current mitigation approaches. Thoughtful and technically grounded."
+    }
+  ]
+}
