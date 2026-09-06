@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-06",
+  "stories": [
+    {
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49581870",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ExMachina73 · 445 points · 66 comments",
+      "blurb": "Jeff Johnson of Lap Cat Software catches Google quietly carving out another self-exemption in Chrome — this time from the very site data controls users explicitly configure. It's a pattern, not a bug: Chrome's privacy settings are increasingly theater when Google's own properties are involved. If you're not already on Firefox or Safari, this is another nudge."
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "hn_link": "https://news.ycombinator.com/item?id=49580369",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookmtn · 641 points · 344 comments",
+      "blurb": "Isar Aerospace's Spectrum rocket reached orbit and deployed payloads on just its second flight, launching from Andøya Spaceport in Norway. This is a genuine milestone — Europe has never had a private orbital launch vehicle succeed from European soil before. The competitive dynamics in the launch market just got a lot more interesting."
+    },
+    {
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "hn_link": "https://news.ycombinator.com/item?id=49582000",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zplizzi · 454 points · 224 comments",
+      "blurb": "Cloud in a Bottle aims to be the \"Heroku for self-hosters\" — a one-click layer that handles routing, TLS, and service management on your own hardware or VPS. For developers who want data sovereignty without the sysadmin slog, this is worth a serious look. The launch post explains the design philosophy and where it fits relative to Coolify and Caprover."
+    },
+    {
+      "title": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
+      "hn_link": "https://news.ycombinator.com/item?id=49569896",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by p4bl0 · 487 points · 229 comments",
+      "blurb": "A clean, GDPR-compliant European alternative to Netlify and Vercel for static site hosting — no tracking, no US data transfers, straightforward pricing. The HN thread is a great survey of the European indie hosting ecosystem. Ideal if you're building privacy-sensitive projects or just want your infrastructure to stay in Europe."
+    },
+    {
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "hn_link": "https://news.ycombinator.com/item?id=49569366",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by iopapa · 408 points · 225 comments",
+      "blurb": "EEBench runs a systematic benchmark of current LLMs on PCB design tasks — schematic capture, component selection, layout constraints — and the results are humbling but directionally interesting. A useful reality check for anyone excited about AI-assisted hardware design. The benchmark methodology itself is worth stealing for evaluating AI on other domain-specific tasks."
+    },
+    {
+      "title": "LLMs as a Cognitive Virus",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "hn_link": "https://news.ycombinator.com/item?id=49580164",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by canjobear · 293 points · 207 comments",
+      "blurb": "A provocative arxiv paper arguing that LLM outputs act like cognitive viruses — self-propagating patterns that reshape how users think and reason, often without their awareness. As someone who uses Claude Code daily, the question of how much your cognition is being subtly reshaped by the tool is worth sitting with. The HN discussion is characteristically heated and worth reading alongside the paper."
+    },
+    {
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "hn_link": "https://news.ycombinator.com/item?id=49580939",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chmaynard · 400 points · 171 comments",
+      "blurb": "Bryan Cantrill fires a sharp essay at the AI-generated slop flooding technical writing — arguing that readers are starting to actively rebel against content that feels generated, even when they can't prove it. The implications for documentation, blog posts, and developer-facing writing are significant. A must-read for anyone who communicates technical ideas for a living."
+    },
+    {
+      "title": "AI, Tools and Transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "hn_link": "https://news.ycombinator.com/item?id=49582656",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by firexcy · 79 points · 33 comments",
+      "blurb": "Benedict Evans steps back from the hype to ask which AI productivity gains are real versus redistributed effort. His framework — tools that compress work versus tools that transform what work is possible — is genuinely useful for evaluating coding assistants like Claude Code. Short, dense, and worth the ten minutes."
+    },
+    {
+      "title": "Music Theory for Programmers",
+      "url": "https://runjs.app/blog/music-theory-for-programmers",
+      "hn_link": "https://news.ycombinator.com/item?id=49541888",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by birdculture · 177 points · 86 comments",
+      "blurb": "RunJS's explainer maps music theory concepts — scales, intervals, chords, rhythm — onto the mental models programmers already have. It's the kind of cross-domain bridge article that actually sticks because the analogies are precise rather than hand-wavy. Bookmarkable whether you're building a music app or just finally trying to learn piano."
+    },
+    {
+      "title": "Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor",
+      "url": "https://github.com/iczelia/balrogg",
+      "hn_link": "https://news.ycombinator.com/item?id=49549778",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by palaiologos · 90 points · 12 comments",
+      "blurb": "Balrogg is a CLI tool that squeezes up to 15% more compression out of existing Vorbis and Opus files without any quality loss — it's lossless recompression, not transcoding. Perfect for anyone with large podcast or music archives. The name alone earns a look."
+    },
+    {
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 204 points · 158 comments",
+      "blurb": "OpenAI's GPT-6 Astra is being demoed on physical robot arms, with the model apparently handling real-time manipulation tasks via vision and language. The demo videos are striking and the HN thread digs into what's real versus staged. Physical embodiment of frontier models is arriving faster than most predicted."
+    },
+    {
+      "title": "Terpstra Keyboard",
+      "url": "http://terpstrakeyboard.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by cl3misch · 137 points · 63 comments",
+      "blurb": "The Terpstra Keyboard is a browser-based isomorphic keyboard that lets you explore non-12-tone equal temperament tuning systems interactively. It's a rabbit hole for anyone curious about microtonal music or alternative musical math. The fact that it runs entirely in the browser with no install makes it an easy afternoon experiment."
+    },
+    {
+      "title": "The ColorChecker, photography's most important 24 squares, turns 50",
+      "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by sohkamyung · 76 points · 11 comments",
+      "blurb": "The Macbeth ColorChecker turns 50 — and dpreview traces how a piece of cardboard with 24 color patches became the universal calibration standard for cameras, ICC profiles, and computational photography pipelines. A lovely piece of tech history with real implications for anyone doing color-critical photo work. Half a century of keeping cameras honest."
+    },
+    {
+      "title": "Pigeon, a signed Pass for what a sub-agent may do",
+      "url": "https://github.com/pigeonlabsHQ/pigeon",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pigeonlabshq · 7 points · 4 comments",
+      "blurb": "Pigeon is an early-stage framework for issuing cryptographically signed capability passes to AI sub-agents — essentially a permission slip that constrains what a spawned agent is allowed to do. As agentic workflows with Claude Code and similar tools proliferate, safe delegation primitives like this are going to matter a lot. Worth watching even at the prototype stage."
+    },
+    {
+      "title": "I Changed My License",
+      "url": "https://bergie.iki.fi/blog/eupl/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by jllyhill · 59 points · 57 comments",
+      "blurb": "Henri Bergius explains his switch to the European Union Public Licence (EUPL), a copyleft license that's legally harmonized across all 23 EU languages and designed to survive jurisdictional scrutiny. With US open-source legal stability increasingly uncertain, the EUPL is getting a second look from European developers. The HN thread surfaces nuances that the post doesn't cover."
+    },
+    {
+      "title": "Show HN: Keen Bean – Mac meeting notes that draft the spec while you talk",
+      "url": "https://keenbean.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by SavvyMonkey · 6 points · 1 comments",
+      "blurb": "Keen Bean is a native Mac app that listens to meetings and drafts structured specs, action items, and follow-ups in real time — not just a transcript, but an attempt to extract engineering intent. For developers who spend too much time turning meeting ramble into JIRA tickets, this is worth a trial. Runs locally on macOS, which is the right privacy call."
+    },
+    {
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by torutofu · 180 points · 38 comments",
+      "blurb": "A beautifully illustrated deep dive into how Rust's dynamic dispatch actually works — fat pointers, vtable layout, and the memory cost of `dyn Trait`. Even if you're primarily a TypeScript or .NET developer, the mental model of virtual dispatch this builds is directly transferable. The diagrams alone are worth the click."
+    },
+    {
+      "title": "How Swiss tables work in Go built-in map",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by valyala · 85 points · 6 comments",
+      "blurb": "VictoriaMetrics digs into Go's newly adopted Swiss table hash map implementation — SIMD-accelerated probing, tombstone elimination, and the performance wins over the old quadratic-probing design. Understanding hash map internals pays dividends when you're debugging performance in any language. Clean, well-illustrated writeup."
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by elvis70 · 266 points · 101 comments",
+      "blurb": "A free, complete, and surprisingly modern textbook for learning OCaml from scratch, published by the CNRS — France's national research center. OCaml is having a moment thanks to its influence on TypeScript's type system and its role in formal verification tooling. If you've been meaning to pick it up, this is the most polished free resource available."
+    },
+    {
+      "title": "Topologist's Map of the World",
+      "url": "https://www.futilitycloset.com/2026/09/01/small-world-20/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by beardyw · 103 points · 25 comments",
+      "blurb": "Futility Closet surfaces a delightful curiosity: a world map redrawn according to topological equivalence rather than geography, revealing surprising structural similarities between continents and landmasses. It's the kind of \"wait, what?\" brain snack that makes Friday mornings worth having. Short and shareable."
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "date": "2026-09-06",
+  "fetched_at": "2026-09-06T12:02:27",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Private German rocket makes history, reaches orbit from European soil",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+        "hn_id": 49580369,
+        "hn_link": "https://news.ycombinator.com/item?id=49580369",
+        "score": 641,
+        "author": "bookmtn",
+        "comments": 344,
+        "byline_hint": "by bookmtn · 641 points · 344 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Statichost.eu – European static site hosting",
+        "url": "https://www.statichost.eu/",
+        "hn_id": 49569896,
+        "hn_link": "https://news.ycombinator.com/item?id=49569896",
+        "score": 487,
+        "author": "p4bl0",
+        "comments": 229,
+        "byline_hint": "by p4bl0 · 487 points · 229 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+        "url": "https://cloudinabottle.org/blog/launch-post",
+        "hn_id": 49582000,
+        "hn_link": "https://news.ycombinator.com/item?id=49582000",
+        "score": 454,
+        "author": "zplizzi",
+        "comments": 224,
+        "byline_hint": "by zplizzi · 454 points · 224 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Chrome again exempts Google from user site data settings",
+        "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+        "hn_id": 49581870,
+        "hn_link": "https://news.ycombinator.com/item?id=49581870",
+        "score": 445,
+        "author": "ExMachina73",
+        "comments": 66,
+        "byline_hint": "by ExMachina73 · 445 points · 66 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Can AI design circuit boards yet?",
+        "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+        "hn_id": 49569366,
+        "hn_link": "https://news.ycombinator.com/item?id=49569366",
+        "score": 408,
+        "author": "iopapa",
+        "comments": 225,
+        "byline_hint": "by iopapa · 408 points · 225 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The revolt of the reader",
+        "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+        "hn_id": 49580939,
+        "hn_link": "https://news.ycombinator.com/item?id=49580939",
+        "score": 400,
+        "author": "chmaynard",
+        "comments": 171,
+        "byline_hint": "by chmaynard · 400 points · 171 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+        "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+        "hn_id": 49576386,
+        "hn_link": "https://news.ycombinator.com/item?id=49576386",
+        "score": 350,
+        "author": "networked",
+        "comments": 103,
+        "byline_hint": "by networked · 350 points · 103 comments"
+      },
+      {
+        "source": "hn",
+        "title": "LLMs as a Cognitive Virus",
+        "url": "https://arxiv.org/abs/2609.03344",
+        "hn_id": 49580164,
+        "hn_link": "https://news.ycombinator.com/item?id=49580164",
+        "score": 293,
+        "author": "canjobear",
+        "comments": 207,
+        "byline_hint": "by canjobear · 293 points · 207 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Learn Programming with OCaml",
+        "url": "https://usr.lmf.cnrs.fr/lpo/",
+        "hn_id": 49578280,
+        "hn_link": "https://news.ycombinator.com/item?id=49578280",
+        "score": 266,
+        "author": "elvis70",
+        "comments": 101,
+        "byline_hint": "by elvis70 · 266 points · 101 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+        "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+        "hn_id": 49584083,
+        "hn_link": "https://news.ycombinator.com/item?id=49584083",
+        "score": 255,
+        "author": "mpweiher",
+        "comments": 54,
+        "byline_hint": "by mpweiher · 255 points · 54 comments"
+      },
+      {
+        "source": "hn",
+        "title": "GPT-6 Astra on robot arms",
+        "url": "https://openai.robocurve.org/gpt-6-astra/",
+        "hn_id": 49582582,
+        "hn_link": "https://news.ycombinator.com/item?id=49582582",
+        "score": 204,
+        "author": "Anon84",
+        "comments": 158,
+        "byline_hint": "by Anon84 · 204 points · 158 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+        "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+        "hn_id": 49576343,
+        "hn_link": "https://news.ycombinator.com/item?id=49576343",
+        "score": 180,
+        "author": "torutofu",
+        "comments": 38,
+        "byline_hint": "by torutofu · 180 points · 38 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Music Theory for Programmers",
+        "url": "https://runjs.app/blog/music-theory-for-programmers",
+        "hn_id": 49541888,
+        "hn_link": "https://news.ycombinator.com/item?id=49541888",
+        "score": 177,
+        "author": "birdculture",
+        "comments": 86,
+        "byline_hint": "by birdculture · 177 points · 86 comments"
+      },
+      {
+        "source": "hn",
+        "title": "You Don't Have a Right to Safe Drinking Water, US Court Rules",
+        "url": "https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/",
+        "hn_id": 49584637,
+        "hn_link": "https://news.ycombinator.com/item?id=49584637",
+        "score": 168,
+        "author": "vrganj",
+        "comments": 99,
+        "byline_hint": "by vrganj · 168 points · 99 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Terpstra Keyboard",
+        "url": "http://terpstrakeyboard.com/",
+        "hn_id": 49575150,
+        "hn_link": "https://news.ycombinator.com/item?id=49575150",
+        "score": 137,
+        "author": "cl3misch",
+        "comments": 63,
+        "byline_hint": "by cl3misch · 137 points · 63 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Delidded Intel I9-14900KS CT Scan",
+        "url": "https://www.lttlabs.com/articles/2026/09/02/delidded-intel-i9-14900ks",
+        "hn_id": 49539110,
+        "hn_link": "https://news.ycombinator.com/item?id=49539110",
+        "score": 109,
+        "author": "willx86",
+        "comments": 11,
+        "byline_hint": "by willx86 · 109 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Topologist's Map of the World",
+        "url": "https://www.futilitycloset.com/2026/09/01/small-world-20/",
+        "hn_id": 49527599,
+        "hn_link": "https://news.ycombinator.com/item?id=49527599",
+        "score": 103,
+        "author": "beardyw",
+        "comments": 25,
+        "byline_hint": "by beardyw · 103 points · 25 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor",
+        "url": "https://github.com/iczelia/balrogg",
+        "hn_id": 49549778,
+        "hn_link": "https://news.ycombinator.com/item?id=49549778",
+        "score": 90,
+        "author": "palaiologos",
+        "comments": 12,
+        "byline_hint": "by palaiologos · 90 points · 12 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Swiss tables work in Go built-in map",
+        "url": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
+        "hn_id": 49548852,
+        "hn_link": "https://news.ycombinator.com/item?id=49548852",
+        "score": 85,
+        "author": "valyala",
+        "comments": 6,
+        "byline_hint": "by valyala · 85 points · 6 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI, Tools and Transformation",
+        "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "hn_id": 49582656,
+        "hn_link": "https://news.ycombinator.com/item?id=49582656",
+        "score": 79,
+        "author": "firexcy",
+        "comments": 33,
+        "byline_hint": "by firexcy · 79 points · 33 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The ColorChecker, photography's most important 24 squares, turns 50",
+        "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
+        "hn_id": 49529398,
+        "hn_link": "https://news.ycombinator.com/item?id=49529398",
+        "score": 76,
+        "author": "sohkamyung",
+        "comments": 11,
+        "byline_hint": "by sohkamyung · 76 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "OpenBSD Stories: Strange Medieval Devices",
+        "url": "http://miod.online.fr/software/openbsd/stories/smd.html",
+        "hn_id": 49539759,
+        "hn_link": "https://news.ycombinator.com/item?id=49539759",
+        "score": 71,
+        "author": "zdw",
+        "comments": 14,
+        "byline_hint": "by zdw · 71 points · 14 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
+        "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
+        "hn_id": 49580329,
+        "hn_link": "https://news.ycombinator.com/item?id=49580329",
+        "score": 70,
+        "author": "gmays",
+        "comments": 41,
+        "byline_hint": "by gmays · 70 points · 41 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Stopping the Unstoppable: When an unstoppable force meets a dashpot snubber",
+        "url": "https://practical.engineering/blog/2026/9/1/stopping-the-unstoppable",
+        "hn_id": 49525188,
+        "hn_link": "https://news.ycombinator.com/item?id=49525188",
+        "score": 69,
+        "author": "crescit_eundo",
+        "comments": 10,
+        "byline_hint": "by crescit_eundo · 69 points · 10 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AMD Based FreeBSD Desktop Reloaded",
+        "url": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
+        "hn_id": 49582719,
+        "hn_link": "https://news.ycombinator.com/item?id=49582719",
+        "score": 62,
+        "author": "vermaden",
+        "comments": 8,
+        "byline_hint": "by vermaden · 62 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I Changed My License",
+        "url": "https://bergie.iki.fi/blog/eupl/",
+        "hn_id": 49585161,
+        "hn_link": "https://news.ycombinator.com/item?id=49585161",
+        "score": 59,
+        "author": "jllyhill",
+        "comments": 57,
+        "byline_hint": "by jllyhill · 59 points · 57 comments"
+      },
+      {
+        "source": "hn",
+        "title": "RecurseCenter.return()",
+        "url": "https://mm-dev.rocks/series/recursecenter.return/",
+        "hn_id": 49527110,
+        "hn_link": "https://news.ycombinator.com/item?id=49527110",
+        "score": 54,
+        "author": "evakhoury",
+        "comments": 9,
+        "byline_hint": "by evakhoury · 54 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "ISAR Aerospace 5 Sept Mission Onward and Upward",
+        "url": "https://isaraerospace.com/mission-updates-overview",
+        "hn_id": 49579956,
+        "hn_link": "https://news.ycombinator.com/item?id=49579956",
+        "score": 41,
+        "author": "t43562",
+        "comments": 4,
+        "byline_hint": "by t43562 · 41 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "M-DISC – DVD/Blu-ray compatible discs that may last up to 1000 years",
+        "url": "https://en.wikipedia.org/wiki/M-DISC",
+        "hn_id": 49531619,
+        "hn_link": "https://news.ycombinator.com/item?id=49531619",
+        "score": 28,
+        "author": "gurjeet",
+        "comments": 8,
+        "byline_hint": "by gurjeet · 28 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "IBM Quantum Nighthawk R2",
+        "url": "https://www.ibm.com/quantum/blog/nighthawk-r2",
+        "hn_id": 49546198,
+        "hn_link": "https://news.ycombinator.com/item?id=49546198",
+        "score": 23,
+        "author": "fuglede_",
+        "comments": 9,
+        "byline_hint": "by fuglede_ · 23 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Years\"",
+        "url": "https://www.trendingtopics.eu/emad-mostaque-ai-internet-outlook-english/",
+        "hn_id": 49584449,
+        "hn_link": "https://news.ycombinator.com/item?id=49584449",
+        "score": 18,
+        "author": "gumby",
+        "comments": 15,
+        "byline_hint": "by gumby · 18 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A Computer History Time Capsule",
+        "url": "https://blog.archive.org/2026/08/27/a-computer-history-time-capsule/",
+        "hn_id": 49522072,
+        "hn_link": "https://news.ycombinator.com/item?id=49522072",
+        "score": 13,
+        "author": "mooreds",
+        "comments": 0,
+        "byline_hint": "by mooreds · 13 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Pigeon, a signed Pass for what a sub-agent may do",
+        "url": "https://github.com/pigeonlabsHQ/pigeon",
+        "hn_id": 49585209,
+        "hn_link": "https://news.ycombinator.com/item?id=49585209",
+        "score": 7,
+        "author": "pigeonlabshq",
+        "comments": 4,
+        "byline_hint": "by pigeonlabshq · 7 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Keen Bean – Mac meeting notes that draft the spec while you talk",
+        "url": "https://keenbean.app/",
+        "hn_id": 49584880,
+        "hn_link": "https://news.ycombinator.com/item?id=49584880",
+        "score": 6,
+        "author": "SavvyMonkey",
+        "comments": 1,
+        "byline_hint": "by SavvyMonkey · 6 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Empire of Information",
+        "url": "https://lareviewofbooks.org/article/data-empire-roopika-risam-information-organize-control-dominate/",
+        "hn_id": 49535122,
+        "hn_link": "https://news.ycombinator.com/item?id=49535122",
+        "score": 5,
+        "author": "Petiver",
+        "comments": 0,
+        "byline_hint": "by Petiver · 5 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Matching Puzzle Pieces and Disappointing Benchmarks",
+        "url": "https://llogiq.github.io/2026/03/20/case.html",
+        "hn_id": 49554848,
+        "hn_link": "https://news.ycombinator.com/item?id=49554848",
+        "score": 5,
+        "author": "speckx",
+        "comments": 0,
+        "byline_hint": "by speckx · 5 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "\"Catching Crumbs from the Table\"",
+        "url": "https://www.nature.com/articles/35014679",
+        "hn_id": 49584053,
+        "hn_link": "https://news.ycombinator.com/item?id=49584053",
+        "score": 4,
+        "author": "stefanpie",
+        "comments": 1,
+        "byline_hint": "by stefanpie · 4 points · 1 comments"
+      }
+    ],
+    "pinboard": []
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 37,
+    "pinboard_fetched": 0,
+    "pinboard_after_dedup": 0,
+    "pinboard_error": "Feed unreachable"
+  }
+}
