@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-08",
+  "stories": [
+    {
+      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+      "hn_link": "https://news.ycombinator.com/item?id=49592375",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by treve · 792 points · 933 comments",
+      "blurb": "LG's smart TVs are shipping with ACR (Automatic Content Recognition) surveillance baked in, tracking what 216 million households watch and reporting home. A deep dive video exposé with 933 comments worth of rage — this is the canonical reference for why you should never connect a TV to Wi-Fi. If you own an LG set, this one's required viewing."
+    },
+    {
+      "title": "Mistral raises €3B",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "hn_link": "https://news.ycombinator.com/item?id=49605767",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kuberwastaken · 596 points · 421 comments",
+      "blurb": "Mistral just closed a monster €3B round while doubling down on sovereign, open-weight frontier models — a direct challenge to the closed-source hegemony of OpenAI and Anthropic. The framing around \"sovereign AI\" matters enormously for European enterprises and anyone who cares about running models they actually control. Watch this space."
+    },
+    {
+      "title": "Jellyfin 12.0",
+      "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+      "hn_link": "https://news.ycombinator.com/item?id=49604861",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by 0xC0ncord · 444 points · 190 comments",
+      "blurb": "The open-source, zero-tracking Plex alternative lands its biggest release yet with Jellyfin 12.0. Major UI overhaul, improved hardware transcoding, and a slew of long-requested features — this is the privacy-respecting media server that just keeps getting better."
+    },
+    {
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49604637",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ahlCVA · 379 points · 65 comments",
+      "blurb": "A researcher cracked a legacy 90s CA's RSA keys, laying bare exactly how badly ancient PKI infrastructure has aged. It's a practical reminder that the internet's trust chain has rotting timbers — and a gripping technical detective story of how weak key generation compounds over decades."
+    },
+    {
+      "title": "We have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "hn_link": "https://news.ycombinator.com/item?id=49605691",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by saikatsg · 267 points · 267 comments",
+      "blurb": "A rallying cry from the Rust security ecosystem arguing we have roughly one year before systemic supply-chain attacks become unmanageable. Concrete proposals for hardening the open-source toolchain, and the comment thread is unusually substantive. Share this with your security-adjacent colleagues."
+    },
+    {
+      "title": "TALA Is Open-Source",
+      "url": "https://d2lang.com/blog/tala-is-open-source/",
+      "hn_link": "https://news.ycombinator.com/item?id=49604150",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by alixanderwang · 250 points · 20 comments",
+      "blurb": "TALA, the best automatic layout engine for D2 diagrams, just went open-source. If you've ever wrestled with Graphviz's chaotic layouts or paid for diagramming tools, this is the unlock you've been waiting for — clean, hierarchical graph layout free as in beer and freedom."
+    },
+    {
+      "title": "There's a new \"Google Jail\" for independent wikis",
+      "url": "https://weirdgloop.org/blog/google-jail",
+      "hn_link": "https://news.ycombinator.com/item?id=49604870",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by pizzaiolo · 248 points · 90 comments",
+      "blurb": "The RuneScape wiki crew documents how Google is systematically burying independent wikis in search results, effectively handing a monopoly to Fandom and its ad-bloated clones. A chilling first-person account of how algorithmic penalties can kill a community-maintained knowledge base overnight."
+    },
+    {
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "url": "https://arxiv.org/abs/2607.24888",
+      "hn_link": "https://news.ycombinator.com/item?id=49575515",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by signa11 · 221 points · 48 comments",
+      "blurb": "Researchers demonstrate a Ken Thompson-style \"trusting trust\" compiler backdoor attack scaled to an entire Linux distro — not just a compiler, but the whole reproducible-build chain. This is the kind of supply-chain nightmare that keeps infosec people awake at 3am, and now it's peer-reviewed."
+    },
+    {
+      "title": "How well do agents use test/verification techniques?",
+      "url": "https://danluu.com/agentic-testing/",
+      "hn_link": "https://news.ycombinator.com/item?id=49605246",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vinhnx · 117 points · 44 comments",
+      "blurb": "Dan Luu systematically evaluates whether coding agents actually leverage tests and formal verification to self-check their output — spoiler: they mostly don't, and the failure modes are instructive. Essential reading if you're using Claude Code or any agentic coding tool in production."
+    },
+    {
+      "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
+      "url": "https://rohanadwankar.github.io/posts/platforms.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49605644",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by RohanAdwankar · 45 points · 8 comments",
+      "blurb": "A technical deep-dive into the sandboxed VM infrastructure that powers mobile and agentic AI systems like Claude Code — covering isolation models, execution environments, and the tradeoffs between security and capability. If you build with or on top of agentic tools, this is the behind-the-curtain look you didn't know you needed."
+    },
+    {
+      "title": "redhat-et/ripwire: The ripgrep of AI context",
+      "url": "https://github.com/redhat-et/ripwire",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llms, tolearn, totry, tohomebrew, embeddings, via:twitter, via:agenticgirl, mymisunderstandingisnowreal",
+      "blurb": "Red Hat Emerging Technologies drops a zero-dependency C++23 binary that maps your entire codebase structurally — no embeddings, no vector DB, no daemon — and hands coding agents precisely the symbols, callers, and blast radius they need for a given task. This is a fundamentally smarter approach to repo context than RAG, and it's installable via Homebrew today."
+    },
+    {
+      "title": "VMs won't contain cyber-capable agents - The Trail of Bits Blog",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, security, vm",
+      "blurb": "Trail of Bits argues convincingly that traditional VM-based sandboxing is not a viable containment strategy for AI agents with offensive cyber capabilities. As agentic AI becomes more capable, the security assumptions baked into current deployment architectures are dangerously naive — this is the paper that should be influencing every AI safety conversation."
+    },
+    {
+      "title": "Recordly - Open-source app for incredible screen recordings.",
+      "url": "https://recordly.dev/",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: screenshot, video, demo",
+      "blurb": "Recordly is an open-source screen recorder that adds auto-zoom, smooth cursor animations, and cinematic polish to your recordings automatically. A gorgeous alternative to the pricey Rotato/Screen Studio crowd — if you make dev demos or tutorials, try this before paying for anything else."
+    },
+    {
+      "title": "TMOG — Native Task Manager for macOS and Windows",
+      "url": "https://tmog.org/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, apple, software, lukas-zuzanak",
+      "blurb": "TMOG is a native, lightweight task manager for macOS that eschews the bloat of Notion and Things in favor of clarity and speed. Built specifically for the Apple ecosystem with a clean interface — exactly the kind of focused utility that Pinboard surfaces and App Store charts miss."
+    },
+    {
+      "title": "I'm done using AI – Brett Codes",
+      "url": "https://brettcodes.com/im-done-using-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, coding, firsthand, 2026",
+      "blurb": "A developer's candid first-hand account of stepping back from AI coding tools after months of heavy use — documenting where the productivity gains evaporated and what it cost him in understanding and craft. Counterpoint to the hype cycle, and worth reading even if you disagree with the conclusion."
+    },
+    {
+      "title": "GitHub - scastiel/kado: Kadō — A privacy-first habit tracker for iPhone and iPad.",
+      "url": "https://github.com/scastiel/kado",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "Kadō is an open-source, privacy-first habit tracker for iPhone and iPad — no accounts, no cloud sync, no tracking. The source is on GitHub, so you can audit exactly what it does with your data. A rare example of a native iOS app that actually walks the privacy talk."
+    },
+    {
+      "title": "The best dark mode toggle is probably none • Lea Verou",
+      "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "CSS luminary Lea Verou makes the counterintuitive case that the optimal dark mode implementation respects the OS-level system preference and ships no toggle at all. Loaded with practical CSS patterns and the kind of nuanced UX thinking that separates thoughtful engineers from checkbox-ticklers."
+    },
+    {
+      "title": "Easy local Copilot with VS Code and Lemonade",
+      "url": "https://admcpr.com/easy-local-copilot-with-vs-code-and-lemonade/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 2026, ai",
+      "blurb": "A step-by-step guide to wiring up a fully local AI code-completion setup in VS Code using Lemonade — no telemetry, no API keys, no monthly bill. If you've been meaning to ditch Copilot for an on-device alternative, this is the cleanest tutorial available right now."
+    },
+    {
+      "title": "GitHub - genspark-ai/genoffice: Free, open-source alternative to Microsoft Office with built-in AI agents",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: office",
+      "blurb": "GenOffice is a free, open-source desktop suite handling Word, Excel, PowerPoint, PDF, and Markdown with AI agents baked in — targeting macOS, Windows, and Linux. Ambitious and early, but if it delivers on even half its promise, this could be a serious LibreOffice successor for the AI era."
+    },
+    {
+      "title": "The car industry A/B tested selling a car with and without CarPlay and the results are not shocking",
+      "url": "https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: carplay, cars, 2020s, GM, honda, research, data, sales",
+      "blurb": "GM removed CarPlay from Chevy EVs in favor of Google's Android Automotive OS, and the market replied by buying the Honda badge-equivalent that still had CarPlay instead. Real sales data confirms what Apple ecosystem fans already knew: CarPlay is a purchasing decision, not a nice-to-have. A satisfying data-driven vindication."
+    }
+  ]
+}
