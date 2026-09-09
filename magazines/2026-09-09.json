@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-09",
+  "stories": [
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "hn_link": "https://news.ycombinator.com/item?id=49613262",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tedsanders · 1285 points · 1034 comments",
+      "blurb": "OpenAI claims its AI has cracked the Navier-Stokes Millennium Prize Problem — one of math's seven great unsolved challenges. The HN discussion is enormous for good reason: if verified, this is a watershed moment for AI-assisted mathematical reasoning. Controversy is already swirling (see the Science.org and TechCrunch pieces below), making this the story of the day."
+    },
+    {
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=49605915",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by procedurecall · 1791 points · 743 comments",
+      "blurb": "The NYU mathematician at the center of the AI math controversy responds directly — in his own words, as a PDF. Buckmaster alleges OpenAI used his unpublished approach without credit, a charge that cuts to the heart of how AI interacts with human scientific priority. Essential companion reading to the OpenAI announcement."
+    },
+    {
+      "title": "How An AI math breakthrough ignited a controversy",
+      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+      "hn_link": "https://news.ycombinator.com/item?id=49624163",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pseudolus · 130 points · 118 comments",
+      "blurb": "Science magazine's authoritative deep-dive into the OpenAI/Navier-Stokes dispute, with quotes from experts on both sides. The controversy touches on research ethics, AI attribution, and whether LLMs can truly 'discover' versus recombine. A sobering counterpoint to the triumphalist press release."
+    },
+    {
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "hn_link": "https://news.ycombinator.com/item?id=49610631",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by domhudson · 477 points · 329 comments",
+      "blurb": "A tiny but brilliant prompt-engineering fix: this Claude/coding-agent skill forces the model to surface the answer immediately rather than burying it in verbose preamble. Direct Claude Code users who've watched the agent ramble through fifty lines of reasoning before answering will want this immediately. Practical, opinionated, and delightfully named."
+    },
+    {
+      "title": "Muse – Meta's personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "hn_link": "https://news.ycombinator.com/item?id=49615537",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yks · 553 points · 605 comments",
+      "blurb": "Meta launches Muse, its ambient personal AI agent that learns from your activity across apps and surfaces proactive assistance. It's a direct shot at Apple Intelligence and competing personal-agent plays. The 605-comment HN thread is a masterclass in skepticism about privacy and data ownership — well worth reading alongside the product page."
+    },
+    {
+      "title": "Flock Wants a Closely Surveilled World with No Exit",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit",
+      "hn_link": "https://news.ycombinator.com/item?id=49624394",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by pseudolus · 210 points · 185 comments",
+      "blurb": "The New Yorker's damning profile of Flock Safety, the license-plate-reader network that has quietly blanketed American roads. The 'no exit' framing is apt: once this infrastructure exists, there's no political will to remove it. Essential reading for anyone who cares about mass surveillance and the creeping normalization of automated tracking."
+    },
+    {
+      "title": "DaVinci Resolve 21.1",
+      "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+      "hn_link": "https://news.ycombinator.com/item?id=49610181",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by tosh · 417 points · 188 comments",
+      "blurb": "Blackmagic's monster free video editor drops another major update. Version 21.1 brings new AI-assisted color tools, improved timeline performance, and several macOS-specific fixes. For anyone doing video work on a Mac without paying an Adobe tax, this is the release worth upgrading to."
+    },
+    {
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "hn_link": "https://news.ycombinator.com/item?id=49616968",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by _alternator_ · 398 points · 350 comments",
+      "blurb": "Terence Tao — possibly the greatest living mathematician — warns that AI systems are consuming open math problems like a non-renewable resource, producing solutions that foreclose human discovery. A provocative Mastodon post that sparked a 350-comment HN debate about the long-term epistemics of AI-assisted science."
+    },
+    {
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "hn_link": "https://news.ycombinator.com/item?id=49611128",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by stared · 265 points · 128 comments",
+      "blurb": "Rigorous benchmarks on running Qwen3 27B locally at different quantization levels — 4-bit is surprisingly competitive with full precision, while 1-bit is essentially broken. Highly actionable for anyone running local LLMs on Apple Silicon where VRAM is the constraint. The 4-bit sweet spot is now confirmed by data."
+    },
+    {
+      "title": "Replacing a Rust Enum with a 64-Bit Word Made My Interpreter 17% Faster",
+      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
+      "hn_link": "https://news.ycombinator.com/item?id=49575914",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by metrofun · 134 points · 54 comments",
+      "blurb": "A hands-on micro-optimization case study: swapping a tagged Rust enum for a manually packed 64-bit word yielded a real-world 17% interpreter speedup. Clear code, clear benchmarks, and a lesson in how language abstractions can hide performance costs. Worth reading even if you never touch Rust."
+    },
+    {
+      "title": "cathrynlavery/diagram-design: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude_skills",
+      "blurb": "A curated library of 29 clean, self-contained HTML+SVG diagram templates tuned specifically for Claude Code to render. No Mermaid, no drop shadows, no AI slop — just crisp editorial diagrams you can drop into any project. If you use Claude Code daily, this is a direct quality-of-life upgrade for documentation and design work."
+    },
+    {
+      "title": "Daring Fireball: SuperDuper 4",
+      "url": "https://daringfireball.net/2026/09/superduper_4",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Gruber reviews SuperDuper 4, the beloved Mac backup utility's major new release. SuperDuper is practically a rite of passage for serious Mac users, and a new version is newsworthy — especially as Apple Silicon has complicated bootable backups. If you're not running regular clones of your Mac, this is your nudge."
+    },
+    {
+      "title": "McKinley — Design your own SF Symbols",
+      "url": "https://mckinleysymbols.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "McKinley is a macOS app that lets you design custom SF Symbols — Apple's native icon system used across iOS, macOS, and visionOS. Instead of fighting Illustrator exports, you draw in a purpose-built editor and export symbols that slot seamlessly into Xcode. Genuinely useful for any developer building native Apple UIs."
+    },
+    {
+      "title": "\"how a mobile operating system (of all places!) got data interoperability for password managers that's easier, more secure, and more comprehensive than on desktop.\"",
+      "url": "https://rmondello.com/2026/09/07/switching-password-managers-2026/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: s",
+      "blurb": "Ricky Mondello (former Apple WebKit/Safari engineer) explains how a quiet new standard has made switching password managers on iOS dramatically easier than on any desktop OS. The technical details are sharp, and the observation that mobile leapfrogged desktop here is counterintuitive and well-argued. Directly relevant to anyone evaluating 1Password vs. Bitwarden vs. Apple Passwords."
+    },
+    {
+      "title": "A Secretive DHS 'Predictive Policing' Unit is Analyzing Americans' Financial Habits and Pulling Them Over",
+      "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: surveillance, policy, data",
+      "blurb": "404 Media exposes a DHS Border Patrol unit that cross-references financial transaction data to flag drivers for traffic stops — and has pulled over innocent people. This is predictive policing at its most chilling, combining financial surveillance with physical enforcement. Essential reading for anyone tracking the expanding surveillance state."
+    },
+    {
+      "title": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: links, to_share",
+      "blurb": "A curated GitHub repository collecting leaked system prompts from major AI products — Claude, ChatGPT, Copilot, Gemini, and more. For anyone doing prompt engineering or building AI-powered tools, seeing how frontier labs actually instruct their models is invaluable and occasionally surprising. A must-bookmark research resource."
+    },
+    {
+      "title": "LLM Attention Visualization",
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: explorable-explanation, llm, transformer",
+      "blurb": "An interactive, browser-based explorable explanation of the transformer attention mechanism — you can feed in your own text and watch attention heads light up in real time. Beautifully executed and actually illuminating rather than just decorative. Anyone building with LLMs who wants a more concrete mental model of what's happening under the hood should spend 15 minutes here."
+    },
+    {
+      "title": "Litterbox",
+      "url": "https://andadinosaur.com/launch-litterbox",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Litterbox is a new Safari extension for macOS/iOS (from the maker of And a Dinosaur) that opens X/Twitter links in a clean popup without sending your cookies — perfect for the many people who've quit X but still get linked there. Gruber called it the right approach: view the tweet, close the lid, move on. A tiny but delightful piece of Apple ecosystem software."
+    },
+    {
+      "title": "Trackables",
+      "url": "https://trackables.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Trackables is a new iOS/macOS app surfaced via Daring Fireball for tracking anything you want to log over time — habits, metrics, custom data. It occupies the thoughtful personal-data niche that fits naturally alongside Obsidian-style workflows. Worth a look if you want a native Apple app for the kind of tracking usually done in spreadsheets or markdown."
+    },
+    {
+      "title": "The state of European cloud providers in 2026 // crescentro.se",
+      "url": "https://crescentro.se/posts/euro-cloud-providers-2026/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: europe, cloud, provider, comparison",
+      "blurb": "A thorough, opinionated comparison of European cloud alternatives to AWS/GCP/Azure in 2026 — covering Hetzner, Exoscale, Scaleway, OVH, and others. As data sovereignty and US policy concerns drive more teams toward EU-hosted infrastructure, this is the definitive cheat sheet. Practical and immediately actionable for anyone evaluating cloud options."
+    }
+  ]
+}
