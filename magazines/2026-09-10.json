@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-10",
+  "stories": [
+    {
+      "title": "iPhone Duo",
+      "url": "https://www.apple.com/iphone-duo/",
+      "hn_link": "https://news.ycombinator.com/item?id=49630931",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by thecosmicfrog · 1256 points · 2201 comments",
+      "blurb": "Apple's long-rumored foldable iPhone is here — the iPhone Duo is now official. With 1256 points and 2201 comments, this is the biggest HN story of the day. The most significant iPhone form-factor shift since the original."
+    },
+    {
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "hn_link": "https://news.ycombinator.com/item?id=49626190",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by EdwinHoksberg · 1066 points · 414 comments",
+      "blurb": "Tailwind CSS, the utility-first framework that quietly took over frontend development, is joining Shopify. This reshapes the CSS ecosystem and raises big questions about the project's future independence. If you use Tailwind in Angular projects, pay attention to the comments."
+    },
+    {
+      "title": "DeepSeek v4.1 Flash",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "hn_link": "https://news.ycombinator.com/item?id=49639090",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Liwink · 542 points · 293 comments",
+      "blurb": "DeepSeek drops another model, this time a \"Flash\" variant targeting speed and efficiency. The pace of Chinese AI model releases continues to pressure the incumbents. Worth benchmarking against your current coding assistant workflow."
+    },
+    {
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "hn_link": "https://news.ycombinator.com/item?id=49627370",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ModelForge · 465 points · 147 comments",
+      "blurb": "Sebastian Raschka digs into GPT-6 Astra's architecture, including looped transformer layers and how the model does reasoning it doesn't show you. Essential reading for anyone who wants to understand what's actually different about the new frontier models rather than just the marketing."
+    },
+    {
+      "title": "AirPods 5",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "hn_link": "https://news.ycombinator.com/item?id=49630253",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by awad · 474 points · 404 comments",
+      "blurb": "Apple claims best-in-class open-ear ANC for AirPods 5 — a bold claim given the competition. Announced alongside the iPhone Duo at today's event, this is the headphone upgrade many have been waiting for."
+    },
+    {
+      "title": "How I advertise malicious software on Google Ads",
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+      "hn_link": "https://news.ycombinator.com/item?id=49624856",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by xlii · 419 points · 255 comments",
+      "blurb": "A researcher walks through exactly how they got malware ads approved and served via Google Ads, exposing gaping holes in Google's review process. This is why you should never download software from a Google search result — share it with anyone who doesn't already know."
+    },
+    {
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "hn_link": "https://news.ycombinator.com/item?id=49624823",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by willwhitedc · 463 points · 97 comments",
+      "blurb": "Desert Ant Labs is building local, on-device models designed for speed and privacy — no cloud required. For developers who want AI coding assistance without sending their code to third-party servers, this is worth watching closely."
+    },
+    {
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "hn_link": "https://news.ycombinator.com/item?id=49637385",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by dmitrybrant · 429 points · 175 comments",
+      "blurb": "An interactive visual simulation of a relativistic universe where c = 5 km/h, letting you experience length contraction and time dilation at walking speed. Genuinely mind-bending and a beautiful piece of creative coding."
+    },
+    {
+      "title": "Factoring RSA 260",
+      "url": "https://cognition.com/blog/factoring-rsa-260",
+      "hn_link": "https://news.ycombinator.com/item?id=49633534",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by samyok · 110 points · 12 comments",
+      "blurb": "Cognition claims to have factored RSA-260, a 260-digit semiprime — a landmark cryptographic result. If verified, this has serious implications for legacy RSA key sizes still in use across the web. The comments are thin but the story is huge."
+    },
+    {
+      "title": "Thanks to Siri Recaps, your Apple Watch is always listening",
+      "url": "https://www.techradar.com/health-fitness/smartwatches/thanks-to-siri-recaps-your-apple-watch-is-always-listening-as-you-go-about-your-day-but-apple-may-be-risking-a-meta-glasses-style-backlash",
+      "hn_link": "https://news.ycombinator.com/item?id=49641401",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by geox · 52 points · 32 comments",
+      "blurb": "Apple Watch Series 12's new Siri Recaps feature keeps the mic open to summarize your day — a feature that privacy-conscious Apple fans should scrutinize carefully. The Meta glasses backlash comparison is apt; Apple needs to be explicit about what's being recorded and processed where."
+    },
+    {
+      "title": "LG TV shown scanning LAN for third-party phones and other devices - Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lg, privacy, security",
+      "blurb": "Researchers caught an LG smart TV actively scanning the local network for phones and other devices — even when supposedly offline. This is surveillance capitalism baked into your living room hardware. A reminder to VLAN your smart TVs."
+    },
+    {
+      "title": "herdr — tmux for agents",
+      "url": "https://herdr.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Herdr is a persistent terminal multiplexer built specifically for AI coding agents: detach and reattach while agents keep running, with built-in state awareness for blocked, working, and done states. If you're running Claude Code or similar agents for long-running tasks, this solves the session persistence problem elegantly."
+    },
+    {
+      "title": "Migrate to Apple Passwords from your current secret-keeper",
+      "url": "https://sixcolors.com/post/2026/09/migrate-to-apple-passwords-from-your-current-secret-keeper/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, security",
+      "blurb": "Six Colors walks through migrating your password vault to Apple's built-in Passwords app. With Apple Passwords maturing fast, this is the practical guide for anyone considering ditching a third-party manager and staying in the Apple ecosystem."
+    },
+    {
+      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: clanker",
+      "blurb": "An NYU mathematician alleges OpenAI used the same obscure approach to a major math problem at the same time as him — suspiciously so. The ethics of AI training on unpublished academic work and then racing researchers to publication is now a live dispute. The Scientific American follow-up adds more expert voices."
+    },
+    {
+      "title": "Apple Unveils A20 Pro as First 2nm Smartphone Chip - MacRumors",
+      "url": "https://www.macrumors.com/2026/09/09/apple-unveils-a20-pro-as-first-2nm-smartphone-chip/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple's A20 Pro is the world's first 2nm smartphone chip, and the numbers on compute density and efficiency are going to be staggering. This silicon leap is what makes the iPhone 18 Pro and iPhone Duo's on-device AI ambitions credible."
+    },
+    {
+      "title": "copperhead. Cursor for circuit boards.",
+      "url": "https://copperhead.sh/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Copperhead brings AI-assisted design to PCB layout — think Cursor/Claude Code but for electronics. Install via npm and start describing circuits. A fascinating application of the AI coding assistant model to hardware design."
+    },
+    {
+      "title": "Scenarios for our Economic Future Anthropic",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, future",
+      "blurb": "Anthropic's research institute lays out multiple scenarios for how AI reshapes the economy — from gradual productivity gains to rapid labor displacement. Required reading if you're building products or careers on top of AI tools and want to think beyond the next quarter."
+    },
+    {
+      "title": "A Design Space Exploration of Async/Await",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: async, programming, api, design, concurrency",
+      "blurb": "Brown University researchers map out the full design space of async/await across languages — covering structured concurrency, cancellation, error propagation, and more. A rigorous academic treatment that's surprisingly readable for working developers who hit async pain points in TypeScript or .NET."
+    },
+    {
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "LibreOffice 26.8 hit over 1 million downloads — a record — partly on the strength of explicitly advertising that it has no AI features. There's a growing market of users actively rejecting AI integration, and this is a data point worth sitting with."
+    },
+    {
+      "title": "The purpose of DNS is to spread scams",
+      "url": "https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: dns",
+      "blurb": "A caustic but well-argued piece on how the DNS ecosystem has become the primary infrastructure layer enabling phishing, typosquatting, and scam distribution. The author makes the uncomfortable case that DNS registrars profit from abuse. Pairs well with today's Google Ads malware story."
+    }
+  ]
+}
