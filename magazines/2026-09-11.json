@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-11",
+  "stories": [
+    {
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
+      "hn_link": "https://news.ycombinator.com/item?id=49643982",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by fnthawar2 · 1121 points · 818 comments",
+      "blurb": "Shopify is abandoning React Native after years of investment, returning to platform-native Swift and Kotlin development. With 818 comments, this is sparking a heated industry debate about cross-platform frameworks vs. native performance. A major data point for anyone evaluating mobile architecture decisions in 2026."
+    },
+    {
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "hn_link": "https://news.ycombinator.com/item?id=49639408",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pred_ · 828 points · 763 comments",
+      "blurb": "Researchers are raising serious concerns that OpenAI may be using unpublished mathematical work submitted through its tools to train models. This is a trust and intellectual-property crisis with direct implications for anyone who shares sensitive work with AI assistants. If you use Claude Code or any AI coding tool with proprietary code, this conversation is essential reading."
+    },
+    {
+      "title": "Rust is tier-1 language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "hn_link": "https://news.ycombinator.com/item?id=49643546",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mmastrac · 695 points · 452 comments",
+      "blurb": "Microsoft has formally elevated Rust to tier-1 language status, putting it alongside C, C++, and C# for new systems work. This is a landmark moment for memory-safe systems programming and signals where Microsoft's vast engineering org is heading. Expect Rust to show up in more Windows components, Azure infrastructure, and tooling near you."
+    },
+    {
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "hn_link": "https://news.ycombinator.com/item?id=49645443",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by seelos · 426 points · 176 comments",
+      "blurb": "Cognition's Devin follow-up model SWE-2 is pushing the frontier on autonomous software engineering benchmarks, now competing with top-tier models. For Claude Code users, this is the competitive landscape that's driving rapid capability improvements across all coding assistants. Worth benchmarking against your own workflows."
+    },
+    {
+      "title": "List of references on Sony websites to players \"owning\" their digital games",
+      "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+      "hn_link": "https://news.ycombinator.com/item?id=49642531",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by haunter · 404 points · 141 comments",
+      "blurb": "A meticulously sourced wiki documenting every instance Sony explicitly promised players they \"own\" their digital purchases — now ammunition in an active lawsuit. This is the definitive case study for why digital rights language in ToS and marketing materials actually matters legally. A must-read for anyone who cares about digital ownership."
+    },
+    {
+      "title": "The Deathray: A simple way for an untrusted site to freeze a Mac",
+      "url": "https://auberon.xyz/blog/posts/deathray/",
+      "hn_link": "https://news.ycombinator.com/item?id=49649124",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by auberonedu · 226 points · 150 comments",
+      "blurb": "A researcher documents a surprisingly simple browser-based technique that can freeze a Mac solid just by visiting an untrusted webpage — no exploit required, just resource exhaustion. Direct impact for macOS users and worth understanding before Safari or Chrome patches it. The writeup is clear and the demo is genuinely alarming."
+    },
+    {
+      "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+      "hn_link": "https://news.ycombinator.com/item?id=49645437",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gumby · 348 points · 56 comments",
+      "blurb": "NASA spinoff tech originally developed for satellite image processing is now being used to recover ancient archaeological features invisible to the naked eye. It's remote sensing meets archaeology, and the results are spectacular. A great reminder that image-processing techniques built for one domain can unlock entirely new fields."
+    },
+    {
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "hn_link": "https://news.ycombinator.com/item?id=49649213",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aquir · 282 points · 157 comments",
+      "blurb": "OpenAI has shipped a dedicated Agents API, giving developers first-class primitives for building multi-step autonomous workflows beyond simple chat completions. This is actionable today for anyone building AI-powered .NET or TypeScript backends. Pairs naturally with Claude Code workflows as a reference point for how agentic APIs are converging."
+    },
+    {
+      "title": "Neki – Sharded Postgres",
+      "url": "https://planetscale.com/blog/introducing-neki",
+      "hn_link": "https://news.ycombinator.com/item?id=49645686",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by simon_weber · 253 points · 133 comments",
+      "blurb": "PlanetScale introduces Neki, a sharding layer for PostgreSQL that promises horizontal scale without leaving the Postgres ecosystem. After years of MySQL-only focus, this is a significant pivot and a serious contender for teams outgrowing single-node Postgres. The architecture post is thorough and worth studying even if you're not switching today."
+    },
+    {
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "hn_link": "https://news.ycombinator.com/item?id=49645907",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by weierstass · 195 points · 75 comments",
+      "blurb": "A critical remote code execution vulnerability has been patched in Forgejo, the popular self-hosted Git platform — upgrade to 16.0.4 immediately if you're running any earlier version. This is the kind of patch you don't sleep on: unauthenticated RCE on your code host is catastrophic. Check your instances now."
+    },
+    {
+      "title": "Nine coding harnesses vs. your laptop",
+      "url": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nasutton12 · 125 points · 41 comments",
+      "blurb": "A hands-on benchmark of nine AI coding harnesses — including Claude Code and competitors — run against real tasks on local hardware. This is exactly the kind of practical, opinionated comparison that's hard to find elsewhere. Essential reading for deciding where to invest your AI-assisted development workflow."
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by garo-pro · 146 points · 210 comments",
+      "blurb": "Anthropic's September 2026 threat intelligence report details real-world misuse patterns it's caught and countered in Claude — from influence operations to malware generation. For Claude Code users, this is a transparent look at how the model you rely on is being actively hardened against abuse. The concrete examples are sobering and the mitigations are instructive."
+    },
+    {
+      "title": "So you want to use OpenRouter?",
+      "url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by player85 · 237 points · 43 comments",
+      "blurb": "A practical, no-nonsense guide to integrating OpenRouter as a unified LLM gateway — covering authentication, model selection, cost management, and gotchas. If you're building AI features into a TypeScript or .NET app and don't want to hard-code a single provider, this is where to start. Saves hours of reading scattered documentation."
+    },
+    {
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "url": "https://merybenavente.me/blog/proof-of-capture",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by merybenavente · 118 points · 68 comments",
+      "blurb": "A developer built an open-source alternative to Apple's proprietary image provenance system, embedding steganographic watermarks at capture time to prove a photo is unaltered. This is a creative software and privacy project rolled into one, directly relevant to the Apple ecosystem. A clever hack that tackles the deepfake authenticity problem without requiring platform lock-in."
+    },
+    {
+      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
+      "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rguiscard · 266 points · 86 comments",
+      "blurb": "A 16-year-old in Mexico engineered a device that uses targeted sound waves to starve a fire of oxygen, extinguishing it in seconds without water or chemicals. This is a delightful piece of weird science — acoustics applied to a genuinely ancient problem. The HN thread digs into the physics with gusto."
+    },
+    {
+      "title": "Don't let anyone take away your big box of cables",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by Brajeshwar · 601 points · 372 comments",
+      "blurb": "Jim Nielsen's essay is a spirited defense of physical ownership, repairability, and the right to tinker — using the humble cable box as a metaphor for everything software-as-a-service is quietly taking away. It's equal parts philosophy and practical manifesto for keeping control of your own tools. Hit a nerve with 601 points and nearly 400 comments."
+    },
+    {
+      "title": "Apple A20 Pro Geekbench Result",
+      "url": "https://browser.geekbench.com/v6/cpu/compare/19147979?baseline=19141805",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by aurareturn · 21 points · 12 comments",
+      "blurb": "First Geekbench scores for the A20 Pro are surfacing ahead of the iPhone 18 announcement, and the numbers show a meaningful generational leap in both single- and multi-core performance. For macOS and Apple ecosystem watchers, this preview matters — A-series gains eventually flow into M-series chips. The comparison view makes it easy to see exactly where the gains land."
+    },
+    {
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by michalwarda · 36 points · 15 comments",
+      "blurb": "The Quesma team independently benchmarked Redux Toolkit's (RTK) claimed token-savings for AI coding tools and found the real-world numbers don't match the marketing. Directly relevant to Angular/TypeScript developers using AI coding assistants on Redux-heavy codebases. A rare, honest independent cost analysis in a space full of vendor self-reporting."
+    },
+    {
+      "title": "Testing race conditions with mem access tracing and stack-based delay injection",
+      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by mfrw · 13 points · 0 comments",
+      "blurb": "Google Project Zero details a novel technique for deterministically triggering race conditions using memory access tracing and carefully injected stack delays — work that surfaced in a macOS concurrency bug. The methodology is transferable to any systems debugging context and represents serious low-level craftsmanship. Underscored by HN, but the content is top-shelf."
+    },
+    {
+      "title": "Douglas Hofstadter: Analogy as the Core of Cognition [video]",
+      "url": "https://www.youtube.com/watch?v=n8m7lFQ3njk",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by tosh · 193 points · 86 comments",
+      "blurb": "Hofstadter's landmark talk argues that analogy-making — not logic — is the fundamental engine of thought, a thesis that cuts right to the heart of debates about what LLMs actually do. It's a classic worth revisiting now that AI systems are the test bed for his ideas. Clear, witty, and genuinely mind-expanding for anyone building with or thinking critically about AI."
+    }
+  ]
+}
