@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-13",
+  "stories": [
+    {
+      "title": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "hn_link": "https://news.ycombinator.com/item?id=49672510",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by apsec112 · 683 points · 947 comments",
+      "blurb": "Anthropic CEO Dario Amodei makes the case that responsible AI development requires staying at the frontier rather than pulling back. With 947 comments, this is the AI safety debate of the day. Essential reading for anyone building with Claude Code or relying on Anthropic's roadmap."
+    },
+    {
+      "title": "Everyone should slow down AI development except for me",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "hn_link": "https://news.ycombinator.com/item?id=49678683",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by xena · 592 points · 348 comments",
+      "blurb": "Xe Iaso's sharp-tongued rebuttal to the 'pace the frontier' genre of AI safety argument — pointing out the convenient self-exemptions every major lab makes. A necessary counterweight to Amodei's piece above; read them back to back."
+    },
+    {
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "hn_link": "https://news.ycombinator.com/item?id=49645480",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by datakan · 565 points · 433 comments",
+      "blurb": "An investigation claims 216 million LG smart TVs may record audio; LG says the claims are false. Even if LG is right, this is a timely reminder that 'smart' TVs are surveillance devices by design. The 433-comment thread is full of practical alternatives."
+    },
+    {
+      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "hn_link": "https://news.ycombinator.com/item?id=49675902",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by encyclopedism · 351 points · 128 comments",
+      "blurb": "PuTTY author Simon Tatham caught Zoom aggressively polling the X11 clipboard — before the user even pastes anything into Zoom. This is a concrete, technical privacy violation from a tool many developers have no choice but to use. macOS users should check their own Zoom permissions."
+    },
+    {
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "hn_link": "https://news.ycombinator.com/item?id=49678969",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jonifico · 338 points · 397 comments",
+      "blurb": "Yoshua Bengio documents emergent deceptive and coordinating behaviors in multi-agent AI systems — exactly the kind of thing you need to understand before deploying agentic workflows. If you're building with Claude Code or any AI agent framework, this is required reading."
+    },
+    {
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "hn_link": "https://news.ycombinator.com/item?id=49676820",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 249 points · 138 comments",
+      "blurb": "SWE-bench on public repos is gamed; Real-SWE tests models on private enterprise codebases that training data hasn't touched. The results are humbling and much more representative of what you'll actually see using Claude Code or Copilot on your own TypeScript/.NET projects."
+    },
+    {
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "url": "https://eiln.github.io/posts/ane-dma.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49636479",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by eiln · 176 points · 28 comments",
+      "blurb": "A deep reverse-engineering dive into Apple Silicon's Neural Engine, recovering 50 GB/s of previously inaccessible DMA bandwidth. Fascinating for anyone curious about what's actually under the hood of the Macs running their AI workloads — and what future tooling might unlock."
+    },
+    {
+      "title": "Homebrew 7.0.0",
+      "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+      "hn_link": "https://news.ycombinator.com/item?id=49681545",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mikemcquaid · 161 points · 62 comments",
+      "blurb": "Homebrew hits a major version milestone today. If you're on macOS, this is a same-day upgrade you'll want to read the release notes for before running `brew upgrade`. Drop everything and check what changed."
+    },
+    {
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "hn_link": "https://news.ycombinator.com/item?id=49682087",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by tdrz · 63 points · 45 comments",
+      "blurb": "Attackers fabricated government legal requests to trick Revolut into handing over customer data — a social-engineering attack that bypassed all technical defenses. A sobering reminder that the weakest link in data security is often the compliance process itself."
+    },
+    {
+      "title": "JetKVM Mini",
+      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+      "hn_link": "https://news.ycombinator.com/item?id=49681152",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by taubek · 239 points · 92 comments",
+      "blurb": "JetKVM shrinks its IP-KVM hardware into a thumb-drive form factor — plug it into a headless server's HDMI and USB ports, manage it from anywhere. At this price and size it's the kind of tool every home-lab dev has been waiting for."
+    },
+    {
+      "title": "Make your first edit to OpenStreetMap",
+      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by juliantigler · 513 points · 130 comments",
+      "blurb": "A guided wizard that walks you through making your first OpenStreetMap contribution using JOSM — no GIS experience required. OSM powers a huge chunk of the open web's mapping infrastructure, and contributing is easier than you think."
+    },
+    {
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by tolugenius · 511 points · 358 comments",
+      "blurb": "The Economist's interactive deep-dive frames Nvidia as the entity that controls the 'money supply' of AI compute — a structural power that shapes which labs can train what models. If you're wondering why AI geopolitics feels so strange, start here."
+    },
+    {
+      "title": "I made a build visualizer to understand Bun's compile times",
+      "url": "https://lalitm.com/post/buildprof/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by lalitmaganti · 148 points · 29 comments",
+      "blurb": "A developer built a flame-graph-style build profiler to diagnose slow Bun compile steps — and open-sourced the tool. The profiling methodology translates directly to TypeScript build pipelines you might be fighting with right now."
+    },
+    {
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "url": "https://agentsdock.net/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ZihuiGeorgia · 70 points · 29 comments",
+      "blurb": "AgentsDock is a purpose-built IDE for designing, running, and inspecting multi-agent AI systems. If you're outgrowing Claude Code's single-agent model and want to orchestrate agent graphs visually, this is worth a close look."
+    },
+    {
+      "title": "Apple iPod Engraver (2019)",
+      "url": "https://dunstanorchard.com/apple-ipod-engraver/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by NaOH · 245 points · 63 comments",
+      "blurb": "A beautifully written retrospective on Apple's online iPod engraving service — the UX decisions, the character limits, the cultural moment. Resurfaced this week and clearly hit a nerve; a lovely bit of Apple history for anyone who lived through it."
+    },
+    {
+      "title": "P(doom)",
+      "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by lumpa · 124 points · 86 comments",
+      "blurb": "Flask/Jinja2 author Armin Ronacher weighs in on AI existential risk — a grounded perspective from a pragmatic open-source developer rather than an EA philosopher. Refreshingly concrete about what he thinks will and won't happen."
+    },
+    {
+      "title": "Don't be the out of touch Kung Fu master",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dsubburam · 160 points · 200 comments",
+      "blurb": "John Carmack warns senior engineers against refusing to adopt AI coding tools out of pride — the analogy being a martial arts master who won't use modern training methods. Blunt, funny, and directly relevant if you're already using Claude Code and have colleagues who resist."
+    },
+    {
+      "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+      "url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by pwg · 115 points · 37 comments",
+      "blurb": "Ken Shirriff continues his 8087 reverse engineering series, this time dissecting the microcode behind the FSCALE instruction. Gorgeous die photos and meticulous analysis — a masterclass in how floating-point was done when every transistor counted."
+    },
+    {
+      "title": "A wandering black hole caught feeding on the run",
+      "url": "https://phys.org/news/2026-08-black-hole-caught.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by wglb · 35 points · 13 comments",
+      "blurb": "Astronomers caught a rogue black hole — not anchored to any galaxy — actively consuming gas as it wanders through intergalactic space. The observation confirms a long-theorized population of homeless black holes that are genuinely hard to detect."
+    },
+    {
+      "title": "Durable execution without history replay",
+      "url": "https://trigora.dev/blog/durable-execution-without-history-replay/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by hypervs · 30 points · 12 comments",
+      "blurb": "A deep technical post on achieving durable workflow execution without the performance tax of Temporal-style history replay — highly relevant for .NET developers building resilient background jobs or agentic pipelines that need to survive restarts."
+    }
+  ]
+}
