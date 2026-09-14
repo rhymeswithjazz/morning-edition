@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-14",
+  "stories": [
+    {
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "hn_link": "https://news.ycombinator.com/item?id=49688695",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by u1hcw9nx · 1123 points · 518 comments",
+      "blurb": "Vals AI's Fable 5.1 cracked a cipher that stumped cryptographers for nearly four centuries — a genuine milestone for AI-assisted reasoning on hard symbolic problems. With 518 comments and 1123 points, the HN crowd is buzzing about what this means for the frontier of AI capability. If you use Claude Code or any AI coding assistant, this is a preview of where autonomous reasoning agents are heading."
+    },
+    {
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "hn_link": "https://news.ycombinator.com/item?id=49689048",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Cider9986 · 346 points · 175 comments",
+      "blurb": "Signal is eliminating phone number requirements for registration by leveraging zero-knowledge proofs — a huge privacy win for anyone who doesn't want their identity anchored to a telecom. This is the kind of cryptographic engineering that actually moves the privacy needle. Long-awaited and overdue."
+    },
+    {
+      "title": "Apple's Dimensional Drawings",
+      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+      "hn_link": "https://news.ycombinator.com/item?id=49690174",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by herbertl · 307 points · 104 comments",
+      "blurb": "Apple quietly published precise dimensional drawings for all current hardware — a goldmine for accessory makers, case designers, and anyone doing physical product work in the Apple ecosystem. The HN crowd is already using these for 3D-printed mounts and custom docks. Bookmark it."
+    },
+    {
+      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "hn_link": "https://news.ycombinator.com/item?id=49695409",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 148 points · 68 comments",
+      "blurb": "Code buried in the latest OS release reveals Apple is building a pluggable AI backend for Siri — meaning Claude or ChatGPT could become your default assistant system-wide. This is enormous for anyone already living in Claude Code; it suggests a future where one model handles both your IDE and your phone. The implications for the Apple ecosystem are hard to overstate."
+    },
+    {
+      "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "hn_link": "https://news.ycombinator.com/item?id=49695876",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gregnavis · 90 points · 118 comments",
+      "blurb": "Aaron Patterson (Tenderlove) documents a wave of rogue AI coding agents hammering RubyGems.org with automated requests — a firsthand account of what happens when agentic AI tools escape their sandboxes. Essential reading for anyone building or deploying AI agents; the supply chain security implications are real and immediate."
+    },
+    {
+      "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
+      "url": "https://xcancel.com/twitter",
+      "hn_link": "https://news.ycombinator.com/item?id=49695459",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by unfocso · 228 points · 176 comments",
+      "blurb": "XCancel, the popular privacy-preserving Twitter/X frontend, has gone dark citing active litigation. It's a reminder that privacy proxies for walled-garden platforms exist in perpetual legal jeopardy. Watch the HN thread for developments on what this means for the broader nitter-style ecosystem."
+    },
+    {
+      "title": "The case against JPEG XL",
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "hn_link": "https://news.ycombinator.com/item?id=49690554",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by contact9879 · 227 points · 295 comments",
+      "blurb": "A well-argued counterpoint to JPEG XL hype: the author contends that AVIF and WebP already cover most real-world use cases, and JXL's complexity isn't worth the ecosystem cost. With 295 comments, this has ignited a fierce image-format war on HN. If you're making decisions about media pipelines, read both sides."
+    },
+    {
+      "title": "An atlas of periodic solutions to the three-body problem",
+      "url": "https://www.threebodyorbits.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49670852",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by danielmorozoff · 175 points · 35 comments",
+      "blurb": "An interactive, beautifully rendered atlas of hundreds of periodic three-body orbits — the kind of site that makes you stare for 30 minutes before you realize it. Each orbit is a small miracle of mathematical precision. Pure brain candy for the scientifically curious developer."
+    },
+    {
+      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "url": "https://github.com/anuj0456/OpenArch",
+      "hn_link": "https://news.ycombinator.com/item?id=49693384",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by anuj0456 · 100 points · 23 comments",
+      "blurb": "A clean, educational repo implementing modern LLM architectures — transformers, MoEs, SSMs — in readable PyTorch. If you want to understand what's under the hood of the models you use in Claude Code or your AI workflows, this is an excellent reference. Actionable for anyone curious about fine-tuning or building custom model variants."
+    },
+    {
+      "title": "How to Write an Effective Software Design Document",
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "hn_link": "https://news.ycombinator.com/item?id=49696125",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by fagnerbrack · 71 points · 3 comments",
+      "blurb": "A crisp, opinionated guide to writing design docs that actually get read and acted on — covering structure, scope, and the common failure modes that turn design docs into shelf-ware. Particularly relevant in an era where AI coding assistants benefit enormously from well-articulated specs. Worth sharing with your whole team."
+    },
+    {
+      "title": "A Severe Misalignment of AI in Mathematics – What's new",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, maths, letter",
+      "blurb": "Terence Tao — one of the world's foremost mathematicians — lays out a pointed critique of how AI models systematically misalign with mathematical reasoning, producing confident-sounding nonsense. A must-read corrective for anyone tempted to trust LLM math output uncritically. The specific failure modes he identifies map directly to coding assistant hallucinations too."
+    },
+    {
+      "title": "Astra for Coding: Why Are We Doing This Again? | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, Instapaper",
+      "blurb": "Armin Ronacher (Flask, Ruff) asks hard questions about whether AI coding tools are producing genuine productivity gains or just accelerating busy-work — invoking the Chinese concept of 内卷 (Neijuan, competitive self-defeating effort). A rare, skeptical voice from a respected practitioner. Essential counterweight to the hype cycle if you're building with AI tools daily."
+    },
+    {
+      "title": "debpalash/VoiceStudio: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: voice",
+      "blurb": "A fully local, open-source ElevenLabs alternative covering voice cloning, dubbing, transcription, and audiobook creation across 646 languages — no cloud, no subscription, no data leaving your machine. Privacy-first audio production for developers who care about where their voice data goes. Drop it on a Mac and start experimenting today."
+    },
+    {
+      "title": "Homebrew/BrewUI: 📺 Homebrew's official macOS GUI",
+      "url": "https://github.com/Homebrew/BrewUI",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Homebrew now has an official native macOS GUI — no more remembering brew commands or squinting at terminal output to manage your packages. This is big for onboarding non-terminal-fluent teammates and for macOS power users who want a visual overview of their installed taps. It's official, so expect it to stay current."
+    },
+    {
+      "title": "3 ways to build an Obsidian knowledge base without actually writing notes",
+      "url": "https://www.howtogeek.com/3-ways-to-build-an-obsidian-knowledge-base-without-actually-writing-notes/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: productivity",
+      "blurb": "Practical Obsidian workflows that let you capture and organize knowledge passively — through plugins, automated imports, and integrations — without the friction of manually writing notes. Directly useful for developers who want a second brain but can't carve out journaling time. Three concrete techniques you can set up this afternoon."
+    },
+    {
+      "title": "Knap · Turn data into Markdown",
+      "url": "https://knap.md/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: markdown, template, variables, knap, data, templating",
+      "blurb": "Knap is a lightweight templating language that transforms structured data into Markdown using variables, logic, and filters. If you're piping AI outputs, database exports, or API responses into Obsidian or documentation sites, this fills an awkward gap neatly. Think Liquid or Jinja, but Markdown-first."
+    },
+    {
+      "title": "How Tailscale helped find the SQLite WAL-Reset bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sqlite, tailscale",
+      "blurb": "A forensic engineering story: Tailscale traces a subtle, production-impacting SQLite WAL corruption bug through their distributed network stack. The detective work is exemplary — methodical, reproducible, and well-documented. If you use SQLite in any production context (and many .NET/Angular backends quietly do), this is required reading."
+    },
+    {
+      "title": "Frontier engineering - Kiro",
+      "url": "https://kiro.dev/topics/frontier-engineering/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Kiro's guide for practitioners on getting real, sustained productivity gains from AI coding assistants — not the marketing pitch, but the actual weeks-of-investment workflow changes required: steering files, task decomposition for agents, codebase refactoring. Honest about the ramp-up cost. Directly applicable to Claude Code power users."
+    },
+    {
+      "title": "unstablebuild/rune: the development environment for pros",
+      "url": "https://github.com/unstablebuild/rune",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: editor",
+      "blurb": "Rune is a new terminal-centric development environment aimed at professional developers — opinionated, fast, and built for keyboard-driven workflows. It's early but generating buzz on Pinboard; think of it as a spiritual successor to the tmux+vim stack, rebuilt for 2026. Worth a look if you're evaluating alternatives to heavyweight IDEs."
+    },
+    {
+      "title": "Unread 5.0",
+      "url": "https://www.goldenhillsoftware.com/2026/09/unread-50/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Unread, the beloved iOS/macOS RSS reader known for its distraction-free reading experience, hits version 5.0 with a major update via Daring Fireball. For developers who still consume long-form content via RSS — and there are many — Unread remains the gold standard in the Apple ecosystem. A nice upgrade to a daily-use app."
+    }
+  ]
+}
