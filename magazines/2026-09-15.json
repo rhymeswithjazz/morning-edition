@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-15",
+  "stories": [
+    {
+      "title": "iOS 27, iPadOS 27, and macOS 27",
+      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "hn_link": "https://news.ycombinator.com/item?id=49701004",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by throw0101d · 660 points · 758 comments",
+      "blurb": "Apple's big annual OS drop is here — iOS 27, iPadOS 27, and macOS 27 are now available. If you're in the Apple ecosystem, this is the day you've been waiting for. Head to the HN thread for the community's real-time first impressions and gotchas before you hit that update button."
+    },
+    {
+      "title": "XCancel service is suspended until further notice",
+      "url": "https://xcancel.com/#",
+      "hn_link": "https://news.ycombinator.com/item?id=49694296",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by gaganyaan · 699 points · 969 comments",
+      "blurb": "XCancel, the popular Twitter/X privacy proxy that let you browse without JavaScript or tracking, has gone dark. The shutdown sparked nearly 1,000 comments debating platform access, legal pressure, and what viable alternatives remain. A bellwether moment for the open-web proxy ecosystem."
+    },
+    {
+      "title": "Pion, an agent designed to run any company autonomously",
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "hn_link": "https://news.ycombinator.com/item?id=49700477",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lukaspetersson · 439 points · 539 comments",
+      "blurb": "Andon Labs is swinging for the fences: an agentic AI system meant to handle end-to-end business operations without a human in the loop. The 539-comment HN thread is a fascinating mix of skepticism and excitement about where autonomous agents are actually headed. Required reading if you're building with AI workflows."
+    },
+    {
+      "title": "Steam Frame starts at $1059",
+      "url": "https://store.steampowered.com/hardware/steamframe",
+      "hn_link": "https://news.ycombinator.com/item?id=49700661",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bsimpson · 692 points · 555 comments",
+      "blurb": "Valve enters the living-room PC-in-a-picture-frame market with the Steam Frame. It's an audacious hardware bet that blurs the line between home décor and gaming rig. The price and form factor are sparking a lively debate about who this is actually for."
+    },
+    {
+      "title": "25 Years of Mass Surveillance Is Enough",
+      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49710883",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by iamnothere · 102 points · 12 comments",
+      "blurb": "Bruce Schneier and EFF's Cindy Cohn mark the post-9/11 surveillance anniversary with a direct call to dismantle mass surveillance infrastructure. Schneier at his sharpest — clear-eyed, historically grounded, and uncomfortable to ignore. If you care about privacy, this is the op-ed of the week."
+    },
+    {
+      "title": "Ubuntu 26.10 completes transition to Rust-based coreutils",
+      "url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete",
+      "hn_link": "https://news.ycombinator.com/item?id=49696697",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by theanonymousone · 236 points · 255 comments",
+      "blurb": "Ubuntu 26.10 ships with a fully Rust-based coreutils replacement, making it the first mainstream distro to complete the migration. This is a landmark moment for the Rust-in-Linux story and has real implications for memory-safety guarantees at the OS foundation level."
+    },
+    {
+      "title": "Dario, Please",
+      "url": "https://pop.rdi.sh/dario-please/",
+      "hn_link": "https://news.ycombinator.com/item?id=49697893",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 0x5FC3 · 577 points · 265 comments",
+      "blurb": "A pointed open letter to Anthropic CEO Dario Amodei that's resonating loudly in the AI community — 577 upvotes and 265 comments say this hit a nerve. Given that our readers use Claude Code daily, knowing what critics are demanding from Anthropic is genuinely relevant signal."
+    },
+    {
+      "title": "Charts built for Chat",
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "hn_link": "https://news.ycombinator.com/item?id=49704246",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thingsilearned · 263 points · 79 comments",
+      "blurb": "dbt Charts explores what data visualization looks like when it's designed from the ground up for conversational AI interfaces rather than dashboards. The ideas here map directly onto the challenge of surfacing structured data in LLM-powered dev tools. A practical angle on AI workflow design."
+    },
+    {
+      "title": "Principles for Fast Tokio Applications",
+      "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+      "hn_link": "https://news.ycombinator.com/item?id=49698607",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by carllerche · 230 points · 54 comments",
+      "blurb": "From the creator of Tokio himself, a distillation of hard-won performance principles for async Rust applications. If you're running any Rust-backed services or tooling, this is the kind of authoritative guidance you bookmark and re-read. Dense and worth every minute."
+    },
+    {
+      "title": "Distributed Systems Classics (2017)",
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "hn_link": "https://news.ycombinator.com/item?id=49699158",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by grep_it · 323 points · 68 comments",
+      "blurb": "A curated reading list of the foundational distributed systems papers — Paxos, Spanner, Dynamo, and friends. It resurfaces periodically on HN for good reason: it's one of the best on-ramps to understanding why your databases and queues behave the way they do. Essential slow-read material."
+    },
+    {
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by nathannaveen · 137 points · 29 comments",
+      "blurb": "A clever application of memoization slashes eBPF program CPU overhead by 90% — no ML magic, just rigorous systems thinking. The parenthetical \"Not AI Gen\" in the title says something about the current moment, and the technique itself is the kind of thing that shows up in performance reviews as a hero move."
+    },
+    {
+      "title": "People who can't picture anything are rewriting the science of imagination",
+      "url": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by giuliomagnifico · 193 points · 271 comments",
+      "blurb": "Aphantasia research is upending assumptions about how the brain constructs mental imagery — and by extension, creativity, memory, and abstract thought. The 271-comment thread is packed with people discovering they might have aphantasia themselves. A genuinely mind-expanding read."
+    },
+    {
+      "title": "Alternatives to MinIO for single-node local S3",
+      "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rmoff · 97 points · 49 comments",
+      "blurb": "MinIO's licensing changes have developers hunting for local S3-compatible storage alternatives, and this post maps the landscape clearly. If you're developing .NET or other backend services locally with S3-compatible storage, this is an immediately actionable reference. Bookmark it before you need it."
+    },
+    {
+      "title": "Show HN: Redis City – Explore how Redis works in an interactive 3D model",
+      "url": "https://poltora.dev/redis",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by poltora · 129 points · 22 comments",
+      "blurb": "An interactive 3D city visualization that maps Redis data structures and operations to spatial metaphors. It's a delightful way to build intuition for how Redis actually works under the hood. The kind of creative learning tool that makes you think differently about caching architecture."
+    },
+    {
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by myth_drannon · 32 points · 9 comments",
+      "blurb": "OpenAI drops $300M on Glass Imaging, a computational photography company that uses AI to radically improve smartphone camera output. This signals OpenAI's ambitions moving firmly into hardware and multimodal sensing — a strategic pivot that could reshape the AI assistant landscape."
+    },
+    {
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by arnemunthekaas · 22 points · 5 comments",
+      "blurb": "A Raspberry Pi e-ink frame listens for birdsong, identifies the species, then renders a vintage 1800s-style botanical illustration of the bird. It's a gorgeous intersection of audio ML, generative image styling, and physical computing. Pure creative joy in a GitHub repo."
+    },
+    {
+      "title": "Linux from Scratch",
+      "url": "https://www.linuxfromscratch.org/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sippingabonedry · 262 points · 79 comments",
+      "blurb": "The classic LFS project resurfaces on HN with strong engagement — 262 points and 79 comments prove there's enduring appetite for understanding Linux at the lowest level. Whether you're a veteran or a developer who's always been curious, building a Linux from scratch remains one of the best systems education exercises available."
+    },
+    {
+      "title": "Compressing a flag to 11 bits",
+      "url": "https://read.vantezzen.io/miniflags",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bennett_dev · 172 points · 65 comments",
+      "blurb": "A deep dive into encoding national flag images into just 11 bits using clever algorithmic compression. It's a fun, concrete exploration of information theory and lossy encoding tradeoffs. The kind of puzzle-y technical post that's impossible to stop reading once you start."
+    },
+    {
+      "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
+      "url": "https://github.com/JamesRyanATX/fcbnerd",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by fretlessjazz · 81 points · 19 comments",
+      "blurb": "A macOS tool that maps a MIDI foot pedal to system macros — think hands-free shortcuts while coding or recording. Creative musicians and power users who live in macOS will immediately see the appeal. A niche gem that's directly actionable if you own any MIDI controller."
+    },
+    {
+      "title": "4,400-Year-Old Tomb of Egyptian Judge Found at Saqqara with Colors on Walls",
+      "url": "https://arkeonews.net/4400-year-old-tomb-of-an-egyptian-judge-found-at-saqqara-with-colors-still-on-the-walls/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by arunbahl · 176 points · 54 comments",
+      "blurb": "Archaeologists uncovered a 4,400-year-old tomb at Saqqara with its original pigments astonishingly intact — a rare preservation miracle. The colors offer a vivid window into Old Kingdom Egyptian aesthetics and funerary art. A genuine wow moment from the world of archaeology."
+    }
+  ]
+}
