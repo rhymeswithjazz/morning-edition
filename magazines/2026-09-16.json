@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-16",
+  "stories": [
+    {
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "hn_link": "https://news.ycombinator.com/item?id=49717558",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by albelfio · 1546 points · 434 comments",
+      "blurb": "The top story on HN today by a wide margin — Typesafe.ai is launching System One Models and a new language called Jev, aiming squarely at type-safe AI workflows. With 434 comments and nearly 1,550 points, this is clearly striking a nerve. If you build with TypeScript and want guardrails on LLM outputs, this deserves your full attention."
+    },
+    {
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "hn_link": "https://news.ycombinator.com/item?id=49715947",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by leumon · 440 points · 299 comments",
+      "blurb": "Google ships Gemini 3.8 Live with real-time multimodal conversation and a new Extended Thinking variant for deeper reasoning. The frontier model race keeps accelerating — this is a direct competitor to whatever your current coding assistant stack is running. Worth benchmarking against Claude Code on your real workloads."
+    },
+    {
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "hn_link": "https://news.ycombinator.com/item?id=49721322",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by imwally · 335 points · 227 comments",
+      "blurb": "Apple's security team unveils a cryptographic framework for verifying the authenticity and provenance of photos taken on Apple devices — a direct response to the deepfake era. This is genuinely novel: hardware-attested image signatures baked into the capture pipeline. Big implications for journalism, legal evidence, and anyone who cares about visual truth."
+    },
+    {
+      "title": "We got admin access to Baseten's production GitHub",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "hn_link": "https://news.ycombinator.com/item?id=49716476",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bearsyankees · 297 points · 171 comments",
+      "blurb": "A detailed post-mortem of how Strix gained full admin access to an ML infrastructure company's GitHub org via a leaked Personal Access Token in a Docker image. A vivid reminder that secret scanning in CI/CD isn't optional. If you ship containers to any registry, read this today."
+    },
+    {
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "hn_link": "https://news.ycombinator.com/item?id=49717638",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ADevWithAnIdea · 371 points · 215 comments",
+      "blurb": "One developer, one month, a reverse-engineered Apple Silicon GPU driver for Linux. The technical depth here is extraordinary — covering shader compilation, command ring design, and memory management from scratch. A love letter to low-level systems programming and a huge milestone for the Asahi Linux ecosystem."
+    },
+    {
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "url": "https://withcapsule.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=49712278",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bashtian · 349 points · 146 comments",
+      "blurb": "Capsule lets you write a self-contained web app as a single HTML file that persists its own state directly into SQLite — no server, no build step, no dependencies. It's the spiritual successor to HyperCard for the browser era. Immediately actionable for quick internal tools and personal dashboards."
+    },
+    {
+      "title": "An update on Wayback Machine access",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "hn_link": "https://news.ycombinator.com/item?id=49716176",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ChrisArchitect · 590 points · 319 comments",
+      "blurb": "The Internet Archive gives a status update on Wayback Machine availability following ongoing legal and infrastructure pressures. This is the digital preservation story of the decade — the loss of the Wayback Machine would be a catastrophic blow to the open web. Know where things stand."
+    },
+    {
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "hn_link": "https://news.ycombinator.com/item?id=49723408",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by vertigoruntime · 184 points · 57 comments",
+      "blurb": "Mistral and Mozilla are teaming up to bring on-device, privacy-preserving multilingual AI directly into the browser — no data sent to a server. For anyone who's been skeptical of cloud AI for sensitive work, this is the architecture you've been waiting for. The privacy angle is real, not marketing."
+    },
+    {
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49715927",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jaykru · 282 points · 373 comments",
+      "blurb": "A thoughtful counterweight to the hype cycle: the author argues that even after LLMs demonstrated Navier-Stokes solving ability, the underlying limitations in formal reasoning remain structurally unfixed. Essential reading for anyone building critical systems on top of LLMs — the 373-comment debate alone is worth your time."
+    },
+    {
+      "title": "Learning Programming in an Age of LLMs",
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "hn_link": "https://news.ycombinator.com/item?id=49723873",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by moneroloop2018 · 105 points · 71 comments",
+      "blurb": "Mark Seemann (ploeh) wrestles with the question every developer mentor is now facing: how do you teach programming when a coding assistant can write the answer? His take is nuanced and practical, grounded in decades of experience. Required reading if you're mentoring juniors or thinking about your own skill atrophy."
+    },
+    {
+      "title": "modelcontextprotocol/ext-skills: Experimental exploration of skills discovery and distribution through MCP primitives",
+      "url": "https://github.com/modelcontextprotocol/ext-skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude_skills, mcp",
+      "blurb": "The official MCP repo is experimenting with a 'skills' layer — a way for AI agents to discover, share, and distribute capabilities via Model Context Protocol primitives. Directly relevant if you're building Claude Code workflows or any MCP-based tooling. This is the nascent standard for agentic capability composition."
+    },
+    {
+      "title": "Inside 'Project Lily': The Humans Reading Your ChatGPT Chats",
+      "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: openai, ai",
+      "blurb": "404 Media exposes 'Project Lily': OpenAI contractors with access to real user conversations — including sensitive therapy-like disclosures — to improve model behavior. Anthropic confirmed similar practices. If you've been treating your AI assistant like a private journal, this is a cold-water moment."
+    },
+    {
+      "title": "iOS and iPadOS 27: The MacStories Review",
+      "url": "https://www.macstories.net/stories/ios-and-ipados-27-review/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacStories delivers its definitive, exhaustive iOS 27 review — the publication that goes deeper on Apple software than anyone else. With a rebuilt Siri AI, Liquid Glass UI, and iPhone Duo launch day, this is the reference doc you'll want open while exploring the update. Federico and team don't miss."
+    },
+    {
+      "title": "Daring Fireball: Thoughts and Observations on Apple's 'Surprise and Shine' Event",
+      "url": "https://daringfireball.net/2026/09/thoughts_and_observations_on_apples_surprise_and_shine_event",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "John Gruber's signature event debrief covers the iPhone 18 Pro, AirPods 5, Apple Watch Series 12, the foldable iPhone Duo, and what the John Ternus CEO era means for Apple's direction. Gruber has the best Apple event takes in the business — this one marks a genuine inflection point for the company."
+    },
+    {
+      "title": "Apple 27 Platform Updates — September 2026 – Scripting OS X",
+      "url": "https://scriptingosx.com/2026/09/apple-27-platform-updates-september-2026/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Scripting OS X's Armin Briegel catalogs every scripting, automation, and sysadmin-relevant change in the Apple 27 platform update — the things WWDC keynotes never cover. Shell changes, Python versions, security policy updates, MDM deltas. Bookmark this before you upgrade your Mac."
+    },
+    {
+      "title": "Planning with agents: Divided worlds, boundary objects, and thicker interfaces",
+      "url": "https://maggieappleton.com/planning-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, agents",
+      "blurb": "Maggie Appleton's characteristically thoughtful essay on why AI agents fail at planning — arguing that agents and humans operate in divided worlds and we need 'thicker' shared interfaces (boundary objects) to make collaboration work. If you're building or using agentic coding tools, this reframes the UX problem beautifully."
+    },
+    {
+      "title": "There's a 100% chance AI agents are already ruining the internet",
+      "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, internet, agents",
+      "blurb": "404 Media documents the real, present-tense degradation of online spaces by autonomous AI agents — spam, fake engagement, polluted forums. Not a doomsday prophecy but a clear-eyed account of what's already happening. The signal-to-noise problem on the internet is about to get dramatically worse."
+    },
+    {
+      "title": "GitHub - tomasf/Cadova: Swift DSL for parametric 3D modeling",
+      "url": "https://github.com/tomasf/Cadova",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "Cadova is a Swift-native DSL for parametric 3D modeling — think OpenSCAD but with Swift's type safety and ergonomics. For Apple-ecosystem developers who want to do creative CAD work without leaving Xcode, this is a genuinely exciting niche tool that Pinboard surfaces and HN missed."
+    },
+    {
+      "title": "KeyCut: free, open-source (MIT) video editor that cuts and joins videos without re-encoding",
+      "url": "https://github.com/wdmcourses/KeyCut",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: javascript, electron, ffmpeg, video, editor, opensource, simplicity, minimalism, productivity",
+      "blurb": "KeyCut is a dead-simple Electron/ffmpeg video editor focused on one thing: lossless cuts and joins without re-encoding. No quality loss, instant export on large files. If you record screencasts, podcast clips, or demo videos and hate waiting for re-encodes, this is immediately useful."
+    },
+    {
+      "title": "The Four-Color Theorem Gets a Rare New Proof",
+      "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: mathematics, theory, computing, graph",
+      "blurb": "Quanta Magazine covers a new human-readable proof of the Four-Color Theorem — one of the most famous results in math, which was first proven in 1976 only with exhaustive computer assistance. A rare moment where mathematicians gain new structural insight into a closed problem. Beautiful and surprising."
+    }
+  ]
+}
