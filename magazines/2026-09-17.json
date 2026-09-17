@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-17",
+  "stories": [
+    {
+      "title": "Nvidia announces native GPU programming in Rust",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "hn_link": "https://news.ycombinator.com/item?id=49724881",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nonmaskable · 776 points · 317 comments",
+      "blurb": "Nvidia just dropped two tracks for writing CUDA kernels in Rust — a memory-safe, idiomatic path and a lower-level unsafe path for raw performance. This is massive for anyone already writing GPU-accelerated inference or training pipelines. Rust's ownership model should eliminate whole categories of CUDA memory bugs that have plagued developers for years."
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "hn_link": "https://news.ycombinator.com/item?id=49731285",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by polyphilz · 595 points · 122 comments",
+      "blurb": "A 4B-parameter model trained to output query plans consistently beats Postgres's built-in planner by 81% on benchmark workloads. It's a compelling proof that specialized small models can outperform decades-old heuristic engines in narrow domains. If you work with .NET and Postgres-backed services, this has real production implications."
+    },
+    {
+      "title": "Small programming tricks",
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "hn_link": "https://news.ycombinator.com/item?id=49729000",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by signa11 · 576 points · 253 comments",
+      "blurb": "A well-curated post on small, often overlooked programming habits that compound into dramatically better code over time. The comments thread is gold — hundreds of developers piling in with their own micro-techniques. Exactly the kind of thing worth reading with a coffee before the AI tools take over your morning."
+    },
+    {
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "hn_link": "https://news.ycombinator.com/item?id=49732270",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by krackers · 475 points · 135 comments",
+      "blurb": "Xiaomi is streaming a live reinforcement learning post-training dashboard for their Mimo 2.6 model — you can watch reward curves and training metrics in real time. It's an unusually transparent window into how frontier-adjacent models actually improve post-pretraining. A must-bookmark for anyone following the open-model race."
+    },
+    {
+      "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
+      "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
+      "hn_link": "https://news.ycombinator.com/item?id=49719249",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by berkeleyjunk · 455 points · 381 comments",
+      "blurb": "Physical infrastructure destruction has exposed the hard limits of cloud redundancy: AWS cannot recover some customer data from Middle East datacenters. This is the nightmare scenario that DR architects lose sleep over — geographic concentration risk made catastrophically real. Read alongside the 'Backups Aren't Simple' post below."
+    },
+    {
+      "title": "Performance Improvements in .NET 11",
+      "url": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
+      "hn_link": "https://news.ycombinator.com/item?id=49711424",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by soheilpro · 315 points · 86 comments",
+      "blurb": "The annual deep-dive from the .NET team is here for .NET 11, packed with JIT improvements, vectorization wins, and allocator tweaks. If you're shipping .NET backends this directly affects your throughput and latency. Stephen Toub's prose-heavy benchmarks are a genre unto themselves."
+    },
+    {
+      "title": "Backups Aren't Simple",
+      "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49732513",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by afilipovski · 275 points · 171 comments",
+      "blurb": "A sobering and thorough breakdown of why backup strategies fail in practice — corruption, untested restores, retention gaps, and the false comfort of \"we have backups.\" Pairs perfectly with the AWS data-loss story above. Every developer who operates production systems owes themselves a read of this."
+    },
+    {
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "url": "https://ryan.science/blog/keys-not-included",
+      "hn_link": "https://news.ycombinator.com/item?id=49735930",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Ryan5453 · 214 points · 82 comments",
+      "blurb": "A researcher reverse-engineered the signing infrastructure for PDF417 barcodes on US driver's licenses and found the private keys are shockingly recoverable. This is a real-world cryptographic failure with identity-verification implications for apps that rely on barcode scanning to verify IDs. The methodology is clear and elegant."
+    },
+    {
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "hn_link": "https://news.ycombinator.com/item?id=49732931",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by matt_d · 218 points · 34 comments",
+      "blurb": "Researchers push past the theoretical 1.58-bit floor for ternary-weight LLMs, unlocking better accuracy-per-bit tradeoffs for on-device inference. This matters enormously if you care about running capable models locally without a GPU. The practical upshot: smaller, faster, cheaper models that are actually good."
+    },
+    {
+      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "url": "https://harnesstax.github.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=49733726",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by matt_d · 161 points · 63 comments",
+      "blurb": "A rigorous empirical study quantifying how much benchmark scaffolding — the \"harness\" — inflates or deflates apparent coding agent performance. For anyone using Claude Code or evaluating agentic coding tools, this is essential context: the harness can swing scores by double-digit percentages. Don't trust leaderboards without checking the harness."
+    },
+    {
+      "title": "macOS 27 Golden Gate: The Ars Technica review",
+      "url": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Ars Technica's comprehensive deep-dive into macOS 27 Golden Gate — the definitive annual review for anyone in the Apple ecosystem. Expect exhaustive coverage of new system APIs, UI changes, and under-the-hood improvements that affect daily workflows. Required reading before you hit that update button."
+    },
+    {
+      "title": "iOS 27 launch day: 8+ features to try right away | Mashable",
+      "url": "https://mashable.com/tech/ios-27-launch-day-features-to-try-right-away",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ios27, review, 2020s, siri_AI, siri, AI/ML, liquid_glass, iphone",
+      "blurb": "iOS 27 is live today and the headline is a completely rebuilt Siri AI that can take actions across apps and generate Shortcuts from plain-English descriptions. The Liquid Glass redesign and deep AI integration make this the biggest iOS release in years. Check these eight features first after the update completes."
+    },
+    {
+      "title": "Inside OpenAI's agentic software factory - by Gergely Orosz",
+      "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: openai, ai, llm, agentic_ai",
+      "blurb": "Gergely Orosz goes inside OpenAI's internal agentic development pipeline — how they're using AI agents to build AI. This is a rare look at what AI-native software development actually looks like at the frontier, beyond the hype. Directly relevant if you're building or managing teams using Claude Code and agentic workflows."
+    },
+    {
+      "title": "Your car is selling your data | The Verge",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Modern vehicles are rolling surveillance platforms, and this Verge investigation details exactly who is buying your driving data and what they do with it. Location, acceleration, braking, and even in-cabin audio are all in play. A stark reminder that privacy concerns extend well beyond your phone."
+    },
+    {
+      "title": "Flock cameras are riddled with security vulnerabilities and hard-coded credentials",
+      "url": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Micah Lee tears apart Flock Safety's license plate reader cameras and finds hard-coded credentials, unpatched CVEs, and a surveillance network far more fragile than its law-enforcement clients realize. Flock cameras are deployed in thousands of US communities — this is a public infrastructure security crisis. Damning and well-documented."
+    },
+    {
+      "title": "The contagion of fear",
+      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Bryan Cantrill writes about the AI-induced anxiety spreading through engineering culture — not about AI taking jobs, but about the subtler fear that your craft no longer matters. It's a thoughtful, grounded counter-argument from someone who has navigated multiple tech upheavals. Read this when the existential dread creeps in."
+    },
+    {
+      "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost - Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI, open.source, china",
+      "blurb": "Ars Technica's exclusive analysis finds that paying for frontier models like GPT-5 or Claude gives you roughly a 4-month capability lead over the best open Chinese alternatives — at 5x the cost. For teams deciding whether to pay for frontier APIs or self-host open models, this is the clearest cost-benefit framing yet."
+    },
+    {
+      "title": "Cartesian by Formas",
+      "url": "https://www.formas.ai/cartesian",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: cad, design, tools, 3d, ai, awesome",
+      "blurb": "Cartesian is an AI-native 3D CAD tool from Formas that lets you design mechanical parts and assemblies through natural language and direct manipulation. It's positioning itself as the AI-first alternative to Fusion 360 — parametric design without the parametric pain. Early access but worth watching if you do any hardware work."
+    },
+    {
+      "title": "Have it both ways: stay discoverable in search while disallowing AI training | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml-bots, bullshit",
+      "blurb": "Cloudflare announces a new crawler policy that lets site owners block AI training crawlers while remaining indexed by traditional search — the technical implementation relies on a new verified-crawler protocol. For developers running public-facing sites, this is now a real config option rather than a hopeful robots.txt prayer. The Pinboard tagger's 'bullshit' tag suggests healthy skepticism is warranted."
+    },
+    {
+      "title": "GitHub - tsvb/post-peek: Read one X post and leave. Chrome extension that opens x.com post links in a popup, no cookies sent to X.",
+      "url": "https://github.com/tsvb/post-peek",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Post Peek is a tiny Chrome extension that opens X.com links in a popup without sending cookies to X — you read the post and leave without tracking. Simple, single-purpose, and deeply useful for anyone who clicks X links from Slack or HN but doesn't want to feed the algorithm. Install it now."
+    }
+  ]
+}
