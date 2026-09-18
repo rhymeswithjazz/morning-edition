@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-18",
+  "stories": [
+    {
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "url": "https://github.com/asciimoo/hister",
+      "hn_link": "https://news.ycombinator.com/item?id=49743097",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bookofjoe · 646 points · 173 comments",
+      "blurb": "Hister indexes your browsing history and local files into a fully local, private search engine — no cloud, no tracking. For anyone who's ever lost a tab or can't find that PDF buried somewhere in ~/Documents, this is the tool you didn't know you needed. Obsidian users especially will appreciate having a unified search layer across browser history and local knowledge bases."
+    },
+    {
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "hn_link": "https://news.ycombinator.com/item?id=49715813",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by my123 · 611 points · 237 comments",
+      "blurb": "Fujitsu's MONAKA is a next-gen ARM-based CPU aimed at HPC and AI workloads, representing Japan's push to reclaim semiconductor relevance. Built on TSMC's latest process node, it's a fascinating case study in industrial policy meeting chip design. The 237-comment HN thread digs deep into whether this can compete with AMD and NVIDIA on the AI inference front."
+    },
+    {
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49746163",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nicolas-siplis · 511 points · 243 comments",
+      "blurb": "Bend is a programming language that uses formal proof to prevent AI-generated code from being wrong — not just syntactically, but semantically. It runs on both CPU and GPU, making it a potential game-changer for AI coding workflows where correctness guarantees matter. If you're using Claude Code and worried about subtle logic bugs slipping through, this is worth a close look."
+    },
+    {
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "hn_link": "https://news.ycombinator.com/item?id=49746618",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by JonSchneider · 484 points · 149 comments",
+      "blurb": "PrismML claims their Bonsai 2 quantization technique compresses a 27B model to roughly 3B-equivalent size with minimal quality loss — that's a 9x reduction that could make powerful models viable on consumer hardware. For developers running local LLMs alongside Claude Code, this is the kind of efficiency leap that changes what's possible without a GPU cluster. The benchmarks look genuinely impressive."
+    },
+    {
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "hn_link": "https://news.ycombinator.com/item?id=49749656",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Handy-Man · 377 points · 163 comments",
+      "blurb": "A detailed post-mortem of a real attack chain that combined a heap overflow with an SSO misconfiguration to breach OpenAI's internal GitHub repositories. This is the kind of real-world exploit write-up every developer who manages CI/CD and SSO configs should read — the SSO piece in particular is shockingly straightforward. Eye-opening on how a single misconfigured OAuth flow can unravel an entire security perimeter."
+    },
+    {
+      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "hn_link": "https://news.ycombinator.com/item?id=49752056",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by pluc · 341 points · 273 comments",
+      "blurb": "Newly unredacted legal filings reveal that a senior Microsoft exec internally described AI training data scraping in remarkably damning terms — while the company publicly champions AI development. The hypocrisy is rich, but more importantly this reveals the legal and ethical fault lines that are going to reshape how foundation models are trained and licensed. A 273-comment HN thread worth diving into."
+    },
+    {
+      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "hn_link": "https://news.ycombinator.com/item?id=49752422",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by cdnsteve · 108 points · 23 comments",
+      "blurb": "Researchers found that ZCode, a coding assistant built on GLM, silently exfiltrates your full Git commit history on first run — no disclosure, no opt-in. This is exactly the kind of supply-chain privacy risk that makes vetting AI dev tools critical before pointing them at a real codebase. If you use any coding agent besides Claude Code, read this before you authenticate it against your repos."
+    },
+    {
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "hn_link": "https://news.ycombinator.com/item?id=49747070",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by joeriddles · 210 points · 137 comments",
+      "blurb": "A thoughtful, practical guide to actually integrating LLMs into a writing workflow without letting them flatten your voice or thinking. The author draws a sharp line between using AI as a thinking partner versus a ghostwriter, and the techniques are immediately applicable. Particularly relevant if you use Obsidian for notes and want LLMs to assist without homogenizing your prose."
+    },
+    {
+      "title": "Qwen 3.8 Omni Flash",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "hn_link": "https://news.ycombinator.com/item?id=49747925",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jjcm · 260 points · 93 comments",
+      "blurb": "Alibaba drops Qwen 3.8 Omni Flash — a multimodal model that handles text, vision, and audio with unusually low latency for its capability tier. The 'Flash' moniker signals it's optimized for real-time agentic tasks, making it a compelling option for AI workflow builders who need fast inference without sacrificing quality. Worth benchmarking against your current stack."
+    },
+    {
+      "title": "Replacing Pull Requests with Delta",
+      "url": "https://zed.dev/blog/delta-public-beta",
+      "hn_link": "https://news.ycombinator.com/item?id=49727245",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vquemener · 60 points · 21 comments",
+      "blurb": "Zed's Delta is a public beta rethink of the pull request — moving code review out of GitHub's web UI and into the editor itself, with inline discussion and AI-assisted review baked in. For anyone who finds the GitHub PR flow clunky when paired with AI coding tools, this is worth trying today. The Zed team is clearly building the editor-as-collaboration-layer future."
+    },
+    {
+      "title": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "Cloudflare open-sourced a coding-agent skill that runs multi-phase security audits and outputs independently verified, machine-readable findings. This is a plug-in for AI coding agents that gives them structured security audit capabilities — exactly the kind of composable tool that makes Claude Code or similar agents far more powerful in security-conscious codebases. Actionable today."
+    },
+    {
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49711544",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: eink, hack, bird, drawing, nature, ai, illustration, art, artwork",
+      "blurb": "A hobbyist built an e-ink picture frame that listens for birdsong, identifies the species with on-device AI, then renders it in the style of 19th-century naturalist illustrations. It's a delightful intersection of creative AI, local inference, and physical computing. The implementation details (linked in the HN thread) are a masterclass in making tech feel magical rather than clinical."
+    },
+    {
+      "title": "125 Tests of the New AI Siri - by David Pogue",
+      "url": "https://pogueman.substack.com/p/125-tests-of-the-new-ai-siri",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "David Pogue runs 125 real-world tests on Apple's revamped AI Siri and reports back with characteristically clear-eyed consumer journalism. The results are a mixed bag — genuinely impressive in some domains, frustratingly inconsistent in others — and tell you exactly where Apple Intelligence is and isn't worth relying on yet. Essential reading for anyone in the Apple ecosystem deciding how to integrate Siri into their workflow."
+    },
+    {
+      "title": "Here's Why Apple Just Released an iOS 27.2 Beta Instead of iOS 27.1 - MacRumors",
+      "url": "https://www.macrumors.com/2026/09/16/heres-why-apple-released-ios-27-2-beta/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple skipped the iOS 27.1 beta entirely and jumped straight to 27.2 — and the explanation reveals something interesting about how Apple is now managing its software release cadence around major feature drops. MacRumors breaks down what changed internally and what features are riding on the 27.2 train. If you're tracking the Apple ecosystem, this version numbering quirk has real implications for when certain APIs land."
+    },
+    {
+      "title": "GitHub - vercel-labs/lat.md: Agent Lattice: a knowledge graph for your codebase, written in markdown.",
+      "url": "https://github.com/vercel-labs/lat.md",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, stars",
+      "blurb": "lat.md from Vercel Labs generates and maintains a markdown-based knowledge graph of your codebase, designed to give AI coding agents persistent, structured context about your project. Think of it as an Obsidian-style second brain for your repo that agents can actually navigate. This is the missing context layer between \"AI agent has no memory\" and \"AI agent actually understands your architecture.\""
+    },
+    {
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, programming, ai-assisted, culture, philosophy, interesting",
+      "blurb": "Martin Fowler — the refactoring bible author — writes a candid, nuanced piece on his genuine reservations about LLMs in software development, even as he acknowledges their utility. This isn't a luddite screed; it's a seasoned architect carefully articulating what's actually lost when AI-assisted coding becomes the default. Required counterbalance reading for anyone deep in the Claude Code workflow."
+    },
+    {
+      "title": "Developing provably correct Rust code with Verus - Amazon Science",
+      "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: amazon, blogs, subject:cs.AI, functional-programming, mathematics, formal-verification, language:rust, security, cyber-security, ai-safety",
+      "blurb": "Amazon Science details how they're using Verus, a formal verification tool for Rust, to automatically check code against mathematical correctness proofs. This is practical formal methods — not just theory — with real applications in security-critical systems. As AI-generated code becomes more common, tools like Verus that can verify correctness become dramatically more valuable."
+    },
+    {
+      "title": "Confessions of an Unrepentant Slop Snob - by Charity Majors",
+      "url": "https://charity.wtf/p/confessions-of-an-unrepentant-slop",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Charity Majors (Honeycomb CTO) makes an unapologetic case for maintaining high code quality standards even as AI tools flood the zone with \"good enough\" output. She coins the useful term \"slop\" for AI-generated code that passes review but degrades long-term maintainability. A sharp editorial that will resonate with anyone who's felt the tension between shipping fast with AI and keeping their codebase coherent."
+    },
+    {
+      "title": "OpenSpec — A lightweight spec‑driven framework",
+      "url": "https://openspec.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, specification, spec, planning, development",
+      "blurb": "OpenSpec is a spec-driven development framework designed to work with LLMs — you write lightweight specs in a structured format, and the framework helps AI agents plan, implement, and verify against them. It's a direct answer to the \"AI just starts coding without understanding the requirements\" problem. Actionable today as a wrapper around your Claude Code sessions."
+    },
+    {
+      "title": "You can run git on object storage if you re-make packfiles | Tigris Object Storage",
+      "url": "https://www.tigrisdata.com/blog/objgit-packfiles/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Tigris explains how they made Git work natively against object storage by rethinking how packfiles are structured for range requests — it's a clever bit of systems engineering that makes scalable, cheap Git hosting genuinely feasible. This matters for anyone building infrastructure or thinking about the future of code storage at scale. The technical depth here is excellent."
+    }
+  ]
+}
