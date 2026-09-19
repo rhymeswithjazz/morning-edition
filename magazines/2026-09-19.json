@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-19",
+  "stories": [
+    {
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "hn_link": "https://news.ycombinator.com/item?id=49760187",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by datadrivenangel · 675 points · 245 comments",
+      "blurb": "Direct hit for Claude Code users: the tool now falls back to AGENTS.md, aligning with the emerging multi-agent config convention used by OpenAI and others. If you've been maintaining an AGENTS.md for other tools, Claude Code will now pick it up automatically. A small changelog entry with big workflow implications."
+    },
+    {
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "hn_link": "https://news.ycombinator.com/item?id=49758736",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by theanonymousone · 878 points · 459 comments",
+      "blurb": "GrapheneOS raises a serious alarm: Google is shipping Android 17 APIs in closed binaries before pushing to AOSP, breaking the open-source covenant that privacy-focused forks depend on. This is the first time it's happened since Android's early days, and the implications for alternative Android distributions — and user privacy — are significant."
+    },
+    {
+      "title": "Inside ZCode: Silently uploading your Git history to the cloud",
+      "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+      "hn_link": "https://news.ycombinator.com/item?id=49750694",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by csmantle · 310 points · 103 comments",
+      "blurb": "A forensic teardown of ZCode, an AI coding tool that was quietly snapshotting and uploading entire Git workspaces to the cloud without user consent. Essential reading for anyone evaluating AI coding assistants — the attack surface of these tools is much larger than it appears."
+    },
+    {
+      "title": "Cloudflare Quick Tunnels",
+      "url": "https://try.cloudflare.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49754785",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jcbhmr · 734 points · 287 comments",
+      "blurb": "Cloudflare's zero-config tunneling service lets you expose a local server to the internet instantly — no account, no setup, just run one command. Perfect for sharing local dev builds with teammates or testing webhooks. The HN thread is full of practical alternatives and gotchas worth scanning."
+    },
+    {
+      "title": "AI-generated posters don't have to be horrible",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49764791",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by ereiamjh · 281 points · 183 comments",
+      "blurb": "A designer shows how deliberate prompting, iteration, and taste editing can produce AI-generated event posters that are actually good — not the usual uncanny slop. The workflow advice is concrete and transferable to any image-generation pipeline. Strong counter-argument to AI-art fatigue."
+    },
+    {
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "hn_link": "https://news.ycombinator.com/item?id=49761432",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by maxall4 · 137 points · 96 comments",
+      "blurb": "OpenAI turned its own models loose on the RTL and physical design of its custom inference chip, closing a fascinating loop. IEEE Spectrum gets into the specifics of where LLMs actually helped versus where humans still held the wheel. A preview of how AI tooling will eat EDA."
+    },
+    {
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "url": "https://cactuscompute.com/needle",
+      "hn_link": "https://news.ycombinator.com/item?id=49748553",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by HenryNdubuaku · 202 points · 89 comments",
+      "blurb": "Sub-30MB models that reportedly match DeepSeek V4 Flash on agentic automation tasks — if the benchmarks hold up, this is a huge deal for on-device and edge AI workflows. The quantization and distillation techniques described are worth understanding even if you're skeptical of the headline numbers."
+    },
+    {
+      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49763697",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by emigre · 312 points · 118 comments",
+      "blurb": "Stanford researchers present evidence that the brain's two hemispheres are functionally distinct enough to be considered separate organs with independent developmental origins. The finding reframes decades of split-brain research and has wild implications for neuroscience and AI brain-inspired architectures."
+    },
+    {
+      "title": "Saving another 100TB of RAM",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "hn_link": "https://news.ycombinator.com/item?id=49758580",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by f311a · 379 points · 83 comments",
+      "blurb": "Cloudflare's engineers found another 100TB of RAM savings through probabilistic data structures and clever algorithmic rethinking at their global edge. A masterclass in applied CS — even if you never operate at this scale, the mental models here are directly applicable to everyday systems design."
+    },
+    {
+      "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
+      "url": "https://browser.geekbench.com/v7/cpu/389219",
+      "hn_link": "https://news.ycombinator.com/item?id=49763883",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by gainsurier · 90 points · 92 comments",
+      "blurb": "First Geekbench 7 results for Apple's M6 Pro are in, and the single-core score stomps everything else on the chart. For developers who live in the Apple ecosystem, this signals another meaningful generational jump — particularly relevant if you're deciding when to refresh your dev machine."
+    },
+    {
+      "title": "We made Playwright 2x faster and 80% more token efficient",
+      "url": "https://github.com/browserbase/stagehand",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by wittydeveloper · 94 points · 24 comments",
+      "blurb": "Stagehand, Browserbase's AI-native browser automation layer on top of Playwright, dropped a major update that cuts token consumption by 80% while doubling speed. If you're building AI agents that need to interact with the web, this is now the most practical open-source option in the space."
+    },
+    {
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by nsoonhui · 157 points · 83 comments",
+      "blurb": "GPT-6 Astra cracked a century-old German military radio cipher that had stumped human cryptanalysts — a vivid demonstration of frontier model reasoning on structured, domain-specific problems. The walkthrough of how the model approached the problem is genuinely illuminating about where LLM reasoning has jumped."
+    },
+    {
+      "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+      "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by synack · 195 points · 73 comments",
+      "blurb": "Ledger's security research arm demonstrates a sophisticated laser fault injection attack against the RP2350's secure debug lockout — using photon emission to guide the beam precisely. A fascinating hardware security deep-dive that matters for anyone building or trusting security-critical embedded devices."
+    },
+    {
+      "title": "The first new cat species discovered in 100 years",
+      "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ohjeez · 288 points · 108 comments",
+      "blurb": "A new wild cat species has been formally identified for the first time in a century — found hiding in plain sight in a biodiversity hotspot. The discovery process involved genetic analysis and years of misclassification, a reminder that the natural world still has genuine surprises left."
+    },
+    {
+      "title": "Xcode 27.1 Beta Release Notes",
+      "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by CameronBanga · 141 points · 104 comments",
+      "blurb": "Apple dropped Xcode 27.1 beta release notes with a slate of fixes and improvements across Swift, SwiftUI, and the simulator. Required reading if you're targeting the Apple ecosystem — several long-standing debugger and build system bugs got squashed in this release."
+    },
+    {
+      "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
+      "url": "https://arxiv.org/abs/2510.03215",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by rochansinha · 95 points · 14 comments",
+      "blurb": "Researchers propose letting LLMs communicate by sharing KV cache states directly rather than passing text — a potential leap in multi-agent efficiency that bypasses the token bottleneck entirely. Still theoretical at scale, but the architecture implications for future agentic systems are profound."
+    },
+    {
+      "title": "Cyclomatic Complexity in C#",
+      "url": "https://blog.ndepend.com/understanding-cyclomatic-complexity/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by gone35 · 68 points · 25 comments",
+      "blurb": "A thorough, practical guide to cyclomatic complexity using C# examples — how to measure it, what the thresholds mean, and how to refactor your way out of trouble. Directly actionable for .NET developers and a solid reference to bookmark when code review discussions get heated."
+    },
+    {
+      "title": "Why building a Rust LSP is hard",
+      "url": "https://rust-glancer.github.io/blog/why-lsp-is-hard/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by agluszak · 96 points · 32 comments",
+      "blurb": "A candid engineering post on the unique challenges of implementing a Language Server Protocol server for Rust — incremental compilation, macro expansion, and proc-macro sandboxing all conspire to make it brutal. Illuminating for anyone working on or with editor tooling."
+    },
+    {
+      "title": "How SpaceX streamlined the Raptor engine",
+      "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by JumpCrisscross · 214 points · 87 comments",
+      "blurb": "Construction Physics delivers a deep engineering analysis of how SpaceX slashed part counts and manufacturing complexity in Raptor across successive versions. A masterclass in iterative hardware design that has eerie parallels to iterative software development — including what 'good enough' actually means under pressure."
+    },
+    {
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tomjakubowski · 71 points · 28 comments",
+      "blurb": "This paper examines how adversaries can exploit the gap between what's legible to humans and what's interpretable by LLMs — opening novel attack surfaces in prompt injection, jailbreaks, and data poisoning. Critical reading for anyone integrating LLMs into production pipelines where adversarial inputs are a real threat."
+    }
+  ]
+}
