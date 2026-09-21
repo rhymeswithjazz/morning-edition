@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-21",
+  "stories": [
+    {
+      "title": "Qwen Image 2.1",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "hn_link": "https://news.ycombinator.com/item?id=49775499",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jmillikin · 694 points · 188 comments",
+      "blurb": "Alibaba's vision model family gets a major update, pushing state-of-the-art on image understanding and generation benchmarks. For developers building multimodal pipelines, Qwen Image models are increasingly the open-weight alternative to GPT-4o Vision worth benchmarking. 188 comments means the HN crowd has strong opinions on where this lands."
+    },
+    {
+      "title": "AX – Google's Open Agentic Orchestrator",
+      "url": "https://agentexecutor.io",
+      "hn_link": "https://news.ycombinator.com/item?id=49780797",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by blazarquasar · 575 points · 262 comments",
+      "blurb": "Google open-sources AX, a framework for orchestrating multi-agent AI workflows — think LangGraph but with Google's muscle behind it. If you're building agentic systems with Claude Code or other LLM tooling, this is a direct competitor worth evaluating. 262 comments suggests the community is scrutinizing it hard."
+    },
+    {
+      "title": "What happened to the Snowden archive",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "hn_link": "https://news.ycombinator.com/item?id=49780820",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by EXHades · 566 points · 389 comments",
+      "blurb": "A deep dive into the fate of the Snowden documents — one of the most consequential leaks in modern history — and what's happened to them over the past decade. Sobering reading for anyone who cares about digital rights and institutional accountability. Nearly 400 comments worth digging into."
+    },
+    {
+      "title": "ZuckOff Know when a camera is in the room",
+      "url": "https://zuckoff.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=49785429",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Bluestein · 561 points · 234 comments",
+      "blurb": "ZuckOff is a free app that detects Meta's Ray-Ban smart glasses before they can record you — using RF signals and other heuristics to alert you to covert cameras in a room. This is the counter-surveillance tool privacy-conscious developers have been waiting for. Timely given how ubiquitous always-on wearable cameras are becoming."
+    },
+    {
+      "title": "MCP was always a bad idea?",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "hn_link": "https://news.ycombinator.com/item?id=49779329",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by maharshi365 · 242 points · 216 comments",
+      "blurb": "A pointed critique of Anthropic's Model Context Protocol, arguing its design assumptions create more complexity than they solve for real-world agentic workflows. Directly relevant if you're building MCP servers for Claude Code. 216 comments means this has sparked genuine debate among practitioners."
+    },
+    {
+      "title": "The LLMentalist Effect (2023)",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "hn_link": "https://news.ycombinator.com/item?id=49775104",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jalev · 215 points · 288 comments",
+      "blurb": "A resurfaced essay arguing that LLMs exploit the same psychological mechanisms as cold-reading mentalists — making outputs feel uncannily right through statistical pattern-matching rather than genuine understanding. Essential critical reading for anyone building or selling AI tools. 288 comments is a sign this is hitting a nerve."
+    },
+    {
+      "title": "Why do we need human mathematicians anymore?",
+      "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+      "hn_link": "https://news.ycombinator.com/item?id=49774521",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by auggierose · 253 points · 276 comments",
+      "blurb": "Terence Tao — one of the greatest living mathematicians — weighs in on what AI-assisted proof systems actually mean for the practice of mathematics. This isn't doomerism; it's a nuanced take from someone who has used these tools extensively. Required reading for anyone thinking seriously about AI's intellectual ceiling."
+    },
+    {
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "hn_link": "https://news.ycombinator.com/item?id=49787313",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by piotrgrabowski · 36 points · 12 comments",
+      "blurb": "MacStories puts the M5 Ultra Mac Studio through its paces specifically for local AI workloads — running large models, multi-agent pipelines, and Claude Code-style workflows without cloud dependency. If you've been eyeing a local inference machine, this is the benchmark review to read. The unified memory architecture continues to be a game-changer."
+    },
+    {
+      "title": "Apple iPhone 18 Pro Camera test",
+      "url": "https://www.dxomark.com/apple-iphone-18-pro-camera-test/",
+      "hn_link": "https://news.ycombinator.com/item?id=49771218",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by luu · 194 points · 160 comments",
+      "blurb": "DXOMark's exhaustive camera benchmark for the iPhone 18 Pro lands, and the numbers are predictably impressive — especially in video and low-light stills. For developers building photo/video features or just Apple ecosystem enthusiasts, this is the definitive technical breakdown of what the new sensor stack can do."
+    },
+    {
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "hn_link": "https://news.ycombinator.com/item?id=49786609",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by semidror · 51 points · 21 comments",
+      "blurb": "macOS 27 apparently makes it much harder to fully disable Siri, frustrating privacy-minded users who don't want an always-listening assistant. The thread surfaces workarounds and raises real questions about Apple's direction on user control. Directly relevant to anyone in the Apple ecosystem who treats privacy as a first-class concern."
+    },
+    {
+      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, Google, openai, generative, web, microsoft, copyright, module, dead, internet, theory, .teaching",
+      "blurb": "Court documents from the NYT vs. OpenAI case reveal that Microsoft's own Satya Nadella testified that referral clicks from Bing to news publishers dropped over 90% after ChatGPT launched — and internal docs show OpenAI knew it was building on scraped content. This is the clearest picture yet of how AI companies understood the consequences of their choices."
+    },
+    {
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, adblocking, adtech, privacy, internet",
+      "blurb": "OpenAI is reportedly tapping ad-network data to build behavioral profiles of ChatGPT users — meaning your browsing history across the web can now inform what the model knows about you. This is a significant privacy escalation that ad-blockers alone won't solve. Anyone using ChatGPT for sensitive work should read this immediately."
+    },
+    {
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack - Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, llm, nlp",
+      "blurb": "Ars Technica's write-up of the CNN scoop: a US military intelligence report generated with AI help hallucinated details about nuclear components on a Chinese vessel, nearly triggering a boarding operation. The most concrete real-world consequence of LLM hallucination yet reported, and a wake-up call about deploying AI in high-stakes decision chains."
+    },
+    {
+      "title": "A deep dive into Jev, TypeSafe's System One model",
+      "url": "https://flaviocopes.com/jev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, jev",
+      "blurb": "Flavio Copes breaks down Jev, TypeSafe AI's decision-focused 'System One' model designed to make fast, deterministic choices within software pipelines rather than generate prose. Think of it as an LLM optimized for branching logic rather than conversation — a genuinely different architectural bet worth understanding if you're building agentic workflows."
+    },
+    {
+      "title": "Anthropic decides to support OpenAI's markdown instructions spec",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/18/anthropic-decides-to-support-openais-markdown-instructions-spec/5297588",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, Claude, OpenAI, Markdown",
+      "blurb": "Anthropic is adopting OpenAI's markdown system prompt spec, a move toward cross-provider interoperability that will make it easier to swap models without rewriting prompts. Directly relevant to Claude Code users and anyone maintaining multi-provider AI pipelines. A quiet but meaningful step toward a more standardized agentic ecosystem."
+    },
+    {
+      "title": "Nobody pays for open source. We can force them to. | Seldo.com",
+      "url": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: opensource, funding",
+      "blurb": "A sharp, pragmatic argument that open source funding should be extracted at the registry layer — JFrog, Docker, npm — where the money already flows, rather than relying on voluntary donations that never scale. This reframes the sustainability problem as a structural one with a structural fix. One of the more actionable takes on a chronic industry problem."
+    },
+    {
+      "title": "Beyond jj: config & tools ecosystem",
+      "url": "https://andre.arko.net/2026/09/16/beyond-jj-config-and-tools-ecosystem/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: jj",
+      "blurb": "A practical guide to the growing ecosystem of config files, aliases, and third-party tooling that makes jj (Jujutsu) — the Git-compatible VCS — genuinely ergonomic for daily use. If you've been curious about jj but put off by the learning curve, this is the ecosystem overview that makes it feel approachable."
+    },
+    {
+      "title": "GitHub - awlevin/typesafe-computer-use: Computer use for about $0.0002 a step",
+      "url": "https://github.com/awlevin/typesafe-computer-use",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, stars",
+      "blurb": "A macOS-native computer-use agent that OCRs the screen, classifies the next action with TypeSafe's Jev model, then clicks — at roughly $0.0002 per step, orders of magnitude cheaper than existing solutions. This is a practical, hackable template for building cheap desktop automation with LLMs. macOS-only makes it directly relevant to this audience."
+    },
+    {
+      "title": "How Notion handles concurrent editing with CRDTs",
+      "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: crdts",
+      "blurb": "Notion's engineering team pulls back the curtain on their CRDT implementation for real-time collaborative editing — including the tradeoffs they made versus OT and the specific data structures they chose. Essential reading for anyone building collaborative features or thinking about Obsidian-style sync. Comes with an interactive demo."
+    },
+    {
+      "title": "GM Revives Apple CarPlay for 2027 Chevy Silverado and GMC Sierra",
+      "url": "https://www.autoweek.com/news/a73761352/gm-revives-apple-carplay-for-2027-chevy-silverado-gmc-sierra/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "After GM's disastrous bet on dropping CarPlay in favor of its own infotainment system, the company is reversing course and bringing Apple CarPlay back for its 2027 trucks. A vindication for the Apple ecosystem and a signal that automakers can't out-UX Apple when it comes to in-car software. Good news for anyone who lives in the Apple walled garden."
+    }
+  ]
+}
