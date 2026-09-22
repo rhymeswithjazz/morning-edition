@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-22",
+  "stories": [
+    {
+      "title": "MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "hn_link": "https://news.ycombinator.com/item?id=49792730",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by volf_ · 961 points · 434 comments",
+      "blurb": "Xiaomi's MiMo v2.6 is crashing into the frontier model race with impressive benchmark numbers and a price point designed to undercut the incumbents. With 434 comments on HN, the dev community is clearly paying attention. If you're evaluating LLMs for coding workflows, this is worth a benchmark run today."
+    },
+    {
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "hn_link": "https://news.ycombinator.com/item?id=49787726",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zer0tonin · 894 points · 268 comments",
+      "blurb": "A sharp essay arguing that in an AI-saturated world, human attention has become the scarce and irreplaceable resource. The framing cuts through the usual productivity discourse and directly implicates how we use coding assistants. Required reading for anyone building or using AI tools."
+    },
+    {
+      "title": "I don't want to read what you didn't write",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "hn_link": "https://news.ycombinator.com/item?id=49794330",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mooreds · 790 points · 328 comments",
+      "blurb": "A pointed critique of AI-ghostwritten communication — PRs, docs, emails — and the trust erosion that follows when you can't tell if a human actually thought something through. Directly relevant to teams relying on Claude Code or Copilot for written artifacts. The 328-comment thread is a thunderstorm."
+    },
+    {
+      "title": "I said no and Apple said yes",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "hn_link": "https://news.ycombinator.com/item?id=49797982",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by thatslast · 375 points · 294 comments",
+      "blurb": "A developer discovers Apple Intelligence features re-enabled themselves after an OS update, despite having been explicitly turned off. This is the exact kind of consent-eroding behaviour privacy-conscious Apple users dread. Pairs perfectly with the official Apple guide to locking these features down."
+    },
+    {
+      "title": "Turn off and restrict access to Apple Intelligence features on Mac",
+      "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+      "hn_link": "https://news.ycombinator.com/item?id=49790409",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by alwillis · 325 points · 205 comments",
+      "blurb": "Apple's own support document detailing every knob for disabling or restricting Apple Intelligence on macOS — bookmark this now. Given reports of features re-enabling post-update, this is an actionable checklist every privacy-minded Mac user should run through. MDM admins get granular controls too."
+    },
+    {
+      "title": "Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "hn_link": "https://news.ycombinator.com/item?id=49788838",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by meetpateltech · 584 points · 494 comments",
+      "blurb": "xAI drops Grok 4.7 with claimed coding and reasoning improvements, drawing a massive 494-comment pile-on comparing it to Claude, GPT, and Gemini. The competitive LLM landscape is moving faster than ever — worth a test drive if you're benchmarking coding assistants."
+    },
+    {
+      "title": "Spymarks, Not Watermarks",
+      "url": "https://brand.io/article/spymarks/",
+      "hn_link": "https://news.ycombinator.com/item?id=49794615",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by possibilistic · 527 points · 128 comments",
+      "blurb": "Documents marketed as 'watermarked' for IP protection are increasingly being used as tracking beacons that phone home when opened, revealing who viewed them, where, and when. This reframes a familiar enterprise tool as a surveillance mechanism. If you handle sensitive PDFs, you need to understand this threat model."
+    },
+    {
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "hn_link": "https://news.ycombinator.com/item?id=49792067",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by julian_digital · 271 points · 318 comments",
+      "blurb": "Linear's engineering team shares how AI-generated code volume blew up their CI pipeline and what architectural changes they made to cope. This is the infrastructure story behind agentic coding workflows that nobody talks about enough. Essential reading for teams scaling Claude Code or similar tools."
+    },
+    {
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "hn_link": "https://news.ycombinator.com/item?id=49792342",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aray07 · 483 points · 74 comments",
+      "blurb": "An interactive, browser-based visual explainer of the transformer architecture — watch attention heads compute in real time on live text. If you're building with LLMs and want intuition beyond the marketing, this is 20 minutes well spent. One of the best visualizations of its kind."
+    },
+    {
+      "title": "Looking forward to Git 2.56 – and 3.0",
+      "url": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+      "hn_link": "https://news.ycombinator.com/item?id=49794736",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by chmaynard · 160 points · 81 comments",
+      "blurb": "LWN's deep dive into what's cooking in Git 2.56 and the long-rumored 3.0 milestone — including protocol changes and repository format improvements. Git 3.0 has been 'coming soon' for years; now there are actual details worth tracking. Required reading for anyone who ships code."
+    },
+    {
+      "title": "Orchestrating Claude Code Agents: The Chief of Staff Pattern",
+      "url": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai",
+      "blurb": "A practical blog post laying out the 'Chief of Staff' orchestration pattern for running multiple Claude Code agents in parallel — one coordinator delegates to specialist sub-agents. This is the kind of real-world agentic workflow pattern that separates productive AI coding setups from toy demos. Directly actionable."
+    },
+    {
+      "title": "GitHub - tamaratran/fast-jev-compaction: Claude Code plugin that replaces the compaction summary with Jev decisions",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: IFTTT, github",
+      "blurb": "A Claude Code plugin that swaps out the default context compaction summary for Jev-powered structured decisions — scoring every tool call and result, dropping stale ones, keeping verbatim what matters. If you're hitting context limits in long Claude Code sessions, this is a concrete fix to try today."
+    },
+    {
+      "title": "Apple M6 Mac mini review: $300 price hike spoils a nice upgrade",
+      "url": "https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: reviews, mini, hardware, mac",
+      "blurb": "Ars Technica's full review of the M6 Mac mini — the silicon is genuinely excellent but the $300 price jump is hard to swallow. For developers deciding whether to upgrade their primary dev machine, this is the definitive breakdown of performance-per-dollar. The M6 chip benchmarks are eye-catching."
+    },
+    {
+      "title": "https://www.macstories.net/stories/macos-27-the-macstories-review/",
+      "url": "https://www.macstories.net/stories/macos-27-the-macstories-review/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacStories' exhaustive review of macOS 27 — the publication that goes deeper than any other on Apple software. If you're deciding when to upgrade your development machine, this is the most thorough feature-by-feature guide available. Federico Viticci and team leave no system preference unturned."
+    },
+    {
+      "title": "Daring Fireball: The iPhones 18 Pro",
+      "url": "https://daringfireball.net/2026/09/the_iphones_18_pro",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: hardware",
+      "blurb": "John Gruber's definitive take on the iPhone 18 Pro — the gold standard review for Apple hardware in the Apple ecosystem. Sharp opinions on camera upgrades, display changes, and whether the 'Pro' tier still earns its premium. Essential context if you're deciding on a device upgrade."
+    },
+    {
+      "title": "iPhone 18 Pro: A Photographer's Review - YouTube",
+      "url": "https://www.youtube.com/watch?v=m6cDErtCKAc",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: _brief",
+      "blurb": "A comprehensive video deep-dive into the iPhone 18 Pro's camera and video capabilities from a photographer's perspective. The curator's note calls it 'frankly amazing what Apple packs into the visual system.' Worth watching alongside the Daring Fireball review if you shoot or create visual content."
+    },
+    {
+      "title": "yjeanrenaud/yj_nearbyglasses: attempting to detect smart glasses nearby and warn you",
+      "url": "https://github.com/yjeanrenaud/yj_nearbyglasses",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: surveillance, opensource, activism",
+      "blurb": "An open-source tool that attempts to detect nearby smart glasses (like Meta Ray-Bans) and warn you — the privacy activist's countermeasure to always-on wearable cameras. Rough around the edges but the concept is immediately relevant as AI glasses proliferate. Fork it, improve it, use it."
+    },
+    {
+      "title": "ChatGPT now knows what you do on other websites via ad collector | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49776729",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: chatgpt, ai, marketing",
+      "blurb": "Reports that ChatGPT is now ingesting cross-site browsing data via ad network integrations — a significant privacy escalation for a tool many developers use daily. This is the story that crystallises why 'AI assistant' and 'ad platform' make uneasy bedfellows. Check your OpenAI privacy settings."
+    },
+    {
+      "title": "Pirate Face — Turn AI into torrents that live forever",
+      "url": "https://pirateface.co/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: bittorrent, ai, preservation",
+      "blurb": "A tool that packages open-source AI models — LLMs, image generators, audio models, datasets — as BitTorrent magnet links for permanent, decentralized distribution. No single owner, no takedown vector. An interesting infrastructure play for AI model preservation that sidesteps cloud dependency entirely."
+    },
+    {
+      "title": "arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: raspberrypi, birds",
+      "blurb": "A delightful Raspberry Pi project that listens for birdsong, identifies species with fully local AI, and renders the result as a hand-cut 1800s illustration on an e-ink display. Zero cloud dependency, all running on-device — a charming proof-of-concept for edge AI that also looks gorgeous on a shelf."
+    }
+  ]
+}

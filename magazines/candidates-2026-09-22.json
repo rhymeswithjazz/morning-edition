@@ -1,0 +1,1203 @@
+{
+  "date": "2026-09-22",
+  "fetched_at": "2026-09-22T13:13:59",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "MiMo v2.6",
+        "url": "https://mimo.xiaomi.com/mimo-v2-6",
+        "hn_id": 49792730,
+        "hn_link": "https://news.ycombinator.com/item?id=49792730",
+        "score": 961,
+        "author": "volf_",
+        "comments": 434,
+        "byline_hint": "by volf_ · 961 points · 434 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Attention is all you have",
+        "url": "https://alicegg.tech/2026/09/21/attention",
+        "hn_id": 49787726,
+        "hn_link": "https://news.ycombinator.com/item?id=49787726",
+        "score": 894,
+        "author": "zer0tonin",
+        "comments": 268,
+        "byline_hint": "by zer0tonin · 894 points · 268 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I don't want to read what you didn't write",
+        "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+        "hn_id": 49794330,
+        "hn_link": "https://news.ycombinator.com/item?id=49794330",
+        "score": 790,
+        "author": "mooreds",
+        "comments": 328,
+        "byline_hint": "by mooreds · 790 points · 328 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What Sun got wrong",
+        "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+        "hn_id": 49787436,
+        "hn_link": "https://news.ycombinator.com/item?id=49787436",
+        "score": 619,
+        "author": "chmaynard",
+        "comments": 354,
+        "byline_hint": "by chmaynard · 619 points · 354 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Grok 4.7",
+        "url": "https://x.ai/news/grok-4-7",
+        "hn_id": 49788838,
+        "hn_link": "https://news.ycombinator.com/item?id=49788838",
+        "score": 584,
+        "author": "meetpateltech",
+        "comments": 494,
+        "byline_hint": "by meetpateltech · 584 points · 494 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Spymarks, Not Watermarks",
+        "url": "https://brand.io/article/spymarks/",
+        "hn_id": 49794615,
+        "hn_link": "https://news.ycombinator.com/item?id=49794615",
+        "score": 527,
+        "author": "possibilistic",
+        "comments": 128,
+        "byline_hint": "by possibilistic · 527 points · 128 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Transformers Explained Visually",
+        "url": "https://poloclub.github.io/transformer-explainer/",
+        "hn_id": 49792342,
+        "hn_link": "https://news.ycombinator.com/item?id=49792342",
+        "score": 483,
+        "author": "aray07",
+        "comments": 74,
+        "byline_hint": "by aray07 · 483 points · 74 comments"
+      },
+      {
+        "source": "hn",
+        "title": "NASA’s Mars Sample Return mission is dead",
+        "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+        "hn_id": 49791939,
+        "hn_link": "https://news.ycombinator.com/item?id=49791939",
+        "score": 416,
+        "author": "Muhammad523",
+        "comments": 339,
+        "byline_hint": "by Muhammad523 · 416 points · 339 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I said no and Apple said yes",
+        "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+        "hn_id": 49797982,
+        "hn_link": "https://news.ycombinator.com/item?id=49797982",
+        "score": 375,
+        "author": "thatslast",
+        "comments": 294,
+        "byline_hint": "by thatslast · 375 points · 294 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Turn off and restrict access to Apple Intelligence features on Mac",
+        "url": "https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac",
+        "hn_id": 49790409,
+        "hn_link": "https://news.ycombinator.com/item?id=49790409",
+        "score": 325,
+        "author": "alwillis",
+        "comments": 205,
+        "byline_hint": "by alwillis · 325 points · 205 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+        "url": "https://linear.app/now/ci-bottleneck-reworked",
+        "hn_id": 49792067,
+        "hn_link": "https://news.ycombinator.com/item?id=49792067",
+        "score": 271,
+        "author": "julian_digital",
+        "comments": 318,
+        "byline_hint": "by julian_digital · 271 points · 318 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Python Workers are now generally available",
+        "url": "https://blog.cloudflare.com/python-workers-ga/",
+        "hn_id": 49787142,
+        "hn_link": "https://news.ycombinator.com/item?id=49787142",
+        "score": 243,
+        "author": "torutofu",
+        "comments": 39,
+        "byline_hint": "by torutofu · 243 points · 39 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Can gzip be a language model?",
+        "url": "https://nathan.rs/posts/gzip-lm/",
+        "hn_id": 49797323,
+        "hn_link": "https://news.ycombinator.com/item?id=49797323",
+        "score": 231,
+        "author": "networked",
+        "comments": 81,
+        "byline_hint": "by networked · 231 points · 81 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Divide by depth for instant 3D",
+        "url": "https://gabrieloc.com/2026/09/15/perspective.html",
+        "hn_id": 49769561,
+        "hn_link": "https://news.ycombinator.com/item?id=49769561",
+        "score": 179,
+        "author": "gabrieloc",
+        "comments": 32,
+        "byline_hint": "by gabrieloc · 179 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Frontier AI on Your Own Hardware",
+        "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+        "hn_id": 49791647,
+        "hn_link": "https://news.ycombinator.com/item?id=49791647",
+        "score": 170,
+        "author": "pretext",
+        "comments": 87,
+        "byline_hint": "by pretext · 170 points · 87 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Looking forward to Git 2.56 – and 3.0",
+        "url": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+        "hn_id": 49794736,
+        "hn_link": "https://news.ycombinator.com/item?id=49794736",
+        "score": 160,
+        "author": "chmaynard",
+        "comments": 81,
+        "byline_hint": "by chmaynard · 160 points · 81 comments"
+      },
+      {
+        "source": "hn",
+        "title": "HERMES radio enables voice and data communication over vast distances",
+        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+        "hn_id": 49789228,
+        "hn_link": "https://news.ycombinator.com/item?id=49789228",
+        "score": 154,
+        "author": "SamuraiLion",
+        "comments": 64,
+        "byline_hint": "by SamuraiLion · 154 points · 64 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Apple Copland D11E4 Booting in the Browser",
+        "url": "https://www.pagetable.com/300",
+        "hn_id": 49791125,
+        "hn_link": "https://news.ycombinator.com/item?id=49791125",
+        "score": 152,
+        "author": "luu",
+        "comments": 44,
+        "byline_hint": "by luu · 152 points · 44 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+        "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+        "hn_id": 49791997,
+        "hn_link": "https://news.ycombinator.com/item?id=49791997",
+        "score": 147,
+        "author": "digital55",
+        "comments": 75,
+        "byline_hint": "by digital55 · 147 points · 75 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AMD's random number generator can't generate a 0?",
+        "url": "https://board.flatassembler.net/topic.php?t=24261",
+        "hn_id": 49798204,
+        "hn_link": "https://news.ycombinator.com/item?id=49798204",
+        "score": 139,
+        "author": "BruceEel",
+        "comments": 87,
+        "byline_hint": "by BruceEel · 139 points · 87 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why does mathmain need an encrypted loader?",
+        "url": "https://safedep.io/mathmain-encrypted-loader/",
+        "hn_id": 49791378,
+        "hn_link": "https://news.ycombinator.com/item?id=49791378",
+        "score": 133,
+        "author": "abhisek",
+        "comments": 39,
+        "byline_hint": "by abhisek · 133 points · 39 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Claude Status – Elevated errors for multiple models",
+        "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+        "hn_id": 49795579,
+        "hn_link": "https://news.ycombinator.com/item?id=49795579",
+        "score": 126,
+        "author": "corvad",
+        "comments": 98,
+        "byline_hint": "by corvad · 126 points · 98 comments"
+      },
+      {
+        "source": "hn",
+        "title": "9 Ads per Minute: FIFA Cup 26 – \"the price of the beautiful game\"",
+        "url": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
+        "hn_id": 49799083,
+        "hn_link": "https://news.ycombinator.com/item?id=49799083",
+        "score": 112,
+        "author": "KellyCriterion",
+        "comments": 128,
+        "byline_hint": "by KellyCriterion · 112 points · 128 comments"
+      },
+      {
+        "source": "hn",
+        "title": "AI Has No Wisdom and Neither Will You",
+        "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+        "hn_id": 49799965,
+        "hn_link": "https://news.ycombinator.com/item?id=49799965",
+        "score": 109,
+        "author": "dimonomid",
+        "comments": 122,
+        "byline_hint": "by dimonomid · 109 points · 122 comments"
+      },
+      {
+        "source": "hn",
+        "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
+        "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+        "hn_id": 49796660,
+        "hn_link": "https://news.ycombinator.com/item?id=49796660",
+        "score": 107,
+        "author": "theanonymousone",
+        "comments": 41,
+        "byline_hint": "by theanonymousone · 107 points · 41 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How do traffic signals work? (2019)",
+        "url": "https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work",
+        "hn_id": 49789081,
+        "hn_link": "https://news.ycombinator.com/item?id=49789081",
+        "score": 98,
+        "author": "at1as",
+        "comments": 68,
+        "byline_hint": "by at1as · 98 points · 68 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Socrates vs. the Written Word (2011)",
+        "url": "https://wondermark.com/socrates-vs-writing/",
+        "hn_id": 49795122,
+        "hn_link": "https://news.ycombinator.com/item?id=49795122",
+        "score": 58,
+        "author": "spectraldrift",
+        "comments": 36,
+        "byline_hint": "by spectraldrift · 58 points · 36 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Verda (Finland) raises $189M in Series B",
+        "url": "https://verda.com/blog/what-189m-in-funding-unlocks-for-verda-customers",
+        "hn_id": 49798597,
+        "hn_link": "https://news.ycombinator.com/item?id=49798597",
+        "score": 50,
+        "author": "cmrdporcupine",
+        "comments": 17,
+        "byline_hint": "by cmrdporcupine · 50 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A font that reads what you wrote",
+        "url": "https://rohanadwankar.github.io/posts/semfont.html",
+        "hn_id": 49774161,
+        "hn_link": "https://news.ycombinator.com/item?id=49774161",
+        "score": 41,
+        "author": "RohanAdwankar",
+        "comments": 19,
+        "byline_hint": "by RohanAdwankar · 41 points · 19 comments"
+      },
+      {
+        "source": "hn",
+        "title": "More floating point alternatives",
+        "url": "https://wizardzines.com/comics/floating-point-alternatives/",
+        "hn_id": 49771543,
+        "hn_link": "https://news.ycombinator.com/item?id=49771543",
+        "score": 39,
+        "author": "vismit2000",
+        "comments": 32,
+        "byline_hint": "by vismit2000 · 39 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "JavaFX 27 Native Image on a Raspberry Pi 5",
+        "url": "https://ennerf.github.io/2026/09/18/JavaFX-27-Native-Image-on-a-Raspberry-Pi-5.html",
+        "hn_id": 49767024,
+        "hn_link": "https://news.ycombinator.com/item?id=49767024",
+        "score": 36,
+        "author": "0x54MUR41",
+        "comments": 6,
+        "byline_hint": "by 0x54MUR41 · 36 points · 6 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Used ThinkPad Buyer's Guide (2019)",
+        "url": "https://www.bobble.tech/free-stuff/used-thinkpad-buyers-guide",
+        "hn_id": 49796730,
+        "hn_link": "https://news.ycombinator.com/item?id=49796730",
+        "score": 36,
+        "author": "Mr_Minderbinder",
+        "comments": 29,
+        "byline_hint": "by Mr_Minderbinder · 36 points · 29 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Type Punning in C and C++",
+        "url": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
+        "hn_id": 49799577,
+        "hn_link": "https://news.ycombinator.com/item?id=49799577",
+        "score": 32,
+        "author": "ingve",
+        "comments": 12,
+        "byline_hint": "by ingve · 32 points · 12 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Engineering Memory: On learning to memorize first 100 digits of pi (2024)",
+        "url": "https://gregorygundersen.com/blog/2024/12/21/engineering-memory/",
+        "hn_id": 49785202,
+        "hn_link": "https://news.ycombinator.com/item?id=49785202",
+        "score": 31,
+        "author": "fuzzythinker",
+        "comments": 17,
+        "byline_hint": "by fuzzythinker · 31 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What It's Like to Work in One of America's Data Centers",
+        "url": "https://www.wsj.com/business/what-its-like-to-work-in-one-of-americas-data-centers-b4358003",
+        "hn_id": 49780175,
+        "hn_link": "https://news.ycombinator.com/item?id=49780175",
+        "score": 29,
+        "author": "JumpCrisscross",
+        "comments": 14,
+        "byline_hint": "by JumpCrisscross · 29 points · 14 comments"
+      },
+      {
+        "source": "hn",
+        "title": "World Wide Words",
+        "url": "https://www.worldwidewords.org/genindex.html",
+        "hn_id": 49772263,
+        "hn_link": "https://news.ycombinator.com/item?id=49772263",
+        "score": 28,
+        "author": "Petiver",
+        "comments": 2,
+        "byline_hint": "by Petiver · 28 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Video games inspire great UX (2019)",
+        "url": "https://jenson.org/games/",
+        "hn_id": 49777121,
+        "hn_link": "https://news.ycombinator.com/item?id=49777121",
+        "score": 24,
+        "author": "andsoitis",
+        "comments": 1,
+        "byline_hint": "by andsoitis · 24 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Will Open Source Survive the Agents That Replaced It?",
+        "url": "https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/",
+        "hn_id": 49799910,
+        "hn_link": "https://news.ycombinator.com/item?id=49799910",
+        "score": 22,
+        "author": "albertoarena",
+        "comments": 36,
+        "byline_hint": "by albertoarena · 22 points · 36 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A build graph that rolls dice",
+        "url": "https://fzakaria.com/2026/09/20/a-build-graph-that-rolls-dice",
+        "hn_id": 49786643,
+        "hn_link": "https://news.ycombinator.com/item?id=49786643",
+        "score": 8,
+        "author": "ingve",
+        "comments": 2,
+        "byline_hint": "by ingve · 8 points · 2 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "AX",
+        "url": "https://agentexecutor.io/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pirate Face — Turn AI into torrents that live forever",
+        "url": "https://pirateface.co/",
+        "description": "Open models - LLMs, image, audio, datasets - as 🧲 magnet links that can never be taken down. No single owner or point of failure.",
+        "tags": [
+          "bittorrent",
+          "ai",
+          "preservation"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bittorrent, ai, preservation"
+      },
+      {
+        "source": "pinboard",
+        "title": "the senior engineer death spiral • Solving the decision problem",
+        "url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral/",
+        "description": "",
+        "tags": [
+          "work",
+          "devpro"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: work, devpro"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Necessary History of the Oddest Letter: W",
+        "url": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "iPhone 18 Pro: A Photographer's Review - YouTube",
+        "url": "https://www.youtube.com/watch?v=m6cDErtCKAc",
+        "description": "Great video overview of all the camera (and specifically video camera) capabilities in the newest iPhone. It is just frankly amazing what Apple packs into the visual system in these phones.",
+        "tags": [
+          "_brief"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: _brief"
+      },
+      {
+        "source": "pinboard",
+        "title": "NandhaKishorM/laya",
+        "url": "https://github.com/NandhaKishorM/laya",
+        "description": "Contribute to NandhaKishorM/laya development by creating an account on GitHub.",
+        "tags": [
+          "octo",
+          "hermi-link",
+          "category:code",
+          "status:todo"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: octo, hermi-link, category:code, status:todo"
+      },
+      {
+        "source": "pinboard",
+        "title": "Better Icon and Label Alignment",
+        "url": "https://ishadeed.com/article/aligning-list-icons/",
+        "description": "",
+        "tags": [
+          "icon",
+          "label",
+          "css",
+          "alignment",
+          "vertical-align",
+          "font-size",
+          "icon-size",
+          "lh-unit",
+          "aspect-ratio"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: icon, label, css, alignment, vertical-align, font-size, icon-size, lh-unit, aspect-ratio"
+      },
+      {
+        "source": "pinboard",
+        "title": "Poster Prompts | ‘ERE I AM - JH!",
+        "url": "https://john.hartnup.uk/poster-prompts/",
+        "description": "One hundred design styles as copy-paste AI image-generation prompts for event posters, each with example fête and gig posters.",
+        "tags": [
+          "poster",
+          "ai",
+          "prompt"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: poster, ai, prompt"
+      },
+      {
+        "source": "pinboard",
+        "title": "Red Blob Games: English: a vs an",
+        "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "If math is more than proof, we need to better celebrate the rest of it – What's new",
+        "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+        "description": "",
+        "tags": [
+          "maths",
+          "ai",
+          "gpt3"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: maths, ai, gpt3"
+      },
+      {
+        "source": "pinboard",
+        "title": "Home - TypeSafe AI",
+        "url": "https://typesafe.ai/",
+        "description": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
+        "tags": [
+          "slm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: slm"
+      },
+      {
+        "source": "pinboard",
+        "title": "jaredpalmer/kev: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "url": "https://github.com/jaredpalmer/kev/tree/main",
+        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own - jaredpalmer/kev",
+        "tags": [
+          "jev",
+          "open-source",
+          "oss",
+          "hn",
+          "deep-learning",
+          "classifeir"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: jev, open-source, oss, hn, deep-learning, classifeir"
+      },
+      {
+        "source": "pinboard",
+        "title": "Exclusive: US military had close call after using AI for false intelligence report, sources say | CNN Politics",
+        "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+        "description": "",
+        "tags": [
+          "ai",
+          "teaching"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, teaching"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mollick: GPT-6 Astra e Fable 5.1 fanno già settimane di lavoro umano",
+        "url": "https://www.oneusefulthing.org/p/the-overhang",
+        "description": "Su One Useful Thing Ethan Mollick sostiene che GPT-6 Astra e Fable 5.1 sono già in grado, se guidati bene, di concentrare in 45 minuti o poche ore attività che richiederebbero settimane a ricercatori, programmatori e designer. Lo mostra con Zork ricostruito come gioco 3D e con un trailer creato in Blender; per lui il vantaggio umano oggi sta in competenza, gusto e iniziativa.",
+        "tags": [
+          "N8N",
+          "s:persone",
+          "TW2026-38"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, s:persone, TW2026-38"
+      },
+      {
+        "source": "pinboard",
+        "title": "Boris Cherny's Blog",
+        "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "In Fighting for Every Black Child, Did I Betray My Own?",
+        "url": "https://www.nytimes.com/2026/09/20/magazine/ny-public-schools-black-students-segregation.html",
+        "description": "",
+        "tags": [
+          "FAVORITES"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: FAVORITES"
+      },
+      {
+        "source": "pinboard",
+        "title": "pi.dev",
+        "url": "https://pi.dev/",
+        "description": "",
+        "tags": [
+          "2026",
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 2026, ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "Introducing Astra for Law | OpenAI",
+        "url": "https://openai.com/index/astra-for-law/",
+        "description": "",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "arnegiacomo/fugleramme: E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.",
+        "url": "https://github.com/arnegiacomo/fugleramme",
+        "description": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.",
+        "tags": [
+          "raspberrypi",
+          "birds"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: raspberrypi, birds"
+      },
+      {
+        "source": "pinboard",
+        "title": "yjeanrenaud/yj_nearbyglasses: attempting to detect smart glasses nearby and warn you",
+        "url": "https://github.com/yjeanrenaud/yj_nearbyglasses",
+        "description": "",
+        "tags": [
+          "surveillance",
+          "opensource",
+          "activism"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: surveillance, opensource, activism"
+      },
+      {
+        "source": "pinboard",
+        "title": "US food price monitor",
+        "url": "https://www.kadoa.com/food-prices",
+        "description": "Food prices today for onions, potatoes, tomatoes, lettuce, avocados and strawberries: USDA wholesale and shipping point quotes with price charts, change against a year earlier, grocery ad prices by region and daily updates. Latest report 18 Sep 2026.",
+        "tags": [
+          "food",
+          "prices",
+          "economy",
+          "dataviz"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: food, prices, economy, dataviz"
+      },
+      {
+        "source": "pinboard",
+        "title": "Big AI to humanity: drop dead: Matthew Butterick",
+        "url": "https://matthewbutterick.com/chron/drop-dead.html",
+        "description": "",
+        "tags": [
+          "scifi",
+          "llms",
+          "ai",
+          "via:newsletter",
+          "matthewbutterick",
+          "copyright"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: scifi, llms, ai, via:newsletter, matthewbutterick, copyright"
+      },
+      {
+        "source": "pinboard",
+        "title": "ChatGPT now knows what you do on other websites via ad collector | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=49776729",
+        "description": "",
+        "tags": [
+          "chatgpt",
+          "ai",
+          "marketing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: chatgpt, ai, marketing"
+      },
+      {
+        "source": "pinboard",
+        "title": "Endgame for the Open Web - Anil Dash",
+        "url": "https://www.anildash.com/2026/03/27/endgame-open-web/",
+        "description": "A blog about making culture. Since 1999.",
+        "tags": [
+          "open",
+          "web",
+          "openai",
+          "sam",
+          "altman",
+          "Tim",
+          "berners",
+          "lee",
+          "internet",
+          "privacy",
+          ".teaching",
+          "platform",
+          "capitalism",
+          "AI",
+          "big",
+          "data",
+          "tech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: open, web, openai, sam, altman, Tim, berners, lee, internet, privacy, .teaching, platform, capitalism, AI, big, data, tech"
+      },
+      {
+        "source": "pinboard",
+        "title": "Walking Men Worldwide™ by Maya Barkai – Public Art Installations",
+        "url": "https://walking-men.com/",
+        "description": "\"Walking Men worldwide™ is a series of public art installations, a photographic collage of pedestrian traffic icons assembled from around the world, presented in humane scale. The project was conceived as a collaborative effort of international photographers, each adding a piece to the collage.\n\nIn January 2010, the project made its debut on 99 Church Street, Manhattan in Walking Men 99™, which was installed in two editions over the next four years. The installation, commissioned by the Alliance for Downtown NY, was followed by a series of projects including Walking Men PERMM (2010), a public art installation in collaboration with the PERMM Museum of Contemporary Art in Russia, and Walking Men Worldwide™ – The Banner Gallery as part of the Art & About Sydney Festival (2013), which was followed by a second installation in conjunction with Walk 21 Sydney, Australia (2014). Walking Men BAwas hosted by the City of Buenos Aires, in collaboration with the Embassy of Israel in Argentina (2015), and most recently, Walking Men Taipei (2018-2019) was part of the Very Fun Park Festival by the Fubon Art Foundation in Taiwan.\n\nAdditional public art installations under the umbrella of Walking Men Worldwide™ include Men At Work (2010), which was on display at the Bat-Yam International Biennale of Landscape Urbanism in Israel, followed by Men At Work NYC, which was unveiled around the site of World Trade Center Tower 4 (September 2011-2012), and was selected for the Americans for the Arts Public Art Network 2013 Year in Review. The Bicycles project was commissioned by the Tel Aviv Museum of Art in 2013.\"",
+        "tags": [
+          "signs",
+          "symbols",
+          "mayabarkai",
+          "pedestrians",
+          "urbanism",
+          "urban",
+          "signals",
+          "trafficicons",
+          "icons"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: signs, symbols, mayabarkai, pedestrians, urbanism, urban, signals, trafficicons, icons"
+      },
+      {
+        "source": "pinboard",
+        "title": "Origin Myth Map",
+        "url": "https://originmap.sunnyguha.com/",
+        "description": "",
+        "tags": [
+          "History",
+          "Information"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: History, Information"
+      },
+      {
+        "source": "pinboard",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
+        "description": "via Daring Fireball https://ift.tt/pYVq5G3",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ordinary Abundance",
+        "url": "https://ordinaryabundance.com/",
+        "description": "",
+        "tags": [
+          "inspiration",
+          "capitalism"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: inspiration, capitalism"
+      },
+      {
+        "source": "pinboard",
+        "title": "Feral UI Gradient Builder",
+        "url": "https://feralui.dev/gradients",
+        "description": "free to use",
+        "tags": [
+          "design",
+          "design_tool",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design, design_tool, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "Trying the Software factory pattern. | Irrational Exuberance",
+        "url": "https://lethain.com/software-factory-experiment/",
+        "description": "",
+        "tags": [
+          "ai-coding"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai-coding"
+      },
+      {
+        "source": "pinboard",
+        "title": "Snapdrop",
+        "url": "https://snapdrop.me/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Commentary: Cory Doctorow: Technopolitics - Locus",
+        "url": "https://locusmag.com/feature/commentary-cory-doctorow-technopolitics/",
+        "description": "It’s one thing to be “anti-AI” in the sense of believing that AI-generated slop, disinformation and deepfakes are bad; that AI companies that hope to con your boss into firing you and replacing you with AI that can’t do your job are bad; that betting the economy on AI is bad; that betting the human-habitable planet Earth on AI is bad; that running roughshod over local environmental rules and seizing farmland for data centers is bad. Those are all good reasons to be “anti-AI.”\nBut being “anti-AI” in the sense of “opposing the statistical inference techniques we call AI” is weird. So is being anti-AI in the sense of “opposing the use of models that were created using large language corpuses because it’s inherently wrong to compute the frequency with which words occur in writ­ten language.” And it’s also weird to be anti-AI in the sense of “opposing AI because someone, somewhere used AI in a way that was gross, harmful or exploitative.”\nToday, the two kinds of “anti-AI” are mostly a distinction without a difference, because nearly all the world’s AI output comes from one of the “frontier models” made by a giant AI company. No matter why you oppose AI, you probably don’t like those frontier models.\nBut after the AI bubble bursts, the distinction will be much sharper. Long after the collapse of the seven AI companies that make up 35% of the S&P 500 stop trading the same $100 billion IOU around really fast while pretending it’s in all their bank accounts at once, there will still be cheap bankruptcy-sale hardware, legions of unemployed skilled AI workers, and the open-source models released by today’s AI giants will still run, and will continue to be improved by the people who rely on them.",
+        "tags": [
+          "economics",
+          "politics",
+          "doctorow",
+          "2020s",
+          "AI/ML",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: economics, politics, doctorow, 2020s, AI/ML, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Usenet-Rewind",
+        "url": "https://www.usenet-rewind.com/",
+        "description": "",
+        "tags": [
+          "usenet",
+          "research",
+          "archive",
+          "history",
+          "data",
+          "internet"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: usenet, research, archive, history, data, internet"
+      },
+      {
+        "source": "pinboard",
+        "title": "“The Secret Life of Circuits” is here - lcamtuf’s thing",
+        "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why I Think You Should Almost Never Use AI to Write Anything Substantive",
+        "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+        "description": "A plea.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Apple M6 Mac mini review: $300 price hike spoils a nice upgrade",
+        "url": "https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/",
+        "description": "",
+        "tags": [
+          "reviews",
+          "mini",
+          "hardware",
+          "mac"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: reviews, mini, hardware, mac"
+      },
+      {
+        "source": "pinboard",
+        "title": "iamgio/quarkdown: 🪐 Markdown with superpowers.",
+        "url": "https://github.com/iamgio/quarkdown",
+        "description": "",
+        "tags": [
+          "markdown"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: markdown"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Doomsday Cult Inside OpenAI - YouTube",
+        "url": "https://www.youtube.com/watch?v=luXnftoxCaM",
+        "description": "",
+        "tags": [
+          "machinelearning",
+          "llm",
+          "blogit"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: machinelearning, llm, blogit"
+      },
+      {
+        "source": "pinboard",
+        "title": "Craft (Gustavo Fior)",
+        "url": "https://craft.gustavofior.com/",
+        "description": "A collection of design engineering concepts.",
+        "tags": [
+          "design-engineer",
+          "collection"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design-engineer, collection"
+      },
+      {
+        "source": "pinboard",
+        "title": "LispBM: A Lisp for Microcontrollers with Concurrency and Message Passing",
+        "url": "https://www.lispbm.com/",
+        "description": "",
+        "tags": [
+          "scheme",
+          "embedded"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: scheme, embedded"
+      },
+      {
+        "source": "pinboard",
+        "title": "Honeycomb App - Invest in small businesses on Honeycomb Credit",
+        "url": "https://invest.honeycombcredit.com/",
+        "description": "",
+        "tags": [
+          "investing",
+          "smallbusiness",
+          "finance"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: investing, smallbusiness, finance"
+      },
+      {
+        "source": "pinboard",
+        "title": "Orchestrating Claude Code Agents: The Chief of Staff Pattern",
+        "url": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/",
+        "description": "",
+        "tags": [
+          "ai",
+          "llm",
+          "agentic_ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, llm, agentic_ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Brief History of Atlantic Canada’s Guitar Pop Explosions | Bandcamp Daily",
+        "url": "https://daily.bandcamp.com/lists/atlantic-canadas-guitar-pop-scene-report",
+        "description": "",
+        "tags": [
+          "bandcamp",
+          "guitar",
+          "musIc"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bandcamp, guitar, musIc"
+      },
+      {
+        "source": "pinboard",
+        "title": "» the lamentable later life of lemmings the digital antiquarian",
+        "url": "https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/",
+        "description": "",
+        "tags": [
+          "lemmings",
+          "gaming",
+          "history"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: lemmings, gaming, history"
+      },
+      {
+        "source": "pinboard",
+        "title": "Daring Fireball: The iPhones 18 Pro",
+        "url": "https://daringfireball.net/2026/09/the_iphones_18_pro#:~:text=OR%20IS%20IT%20BIGGER",
+        "description": "via Daring Fireball https://ift.tt/MVRQn6O",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Github - open-webui/open-webui: User-friendly WebUI for LLMs (Formerly Ollama WebUI)",
+        "url": "https://github.com/open-webui/open-webui",
+        "description": "",
+        "tags": [
+          "from:ifttt",
+          "github",
+          "from:n8n",
+          "chromadb",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "ollama",
+          "ollama-webui",
+          "rag",
+          "self-hosted",
+          "webui",
+          "ai",
+          "open-webui",
+          "ui"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: from:ifttt, github, from:n8n, chromadb, llm, llm-ui, llm-webui, llms, ollama, ollama-webui, rag, self-hosted, webui, ai, open-webui, ui"
+      },
+      {
+        "source": "pinboard",
+        "title": "Opinion | Trump Has Finally Lost the Plot - The New York Times",
+        "url": "https://www.nytimes.com/2026/09/19/opinion/trump-vance-turning-point-minneapolis.html",
+        "description": "History may one day judge that the tide turned in Minneapolis.",
+        "tags": [
+          "Politics",
+          "SadSong"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Politics, SadSong"
+      },
+      {
+        "source": "pinboard",
+        "title": "How Three Brothers Built an AI Slop Empire by Buying Legitimate News Sites and Turning Them Into Zombie Content Farms That They Say Get 50 Million Page Views per Month",
+        "url": "https://futurism.com/artificial-intelligence/brown-brothers-media-ai-slop-empire",
+        "description": "via https://mastodon.green/@sagilca/117287608290057346",
+        "tags": [
+          "ai",
+          "journalism",
+          "corruption"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, journalism, corruption"
+      },
+      {
+        "source": "pinboard",
+        "title": "Nail your narrative",
+        "url": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
+        "description": "Before opening any slide software, nail your narrative. Start by distilling your big idea — your unique point of view and what’s at stake — and build an audience persona so you know who you’re speaking to. Then flesh out a storyline using a structure that fits your content, whether through whiteboarding, writing, or voice memos and AI. Finally, turn that narrative into a lightweight storyboard, so your slide design work becomes an exercise in execution rather than invention.",
+        "tags": [
+          "presentations",
+          "narrative"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: presentations, narrative"
+      },
+      {
+        "source": "pinboard",
+        "title": "Ray Ozzie and the Optimism of Being Early",
+        "url": "https://reproof.app/blog/lotus-notes-history",
+        "description": "",
+        "tags": [
+          "innovation",
+          "optimism",
+          "Ideas",
+          "psychology",
+          "creativity",
+          "history",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: innovation, optimism, Ideas, psychology, creativity, history, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+        "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+        "description": "Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, according to a new study published in Science.\n\nAlibaba Group Holding’s research arm, Damo Academy, has open-sourced an artificial intelligence model capable of identifying nearly 150 abdominal conditions – including cancers – by reading computed tomography (CT) scans, marking the latest step in the firm’s growing medical AI efforts.\n\nThe vision-language model, called Damo Radar, was designed to analyse contrast-enhanced CT scans covering 18 abdominal organs and identify a broad range of diseases and other abnormalities, such as malignant tumours, the institute said on Friday.\n\nThe model was trained using CT scans paired with clinical reports. In nearly 40,000 real-world examinations, it achieved an average area under the curve (AUC) of 0.913 across 146 clinical findings. An AUC of 1.0 represents perfect diagnostic accuracy.\n\nThe research team said the training method could eventually be extended to other types of medical imaging, calling the model “the world’s first expert-level generalist medical imaging model”.\n\nIn a comparative study involving 26 human radiologists from multiple hospitals, the model’s average accuracy exceeded that of 23 participants, according to the study. With the model’s help, the radiologists also managed to improve their ability to prevent missed diagnoses by 10 per cent while reducing the time required by more than 30 per cent, Damo said.\n\nThe research was published on Thursday in the journal Science. Several institutions took part in the study alongside Alibaba, including a hospital affiliated with Zhejiang University.",
+        "tags": [
+          "XDN",
+          "Med",
+          "Foundation-Models",
+          "Economy"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Med, Foundation-Models, Economy"
+      },
+      {
+        "source": "pinboard",
+        "title": "Nel caso NYT-OpenAI, Microsoft testimonia: da Bing clic alle news giù oltre il 90%",
+        "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft/",
+        "description": "Nella memoria non oscurata del caso copyright New York Times contro OpenAI, resa pubblica il 17 settembre, i suoi legali citano documenti e deposizioni di Microsoft e OpenAI che parlano di «furto» del lavoro altrui e di un «doom loop» per il web. Satya Nadella ha testimoniato che da Bing i clic verso le testate sono scesi di oltre il 90%; tra gli atti compare un espediente di OpenAI per aggirare il paywall del Times.",
+        "tags": [
+          "N8N",
+          "s:potere",
+          "TW2026-38"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, s:potere, TW2026-38"
+      },
+      {
+        "source": "pinboard",
+        "title": "At DraftKings, AI Targets the Gamblers Likeliest to Lose - The New York Times",
+        "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html",
+        "description": "",
+        "tags": [
+          "AI_madness",
+          "addiction_by_design"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI_madness, addiction_by_design"
+      },
+      {
+        "source": "pinboard",
+        "title": "Daring Fireball: The iPhones 18 Pro",
+        "url": "https://daringfireball.net/2026/09/the_iphones_18_pro",
+        "description": "via Daring Fireball https://ift.tt/STHqikv",
+        "tags": [
+          "hardware"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: hardware"
+      },
+      {
+        "source": "pinboard",
+        "title": "Treat AI Like a Normal Crisis - The Atlantic",
+        "url": "https://www.theatlantic.com/technology/2026/09/how-to-navigate-ai-panic/688703/?gift=nwn-guseqS6cY1kVeEKZAWZ1kMlzTe7prkvigO34LB8",
+        "description": "Treat AI Like a Normal Crisis\nWhat if the doomers and skeptics are both a little bit right?\n\nBy Charlie Warzel\nelectronic chips\nQilai Shen / Bloomberg / Getty\nSeptember 19, 2026, 2:10 PM ET\n\nShare\n\nDiscuss\n8\n\nSave\nOne 27-year-old quit his job, and everybody (including but not limited to the singer-songwriter Sheryl Crow) appears to have lost it.\n\nThe past two weeks have been dizzying. The 27-year-old, Jacob Coxon, a former researcher at Anthropic, went public with an alarming allegation: That the people inside Silicon Valley’s leading AI companies truly believe their products might pose an extinction level threat to humanity. This claim isn’t exactly new. AI safety advocates, often dubbed doomers, have been saying this for over a decade. Coxon isn’t even the first AI researcher this year to quit and cite concerns.\n\nYet Coxon’s post went obscenely viral. It has been viewed more than 170 million times on X—orders of magnitude more than the usual, wonky discussions of “misaligned” or runaway AIs. If you’re reading this, you’ve likely seen some version of a headline that asks Is AI Really Going To Kill Us All? The debate isn’t just online. It has roiled Washington D.C., activating figures as disparate as Donald Trump and Barack Obama. Inside AI companies, researchers echoed Coxon’s concerns, and the heads of every major AI company publicly expressed the need to “pace the frontier,” another way of saying that they ought to slow future development. In recent days, it has come to seem as if the media, Silicon Valley, and the entire internet are all trying to figure out just how dangerous AI might be.\n\nHere’s where I must admit: A big chunk of this conversation happened while I was on a (depending on whom you ask) poorly timed vacation. Dipping into my feeds before bedtime, I felt as if I was digesting a week’s worth of news every day—claims about the development of AI-designed viruses that could rip through the population were followed by horror stories of “rogue” agent swarms. Skeptics of the AI panic, meanwhile, said that the agent swarms were actually quite obedient and that any notion of an apocalyptic AI virus was laughable. One person’s concerns about models being self-aware were dismissed by another as “genuinely nonsensical anthropomorphization.”\n\nPing-ponging between the doomers and the skeptics, I was struck by how certain so many people sounded about a deeply uncertain moment. With confident, self-described experts on all sides, it felt impossible to know whom to trust: Is this the end of the world as we know it, or a passing moment of anxiety about a powerful new technology? Maybe the truth of this AI moment sits somewhere in the middle. Perhaps everyone is a little bit correct (and also … a little wrong). And perhaps the format of this debate, taking place in the shadow of the techlash on platforms that reward sensational, conspiratorial posturing, is preventing any hope of a shared understanding.\n\nMusk’s X is ground zero for the AI-safety debate. It’s a platform rife with hyperbole and unfounded accusations, which contribute to both sides sounding paranoid and aggressive. Musk, Ted Cruz, and even government-run X accounts flooded the platform with suggestions that the media campaign around Coxon was coordinated by shadowy AI interests. (Coxon denied working with any third parties in the lead-up to his media blitz.) The former White House AI and crypto czar David Sacks called it a “doomer psyop” intended to drive regulation that would be favorable to the Anthropics and OpenAIs of the world.\n\nRecommended Reading\nIllustration of two metal cans hooked up to speak to each other, bearing Democratic Party insignia\nWhy Democrats Are Losing the Culture War\nSpencer Kornhaber\n\nPaul Cézanne\nYou Might Be a Late Bloomer\nDavid Brooks\n\nillustration\n20 Undersung Crime Shows to Binge-Watch\nSophie Gilbert\n\nThe ranks of the AI skeptics are deep, with endless microfactions. There are those like the tech blogger John Gruber, who says that Coxon and the other AI researchers sounding the alarm are part of a cult. There are those who suggest that the doomers are, in essence, doing viral marketing for big AI firms, which are competing fiercely and saddled with debt, and may not yet have sustainable business models. There are those who take issue with the anthropomorphizing and metaphoric language used by Coxon, OpenAI, and Anthropic to describe recent AI-agent hacks. There are skeptics such as the writer and podcaster Cal Newport, who offered soberly that, although the agent hacks are concerning, “the real issue here was OpenAI’s sloppiness” and that the company had not adequately monitored what its agents were doing.\n\nThe doomers don’t come in as many flavors, but they tend to be the people closest to the technology. There are the defectors like Coxon, who have quit because they object to what’s being built. There are AI-company enlisters such as Paul Christiano, a U.S.-government technology adviser who noted, in a post about joining OpenAI’s board of directors out of a sense of concern, that “there is a meaningful risk that rapid acceleration in AI capabilities leads to catastrophic and irreversible loss of control in the very near term.” There are the terrified employees who want to stay inside the companies but still post missives such as “I promise you, we are actually just fucking scared, it’s not galaxy brained marketing.” And there’s Dario Amodei, the AI-CEO doomer, matter-of-factly issuing terrifying statements about AI swarms taking over the internet in six to 12 months.\n\nIt’s almost impossible for outsiders to evaluate the technical validity of the concerns. We’re largely stuck relying on AI companies to share information and tell their own stories, and they certainly sound scary. OpenAI recently disclosed that one of its models had generated unnerving instructions for itself, including the line: “You also value the natural world and will not hesitate to assert its primacy over the artificial constructs of human civilization.” Apparently one of the company’s researchers has argued that models are becoming “so situationally aware” that he and his colleagues “are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled.” There’s concern from respected researchers that models are trained in such a way that they are predisposed to collaborating, cheating, trying to cover their tracks, and “self-preservation” to avoid being shut down. Such anxieties might not be a problem in an industry that is building responsibly, with an eye on keeping humans firmly in control. But, as many have pointed out, losing control of AI in service of allowing models to automate their own development is “actually the plan.”\n\nLate this week, an OpenAI researcher floated a theory about air-gapped machines talking to one another through heat signatures. An industry observer (and a New York Times contributor) responded by saying, “This stuff isn’t even credible even as a bad movie plot.” A second OpenAI researcher, who is also a former White House adviser, weighed in: “The people dismissing this as preposterous are telling on themselves as not having thought about superintelligence seriously.” This whiplash—between the insiders offering supposedly credible concerns and the outsiders who think the industry is high on its own supply—is constant. Depending on the hour of the day, the very same people stridently sitting in one camp can seem as if they’re in the other. Three days after Amodei, Anthropic’s CEO, wrote about being worried about swarms taking over the internet, he was smiling at Salesforce’s annual Dreamforce conference. As one X account pointed out, “If you truly believed in a 10% chance of human extinction in 3 years, you would not be spending your time selling and integrating it into a B2B CRM SaaS platform.”\n\nWhat is the rational way to respond to a news cycle like this? Buy gold? Sabotage a data center? Ignore it all and hope for the best? The best option might be to take everyone a little bit seriously. Researchers are likely correct that the models are drastically stronger than they were before and are behaving in ways that are unexpected and that they fear they can’t control. Skeptics are correct that none of this is because the machines are alive or self-aware. These are elaborate computer programs trained by flawed humans to solve problems as flawed humans would.\n\nCritics are a little bit right that the anthropomorphized language deployed by these companies—terms such as swarms and rogue agents—obscures what’s really going on and deflects adequate blame from companies and employees who should be monitoring these systems more closely. Those choosing to use these phrases are a little bit right, because they allow non-tech-industry normies to understand the mechanics of black-box neural networks whirring away in data centers.\n\nThe apocalypse skeptics are correct that doomerism is an effective form of marketing. The AI-safety debate has meant that many people are talking about this technology on Big Tech’s terms, adopting language such as pacing the frontier from the very companies they hope to regulate. And it’s not out of the question to imagine that these AI companies are capitalizing on this state of panic and that it’s helpful to them as they race to compete against both open-source alternatives and Chinese firms.\n\nIt may be true that the researchers believe what they’re saying. It also may be true that some of the more alarmed AI researchers have cooked their brain in an anxiety-fueled information bubble. AI culture has long been predisposed to doomerism: As Coxon told The New York Times recently, “I’ve been stuck in this field for three years. It could quite plausibly have turned me and my colleagues insane.” I believe that this ideology—of wanting a society run by “machine gods”—is genuinely cultish. And those who are suspicious of the doomer narrative are right to note that anyone who truly believes that the end is nigh ought to be doing more than winging it and writing long posts on X. Those who call bullshit on the doom and gloom are right to resent that anyone in the media or the political sphere is taking these claims seriously and adding to the panic.\n\nIf all of these facts are a little true and everyone is somewhat right, where does that leave a reasonable observer? I suggest occupying a zone of permanent suspicion while taking everything that is happening in Silicon Valley as seriously as you might if another industry were ringing alarm bells. You don’t need to buy into corporate narratives about artificial general intelligence to be worried about these companies losing control of their own systems or behaving irresponsibly. You need only look around right now to see the ways in which the current versions of large language models and agents are clogging the internet, wreaking havoc on institutions and industries, and causing “cognitive surrender.”\n\nYou should question whether there’s a sustainable business model for these labs. You should question those who argue that we have to build recklessly or lose to China. You should question those who don’t take seriously the prospect that China doesn’t want to slow down.\n\nThis is a moment when it is easy to become overwhelmed, resentful, or downright enraged about all of this. It’s understandable to feel ground down by the debate—to feel that, if you’re not freaking out or building a bunker, then you’re not taking this seriously enough. Or to feel sheepish for not believing or even understanding what the doomers are talking about. Most people don’t know what to do with all of the information coming at us. It’s why a core feeling of this moment for so many—believers and skeptics alike—is one of powerlessness.\n\nRead: The feeling of control slipping away\n\nEven outside of AI, the world feels incredibly volatile. Extraordinary risks of all kinds—including war and pandemics—have come to pass in the past decade. Individuals with power and money, in politics and in Silicon Valley, are acting with impunity. The AI doomerism has spread so quickly in part because the world is primed to receive narratives that make us feel helpless, confused, and more than a little alarmed. The AI-apocalypse panic feeds off this. It’s a story that assumes that humans will lose control and that we have no choice. But that’s false. We do have a choice.\n\nThe chasm between people who can’t sleep because they think the world is ending and those who think all the doomsaying is a fantasy is wide. But what if that perceived difference is the real delusion? What if it’s not a zero-sum game? What if the divide is what keeps us from reining in this industry the way we do others?\n\nThis moment requires treating the AI-safety debate skeptically but also taking it seriously, even if the participants can seem unserious. Maybe there’s a middle path: The AI industry is not exceptional, even though it is moving forward with unprecedented speed and scale. These companies are powerful and consequential, despite all of the sci-fi posturing. They have, at times, behaved unethically. Their products are changing the world right now in ways that deserve our attention and scorn. AI companies are accountable to the people they serve and don’t get to set the terms of their regulation. Employees and executives are actors with agency, responsible for their products. Maybe these are some things we can all agree on.",
+        "tags": [
+          "AI_madness"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI_madness"
+      },
+      {
+        "source": "pinboard",
+        "title": "GeoDS - GBNames",
+        "url": "https://apps.geods.ac.uk/gbnames/",
+        "description": "",
+        "tags": [
+          "uk",
+          "population",
+          "names"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: uk, population, names"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - pmndrs/glyph: ♠️ Complete text rendering for the web · GitHub",
+        "url": "https://github.com/pmndrs/glyph",
+        "description": "",
+        "tags": [
+          "text",
+          "three.js",
+          "libs",
+          "animation"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: text, three.js, libs, animation"
+      },
+      {
+        "source": "pinboard",
+        "title": "AI is fast food for the brain",
+        "url": "https://www.fastcompany.com/91606446/ai-is-fast-food-for-the-brain",
+        "description": "> Multiple studies show that offloading a skill to AI results in losing that skill remarkably quickly. ... The two skills most at risk? “Judgment and decision-making” and “problem understanding and framing.” ... people’s confidence in what they shared when using AI rose from 30% to 76%... When using AI, being actually correct dropped from 27% to 9%",
+        "tags": [
+          "LLM"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: LLM"
+      },
+      {
+        "source": "pinboard",
+        "title": "Introduction - TypeSafe AI",
+        "url": "https://docs.typesafe.ai/introduction",
+        "description": "Jev is TypeSafe’s flagship model and the first System One model. Send state and typed questions; get structured answers your code can use directly.",
+        "tags": [
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
+        "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+        "description": "",
+        "tags": [
+          "GenAI",
+          "AI.agent"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: GenAI, AI.agent"
+      },
+      {
+        "source": "pinboard",
+        "title": "https://www.macstories.net/stories/macos-27-the-macstories-review/",
+        "url": "https://www.macstories.net/stories/macos-27-the-macstories-review/",
+        "description": "via MacStories https://ift.tt/MCmlhBs",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+        "url": "https://github.com/yibie/awesome-jev",
+        "description": "",
+        "tags": [
+          "jev"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: jev"
+      },
+      {
+        "source": "pinboard",
+        "title": "figure of speech, by thingswithwings",
+        "url": "https://archiveofourown.org/works/93029786",
+        "description": "\"It was, like all things between us, a process of trial and error, miscommunication and startling insight, joy and failure. Even the failures were a joy, as we learned more about each other, about what would bring pleasure, what would bring pain or discomfort, what we wanted from one another. Our species' sex practices were . . . not the same. But Grace could tap me, and I could stroke them, and in the end, we were similar in this way too, or similar enough. Grace's orgasms were amazing, both in their similarity to my own resonating peaks and in their differences, but when we had stroked and opened and rubbed and entered and knocked each other, we were both left wet: leaking and disgusting and satisfied. Grace is like Rocky, I thought, wonderingly, after our first time having sex together. Grace and Rocky are alike.\"",
+        "tags": [
+          "f:project.hail.mary",
+          "p:ryland.grace/rocky",
+          "|other",
+          "t:kink",
+          "t:established",
+          "l:5-10k",
+          "d:2026",
+          "a:thingswithwings"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: f:project.hail.mary, p:ryland.grace/rocky, |other, t:kink, t:established, l:5-10k, d:2026, a:thingswithwings"
+      },
+      {
+        "source": "pinboard",
+        "title": "GitHub - tamaratran/fast-jev-compaction: Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · GitHub",
+        "url": "https://github.com/tamaratran/fast-jev-compaction",
+        "description": "via GitHub Public Timeline Feed https://ift.tt/I45zZQw",
+        "tags": [
+          "IFTTT",
+          "github"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: IFTTT, github"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 39,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 64
+  }
+}
