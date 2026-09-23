@@ -1,0 +1,1221 @@
+{
+  "date": "2026-09-23",
+  "fetched_at": "2026-09-23T13:29:07",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Claude Opus 5.5",
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "hn_id": 49803892,
+        "hn_link": "https://news.ycombinator.com/item?id=49803892",
+        "score": 1635,
+        "author": "km144",
+        "comments": 1000,
+        "byline_hint": "by km144 · 1635 points · 1000 comments"
+      },
+      {
+        "source": "hn",
+        "title": "GPT-6 Sol and Luna",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "hn_id": 49805509,
+        "hn_link": "https://news.ycombinator.com/item?id=49805509",
+        "score": 1625,
+        "author": "OfficialTurkey",
+        "comments": 779,
+        "byline_hint": "by OfficialTurkey · 1625 points · 779 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+        "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+        "hn_id": 49806430,
+        "hn_link": "https://news.ycombinator.com/item?id=49806430",
+        "score": 741,
+        "author": "devonnull",
+        "comments": 367,
+        "byline_hint": "by devonnull · 741 points · 367 comments"
+      },
+      {
+        "source": "hn",
+        "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+        "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+        "hn_id": 49801324,
+        "hn_link": "https://news.ycombinator.com/item?id=49801324",
+        "score": 692,
+        "author": "sohkamyung",
+        "comments": 407,
+        "byline_hint": "by sohkamyung · 692 points · 407 comments"
+      },
+      {
+        "source": "hn",
+        "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+        "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+        "hn_id": 49805278,
+        "hn_link": "https://news.ycombinator.com/item?id=49805278",
+        "score": 682,
+        "author": "spenvo",
+        "comments": 496,
+        "byline_hint": "by spenvo · 682 points · 496 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How did AMD Ryzen get 50% faster in two years?",
+        "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+        "hn_id": 49758709,
+        "hn_link": "https://news.ycombinator.com/item?id=49758709",
+        "score": 390,
+        "author": "ibobev",
+        "comments": 158,
+        "byline_hint": "by ibobev · 390 points · 158 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+        "url": "https://foxscript.org/",
+        "hn_id": 49808023,
+        "hn_link": "https://news.ycombinator.com/item?id=49808023",
+        "score": 386,
+        "author": "boredjohnny",
+        "comments": 211,
+        "byline_hint": "by boredjohnny · 386 points · 211 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Jev in 25 Lines of Python",
+        "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+        "hn_id": 49812769,
+        "hn_link": "https://news.ycombinator.com/item?id=49812769",
+        "score": 347,
+        "author": "bashbjorn",
+        "comments": 118,
+        "byline_hint": "by bashbjorn · 347 points · 118 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+        "hn_id": 49804316,
+        "hn_link": "https://news.ycombinator.com/item?id=49804316",
+        "score": 313,
+        "author": "theanonymousone",
+        "comments": 99,
+        "byline_hint": "by theanonymousone · 313 points · 99 comments"
+      },
+      {
+        "source": "hn",
+        "title": "OpenAI is well positioned to fast-follow Jev",
+        "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+        "hn_id": 49802161,
+        "hn_link": "https://news.ycombinator.com/item?id=49802161",
+        "score": 302,
+        "author": "JohnBerryman",
+        "comments": 213,
+        "byline_hint": "by JohnBerryman · 302 points · 213 comments"
+      },
+      {
+        "source": "hn",
+        "title": "SAML: A fractal of bad design",
+        "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+        "hn_id": 49806335,
+        "hn_link": "https://news.ycombinator.com/item?id=49806335",
+        "score": 283,
+        "author": "aray07",
+        "comments": 150,
+        "byline_hint": "by aray07 · 283 points · 150 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What California is learning from solar panels built over irrigation canals",
+        "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+        "hn_id": 49796379,
+        "hn_link": "https://news.ycombinator.com/item?id=49796379",
+        "score": 259,
+        "author": "Jtsummers",
+        "comments": 489,
+        "byline_hint": "by Jtsummers · 259 points · 489 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+        "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+        "hn_id": 49811484,
+        "hn_link": "https://news.ycombinator.com/item?id=49811484",
+        "score": 256,
+        "author": "ksec",
+        "comments": 72,
+        "byline_hint": "by ksec · 256 points · 72 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Unreal Agent",
+        "url": "https://unreallabs.ai/blog/unreal-agent/",
+        "hn_id": 49805748,
+        "hn_link": "https://news.ycombinator.com/item?id=49805748",
+        "score": 216,
+        "author": "trollied",
+        "comments": 113,
+        "byline_hint": "by trollied · 216 points · 113 comments"
+      },
+      {
+        "source": "hn",
+        "title": "People hooked on vapes try a new way to quit: cigarettes",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
+        "hn_id": 49795686,
+        "hn_link": "https://news.ycombinator.com/item?id=49795686",
+        "score": 215,
+        "author": "alephnerd",
+        "comments": 285,
+        "byline_hint": "by alephnerd · 215 points · 285 comments"
+      },
+      {
+        "source": "hn",
+        "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+        "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+        "hn_id": 49803959,
+        "hn_link": "https://news.ycombinator.com/item?id=49803959",
+        "score": 211,
+        "author": "vntok",
+        "comments": 111,
+        "byline_hint": "by vntok · 211 points · 111 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The darker side of being a doctor",
+        "url": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
+        "hn_id": 49814159,
+        "hn_link": "https://news.ycombinator.com/item?id=49814159",
+        "score": 194,
+        "author": "Danhale93",
+        "comments": 162,
+        "byline_hint": "by Danhale93 · 194 points · 162 comments"
+      },
+      {
+        "source": "hn",
+        "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+        "url": "https://github.com/xCuri0/ReBarUEFI",
+        "hn_id": 49781862,
+        "hn_link": "https://news.ycombinator.com/item?id=49781862",
+        "score": 190,
+        "author": "nateb2022",
+        "comments": 60,
+        "byline_hint": "by nateb2022 · 190 points · 60 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Transit rewards",
+        "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+        "hn_id": 49811065,
+        "hn_link": "https://news.ycombinator.com/item?id=49811065",
+        "score": 186,
+        "author": "raybb",
+        "comments": 231,
+        "byline_hint": "by raybb · 186 points · 231 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Obscura: VPN that can't log your activity",
+        "url": "https://obscura.com/#faq-technical",
+        "hn_id": 49807003,
+        "hn_link": "https://news.ycombinator.com/item?id=49807003",
+        "score": 163,
+        "author": "Flimm",
+        "comments": 122,
+        "byline_hint": "by Flimm · 163 points · 122 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Claude Code reads AGENTS.md only when telemetry is on",
+        "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+        "hn_id": 49814947,
+        "hn_link": "https://news.ycombinator.com/item?id=49814947",
+        "score": 136,
+        "author": "pszypowicz",
+        "comments": 55,
+        "byline_hint": "by pszypowicz · 136 points · 55 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+        "url": "https://benchmarkheaven.com/jev-models",
+        "hn_id": 49800574,
+        "hn_link": "https://news.ycombinator.com/item?id=49800574",
+        "score": 121,
+        "author": "florianstandhar",
+        "comments": 32,
+        "byline_hint": "by florianstandhar · 121 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The current balance of power in open models",
+        "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+        "hn_id": 49808816,
+        "hn_link": "https://news.ycombinator.com/item?id=49808816",
+        "score": 106,
+        "author": "gmays",
+        "comments": 44,
+        "byline_hint": "by gmays · 106 points · 44 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Data-only attacks are easier than you think (2024)",
+        "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+        "hn_id": 49811429,
+        "hn_link": "https://news.ycombinator.com/item?id=49811429",
+        "score": 74,
+        "author": "segfaultbuserr",
+        "comments": 26,
+        "byline_hint": "by segfaultbuserr · 74 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
+        "url": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+        "hn_id": 49812533,
+        "hn_link": "https://news.ycombinator.com/item?id=49812533",
+        "score": 60,
+        "author": "luu",
+        "comments": 37,
+        "byline_hint": "by luu · 60 points · 37 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Z80 REPL",
+        "url": "https://abagames.github.io/z80-repl/index.html",
+        "hn_id": 49814236,
+        "hn_link": "https://news.ycombinator.com/item?id=49814236",
+        "score": 55,
+        "author": "adunk",
+        "comments": 6,
+        "byline_hint": "by adunk · 55 points · 6 comments"
+      },
+      {
+        "source": "hn",
+        "title": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
+        "url": "https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
+        "hn_id": 49795337,
+        "hn_link": "https://news.ycombinator.com/item?id=49795337",
+        "score": 48,
+        "author": "luu",
+        "comments": 27,
+        "byline_hint": "by luu · 48 points · 27 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
+        "url": "https://github.com/hsfzxjy/npunlock",
+        "hn_id": 49800513,
+        "hn_link": "https://news.ycombinator.com/item?id=49800513",
+        "score": 47,
+        "author": "hsfzxjy",
+        "comments": 12,
+        "byline_hint": "by hsfzxjy · 47 points · 12 comments"
+      },
+      {
+        "source": "hn",
+        "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
+        "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+        "hn_id": 49815127,
+        "hn_link": "https://news.ycombinator.com/item?id=49815127",
+        "score": 46,
+        "author": "cdrnsf",
+        "comments": 18,
+        "byline_hint": "by cdrnsf · 46 points · 18 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How often do you think about the 1893 World's Fair?",
+        "url": "https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/",
+        "hn_id": 49812023,
+        "hn_link": "https://news.ycombinator.com/item?id=49812023",
+        "score": 36,
+        "author": "bryanrasmussen",
+        "comments": 18,
+        "byline_hint": "by bryanrasmussen · 36 points · 18 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Samsung accidentally freezes its smart fridges with a software update",
+        "url": "https://www.androidauthority.com/samsung-accidentally-freezes-its-smart-fridges-with-a-software-update-3714472/",
+        "hn_id": 49815381,
+        "hn_link": "https://news.ycombinator.com/item?id=49815381",
+        "score": 25,
+        "author": "Markoff",
+        "comments": 11,
+        "byline_hint": "by Markoff · 25 points · 11 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Tokens Too Cheap to Meter",
+        "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+        "hn_id": 49813482,
+        "hn_link": "https://news.ycombinator.com/item?id=49813482",
+        "score": 18,
+        "author": "teoruiz",
+        "comments": 9,
+        "byline_hint": "by teoruiz · 18 points · 9 comments"
+      },
+      {
+        "source": "hn",
+        "title": "What AI-Native Looks Like",
+        "url": "https://fagnerbrack.com/heres-what-ai-native-with-stable-infra-looks-like-9f17cdb61459",
+        "hn_id": 49815344,
+        "hn_link": "https://news.ycombinator.com/item?id=49815344",
+        "score": 12,
+        "author": "fagnerbrack",
+        "comments": 2,
+        "byline_hint": "by fagnerbrack · 12 points · 2 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
+        "url": "https://filmstudio.rxlab.app",
+        "hn_id": 49815095,
+        "hn_link": "https://news.ycombinator.com/item?id=49815095",
+        "score": 10,
+        "author": "zilue",
+        "comments": 5,
+        "byline_hint": "by zilue · 10 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Show HN: Ive Sent It – online courier for files, with signed proof of delivery",
+        "url": "https://ivesentit.com",
+        "hn_id": 49815168,
+        "hn_link": "https://news.ycombinator.com/item?id=49815168",
+        "score": 7,
+        "author": "ivesentit",
+        "comments": 5,
+        "byline_hint": "by ivesentit · 7 points · 5 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Two Git ignore files nobody told me about",
+        "url": "https://mihai.dinculescu.dev/posts/two-git-ignore-files-nobody-told-me-about/",
+        "hn_id": 49814432,
+        "hn_link": "https://news.ycombinator.com/item?id=49814432",
+        "score": 7,
+        "author": "faithraven",
+        "comments": 3,
+        "byline_hint": "by faithraven · 7 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I Don't Want the Details",
+        "url": "https://michaelheap.com/i-dont-want-the-details/",
+        "hn_id": 49815466,
+        "hn_link": "https://news.ycombinator.com/item?id=49815466",
+        "score": 6,
+        "author": "mooreds",
+        "comments": 0,
+        "byline_hint": "by mooreds · 6 points · 0 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The GitHub wiki is an anti-pattern",
+        "url": "https://michaelheap.com/github-wiki-is-an-antipattern/",
+        "hn_id": 49815484,
+        "hn_link": "https://news.ycombinator.com/item?id=49815484",
+        "score": 4,
+        "author": "ibobev",
+        "comments": 1,
+        "byline_hint": "by ibobev · 4 points · 1 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Price of Intelligence Is Falling Rapidly",
+        "url": "https://marginalrevolution.com/marginalrevolution/2026/09/the-price-of-intelligence-is-falling.html",
+        "hn_id": 49815526,
+        "hn_link": "https://news.ycombinator.com/item?id=49815526",
+        "score": 3,
+        "author": "gotmedium",
+        "comments": 1,
+        "byline_hint": "by gotmedium · 3 points · 1 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "Jev introduces a new shape of LLM—System One, aka Decision Models",
+        "url": "https://simonwillison.net/2026/Sep/21/jev/",
+        "description": "Something I’ve found a little uncomfortable about Jev is how it very much represents a regression even further towards black box machine learning systems.\n\nLLMs are black boxes already—you can ask them to justify their decisions, but you can’t guarantee that what they say is useful or accurate.\n\nJev doesn’t even give you that: put in all the text you want, the only thing you’re going to get back is a floating point number. If Jev marks something as spam, which content signals tipped it off?\n\nThis also means that concerns about bias should be front and center. I really hope nobody uses Jev to rank job applicants—that floating point number could conceal all manner of unseen bias baked into the models, and experimentally picking that bias apart is going to be a tricky business.",
+        "tags": [
+          "ai",
+          "jev"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, jev"
+      },
+      {
+        "source": "pinboard",
+        "title": "AX",
+        "url": "https://agentexecutor.io/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Don’t be fooled by this summer of AI hype  | MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+        "description": "",
+        "tags": [
+          "AI",
+          "Pr",
+          "hype",
+          "llm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: AI, Pr, hype, llm"
+      },
+      {
+        "source": "pinboard",
+        "title": "System One Models and Jev",
+        "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+        "description": "System One Model: a new class of frontier models built to make fast, structured decisions that software can use directly.",
+        "tags": [
+          "reading"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: reading"
+      },
+      {
+        "source": "pinboard",
+        "title": "Boris Cherny's Blog",
+        "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "A Necessary History of the Oddest Letter: W",
+        "url": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Mollick: GPT-6 Astra e Fable 5.1 fanno già settimane di lavoro umano",
+        "url": "https://www.oneusefulthing.org/p/the-overhang",
+        "description": "Su One Useful Thing Ethan Mollick sostiene che GPT-6 Astra e Fable 5.1 sono già in grado, se guidati bene, di concentrare in 45 minuti o poche ore attività che richiederebbero settimane a ricercatori, programmatori e designer. Lo mostra con Zork ricostruito come gioco 3D e con un trailer creato in Blender; per lui il vantaggio umano oggi sta in competenza, gusto e iniziativa.",
+        "tags": [
+          "N8N",
+          "s:persone",
+          "TW2026-38"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, s:persone, TW2026-38"
+      },
+      {
+        "source": "pinboard",
+        "title": "Big AI to humanity: drop dead: Matthew Butterick",
+        "url": "https://matthewbutterick.com/chron/drop-dead.html",
+        "description": "",
+        "tags": [
+          "scifi",
+          "llms",
+          "ai",
+          "via:newsletter",
+          "matthewbutterick",
+          "copyright"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: scifi, llms, ai, via:newsletter, matthewbutterick, copyright"
+      },
+      {
+        "source": "pinboard",
+        "title": "What Sun got wrong | The Observation Deck",
+        "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+        "description": "For those outside of Sun, our homage to Sun (and to other defunct computer companies!) may seem purely nostalgic, but to us, it’s something deeper: we admire these companies for the important things that they got right, but we study them to learn what they got wrong. We honor them best by learning from both — to be at once inspired and warned!\nvia https://news.ycombinator.com/item?id=49787436",
+        "tags": [
+          "sun",
+          "microsystems",
+          "nostalgia",
+          "rant",
+          "retro"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sun, microsystems, nostalgia, rant, retro"
+      },
+      {
+        "source": "pinboard",
+        "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8 GB | Mouse",
+        "url": "https://mouse.dev/blog/muse-runtime-export/",
+        "description": "https://news.ycombinator.com/item?id=49802871",
+        "tags": [
+          "muse",
+          "hn"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: muse, hn"
+      },
+      {
+        "source": "pinboard",
+        "title": "the senior engineer death spiral • Solving the decision problem",
+        "url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral/",
+        "description": "",
+        "tags": [
+          "work",
+          "devpro"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: work, devpro"
+      },
+      {
+        "source": "pinboard",
+        "title": "Private Schools Are Bad for Society - by Hamilton Nolan",
+        "url": "https://www.hamiltonnolan.com/p/private-schools-are-bad-for-society",
+        "description": "Private Schools Are Bad for Society - by Hamilton Nolan",
+        "tags": [
+          "https://www.hamiltonnolan.com/p/private-schools-are-bad-for-society?publication_id=1536173&post_id=216896521&isFreemail=false&token=eyJ1c2VyX2lkIjozOTA3NTI1MiwicG9zdF9pZCI6MjE2ODk2NTIxLCJpYXQiOjE3OTAwODc1ODMsImV4cCI6MTc5MjY3OTU4MywiaXNzIjoicHViLTE1MzYxNzM"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: https://www.hamiltonnolan.com/p/private-schools-are-bad-for-society?publication_id=1536173&post_id=216896521&isFreemail=false&token=eyJ1c2VyX2lkIjozOTA3NTI1MiwicG9zdF9pZCI6MjE2ODk2NTIxLCJpYXQiOjE3OTAwODc1ODMsImV4cCI6MTc5MjY3OTU4MywiaXNzIjoicHViLTE1MzYxNzM"
+      },
+      {
+        "source": "pinboard",
+        "title": "Red Blob Games: English: a vs an",
+        "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "In Fighting for Every Black Child, Did I Betray My Own?",
+        "url": "https://www.nytimes.com/2026/09/20/magazine/ny-public-schools-black-students-segregation.html",
+        "description": "",
+        "tags": [
+          "FAVORITES"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: FAVORITES"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why I Changed My Mind About AI Risk - by Francis Fukuyama",
+        "url": "https://www.persuasion.community/p/why-i-changed-my-mind-about-ai-risk?r=ifpt&triedRedirect=true",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "NandhaKishorM/laya",
+        "url": "https://github.com/NandhaKishorM/laya",
+        "description": "Contribute to NandhaKishorM/laya development by creating an account on GitHub.",
+        "tags": [
+          "octo",
+          "hermi-link",
+          "category:code",
+          "status:todo"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: octo, hermi-link, category:code, status:todo"
+      },
+      {
+        "source": "pinboard",
+        "title": "US food price monitor",
+        "url": "https://www.kadoa.com/food-prices",
+        "description": "Food prices today for onions, potatoes, tomatoes, lettuce, avocados and strawberries: USDA wholesale and shipping point quotes with price charts, change against a year earlier, grocery ad prices by region and daily updates. Latest report 18 Sep 2026.",
+        "tags": [
+          "food",
+          "prices",
+          "economy",
+          "dataviz"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: food, prices, economy, dataviz"
+      },
+      {
+        "source": "pinboard",
+        "title": "Solitaire Alone Together",
+        "url": "https://solitairealonetogether.com/",
+        "description": "Play solitaire with the rest of the internet.",
+        "tags": [
+          "games",
+          "awesome"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: games, awesome"
+      },
+      {
+        "source": "pinboard",
+        "title": "jaredpalmer/kev: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "url": "https://github.com/jaredpalmer/kev/tree/main",
+        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own - jaredpalmer/kev",
+        "tags": [
+          "jev",
+          "open-source",
+          "oss",
+          "hn",
+          "deep-learning",
+          "classifeir"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: jev, open-source, oss, hn, deep-learning, classifeir"
+      },
+      {
+        "source": "pinboard",
+        "title": "Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping • GeekWire",
+        "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+        "description": "Todd Bishop: <blockquote><p>Amazon says it has cut off Meta’s new Muse personal AI agent from shopping on Amazon.com on behalf of customers, after attempting unsuccessfully to get the Facebook parent company to voluntarily exclude the e-commerce site from the experience.\n\nThe problem, Amazon says, is that it never agreed to any of it. Meta didn’t tell Amazon that Muse would access its store, the agent doesn’t identify itself when it browses, and it appears to capture and store customer credentials, which the company says could create privacy and security risks.\n\nAs of Sunday night, people trying to use Muse to shop on Amazon were seeing the popup, “Continued access by an unauthorized AI agent violates Amazon’s Conditions of Use, to which our customers have agreed.”\n\n“We think it’s fairly straightforward that third-party applications that offer to make purchases on behalf of customers from other businesses should operate openly and respect service provider decisions about whether or not to participate,” an Amazon spokesperson said in a statement.\n\nMeta did not immediately respond to a request for comment Sunday night.\n\nThe company said previously that Muse “has no visibility into people’s passwords or payment methods,” and that credentials a user shares “go into secure storage, so Muse can use them without seeing them, including passwords a person types into the browser themselves.”\n\nThe standoff between the tech giants is especially notable because the two companies work together. Amazon products have been purchasable inside Facebook and Instagram since 2023, and Meta signed a multibillion-dollar deal in April to run agentic AI workloads on Amazon’s Graviton chips.\n\nIt’s part of a larger debate over who controls the online shopping experience and the customer relationship when AI agents buy items on behalf of consumers.</p></blockquote>\n\nAnd so the war <em>between</em> the machines begins.",
+        "tags": [
+          "amazon",
+          "meta",
+          "muse",
+          "agentic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: amazon, meta, muse, agentic"
+      },
+      {
+        "source": "pinboard",
+        "title": "U.S. small biz can’t ship to the EU anymore — Glenn Fleishman",
+        "url": "https://glog.glennf.com/blog/2026/09/17/u-s-small-biz-cant-ship-to-the-eu-anymore/",
+        "description": "from Daring Fireball \n<p>Glenn Fleishman:</p>\n\n<blockquote>\n  <p>Recent protectionist changes by the European Union further\neffectively exclude U.S. small businesses like mine from selling\nto EU customers. It’s a little complicated, but it has to do with\nhow tax and customs fees are collected and extracted from\nlow-value packages. This is not a tariff issue, unbelievably, but\none about reducing competition.</p>\n\n<p>The summary:</p>\n\n<p>Delivering items under €150 per shipment into the EU now costs at\nleast €3 per package, and may require hiring a specialty firm to\nmanage time-of-purchase tax collection and payment because of the\nmany differences in filing by EU nation. Shipping prices have\nswelled. No shipper currently offers rates close to affordable for\nmodestly priced items, like books, while properly collecting the\n€3+ customs fee.</p>\n</blockquote>\n\n<p>If these new rules were prompted by Chinese companies like Temu taking advantage of <em>de minimis</em> shipping exceptions (basically by shipping zillions of cheap items one at a time, rather than in bulk), the new rules ought to apply only for items arriving from China.</p>\n\n<div>\n<a  title=\"Permanent link to ‘Glenn Fleishman on the Increasing Impracticality of Shipping From the U.S. to the E.U.’\"  href=\"https://daringfireball.net/linked/2026/09/21/fleisnman-eu-shipping\"> ★ </a>\n</div>",
+        "tags": [
+          "ifttt",
+          "daringfireball"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ifttt, daringfireball"
+      },
+      {
+        "source": "pinboard",
+        "title": "Divide by depth for instant 3D",
+        "url": "https://gabrieloc.com/2026/09/15/perspective.html",
+        "description": "",
+        "tags": [
+          "reference",
+          "3d",
+          "blogroll"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: reference, 3d, blogroll"
+      },
+      {
+        "source": "pinboard",
+        "title": "Shortwave Radio Gets a Secure Data Upgrade With HERMES - IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+        "description": "<blockquote>Thought-provoking audio articles from world-class publishers, crafted into bite-sized Series.</blockquote>",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why Didn't Google Build Muse?",
+        "url": "https://spyglass.org/why-didnt-google-build-muse/",
+        "description": "",
+        "tags": [
+          "google",
+          "ai-agents"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: google, ai-agents"
+      },
+      {
+        "source": "pinboard",
+        "title": "Trying the Software factory pattern. | Irrational Exuberance",
+        "url": "https://lethain.com/software-factory-experiment/",
+        "description": "",
+        "tags": [
+          "ai-coding"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai-coding"
+      },
+      {
+        "source": "pinboard",
+        "title": "laya-mlx",
+        "url": "https://github.com/mizorewww/laya-mlx",
+        "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API. - mizorewww/",
+        "tags": [
+          "jev",
+          "ai",
+          "decision"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: jev, ai, decision"
+      },
+      {
+        "source": "pinboard",
+        "title": "Usenet-Rewind",
+        "url": "https://www.usenet-rewind.com/",
+        "description": "",
+        "tags": [
+          "usenet",
+          "research",
+          "archive",
+          "history",
+          "data",
+          "internet"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: usenet, research, archive, history, data, internet"
+      },
+      {
+        "source": "pinboard",
+        "title": "If math is more than proof, we need to better celebrate the rest of it – What's new",
+        "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+        "description": "",
+        "tags": [
+          "maths",
+          "ai",
+          "gpt3"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: maths, ai, gpt3"
+      },
+      {
+        "source": "pinboard",
+        "title": "GEA — One TS codebase. MCU to iOS.",
+        "url": "https://geastack.com/",
+        "description": "",
+        "tags": [
+          "mobile",
+          "fatclient"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: mobile, fatclient"
+      },
+      {
+        "source": "pinboard",
+        "title": "What we’ve learned from Microsoft's own AI transformation - The Official Microsoft Blog",
+        "url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
+        "description": "",
+        "tags": [
+          "ai",
+          "microsoft"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, microsoft"
+      },
+      {
+        "source": "pinboard",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
+        "description": "via Daring Fireball https://ift.tt/pYVq5G3",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "How Three Brothers Built an AI Slop Empire by Buying Legitimate News Sites and Turning Them Into Zombie Content Farms That They Say Get 50 Million Page Views per Month",
+        "url": "https://futurism.com/artificial-intelligence/brown-brothers-media-ai-slop-empire",
+        "description": "via https://mastodon.green/@sagilca/117287608290057346",
+        "tags": [
+          "ai",
+          "journalism",
+          "corruption"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, journalism, corruption"
+      },
+      {
+        "source": "pinboard",
+        "title": "Siri AI Settlement Website Now Live: Apple to Pay Some iPhone Owners - MacRumors",
+        "url": "https://www.macrumors.com/2026/09/20/siri-ai-settlement-website-now-live/",
+        "description": "via Daring Fireball https://ift.tt/2tAmgwu",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Origin Myth Map",
+        "url": "https://originmap.sunnyguha.com/",
+        "description": "",
+        "tags": [
+          "History",
+          "Information"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: History, Information"
+      },
+      {
+        "source": "pinboard",
+        "title": "Jessica Hische, Meta’s Muse, and the Ethical Landmines of Design - DIELINE",
+        "url": "https://thedieline.com/jessica-hische-metas-muse-and-the-ethical-landmines-of-design/",
+        "description": "via Daring Fireball https://ift.tt/zMBSyQo",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Katamari Object Library",
+        "url": "https://katamari.andrew-boylan.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The FBI Anti-Corruption Squad Was Circling Susan Collins — Until Trump Got in the Way",
+        "url": "https://www.propublica.org/article/fbi-susan-collins-navatek-campaign-donations-investigation",
+        "description": "After the FBI caught a defense contractor’s CEO making illegal campaign contributions, it sought to launch a sweeping political bribery probe involving Collins and others. Then the second Trump administration dismantled the unit handling the inquiry.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Home - TypeSafe AI",
+        "url": "https://typesafe.ai/",
+        "description": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
+        "tags": [
+          "slm"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: slm"
+      },
+      {
+        "source": "pinboard",
+        "title": "Better Icon and Label Alignment",
+        "url": "https://ishadeed.com/article/aligning-list-icons/",
+        "description": "",
+        "tags": [
+          "icon",
+          "label",
+          "css",
+          "alignment",
+          "vertical-align",
+          "font-size",
+          "icon-size",
+          "lh-unit",
+          "aspect-ratio"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: icon, label, css, alignment, vertical-align, font-size, icon-size, lh-unit, aspect-ratio"
+      },
+      {
+        "source": "pinboard",
+        "title": "What is LinkedIn",
+        "url": "https://willd10.substack.com/p/what-is-linkedin",
+        "description": "",
+        "tags": [
+          "linkedin"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: linkedin"
+      },
+      {
+        "source": "pinboard",
+        "title": "JetBrains Air: Building a System of Products for Agentic Software Development",
+        "url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+        "description": "",
+        "tags": [
+          "agentic",
+          "agents",
+          "ai",
+          "ide",
+          "jetbrains",
+          "ping"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: agentic, agents, ai, ide, jetbrains, ping"
+      },
+      {
+        "source": "pinboard",
+        "title": "Obie Fernandez on X: \"You're Already a Meat Proxy\" / X",
+        "url": "https://x.com/obie/status/2101779116056088732",
+        "description": "",
+        "tags": [
+          "ai",
+          "devpro"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, devpro"
+      },
+      {
+        "source": "pinboard",
+        "title": "Commentary: Cory Doctorow: Technopolitics - Locus",
+        "url": "https://locusmag.com/feature/commentary-cory-doctorow-technopolitics/",
+        "description": "It’s one thing to be “anti-AI” in the sense of believing that AI-generated slop, disinformation and deepfakes are bad; that AI companies that hope to con your boss into firing you and replacing you with AI that can’t do your job are bad; that betting the economy on AI is bad; that betting the human-habitable planet Earth on AI is bad; that running roughshod over local environmental rules and seizing farmland for data centers is bad. Those are all good reasons to be “anti-AI.”\nBut being “anti-AI” in the sense of “opposing the statistical inference techniques we call AI” is weird. So is being anti-AI in the sense of “opposing the use of models that were created using large language corpuses because it’s inherently wrong to compute the frequency with which words occur in writ­ten language.” And it’s also weird to be anti-AI in the sense of “opposing AI because someone, somewhere used AI in a way that was gross, harmful or exploitative.”\nToday, the two kinds of “anti-AI” are mostly a distinction without a difference, because nearly all the world’s AI output comes from one of the “frontier models” made by a giant AI company. No matter why you oppose AI, you probably don’t like those frontier models.\nBut after the AI bubble bursts, the distinction will be much sharper. Long after the collapse of the seven AI companies that make up 35% of the S&P 500 stop trading the same $100 billion IOU around really fast while pretending it’s in all their bank accounts at once, there will still be cheap bankruptcy-sale hardware, legions of unemployed skilled AI workers, and the open-source models released by today’s AI giants will still run, and will continue to be improved by the people who rely on them.",
+        "tags": [
+          "economics",
+          "politics",
+          "doctorow",
+          "2020s",
+          "AI/ML",
+          "technology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: economics, politics, doctorow, 2020s, AI/ML, technology"
+      },
+      {
+        "source": "pinboard",
+        "title": "jaredpalmer/kev: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "url": "https://github.com/jaredpalmer/kev",
+        "description": "Kev is a family of small decision models built on Qwen3.5 and based on the architecture described in Jev's Architecture Unmasked. You can use the pretrained weights or train your own. The API matches TypeSafe's System One, so you can point their Python SDK at your local server.\nHighlights\n\n* 0.8B, 4B, and 9B models, with training code and evaluation data.\n* Yes/no (noul), multiple-choice (choice), and rating (score) questions in the same request.\n* Questions share the input text but can't read each other.\n* Runs on CUDA and Apple Silicon. The 4B and 9B models fit a 32 GB Mac using bf16; see Serving Performance for what to expect on a Mac.\n* A web playground for trying your own inputs and checking how option order affects the answers.",
+        "tags": [
+          "ai",
+          "machinelearning",
+          "classification",
+          "model",
+          "oss",
+          "decision",
+          "engine"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, machinelearning, classification, model, oss, decision, engine"
+      },
+      {
+        "source": "pinboard",
+        "title": "Thorsten Ball - What I believe about the future of software development",
+        "url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+        "description": "",
+        "tags": [
+          "ai",
+          "devpro"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, devpro"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why I Think You Should Almost Never Use AI to Write Anything Substantive",
+        "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+        "description": "A plea.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=WrwY_jVaN-w&feature=youtu.be",
+        "description": "via Daring Fireball https://ift.tt/pYVq5G3",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "out of the dark (into the light) - TabeaOrNotTabea - Heated Rivalry (TV), Game Changers | Heated Rivalry - All Media Types [Archive of Our Own]",
+        "url": "https://archiveofourown.org/works/92939061",
+        "description": "The picture is posted while the Voyageurs are on a plane.\nShane is outed and Hayden and J.J. are there for him. And so is Lily?\n\nor:\nwhat if Hollywood Blow Job Guy was a bit more of an asshole and now Haden and J.J. have to be friends with Ilya Rozanov.",
+        "tags": [
+          "category:fanfiction",
+          "fandom:heated_rivalry",
+          "pairing:shane.hollander/ilya.rozanov",
+          "genre:slash",
+          "genre:established_relationship",
+          "rating:teen",
+          "au:canon_divergence",
+          "content:outside_pov",
+          "content:coming_out"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: category:fanfiction, fandom:heated_rivalry, pairing:shane.hollander/ilya.rozanov, genre:slash, genre:established_relationship, rating:teen, au:canon_divergence, content:outside_pov, content:coming_out"
+      },
+      {
+        "source": "pinboard",
+        "title": "Machine god metaphors eat your brain - by Henry Farrell",
+        "url": "https://www.programmablemutter.com/p/machine-god-metaphors-eat-your-brain",
+        "description": "The Machine God metaphor, which is really just a catchy rephrasing of longstanding notions among a particular community of AI people, has broken out of containment. It is leading, more or less by necessity, to a radical simplification of debate. If you believe that the machine gods are coming, so that super-empowered goal directed superintelligence is right around the corner, then the only thing that matters is ensuring that this superintelligence’s goals are aligned with the ones that you yourself care about. If you stare into the sun, you only see its glare, missing out on all the other questions that may be important. Thinking about these questions involves adopting a more pluralistic understanding of where you might look for knowledge, and asking about the much broader variety of futures that face us than machine god: good or machine god: bad. That’s it.",
+        "tags": [
+          "ai",
+          "human",
+          "agi",
+          "philosophy",
+          "politics",
+          "usa",
+          "siliconvalley"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, human, agi, philosophy, politics, usa, siliconvalley"
+      },
+      {
+        "source": "pinboard",
+        "title": "Alexander Lukashenko says there is no potash in Belarus left to sell to the US",
+        "url": "https://thehill.com/policy/international/6102469-trump-lukashenko-potash-deal-clash/",
+        "description": "",
+        "tags": [
+          "uspoli",
+          "bypoli",
+          "potash",
+          "agriculture",
+          "trade"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: uspoli, bypoli, potash, agriculture, trade"
+      },
+      {
+        "source": "pinboard",
+        "title": "GeoDS - GBNames",
+        "url": "https://apps.geods.ac.uk/gbnames/",
+        "description": "",
+        "tags": [
+          "uk",
+          "population",
+          "names"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: uk, population, names"
+      },
+      {
+        "source": "pinboard",
+        "title": "An age of experimentation — BlueHat Asia 2026 - An-age-of-experimentation-BlueHat-Asia-2026.pdf",
+        "url": "https://thomasdullien.github.io/about/slides/An-age-of-experimentation-BlueHat-Asia-2026.pdf",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Igalia: Open Source Consultancy",
+        "url": "https://www.igalia.com/",
+        "description": "",
+        "tags": [
+          "Reading.am"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Reading.am"
+      },
+      {
+        "source": "pinboard",
+        "title": "pi.dev",
+        "url": "https://pi.dev/",
+        "description": "",
+        "tags": [
+          "2026",
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 2026, ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "Roblox unveils new play, creation and monetisation tools at RDC 2026 | PocketGamer.biz",
+        "url": "https://www.pocketgamer.biz/roblox-unveils-new-play-creation-and-monetisation-tools-at-rdc-2026/",
+        "description": "",
+        "tags": [
+          "games",
+          "virtual.world",
+          "platform"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: games, virtual.world, platform"
+      },
+      {
+        "source": "pinboard",
+        "title": "Jessica Chastain's ‘The Savant’ Gets Apple TV Release (Exclusive)",
+        "url": "https://deadline.com/2026/09/jessica-chastain-the-savant-new-release-date-apple-tv-1237108228/",
+        "description": "via Daring Fireball https://ift.tt/pYVq5G3",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Brood War Bench",
+        "url": "https://bw.swerdlow.dev/report",
+        "description": "",
+        "tags": [
+          "ai",
+          "games"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, games"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to Unclench | Jonny Miller",
+        "url": "https://howtounclench.com/",
+        "description": "",
+        "tags": [
+          "psychology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: psychology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Caitlin Moran: social media went from utopia to hellhole in a decade – if you want to feel hopeful again, get offline",
+        "url": "https://www.theguardian.com/media/2026/sep/20/caitlin-moran-social-media-what-to-do-instead",
+        "description": "> Stop listening to emergency podcasts; stop doomscrolling; go for a walk and talk to people; buy your local newspaper – and, finally, stop believing that we are living “through one of the most difficult, anxious and chaotic times in human history”.",
+        "tags": [
+          "socialmedia",
+          "culture"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: socialmedia, culture"
+      },
+      {
+        "source": "pinboard",
+        "title": "Software sandboxing: The basics",
+        "url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
+        "description": "",
+        "tags": [
+          "ai",
+          "sandboxin",
+          "agents"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, sandboxin, agents"
+      },
+      {
+        "source": "pinboard",
+        "title": "volotat/mini-AGI: Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.",
+        "url": "https://github.com/volotat/mini-AGI",
+        "description": "",
+        "tags": [
+          "llm",
+          "training"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: llm, training"
+      },
+      {
+        "source": "pinboard",
+        "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity | The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+        "description": "via The Verge https://ift.tt/blIOnmE",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Kostens och tarmflorans roll vid ADHD | Karolinska Institutet",
+        "url": "https://ki.se/forskning/forskningsomraden-centrum-och-natverk/forskargrupper/translationell-psykiatri-catharina-lavebratts-forskargrupp/bamba-behandla-adhd-med-magbakterier",
+        "description": "",
+        "tags": [
+          "microbiome",
+          "mental_models",
+          "health_care"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: microbiome, mental_models, health_care"
+      },
+      {
+        "source": "pinboard",
+        "title": "Computer Weekly's Bryan Glick on decade of digital change",
+        "url": "https://pressgazette.co.uk/publishers/b2b/computer-weekly-bryan-glick-decade-of-digital-change/",
+        "description": "By looking at the stories those IT professionals are reading Computer Weekly can, as the media pack puts it, “help you identify, access and influence in-market accounts and engaged buyers who are actively researching solutions like yours”.\n\nComputer Weekly’s focus on direct relationships with readers, via the emailed magazine and newsletters, has also made it less impacted by falling website traffic. Conventional display advertising makes up a small slice of the revenue pie.\n\nIt’s a business model that encourages high-quality investigative journalism because engaged, influential eyeballs are everything when it comes to gathering reader intelligence",
+        "tags": [
+          "bm",
+          "Magazines",
+          "computerweekly"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bm, Magazines, computerweekly"
+      },
+      {
+        "source": "pinboard",
+        "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons - The New York Times",
+        "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Globally, More People Expect AI to Cause Job Loss Than Growth | Pew Research Center",
+        "url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+        "description": "Globally, More People Expect AI to Cause Job Loss Than Growth https://ift.tt/FZPwlLa",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "13 theses on agentic AI and regulation",
+        "url": "https://backofmind.substack.com/p/13-theses-on-agentic-ai-and-regulation",
+        "description": "",
+        "tags": [
+          "dan-davies",
+          "ai"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: dan-davies, ai"
+      },
+      {
+        "source": "pinboard",
+        "title": "Google rolls out pay-per-value AI licensing program to publishers - Digiday",
+        "url": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+        "description": "",
+        "tags": [
+          "mitp",
+          "alpha"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: mitp, alpha"
+      },
+      {
+        "source": "pinboard",
+        "title": "Stop relying on chatbots for customer care, UK service providers urged • The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/21/stop-relying-on-chatbots-for-customer-care-uk-service-providers-urged",
+        "description": "Robert Booth: <blockquote><p>Stop relying on AI chatbots for customer care and guarantee the “right to talk to a human”, Citizens Advice has urged essential service providers, as research found they wasted time, caused stress and delayed problem solving for more than half of users.\n\nThe spread of the AI-powered systems to provide help about the provision of vital services such as energy, banking, phones and internet, is making it harder for millions of already digitally excluded people to handle snags, according to the frontline charity that last year provided more than 2.7 million people with one-on-one help in England and Wales.\n\nThe charity concluded that chatbots caused harm, saying too often they trapped humans in an “endless loop” in which nothing got resolved, and almost half of people who had to use a chatbot found them unhelpful, with some concluding the chatbot seemed rigged to “make me give up”.\n\nIt called for service providers to respect a new right for customers to speak to a human after it investigated the wider impact of digital exclusion, estimated to affect at least 14 million UK citizens. It uncovered slower and less reliable support for people who struggle with or have limited access to online systems and found the erosion of phone, face-to-face and paper communication had created a two-tier support system.\n\n“Going round in circles with a chatbot isn’t just annoying, it can be a blockade to essential services,” said Tom MacInnes, policy director at Citizens Advice. “We’ve seen organisations’ overreliance on chatbots and online forms leaving people unable to fix billing problems, sort out their debt or even access homelessness prevention services. There’s a role for chatbots, but the quiet erosion of face-to-face and telephone services is letting too many people fall through the cracks.”\n\nThat erosion of traditional ways of communicating means that people without good digital access can face serious difficulties getting simple problems fixed. For example, the charity found that submitting energy meter readings to correct a wrong bill can take less than an hour online if systems are working properly. Without good digital access it takes as long as six weeks offline, putting people “at risk of further harm”.</p></blockquote>\n\nUsed to be humans operating off a script from which they couldn't deviate was the problem; now it's chatbots.",
+        "tags": [
+          "chatbot",
+          "service",
+          "telephone"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: chatbot, service, telephone"
+      },
+      {
+        "source": "pinboard",
+        "title": "Meta bans ads for Virginia Woolf play in Spain because they relate to feminism | Meta | The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/21/meta-ban-virginia-woolf-a-room-of-ones-own-barcelona-teatre-raval",
+        "description": "",
+        "tags": [
+          "fascism"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: fascism"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 39,
+    "hn_after_dedup": 39,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 70
+  }
+}
