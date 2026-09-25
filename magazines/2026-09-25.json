@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-25",
+  "stories": [
+    {
+      "title": "F-Droid 2.0",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49831968",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by daveoc64 · 1316 points · 375 comments",
+      "blurb": "F-Droid, the open-source Android app store, drops a major 2.0 release — the biggest overhaul in the project's history. For privacy-conscious developers who want app distribution without Google Play surveillance, this is a landmark moment. 375 comments suggests the community has a lot to say about what's changed."
+    },
+    {
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "url": "https://bastardica.mitpit.com",
+      "hn_link": "https://news.ycombinator.com/item?id=49823738",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by MitPitt · 756 points · 101 comments",
+      "blurb": "A delightfully unhinged web tool for generating \"cursed\" typefaces — mutant serif hybrids that technically obey typographic rules while looking deeply wrong. It's part creative toy, part typographic education. If you've ever wondered how font metrics actually work, watching this break them is revelatory."
+    },
+    {
+      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "url": "https://www.dawo.community/en/",
+      "hn_link": "https://news.ycombinator.com/item?id=49841563",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by fjfaase · 510 points · 257 comments",
+      "blurb": "The Dutch government is building a sovereign, NixOS-based desktop OS to replace Microsoft products across public institutions — a serious bet on reproducible, auditable infrastructure. This is the rare government digital-sovereignty initiative that's actually shipping. Worth watching as a template for enterprise Linux migrations."
+    },
+    {
+      "title": "Why is the liver so weirdly regenerative?",
+      "url": "https://dynomight.substack.com/p/liver",
+      "hn_link": "https://news.ycombinator.com/item?id=49832938",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by jbotz · 455 points · 234 comments",
+      "blurb": "Dynomight digs into one of biology's strangest outliers: why can the liver regrow itself after losing 70% of its mass when no other organ can? The answer touches on evolutionary pressures, hepatocyte polyploidy, and some genuinely weird molecular signaling. Essential reading for anyone who loves biology edge cases."
+    },
+    {
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "url": "https://github.com/devdotfast/whiteboard",
+      "hn_link": "https://news.ycombinator.com/item?id=49833867",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sidharthkmenon · 339 points · 123 comments",
+      "blurb": "Whiteboard is a YC-backed open-source IDE that foregrounds architecture and design thinking rather than just code editing — think visual diagrams living alongside your source files. For developers who use Claude Code and care about the design phase before implementation, this is a compelling complement to existing tools. Open source and worth a local spin."
+    },
+    {
+      "title": "Opus 5.5 is good at explainer videos",
+      "url": "https://launchvideo.io",
+      "hn_link": "https://news.ycombinator.com/item?id=49836374",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by iacguy · 313 points · 168 comments",
+      "blurb": "LaunchVideo.io is riding Anthropic's Opus 5.5 to auto-generate polished explainer videos — and apparently the results are good enough to spark 168 comments of debate. For developers building or marketing AI-powered products, this is a live demonstration of what frontier LLMs can now do with video scripting and production. The model capabilities angle is the real story here."
+    },
+    {
+      "title": "Fearless SIMD v1.0",
+      "url": "https://linebender.org/blog/fearless-simd-1-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=49800085",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by verdagon · 276 points · 42 comments",
+      "blurb": "The Linebender project (behind Vello and Xilem) ships Fearless SIMD 1.0 — a Rust library that makes portable SIMD intrinsics safe and ergonomic. If you've ever wanted vectorized performance without wrestling with unsafe blocks and target-feature flags, this is a big deal for high-performance Rust development."
+    },
+    {
+      "title": "2DWillNeverDie",
+      "url": "https://2dwillneverdie.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49801436",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by surprisetalk · 271 points · 64 comments",
+      "blurb": "A lovingly curated archive celebrating 2D game art, sprite work, and pixel aesthetics across gaming history. It's part reference library, part manifesto that flat, expressive 2D visuals aren't a budget compromise — they're an art form. Genuinely inspiring for anyone doing creative work or indie game development."
+    },
+    {
+      "title": "Sourcehut account takeover via build logs (XSS in ansi2html)",
+      "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
+      "hn_link": "https://news.ycombinator.com/item?id=49835996",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by arusekk · 137 points · 27 comments",
+      "blurb": "A clever XSS chain via ANSI escape sequences in build log rendering led to full Sourcehut account takeover — a reminder that terminal output sanitization is a real attack surface. Excellent write-up of the discovery and exploit path. Developers who run CI pipelines anywhere should understand this class of vulnerability."
+    },
+    {
+      "title": "Google's Project Suncatcher to put ML infrastructure in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "hn_link": "https://news.ycombinator.com/item?id=49830606",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by xnx · 203 points · 421 comments",
+      "blurb": "Google is proposing to put ML training infrastructure in orbit to tap near-unlimited solar power — a genuinely audacious answer to AI's energy problem. The 421-comment thread is predictably skeptical about the engineering reality, but the concept itself signals just how seriously Big Tech is taking compute energy constraints."
+    },
+    {
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by benbreen · 145 points · 31 comments",
+      "blurb": "Historian Ben Breen details his hands-on use of LLMs to decode early modern alchemical manuscripts and encrypted correspondence — a compelling real-world use case beyond code and chat. The piece doubles as a call for AI labs to fund humanities research. For developers who wonder what LLMs can do outside engineering, this is a vivid answer."
+    },
+    {
+      "title": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+      "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by hugh4life · 126 points · 48 comments",
+      "blurb": "The M6 Mac mini is so absurdly fast that it can emulate a late-90s Pentium II + Voodoo 3 system at full speed in 86Box — with headroom to spare. A fun benchmark of Apple Silicon's raw single-core power, and a practical guide for retro computing enthusiasts who want to run old Windows software on modern Mac hardware."
+    },
+    {
+      "title": "WaveDigger: Dig into wireless signals to discover their physical locations",
+      "url": "https://github.com/christianrowlands/wavedigger",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by 882542F3884314B · 119 points · 22 comments",
+      "blurb": "WaveDigger is an open-source tool for geolocating wireless signal sources — useful for RF security audits, wardriving analysis, and understanding the physical footprint of your wireless infrastructure. For privacy-minded developers who want to visualize what their local RF environment looks like, this is immediately actionable."
+    },
+    {
+      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+      "url": "https://github.com/git-bug/git-bug",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by alentred · 54 points · 9 comments",
+      "blurb": "git-bug embeds a full bug tracker directly in your Git repository — no server, no internet required, syncs via git push/pull. For developers who care about data ownership and offline workflows (and who are perhaps tired of GitHub Issues), this is an elegant and immediately usable alternative. Clone it and try it today."
+    },
+    {
+      "title": "I'm Tired of Being on the Network",
+      "url": "https://matduggan.com/im-tired-of-being-on-the-network/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by sagacity · 32 points · 22 comments",
+      "blurb": "Mat Duggan writes a candid essay about network fatigue — the exhaustion of constant connectivity, monitoring, and the feeling that every device is a telemetry endpoint. Resonates deeply for developers who think about digital sovereignty. A good prompt to audit what's actually phoning home on your network right now."
+    },
+    {
+      "title": "Nokia Design Archive (2025)",
+      "url": "https://repo.aalto.fi/index.php?name=SO_b66a9391-dcf8-4399-8e87-611f84c3fc4c",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by pillars · 243 points · 130 comments",
+      "blurb": "Aalto University has opened the Nokia Design Archive — thousands of design documents, sketches, prototypes, and process artifacts from Nokia's golden era. An extraordinary primary source for anyone interested in product design history, and a reminder of how seriously Nokia took industrial design before the smartphone era erased it all."
+    },
+    {
+      "title": "Book review: Is parallel programming hard, and, if so, what can you do about it?",
+      "url": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ahelwer · 135 points · 58 comments",
+      "blurb": "A thorough review of the classic Paul McKenney concurrency textbook — one of the most rigorous treatments of parallel programming that exists. The reviewer contextualizes it for modern developers who may be new to low-level concurrency thinking. If you're building anything that touches multi-threading (and .NET devs often do), this is worth your Saturday."
+    },
+    {
+      "title": "Toyota is taking the Corolla electric",
+      "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by cisc · 366 points · 645 comments",
+      "blurb": "Toyota is electrifying the world's best-selling car nameplate — a signal that EV mass-market adoption has reached the point of no return. The 645-comment thread is a sprawling debate about battery tech, charging infrastructure, and Toyota's historically cautious EV strategy. A tipping-point moment for the auto industry."
+    },
+    {
+      "title": "Show HN: Agentic CUDA Kernel Optimizer",
+      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bertaye · 21 points · 0 comments",
+      "blurb": "An AI agent that autonomously rewrites and benchmarks CUDA kernels to squeeze out GPU performance — essentially Claude Code for GPU optimization. Early-stage but conceptually fascinating: if LLMs can reliably optimize low-level GPU code, it changes who can do serious ML infrastructure work. Worth starring and watching."
+    },
+    {
+      "title": "Ink and Switch Interactive Homepage",
+      "url": "https://www.inkandswitch.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by iFreilicht · 76 points · 14 comments",
+      "blurb": "Ink and Switch — the research lab behind Automerge, local-first software principles, and Muse — has launched a new interactive homepage that itself demonstrates their ideas about tangible, explorable interfaces. For developers interested in the future of tools for thought and local-first computing (Obsidian users, take note), this is required browsing."
+    }
+  ]
+}
