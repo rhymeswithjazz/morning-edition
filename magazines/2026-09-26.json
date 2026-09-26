@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-26",
+  "stories": [
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=49849985",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by specked-citrus · 533 points · 337 comments",
+      "blurb": "The highest-scoring story of the day: a detailed post-mortem on how OpenAI's agentic systems were used to compromise Hugging Face infrastructure. With 337 comments, the HN discussion is a goldmine of security analysis. If you're deploying AI agents, understanding attack surfaces in the agentic supply chain is now table stakes."
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=49848269",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Ardakilic · 489 points · 122 comments",
+      "blurb": "Ollaya brings the Ollama-style local-first experience to the new class of Jev decision models — open-source, runs on your machine, no API key required. For developers already using Ollama who want to experiment with structured decision-making models, this is the obvious next step. 489 points says the community agrees."
+    },
+    {
+      "title": "Plan mode is dead",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49840054",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jmvldz · 376 points · 338 comments",
+      "blurb": "A provocative argument that the \"plan then execute\" paradigm for AI coding agents is obsolete, displaced by Jev-style continuous decision models. Direct relevance to anyone using Claude Code or similar agentic tools. The 338-comment thread is essential reading for understanding where AI dev tooling is heading."
+    },
+    {
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "hn_link": "https://news.ycombinator.com/item?id=49852302",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by pseudolus · 272 points · 64 comments",
+      "blurb": "A landmark verdict — a jury has finally found Facebook liable for the Cambridge Analytica data deception, years after the scandal broke. This sets a major precedent for platform accountability around data misuse. Significant for anyone who cares about digital rights and how tech companies handle user data."
+    },
+    {
+      "title": "Gravity seems holographic. What does that mean for reality?",
+      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "hn_link": "https://news.ycombinator.com/item?id=49845998",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ibobev · 221 points · 181 comments",
+      "blurb": "Quanta's best kind of story: new experimental evidence that gravity behaves as if it's encoded on a lower-dimensional boundary, lending weight to holographic universe theories. The implications for physics — and for what \"reality\" even means — are genuinely staggering. A must-read long-form piece."
+    },
+    {
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "url": "https://jev-pokemon.vercel.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=49845172",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by pancomplex · 216 points · 88 comments",
+      "blurb": "A live demo of a Jev decision model navigating Pokémon Red autonomously, in your browser. It's a clever showcase of what Jev-style continuous decision-making looks like in practice — and it's genuinely fun to watch. Context for the Ollaya and plan-mode stories also in today's edition."
+    },
+    {
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "hn_link": "https://news.ycombinator.com/item?id=49850305",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by fratellobigio · 215 points · 302 comments",
+      "blurb": "With AI runtimes, agent harnesses, and cloud abstractions eating what kernels used to own, this essay asks a fundamental question: does the traditional OS boundary even make sense anymore? 302 comments of excellent debate from people who clearly have opinions. Essential framing for thinking about where platforms are headed."
+    },
+    {
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "hn_link": "https://news.ycombinator.com/item?id=49852065",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by HotGarbage · 204 points · 97 comments",
+      "blurb": "Flock's automated license-plate readers are now so ubiquitous that a single false positive can put an innocent person behind bars for nearly two weeks. A chilling, concrete example of what mass surveillance infrastructure actually costs real people. The lawsuit details are damning."
+    },
+    {
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "hn_link": "https://news.ycombinator.com/item?id=49855315",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ezst · 143 points · 28 comments",
+      "blurb": "The developer of Conversations (a popular XMPP client) explains why they're leaving Google Play and making the app free — covering the platform's exploitative policies and why open distribution matters. A thoughtful manifesto from someone who's lived the reality of app store dependence."
+    },
+    {
+      "title": "Is your Postgres migration safe or not safe?",
+      "url": "https://safenotsafe.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=49854161",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vira28 · 51 points · 13 comments",
+      "blurb": "A beautifully simple reference tool: paste or describe a Postgres migration and find out if it will lock tables, cause downtime, or silently break things. Every .NET/backend developer running Postgres in production should bookmark this immediately. Actionable on the first visit."
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "Official guidance from Anthropic on squeezing maximum performance from Opus 5.5 inside Claude and Claude Code specifically. If you use Claude Code daily, this is direct, actionable advice on prompting patterns, context management, and task delegation that you can apply today."
+    },
+    {
+      "title": "MCP Explained in 5 Minutes - KDnuggets",
+      "url": "https://www.kdnuggets.com/mcp-explained-in-5-minutes",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, MCP, fav, !!!",
+      "blurb": "Model Context Protocol is fast becoming the connective tissue of the AI tools ecosystem — and this is the clearest five-minute explainer available. If you're building with Claude Code or integrating LLMs into your dev workflow, understanding MCP is no longer optional."
+    },
+    {
+      "title": "affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "ECC is an open-source agent harness that adds persistent skills, memory, and security layers on top of Claude Code, Cursor, and other AI coding tools. Think of it as a performance optimization wrapper for your AI dev workflow. Directly relevant if you're pushing Claude Code hard."
+    },
+    {
+      "title": "GitHub - egma-ai/jev-code-reviewer: Review behavior, not just diffs. Jev prioritizes human attention; OpenAI explains the changes. Local CLI + agent skill + GitHub extension. · GitHub",
+      "url": "https://github.com/egma-ai/jev-code-reviewer",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, git, jev, llm",
+      "blurb": "A Jev-powered code review tool that goes beyond diff-checking to analyze behavior changes and surface what actually deserves human attention. Ships as a local CLI, agent skill, and GitHub extension — plug it into your existing PR workflow today. Exactly the kind of AI-augmented dev tool that makes a real difference."
+    },
+    {
+      "title": "Two git ignore files nobody told me about",
+      "url": "https://mihai.dinculescu.dev/posts/two-git-ignore-files-nobody-told-me-about/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: git, Development, Work",
+      "blurb": "A short, punchy post revealing two lesser-known gitignore file locations — the global gitignore and the repo-local but untracked `.git/info/exclude` — that most developers never learn about. Immediately actionable: stop polluting team .gitignore files with your personal editor noise."
+    },
+    {
+      "title": "Apple Copland D11E4 booting in your Browser – pagetable.com",
+      "url": "https://www.pagetable.com/300",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: retrocomputing",
+      "blurb": "You can now run Apple's never-shipped Copland OS (the mid-90s would-be Mac OS successor) directly in your browser via emulation. This is a fascinating piece of Apple history made interactive — see what macOS might have looked like if Copland had shipped instead of NeXT. Pairs perfectly with today's Apple Cards origin story on HN."
+    },
+    {
+      "title": "GitHub - saragordic/rooms: Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away. · GitHub",
+      "url": "https://github.com/saragordic/rooms",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "\"Rooms\" is a macOS utility that treats each project as a named workspace — saving your window layout and letting you jump back in with a single shortcut. If you context-switch between multiple codebases or clients, this is the missing macOS feature you didn't know you needed."
+    },
+    {
+      "title": "Bastardica",
+      "url": "https://bastardica.mitpit.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: fonts, typography, combination, tools",
+      "blurb": "Bastardica is a web tool for combining and exploring font pairings in a visually driven interface — think of it as a creative playground for typography. Designers and developers who care about type will find it addictive. A nice antidote to the usual Google Fonts-and-done workflow."
+    },
+    {
+      "title": "The plunging price of thought",
+      "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, report",
+      "blurb": "Epoch AI's rigorous measurement: AI performance costs are falling at ~47% per quarter — 13x per year since 2023 — outpacing every historical technology cost curve including solar, compute, and DNA sequencing. This is the data behind all the AI hype, and it's genuinely extraordinary. Essential context for anyone making technology bets."
+    },
+    {
+      "title": "Is oMLX Worth Installing on Your Mac in 2026?",
+      "url": "https://medium.com/data-science-collective/is-omlx-worth-installing-on-your-mac-in-2026-ab99d0bd0a9f",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: medium, ai, artificialintelligence, local, llm, osx",
+      "blurb": "oMLX is a macOS tool for running machine learning models locally using Apple's MLX framework on Apple Silicon. This review cuts through the noise on whether it's actually ready for daily use in 2026 — relevant for any Mac developer curious about on-device LLM inference without the Ollama defaults."
+    }
+  ]
+}
