@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-28",
+  "stories": [
+    {
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "hn_link": "https://news.ycombinator.com/item?id=49870367",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by sancho-panza · 1622 points · 876 comments",
+      "blurb": "The top HN story today is a viral post dissecting Google's increasingly bizarre product decisions — AI Overviews that hallucinate, Search that surfaces slop, and a company that seems to have lost the plot. With 876 comments, this is the conversation everyone is having. A useful reminder of why alternative tools matter."
+    },
+    {
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "hn_link": "https://news.ycombinator.com/item?id=49868830",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 554 points · 238 comments",
+      "blurb": "Fireworks AI drops Ember-1, a new frontier model optimized for speed and cost on their inference platform. If you're building AI-powered workflows and tired of paying OpenAI rates, this is worth a serious look. The benchmark numbers are competitive and the pricing story is compelling."
+    },
+    {
+      "title": "Self-Hosting on the Dark Web",
+      "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+      "hn_link": "https://news.ycombinator.com/item?id=49870295",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by mooreds · 309 points · 104 comments",
+      "blurb": "A practical walkthrough of hosting services as Tor hidden services — no port forwarding, no exposing your home IP, genuine anonymity. For privacy-conscious developers tired of cloud lock-in, this is a concrete alternative. The setup is more approachable than you'd expect."
+    },
+    {
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "hn_link": "https://news.ycombinator.com/item?id=49868404",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by birdculture · 306 points · 166 comments",
+      "blurb": "Go's module system bakes GitHub URLs into import paths, creating a quiet but real vendor lock-in problem. This post explains the pitfalls and offers concrete patterns for keeping your codebase portable. Essential reading before your next greenfield Go project."
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "url": "https://loficities.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=49869574",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by safaelmali · 301 points · 120 comments",
+      "blurb": "Gorgeous pixel-art cityscapes with procedurally generated lo-fi music, all running in the browser. It's the kind of delightful creative coding project that reminds you the web can still be magical. Open a tab and leave it running while you code."
+    },
+    {
+      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49866951",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by danso · 284 points · 108 comments",
+      "blurb": "A researcher working in a motel room stumbled onto findings that could reshape our understanding of how life first emerged on Earth. Science doesn't always happen in gleaming labs — sometimes it happens when you can't afford better. A genuinely wonderful story."
+    },
+    {
+      "title": "Coding Is Not Solved",
+      "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "hn_link": "https://news.ycombinator.com/item?id=49877988",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by firstSpeaker · 252 points · 252 comments",
+      "blurb": "A sharp pushback on the \"AI has solved coding\" narrative, arguing that the hard parts of software — system design, debugging distributed systems, understanding requirements — remain deeply human. The comment count matches the score, which tells you this hit a nerve. Required reading for any developer using Claude Code."
+    },
+    {
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "hn_link": "https://news.ycombinator.com/item?id=49865312",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by birdculture · 120 points · 64 comments",
+      "blurb": "Postgres's `AT TIME ZONE` syntax has a deeply counterintuitive behavior that has burned countless developers: it converts timestamps in the *opposite* direction from what you'd expect. This post explains the gotcha with clear examples. Bookmark it before your next timezone bug."
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "hn_link": "https://news.ycombinator.com/item?id=49869755",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by evakhoury · 138 points · 68 comments",
+      "blurb": "Ink & Switch's essay on malleable software argues for a future where users can reshape apps to fit their needs rather than conforming to fixed product decisions. As someone who builds with tools like Obsidian — itself a paragon of malleability — this philosophy resonates. A thoughtful manifesto for the software we should be building."
+    },
+    {
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "hn_link": "https://news.ycombinator.com/item?id=49875913",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by davidcollantes · 220 points · 108 comments",
+      "blurb": "Parley layers federation and decentralization on top of plain IRC, letting you self-host a chat node that interoperates with the broader network. It's the rare project that adds modern features without abandoning interoperability. For anyone tired of walled-garden messaging, this is worth a serious look."
+    },
+    {
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills Anthropic",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: clanker",
+      "blurb": "Anthropic's research blog details Claude solving a nine-loop Feynman diagram calculation in N=4 super-Yang-Mills theory — a problem that would take human physicists years. This isn't a party trick; it's a signal that frontier AI is beginning to push the boundaries of theoretical physics. Wild times."
+    },
+    {
+      "title": "Floci — Fast, Free AWS Emulator",
+      "url": "https://floci.io/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: aws",
+      "blurb": "Floci is an open-source AWS emulator built with Quarkus Native that starts in 24ms and uses only 13 MiB at idle — a drop-in LocalStack replacement with no auth token or restrictions. If your CI pipeline is bogged down waiting for LocalStack to wake up, this is the upgrade you've been waiting for. Try it today."
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "url": "https://reasonable.io/blog/tla-tutorial/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tla+, lean, alternative",
+      "blurb": "A practical introduction to TLA+ that makes the case for formal verification in the age of agentic coding — arguing that AI-generated code makes specification more important, not less. The post connects TLA+ to Lean and machine-checked proofs in a genuinely compelling way. If you've been meaning to learn TLA+, this is the on-ramp."
+    },
+    {
+      "title": "You're seriously missing out if you're using Claude without these skills",
+      "url": "https://www.makeuseof.com/youre-seriously-missing-out-if-youre-using-claude-without-these-skills/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, Claude, skill",
+      "blurb": "A practical rundown of Claude's underused \"Skills\" feature — essentially persistent, reusable instructions and tools that make Claude dramatically more useful across repeated workflows. If you're using Claude Code daily and haven't explored Skills, this is actionable immediately. The productivity delta is real."
+    },
+    {
+      "title": "There is more to code review than (automatable) detection",
+      "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai",
+      "blurb": "Adaptive Capacity Labs argues that code review is fundamentally a knowledge-sharing and organizational learning activity — not just defect detection — and that automating it away destroys something valuable. A necessary corrective as AI code review tools proliferate. Read this before you greenlight an AI-only review pipeline."
+    },
+    {
+      "title": "In Defense of the Detour On craft, A.I. and what gets lost when we skip the slow part.",
+      "url": "https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, design, future, culture, creativity, enshittification, purpose, intention, DSEE, SVA",
+      "blurb": "Georgia Lupi writes a gorgeous, visually rich essay about the value of the creative detour — the meandering, inefficient process that AI shortcuts eliminate. As someone who builds with AI tools daily, this is the essay that makes you pause. The medium matches the message: it's an interactive piece you have to spend time with."
+    },
+    {
+      "title": "GitHub - SinaXhpm/Submarine: Modern SSH & SFTP client — terminal, SFTP, port forwarding, folder mirror, encrypted sync. Windows · macOS · Linux · Android.",
+      "url": "https://github.com/SinaXhpm/Submarine",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ssh",
+      "blurb": "Submarine is a cross-platform SSH/SFTP client with a modern UI that covers terminal access, file transfer, port forwarding, folder mirroring, and encrypted sync in one package — and it works on macOS and iOS. For developers who live in the terminal but hate juggling five tools for SSH tasks, this looks like a genuine upgrade."
+    },
+    {
+      "title": "inessential: That About Wraps It Up for Stock Mac UI",
+      "url": "https://inessential.com/2026/09/22/that-about-wraps-it-up-for.html",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Brent Simmons (of NetNewsWire fame) eulogizes the era of standard Mac UI controls, as Apple's own apps increasingly deviate from HIG guidelines into bespoke designs. This is a short but pointed lament from a veteran Mac developer who's watched the platform drift. Picked up by Daring Fireball for good reason."
+    },
+    {
+      "title": "The Talk Show ✪: Ep. 455, With Andru Edwards",
+      "url": "https://daringfireball.net/thetalkshow/2026/09/25/ep-455",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ifttt, daringfireball",
+      "blurb": "John Gruber and Andru Edwards do a full debrief on Apple's September event: iPhone 18 Pro, iPhone 18 Duo, AirPods 5, and Apple Watch Series 12/Ultra 4. If you haven't had time to watch the keynote, this is the fastest way to get up to speed on what matters in the Apple ecosystem. Essential listening for this week."
+    },
+    {
+      "title": "Apple hit with $5.7 billion in damages over haptic patents | The Verge",
+      "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A jury has hit Apple with $5.7 billion in damages in a haptic technology patent case — one of the largest patent verdicts in tech history. Whether Apple appeals or settles, this could affect the haptic experience across iPhones and MacBooks going forward. Worth tracking if you care about the Apple hardware roadmap."
+    }
+  ]
+}
