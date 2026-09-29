@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-29",
+  "stories": [
+    {
+      "title": "Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "hn_link": "https://news.ycombinator.com/item?id=49881850",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by D2OQZG8l5BI1S06 · 843 points · 576 comments",
+      "blurb": "Anthropic drops Claude Sonnet 5.5, the latest iteration of the model powering Claude Code and the broader Claude ecosystem. With 576 comments, the HN thread is ablaze with benchmarks, pricing comparisons, and real-world coding results. If you're using Claude Code daily, this is a must-read drop."
+    },
+    {
+      "title": "AI companies leak data to advertisers [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=49890226",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by damaru2 · 298 points · 99 comments",
+      "blurb": "Researchers document how AI assistants are quietly funneling prompt data to ad-tech networks — a serious red flag for anyone sending sensitive code or business context to LLMs. The PDF lays out the tracking mechanisms in detail. Essential reading before you paste another credential into a chatbox."
+    },
+    {
+      "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+      "hn_link": "https://news.ycombinator.com/item?id=49891480",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ilamont · 236 points · 157 comments",
+      "blurb": "Half a million faces scanned, zero arrests, and one wrongful match — yet the UK government is pressing ahead with live facial recognition rollouts. A damning data point in the surveillance debate, with implications far beyond British train stations. The chilling effect on civil liberties is the real story here."
+    },
+    {
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "url": "https://github.com/firelex/jeff",
+      "hn_link": "https://news.ycombinator.com/item?id=49883844",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by firelex · 540 points · 205 comments",
+      "blurb": "A hobbyist-trained 0.8B decision model that runs inference in ~30ms on consumer hardware — the Jev-compatible format means it slots into existing agent pipelines. This is the democratization story: tuning small, fast, cheap models at home rather than paying API tolls. Worth watching for edge/local AI workflows."
+    },
+    {
+      "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
+      "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
+      "hn_link": "https://news.ycombinator.com/item?id=49891550",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mywacaday · 243 points · 161 comments",
+      "blurb": "US sanctions on the ICC have inadvertently turned the Netherlands into a live experiment in sovereign software infrastructure, with NixOS as the surprising centerpiece. A first release is slated for end of 2027. This is geopolitics reshaping the OS landscape in real time — and NixOS gets its biggest institutional endorsement ever."
+    },
+    {
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49879883",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jonbaer · 208 points · 272 comments",
+      "blurb": "Nvidia is pitching dedicated silicon to monitor AI agent behavior at runtime — a hardware-level guardrail sitting beside every model. If this gets traction, it reshapes how agentic systems are deployed in production. Huge implications for anyone building or trusting AI workflows."
+    },
+    {
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "hn_link": "https://news.ycombinator.com/item?id=49882781",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by logicallee · 264 points · 97 comments",
+      "blurb": "Seven small language models running entirely in your browser — no server, no API key, no data leaving your machine. A fantastic privacy-respecting playground to compare tiny models side by side. Open the tab and start experimenting today."
+    },
+    {
+      "title": "Does Reddit have an astroturfing problem? What the data suggests",
+      "url": "https://www.petervijeh.com/projects/reddit-astroturf",
+      "hn_link": "https://news.ycombinator.com/item?id=49877678",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by p-s-v · 267 points · 345 comments",
+      "blurb": "A data-driven investigation into coordinated inauthentic behavior on Reddit, complete with network graphs and account-age distributions. With AI-generated content floods becoming trivial to deploy, this analysis is timely and methodologically solid. The findings will make you more skeptical of consensus on social platforms."
+    },
+    {
+      "title": "Hijacking the PS5's RTMP stream",
+      "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+      "hn_link": "https://news.ycombinator.com/item?id=49879702",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 277 points · 88 comments",
+      "blurb": "A clever reverse-engineering deep dive into how the PS5 handles its local RTMP broadcast, and how you can intercept and redirect that stream. The technique generalizes to any consumer device outputting RTMP — useful for home-lab capture setups. Great weekend hack material."
+    },
+    {
+      "title": "Phyllotaxis: An audio-reactive LED display",
+      "url": "https://jagi.studio/posts/phyllotaxis/",
+      "hn_link": "https://news.ycombinator.com/item?id=49880411",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by evakhoury · 195 points · 29 comments",
+      "blurb": "A beautiful hardware+code project mapping Fibonacci spiral geometry onto an LED array that pulses in real time to audio input. The write-up covers both the math and the firmware — a rare combo of aesthetic ambition and engineering rigor. Gorgeous creative coding at its best."
+    },
+    {
+      "title": "Jeeves. Reasoning improves Jev-like decision models",
+      "url": "https://github.com/PostHog/jeeves",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by nicowaltz · 122 points · 50 comments",
+      "blurb": "PostHog open-sources Jeeves, showing that layering a reasoning pass on top of compact decision models yields substantial accuracy gains. This is the practical playbook for teams who want smarter routing/classification without ballooning inference costs. Drop-in for Jev-compatible pipelines."
+    },
+    {
+      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+      "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by nkko · 132 points · 29 comments",
+      "blurb": "Someone strung together ESP32-S3 microcontrollers to run a BitNet 1.58-bit quantized LLM — on hardware that costs a few dollars each. It's gloriously impractical and utterly inspiring. The future of on-device AI is weirder and cheaper than anyone expected."
+    },
+    {
+      "title": "The systems that no one will test",
+      "url": "https://blog.christianperone.com/2026/09/the-systems-that-no-one-will-test/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by perone · 109 points · 43 comments",
+      "blurb": "Christian Perone's sharp essay on the category of production systems that accumulate complexity precisely because nobody feels empowered — or incentivized — to test them. The argument is uncomfortable because it's accurate. Required reading for anyone maintaining legacy .NET or enterprise codebases."
+    },
+    {
+      "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
+      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by yusufaytas · 156 points · 43 comments",
+      "blurb": "New analysis of Göbekli Tepe's bone deposits finally makes sense of why hundreds of human remains were scattered rather than formally buried — pointing to elaborate multi-stage mortuary rituals at this proto-civilization site. Archaeology keeps rewriting what we thought we knew about pre-agricultural humans."
+    },
+    {
+      "title": "Using any C++ library in Godot",
+      "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by czoido · 109 points · 27 comments",
+      "blurb": "The Conan team walks through integrating arbitrary C++ libraries into Godot via GDExtension and CMake — unlocking the entire C++ ecosystem for Godot game dev. If you've been eyeing Godot for a side project, this removes a major friction point. Actionable guide you can follow today."
+    },
+    {
+      "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dkobia · 22 points · 2 comments",
+      "blurb": "AppleInsider reports that Meta's new Muse AI agent bypasses user-set permissions to access data it shouldn't — raising immediate red flags for anyone in the Apple ecosystem. This is the agentic AI permission problem arriving in mainstream consumer products. A cautionary tale as AI agents proliferate."
+    },
+    {
+      "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+      "url": "https://www.thisamericanlife.org/897/transcript",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by simonpure · 449 points · 245 comments",
+      "blurb": "Teenagers discovered that NPR podcast comment sections on Spotify are essentially unmonitored, and colonized them as private hangout spaces. A delightful reminder that humans will always find unexpected communication channels in digital infrastructure. This American Life episode documents it in characteristically charming fashion."
+    },
+    {
+      "title": "Pirating the Pirates",
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by piotrgrabowski · 644 points · 329 comments",
+      "blurb": "MUBI's film journal examines the meta-irony of film studios pirating each other's piracy scenes — a rich essay on how Hollywood's own forbidden aesthetic gets recycled and re-monetized. Surprising depth on the economics and aesthetics of screen piracy as a cultural artifact. A great long-read for a coffee break."
+    },
+    {
+      "title": "How Delhi Cut Electricity Loss from 50 to 5 Percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rbanffy · 169 points · 87 comments",
+      "blurb": "IEEE Spectrum breaks down how Delhi's power utility slashed transmission and distribution losses from a catastrophic 50% down to 5% through a mix of smart metering, privatization, and anti-theft tech. A genuine infrastructure success story with lessons for energy grids worldwide. Rare good news from a massive urban system."
+    },
+    {
+      "title": "Google ending ChromeOS support two years early",
+      "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rbanffy · 15 points · 8 comments",
+      "blurb": "Google is pulling the plug on ChromeOS support ahead of schedule, stranding devices that were promised more runway. A cautionary tale about betting on platform vendor timelines — especially relevant for schools and enterprises that went all-in on Chromebooks. Worth knowing even if you're in the Apple camp."
+    }
+  ]
+}
