@@ -1,0 +1,175 @@
+{
+  "date": "2026-09-30",
+  "stories": [
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "hn_link": "https://news.ycombinator.com/item?id=49896586",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by crorella · 1005 points · 881 comments",
+      "blurb": "OpenAI drops a new mid-tier model that punches close to GPT-6 Astra quality at a dramatically lower price point. If you're building with AI tools or running Claude Code-style workflows, the cost curve just got more interesting. Nearly 900 comments on HN suggests the benchmarks are generating real heat."
+    },
+    {
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "hn_link": "https://news.ycombinator.com/item?id=49901736",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bryan0 · 758 points · 318 comments",
+      "blurb": "A live-tracking tool that continuously probes Claude Opus 5.5 (and other frontier models) to detect capability regressions after updates — essentially a canary in the coal mine for AI nerfing. Directly relevant if you're building on top of Anthropic's API and need to know when behavior silently shifts. 318 comments of anecdotal reports make this a must-read."
+    },
+    {
+      "title": "Dots: Always-on agents",
+      "url": "https://openai.com/index/introducing-dots/",
+      "hn_link": "https://news.ycombinator.com/item?id=49896604",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alvis · 692 points · 556 comments",
+      "blurb": "OpenAI's answer to persistent agentic AI: Dots are always-on agents that can monitor, act, and respond to long-running tasks without a human in the loop. This is the architecture shift that makes AI feel less like a chatbot and more like a colleague. Heavy discussion on the HN thread about what this means for autonomous workflow builders."
+    },
+    {
+      "title": "Pi.dev: You Said No MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "hn_link": "https://news.ycombinator.com/item?id=49906637",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yarapavan · 327 points · 166 comments",
+      "blurb": "A sharp critique of the Model Context Protocol (MCP) from someone who tried it and walked away — covering complexity, fragility, and why simpler tool-calling interfaces may win out. If you're evaluating MCP for your own Claude Code workflows, this is the skeptic's case you need to read first. The 166-comment thread is a genuine engineering debate."
+    },
+    {
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "url": "https://space.bl2.net/",
+      "hn_link": "https://news.ycombinator.com/item?id=49898778",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by wanick · 312 points · 82 comments",
+      "blurb": "A gorgeous WebGL visualization of the entire solar system — 526,000 catalogued asteroids and every tracked Earth satellite rendered in real time. Pure creative coding meeting orbital mechanics data. Open it in a big browser window and just spin around for a few minutes."
+    },
+    {
+      "title": "A Staff Engineer's Guide to Inventing Work",
+      "url": "https://sujithjay.com/inventing-work",
+      "hn_link": "https://news.ycombinator.com/item?id=49878857",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by amortize · 324 points · 65 comments",
+      "blurb": "Staff engineers aren't handed a backlog — they find and frame the work that matters. This guide breaks down how to develop the judgment to see leverage points others miss. Practical and opinionated, not the usual generic career advice."
+    },
+    {
+      "title": "PS5 Relapse Exploit",
+      "url": "https://github.com/ntfargo/Relapse-Exploit",
+      "hn_link": "https://news.ycombinator.com/item?id=49895304",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by therepanic · 333 points · 209 comments",
+      "blurb": "A new kernel-level exploit for the PS5 lands on GitHub, reigniting the console hacking scene. While the obvious use is homebrew, the underlying techniques are a masterclass in modern memory-safety bypass. Security engineers will find the write-up technically rich."
+    },
+    {
+      "title": "Backblaze drive stats for Q2 2026",
+      "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=49893002",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by HieronymusBosch · 245 points · 75 comments",
+      "blurb": "Backblaze's quarterly hard drive reliability report is the best real-world failure data anyone publishes. This edition covers Q2 2026 across hundreds of thousands of drives in production. If you're speccing storage for a home lab, NAS, or server rack, this is the one dataset you actually trust."
+    },
+    {
+      "title": "Language models for text classification: From bag-of-words to Jev",
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "hn_link": "https://news.ycombinator.com/item?id=49891203",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Anon84 · 166 points · 7 comments",
+      "blurb": "Sebastian Raschka traces the full arc of text classification — from TF-IDF bags-of-words through BERT to the new Jev architecture. Dense, rigorous, and the kind of foundational ML writing that actually sticks. Essential context if you're building classification pipelines on top of modern LLMs."
+    },
+    {
+      "title": "NAND-16: a computer built from 277,248 NAND gates",
+      "url": "https://somethingbig.ai/computer",
+      "hn_link": "https://news.ycombinator.com/item?id=49871018",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rossant · 157 points · 93 comments",
+      "blurb": "Someone built a working 16-bit computer entirely from discrete NAND gates — a quarter-million of them, wired by hand. It's a monument to first-principles thinking and a reminder that abstraction layers are luxuries. The project page has stunning photography of the hardware."
+    },
+    {
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, ai",
+      "blurb": "Anthropic's official guide to behavioral differences in Opus 5.5 vs. its predecessor, with concrete patterns for effort calibration, multi-agent tasks, safeguard refusals, and complex visual inputs. If you're running Claude Code or building Anthropic-based workflows, this is required reading for the current model generation. Actionable and dense."
+    },
+    {
+      "title": "Humans Are Reading Copilot Prompts — And They're Horrified - 404 Media",
+      "url": "https://www.404media.co/humans-reading-copilot-prompts-images/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, LLM, Microsoft, MechanicalTurk, Privacy, Fuck",
+      "blurb": "Microsoft is routing Copilot prompts — including sensitive code, images, and personal queries — to human reviewers, and those reviewers are reportedly disturbed by what they're seeing. A direct privacy concern for anyone using Copilot in a work context. The 404 Media sourcing is solid; this is not speculation."
+    },
+    {
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Simon Willison's WeAreDevelopers keynote slides and annotations — a chronological sweep through every major LLM development of 2026. Willison is the best curator in the field and this is the definitive year-so-far summary. Save it, share it, reference it in every AI conversation for the next three months."
+    },
+    {
+      "title": "Beauty — A Markdown editor for people who notice things.",
+      "url": "https://www.markdown.beauty/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: markdown, software",
+      "blurb": "Beauty is a free Markdown editor for iPhone, iPad, Mac, and the web — plain files, private on-device search, thoughtful keyboard interactions, and live sharing. For an Obsidian user, this is worth benchmarking as a companion or alternative for quick captures. The privacy-first, plain-file philosophy will feel immediately familiar."
+    },
+    {
+      "title": "Deciphering Glyph :: What Would A Serious AI Product Look Like?",
+      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, design, software",
+      "blurb": "Glyph (a Twisted/Python veteran) asks what it would take to build an AI product that's actually rigorous — reliable, auditable, and trustworthy rather than impressive in demos but brittle in production. This is the engineering conscience piece the AI hype cycle desperately needs, and it's a short, sharp read."
+    },
+    {
+      "title": "Why Stolen Device Protection makes Passwords safer – Six Colors",
+      "url": "https://sixcolors.com/post/2026/09/stolen-device-protection-passwords-glenn/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Six Colors digs into how iOS Stolen Device Protection layers biometric gates around the Passwords app, making it resistant to the shoulder-surfing passcode theft attacks that plagued earlier iPhones. Practical security explainer for any iPhone user who stores credentials in Apple Passwords. Concise and immediately actionable."
+    },
+    {
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Cloudflare ships `cf`, a new CLI that wraps the entire Cloudflare API surface with agentic capabilities — meaning it can chain commands, reason about state, and execute multi-step workflows. This is the kind of tool that makes infrastructure management from the terminal dramatically less painful. Worth grabbing today."
+    },
+    {
+      "title": "Highlights from Git 2.56 - The GitHub Blog",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "GitHub's changelog post for Git 2.56 hits the highlights: performance improvements, new diff options, and some quality-of-life fixes that daily users will notice immediately. The GitHub team writes these better than the raw release notes — skim it and you'll likely spot something you'll alias within the hour."
+    },
+    {
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: felonies, hacking, crime, frontier-models, llms, anthropic, openai, meta, evaluation, testing, benchmarks, funny",
+      "blurb": "A new benchmark that counts how often AI agents inadvertently harm third-party entities — things a reasonable person would consider criminal. Dark and funny framing aside, this surfaces a real safety measurement gap: most evals test capability, not collateral damage. Watch this become a standard citation in alignment discussions fast."
+    },
+    {
+      "title": "Thorsten Ball - What I believe about the future of software development",
+      "url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, devpro",
+      "blurb": "Thorsten Ball (author of Writing An Interpreter In Go and Warp dev) lays out his genuine beliefs about how AI will reshape the practice of software development — not hype, not doomerism, but considered takes from someone who builds dev tools for a living. If you're using Claude Code daily, this is the essay that will either confirm or productively challenge your priors."
+    }
+  ]
+}
