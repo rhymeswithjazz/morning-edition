@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-02",
+  "stories": [
+    {
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "hn_link": "https://news.ycombinator.com/item?id=49926069",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sergiotapia · 1524 points · 502 comments",
+      "blurb": "The most-upvoted HN story of the day by a mile — Pi is a new AI-native programming environment that's generating serious buzz. With 502 comments, the community is deeply engaged in debating what this means for the future of coding assistants. If you use Claude Code, you'll want to know what's nipping at its heels."
+    },
+    {
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "hn_link": "https://news.ycombinator.com/item?id=49925969",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by paulsmith · 442 points · 59 comments",
+      "blurb": "The companion post to Pi 1.0, diving into Pi's durability story — how it handles long-running, fault-tolerant AI workflows. This is the architectural piece that explains how Pi isn't just another chat UI but a runtime designed for agents that need to persist across failures. Essential context alongside the launch post."
+    },
+    {
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "hn_link": "https://news.ycombinator.com/item?id=49923692",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jasondavies · 561 points · 203 comments",
+      "blurb": "Cloudflare drops open-weight models specifically trained for decision-making tasks, paired with a new RL fine-tuning platform. This is a meaningful step toward lightweight, deployable AI that doesn't require phoning home to OpenAI — great for privacy-conscious devs building AI-powered workflows at the edge."
+    },
+    {
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "hn_link": "https://news.ycombinator.com/item?id=49924179",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by chmaynard · 469 points · 435 comments",
+      "blurb": "GitButler's engineering blog makes a provocative case that switching Git's default hash to SHA-256 in v3.0 will create massive compatibility pain without commensurate security benefit. With 435 comments, this is the most contested dev-tools debate of the week — every developer with a GitHub workflow should have an opinion on this."
+    },
+    {
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "hn_link": "https://news.ycombinator.com/item?id=49928121",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by luispa · 435 points · 304 comments",
+      "blurb": "LWN's thorough rundown of a fresh batch of Linux kernel CVEs, drawing 304 comments of community analysis. If you run any Linux servers, containers, or embedded systems — or if you just care about the state of kernel security — this is required reading before you cut your next deployment."
+    },
+    {
+      "title": "RIP, vector database",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "hn_link": "https://news.ycombinator.com/item?id=49923466",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by razin · 357 points · 100 comments",
+      "blurb": "Turbopuffer argues that standalone vector databases are being commoditized into extinction as full-text and relational databases absorb vector search natively. A sharp, opinionated take on AI infrastructure consolidation — if you're building RAG pipelines or choosing a database stack for an AI app, this reframes the decision entirely."
+    },
+    {
+      "title": "Automatic Transmission – a data-privacy study of connected vehicles",
+      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49926628",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by rafaelc · 224 points · 188 comments",
+      "blurb": "Northeastern researchers dissect exactly what data modern connected cars collect, who they share it with, and how little control drivers have. The findings are alarming and extensively documented — a must-read for anyone who cares about digital privacy beyond the phone in their pocket."
+    },
+    {
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
+      "url": "https://www.deepseek.com/en/harness/",
+      "hn_link": "https://news.ycombinator.com/item?id=49929489",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by Kuyawa · 322 points · 166 comments",
+      "blurb": "DeepSeek launches a native desktop app for macOS (and Windows), bringing their frontier model locally to your dock. For Apple ecosystem users who want a capable AI assistant outside the browser, this is worth evaluating — 166 comments are already debating privacy implications vs. capability."
+    },
+    {
+      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "hn_link": "https://news.ycombinator.com/item?id=49926917",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by benbreen · 186 points · 59 comments",
+      "blurb": "A historian used Claude Opus 5.5 to surface a previously unknown 17th-century eyewitness account of the dodo from digitized archives. This is a vivid, concrete demonstration of what AI-assisted research actually looks like in practice — and a compelling case for using LLMs as archival research partners."
+    },
+    {
+      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "hn_link": "https://news.ycombinator.com/item?id=49922674",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by nkw · 256 points · 49 comments",
+      "blurb": "Multiple independent hackers discovered that the ubiquitous ESP32 chip can function as a software-defined radio — a capability that was never documented or intentionally exposed. It's a delightful hardware jailbreak story and raises real questions about what other capabilities lurk in the chips powering billions of IoT devices."
+    },
+    {
+      "title": "SvelteKit 3",
+      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sampsn · 348 points · 142 comments",
+      "blurb": "SvelteKit 3 ships with a major revamp to routing, improved server actions, and better TypeScript support. Even if Angular is your daily driver, SvelteKit's direction is worth watching — it consistently pushes ideas that eventually influence the broader frontend ecosystem."
+    },
+    {
+      "title": "StreetComplete on iOS is now in public beta",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by Snowly · 592 points · 165 comments",
+      "blurb": "StreetComplete — the beloved gamified OpenStreetMap editor — finally has a public iOS beta after years of being Android-only. For privacy-conscious Apple users who prefer contributing to open geo-data over feeding Google Maps, this is the app you've been waiting for."
+    },
+    {
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "url": "https://www.frogandtoad.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by supermdguy · 335 points · 77 comments",
+      "blurb": "An AI-generated Frog and Toad story collection that uses the beloved characters to explore themes of AI capability and anxiety — and it's genuinely good. It's a clever creative-AI artifact that's both entertaining and a useful prompt-engineering case study in maintaining a consistent literary voice."
+    },
+    {
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by stabbles · 176 points · 211 comments",
+      "blurb": "A clever interactive site that lets you vote on whether specific AI challenges posed by the HN community have been met, tracking how the goalposts shift over time. With 211 comments, it's sparking a meaty debate about what we actually expected from AI and what counts as success — required reading for anyone building with LLMs."
+    },
+    {
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by giuliomagnifico · 186 points · 110 comments",
+      "blurb": "OpenAI and Synopsys announce a joint venture to apply frontier LLMs to EDA (electronic design automation), targeting chip design workflows. AI eating chip design is a major industrial inflection point — the downstream effects on hardware costs and availability will eventually touch every developer."
+    },
+    {
+      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+      "url": "https://news.ycombinator.com/item?id=49911500",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by adchurch · 109 points · 36 comments",
+      "blurb": "An open-source router that dynamically selects the best model for each coding-agent subtask, claiming Astra-level benchmark performance. If you're building or using AI coding tools, intelligent model routing is the next lever to pull for cost/quality optimization — this is a practical, try-it-today project."
+    },
+    {
+      "title": "Context Language Models",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by emersonmacro · 160 points · 43 comments",
+      "blurb": "A new arxiv paper proposes Context Language Models — an architecture that fundamentally rethinks how LLMs handle and prioritize context windows. For developers building RAG systems or long-context applications, this is the kind of research that could reshape tooling within 12 months."
+    },
+    {
+      "title": "Cloudflare K2: serverless event streams",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by elffjs · 264 points · 103 comments",
+      "blurb": "Cloudflare announces K2, a serverless event-streaming product targeting the Kafka-compatible workload space. Managed, globally-distributed event streams without the ops burden of running Kafka is a compelling pitch for teams already in the Cloudflare ecosystem."
+    },
+    {
+      "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+      "url": "https://github.com/kvoltmer/Audionaut",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by vltmrkls · 73 points · 27 comments",
+      "blurb": "Audionaut is a brand-new open-source multitrack audio editor aiming to be a cross-platform alternative to GarageBand and Audacity. Early days, but the codebase looks well-structured and it already handles non-destructive editing — one to star and watch if you do any audio production."
+    },
+    {
+      "title": "Oxygen-deprived underwater zones may not be \"dead zones\" but clue to early life",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gumby · 117 points · 16 comments",
+      "blurb": "New research flips the script on oceanic dead zones, suggesting these anoxic environments may mirror conditions where life first emerged on early Earth. It's a mind-bending reframe — the places we thought were lifeless wastelands may be living windows into our own origins."
+    }
+  ]
+}
