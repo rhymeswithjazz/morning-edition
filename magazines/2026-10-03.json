@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-03",
+  "stories": [
+    {
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "hn_link": "https://news.ycombinator.com/item?id=49927754",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hn_acker · 685 points · 326 comments",
+      "blurb": "A court has sided with the EFF, striking down Utah's attempt to force VPN providers to do something technically incoherent — verify user ages while maintaining encrypted tunnels. This is a landmark win for digital rights advocates and a signal to other states eyeing similar legislation. If you use or build with VPNs, this ruling matters."
+    },
+    {
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "hn_link": "https://news.ycombinator.com/item?id=49937276",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by soheilpro · 463 points · 283 comments",
+      "blurb": "Apple quietly launched a visual design tool for Wallet passes — loyalty cards, tickets, transit passes — right in the browser. This dramatically lowers the barrier to building Apple Wallet integrations without wrestling with raw JSON. A must-know for any developer shipping iOS experiences."
+    },
+    {
+      "title": "FLUX 3 Image",
+      "url": "https://bfl.ai/models/flux-3-image",
+      "hn_link": "https://news.ycombinator.com/item?id=49925974",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 369 points · 80 comments",
+      "blurb": "Black Forest Labs drops FLUX 3, the next generation of their image model that's been setting benchmarks since FLUX.1. Early samples suggest a significant quality leap for photorealism and typography. If you're integrating image generation into any creative workflow, this is the one to watch."
+    },
+    {
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "url": "https://stillwet.art/",
+      "hn_link": "https://news.ycombinator.com/item?id=49928566",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by alstonite · 306 points · 97 comments",
+      "blurb": "Someone gave Claude Opus 5.5 a virtual paint canvas and the results are fascinating — the LLM reasons about color mixing, brush strokes, and composition in real time. It's a genuinely novel AI x creative coding experiment that pushes the boundaries of what \"painting\" means when a model does it. Well worth clicking through."
+    },
+    {
+      "title": "Sites in ChatGPT",
+      "url": "https://chatgpt.com/features/sites/",
+      "hn_link": "https://news.ycombinator.com/item?id=49927747",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by polvi · 300 points · 279 comments",
+      "blurb": "OpenAI now lets ChatGPT users publish mini-websites generated entirely by the model — think instant landing pages, portfolios, or tools. This is a direct shot at no-code builders and raises serious questions about AI-generated web content at scale. The 279-comment thread is a goldmine of debate."
+    },
+    {
+      "title": "Updates to Full Disk Access in macOS",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "hn_link": "https://news.ycombinator.com/item?id=49937631",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by notfirstpost · 226 points · 152 comments",
+      "blurb": "Apple is tightening Full Disk Access permissions in an upcoming macOS release, which will break a number of utilities and developer tools that currently rely on broad file system access. If you ship macOS software — or depend on apps like backup utilities and IDEs — you need to read this now."
+    },
+    {
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "hn_link": "https://news.ycombinator.com/item?id=49936575",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by fibo · 277 points · 71 comments",
+      "blurb": "Salvatore Sanfilippo (antirez, Redis creator) has built a new local LLM runtime called Dwarfstar, leaning on the ds4 architecture. Coming from someone obsessed with performance and simplicity, this is worth serious attention as an alternative to Ollama. Local-first AI tooling just got another credible contender."
+    },
+    {
+      "title": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49933869",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by signa11 · 240 points · 161 comments",
+      "blurb": "A deep dive into a subtle and baffling CPU behavior discovered while running Linux on Apple M4 silicon — caches behaving in ways that break assumptions baked into the kernel. This is the kind of low-level Apple hardware exposé that surfaces real gotchas for anyone running Linux on Apple gear or caring about ARM correctness."
+    },
+    {
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "hn_link": "https://news.ycombinator.com/item?id=49929391",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by usernomdeguerre · 261 points · 91 comments",
+      "blurb": "The Linux kernel's top maintainer gives a sober, technical talk on what LLMs mean for the security posture of open-source projects — think AI-generated patches with subtle bugs, automated vulnerability discovery, and maintainer burnout from AI-spam PRs. Essential viewing for anyone shipping code with AI assistance."
+    },
+    {
+      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "hn_link": "https://news.ycombinator.com/item?id=49932147",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by mariuz · 315 points · 59 comments",
+      "blurb": "Twelve years of direct imaging compressed into a short animation showing four planets actually orbiting their star — an extraordinary feat of patience and telescope time. This is as close as we currently get to watching another solar system in motion. A genuine jaw-dropper."
+    },
+    {
+      "title": "One month coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ThibWeb · 177 points · 138 comments",
+      "blurb": "The Wagtail CMS team shares a candid month-long retrospective on using GLM 5.3 Flash as their primary coding assistant — what it nailed, where it stumbled, and how it compares to Claude and GPT-4o. Real-world, sustained usage data from a Python open-source team is rare and valuable."
+    },
+    {
+      "title": "Cloudflare OHTTP gateway",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by est · 107 points · 35 comments",
+      "blurb": "Cloudflare launches a public Oblivious HTTP gateway — OHTTP is the privacy protocol that decouples client identity from request content by routing through a relay. This is the infrastructure piece that Apple uses for Private Relay-style features, and now it's available to any developer. A genuinely useful privacy primitive you can use today."
+    },
+    {
+      "title": "An Update on Orion for Linux and Windows",
+      "url": "https://blog.kagi.com/update-orion-linux-windows",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by pentagrama · 94 points · 45 comments",
+      "blurb": "Kagi's Orion browser — beloved in the macOS community for its WebKit base and zero-telemetry stance — gives an update on its long-anticipated Linux and Windows ports. Privacy-first browsing fans on non-Apple platforms finally have a real timeline to look at. The cross-platform ambition makes Kagi a more interesting company."
+    },
+    {
+      "title": "Loss of cell identity drives human aging: Two new papers",
+      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookofjoe · 282 points · 108 comments",
+      "blurb": "Two landmark papers propose that aging is fundamentally about cells losing their epigenetic identity — essentially forgetting what type of cell they're supposed to be. Eric Topol synthesizes both with his usual clarity. This reframing has big implications for how longevity research will be funded and directed over the next decade."
+    },
+    {
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by antelocnova · 121 points · 46 comments",
+      "blurb": "ldraw-nova uses AI to generate LDraw-format Lego models from text prompts — outputting files you can actually import into BrickLink Studio or render with LDraw tools. A delightful intersection of generative AI and physical-world making. The open-source codebase is clean and hackable."
+    },
+    {
+      "title": "Make Tmux the OS",
+      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by weaksauce · 83 points · 42 comments",
+      "blurb": "A developer's manifesto for building a terminal-first desktop environment around tmux as the window manager — complete with reasoning about why every GUI layer adds friction rather than value. Provocative and practical in equal measure, with real config snippets. Will resonate with anyone who lives in the terminal."
+    },
+    {
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by PaulHoule · 237 points · 114 comments",
+      "blurb": "Unlike Chess or Go, Stratego has massive hidden information — and AI has historically struggled with it. A new system has finally beaten the world's best human player, and apparently did it on a surprisingly modest compute budget. Ars digs into the imperfect-information game theory behind the breakthrough."
+    },
+    {
+      "title": "Extra Big Ass Intelligence",
+      "url": "https://www.extrabigassintelligence.com/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by 34679 · 339 points · 72 comments",
+      "blurb": "A tongue-in-cheek benchmark site that stress-tests frontier LLMs with absurdly large context windows and measures how well they actually use all that context — not just whether they technically accept it. Turns out most models degrade significantly beyond a certain depth. Funny name, serious methodology."
+    },
+    {
+      "title": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by anant · 209 points · 92 comments",
+      "blurb": "Muse launches embeddable AI-powered video gadgets — small self-contained components you can drop into any page to search, summarize, and navigate video content. Think smart video widgets for documentation, courses, or product demos. A genuinely novel take on making video content as skimmable as text."
+    },
+    {
+      "title": "GitHub's new dashboard experience now the default",
+      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vanyauhalin · 44 points · 54 comments",
+      "blurb": "GitHub has flipped the switch — the redesigned home dashboard is now default for all users after a long opt-in beta. The new layout reorganizes activity feeds, repos, and PRs in ways that are dividing the community. If you haven't opted in yet, surprise — you already have it."
+    }
+  ]
+}
