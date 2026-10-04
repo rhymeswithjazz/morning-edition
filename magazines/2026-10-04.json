@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-04",
+  "stories": [
+    {
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "hn_link": "https://news.ycombinator.com/item?id=49942706",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bastitx · 626 points · 319 comments",
+      "blurb": "Aleph Alpha drops Kolibri, a European open-weight model pitched as a \"sovereign\" alternative to US and Chinese frontier labs. For developers who care about data residency and want an LLM they can actually self-host without geopolitical strings attached, this is worth a close look. The 319-comment thread is lively on what \"sovereignty\" really means in practice."
+    },
+    {
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "hn_link": "https://news.ycombinator.com/item?id=49949235",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by elffjs · 500 points · 257 comments",
+      "blurb": "Simon Willison argues that agentic AI systems need mandatory, hard-coded spending limits baked in by default — not opt-in guardrails. If you're building with Claude Code or any autonomous coding agent, this is the clearest articulation yet of why runaway cost incidents are an architectural problem, not just a user-configuration problem. Essential reading before your next agentic workflow ships."
+    },
+    {
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "hn_link": "https://news.ycombinator.com/item?id=49945933",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kmeh · 238 points · 132 comments",
+      "blurb": "A sharp counterargument to the \"give agents persistent memory\" trend: the real bottleneck is that agents can't navigate undocumented codebases any better than a junior dev on day one. If you use Claude Code on real projects, this reframes how you should think about context, READMEs, and inline docs. Practical and immediately actionable."
+    },
+    {
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "hn_link": "https://news.ycombinator.com/item?id=49944227",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Brajeshwar · 306 points · 547 comments",
+      "blurb": "An Atlantic op-ed from a departing OpenAI safety researcher lays out a damning firsthand account of safety concerns being sidelined for product velocity. With 547 comments, this is the discourse-defining story of the week for anyone building on or competing with OpenAI's models. The institutional fault lines here matter for the whole industry."
+    },
+    {
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "hn_link": "https://news.ycombinator.com/item?id=49949438",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by paveworld · 581 points · 113 comments",
+      "blurb": "Bob Cringely — tech journalist, documentarian, and author of \"Accidental Empires\" — has passed away. His irreverent, insider coverage of Silicon Valley's golden age shaped how a generation of developers understood the industry they were joining. The HN thread is a warm tribute worth reading."
+    },
+    {
+      "title": "Why don't more developers \"use the platform\"?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "hn_link": "https://news.ycombinator.com/item?id=49950554",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vinhnx · 188 points · 167 comments",
+      "blurb": "Nolan Lawson digs into why web developers default to frameworks even when native browser APIs are now powerful enough. As someone working in Angular/TypeScript, the tension here is real — and the counterarguments about team knowledge, hiring, and ecosystem lock-in are candid. A grounding read for anyone deciding how much abstraction their next project actually needs."
+    },
+    {
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "hn_link": "https://news.ycombinator.com/item?id=49947051",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by geoffbp · 159 points · 136 comments",
+      "blurb": "Cloudflare is opening up its infrastructure and inviting developers to build a Git hosting platform on top of it — a direct shot at GitHub's dominance. For developers already using Cloudflare Workers and Pages, this could mean deeply integrated CI/CD and hosting in a single platform. The competitive implications for the version control hosting market are significant."
+    },
+    {
+      "title": "FTL: A new operating system for clouds",
+      "url": "https://ftl-os.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=49944912",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by romac · 185 points · 74 comments",
+      "blurb": "FTL is a research OS designed from scratch for cloud-native workloads, rethinking decades of Unix assumptions that predate containers, serverless, and hyperscale. This is the kind of clean-slate systems thinking that rarely makes it out of academia — the project page is dense but rewarding. Worth bookmarking for when you want to understand where cloud infrastructure might go next."
+    },
+    {
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "hn_link": "https://news.ycombinator.com/item?id=49946355",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by CosmoWenman · 243 points · 114 comments",
+      "blurb": "Cosmo Wenman's years-long legal battle with the Rodin Museum over 3D scan data reaches a verdict — and the implications for who \"owns\" digital scans of public-domain artworks are enormous. This is a landmark case for digital rights, open culture, and whether museums can assert copyright over faithful reproductions of centuries-old sculptures. A must-read for anyone who cares about open access."
+    },
+    {
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "hn_link": "https://news.ycombinator.com/item?id=49937304",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by edverma2 · 106 points · 39 comments",
+      "blurb": "Pi pod lets you self-host a coding agent in isolated sandboxes on your own server — no cloud dependency, no data leaving your machine. For privacy-conscious developers tired of sending proprietary code to third-party AI services, this scratches a real itch. Pairs well with local LLMs and gives you the Claude Code experience without the SaaS trust model."
+    },
+    {
+      "title": "How to hack time, with C2PA",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Retr0id · 46 points · 6 comments",
+      "blurb": "A clever technical teardown showing how C2PA content credentials — the standard being pushed by Adobe, Microsoft, and others for verifying media provenance — can be manipulated to spoof timestamps. As AI-generated content detection leans harder on cryptographic provenance, understanding the attack surface is critical. Short, sharp, and unsettling."
+    },
+    {
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 346 points · 60 comments",
+      "blurb": "Valve engineer Timur Kristóf details deep Mesa/AMDGPU driver work that revives meaningful performance on older AMD hardware on Linux. This is the kind of unglamorous, high-leverage open-source infrastructure work that keeps older GPUs useful for years longer than vendors intended. Great context from XDC 2026 on how game-focused engineering benefits the whole Linux graphics stack."
+    },
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by snehesht · 68 points · 21 comments",
+      "blurb": "Strata claims to run a 125B parameter model on a single RTX 4090 at 100 tokens/second — which, if it holds up, is a significant breakthrough for local inference on prosumer hardware. The techniques for extreme quantization and batching here are worth understanding even if you're skeptical of the benchmark. Local LLM enthusiasts should kick the tires."
+    },
+    {
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by allenleee · 22 points · 11 comments",
+      "blurb": "SCM is a macOS tool that indexes every photo and video frame on your machine and makes them semantically searchable with AI — think Apple's Photos intelligence, but for your entire filesystem. Built locally, so your media stays on-device. A direct hit for Mac users who've ever tried to find that one screenshot from three years ago."
+    },
+    {
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by trwhite · 314 points · 74 comments",
+      "blurb": "A beautifully crafted browser-based game where you navigate a spaceship using gravitational slingshot mechanics — no thrusters, just orbital physics. The creative coding here is exceptional, and the gameplay loop is genuinely addictive. A perfect 10-minute break that doubles as inspiration for anyone building physics-based interactions."
+    },
+    {
+      "title": "C++ Insights – See your source code with the eyes of a Compiler",
+      "url": "https://github.com/andreasfertig/cppinsights",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by rramadass · 161 points · 32 comments",
+      "blurb": "C++ Insights transforms your source code into what the compiler actually sees — desugaring lambdas, range-for loops, structured bindings, and template instantiations into explicit, readable C++. An invaluable learning and debugging tool for anyone who wants to stop guessing what modern C++ constructs actually produce. The web interface makes it instantly usable with zero setup."
+    },
+    {
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 209 points · 311 comments",
+      "blurb": "Yann LeCun dismisses AI extinction risk as overblown and calls out Dario Amodei directly, even as \"rogue\" AI incidents are reportedly increasing. The 311-comment HN thread is a barometer of where working AI researchers actually stand on safety versus capabilities. Worth reading the arguments on both sides before forming a strong opinion."
+    },
+    {
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by knuckleheads · 36 points · 2 comments",
+      "blurb": "Headstart is a Rust compilation experiment that emits crate metadata earlier in the pipeline, allowing downstream crates to start compiling before upstream ones finish — yielding up to 2× speedups on incremental builds. Rust's famously slow compile times are a genuine productivity tax, and this technique could inform future toolchain improvements. Low score but high signal."
+    },
+    {
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by simonjgreen · 98 points · 52 comments",
+      "blurb": "A delightfully over-engineered project: using Apple's U1 ultra-wideband chip to detect whether your bins are at the kerb or still in the garden — then automating the reminder. This is the kind of playful, precise hardware hack that showcases what UWB can do beyond AirTag tracking. Apple ecosystem tinkerers will love the creative use of on-device UWB."
+    },
+    {
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by young_mete · 74 points · 98 comments",
+      "blurb": "A measured analysis of what Meta's Muse model actually got right in its approach to generative AI for creative workflows — beyond the hype. The piece draws useful distinctions between models optimized for creative exploration versus task completion, which matters for anyone choosing AI tooling for design or content work. Refreshingly concrete."
+    }
+  ]
+}
