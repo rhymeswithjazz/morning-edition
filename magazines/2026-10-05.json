@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-05",
+  "stories": [
+    {
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "hn_link": "https://news.ycombinator.com/item?id=49957116",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by privacyisntdead · 713 points · 476 comments",
+      "blurb": "A GitHub tool that surgically removes Apple Intelligence from macOS 27, reclaiming several gigabytes of disk space in the process. For privacy-conscious Mac users who have no interest in on-device AI features, this is a godsend. 476 comments means the community has plenty to say about Apple's increasingly assertive defaults."
+    },
+    {
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "hn_link": "https://news.ycombinator.com/item?id=49957068",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by sensanaty · 484 points · 639 comments",
+      "blurb": "A botched redaction in public filings exposes the true scale of Google's resource consumption at a Nebraska data center — the exact data Google fought to keep secret. A classic transparency win via human error, and a reminder that PDF redaction is still widely misunderstood. 639 comments make this the most-discussed story of the day."
+    },
+    {
+      "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "hn_link": "https://news.ycombinator.com/item?id=49962012",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by clan · 355 points · 259 comments",
+      "blurb": "Denmark's central civil registration system (CPR) was hit by unauthorized access affecting essentially the entire population. It's a sobering demonstration of what a single centralized identity database failure looks like at national scale. Worth reading alongside any discussion of digital ID systems."
+    },
+    {
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "hn_link": "https://news.ycombinator.com/item?id=49964303",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by finnlab · 277 points · 149 comments",
+      "blurb": "The GrapheneOS team publicly declines to support Google's flagship Pixel 11 because it falls short of their strict security baseline — a rare and pointed rebuke. This highlights just how high the bar is for a truly secure Android device, and may shift buying decisions for privacy-focused users."
+    },
+    {
+      "title": "We ported the original Doom to SQL",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "hn_link": "https://news.ycombinator.com/item?id=49948300",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Vaslo · 256 points · 38 comments",
+      "blurb": "CedarDB's engineers ran a fully playable Doom entirely inside SQL queries as a stress test of their database engine's computational expressiveness. Beyond the fun spectacle, the write-up is a genuinely illuminating deep-dive into what modern analytical databases can actually do. Required reading if you're interested in pushing databases to their limits."
+    },
+    {
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "hn_link": "https://news.ycombinator.com/item?id=49963171",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by tosh · 253 points · 125 comments",
+      "blurb": "Cloudflare launches a Web Search API — a simple, privacy-respecting, programmable search endpoint you can wire into your own apps and AI pipelines today. This is a direct competitor to Bing Search API and could be a great grounding source for Claude Code–powered agents. Pricing and rate limits will be the thing to watch."
+    },
+    {
+      "title": "Apple and a Hacker's Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "hn_link": "https://news.ycombinator.com/item?id=49962857",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by maguay · 147 points · 141 comments",
+      "blurb": "Ben Thompson examines Apple's tightening platform control and what it means for developers and power users who want to extend and hack on their machines. A thoughtful companion piece to the RemoveMacAI story at the top of today's edition. Essential reading for anyone in the Apple ecosystem who also builds things."
+    },
+    {
+      "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+      "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "hn_link": "https://news.ycombinator.com/item?id=49933476",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tomncooper · 145 points · 62 comments",
+      "blurb": "Red Hat researchers benchmark the hyped Jev decision-model approach against boring old LLM-as-a-judge and traditional classifiers — and Jev doesn't win. This is the kind of rigorous reality check that's rare in AI tooling discussions. If you're designing guardrails for any AI workflow, this will save you time and money."
+    },
+    {
+      "title": "Automating my 35mm film scanning pipeline",
+      "url": "https://shannadige.com/blog/darkroom/",
+      "hn_link": "https://news.ycombinator.com/item?id=49946148",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by shannadige · 111 points · 77 comments",
+      "blurb": "A detailed personal project post on building a fully automated film scanning pipeline — covering hardware, software, color correction, and scripting. For anyone who shoots film and wishes they could spend more time in the darkroom and less time at the computer, this is deeply practical and beautifully documented."
+    },
+    {
+      "title": "In the wake of Tippett Studios' closure, a digital archive appears online",
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
+      "hn_link": "https://news.ycombinator.com/item?id=49957812",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by rdmuser · 210 points · 26 comments",
+      "blurb": "Tippett Studio — the legendary VFX house behind RoboCop, Starship Troopers, and countless other creature effects — has closed, and a digital archive of its animatics and production materials has quietly appeared online. A bittersweet preservation win for practical effects history. Go download it before it disappears."
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude",
+      "blurb": "Official guidance from Anthropic on getting maximum value from Opus 5.5 specifically within Claude Code workflows. If you're using Claude Code daily, this is directly actionable — expect tips on prompt structure, task decomposition, and avoiding common token-waste patterns. Read this one before your next coding session."
+    },
+    {
+      "title": "The Four Horsemen of Agentic Coding - by Alex Martsinovich",
+      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI",
+      "blurb": "A sharp framework for thinking about the four failure modes that plague agentic coding tools — covering context drift, tool misuse, compounding errors, and trust calibration. Practically useful for anyone orchestrating Claude Code or similar agents on real codebases. The kind of mental model that sticks."
+    },
+    {
+      "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
+      "url": "https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Wired's reporting on newly unsealed court documents reveals DHS agents were systematically photographing and cataloguing bystanders who observed ICE operations, feeding that data into a Palantir-built surveillance database. A chilling escalation of facial recognition and mass data collection against civilians. The legal implications are significant."
+    },
+    {
+      "title": "LukeW | Design Systems for AI Agents",
+      "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, agents, design, systems",
+      "blurb": "Luke Wroblewski makes the observation that AI agents actually read your design system docs every single time — unlike human developers. This reframes how teams should write and structure design system documentation: not for humans skimming it once, but for agents consuming it on every task. Short, punchy, and immediately useful."
+    },
+    {
+      "title": "Vorssaint — The modular Swiss Army knife for macOS",
+      "url": "https://vorssaint.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos_software",
+      "blurb": "A single native macOS menu bar app that consolidates the jobs of many separate utilities — clipboard manager, window manager, shortcuts, and more — into one lean package. For Mac developers who are tired of juggling a dozen utility apps, this is worth a serious look. Native-first and built to stay out of your way."
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents 'substantially' increase risk | The Verge",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is tightening disk-access permissions on macOS in direct response to the growing threat surface posed by autonomous AI agents. This will affect tools like Claude Code and any MCP servers that touch the filesystem. The privacy angle is good news, but expect friction for developers building agentic workflows on the Mac."
+    },
+    {
+      "title": "Inlark——一款美观的桌面电子邮件应用",
+      "url": "https://inlark.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 电邮客户端",
+      "blurb": "Inlark is a fast, keyboard-first email client for macOS (and Linux/Windows) that brings your JMAP and IMAP accounts into a single inbox with zero hosted service and zero telemetry. For privacy-focused Mac users who've outgrown Apple Mail but don't want to pay Mimestream prices, this is worth testing. No cloud, no tracking, just email."
+    },
+    {
+      "title": "Compositor – The Photoshop alternative for Mac",
+      "url": "https://robbietilton.com/compositor",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Tools",
+      "blurb": "A free, open-source Photoshop alternative built natively for Mac. In a world where Adobe keeps raising prices and adding AI features nobody asked for, a capable native alternative is genuinely exciting. Worth bookmarking even if you're not actively looking to switch."
+    },
+    {
+      "title": "Shotbase — Capture, Record, Edit, and Share in One Place",
+      "url": "https://shotbase.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: screen, capture, edit, recording, Mac, app",
+      "blurb": "Shotbase is a Mac screenshot and screen recording tool that does capture, annotation, and sharing without sending your data anywhere. A polished, privacy-respecting alternative to Cleanshot for developers who share screenshots constantly during code reviews and bug reports. The annotation tools are legitimately excellent."
+    },
+    {
+      "title": "Yubi · 和你的Mac对话。她会帮你打字。",
+      "url": "https://yubichan.ai/en/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 语音输入法, Mac软件",
+      "blurb": "Hold a key, speak, release — Yubi transcribes your voice exactly where your cursor sits, with all processing running locally on your Mac. Your voice never leaves the machine, which makes it a genuinely private dictation tool. For developers who write a lot of documentation or comments, hands-free input that's fully on-device is a compelling workflow upgrade."
+    }
+  ]
+}
