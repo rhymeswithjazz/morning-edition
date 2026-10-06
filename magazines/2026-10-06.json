@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-06",
+  "stories": [
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "hn_link": "https://news.ycombinator.com/item?id=49961057",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by emptybits · 764 points · 594 comments",
+      "blurb": "A Florida woman used Claude as a diary, and Anthropic reported the content to police — resulting in a felony charge. This is a seismic story about AI company trust, user privacy expectations, and the legal minefield of LLMs acting as confidants. If you use Claude Code or any Anthropic product, this should reshape your assumptions about what happens to your conversations."
+    },
+    {
+      "title": "Mistral Large 4: \"Le Chonk\"",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "hn_link": "https://news.ycombinator.com/item?id=49978116",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by j-bu · 247 points · 28 comments",
+      "blurb": "Mistral drops its biggest model yet, affectionately nicknamed \"Le Chonk.\" It's competing at the frontier while remaining more open than OpenAI or Anthropic — relevant if you're evaluating models for coding workflows or self-hosting. Check the docs link (also trending) for benchmarks."
+    },
+    {
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "hn_link": "https://news.ycombinator.com/item?id=49969183",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Philpax · 495 points · 160 comments",
+      "blurb": "Reflection AI introduces Beam, a 501-billion-parameter open-weight model — one of the largest open-weights drops ever. The open-weight frontier is heating up fast, and this is a direct challenge to closed labs. Huge implications for self-hosted coding assistants and local AI workflows."
+    },
+    {
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "hn_link": "https://news.ycombinator.com/item?id=49970667",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by outlier99 · 414 points · 286 comments",
+      "blurb": "AI agents running autonomously discovered two candidate materials for room-temperature magnetic semiconductors — a holy-grail target in materials science. This is one of the first credible examples of agentic AI making a genuine scientific discovery. The implications for AI-assisted research are hard to overstate."
+    },
+    {
+      "title": "JetBrains reported a net financial loss first time in its tracked history",
+      "url": "https://www.helgilibrary.com/companies/jetbrains",
+      "hn_link": "https://news.ycombinator.com/item?id=49977072",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by thw_9a83c · 300 points · 299 comments",
+      "blurb": "JetBrains, maker of IntelliJ and the Rider/.NET IDE ecosystem, posted a net loss for the first time on record. AI coding assistants are clearly putting pressure on traditional IDE subscription revenue. For .NET and TypeScript devs weighing their toolchain, this is a signal worth watching."
+    },
+    {
+      "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
+      "url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+      "hn_link": "https://news.ycombinator.com/item?id=49977588",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by beardyw · 136 points · 41 comments",
+      "blurb": "Techdirt tears apart Meta's new AI device, Muse, cataloguing a litany of privacy and security failures baked right into the product. If you care about the surveillance implications of ambient AI hardware, this is required reading. Meta's track record makes the critique especially credible."
+    },
+    {
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "hn_link": "https://news.ycombinator.com/item?id=49970871",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by E-Reverance · 239 points · 62 comments",
+      "blurb": "Researchers at QLabs propose training transformers without backpropagation at all — a fundamental departure from how every major LLM is built today. If it scales, this could dramatically change the compute and memory economics of training. Early-stage but genuinely novel."
+    },
+    {
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "hn_link": "https://news.ycombinator.com/item?id=49971719",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 243 points · 159 comments",
+      "blurb": "A developer who went all-in on Deno explains why they migrated back to Node.js. Honest post-mortem on ecosystem maturity, compatibility friction, and the realities of running non-mainstream runtimes in production. A useful counterweight to Deno hype for anyone evaluating JS toolchains."
+    },
+    {
+      "title": "Nobel Prize in Physics goes to Francis Halzen",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=49976265",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by solarist · 281 points · 82 comments",
+      "blurb": "Francis Halzen wins the 2026 Nobel Prize in Physics, likely for IceCube neutrino detector work at the South Pole. Detecting nearly massless particles from cosmic events billions of light-years away is the kind of audacious science the Nobel was made for."
+    },
+    {
+      "title": "Release of Polars 2.0",
+      "url": "https://pola.rs/posts/release-polars-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=49977177",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by simicd · 158 points · 25 comments",
+      "blurb": "Polars 2.0 lands with a stable API, major performance improvements, and a hardened Rust core. If you're doing any data wrangling in Python or Rust, Polars has become the credible pandas alternative — this milestone release is the moment to take it seriously for production use."
+    },
+    {
+      "title": "Self-hosted HTTP tunnels with SSH and nginx",
+      "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ssh, web, security, sysadmin",
+      "blurb": "Vincent Bernat walks through building your own ngrok-style HTTP tunnel using SSH port forwarding and nginx — no third-party service required. Actionable, zero-dependency, and immediately useful for local dev exposure or self-hosted demos. A practical skill every backend developer should have in the toolkit."
+    },
+    {
+      "title": "Secretive helps you keep your SSH keys secret, keep them safe – Six Colors",
+      "url": "https://sixcolors.com/post/2026/10/secretive-helps-you-keep-your-ssh-keys-secret-keep-them-safe/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Six Colors covers Secretive, a macOS app that stores SSH keys in the Secure Enclave instead of on disk — meaning your keys can never be exported or stolen via file access. A must-have for any developer who SSHes into servers from a Mac and cares about security hygiene."
+    },
+    {
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "An open-source utility lets you nuke the 12GB of Apple Intelligence model data sitting on your Mac — reclaiming disk space if you never use the feature. For Macs with modest storage, this is actionable today. Pairs well with the privacy angle for readers skeptical of on-device AI bloat."
+    },
+    {
+      "title": "Harness engineering for coding agent users",
+      "url": "https://martinfowler.com/articles/harness-engineering.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: genai",
+      "blurb": "Martin Fowler's site publishes a deep dive on \"harness engineering\" — structuring your codebase and tooling so coding agents like Claude Code can operate reliably. This is the missing manual for developers trying to get real production value out of agentic coding tools, not just demos."
+    },
+    {
+      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile - NN/G",
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GenAI, code",
+      "blurb": "Nielsen Norman Group applies the classic \"big ball of mud\" antipattern to agentic AI systems, explaining why they accumulate hidden dependencies and become brittle. Essential reading for anyone building or maintaining AI-powered workflows in production — the design pitfalls are non-obvious until they bite you."
+    },
+    {
+      "title": "Ledge: The notebook that runs code",
+      "url": "https://ledge.sh/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: notebook, ai, code",
+      "blurb": "Ledge is a Markdown notebook for developers that streams code block output inline — like Jupyter but designed for DevOps and general dev use. It's free, open source, and ships for Mac, Linux, Windows, and iPhone. Worth a look as an Obsidian-adjacent tool for executable runbooks."
+    },
+    {
+      "title": "12 CSS features you can use today with no build step",
+      "url": "https://flaviocopes.com/modern-css-features/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: css",
+      "blurb": "Flavio Copes rounds up a dozen modern CSS features — container queries, cascade layers, :has(), and more — that work in current browsers with zero tooling. For Angular/TypeScript developers accustomed to reaching for a CSS preprocessor, this is a timely reminder that native CSS has gotten very powerful."
+    },
+    {
+      "title": "Automatic Transmission — a data-privacy study of connected vehicles",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: privacy, cars, automotive, driving",
+      "blurb": "Northeastern University researchers publish a comprehensive study on what data connected cars collect and where it goes — the results are unsettling. Modern vehicles are rolling surveillance platforms transmitting location, driving behavior, and more to manufacturers and third parties. Required reading for anyone who drives and cares about privacy."
+    },
+    {
+      "title": "GitHub - robbietilton/Compositor: The Photoshop alternative for Mac · GitHub",
+      "url": "https://github.com/robbietilton/Compositor",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: image, editor",
+      "blurb": "Compositor is an open-source, Mac-native image editor positioning itself as a Photoshop alternative. The macOS ecosystem has been hungry for a credible native option between Pixelmator and full Photoshop — this GitHub release is worth bookmarking to follow its development."
+    },
+    {
+      "title": "Tufte's Razor · An interactive guide to the data-ink ratio",
+      "url": "https://tuftesrazor.scienceux.org/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: UX, UI, edward_tufte, dataviz, data-visualization, graphs, charts, blogs, guides, best-practices, data, tutorials",
+      "blurb": "An interactive scrollytelling guide that walks you through Tufte's data-ink ratio by stripping a cluttered chart apart piece by piece. Beautiful execution of the concept it's teaching. Bookmark this to share with anyone who over-designs dashboards or data visualizations."
+    }
+  ]
+}
