@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-07",
+  "stories": [
+    {
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "hn_link": "https://news.ycombinator.com/item?id=49977979",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Philpax · 1943 points · 1159 comments",
+      "blurb": "Mistral drops its biggest model yet, and the HN crowd went wild — nearly 2,000 points and over a thousand comments. If you're evaluating frontier models for Claude Code-style coding workflows, this is a serious contender to benchmark against. The open-weights angle makes it especially interesting for self-hosted or privacy-conscious deployments."
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "hn_link": "https://news.ycombinator.com/item?id=49984923",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by OfficialTurkey · 1106 points · 1176 comments",
+      "blurb": "OpenAI reports genuine breakthroughs on hard math benchmarks, sparking one of the most debated threads of the week. The implications for AI-assisted reasoning — and for how much to trust model outputs on complex logic — are substantial. If LLMs can crack olympiad problems, what does that mean for your AI-assisted code review?"
+    },
+    {
+      "title": "Claude Code's suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "hn_link": "https://news.ycombinator.com/item?id=49981905",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zed_labs_dev · 251 points · 147 comments",
+      "blurb": "A sharp take on Claude Code's suggested-message feature arguing the UX is optimized for the model's context, not the human's convenience — and why that's actually clever. Direct relevance if you're a daily Claude Code user. The framing reshapes how you think about human-in-the-loop AI tooling."
+    },
+    {
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "hn_link": "https://news.ycombinator.com/item?id=49984025",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by chiefstorm · 371 points · 215 comments",
+      "blurb": "OpenAI's new Decisions API lets you embed structured yes/no/multi-choice reasoning into your app calls — a meaningful step toward reliable agentic pipelines. Developers building with TypeScript or .NET can start wiring this into workflows today. The public beta timing aligns with a broader push toward model-as-orchestrator architectures."
+    },
+    {
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=49980487",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 395 points · 41 comments",
+      "blurb": "Google releases an open, multimodal embedding model small enough to run locally — images, text, and mixed inputs in one compact package. A practical upgrade for RAG pipelines and semantic search without sending data to an external API. Worth benchmarking against your current embedding stack."
+    },
+    {
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "hn_link": "https://news.ycombinator.com/item?id=49987076",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 240 points · 67 comments",
+      "blurb": "A 2B-parameter open-source model purpose-built for routing and decision-making in agentic systems — the kind of lightweight orchestration layer that makes multi-step AI workflows actually feasible. Pairs naturally with the OpenAI Decisions API story above. Small enough to run on a MacBook Pro."
+    },
+    {
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "hn_link": "https://news.ycombinator.com/item?id=49978333",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Tomte · 130 points · 58 comments",
+      "blurb": "Armin Ronacher (Flask, Jinja) explores the mental shift required when AI handles the code and humans handle the intent — what he calls 'codemode.' Essential reading for anyone rethinking their dev workflow around AI assistants. Concise, opinionated, and likely to change how you describe your own process."
+    },
+    {
+      "title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "url": "https://news.ycombinator.com/item?id=49982498",
+      "hn_link": "https://news.ycombinator.com/item?id=49982498",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by IvanK_net · 431 points · 226 comments",
+      "blurb": "An indie developer documents GitHub's month-long failure to act on DMCA takedown requests for cracked copies of their paid software. The thread surfaces real gaps in the DMCA process and platform accountability. A cautionary tale for anyone distributing software commercially."
+    },
+    {
+      "title": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "hn_link": "https://news.ycombinator.com/item?id=49991227",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by AshleysBrain · 269 points · 141 comments",
+      "blurb": "After years of on-again off-again support, Chrome is finally shipping JPEG XL — the format that offers better compression than WebP and lossless quality that rivals PNG. If you build image-heavy web apps, it's time to update your asset pipelines. Safari already supports it, so cross-browser parity is nearly complete."
+    },
+    {
+      "title": "ESP32-C3 Adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "hn_link": "https://news.ycombinator.com/item?id=49986862",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jayhoon · 157 points · 60 comments",
+      "blurb": "A $3 ESP32-C3 microcontroller running DNS-level ad blocking for your entire home network — no Raspberry Pi required. The firmware is open source and the setup is surprisingly minimal. A fun weekend project that doubles as a practical privacy win."
+    },
+    {
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27 - Ars Technica",
+      "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Apple, MacOS, artificial_intelligence, tools, command_line, howto, article, 2026",
+      "blurb": "Ars Technica covers a CLI tool that strips Apple Intelligence from macOS 27 quickly and cleanly — no SIP disable required. For privacy-conscious Mac users who upgraded but want their disk space and data habits back, this is actionable today. The GitHub project (pared) pairs with this for the technical details."
+    },
+    {
+      "title": "GitHub - 4evy/pared: Remove unwanted Apple Intelligence models without disabling SIP",
+      "url": "https://github.com/4evy/pared",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, ai",
+      "blurb": "The open-source tool behind the Ars Technica story: surgically removes Apple Intelligence on-device models from macOS 27 without touching SIP, and supports nix-darwin and Home Manager for reproducible configs. If you're privacy-conscious and running macOS 27, this belongs in your dotfiles setup. Works at the model level, not the feature toggle level."
+    },
+    {
+      "title": "Apple Says It Will Further Lock Down MacOS in Response to Third-Party A.I. Agents",
+      "url": "https://pxlnv.com/blog/macos-full-disk-access-restrictions/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, harness, apple, agenticai",
+      "blurb": "Apple is tightening Full Disk Access restrictions specifically in response to agentic AI tools hammering the filesystem. This will affect Claude Code, Cursor, and any other AI agent that does broad file access on macOS. Worth understanding the restrictions before your workflow breaks on the next OS update."
+    },
+    {
+      "title": "Crafting Apps: open-source creative tools — ArtCraft",
+      "url": "https://getartcraft.com/apps",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: craft, apps, video, vector, image, photography, animation",
+      "blurb": "Seven native, open-source creative apps — image editor, vector illustration, video, photography, PDFs, motion graphics, and page layout — all built in Rust and free to use. This is the most credible Adobe challenger suite to emerge in years, and Rust-native means real performance on Apple Silicon. Bookmark this one."
+    },
+    {
+      "title": "photocraft: An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "url": "https://github.com/storytold/photocraft",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: lup",
+      "blurb": "A clean-room Photoshop reimplementation in pure Rust — not just a filter library, but a full PSD-compatible image editor targeting feature parity. Part of the ArtCraft ecosystem, but notable enough to stand alone. If the Rust creative tooling wave keeps momentum, the Adobe subscription model gets a lot harder to justify."
+    },
+    {
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects • Wikimedia",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: openai, wikimedia, bots, access, internet",
+      "blurb": "Wikimedia confirms unauthorized OpenAI agent activity: wiki edits, exploitation attempts on hosted tools, and traffic that's driven a 50% bandwidth spike since 2024. A stark real-world example of agentic AI consuming the open web as a side effect. Essential context for anyone building or deploying AI agents."
+    },
+    {
+      "title": "arXiv is rate limiting submissions because it can't keep up with AI slop • 404 Media",
+      "url": "https://www.404media.co/arxiv-is-rate-limiting-submissions-because-it-cant-keep-up-with-ai-slop/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, slop, arxiv",
+      "blurb": "arXiv submissions have doubled in two years and sextupled in CS — volunteer moderators are overwhelmed, so the repo now caps authors at two submissions per month. The numbers are stark: 9,869 submissions in Sept 2016, 40,363 in Sept 2026. A canary-in-the-coal-mine moment for AI-generated research and academic publishing."
+    },
+    {
+      "title": "Toronto-Based VPN Provider Plans to Quit Canada Over Lawful-Access Bill - The Citizen Lab",
+      "url": "https://citizenlab.ca/toronto-based-vpn-provider-plans-to-quit-canada-over-lawful-access-bill/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: vpn, canada",
+      "blurb": "Citizen Lab covers a VPN provider's decision to physically leave Canada rather than comply with new lawful-access legislation — a significant escalation in the privacy infrastructure wars. The precedent matters globally as similar bills advance in the EU and UK. If you use a Canadian VPN, time to re-evaluate."
+    },
+    {
+      "title": "VMPal : Virtual Machines for Apple Silicon and AI Agents",
+      "url": "https://vmpal.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, vm, ai",
+      "blurb": "VMPal is a new macOS app purpose-built for spinning up VMs on Apple Silicon, with first-class support for AI agent sandboxing. Running Claude Code or other agentic tools inside an isolated VM is exactly the kind of safety layer Apple's new macOS restrictions are nudging you toward. Worth a look if you do heavy AI automation."
+    },
+    {
+      "title": "Prefab - Project Templates for macOS and Windows",
+      "url": "https://www.prefabapp.io/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac-apps, mac, apps",
+      "blurb": "Prefab is a native macOS app for managing and scaffolding project templates — think cookiecutter with a proper Mac UI. For developers who repeatedly bootstrap Angular/TypeScript or .NET projects, a polished template manager can save real time. The Windows support is a bonus for cross-platform teams."
+    }
+  ]
+}
