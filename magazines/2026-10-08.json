@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-08",
+  "stories": [
+    {
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "hn_link": "https://news.ycombinator.com/item?id=49998895",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by muglug · 1927 points · 213 comments",
+      "blurb": "The woman who coined the term 'software engineering' and led the Apollo guidance software effort has died. Hamilton's insistence on error-handling and fault tolerance literally saved the Apollo 11 landing — her work is foundational to everything we build today. A giant."
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "hn_link": "https://news.ycombinator.com/item?id=49996437",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sfkgtbor · 974 points · 455 comments",
+      "blurb": "Anthropic's fastest and cheapest model just got a major upgrade — Haiku 5.5 sits in the same family as Claude Code's backbone and is the obvious pick for high-frequency agentic tasks where latency and cost matter. If you're building AI workflows or using Claude Code heavily, this changes your cost calculus."
+    },
+    {
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "hn_link": "https://news.ycombinator.com/item?id=49996425",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by joshuawright11 · 709 points · 414 comments",
+      "blurb": "OpenAI drops GPT-6 with a flagship 'Intelligent UI' that adapts the interface to the task at hand. This is a direct shot at making AI tooling feel less like a chat box and more like a capable collaborator — worth watching how this shapes expectations for AI-native UX."
+    },
+    {
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "hn_link": "https://news.ycombinator.com/item?id=49994443",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by SpeakingOfBrad · 604 points · 145 comments",
+      "blurb": "Dead-simple: type text after the URL and it fills your screen in massive letters. No install, no account, the URL *is* the app. Perfect for impromptu presentations, holding up signs, or screen-sharing a message. Genuinely clever URL-as-state design."
+    },
+    {
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "hn_link": "https://news.ycombinator.com/item?id=50003107",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by theemathas · 287 points · 244 comments",
+      "blurb": "OpenAI quietly retracted three math research papers and posted a changelog on GitHub admitting errors. This lands alongside Terence Tao's 'Math 2.0' post and Scott Aaronson's 'Mathocalypse' essay — a bad week for AI-assisted mathematics credibility. The community is watching carefully."
+    },
+    {
+      "title": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "hn_link": "https://news.ycombinator.com/item?id=49996259",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by saikatsg · 279 points · 128 comments",
+      "blurb": "Docker ships an official AI agent that can manage containers, images, and compose stacks through natural language. For developers already living in agentic workflows with Claude Code, adding Docker to the mix is a natural next step — this is the official answer to a thousand shell-script hacks."
+    },
+    {
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "hn_link": "https://news.ycombinator.com/item?id=50004790",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by stared · 179 points · 101 comments",
+      "blurb": "A compelling real-world test of Opus 5.5's long-context creative reasoning: one prompt, six hours of autonomous generation, producing an illustrated visual interpretation of Calvino's novel. This is the kind of 'what can the model actually do unsupervised' experiment that matters for power users."
+    },
+    {
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "hn_link": "https://news.ycombinator.com/item?id=49997073",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by speckx · 170 points · 79 comments",
+      "blurb": "A meaty deep-dive into a deceptively simple code-organization heuristic: push conditionals toward callers, push loops toward implementation. The post formalizes the idea with algebra and explores where it breaks down — exactly the kind of reasoning that makes TypeScript/.NET codebases cleaner."
+    },
+    {
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "hn_link": "https://news.ycombinator.com/item?id=50000676",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jcbhmr · 96 points · 187 comments",
+      "blurb": "The ping.gg team used LLMs to port the entire TypeScript compiler, type checker, and language server to Rust. Direct relevance if you care about TypeScript tooling speed; the comments thread is a fascinating debate about the reliability and correctness of LLM-driven porting at this scale."
+    },
+    {
+      "title": "Let's Encrypt: 64-Day Certificate Lifetimes Coming Feb 2027",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50002249",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by allddd · 25 points · 0 comments",
+      "blurb": "Let's Encrypt announces that starting February 2027, certificate lifetimes will drop to 64 days, making automated renewal not optional but mandatory. If you have any servers or services with manual cert management, now is the time to wire up automation — this will break things for the unprepared."
+    },
+    {
+      "title": "ArtCraft. AI Video and Images. Fast and Open Desktop App.",
+      "url": "https://getartcraft.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: 3d, ai, tools, generation, awesome",
+      "blurb": "ArtCraft bills itself as a fast, open desktop app for AI-powered image and video generation. Worth a look as a potential Photoshop-adjacent creative tool that runs locally — the Pinboard description also calls out a companion PhotoCraft app positioned as 'the image editor you already know how to use.'"
+    },
+    {
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons | Nieman Journalism Lab",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A damning report from Nieman Lab: ChatGPT's image generation is synthesizing New Yorker-style cartoons and attributing them to real, named cartoonists — complete with forged signatures. This is a concrete IP and defamation problem that's going to accelerate legal pressure on OpenAI."
+    },
+    {
+      "title": "Viral Fallout and MW2 AI decompilation projects hit with DMCA • The Gamer",
+      "url": "https://www.thegamer.com/ai-vibecoded-decompilations-takedown-fallout-mw2-dmca/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: games, fallout, decompilation",
+      "blurb": "AI agents running in parallel decompiled Fallout and Modern Warfare 2 well enough to make them browser-playable — and Bethesda and Activision moved fast with DMCA takedowns. The Pinboard description is essential reading: seventeen simultaneous agents, a working VATS system, and a nuke earned before shutdown. This is the frontier of what agentic coding can do, and publishers are scared."
+    },
+    {
+      "title": "Is Claude Conscious? Inside Anthropic's Quest to Instill Morality Into Its A.I. Models - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI_madness, AI_Democracy_Class",
+      "blurb": "An NYT deep-dive into Anthropic's efforts to build moral reasoning into Claude — the model that powers Claude Code and sits at the center of many developers' AI workflows. If you're building on top of Claude, understanding the design philosophy behind its values is genuinely useful context."
+    },
+    {
+      "title": "Open Minis — Your Private On-Device AI Agent",
+      "url": "https://openminis.app/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, ios",
+      "blurb": "An on-device AI agent for iOS, macOS, and visionOS that handles web browsing, health data, scheduling, and smart home control — all locally, no cloud. For privacy-conscious Apple users who want agentic AI without sending everything to a server, this is exactly the kind of app to watch."
+    },
+    {
+      "title": "Anti-Patterns in Software Blogging · Refactoring English",
+      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A sharp, opinionated guide to the writing habits that make developer blog posts bad — burying the lede, padding with disclaimers, hedging every claim. Actionable and self-aware, this is the kind of piece that makes you immediately audit your own draft posts."
+    },
+    {
+      "title": "Introducing Shaders ✨ — stunning effects for frontend frameworks",
+      "url": "https://shaders.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A new library landing at shaders.com that drops GPU shader effects directly into Angular, React, Vue, and other frontend frameworks. For TypeScript/Angular developers who want visual polish without a deep GLSL rabbit hole, this looks like a serious time-saver."
+    },
+    {
+      "title": "mapsnap: Automated Georeferencing for Historic Sanborn Insurance Maps",
+      "url": "https://www.danvk.org/2026/09/10/mapsnap.html",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: maps, data, history",
+      "blurb": "A detailed technical post on using computer vision to automatically georeference century-old Sanborn fire insurance maps — aligning hand-drawn historic maps to modern coordinates at scale. The methodology is fascinating and the tooling is open source, making this more than just a cool project."
+    },
+    {
+      "title": "Tracing the rogue ideology of the frontier labs to their product choices • Buttondown",
+      "url": "https://buttondown.com/apperceptive/archive/tracing-the-rogue-ideology-of-the-frontier-labs/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, ai-safety, read-later",
+      "blurb": "A pointed critique arguing that the product decisions of Anthropic, OpenAI, and peers flow directly from an identifiable — and contestable — ideological framework. Essential reading for anyone thinking critically about who's steering AI development and why certain tradeoffs keep getting made."
+    },
+    {
+      "title": "Don't be fooled—LLMs don't reason | MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "MIT Tech Review pushes back hard on the 'reasoning model' framing, arguing that what looks like multi-step reasoning is sophisticated pattern completion with brittle failure modes. A useful corrective for developers who are betting agentic architectures on capabilities that may not generalize."
+    }
+  ]
+}
