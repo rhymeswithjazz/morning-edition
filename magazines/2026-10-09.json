@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-09",
+  "stories": [
+    {
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "hn_link": "https://news.ycombinator.com/item?id=50000488",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jonotime · 922 points · 838 comments",
+      "blurb": "DeepSeek drops another model that should be shaking the AI industry — and somehow the discourse is muted. This essay digs into why the Western AI establishment keeps underselling Chinese frontier models, and what that complacency costs. Essential reading for anyone building with LLMs who needs to stay calibrated on the real capability frontier."
+    },
+    {
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "hn_link": "https://news.ycombinator.com/item?id=50008427",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 838 points · 168 comments",
+      "blurb": "A fully on-device speech-to-text engine squeezed into under 17 MB — no cloud, no latency, no data leaving your machine. This is the privacy-respecting transcription future that power users have been waiting for. Runs fast enough for real-time use and is a strong candidate for integration into local AI workflows."
+    },
+    {
+      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+      "hn_link": "https://news.ycombinator.com/item?id=49995495",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ck2 · 817 points · 504 comments",
+      "blurb": "A consumer coffee machine silently exfiltrating a terabyte of data in ten days is the IoT horror story that keeps on giving. It's a visceral demonstration of why \"smart\" appliances are a privacy nightmare that most users never see coming. Fire up your Pi-hole and read the 500-comment thread for the full scope of what's likely phoning home in your home."
+    },
+    {
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "hn_link": "https://news.ycombinator.com/item?id=49986882",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by soheilpro · 762 points · 167 comments",
+      "blurb": "This is the Home Assistant dashboard build you didn't know you needed — a bespoke illustrated floorplan of the author's actual home, wired up to live sensor states. It's equal parts creative software showcase and smart home inspiration. The intersection of custom illustration and functional UI is genuinely beautiful here."
+    },
+    {
+      "title": "Yes, and",
+      "url": "https://htmx.org/essays/yes-and/",
+      "hn_link": "https://news.ycombinator.com/item?id=50003796",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Michelangelo11 · 587 points · 218 comments",
+      "blurb": "The htmx team's latest essay borrows improv comedy's \"yes, and\" principle to argue for a more collaborative, additive approach to web development philosophy. It's a thoughtful counterpoint to the framework maximalism that dominates front-end culture. Provocative and worth the read even if you disagree with the htmx worldview."
+    },
+    {
+      "title": "Deno Is Joining Cloudflare",
+      "url": "https://deno.com/blog/cloudflare",
+      "hn_link": "https://news.ycombinator.com/item?id=50019911",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ilreb · 397 points · 198 comments",
+      "blurb": "Deno — Ryan Dahl's do-over of Node.js — is merging with Cloudflare, the edge computing giant. This is a massive consolidation in the JS runtime space and signals Cloudflare's ambition to own the full developer stack from runtime to edge deployment. The implications for the JavaScript ecosystem are enormous."
+    },
+    {
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "hn_link": "https://news.ycombinator.com/item?id=50002665",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pyduan · 240 points · 119 comments",
+      "blurb": "A hobbyist astronomer used Claude Code to analyze public telescope data and may have identified a previously unknown planet — and the story is as wild as it sounds. It's a compelling real-world case study of what an AI coding assistant can do when pointed at a domain-specific dataset. Directly relevant for anyone using Claude Code and wondering what \"agentic\" actually means in practice."
+    },
+    {
+      "title": "OpenAI withdraws three mathematical results",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "hn_link": "https://news.ycombinator.com/item?id=50002650",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by sashank_1509 · 357 points · 593 comments",
+      "blurb": "OpenAI has quietly retracted three mathematical claims its models made — a significant credibility hit for AI-generated math research. The 593-comment thread is a masterclass in how the community is grappling with LLM hallucinations in high-stakes domains. Pairs well with the Shtetl-Optimized post below for the full picture."
+    },
+    {
+      "title": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
+      "url": "https://news.ycombinator.com/item?id=49985548",
+      "hn_link": "https://news.ycombinator.com/item?id=49985548",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by mariocesar · 311 points · 501 comments",
+      "blurb": "Five hundred comments of crowdsourced infrastructure wisdom — self-hosted services, tiny bots, and personal tools that actually justify a cheap VPS bill. This is a goldmine of actionable ideas for developers who want to run their own stuff without breaking the bank. Bookmark and mine it this weekend."
+    },
+    {
+      "title": "A Terminal Protocol for Program Status (OSC 7501)",
+      "url": "https://mitchellh.com/writing/program-status-osc7501",
+      "hn_link": "https://news.ycombinator.com/item?id=49984159",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 169 points · 52 comments",
+      "blurb": "Mitchell Hashimoto proposes a new terminal escape sequence standard (OSC 7501) that lets programs communicate structured exit status back to the terminal. It's the kind of small, elegant protocol addition that could meaningfully improve developer experience in shell-heavy workflows. CLI tool authors should read this and consider adopting early."
+    },
+    {
+      "title": "Touchscreen MacBook launch is set for October 27 | Macworld",
+      "url": "https://www.macworld.com/article/3256624/touchscreen-macbook-launch-is-set-for-october-27.html",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple's long-rumored touchscreen MacBook finally has a launch date: October 27. This is potentially the biggest hardware shift to the Mac lineup in years, with implications for how developers interact with their primary machine. Mark your calendars and start thinking about what touch-native macOS UX actually looks like."
+    },
+    {
+      "title": "Shtetl-Optimized » Blog Archive » The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, maths",
+      "blurb": "Scott Aaronson's complexity-theorist wife was told by their 9-year-old that she \"got cooked\" by an AI solving the problem she spent her career on — and this essay is Aaronson's reckoning with what that means. It's the most personal and intellectually honest take on AI's math capabilities you'll read this week. Don't skip it."
+    },
+    {
+      "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries. · GitHub",
+      "url": "https://github.com/morluto/rea",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis",
+      "blurb": "An AI agent framework that connects tools like Ghidra and Hopper to automate reverse engineering of native binaries and app behavior — using MCP for tool orchestration. This is a serious power tool for security researchers and developers who need to understand closed-source software. The MCP integration makes it composable with other AI agent workflows."
+    },
+    {
+      "title": "Docker Agent — Run AI agents from YAML, like containers",
+      "url": "https://docker.github.io/docker-agent/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, sandbox, virtualization, docker, AI, automation",
+      "blurb": "Docker has entered the AI agent orchestration game: define and run sandboxed AI agents from a YAML file, just like you'd spin up a container. This is a natural evolution of the container model for agentic workloads and could become a standard deployment pattern fast. Worth experimenting with if you're building AI-powered automation pipelines."
+    },
+    {
+      "title": "Font: Paper Mono",
+      "url": "https://paper.design/mono",
+      "category": "Creative software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: font, typography",
+      "blurb": "Paper Mono is a free, open-source monospace font family with 8 variable weights and coding ligatures — the kind of typography upgrade that makes you actually enjoy staring at code. Variable weight axis means you can tune it perfectly for your editor and display density. Drop it into VS Code or your terminal and never look back."
+    },
+    {
+      "title": "Software developers are not okay",
+      "url": "https://www.baldurbjarnason.com/2026/05-software-developers-are-not-okay",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming, career, culture, philosophy, mentalhealth, ai, technology",
+      "blurb": "Baldur Bjarnason writes a searching, unflinching essay about the psychological state of the software development profession in the AI transition era. It addresses the anxiety, identity crisis, and cognitive overload that many developers feel but rarely articulate. Required reading for anyone who codes professionally and has had a bad week."
+    },
+    {
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform | Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, decision, jev, api, cloudflare",
+      "blurb": "Cloudflare releases Clef and Clef-flash — open-source decision models optimized for high-speed classification and agentic routing — alongside a new RL fine-tuning platform so you can train them on your own data. This is the missing middleware layer for agentic AI pipelines: fast, cheap, customizable decisions at the edge. Very actionable for developers building AI workflows."
+    },
+    {
+      "title": "qsv.dathere.com - CSV data wrangling toolkit",
+      "url": "https://qsv.dathere.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sv, toolkit, qsv, datasci",
+      "blurb": "qsv is a blazing-fast, Rust-powered CSV data wrangling toolkit for the command line, built to handle very large datasets that would choke Excel or even pandas. Think of it as the Swiss Army knife of tabular data — slice, dice, join, aggregate, and analyze without ever opening a browser. Exactly the kind of CLI tool that earns a permanent place in your PATH."
+    },
+    {
+      "title": "PhotoCraft: The image editor you already know how to use. — ArtCraft",
+      "url": "https://getartcraft.com/apps/photocraft",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: doing",
+      "blurb": "PhotoCraft is a Mac image editor that bets its entire pitch on Photoshop muscle memory — the slogan \"The image editor you already know how to use\" is either genius or legally audacious, probably both. If you're still paying Adobe's subscription tax, this is worth a look alongside Affinity as a one-time-purchase alternative. The pinboard annotator's commentary alone is worth the click."
+    },
+    {
+      "title": "Normal Tools — Useful online tools, no nonsense",
+      "url": "https://www.normaltools.com/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "193 focused calculators, converters, checkers, generators, and hardware tests — no account, no download, no clutter. This is the anti-bloat developer utility site you've been looking for when you just need to quickly convert a timezone or check a regex. Bookmark it and stop Googling for sketchy one-off tools."
+    }
+  ]
+}
