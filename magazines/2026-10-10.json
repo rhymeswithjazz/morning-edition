@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-10",
+  "stories": [
+    {
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50022292",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by robin_reala · 1134 points · 220 comments",
+      "blurb": "A gorgeously over-engineered Minesweeper with AAA game production values — cinematic camera, particle effects, the works. It's the kind of creative coding project that reminds you how much personality a browser game can have. 220 comments means the internet has Opinions about Minesweeper."
+    },
+    {
+      "title": "Sorry, I'm in a meeting",
+      "url": "https://iminafleeting.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50018088",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by splintersio · 948 points · 264 comments",
+      "blurb": "A dead-simple status page that auto-detects your calendar and broadcasts 'in a meeting' to anyone who checks your link. Kills the constant 'are you free?' pings. The kind of tool you set up in five minutes and use every day."
+    },
+    {
+      "title": "Our $445M Series D",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "hn_link": "https://news.ycombinator.com/item?id=50020014",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ahlCVA · 675 points · 303 comments",
+      "blurb": "Oxide Computer — the rackable cloud computer company with a famously principled engineering culture — just raised $445M. This signals serious enterprise appetite for vertically-integrated, open-source-friendly hardware. Worth reading for the frank discussion of building infrastructure hardware in 2026."
+    },
+    {
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "hn_link": "https://news.ycombinator.com/item?id=50026555",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gumby · 618 points · 335 comments",
+      "blurb": "A builder turned the surveillance apparatus back on itself — using the same ALPR tech police use — and got a visit from the very cops he was tracking. A sharp illustration of how asymmetric surveillance law is: the same tool is fine for government, problematic for citizens. 335 comments are fiery."
+    },
+    {
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
+      "hn_link": "https://news.ycombinator.com/item?id=50028275",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by modinfo · 524 points · 225 comments",
+      "blurb": "REA is an AI-powered reverse engineering toolkit that can decompile, annotate, and explain binary code at speed. For anyone who's ever stared at disassembly wishing for a smarter Ghidra, this is worth a look. High score and lively discussion suggest it's the real deal."
+    },
+    {
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "hn_link": "https://news.ycombinator.com/item?id=50018817",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by franze · 402 points · 181 comments",
+      "blurb": "A clever utility that lets AI agents draw visual annotations directly on your screen — arrows, boxes, labels — so agents can literally point at what they're talking about. Immediately useful for computer-use agents and AI-assisted workflows. Drop this into your Claude Code setup."
+    },
+    {
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "hn_link": "https://news.ycombinator.com/item?id=50029123",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by g-b-r · 252 points · 132 comments",
+      "blurb": "A one-click account takeover in Telegram Desktop — a single crafted message could exfiltrate your files without any further interaction. The write-up is a crisp piece of vulnerability research. If you use Telegram on desktop, patch now."
+    },
+    {
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "hn_link": "https://news.ycombinator.com/item?id=50031269",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by baal80spam · 241 points · 144 comments",
+      "blurb": "A massive breach of Danish civil registration numbers (CPR) — the Nordic equivalent of SSNs — was enabled by a '123456' password on a critical system. A reminder that the most catastrophic breaches are often the most avoidable. HN is predictably furious."
+    },
+    {
+      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+      "hn_link": "https://news.ycombinator.com/item?id=49997481",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ortusdux · 216 points · 45 comments",
+      "blurb": "USENIX Security research that uses RF sensing to detect hidden cameras at long range — no line of sight required. As covert surveillance hardware gets cheaper, countermeasures like this matter more. The 'Eye of Sauron' name is earned: it sees the things watching you."
+    },
+    {
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "hn_link": "https://news.ycombinator.com/item?id=50019056",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by piratebroadcast · 165 points · 84 comments",
+      "blurb": "A researcher fed 400 years of historical archives to an LLM and turned up genuinely lost scientific records — forgotten meteorite falls, extinct species accounts, and more. This is exactly the kind of AI workflow that changes what's possible for researchers and curious builders. Inspiring and practical."
+    },
+    {
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by matt_d · 148 points · 40 comments",
+      "blurb": "Terence Tao — one of the greatest living mathematicians — writes directly about AI and Lean's reliability for formal proof. When someone at his level weighs in on AI's role in mathematics, you read it. Essential context for anyone thinking about AI reasoning and correctness."
+    },
+    {
+      "title": "Show HN: The rarest tech books and docs you've probably never read",
+      "url": "https://readrare.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by miletus · 147 points · 55 comments",
+      "blurb": "A curated library of genuinely obscure technical texts — rare Bell Labs memos, forgotten computing manuals, out-of-print classics. The kind of rabbit hole that pays dividends. Bookmark this for the next time you have a long flight."
+    },
+    {
+      "title": "Apple/macOS silently removed from official Unix registry",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by john_alan · 89 points · 90 comments",
+      "blurb": "Apple quietly dropped off The Open Group's official UNIX-certified OS list — no announcement, no explanation. For developers who rely on POSIX compliance guarantees in macOS, this is worth tracking. Is it administrative, or does it signal something bigger about Apple's platform direction?"
+    },
+    {
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rociiu · 85 points · 39 comments",
+      "blurb": "A fully self-hosted personal AI agent that runs entirely on Cloudflare's free tier — no server, no ongoing cost. For developers who want an always-on AI assistant without handing data to a SaaS provider, this is a compelling privacy-first alternative. Clone and deploy in an afternoon."
+    },
+    {
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "url": "https://carrierexplode.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by simplyalec · 361 points · 44 comments",
+      "blurb": "A tool that decodes the opaque carrier settings files baked into iPhones, Pixels, and Galaxy devices — surfacing hidden network configs, feature flags, and carrier-imposed restrictions. If you've ever wondered what your carrier is quietly doing to your phone, this shows you. Genuinely illuminating."
+    },
+    {
+      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tonymet · 115 points · 83 comments",
+      "blurb": "Solid independent benchmarks show WSL3 delivering 5–60% performance gains over WSL2 across file I/O, compilation, and compute workloads. If you develop on Windows with Linux tooling, this is the upgrade case study you need. The variance by workload type is the interesting part."
+    },
+    {
+      "title": "Compiling Rust to readable C with Eurydice",
+      "url": "https://lwn.net/Articles/1055211/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by peter_d_sherman · 104 points · 32 comments",
+      "blurb": "Eurydice is a Rust-to-C compiler that produces human-readable C output — useful for embedding Rust logic in C-only environments or auditing generated code. LWN gives it a thorough treatment. A niche but genuinely useful tool for systems programmers working across language boundaries."
+    },
+    {
+      "title": "Show HN: Proton Drive for Linux",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by khaosdoctor · 101 points · 37 comments",
+      "blurb": "An open-source FUSE filesystem that mounts Proton Drive on Linux — finally giving privacy-conscious Linux users encrypted cloud storage that isn't Google or Dropbox. The implementation is clean and the project is actively maintained. A win for the privacy-first storage ecosystem."
+    },
+    {
+      "title": "Cube Type – Isometric Typography Generator",
+      "url": "https://typeincube.com/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by eustoria · 34 points · 9 comments",
+      "blurb": "A browser-based tool that renders any text as isometric 3D cube typography — export-ready for posters, presentations, or just messing around. Delightfully niche creative software that does one thing beautifully. The output is surprisingly versatile for design work."
+    },
+    {
+      "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
+      "url": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by luu · 105 points · 27 comments",
+      "blurb": "A prion disease drug candidate — targeting one of medicine's most feared and previously untreatable categories — has entered human clinical trials at the Broad Institute. Prion diseases have a near-100% fatality rate, making this a genuinely historic moment in neurology. Follow this one closely."
+    }
+  ]
+}
