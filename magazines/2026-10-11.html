@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 11, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 11, 2026.">
+<meta property="og:title" content="Morning Edition — October 11, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-11.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · October 11, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Five months treating bugs like patients and coding agents like a medical team</a></li>
+      <li><a href="#s2">Mxc: Microsoft Execution Containers version 1.0.0</a></li>
+      <li><a href="#s3">Nix wrote half of my debugger</a></li>
+      <li><a href="#s4">LineageOS 24.0</a></li>
+      <li><a href="#s5">Nitter: Update Oct 10th seeking funding and legal help</a></li>
+      <li><a href="#s6">2D Vehicles</a></li>
+      <li><a href="#s7">The Lightbulb Computer</a></li>
+      <li><a href="#s8">A city-building game in which the city would prefer you didn&#x27;t</a></li>
+      <li><a href="#s9">Build your own decision model</a></li>
+      <li><a href="#s10">I paid people to try and follow my README</a></li>
+      <li><a href="#s11">Grieving the loss of details</a></li>
+      <li><a href="#s12">Show HN: BetterWispr – Free, open-source dictation for Mac</a></li>
+      <li><a href="#s13">OpenSCAD the Programmers Solid 3D CAD Modeller</a></li>
+      <li><a href="#s14">Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years</a></li>
+      <li><a href="#s15">Food processing influences metabolism and brain activity</a></li>
+      <li><a href="#s16">The tilde in your PATH may not be your HOME</a></li>
+      <li><a href="#s17">Show HN: Diffle, a keyboard-centric diff viewer with LSP support</a></li>
+      <li><a href="#s18">Retrofitting language models to operate over bytes</a></li>
+      <li><a href="#s19">Getting old Macromedia Director Games to run on modern Hardware</a></li>
+      <li><a href="#s20">How big is a Git commit?</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.cockroachlabs.com/blog/experiment-running-hospital-code/">Five months treating bugs like patients and coding agents like a medical team</a></h3>
+    <div class="byline">by rafiss · 170 points · 73 comments</div>
+    <p class="blurb">CockroachLabs ran a 5-month experiment treating their codebase like a hospital — bugs are patients, coding agents are the medical team. It&#x27;s one of the most concrete, honest post-mortems on agentic AI workflows in production you&#x27;ll find. Required reading if you&#x27;re using Claude Code or any AI coding assistant at scale.</p>
+    <div class="links">
+      <a href="https://www.cockroachlabs.com/blog/experiment-running-hospital-code/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50021899">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/">Mxc: Microsoft Execution Containers version 1.0.0</a></h3>
+    <div class="byline">by smokel · 211 points · 58 comments</div>
+    <p class="blurb">Microsoft ships v1.0 of Execution Containers — policy-driven sandboxing specifically designed for AI agents running on Windows. As Claude Code and similar tools get more autonomous, containment becomes essential. This is Microsoft&#x27;s answer to the &#x27;what happens when the agent does something bad&#x27; problem.</p>
+    <div class="links">
+      <a href="https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50016956">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger">Nix wrote half of my debugger</a></h3>
+    <div class="byline">by ingve · 217 points · 52 comments</div>
+    <p class="blurb">A fascinating deep-dive into how Nix&#x27;s reproducibility guarantees let the author offload entire swaths of debugger infrastructure to the package manager. If you&#x27;ve been skeptical of Nix&#x27;s complexity-to-payoff ratio, this is a compelling argument for the payoff side. Nix as a force multiplier for tooling.</p>
+    <div class="links">
+      <a href="https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50017247">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://lineageos.org/Changelog-32/">LineageOS 24.0</a></h3>
+    <div class="byline">by timschumi · 244 points · 79 comments</div>
+    <p class="blurb">LineageOS 24.0 lands with Android 15 support, bringing de-Googled Android to a fresh wave of devices. The gold standard for privacy-conscious mobile users who want control over their hardware. If you&#x27;ve been waiting to flash your device, now&#x27;s the time to check the supported list.</p>
+    <div class="links">
+      <a href="https://lineageos.org/Changelog-32/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50040276">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://nitter.net">Nitter: Update Oct 10th seeking funding and legal help</a></h3>
+    <div class="byline">by ForHackernews · 239 points · 102 comments</div>
+    <p class="blurb">Nitter — the privacy-first Twitter/X frontend — is fighting for survival, now publicly seeking funding and legal support. X&#x27;s legal pressure on scraping-adjacent projects is intensifying, and Nitter is the canary in the coal mine for open-access to public social data. Worth paying attention to.</p>
+    <div class="links">
+      <a href="https://nitter.net">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50041682">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://patkerr.co.uk/2d-vehicles/">2D Vehicles</a></h3>
+    <div class="byline">by Michelangelo11 · 546 points · 107 comments</div>
+    <p class="blurb">Top-scored post of the batch: a delightful browser-based physics playground where you build and drive 2D vehicles. Pure creative coding joy — the kind of project that reminds you why people fell in love with the web. Poke around the source if you want ideas for your own physics simulations.</p>
+    <div class="links">
+      <a href="https://patkerr.co.uk/2d-vehicles/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=49991852">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://lightbulbcomputer.com/">The Lightbulb Computer</a></h3>
+    <div class="byline">by oskarth · 502 points · 78 comments</div>
+    <p class="blurb">A computer built entirely from lightbulbs — no transistors, no ICs. This is computing fundamentals made viscerally visible, and the interactive explanations are some of the best hardware pedagogy on the web. Mesmerizing to watch logic gates glow.</p>
+    <div class="links">
+      <a href="https://lightbulbcomputer.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50029487">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://housing.over.pizza/">A city-building game in which the city would prefer you didn&#x27;t</a></h3>
+    <div class="byline">by JumpCrisscross · 428 points · 145 comments</div>
+    <p class="blurb">A browser city-builder that satirizes zoning laws, NIMBYism, and bureaucratic obstruction — the city&#x27;s systems actively fight your attempts to build housing. It&#x27;s clever game design as political commentary, and it&#x27;s genuinely fun. Playable right now in your browser.</p>
+    <div class="links">
+      <a href="https://housing.over.pizza/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50036864">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Actionable</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nishtahir.com/build-your-own-decision-model/">Build your own decision model</a></h3>
+    <div class="byline">by softwaredoug · 393 points · 87 comments</div>
+    <p class="blurb">A practical framework for building personal decision models — structured thinking you can actually code up and use. Pairs surprisingly well with AI-assisted workflows where you want the LLM to reason within your constraints rather than its own. Immediately actionable for any developer making architectural or product decisions.</p>
+    <div class="links">
+      <a href="https://nishtahir.com/build-your-own-decision-model/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50037949">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/">I paid people to try and follow my README</a></h3>
+    <div class="byline">by edent · 147 points · 84 comments</div>
+    <p class="blurb">The author paid strangers to follow their project&#x27;s README and documented every stumble — a real usability study on documentation. The results are humbling and the lessons are immediately actionable. If you ship open-source code, this will make you rethink every assumption you&#x27;ve baked into your docs.</p>
+    <div class="links">
+      <a href="https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50042219">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://purplesyringa.moe/blog/grieving-the-loss-of-details/">Grieving the loss of details</a></h3>
+    <div class="byline">by signa11 · 465 points · 382 comments</div>
+    <p class="blurb">A thoughtful, widely-discussed essay on how modern computing abstractions strip away details that used to be visible and meaningful — and what we lose as a result. 382 comments means this hit a nerve. Essential reading for anyone who thinks carefully about software craft.</p>
+    <div class="links">
+      <a href="https://purplesyringa.moe/blog/grieving-the-loss-of-details/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://betterwispr.com/">Show HN: BetterWispr – Free, open-source dictation for Mac</a></h3>
+    <div class="byline">by kartik017 · 6 points · 1 comments</div>
+    <p class="blurb">A free, open-source dictation app for Mac that competes with Wispr Flow — system-wide voice-to-text without a subscription. Low HN score but extremely relevant for the macOS power user. If you&#x27;ve been eyeing Whisper-powered dictation tools, this one&#x27;s worth trying today.</p>
+    <div class="links">
+      <a href="https://betterwispr.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://openscad.org/">OpenSCAD the Programmers Solid 3D CAD Modeller</a></h3>
+    <div class="byline">by b-man · 165 points · 132 comments</div>
+    <p class="blurb">OpenSCAD resurfaces on HN and reminds us why code-first 3D modeling is underrated — you describe geometry in a scripting language, no mouse-pushing required. If you can write TypeScript, you can design printable parts. 132 comments full of tips and project showcases.</p>
+    <div class="links">
+      <a href="https://openscad.org/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html">Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years</a></h3>
+    <div class="byline">by geox · 168 points · 68 comments</div>
+    <p class="blurb">New analysis of radioactive particles ejected from Chernobyl shows the nuclear fuel has remained far more chemically stable than models predicted over 40 years. This upends assumptions in nuclear waste containment science. Genuinely surprising result with long-term policy implications.</p>
+    <div class="links">
+      <a href="https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html">Food processing influences metabolism and brain activity</a></h3>
+    <div class="byline">by gmays · 171 points · 137 comments</div>
+    <p class="blurb">Virginia Tech researchers show that ultra-processed foods don&#x27;t just affect the gut — they measurably alter brain activity and metabolic signaling via the hormone hutelin. The mechanism is clearer than &#x27;junk food is bad&#x27; and adds real neuroscience to the ultra-processed food debate.</p>
+    <div class="links">
+      <a href="https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/">The tilde in your PATH may not be your HOME</a></h3>
+    <div class="byline">by arusekk · 61 points · 34 comments</div>
+    <p class="blurb">A sharp little security/correctness gotcha: `~` in PATH doesn&#x27;t always expand to $HOME, and the cases where it doesn&#x27;t can silently break things or create privilege-escalation vectors. The kind of shell knowledge that saves you from a weird 2am incident. Actionable and immediately applicable.</p>
+    <div class="links">
+      <a href="https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/moritzwilksch/diffle">Show HN: Diffle, a keyboard-centric diff viewer with LSP support</a></h3>
+    <div class="byline">by mwil1000 · 61 points · 10 comments</div>
+    <p class="blurb">Diffle is a terminal diff viewer built for keyboard-first developers, with LSP support baked in so you get syntax-aware diffs. If you live in the CLI and have been frustrated by clunky diff tooling, this is worth a look today. Clean project, actively developed.</p>
+    <div class="links">
+      <a href="https://github.com/moritzwilksch/diffle">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.nature.com/articles/s41586-026-11111-4">Retrofitting language models to operate over bytes</a></h3>
+    <div class="byline">by theanonymousone · 86 points · 16 comments</div>
+    <p class="blurb">Published in Nature: a method for retrofitting existing LLMs to process raw bytes instead of tokens, bypassing tokenization entirely. This has big implications for code models, multilingual support, and robustness to adversarial inputs. Foundational research that will ripple through AI tooling.</p>
+    <div class="links">
+      <a href="https://www.nature.com/articles/s41586-026-11111-4">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://werwolv.net/posts/macromedia_copy_protection/">Getting old Macromedia Director Games to run on modern Hardware</a></h3>
+    <div class="byline">by speckx · 83 points · 16 comments</div>
+    <p class="blurb">A deep forensic dive into cracking Macromedia Director&#x27;s 1990s copy protection to revive classic CD-ROM games on modern hardware. Superb reverse engineering writeup with layers of DRM archaeology. If you love the intersection of software history and low-level sleuthing, this is a treat.</p>
+    <div class="links">
+      <a href="https://werwolv.net/posts/macromedia_copy_protection/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ratfactor.com/cards/git-commit-size">How big is a Git commit?</a></h3>
+    <div class="byline">by theanonymousone · 60 points · 24 comments</div>
+    <p class="blurb">A concise, well-illustrated breakdown of exactly what data a Git commit object contains and how Git calculates its size. The kind of foundational knowledge that makes you a better developer and helps you reason about repo performance. Short, sharp, bookmark-worthy.</p>
+    <div class="links">
+      <a href="https://ratfactor.com/cards/git-commit-size">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
