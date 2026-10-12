@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-12",
+  "stories": [
+    {
+      "title": "Passkeys are a trap",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "hn_link": "https://news.ycombinator.com/item?id=50048312",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by laurex · 941 points · 488 comments",
+      "blurb": "The most-upvoted piece of the day argues that passkeys lock your credentials to platform vendors — particularly Apple and Google — in ways that silently harm portability and long-term account recovery. With 488 comments, the HN crowd is fiercely divided. Essential reading if you rely on iCloud Keychain or are advising users on auth strategy."
+    },
+    {
+      "title": "Fingerprints are the new cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "hn_link": "https://news.ycombinator.com/item?id=50048642",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by royfish · 627 points · 304 comments",
+      "blurb": "Browser fingerprinting has quietly supplanted cookies as the tracking method of choice — it's consent-free, nearly invisible, and survives incognito mode. This post breaks down the specific signals being harvested and what, if anything, users can do. A sobering follow-up to the passkeys piece on today's privacy theme."
+    },
+    {
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "hn_link": "https://news.ycombinator.com/item?id=50047422",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by albertzeyer · 622 points · 899 comments",
+      "blurb": "Andrej Karpathy flags a growing chasm: power users are compounding productivity gains while most people haven't updated their mental model of what today's models can do. Nearly 900 HN comments make this the most-discussed thread of the week. If you're building with Claude Code daily, you're already on one side of this divide."
+    },
+    {
+      "title": "Local Indexing to reduce tool calling and token usage",
+      "url": "https://tedhaley.ca/pensieve/",
+      "hn_link": "https://news.ycombinator.com/item?id=50049508",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by TedHaley · 114 points · 44 comments",
+      "blurb": "Pensieve builds a local semantic index of your codebase so AI coding agents spend fewer tokens on file-search tool calls and more on actual reasoning. The approach directly targets the cost and latency pain points of running Claude Code on large repos. Actionable today — the repo is linked and the setup is lightweight."
+    },
+    {
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=50043026",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 486 points · 478 comments",
+      "blurb": "Terence Tao's Caltech slides lay out his vision for AI-assisted mathematics — automated proof verification, large-scale collaboration, and what happens when LLMs become genuine co-authors on research papers. Even if you don't write proofs, the implications for AI-augmented knowledge work are striking."
+    },
+    {
+      "title": "QGIS: No A contributions permitted",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "hn_link": "https://news.ycombinator.com/item?id=50054751",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by bwnkl · 332 points · 357 comments",
+      "blurb": "The QGIS project has formally banned AI-generated code contributions, citing code quality, licensing ambiguity, and maintainer burnout. It's a landmark policy decision for a major open-source project and likely a preview of debates coming to every OSS community. 357 comments and counting."
+    },
+    {
+      "title": "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack",
+      "url": "https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50057956",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by thinkcontext · 137 points · 115 comments",
+      "blurb": "Hackers breached Intermarché's refrigeration control systems, forcing store closures and sparking fires — OT/ICS attacks causing real-world physical damage are no longer theoretical. This is a watershed moment for critical infrastructure security and the story that dominated HN's security conversation today."
+    },
+    {
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "hn_link": "https://news.ycombinator.com/item?id=50055375",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dkpk · 123 points · 111 comments",
+      "blurb": "GitHub Actions, PRs, and Issues went down today — if your CI/CD pipelines mysteriously stopped working, here's the incident report. A good reminder to have runbook fallbacks for platform outages, especially if you're running automated deployments."
+    },
+    {
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
+      "hn_link": "https://news.ycombinator.com/item?id=50058507",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ilreb · 132 points · 84 comments",
+      "blurb": "Zhipu AI releases GLM-Legal, a domain-specialized LLM fine-tuned on legal corpora and benchmarks. Specialized vertical models are increasingly outperforming general-purpose LLMs on professional tasks — a trend worth watching as domain-specific AI tooling matures."
+    },
+    {
+      "title": "Secret of Orange Cats Revealed After 60-Year Search",
+      "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
+      "hn_link": "https://news.ycombinator.com/item?id=50037711",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bookofjoe · 153 points · 133 comments",
+      "blurb": "Scientists have finally cracked the genetic mechanism behind orange cat coloration — a pigmentation mutation that eluded researchers for six decades. The finding reveals an unexpected sex-linked regulatory gene and has broader implications for understanding mammalian coat color genetics. Also: orange cats."
+    },
+    {
+      "title": "ArtCraft",
+      "url": "https://github.com/storytold",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: photoshop, alternative",
+      "blurb": "ArtCraft is a clean-room, open-source reimplementation of Adobe Photoshop written entirely in Rust. If it delivers even a fraction of PS's feature set without the subscription shackles, this is a big deal for creative professionals and developers who resent Adobe's pricing model. Worth starring and watching."
+    },
+    {
+      "title": "cathrynlavery/diagram-design: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic_ai, claude_skills",
+      "blurb": "A curated library of 29 diagram templates specifically designed for Claude Code to generate — clean, self-contained HTML+SVG with no bloated dependencies or ugly Mermaid output. Drop these into your system prompt or CLAUDE.md and immediately level up your agentic diagram generation. Directly actionable for Claude Code users."
+    },
+    {
+      "title": "vorssaint-utils",
+      "url": "https://github.com/vorssaint/vorssaint-utils",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred, alt-tab, app-uninstaller, appkit, finder, free, keep-awake, mac-os, menu-bar, menubar, open-source, swift, swift-ui, system-monitor, uninstaller, volume-mixer, window-switcher",
+      "blurb": "A free, open-source macOS menu bar toolkit written in Swift/SwiftUI that bundles alt-tab, app uninstaller, keep-awake, system monitor, volume mixer, and window switcher into one lightweight utility. Replaces several paid apps at once. Exactly the kind of niche macOS gem Pinboard surfaces that HN misses."
+    },
+    {
+      "title": "tendedero",
+      "url": "https://github.com/alejandrobujan/tendedero",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "Tendedero is a tiny native macOS app that hangs every screenshot on a visual clothesline at the top of your screen for quick review — no more hunting through your Downloads folder. It's a delightfully simple idea with obvious daily workflow value for anyone who screenshots frequently."
+    },
+    {
+      "title": "Kuddev/pebrel：AI原生、GPU 加速终端模拟器，支持 Claude Code 工作流程",
+      "url": "https://github.com/Kuddev/pebrel",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Git开源精选, windows, Mac, 优秀👍",
+      "blurb": "Pebrel is a GPU-accelerated terminal emulator built in Rust with first-class support for Claude Code and Codex workflows — split-pane terminals, SSH/SFTP, persistent sessions, and a native document reader. Cross-platform (Windows, macOS, Linux) and explicitly designed around AI CLI workflows. A direct upgrade for heavy Claude Code users."
+    },
+    {
+      "title": "GitHub - ARahim3/DigUp: Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.",
+      "url": "https://github.com/ARahim3/DigUp",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: subject:cs.AI, subject:cs.CL, Mac, search, open-source, gemma",
+      "blurb": "DigUp lets you search your Mac by the semantic content of photos, PDFs, recordings, videos, and code — entirely on-device using Google DeepMind's EmbeddingGemma 2. No data leaves your machine, which matters for privacy-conscious Mac users. Think Spotlight with actual comprehension."
+    },
+    {
+      "title": "Programming Isn't Special",
+      "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, ai-assisted-software-development, ai-scepticism",
+      "blurb": "Glyph argues that the AI coding discourse treats programming as uniquely threatened when every knowledge profession faces the same disruption — and that this myopia leads to bad predictions and worse policy. A sharp, skeptical counterpoint to the Karpathy thread at the top of today's edition."
+    },
+    {
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: embedded, swift, kernel, qemu",
+      "blurb": "Someone wrote a bare-metal kernel in Swift and booted it in QEMU — a fun experiment that probes how far Apple's systems language can reach beyond app development. For Swift-curious devs in the Apple ecosystem, it's a fascinating look at the language's low-level capabilities."
+    },
+    {
+      "title": "Cloudflare acquires Node.js creator's startup that copied its serverless playbook - The New Stack",
+      "url": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Javascript, code, cloud",
+      "blurb": "Cloudflare has acquired Deno, the runtime built by Node.js creator Ryan Dahl, consolidating two of the biggest names in serverless JavaScript. This reshapes the edge computing landscape and has direct implications for anyone running TypeScript workloads at the edge."
+    },
+    {
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things - Berkeley News",
+      "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "UC Berkeley researchers find that even brief AI use conditions people to expect instant answers, reducing tolerance for productive struggle — the kind of deep engagement that builds real skill. A sobering data point for developers who lean heavily on coding assistants and wonder why some problems feel harder than they used to."
+    }
+  ]
+}
