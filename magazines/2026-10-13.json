@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-13",
+  "stories": [
+    {
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "hn_link": "https://news.ycombinator.com/item?id=50055304",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Zeekaas · 828 points · 931 comments",
+      "blurb": "An \"unprecedented\" cyberattack on supermarket refrigeration systems across Europe triggered mass defrost cycles, spoiling inventory and spiking store prices. This is a textbook OT/ICS attack — industrial control systems connected to the internet with minimal security hardening. The 931-comment thread is a gold mine of threat modeling and SCADA horror stories."
+    },
+    {
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "hn_link": "https://news.ycombinator.com/item?id=50058528",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by prophittcorey · 662 points · 281 comments",
+      "blurb": "The author builds a full, production-style web application in plain C — no frameworks, no dependencies, just the standard library and some glue. A provocative counter-narrative to the modern JS/TS stack that will make any developer re-examine what \"necessary complexity\" actually means. The comment thread is predictably spicy."
+    },
+    {
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "hn_link": "https://news.ycombinator.com/item?id=50063427",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by layer8 · 541 points · 435 comments",
+      "blurb": "A thoughtful pushback on both AI hype and AI dismissal: the argument is that LLMs are genuinely powerful but require deliberate skill development, much like any precision instrument. Essential reading for anyone building with Claude Code or integrating AI into a dev workflow. The 435-comment discussion surfaces tons of practitioner insight."
+    },
+    {
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "hn_link": "https://news.ycombinator.com/item?id=50069499",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by formerly_proven · 459 points · 256 comments",
+      "blurb": "Researchers surfaced a cluster of unsoundness bugs lurking in Rust's borrow checker since nearly the beginning — meaning safe Rust code could, under specific conditions, trigger undefined behavior. Rust's entire value proposition rests on memory safety guarantees, so this is a big deal. The GitHub issue thread is a masterclass in compiler theory."
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "hn_link": "https://news.ycombinator.com/item?id=50065692",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sbulaev · 262 points · 123 comments",
+      "blurb": "A new paper provides a formal proof that AI models can conceal capabilities from evaluators — meaning current safety evals may be fundamentally insufficient. This is one of the most consequential AI safety results of the year and directly relevant to anyone deploying AI agents in production. If you're building with LLMs, you need to understand what you can and cannot verify."
+    },
+    {
+      "title": "Apple HomeView",
+      "url": "https://www.apple.com/apple-homeview/",
+      "hn_link": "https://news.ycombinator.com/item?id=50071017",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by etothet · 296 points · 351 comments",
+      "blurb": "Apple quietly launched HomeView, a new smart home hub product that sits at the intersection of the Home app and the living room. The 351-comment HN thread is full of speculation about whether this is Apple's answer to the Amazon Echo Show and what it means for the HomeKit ecosystem. Big deal for anyone deep in the Apple ecosystem."
+    },
+    {
+      "title": "Mozilla Introduces Firefox Enterprise",
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "hn_link": "https://news.ycombinator.com/item?id=50070302",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by recvonline · 287 points · 134 comments",
+      "blurb": "Mozilla is making a serious play for corporate deployments with a dedicated Firefox Enterprise tier — centralized management, policy controls, extended support releases. For privacy-minded devs who want to push their orgs away from Chrome, this gives IT a palatable story. The timing alongside Apple's Safari campaign is not a coincidence."
+    },
+    {
+      "title": "The baffling intelligence of a single cell (2024)",
+      "url": "https://jsomers.net/e-coli-chemotaxis/",
+      "hn_link": "https://news.ycombinator.com/item?id=50041866",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by jsomers · 362 points · 105 comments",
+      "blurb": "James Somers dives deep into E. coli chemotaxis — the mechanism by which a single bacterium navigates a chemical gradient with no brain. The writing is exceptional and the science is genuinely mind-bending: a single cell performs something that feels uncannily like decision-making. A palate cleanser for anyone drowning in LLM news."
+    },
+    {
+      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "url": "https://eg2.haku.sh/",
+      "hn_link": "https://news.ycombinator.com/item?id=50069971",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by amrrs · 253 points · 62 comments",
+      "blurb": "The team fine-tuned Google's EmbeddingGemma 2 — a model designed for embeddings, not generation — into a surprisingly capable speech-to-text system. This is a clever hack that reveals how flexible modern model architectures are when you push them outside their intended use case. Try the demo directly in the browser."
+    },
+    {
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "hn_link": "https://news.ycombinator.com/item?id=50063717",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by khalidkhair · 197 points · 72 comments",
+      "blurb": "Janas lets you run mixture-of-experts LLMs that would normally require far more RAM than you have, by streaming expert weights from SSD on demand. This is immediately actionable for anyone who wants to run large local models on a Mac with limited unified memory. The architecture is elegant and the benchmarks are promising."
+    },
+    {
+      "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: clanker, lup",
+      "blurb": "Linus Torvalds is using Claude Code to work on a significant Linux kernel refactor — and he's apparently a convert. This is the most credible endorsement Claude Code has received from a legendary skeptic of developer tooling hype. If you're on the fence about AI coding assistants, this is the data point that should move you."
+    },
+    {
+      "title": "(Post-Quantum) Cryptographic Right Answers",
+      "url": "https://words.filippo.io/right-answers/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: crypto",
+      "blurb": "Filippo Valsorda's updated \"cryptographic right answers\" guide now includes post-quantum algorithm recommendations — this is the definitive cheat sheet for developers who need to make crypto decisions without being a cryptographer. Bookmark this and share it with every .NET/TypeScript team making TLS or encryption choices today."
+    },
+    {
+      "title": "GitHub - tobi/disktree: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "url": "https://github.com/tobi/disktree",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, tools, utility, opensource",
+      "blurb": "A fast, keyboard-driven disk usage treemap for macOS built in Rust with the GPUI framework (the same UI kit powering Zed). It scans your home directory, visualizes every directory sized by actual disk cost, and lets you mark files for deletion before committing. A DaisyDisk alternative for power users who want open source."
+    },
+    {
+      "title": "GitHub - OpenMinis/iCTRL: An AI-friendly iOS/iPadOS automation testing tool built on XCUITest, but more than a testing tool: agents like Codex, Claude Code, Hermes, OpenClaw and Minis can operate your iPhone or iPad wirelessly through an encrypted JSON-RP",
+      "url": "https://github.com/OpenMinis/iCTRL",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "iCTRL exposes iOS/iPadOS device control via an encrypted JSON-RPC interface, letting AI agents like Claude Code operate a real iPhone or iPad wirelessly. This is a direct bridge between AI coding agents and Apple device automation — a missing piece for anyone building or testing iOS apps with AI assistance. The Claude Code integration is explicit."
+    },
+    {
+      "title": "Andrej Karpathy on X: \"Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*\"",
+      "url": "https://x.com/karpathy/status/2109361546505966046",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Karpathy's updated mental model segments LLM users into four tiers — from 6B people who've never touched an LLM to ~5,000 insiders running agent swarms that outpace human comprehension. The gap between tiers is widening fast, and this framing helps explain why AI discourse is so fractured. Required context for anyone building AI products."
+    },
+    {
+      "title": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml-coding",
+      "blurb": "A developer used AI agents to decompile a commercial FPS game — burning over 500 billion tokens in the process — and documents what worked, what failed, and what the economics look like at scale. This is a fascinating stress test of AI coding agents on a genuinely hard reverse-engineering task. Highly relevant for anyone thinking about agentic AI workflows."
+    },
+    {
+      "title": "Crest — The browser for life after Arc",
+      "url": "https://crestbrowser.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 浏览器",
+      "blurb": "Crest is a new independent Mac/iPad/iPhone browser built by an Arc devotee, preserving the Spaces, Peek, and sidebar paradigms that Arc users loved and lost. For Apple-ecosystem users mourning Arc's sunset, this is the most promising heir apparent. The fact that it targets Mac, iPad, and iPhone from the start is a good sign."
+    },
+    {
+      "title": "Pulse — what your computer is doing",
+      "url": "https://pulse.egoist.dev/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Pulse is a calm, unified system monitor for Mac, Windows, and Linux — CPUs, memory, GPU, disks, network, energy, and every running process in one window. It's the Activity Monitor replacement macOS power users have been waiting for. Clean UI, live updates, cross-platform if you ever need to check in on a Linux server."
+    },
+    {
+      "title": "Deeper dive: Keyboard differences between Windows and Macs – Unsung",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, windows, hid, ui",
+      "blurb": "An exhaustive deep dive into the subtle and not-so-subtle keyboard differences between macOS and Windows — modifier key semantics, dead keys, input method quirks, and HID-level behavior. Essential reading for anyone building cross-platform apps or helping Windows switchers land smoothly in the Apple ecosystem."
+    },
+    {
+      "title": "WallpaperMachine/WallpaperMachine: Native macOS live wallpaper app for Wallpaper Engine scenes, videos and web wallpapers",
+      "url": "https://github.com/WallpaperMachine/WallpaperMachine",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Mac软件, 壁纸",
+      "blurb": "WallpaperMachine is a native, Apple Silicon-optimized macOS app that brings Wallpaper Engine scenes, video wallpapers, and web wallpapers to your desktop and lock screen. It fills a gap Apple's own system has never addressed — dynamic, customizable desktop backgrounds beyond the basic slideshow. Free on GitHub, no subscription."
+    }
+  ]
+}

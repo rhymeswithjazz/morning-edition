@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 13, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 13, 2026.">
+<meta property="og:title" content="Morning Edition — October 13, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-13.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · October 13, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Hackers activate automatic defrosting in supermarket fridges across Europe</a></li>
+      <li><a href="#s2">A Modern Web App in C</a></li>
+      <li><a href="#s3">AI is a tool and using it well takes skill</a></li>
+      <li><a href="#s4">11 year old unsoundness bugs found in Rust borrow checker</a></li>
+      <li><a href="#s5">AI models can provably hide arbitrary capabilities</a></li>
+      <li><a href="#s6">Apple HomeView</a></li>
+      <li><a href="#s7">Mozilla Introduces Firefox Enterprise</a></li>
+      <li><a href="#s8">The baffling intelligence of a single cell (2024)</a></li>
+      <li><a href="#s9">We turned EmbeddingGemma 2 into a speech-to-text model</a></li>
+      <li><a href="#s10">Janas: Run LLMs larger than RAM by streaming experts from SSD</a></li>
+      <li><a href="#s11">Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code</a></li>
+      <li><a href="#s12">(Post-Quantum) Cryptographic Right Answers</a></li>
+      <li><a href="#s13">GitHub - tobi/disktree: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.</a></li>
+      <li><a href="#s14">GitHub - OpenMinis/iCTRL: An AI-friendly iOS/iPadOS automation testing tool built on XCUITest, but more than a testing tool: agents like Codex, Claude Code, Hermes, OpenClaw and Minis can operate your iPhone or iPad wirelessly through an encrypted JSON-RP</a></li>
+      <li><a href="#s15">Andrej Karpathy on X: &quot;Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*&quot;</a></li>
+      <li><a href="#s16">500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter</a></li>
+      <li><a href="#s17">Crest — The browser for life after Arc</a></li>
+      <li><a href="#s18">Pulse — what your computer is doing</a></li>
+      <li><a href="#s19">Deeper dive: Keyboard differences between Windows and Macs – Unsung</a></li>
+      <li><a href="#s20">WallpaperMachine/WallpaperMachine: Native macOS live wallpaper app for Wallpaper Engine scenes, videos and web wallpapers</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident">Hackers activate automatic defrosting in supermarket fridges across Europe</a></h3>
+    <div class="byline">by Zeekaas · 828 points · 931 comments</div>
+    <p class="blurb">An &quot;unprecedented&quot; cyberattack on supermarket refrigeration systems across Europe triggered mass defrost cycles, spoiling inventory and spiking store prices. This is a textbook OT/ICS attack — industrial control systems connected to the internet with minimal security hardening. The 931-comment thread is a gold mine of threat modeling and SCADA horror stories.</p>
+    <div class="links">
+      <a href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50055304">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://prophitt.me/writing/a-modern-web-app-in-c">A Modern Web App in C</a></h3>
+    <div class="byline">by prophittcorey · 662 points · 281 comments</div>
+    <p class="blurb">The author builds a full, production-style web application in plain C — no frameworks, no dependencies, just the standard library and some glue. A provocative counter-narrative to the modern JS/TS stack that will make any developer re-examine what &quot;necessary complexity&quot; actually means. The comment thread is predictably spicy.</p>
+    <div class="links">
+      <a href="https://prophitt.me/writing/a-modern-web-app-in-c">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50058528">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://yyhh.org/blog/2026/10/ai-is-a-tool/">AI is a tool and using it well takes skill</a></h3>
+    <div class="byline">by layer8 · 541 points · 435 comments</div>
+    <p class="blurb">A thoughtful pushback on both AI hype and AI dismissal: the argument is that LLMs are genuinely powerful but require deliberate skill development, much like any precision instrument. Essential reading for anyone building with Claude Code or integrating AI into a dev workflow. The 435-comment discussion surfaces tons of practitioner insight.</p>
+    <div class="links">
+      <a href="https://yyhh.org/blog/2026/10/ai-is-a-tool/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50063427">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/rust-lang/rust/issues/164250">11 year old unsoundness bugs found in Rust borrow checker</a></h3>
+    <div class="byline">by formerly_proven · 459 points · 256 comments</div>
+    <p class="blurb">Researchers surfaced a cluster of unsoundness bugs lurking in Rust&#x27;s borrow checker since nearly the beginning — meaning safe Rust code could, under specific conditions, trigger undefined behavior. Rust&#x27;s entire value proposition rests on memory safety guarantees, so this is a big deal. The GitHub issue thread is a masterclass in compiler theory.</p>
+    <div class="links">
+      <a href="https://github.com/rust-lang/rust/issues/164250">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50069499">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arxiv.org/abs/2610.13928">AI models can provably hide arbitrary capabilities</a></h3>
+    <div class="byline">by sbulaev · 262 points · 123 comments</div>
+    <p class="blurb">A new paper provides a formal proof that AI models can conceal capabilities from evaluators — meaning current safety evals may be fundamentally insufficient. This is one of the most consequential AI safety results of the year and directly relevant to anyone deploying AI agents in production. If you&#x27;re building with LLMs, you need to understand what you can and cannot verify.</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2610.13928">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50065692">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.apple.com/apple-homeview/">Apple HomeView</a></h3>
+    <div class="byline">by etothet · 296 points · 351 comments</div>
+    <p class="blurb">Apple quietly launched HomeView, a new smart home hub product that sits at the intersection of the Home app and the living room. The 351-comment HN thread is full of speculation about whether this is Apple&#x27;s answer to the Amazon Echo Show and what it means for the HomeKit ecosystem. Big deal for anyone deep in the Apple ecosystem.</p>
+    <div class="links">
+      <a href="https://www.apple.com/apple-homeview/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50071017">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.firefox.com/en-US/enterprise/">Mozilla Introduces Firefox Enterprise</a></h3>
+    <div class="byline">by recvonline · 287 points · 134 comments</div>
+    <p class="blurb">Mozilla is making a serious play for corporate deployments with a dedicated Firefox Enterprise tier — centralized management, policy controls, extended support releases. For privacy-minded devs who want to push their orgs away from Chrome, this gives IT a palatable story. The timing alongside Apple&#x27;s Safari campaign is not a coincidence.</p>
+    <div class="links">
+      <a href="https://www.firefox.com/en-US/enterprise/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50070302">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://jsomers.net/e-coli-chemotaxis/">The baffling intelligence of a single cell (2024)</a></h3>
+    <div class="byline">by jsomers · 362 points · 105 comments</div>
+    <p class="blurb">James Somers dives deep into E. coli chemotaxis — the mechanism by which a single bacterium navigates a chemical gradient with no brain. The writing is exceptional and the science is genuinely mind-bending: a single cell performs something that feels uncannily like decision-making. A palate cleanser for anyone drowning in LLM news.</p>
+    <div class="links">
+      <a href="https://jsomers.net/e-coli-chemotaxis/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50041866">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://eg2.haku.sh/">We turned EmbeddingGemma 2 into a speech-to-text model</a></h3>
+    <div class="byline">by amrrs · 253 points · 62 comments</div>
+    <p class="blurb">The team fine-tuned Google&#x27;s EmbeddingGemma 2 — a model designed for embeddings, not generation — into a surprisingly capable speech-to-text system. This is a clever hack that reveals how flexible modern model architectures are when you push them outside their intended use case. Try the demo directly in the browser.</p>
+    <div class="links">
+      <a href="https://eg2.haku.sh/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50069971">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/prabanta-dev/janas">Janas: Run LLMs larger than RAM by streaming experts from SSD</a></h3>
+    <div class="byline">by khalidkhair · 197 points · 72 comments</div>
+    <p class="blurb">Janas lets you run mixture-of-experts LLMs that would normally require far more RAM than you have, by streaming expert weights from SSD on demand. This is immediately actionable for anyone who wants to run large local models on a Mac with limited unified memory. The architecture is elegant and the benchmarks are promising.</p>
+    <div class="links">
+      <a href="https://github.com/prabanta-dev/janas">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50063717">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.phoronix.com/news/Linus-Torvalds-Claude-Code">Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code</a></h3>
+    <div class="byline">Pinboard Popular · tagged: clanker, lup</div>
+    <p class="blurb">Linus Torvalds is using Claude Code to work on a significant Linux kernel refactor — and he&#x27;s apparently a convert. This is the most credible endorsement Claude Code has received from a legendary skeptic of developer tooling hype. If you&#x27;re on the fence about AI coding assistants, this is the data point that should move you.</p>
+    <div class="links">
+      <a href="https://www.phoronix.com/news/Linus-Torvalds-Claude-Code">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://words.filippo.io/right-answers/">(Post-Quantum) Cryptographic Right Answers</a></h3>
+    <div class="byline">Pinboard Popular · tagged: crypto</div>
+    <p class="blurb">Filippo Valsorda&#x27;s updated &quot;cryptographic right answers&quot; guide now includes post-quantum algorithm recommendations — this is the definitive cheat sheet for developers who need to make crypto decisions without being a cryptographer. Bookmark this and share it with every .NET/TypeScript team making TLS or encryption choices today.</p>
+    <div class="links">
+      <a href="https://words.filippo.io/right-answers/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/tobi/disktree">GitHub - tobi/disktree: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, tools, utility, opensource</div>
+    <p class="blurb">A fast, keyboard-driven disk usage treemap for macOS built in Rust with the GPUI framework (the same UI kit powering Zed). It scans your home directory, visualizes every directory sized by actual disk cost, and lets you mark files for deletion before committing. A DaisyDisk alternative for power users who want open source.</p>
+    <div class="links">
+      <a href="https://github.com/tobi/disktree">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/OpenMinis/iCTRL">GitHub - OpenMinis/iCTRL: An AI-friendly iOS/iPadOS automation testing tool built on XCUITest, but more than a testing tool: agents like Codex, Claude Code, Hermes, OpenClaw and Minis can operate your iPhone or iPad wirelessly through an encrypted JSON-RP</a></h3>
+    <div class="byline">Pinboard Popular · tagged: from:ifttt, github</div>
+    <p class="blurb">iCTRL exposes iOS/iPadOS device control via an encrypted JSON-RPC interface, letting AI agents like Claude Code operate a real iPhone or iPad wirelessly. This is a direct bridge between AI coding agents and Apple device automation — a missing piece for anyone building or testing iOS apps with AI assistance. The Claude Code integration is explicit.</p>
+    <div class="links">
+      <a href="https://github.com/OpenMinis/iCTRL">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://x.com/karpathy/status/2109361546505966046">Andrej Karpathy on X: &quot;Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*&quot;</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai</div>
+    <p class="blurb">Karpathy&#x27;s updated mental model segments LLM users into four tiers — from 6B people who&#x27;ve never touched an LLM to ~5,000 insiders running agent swarms that outpace human comprehension. The gap between tiers is widening fast, and this framing helps explain why AI discourse is so fractured. Required context for anyone building AI products.</p>
+    <div class="links">
+      <a href="https://x.com/karpathy/status/2109361546505966046">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://momo5502.com/posts/2026-10-09-game-decompilation/">500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ml-coding</div>
+    <p class="blurb">A developer used AI agents to decompile a commercial FPS game — burning over 500 billion tokens in the process — and documents what worked, what failed, and what the economics look like at scale. This is a fascinating stress test of AI coding agents on a genuinely hard reverse-engineering task. Highly relevant for anyone thinking about agentic AI workflows.</p>
+    <div class="links">
+      <a href="https://momo5502.com/posts/2026-10-09-game-decompilation/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://crestbrowser.com/">Crest — The browser for life after Arc</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 浏览器</div>
+    <p class="blurb">Crest is a new independent Mac/iPad/iPhone browser built by an Arc devotee, preserving the Spaces, Peek, and sidebar paradigms that Arc users loved and lost. For Apple-ecosystem users mourning Arc&#x27;s sunset, this is the most promising heir apparent. The fact that it targets Mac, iPad, and iPhone from the start is a good sign.</p>
+    <div class="links">
+      <a href="https://crestbrowser.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://pulse.egoist.dev/">Pulse — what your computer is doing</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Pulse is a calm, unified system monitor for Mac, Windows, and Linux — CPUs, memory, GPU, disks, network, energy, and every running process in one window. It&#x27;s the Activity Monitor replacement macOS power users have been waiting for. Clean UI, live updates, cross-platform if you ever need to check in on a Linux server.</p>
+    <div class="links">
+      <a href="https://pulse.egoist.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/">Deeper dive: Keyboard differences between Windows and Macs – Unsung</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, windows, hid, ui</div>
+    <p class="blurb">An exhaustive deep dive into the subtle and not-so-subtle keyboard differences between macOS and Windows — modifier key semantics, dead keys, input method quirks, and HID-level behavior. Essential reading for anyone building cross-platform apps or helping Windows switchers land smoothly in the Apple ecosystem.</p>
+    <div class="links">
+      <a href="https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/WallpaperMachine/WallpaperMachine">WallpaperMachine/WallpaperMachine: Native macOS live wallpaper app for Wallpaper Engine scenes, videos and web wallpapers</a></h3>
+    <div class="byline">Pinboard Popular · tagged: Mac软件, 壁纸</div>
+    <p class="blurb">WallpaperMachine is a native, Apple Silicon-optimized macOS app that brings Wallpaper Engine scenes, video wallpapers, and web wallpapers to your desktop and lock screen. It fills a gap Apple&#x27;s own system has never addressed — dynamic, customizable desktop backgrounds beyond the basic slideshow. Free on GitHub, no subscription.</p>
+    <div class="links">
+      <a href="https://github.com/WallpaperMachine/WallpaperMachine">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
