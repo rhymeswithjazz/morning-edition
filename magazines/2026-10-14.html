@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 14, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 14, 2026.">
+<meta property="og:title" content="Morning Edition — October 14, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-14.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · October 14, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Gemini 4 Argon</a></li>
+      <li><a href="#s2">Redesigning source control at Anthropic</a></li>
+      <li><a href="#s3">Ledger confirms spy chip implant behind wallet crypto thefts</a></li>
+      <li><a href="#s4">OpenAI engineer arrested in bugging of executive conference room</a></li>
+      <li><a href="#s5">Show HN: Guitoro, a virtual guitar you strum with your keyboard</a></li>
+      <li><a href="#s6">Thunderbird for iOS</a></li>
+      <li><a href="#s7">AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs</a></li>
+      <li><a href="#s8">Iosevka is an open-source, sans-serif and slab-serif, monospace font</a></li>
+      <li><a href="#s9">Recreational Programming</a></li>
+      <li><a href="#s10">Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord</a></li>
+      <li><a href="#s11">MIT class project turns into an FDA-cleared treatment for tremors</a></li>
+      <li><a href="#s12">Sound – Bartosz Ciechanowski (2022)</a></li>
+      <li><a href="#s13">Pg_vectorsearch: An index that is faster than pgvector&#x27;s IVFFlat and HNSW</a></li>
+      <li><a href="#s14">Maybe a better way to track the release history of a Git repo</a></li>
+      <li><a href="#s15">TV4 postpones show after AI agent erases edited material</a></li>
+      <li><a href="#s16">900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)</a></li>
+      <li><a href="#s17">Switzerland proposes banning profiling-based ads to minors</a></li>
+      <li><a href="#s18">Who Is Planting Backdoors in Ledger Crypto Wallets?</a></li>
+      <li><a href="#s19">AlphaNIST</a></li>
+      <li><a href="#s20">The Origin Story of Kid Pix</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://deepmind.google/models/gemini/">Gemini 4 Argon</a></h3>
+    <div class="byline">by 737max · 1357 points · 957 comments</div>
+    <p class="blurb">Google DeepMind drops Gemini 4 Argon, the latest in the Gemini lineup and the day&#x27;s biggest AI story by a wide margin. With 957 comments, the HN crowd is clearly stress-testing its capabilities and limits. If you&#x27;re building AI-powered workflows, this is the model to benchmark against.</p>
+    <div class="links">
+      <a href="https://deepmind.google/models/gemini/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50073879">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic</a></h3>
+    <div class="byline">by Philpax · 817 points · 874 comments</div>
+    <p class="blurb">Anthropic&#x27;s engineering team shares a deep dive into why they overhauled their source control setup — a rare inside look at how an AI-first company manages code at scale. The 874-comment thread suggests this has struck a nerve with developers everywhere. Expect concrete takeaways about monorepo tradeoffs, tooling choices, and developer experience.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/engineering/redesigning-source-control">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50073633">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/">Ledger confirms spy chip implant behind wallet crypto thefts</a></h3>
+    <div class="byline">by thm · 742 points · 466 comments</div>
+    <p class="blurb">Hardware supply chain attacks just got very real: Ledger has confirmed that physical spy chips were implanted into hardware wallets, enabling theft. This is a landmark case for hardware security and supply chain integrity that goes far beyond crypto. If you think about physical device trust at all, read this.</p>
+    <div class="links">
+      <a href="https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50054092">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/">OpenAI engineer arrested in bugging of executive conference room</a></h3>
+    <div class="byline">by forthwall · 608 points · 506 comments</div>
+    <p class="blurb">An OpenAI engineer has been arrested for allegedly planting a listening device in an executive conference room — the kind of insider threat story that&#x27;s usually reserved for spy thrillers. The incident raises serious questions about physical security culture at high-stakes AI labs. A wild read.</p>
+    <div class="links">
+      <a href="https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50078141">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://guitoro.com/">Show HN: Guitoro, a virtual guitar you strum with your keyboard</a></h3>
+    <div class="byline">by talccc · 488 points · 127 comments</div>
+    <p class="blurb">A delightful browser-based instrument that maps guitar strumming and fretting to your keyboard with impressive playability. It&#x27;s a great example of creative coding meeting music, and the 488 points suggest it&#x27;s genuinely fun to noodle on. Open it in a tab and lose 20 minutes.</p>
+    <div class="links">
+      <a href="https://guitoro.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50077020">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/">Thunderbird for iOS</a></h3>
+    <div class="byline">by mjorgers · 448 points · 191 comments</div>
+    <p class="blurb">The open-source email client beloved by power users is finally coming to iPhone as a native app. This is a big deal for privacy-conscious iOS users who want a non-Google, non-Apple mail client with real configurability. The first-look post shows it&#x27;s further along than you might expect.</p>
+    <div class="links">
+      <a href="https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50072913">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/android/ndk/issues/2260">AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs</a></h3>
+    <div class="byline">by tharen · 357 points · 163 comments</div>
+    <p class="blurb">A damning GitHub issue thread documenting how Google&#x27;s Android Open Source Project source drops are so delayed that NDK developers are literally reverse-engineering precompiled libraries to file accurate bug reports. It&#x27;s a serious open-source transparency problem from one of the largest software organizations in the world.</p>
+    <div class="links">
+      <a href="https://github.com/android/ndk/issues/2260">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50083130">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://typeof.net/Iosevka/">Iosevka is an open-source, sans-serif and slab-serif, monospace font</a></h3>
+    <div class="byline">by otobrglez · 287 points · 101 comments</div>
+    <p class="blurb">Iosevka resurfaces on HN and deserves another look — it&#x27;s one of the most customizable monospace fonts available, with hundreds of stylistic variants and ligature options. If you haven&#x27;t dialed in your editor font in a while, this is a great excuse to spend an hour tweaking. Pairs beautifully in VS Code or any terminal.</p>
+    <div class="links">
+      <a href="https://typeof.net/Iosevka/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50084240">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Actionable</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.cphiri.dev/presentations/recreational-programming">Recreational Programming</a></h3>
+    <div class="byline">by jslakro · 236 points · 95 comments</div>
+    <p class="blurb">A presentation making the case for programming purely for fun — no deadlines, no users, no performance requirements. It&#x27;s a timely reminder that the joy of building things for yourself is what keeps developers sharp and motivated. A quick read that might inspire your next weekend project.</p>
+    <div class="links">
+      <a href="https://www.cphiri.dev/presentations/recreational-programming">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50079865">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://strafe.chat/">Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord</a></h3>
+    <div class="byline">by brydencalaway · 64 points · 45 comments</div>
+    <p class="blurb">Strafe aims to be what Discord should have been: open-source, end-to-end encrypted, and federated so no single company owns your community. Early days, but the architecture is the right one. Worth bookmarking for anyone who runs dev communities and has Discord privacy concerns.</p>
+    <div class="links">
+      <a href="https://strafe.chat/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50082021">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002">MIT class project turns into an FDA-cleared treatment for tremors</a></h3>
+    <div class="byline">by zdw · 236 points · 47 comments</div>
+    <p class="blurb">A student project from an MIT class became an FDA-cleared medical device for treating tremors — one of those rare stories where academic tinkering produces a real-world breakthrough. The path from class assignment to cleared treatment in a few years is remarkable and worth understanding.</p>
+    <div class="links">
+      <a href="https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://ciechanow.ski/sound/">Sound – Bartosz Ciechanowski (2022)</a></h3>
+    <div class="byline">by dverlaeckt80 · 172 points · 22 comments</div>
+    <p class="blurb">Ciechanowski&#x27;s interactive physics explainers are some of the best science writing on the internet, and this deep dive into sound — with beautiful animated illustrations — is no exception. Even if you&#x27;ve seen his other essays, this one is well worth an hour. Endlessly re-shareable.</p>
+    <div class="links">
+      <a href="https://ciechanow.ski/sound/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/timescale/pg_vectorsearch">Pg_vectorsearch: An index that is faster than pgvector&#x27;s IVFFlat and HNSW</a></h3>
+    <div class="byline">by jascha_eng · 46 points · 15 comments</div>
+    <p class="blurb">Timescale drops a new PostgreSQL vector search index claiming to beat both IVFFlat and HNSW in speed. If you&#x27;re building RAG pipelines or semantic search on Postgres — a very common pattern when shipping AI features — this is directly actionable. Drop-in replacement potential makes it low-risk to test.</p>
+    <div class="links">
+      <a href="https://github.com/timescale/pg_vectorsearch">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.plover.com/prog/git/history-proposal.html">Maybe a better way to track the release history of a Git repo</a></h3>
+    <div class="byline">by evakhoury · 54 points · 13 comments</div>
+    <p class="blurb">A thoughtful proposal for augmenting Git with a more structured way to surface and navigate release history — beyond just tags and changelogs. It&#x27;s the kind of workflow improvement that becomes obvious once you see it. Worth reading if you maintain libraries or care about how your repo communicates its history.</p>
+    <div class="links">
+      <a href="https://blog.plover.com/prog/git/history-proposal.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage">TV4 postpones show after AI agent erases edited material</a></h3>
+    <div class="byline">by tobr · 40 points · 19 comments</div>
+    <p class="blurb">Swedish broadcaster TV4 was forced to delay a major show until 2027 after an AI agent accidentally deleted months of edited footage. A cautionary tale about giving autonomous agents write access to production assets — and a preview of the AI incident reports we&#x27;ll be reading more of. The stakes for agentic AI errors keep rising.</p>
+    <div class="links">
+      <a href="https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html">900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)</a></h3>
+    <div class="byline">by mdp2021 · 199 points · 30 comments</div>
+    <p class="blurb">A 1692 Dutch naturalist&#x27;s 900-page color compendium — essentially a pre-industrial Pantone guide — is now available as a complete high-res scan online. It&#x27;s a gorgeous historical artifact and a fascinating window into how humans have systematized color long before digital tools. Designers and curious developers will love this.</p>
+    <div class="links">
+      <a href="https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.admin.ch/en/newnsb/NMn5s24l8NjQ">Switzerland proposes banning profiling-based ads to minors</a></h3>
+    <div class="byline">by wuemeli · 9 points · 3 comments</div>
+    <p class="blurb">Switzerland is proposing to ban targeted, profiling-based advertising directed at minors — a move that could set a new European benchmark beyond GDPR and COPPA. Governments are increasingly treating algorithmic ad targeting as a child safety issue, not just a privacy one. Worth watching as regulatory pressure on ad tech continues to build.</p>
+    <div class="links">
+      <a href="https://www.admin.ch/en/newnsb/NMn5s24l8NjQ">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/">Who Is Planting Backdoors in Ledger Crypto Wallets?</a></h3>
+    <div class="byline">by hacb · 62 points · 65 comments</div>
+    <p class="blurb">Kim Zetter&#x27;s deep investigative reporting on the Ledger spy chip story goes further than the Bleeping Computer piece — she digs into the who and how behind the implants. If supply chain hardware attacks are on your threat model at all, this companion piece is essential reading alongside the Ledger confirmation.</p>
+    <div class="links">
+      <a href="https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://alpha-nist.github.io/">AlphaNIST</a></h3>
+    <div class="byline">by jasonjmcghee · 82 points · 30 comments</div>
+    <p class="blurb">AlphaNIST applies AlphaFold-style AI techniques to NIST cryptographic standards and test vectors — a niche but fascinating project at the intersection of AI and cryptographic security research. It&#x27;s a Show HN worth poking at if you care about how AI is starting to intersect with formal standards work.</p>
+    <div class="links">
+      <a href="https://alpha-nist.github.io/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="http://red-green-blue.com/kid-pix-the-early-years">The Origin Story of Kid Pix</a></h3>
+    <div class="byline">by MBCook · 42 points · 7 comments</div>
+    <p class="blurb">The inside story of how Kid Pix — the beloved 1989 Mac drawing app — was created by Craig Hickman, a single developer who wanted to make something genuinely fun for his young son. It&#x27;s a masterclass in designing for delight over utility, and a reminder of what individual creative vision can produce. A wonderful read for any developer with a soft spot for classic Mac software.</p>
+    <div class="links">
+      <a href="http://red-green-blue.com/kid-pix-the-early-years">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

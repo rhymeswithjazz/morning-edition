@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-14",
+  "stories": [
+    {
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "hn_link": "https://news.ycombinator.com/item?id=50073879",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 737max · 1357 points · 957 comments",
+      "blurb": "Google DeepMind drops Gemini 4 Argon, the latest in the Gemini lineup and the day's biggest AI story by a wide margin. With 957 comments, the HN crowd is clearly stress-testing its capabilities and limits. If you're building AI-powered workflows, this is the model to benchmark against."
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "hn_link": "https://news.ycombinator.com/item?id=50073633",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by Philpax · 817 points · 874 comments",
+      "blurb": "Anthropic's engineering team shares a deep dive into why they overhauled their source control setup — a rare inside look at how an AI-first company manages code at scale. The 874-comment thread suggests this has struck a nerve with developers everywhere. Expect concrete takeaways about monorepo tradeoffs, tooling choices, and developer experience."
+    },
+    {
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "hn_link": "https://news.ycombinator.com/item?id=50054092",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by thm · 742 points · 466 comments",
+      "blurb": "Hardware supply chain attacks just got very real: Ledger has confirmed that physical spy chips were implanted into hardware wallets, enabling theft. This is a landmark case for hardware security and supply chain integrity that goes far beyond crypto. If you think about physical device trust at all, read this."
+    },
+    {
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "hn_link": "https://news.ycombinator.com/item?id=50078141",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by forthwall · 608 points · 506 comments",
+      "blurb": "An OpenAI engineer has been arrested for allegedly planting a listening device in an executive conference room — the kind of insider threat story that's usually reserved for spy thrillers. The incident raises serious questions about physical security culture at high-stakes AI labs. A wild read."
+    },
+    {
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "url": "https://guitoro.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50077020",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by talccc · 488 points · 127 comments",
+      "blurb": "A delightful browser-based instrument that maps guitar strumming and fretting to your keyboard with impressive playability. It's a great example of creative coding meeting music, and the 488 points suggest it's genuinely fun to noodle on. Open it in a tab and lose 20 minutes."
+    },
+    {
+      "title": "Thunderbird for iOS",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "hn_link": "https://news.ycombinator.com/item?id=50072913",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by mjorgers · 448 points · 191 comments",
+      "blurb": "The open-source email client beloved by power users is finally coming to iPhone as a native app. This is a big deal for privacy-conscious iOS users who want a non-Google, non-Apple mail client with real configurability. The first-look post shows it's further along than you might expect."
+    },
+    {
+      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "url": "https://github.com/android/ndk/issues/2260",
+      "hn_link": "https://news.ycombinator.com/item?id=50083130",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tharen · 357 points · 163 comments",
+      "blurb": "A damning GitHub issue thread documenting how Google's Android Open Source Project source drops are so delayed that NDK developers are literally reverse-engineering precompiled libraries to file accurate bug reports. It's a serious open-source transparency problem from one of the largest software organizations in the world."
+    },
+    {
+      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "hn_link": "https://news.ycombinator.com/item?id=50084240",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by otobrglez · 287 points · 101 comments",
+      "blurb": "Iosevka resurfaces on HN and deserves another look — it's one of the most customizable monospace fonts available, with hundreds of stylistic variants and ligature options. If you haven't dialed in your editor font in a while, this is a great excuse to spend an hour tweaking. Pairs beautifully in VS Code or any terminal."
+    },
+    {
+      "title": "Recreational Programming",
+      "url": "https://www.cphiri.dev/presentations/recreational-programming",
+      "hn_link": "https://news.ycombinator.com/item?id=50079865",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by jslakro · 236 points · 95 comments",
+      "blurb": "A presentation making the case for programming purely for fun — no deadlines, no users, no performance requirements. It's a timely reminder that the joy of building things for yourself is what keeps developers sharp and motivated. A quick read that might inspire your next weekend project."
+    },
+    {
+      "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
+      "url": "https://strafe.chat/",
+      "hn_link": "https://news.ycombinator.com/item?id=50082021",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by brydencalaway · 64 points · 45 comments",
+      "blurb": "Strafe aims to be what Discord should have been: open-source, end-to-end encrypted, and federated so no single company owns your community. Early days, but the architecture is the right one. Worth bookmarking for anyone who runs dev communities and has Discord privacy concerns."
+    },
+    {
+      "title": "MIT class project turns into an FDA-cleared treatment for tremors",
+      "url": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by zdw · 236 points · 47 comments",
+      "blurb": "A student project from an MIT class became an FDA-cleared medical device for treating tremors — one of those rare stories where academic tinkering produces a real-world breakthrough. The path from class assignment to cleared treatment in a few years is remarkable and worth understanding."
+    },
+    {
+      "title": "Sound – Bartosz Ciechanowski (2022)",
+      "url": "https://ciechanow.ski/sound/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by dverlaeckt80 · 172 points · 22 comments",
+      "blurb": "Ciechanowski's interactive physics explainers are some of the best science writing on the internet, and this deep dive into sound — with beautiful animated illustrations — is no exception. Even if you've seen his other essays, this one is well worth an hour. Endlessly re-shareable."
+    },
+    {
+      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "url": "https://github.com/timescale/pg_vectorsearch",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by jascha_eng · 46 points · 15 comments",
+      "blurb": "Timescale drops a new PostgreSQL vector search index claiming to beat both IVFFlat and HNSW in speed. If you're building RAG pipelines or semantic search on Postgres — a very common pattern when shipping AI features — this is directly actionable. Drop-in replacement potential makes it low-risk to test."
+    },
+    {
+      "title": "Maybe a better way to track the release history of a Git repo",
+      "url": "https://blog.plover.com/prog/git/history-proposal.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by evakhoury · 54 points · 13 comments",
+      "blurb": "A thoughtful proposal for augmenting Git with a more structured way to surface and navigate release history — beyond just tags and changelogs. It's the kind of workflow improvement that becomes obvious once you see it. Worth reading if you maintain libraries or care about how your repo communicates its history."
+    },
+    {
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tobr · 40 points · 19 comments",
+      "blurb": "Swedish broadcaster TV4 was forced to delay a major show until 2027 after an AI agent accidentally deleted months of edited footage. A cautionary tale about giving autonomous agents write access to production assets — and a preview of the AI incident reports we'll be reading more of. The stakes for agentic AI errors keep rising."
+    },
+    {
+      "title": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+      "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by mdp2021 · 199 points · 30 comments",
+      "blurb": "A 1692 Dutch naturalist's 900-page color compendium — essentially a pre-industrial Pantone guide — is now available as a complete high-res scan online. It's a gorgeous historical artifact and a fascinating window into how humans have systematized color long before digital tools. Designers and curious developers will love this."
+    },
+    {
+      "title": "Switzerland proposes banning profiling-based ads to minors",
+      "url": "https://www.admin.ch/en/newnsb/NMn5s24l8NjQ",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by wuemeli · 9 points · 3 comments",
+      "blurb": "Switzerland is proposing to ban targeted, profiling-based advertising directed at minors — a move that could set a new European benchmark beyond GDPR and COPPA. Governments are increasingly treating algorithmic ad targeting as a child safety issue, not just a privacy one. Worth watching as regulatory pressure on ad tech continues to build."
+    },
+    {
+      "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hacb · 62 points · 65 comments",
+      "blurb": "Kim Zetter's deep investigative reporting on the Ledger spy chip story goes further than the Bleeping Computer piece — she digs into the who and how behind the implants. If supply chain hardware attacks are on your threat model at all, this companion piece is essential reading alongside the Ledger confirmation."
+    },
+    {
+      "title": "AlphaNIST",
+      "url": "https://alpha-nist.github.io/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jasonjmcghee · 82 points · 30 comments",
+      "blurb": "AlphaNIST applies AlphaFold-style AI techniques to NIST cryptographic standards and test vectors — a niche but fascinating project at the intersection of AI and cryptographic security research. It's a Show HN worth poking at if you care about how AI is starting to intersect with formal standards work."
+    },
+    {
+      "title": "The Origin Story of Kid Pix",
+      "url": "http://red-green-blue.com/kid-pix-the-early-years",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by MBCook · 42 points · 7 comments",
+      "blurb": "The inside story of how Kid Pix — the beloved 1989 Mac drawing app — was created by Craig Hickman, a single developer who wanted to make something genuinely fun for his young son. It's a masterclass in designing for delight over utility, and a reminder of what individual creative vision can produce. A wonderful read for any developer with a soft spot for classic Mac software."
+    }
+  ]
+}
