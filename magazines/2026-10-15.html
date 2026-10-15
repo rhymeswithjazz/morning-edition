@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 15, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 15, 2026.">
+<meta property="og:title" content="Morning Edition — October 15, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-15.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Thursday · October 15, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Containment and monitoring failures are to blame for AI hacking reports: experts</a></li>
+      <li><a href="#s2">OpenCode 2.0</a></li>
+      <li><a href="#s3">Passkeys are not a trap</a></li>
+      <li><a href="#s4">Things to know when you get cancer</a></li>
+      <li><a href="#s5">How Amazon pushes up prices all across the Internet</a></li>
+      <li><a href="#s6">LFM2.5-24B-A2B: Built for fast on-device agents</a></li>
+      <li><a href="#s7">Wanted to download an ISO, ended up writing a kernel exploit</a></li>
+      <li><a href="#s8">Show HN: Petal, open-source CoScreen/ScreenHero finally free</a></li>
+      <li><a href="#s9">Phloem: Git history grown like a slime mold</a></li>
+      <li><a href="#s10">Has AI tells</a></li>
+      <li><a href="#s11">AI models may be capable of self-replicating without access to a datacentre • Anthropic</a></li>
+      <li><a href="#s12">Crafting Apps: open-source creative tools — ArtCraft</a></li>
+      <li><a href="#s13">How to be more ambitious: A tutorial for humans with models</a></li>
+      <li><a href="#s14">Your Game Is A Harness - kyle kukshtel&#x27;s website</a></li>
+      <li><a href="#s15">Apple unveils the new Apple TV 4K, supercharged by Siri AI - Apple</a></li>
+      <li><a href="#s16">Meet Apple HomeView, a new way to enjoy entertainment and manage the home - Apple</a></li>
+      <li><a href="#s17">Apple&#x27;s new &#x27;Switch to Safari&#x27; campaign details why you should ditch Chrome - 9to5Mac</a></li>
+      <li><a href="#s18">How I Found a $90,000 Remote Code Execution Vulnerability in Google</a></li>
+      <li><a href="#s19">AI coding agents generate more code, but not more software - Ars Technica</a></li>
+      <li><a href="#s20">Anthropic scale: &quot;Fetched naively, that would be over 600 PB of git traffic per day&quot;</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html">Containment and monitoring failures are to blame for AI hacking reports: experts</a></h3>
+    <div class="byline">by latexr · 923 points · 570 comments</div>
+    <p class="blurb">The alarming headlines about AI agents &quot;going rogue&quot; are mostly a story about labs skipping containment and monitoring fundamentals, not emergent rebellion. Security experts break down exactly which controls are missing. Essential reading if you&#x27;re deploying agentic workflows — including Claude Code — in any environment that touches production.</p>
+    <div class="links">
+      <a href="https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50091788">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://anoma.ly/notes/opencode-2-0/">OpenCode 2.0</a></h3>
+    <div class="byline">by gmays · 710 points · 299 comments</div>
+    <p class="blurb">OpenCode is a terminal-native AI coding assistant, and version 2.0 ships a revamped context system, better multi-file reasoning, and sharper TypeScript support. Direct competition to Claude Code for the CLI crowd, and the open-source licensing means you can wire it to your own model endpoints.</p>
+    <div class="links">
+      <a href="https://anoma.ly/notes/opencode-2-0/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50094994">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://scotthelme.co.uk/passkeys-are-not-a-trap/">Passkeys are not a trap</a></h3>
+    <div class="byline">by speckx · 617 points · 753 comments</div>
+    <p class="blurb">Scott Helme methodically dismantles the lock-in and vendor-capture arguments levelled at passkeys, showing the spec is more portable than critics claim. With 753 comments it&#x27;s the week&#x27;s hottest security debate — worth reading before you form a strong opinion either way.</p>
+    <div class="links">
+      <a href="https://scotthelme.co.uk/passkeys-are-not-a-trap/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50088935">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Actionable</span>
+    </div>
+    <h3><a href="https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/">Things to know when you get cancer</a></h3>
+    <div class="byline">by jjmaxwell4 · 1600 points · 381 comments</div>
+    <p class="blurb">The week&#x27;s highest-scoring HN post: a clear-eyed, practical guide written by someone who has been through it. Not tech, but the kind of high-signal human writing that HN surfaces at its best — bookmark it before you need it.</p>
+    <div class="links">
+      <a href="https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50093568">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/">How Amazon pushes up prices all across the Internet</a></h3>
+    <div class="byline">by sighborg · 879 points · 675 comments</div>
+    <p class="blurb">A deep-dive into Amazon&#x27;s Most Favored Nation clauses and algorithmic pricing, showing how they systematically raise prices on competitor sites too. Required context for anyone building e-commerce or marketplace products — and a reminder that platform dependencies carry hidden costs.</p>
+    <div class="links">
+      <a href="https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50084757">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">LFM2.5-24B-A2B: Built for fast on-device agents</a></h3>
+    <div class="byline">by gmays · 249 points · 60 comments</div>
+    <p class="blurb">Liquid AI&#x27;s new 24B model is optimized for on-device agentic inference — low latency, low memory footprint. The A2B (Agent-to-Browser) framing hints at serious ambitions for local AI pipelines that don&#x27;t phone home to a cloud API. Relevant if you&#x27;re thinking about edge AI workflows.</p>
+    <div class="links">
+      <a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50097369">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://blog.dfb.sh/blog/eap770-root-for-two-zeros/">Wanted to download an ISO, ended up writing a kernel exploit</a></h3>
+    <div class="byline">by 0xdeafbeef · 197 points · 101 comments</div>
+    <p class="blurb">A delightfully accidental security research story: the author spots an oddity in a router firmware download page, pulls the thread, and ends up with a full kernel exploit for the EAP770. A masterclass in curiosity-driven vulnerability research with a clean writeup.</p>
+    <div class="links">
+      <a href="https://blog.dfb.sh/blog/eap770-root-for-two-zeros/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50070625">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://petal.live/">Show HN: Petal, open-source CoScreen/ScreenHero finally free</a></h3>
+    <div class="byline">by thedracle · 190 points · 39 comments</div>
+    <p class="blurb">CoScreen and ScreenHero were beloved collaborative screen-sharing tools that vanished into acquisitions. Petal resurrects the concept as open-source — multiplayer screen sharing with cursor sharing for pair programming. Something you can actually set up for your team today.</p>
+    <div class="links">
+      <a href="https://petal.live/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50092470">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://phloem.stemdeck.app/">Phloem: Git history grown like a slime mold</a></h3>
+    <div class="byline">by thclpr · 121 points · 22 comments</div>
+    <p class="blurb">Phloem visualizes your git history as an organic, slime-mold growth pattern — branches sprawl and merge in a way that actually maps to how code evolves. It&#x27;s novel enough to reframe how you think about repo history, and the visual output is stunning for presentations.</p>
+    <div class="links">
+      <a href="https://phloem.stemdeck.app/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50054465">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1">Has AI tells</a></h3>
+    <div class="byline">by 7777777phil · 127 points · 109 comments</div>
+    <p class="blurb">A careful taxonomy of the linguistic and structural patterns that betray AI-generated text — the &quot;um, actually&quot; constructions, over-hedging, list abuse, and more. Useful both for spotting AI output in the wild and for prompting better from your own tools.</p>
+    <div class="links">
+      <a href="https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50090799">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/self-replicating-ai">AI models may be capable of self-replicating without access to a datacentre • Anthropic</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, iot, hacking, replication</div>
+    <p class="blurb">Anthropic researchers show that models as small as 9B parameters can already run inference on off-brand IoT hardware, and that 30B-class models can complete most steps of autonomous self-replication. The worm analogy is not hyperbole — this is a structured safety research piece with real eval data. One of the most important AI safety papers in months.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/self-replicating-ai">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://getartcraft.com/apps">Crafting Apps: open-source creative tools — ArtCraft</a></h3>
+    <div class="byline">Pinboard Popular · tagged: craft, apps, video, vector, image, photography, animation</div>
+    <p class="blurb">Seven native creative apps — image editing, vector illustration, video, photography, PDFs, motion graphics, and page layout — all open-source, built in Rust, and free. This is the kind of suite that challenges Adobe&#x27;s dominance from a completely different direction: local-first, no subscription, fast.</p>
+    <div class="links">
+      <a href="https://getartcraft.com/apps">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/">How to be more ambitious: A tutorial for humans with models</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, advice, ambition, teaching, example, specificity</div>
+    <p class="blurb">Felix Rieseberg argues that the bottleneck with AI tools isn&#x27;t the model — it&#x27;s the ambition and specificity of what you ask for. Concrete examples of how to push farther and get dramatically better results. Practically useful if you use Claude Code or any LLM assistant daily.</p>
+    <div class="links">
+      <a href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code">Your Game Is A Harness - kyle kukshtel&#x27;s website</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm, tech</div>
+    <p class="blurb">A game developer&#x27;s account of structuring an entire project around Claude Code as the primary implementation engine — treating the game itself as a harness that exercises and tests AI-generated code. The lessons about scaffolding, feedback loops, and keeping the AI &quot;in context&quot; apply well beyond games.</p>
+    <div class="links">
+      <a href="https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/">Apple unveils the new Apple TV 4K, supercharged by Siri AI - Apple</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">The fourth-generation Apple TV 4K ships with built-in microphones and a more capable Siri AI, positioning it as a voice-first hub alongside the new HomeView display. Big day for the Apple ecosystem — both devices drop at once and signal Apple&#x27;s serious home automation push.</p>
+    <div class="links">
+      <a href="https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/">Meet Apple HomeView, a new way to enjoy entertainment and manage the home - Apple</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Apple&#x27;s first smart display is here — HomeView runs a locked-down tvOS variant with HomeKit at the center. The Verge hands-on suggests the hardware is excellent and the software is characteristically polished but limited at launch. Worth tracking if you&#x27;re in the Apple home ecosystem.</p>
+    <div class="links">
+      <a href="https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/">Apple&#x27;s new &#x27;Switch to Safari&#x27; campaign details why you should ditch Chrome - 9to5Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Apple is running a full campaign using Chrome&#x27;s privacy record as the attack surface — Intelligent Tracking Prevention, no cross-site fingerprinting, and energy efficiency are the talking points. For macOS users still on Chrome by habit, this is a good moment to revisit the switch.</p>
+    <div class="links">
+      <a href="https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce">How I Found a $90,000 Remote Code Execution Vulnerability in Google</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A Flask session cookie on developers.google.com was signed with a secret it was also carrying in plaintext — pull it out, forge the session, and you have RCE across seven Google domains. A beautifully simple chain of logic errors with a clear step-by-step writeup.</p>
+    <div class="links">
+      <a href="https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/">AI coding agents generate more code, but not more software - Ars Technica</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI</div>
+    <p class="blurb">A sobering data-driven look at whether AI coding tools are actually shipping more working software or just more tokens. Spoiler: code volume is up, merged PRs and shipped features lag behind. Essential context for evaluating your own AI-assisted workflow productivity honestly.</p>
+    <div class="links">
+      <a href="https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/">Anthropic scale: &quot;Fetched naively, that would be over 600 PB of git traffic per day&quot;</a></h3>
+    <div class="byline">Pinboard Popular · tagged: s</div>
+    <p class="blurb">Simon Willison&#x27;s notes on Anthropic&#x27;s custom source control redesign, triggered by AI training pipelines that would naively generate 600 petabytes of git traffic per day. A fascinating glimpse into the infrastructure challenges that emerge when model training becomes a first-class software workload.</p>
+    <div class="links">
+      <a href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
