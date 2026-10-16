@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-16",
+  "stories": [
+    {
+      "title": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "hn_link": "https://news.ycombinator.com/item?id=50107379",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bigwheels · 855 points · 427 comments",
+      "blurb": "Meta Research drops Muse Spark Open, a new open model targeting creative and multimodal generation — and it's lighting up HN with 427 comments. With 855 points this is the clear story of the day. If you're building AI-assisted workflows, this is one to benchmark immediately."
+    },
+    {
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50105647",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by themgt · 742 points · 277 comments",
+      "blurb": "Goodfire's interactive site challenges the common assumption that neural networks are inscrutable black boxes — presenting evidence that they encode surprisingly interpretable, structured representations. For anyone working with LLMs or AI tools, this reframes how you should think about what's happening under the hood. Highly recommended rabbit hole."
+    },
+    {
+      "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+      "hn_link": "https://news.ycombinator.com/item?id=50101813",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jcomp · 473 points · 632 comments",
+      "blurb": "Citizen Lab exposes a chilling attack vector: commercial ad targeting infrastructure weaponized to deliver zero-click spyware with no user interaction required. This is the most-commented story of the week for good reason — it fundamentally implicates the entire ad ecosystem. Required reading for anyone who cares about privacy."
+    },
+    {
+      "title": "What I self-host",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "hn_link": "https://news.ycombinator.com/item?id=50109715",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by BrunoBernardino · 551 points · 345 comments",
+      "blurb": "A developer's curated rundown of every service they self-host, with the reasoning behind each choice. These posts always surface gems — tools you didn't know existed and setups worth stealing. The 345-comment thread is equally valuable as a community wishlist."
+    },
+    {
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "url": "https://github.com/fyzugx/DEsk",
+      "hn_link": "https://news.ycombinator.com/item?id=50103338",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by FinalDestiny · 639 points · 260 comments",
+      "blurb": "Someone built a full Wayland desktop environment with a deliberately skeuomorphic aesthetic — wood textures, raised buttons, the works. It's part nostalgia trip, part serious UI experiment. The HN discussion is predictably heated about whether skeuomorphism deserves a comeback."
+    },
+    {
+      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "hn_link": "https://news.ycombinator.com/item?id=50109375",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by johnbehnke · 352 points · 232 comments",
+      "blurb": "Withings has quietly locked Apple Health syncing behind a $99/year subscription for all new accounts — a significant bait-and-switch for a hardware product you already paid for. This directly affects any Apple ecosystem user relying on Withings devices for health data. Time to evaluate alternatives."
+    },
+    {
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "hn_link": "https://news.ycombinator.com/item?id=50112739",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by chanana · 190 points · 48 comments",
+      "blurb": "Sill is an open-source macOS utility that streams any individual app window to your iPhone or iPad in real time. It's the kind of Continuity feature Apple should have shipped years ago. If you live across Mac and iOS, this is worth trying today."
+    },
+    {
+      "title": "Krea 3 – An image model built for editing at scale",
+      "url": "https://www.krea.ai/krea-3",
+      "hn_link": "https://news.ycombinator.com/item?id=50105648",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by dvrp · 321 points · 105 comments",
+      "blurb": "Krea 3 is pitching itself as an image model purpose-built for iterative editing workflows rather than one-shot generation — a distinction that matters enormously for creative professionals. The focus on consistency and batch editing sets it apart from Midjourney-style tools. Worth a hands-on session."
+    },
+    {
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "hn_link": "https://news.ycombinator.com/item?id=50104299",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ErenayDev · 217 points · 193 comments",
+      "blurb": "A GNOME developer writes up a practical experiment using LLMs to decode undocumented hardware protocols — and it actually works surprisingly well. This is a concrete, actionable AI workflow story rather than hype. For developers curious about AI-assisted reverse engineering, this is a great starting playbook."
+    },
+    {
+      "title": "BIPM decides to stop adding leap seconds to UTC",
+      "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+      "hn_link": "https://news.ycombinator.com/item?id=50105777",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gliffie · 219 points · 104 comments",
+      "blurb": "The International Bureau of Weights and Measures has officially resolved to end leap seconds in UTC — a decision with real consequences for systems that depend on precise timekeeping. Distributed systems engineers and anyone who has ever debugged a leap-second bug should read the full resolution. History being made quietly."
+    },
+    {
+      "title": "Apple routed a graphite pipe through the iPhone Duo's hinge to dissipate heat",
+      "url": "https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by giuliomagnifico · 157 points · 116 comments",
+      "blurb": "A fascinating look at the thermal engineering inside the iPhone Duo's foldable hinge — Apple threaded a graphite vapor chamber through a moving hinge, which is genuinely impressive materials engineering. If you're curious about what Apple's hardware team is capable of, this is a great teardown-adjacent read."
+    },
+    {
+      "title": "Why I Wrote PGP (1991, revised 1999)",
+      "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by GaryBluto · 170 points · 63 comments",
+      "blurb": "Phil Zimmermann's original essay on why he created PGP is a foundational privacy manifesto — and it reads as urgently today as it did in 1991. With the AdFection spyware story also in today's edition, it's a powerful pairing. A reminder that individuals building privacy tools can change the world."
+    },
+    {
+      "title": "RPKI now protects 70% of internet routes",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by emot · 183 points · 71 comments",
+      "blurb": "Resource Public Key Infrastructure has quietly reached a major milestone — 70% of internet routes are now cryptographically protected against BGP hijacking. This is a genuine internet security win that gets far less attention than it deserves. The IPinfo breakdown shows which regions are still lagging."
+    },
+    {
+      "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+      "url": "https://libreboot.org/news/libreboot2610.html",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by iamnothere · 294 points · 182 comments",
+      "blurb": "Libreboot's latest release adds UEFI support and expands Chromebook compatibility — a big deal for anyone running fully open-source firmware. The project continues to push the boundary on hardware freedom and supply-chain trust. If you have a supported device, this is worth evaluating."
+    },
+    {
+      "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by speckx · 378 points · 172 comments",
+      "blurb": "A gripping debugging story about a developer whose Sonarr automation kept getting sabotaged by malicious torrent metadata — and the detective work to figure out exactly who and how. Great writing and genuinely interesting adversarial-systems thinking. The kind of war story that makes you smarter about your own automation."
+    },
+    {
+      "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
+      "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by johnnyApplePRNG · 499 points · 152 comments",
+      "blurb": "Crows remembering human kindness and reciprocating with gifts is one of the most compelling examples of non-human social cognition documented on video. Nearly 500 upvotes on HN, which tells you something. Watch it and feel things."
+    },
+    {
+      "title": "Jev meets the Trolley Problem",
+      "url": "https://zachlandes.com/trolley-problem/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by zlandes86 · 527 points · 215 comments",
+      "blurb": "An interactive piece that pits an AI agent (Jev) against variants of the trolley problem, exposing fascinating inconsistencies in how LLMs reason about ethics under pressure. Highly relevant for anyone building AI systems that need to make decisions. The 215-comment HN thread digs deep into AI alignment implications."
+    },
+    {
+      "title": "Meta's new commercial terms will allow the scraping of news sites: experts",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by 0in · 372 points · 128 comments",
+      "blurb": "Nieman Lab reports that Meta's revised commercial terms effectively give the company legal cover to scrape news content for AI training — a major shift with serious implications for publishers and the open web. Legal experts quoted here say the language is intentionally broad. Connects directly to the Muse Spark Open story above."
+    },
+    {
+      "title": "New 'Super Ice' 10 Times Stronger, Bringing It Close to the Strength of Concrete",
+      "url": "https://www.sciencealert.com/a-new-super-ice-is-10-times-stronger-bringing-it-close-to-the-strength-of-concrete",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by andrewl · 36 points · 14 comments",
+      "blurb": "Researchers have engineered ice with a tensile strength approaching concrete by manipulating its crystal structure under extreme pressure. It sounds like science fiction but it's peer-reviewed materials science. A genuinely weird and wonderful entry in today's edition."
+    },
+    {
+      "title": "The Folders Programming Language",
+      "url": "https://danieltemkin.com/esolangs/folders",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by gurst · 121 points · 18 comments",
+      "blurb": "Folders is an esoteric programming language where the entire source code is encoded in directory structure — no files, no text, just folders nested inside folders. It's absurdist art masquerading as computer science, and it's delightful. A perfect palate cleanser at the end of today's issue."
+    }
+  ]
+}

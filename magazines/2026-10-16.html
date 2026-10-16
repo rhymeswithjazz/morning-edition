@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 16, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 16, 2026.">
+<meta property="og:title" content="Morning Edition — October 16, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-16.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Friday · October 16, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Muse Spark Open</a></li>
+      <li><a href="#s2">Neural networks are clean</a></li>
+      <li><a href="#s3">AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware</a></li>
+      <li><a href="#s4">What I self-host</a></li>
+      <li><a href="#s5">Wayland desktop for Linux with skeuomorphic design</a></li>
+      <li><a href="#s6">New Withings Users Must Pay $99/Year for Apple Health Syncing</a></li>
+      <li><a href="#s7">Any window from your Mac, on your iPhone and iPad</a></li>
+      <li><a href="#s8">Krea 3 – An image model built for editing at scale</a></li>
+      <li><a href="#s9">Using AI to reverse engineer hardware</a></li>
+      <li><a href="#s10">BIPM decides to stop adding leap seconds to UTC</a></li>
+      <li><a href="#s11">Apple routed a graphite pipe through the iPhone Duo&#x27;s hinge to dissipate heat</a></li>
+      <li><a href="#s12">Why I Wrote PGP (1991, revised 1999)</a></li>
+      <li><a href="#s13">RPKI now protects 70% of internet routes</a></li>
+      <li><a href="#s14">Libreboot 26.10 &quot;Ominous Olive&quot; released with UEFI, Chromebook support</a></li>
+      <li><a href="#s15">Someone on Torrent Sites Kept Fucking with My Sonarr</a></li>
+      <li><a href="#s16">Woman who rescued injured crow keeps getting &#x27;thank-you gifts&#x27; from birds [video]</a></li>
+      <li><a href="#s17">Jev meets the Trolley Problem</a></li>
+      <li><a href="#s18">Meta&#x27;s new commercial terms will allow the scraping of news sites: experts</a></li>
+      <li><a href="#s19">New &#x27;Super Ice&#x27; 10 Times Stronger, Bringing It Close to the Strength of Concrete</a></li>
+      <li><a href="#s20">The Folders Programming Language</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://research.meta.ai/blog/muse-spark-open">Muse Spark Open</a></h3>
+    <div class="byline">by bigwheels · 855 points · 427 comments</div>
+    <p class="blurb">Meta Research drops Muse Spark Open, a new open model targeting creative and multimodal generation — and it&#x27;s lighting up HN with 427 comments. With 855 points this is the clear story of the day. If you&#x27;re building AI-assisted workflows, this is one to benchmark immediately.</p>
+    <div class="links">
+      <a href="https://research.meta.ai/blog/muse-spark-open">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50107379">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://already-clean.goodfire.com/">Neural networks are clean</a></h3>
+    <div class="byline">by themgt · 742 points · 277 comments</div>
+    <p class="blurb">Goodfire&#x27;s interactive site challenges the common assumption that neural networks are inscrutable black boxes — presenting evidence that they encode surprisingly interpretable, structured representations. For anyone working with LLMs or AI tools, this reframes how you should think about what&#x27;s happening under the hood. Highly recommended rabbit hole.</p>
+    <div class="links">
+      <a href="https://already-clean.goodfire.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50105647">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware</a></h3>
+    <div class="byline">by jcomp · 473 points · 632 comments</div>
+    <p class="blurb">Citizen Lab exposes a chilling attack vector: commercial ad targeting infrastructure weaponized to deliver zero-click spyware with no user interaction required. This is the most-commented story of the week for good reason — it fundamentally implicates the entire ad ecosystem. Required reading for anyone who cares about privacy.</p>
+    <div class="links">
+      <a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50101813">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/">What I self-host</a></h3>
+    <div class="byline">by BrunoBernardino · 551 points · 345 comments</div>
+    <p class="blurb">A developer&#x27;s curated rundown of every service they self-host, with the reasoning behind each choice. These posts always surface gems — tools you didn&#x27;t know existed and setups worth stealing. The 345-comment thread is equally valuable as a community wishlist.</p>
+    <div class="links">
+      <a href="https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50109715">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://github.com/fyzugx/DEsk">Wayland desktop for Linux with skeuomorphic design</a></h3>
+    <div class="byline">by FinalDestiny · 639 points · 260 comments</div>
+    <p class="blurb">Someone built a full Wayland desktop environment with a deliberately skeuomorphic aesthetic — wood textures, raised buttons, the works. It&#x27;s part nostalgia trip, part serious UI experiment. The HN discussion is predictably heated about whether skeuomorphism deserves a comeback.</p>
+    <div class="links">
+      <a href="https://github.com/fyzugx/DEsk">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50103338">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts">New Withings Users Must Pay $99/Year for Apple Health Syncing</a></h3>
+    <div class="byline">by johnbehnke · 352 points · 232 comments</div>
+    <p class="blurb">Withings has quietly locked Apple Health syncing behind a $99/year subscription for all new accounts — a significant bait-and-switch for a hardware product you already paid for. This directly affects any Apple ecosystem user relying on Withings devices for health data. Time to evaluate alternatives.</p>
+    <div class="links">
+      <a href="https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50109375">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/Saffsanity/sill">Any window from your Mac, on your iPhone and iPad</a></h3>
+    <div class="byline">by chanana · 190 points · 48 comments</div>
+    <p class="blurb">Sill is an open-source macOS utility that streams any individual app window to your iPhone or iPad in real time. It&#x27;s the kind of Continuity feature Apple should have shipped years ago. If you live across Mac and iOS, this is worth trying today.</p>
+    <div class="links">
+      <a href="https://github.com/Saffsanity/sill">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50112739">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.krea.ai/krea-3">Krea 3 – An image model built for editing at scale</a></h3>
+    <div class="byline">by dvrp · 321 points · 105 comments</div>
+    <p class="blurb">Krea 3 is pitching itself as an image model purpose-built for iterative editing workflows rather than one-shot generation — a distinction that matters enormously for creative professionals. The focus on consistency and batch editing sets it apart from Midjourney-style tools. Worth a hands-on session.</p>
+    <div class="links">
+      <a href="https://www.krea.ai/krea-3">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50105648">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/">Using AI to reverse engineer hardware</a></h3>
+    <div class="byline">by ErenayDev · 217 points · 193 comments</div>
+    <p class="blurb">A GNOME developer writes up a practical experiment using LLMs to decode undocumented hardware protocols — and it actually works surprisingly well. This is a concrete, actionable AI workflow story rather than hype. For developers curious about AI-assisted reverse engineering, this is a great starting playbook.</p>
+    <div class="links">
+      <a href="https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50104299">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.bipm.org/en/cgpm-2026/resolution-5">BIPM decides to stop adding leap seconds to UTC</a></h3>
+    <div class="byline">by gliffie · 219 points · 104 comments</div>
+    <p class="blurb">The International Bureau of Weights and Measures has officially resolved to end leap seconds in UTC — a decision with real consequences for systems that depend on precise timekeeping. Distributed systems engineers and anyone who has ever debugged a leap-second bug should read the full resolution. History being made quietly.</p>
+    <div class="links">
+      <a href="https://www.bipm.org/en/cgpm-2026/resolution-5">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50105777">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge">Apple routed a graphite pipe through the iPhone Duo&#x27;s hinge to dissipate heat</a></h3>
+    <div class="byline">by giuliomagnifico · 157 points · 116 comments</div>
+    <p class="blurb">A fascinating look at the thermal engineering inside the iPhone Duo&#x27;s foldable hinge — Apple threaded a graphite vapor chamber through a moving hinge, which is genuinely impressive materials engineering. If you&#x27;re curious about what Apple&#x27;s hardware team is capable of, this is a great teardown-adjacent read.</p>
+    <div class="links">
+      <a href="https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://philzimmermann.com/EN/essays/WhyIWrotePGP.html">Why I Wrote PGP (1991, revised 1999)</a></h3>
+    <div class="byline">by GaryBluto · 170 points · 63 comments</div>
+    <p class="blurb">Phil Zimmermann&#x27;s original essay on why he created PGP is a foundational privacy manifesto — and it reads as urgently today as it did in 1991. With the AdFection spyware story also in today&#x27;s edition, it&#x27;s a powerful pairing. A reminder that individuals building privacy tools can change the world.</p>
+    <div class="links">
+      <a href="https://philzimmermann.com/EN/essays/WhyIWrotePGP.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://ipinfo.io/blog/rpki-protects-70-internet-routes">RPKI now protects 70% of internet routes</a></h3>
+    <div class="byline">by emot · 183 points · 71 comments</div>
+    <p class="blurb">Resource Public Key Infrastructure has quietly reached a major milestone — 70% of internet routes are now cryptographically protected against BGP hijacking. This is a genuine internet security win that gets far less attention than it deserves. The IPinfo breakdown shows which regions are still lagging.</p>
+    <div class="links">
+      <a href="https://ipinfo.io/blog/rpki-protects-70-internet-routes">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://libreboot.org/news/libreboot2610.html">Libreboot 26.10 &quot;Ominous Olive&quot; released with UEFI, Chromebook support</a></h3>
+    <div class="byline">by iamnothere · 294 points · 182 comments</div>
+    <p class="blurb">Libreboot&#x27;s latest release adds UEFI support and expands Chromebook compatibility — a big deal for anyone running fully open-source firmware. The project continues to push the boundary on hardware freedom and supply-chain trust. If you have a supported device, this is worth evaluating.</p>
+    <div class="links">
+      <a href="https://libreboot.org/news/libreboot2610.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup">Someone on Torrent Sites Kept Fucking with My Sonarr</a></h3>
+    <div class="byline">by speckx · 378 points · 172 comments</div>
+    <p class="blurb">A gripping debugging story about a developer whose Sonarr automation kept getting sabotaged by malicious torrent metadata — and the detective work to figure out exactly who and how. Great writing and genuinely interesting adversarial-systems thinking. The kind of war story that makes you smarter about your own automation.</p>
+    <div class="links">
+      <a href="https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.youtube.com/watch?v=sjNpfz4UzqU">Woman who rescued injured crow keeps getting &#x27;thank-you gifts&#x27; from birds [video]</a></h3>
+    <div class="byline">by johnnyApplePRNG · 499 points · 152 comments</div>
+    <p class="blurb">Crows remembering human kindness and reciprocating with gifts is one of the most compelling examples of non-human social cognition documented on video. Nearly 500 upvotes on HN, which tells you something. Watch it and feel things.</p>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=sjNpfz4UzqU">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://zachlandes.com/trolley-problem/">Jev meets the Trolley Problem</a></h3>
+    <div class="byline">by zlandes86 · 527 points · 215 comments</div>
+    <p class="blurb">An interactive piece that pits an AI agent (Jev) against variants of the trolley problem, exposing fascinating inconsistencies in how LLMs reason about ethics under pressure. Highly relevant for anyone building AI systems that need to make decisions. The 215-comment HN thread digs deep into AI alignment implications.</p>
+    <div class="links">
+      <a href="https://zachlandes.com/trolley-problem/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/">Meta&#x27;s new commercial terms will allow the scraping of news sites: experts</a></h3>
+    <div class="byline">by 0in · 372 points · 128 comments</div>
+    <p class="blurb">Nieman Lab reports that Meta&#x27;s revised commercial terms effectively give the company legal cover to scrape news content for AI training — a major shift with serious implications for publishers and the open web. Legal experts quoted here say the language is intentionally broad. Connects directly to the Muse Spark Open story above.</p>
+    <div class="links">
+      <a href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.sciencealert.com/a-new-super-ice-is-10-times-stronger-bringing-it-close-to-the-strength-of-concrete">New &#x27;Super Ice&#x27; 10 Times Stronger, Bringing It Close to the Strength of Concrete</a></h3>
+    <div class="byline">by andrewl · 36 points · 14 comments</div>
+    <p class="blurb">Researchers have engineered ice with a tensile strength approaching concrete by manipulating its crystal structure under extreme pressure. It sounds like science fiction but it&#x27;s peer-reviewed materials science. A genuinely weird and wonderful entry in today&#x27;s edition.</p>
+    <div class="links">
+      <a href="https://www.sciencealert.com/a-new-super-ice-is-10-times-stronger-bringing-it-close-to-the-strength-of-concrete">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://danieltemkin.com/esolangs/folders">The Folders Programming Language</a></h3>
+    <div class="byline">by gurst · 121 points · 18 comments</div>
+    <p class="blurb">Folders is an esoteric programming language where the entire source code is encoded in directory structure — no files, no text, just folders nested inside folders. It&#x27;s absurdist art masquerading as computer science, and it&#x27;s delightful. A perfect palate cleanser at the end of today&#x27;s issue.</p>
+    <div class="links">
+      <a href="https://danieltemkin.com/esolangs/folders">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
