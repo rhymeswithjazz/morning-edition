@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-17",
+  "stories": [
+    {
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "hn_link": "https://news.ycombinator.com/item?id=50122951",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 370 points · 340 comments",
+      "blurb": "Direct insight from the team that builds the tool you use daily. The Claude Code team explains their own AI-augmented code review process — eating the dog food in the most literal sense. If you're integrating Claude Code into your workflow, this is the closest thing to an official playbook."
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "hn_link": "https://news.ycombinator.com/item?id=50122800",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ahlCVA · 899 points · 335 comments",
+      "blurb": "Anthropic researchers used Claude to dig into the murky history of ECDSA's curve selection — a cryptographic mystery with real security implications. It's a showcase of LLMs doing serious technical research rather than just summarizing Wikipedia. Fascinating intersection of AI capability and cryptographic history."
+    },
+    {
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "hn_link": "https://news.ycombinator.com/item?id=50121179",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by speckx · 521 points · 442 comments",
+      "blurb": "Mercor maps real-world labor tasks against AI benchmark coverage and finds a yawning gap — the things humans actually do at work are mostly untested by current evals. This is essential context for anyone building with or selling AI tools: the benchmarks are measuring a sliver of reality. Required reading before your next AI ROI conversation."
+    },
+    {
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "hn_link": "https://news.ycombinator.com/item?id=50118320",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by antipaul · 327 points · 164 comments",
+      "blurb": "Apple's ML team demonstrates distributed inference with MLX across Mac Studio hardware — running large models locally across Apple Silicon. If you've been eyeing a Mac Studio for on-device AI work, this is the technical proof-of-concept that makes the case. The Apple ecosystem's local-AI story keeps getting stronger."
+    },
+    {
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "hn_link": "https://news.ycombinator.com/item?id=50129121",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 238 points · 71 comments",
+      "blurb": "DeepSeek drops another Flash model, and it's already on OpenRouter — meaning you can swap it into your AI toolchain today. The Flash series keeps punching above its weight class for coding tasks. Worth benchmarking against whatever you're currently using in your dev workflow."
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "hn_link": "https://news.ycombinator.com/item?id=50122431",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by Anon84 · 302 points · 75 comments",
+      "blurb": "Someone ported llama.cpp to a jailbroken PS5, and it actually runs GGUF models on the console's AMD GPU. It's gloriously impractical and technically impressive in equal measure. A great reminder that llama.cpp's portability is genuinely extraordinary."
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "hn_link": "https://news.ycombinator.com/item?id=50122878",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by speckx · 323 points · 76 comments",
+      "blurb": "A beautifully constructed argument that the transformer architecture falls naturally out of associative memory theory — you didn't need to be a genius, just to connect the right dots. Demystifies the architecture in a way that makes the internals click. Essential for developers who want to reason about AI systems rather than just use them."
+    },
+    {
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "hn_link": "https://news.ycombinator.com/item?id=50123580",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by gmays · 176 points · 48 comments",
+      "blurb": "Black Forest Labs launches FLUX 3 Image Klein, the latest in their image generation lineup. FLUX has become the serious creative's alternative to Midjourney for quality and control. If you're building image generation into any project, this is what to evaluate next."
+    },
+    {
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "url": "https://calif.io/research/big-fish",
+      "hn_link": "https://news.ycombinator.com/item?id=50118977",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by rs_rs_rs_rs_rs · 188 points · 59 comments",
+      "blurb": "Security researchers unearthed and exploited a kernel vulnerability hiding in OpenBSD for nearly four decades. The writeup is a masterclass in low-level exploit research — patience, assembly, and a healthy disrespect for \"secure\" operating systems. Sobering reading for anyone who trusts old code."
+    },
+    {
+      "title": "JPEG XL vs. AVIF for web use-cases",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "hn_link": "https://news.ycombinator.com/item?id=50120224",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by farlight · 271 points · 186 comments",
+      "blurb": "Jake Archibald does his usual thorough visual-comparison treatment on the two modern image format contenders. With Safari's JPEG XL support now mature, this is the definitive guide for picking your stack in 2026. Actionable conclusions: when to use each, and why the answer isn't always obvious."
+    },
+    {
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by albinstman · 105 points · 40 comments",
+      "blurb": "An interactive simulator that lets you preview tokens-per-second for different LLMs on different hardware before you drop thousands on a Mac Studio or NVIDIA rig. This is exactly the tool that was missing from the local-AI hardware decision process. Bookmark it before your next hardware purchase."
+    },
+    {
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 149 points · 32 comments",
+      "blurb": "Anthropic demonstrates Claude tackling quantum circuit optimization — a domain where even experts struggle — and getting genuinely useful results. Another data point in the case for AI as a research accelerator rather than just a code autocomplete. The gap between \"AI as assistant\" and \"AI as collaborator\" keeps narrowing."
+    },
+    {
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by __cayenne__ · 226 points · 102 comments",
+      "blurb": "A benchmark pitting Gemini 4 Argon against StarCraft — one of the historically hardest games for AI agents due to real-time strategy demands. The results are more impressive than expected and the leaderboard format makes comparisons easy. AI gaming benchmarks are becoming a surprisingly good proxy for general reasoning capability."
+    },
+    {
+      "title": "A story of WiFi secrets, UART lockdowns and a damaged flash memory chip",
+      "url": "https://adepts.of0x.cc/eufy-homestation2-firmware/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by michidk · 52 points · 3 comments",
+      "blurb": "A hardware hacker tears apart a Eufy home security device to extract its firmware, fighting through locked UART, damaged flash, and obfuscated WiFi credentials. A vivid reminder of what \"smart home\" devices are doing behind the scenes — and why you might not want them on your trusted network."
+    },
+    {
+      "title": "I love software rendering",
+      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by speckx · 327 points · 206 comments",
+      "blurb": "A love letter to the era of CPU-driven pixels — Quake, the demo scene, rasterizing triangles by hand. Beyond nostalgia, it's a technical deep-dive into why software rendering teaches you things that GPU abstraction layers never will. Genuinely inspiring for anyone who's drifted too far from the metal."
+    },
+    {
+      "title": "Tell HN: Remember to migrate away from .name domain",
+      "url": "https://news.ycombinator.com/item?id=50089577",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by nikanj · 64 points · 36 comments",
+      "blurb": "The .name TLD is entering end-of-life territory and domains are at risk of being lost. If you or your projects have .name addresses — for email redirects, personal sites, or old links — act now before the registry situation gets worse. One of those \"glad someone mentioned it\" posts."
+    },
+    {
+      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
+      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by giuliomagnifico · 103 points · 18 comments",
+      "blurb": "Johns Hopkins researchers have built tiny robots that navigate the inside of a beating heart, steered by external magnetic fields, to deliver drugs precisely where needed. The engineering challenges of operating inside a continuously moving, blood-filled chamber are staggering. This is the kind of science that makes you feel like we're living in the future."
+    },
+    {
+      "title": "Monte-Carlo Simulations",
+      "url": "https://eli.thegreenplace.net/2026/monte-carlo-simulations/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 130 points · 25 comments",
+      "blurb": "Eli Bendersky's trademark clear-code-plus-explanation treatment applied to Monte Carlo methods. If you've ever wanted to actually understand the technique rather than just invoke a library, this is the post. The implementations are clean enough to drop straight into a project."
+    },
+    {
+      "title": "Nine-Inch Snails",
+      "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by zdw · 77 points · 38 comments",
+      "blurb": "Giant African Snails — up to nine inches long — are staging a comeback invasion in Florida despite multiple eradication campaigns. The Atlantic piece digs into the biology, the regulatory chaos, and why these particular mollusks are so fiendishly hard to eliminate. Oddly compelling reading for a Saturday."
+    },
+    {
+      "title": "What was a Token Ring network?",
+      "url": "https://dfarq.homeip.net/what-was-a-token-ring-network/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ibobev · 114 points · 88 comments",
+      "blurb": "A warm retrospective on IBM's Token Ring — the deterministic, collision-free networking technology that Ethernet eventually buried for economic rather than technical reasons. A useful history lesson in how superior engineering doesn't always win, and a reminder that the networking decisions of the 80s still echo in how we design distributed systems."
+    }
+  ]
+}

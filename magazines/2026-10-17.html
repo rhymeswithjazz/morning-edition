@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 17, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 17, 2026.">
+<meta property="og:title" content="Morning Edition — October 17, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-17.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Saturday · October 17, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">How the Claude Code team does code review</a></li>
+      <li><a href="#s2">Claude reveals ECDSA curve origins</a></li>
+      <li><a href="#s3">90% of US working hours are spent on tasks not covered well by AI benchmarks</a></li>
+      <li><a href="#s4">Apple ML Research: Muse Spark Open with MLX on Mac Studio</a></li>
+      <li><a href="#s5">DeepSeek: DeepSeek v4.1 Flash 1017</a></li>
+      <li><a href="#s6">Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console</a></li>
+      <li><a href="#s7">You could have invented transformers from memory</a></li>
+      <li><a href="#s8">FLUX 3 Image Klein</a></li>
+      <li><a href="#s9">Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD</a></li>
+      <li><a href="#s10">JPEG XL vs. AVIF for web use-cases</a></li>
+      <li><a href="#s11">Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</a></li>
+      <li><a href="#s12">Designing more efficient quantum circuits with Claude</a></li>
+      <li><a href="#s13">Show HN: Gemini 4 Argon plays StarCraft</a></li>
+      <li><a href="#s14">A story of WiFi secrets, UART lockdowns and a damaged flash memory chip</a></li>
+      <li><a href="#s15">I love software rendering</a></li>
+      <li><a href="#s16">Tell HN: Remember to migrate away from .name domain</a></li>
+      <li><a href="#s17">Wireless magnetic millirobots that deliver medicine inside the beating heart</a></li>
+      <li><a href="#s18">Monte-Carlo Simulations</a></li>
+      <li><a href="#s19">Nine-Inch Snails</a></li>
+      <li><a href="#s20">What was a Token Ring network?</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.dev/blog/solving-code-review-at-anthropic/">How the Claude Code team does code review</a></h3>
+    <div class="byline">by pretext · 370 points · 340 comments</div>
+    <p class="blurb">Direct insight from the team that builds the tool you use daily. The Claude Code team explains their own AI-augmented code review process — eating the dog food in the most literal sense. If you&#x27;re integrating Claude Code into your workflow, this is the closest thing to an official playbook.</p>
+    <div class="links">
+      <a href="https://claude.dev/blog/solving-code-review-at-anthropic/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50122951">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/ecdsa-curve-origins">Claude reveals ECDSA curve origins</a></h3>
+    <div class="byline">by ahlCVA · 899 points · 335 comments</div>
+    <p class="blurb">Anthropic researchers used Claude to dig into the murky history of ECDSA&#x27;s curve selection — a cryptographic mystery with real security implications. It&#x27;s a showcase of LLMs doing serious technical research rather than just summarizing Wikipedia. Fascinating intersection of AI capability and cryptographic history.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/ecdsa-curve-origins">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50122800">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.mercor.com/research/labor-index/benchmark-map/">90% of US working hours are spent on tasks not covered well by AI benchmarks</a></h3>
+    <div class="byline">by speckx · 521 points · 442 comments</div>
+    <p class="blurb">Mercor maps real-world labor tasks against AI benchmark coverage and finds a yawning gap — the things humans actually do at work are mostly untested by current evals. This is essential context for anyone building with or selling AI tools: the benchmarks are measuring a sliver of reality. Required reading before your next AI ROI conversation.</p>
+    <div class="links">
+      <a href="https://www.mercor.com/research/labor-index/benchmark-map/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50121179">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://machinelearning.apple.com/research/mlx-distributed-inference">Apple ML Research: Muse Spark Open with MLX on Mac Studio</a></h3>
+    <div class="byline">by antipaul · 327 points · 164 comments</div>
+    <p class="blurb">Apple&#x27;s ML team demonstrates distributed inference with MLX across Mac Studio hardware — running large models locally across Apple Silicon. If you&#x27;ve been eyeing a Mac Studio for on-device AI work, this is the technical proof-of-concept that makes the case. The Apple ecosystem&#x27;s local-AI story keeps getting stronger.</p>
+    <div class="links">
+      <a href="https://machinelearning.apple.com/research/mlx-distributed-inference">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50118320">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek v4.1 Flash 1017</a></h3>
+    <div class="byline">by theanonymousone · 238 points · 71 comments</div>
+    <p class="blurb">DeepSeek drops another Flash model, and it&#x27;s already on OpenRouter — meaning you can swap it into your AI toolchain today. The Flash series keeps punching above its weight class for coding tasks. Worth benchmarking against whatever you&#x27;re currently using in your dev workflow.</p>
+    <div class="links">
+      <a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50129121">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://github.com/cobanov/PS5LM">Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console</a></h3>
+    <div class="byline">by Anon84 · 302 points · 75 comments</div>
+    <p class="blurb">Someone ported llama.cpp to a jailbroken PS5, and it actually runs GGUF models on the console&#x27;s AMD GPU. It&#x27;s gloriously impractical and technically impressive in equal measure. A great reminder that llama.cpp&#x27;s portability is genuinely extraordinary.</p>
+    <div class="links">
+      <a href="https://github.com/cobanov/PS5LM">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50122431">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://alexwang.ai/posts/associative-memory/">You could have invented transformers from memory</a></h3>
+    <div class="byline">by speckx · 323 points · 76 comments</div>
+    <p class="blurb">A beautifully constructed argument that the transformer architecture falls naturally out of associative memory theory — you didn&#x27;t need to be a genius, just to connect the right dots. Demystifies the architecture in a way that makes the internals click. Essential for developers who want to reason about AI systems rather than just use them.</p>
+    <div class="links">
+      <a href="https://alexwang.ai/posts/associative-memory/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50122878">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://bfl.ai/blog/flux-3-image-klein">FLUX 3 Image Klein</a></h3>
+    <div class="byline">by gmays · 176 points · 48 comments</div>
+    <p class="blurb">Black Forest Labs launches FLUX 3 Image Klein, the latest in their image generation lineup. FLUX has become the serious creative&#x27;s alternative to Midjourney for quality and control. If you&#x27;re building image generation into any project, this is what to evaluate next.</p>
+    <div class="links">
+      <a href="https://bfl.ai/blog/flux-3-image-klein">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50123580">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://calif.io/research/big-fish">Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD</a></h3>
+    <div class="byline">by rs_rs_rs_rs_rs · 188 points · 59 comments</div>
+    <p class="blurb">Security researchers unearthed and exploited a kernel vulnerability hiding in OpenBSD for nearly four decades. The writeup is a masterclass in low-level exploit research — patience, assembly, and a healthy disrespect for &quot;secure&quot; operating systems. Sobering reading for anyone who trusts old code.</p>
+    <div class="links">
+      <a href="https://calif.io/research/big-fish">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50118977">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://jakearchibald.com/2026/jpeg-xl-vs-avif/">JPEG XL vs. AVIF for web use-cases</a></h3>
+    <div class="byline">by farlight · 271 points · 186 comments</div>
+    <p class="blurb">Jake Archibald does his usual thorough visual-comparison treatment on the two modern image format contenders. With Safari&#x27;s JPEG XL support now mature, this is the definitive guide for picking your stack in 2026. Actionable conclusions: when to use each, and why the answer isn&#x27;t always obvious.</p>
+    <div class="links">
+      <a href="https://jakearchibald.com/2026/jpeg-xl-vs-avif/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50120224">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://llmspeed.dev/">Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware</a></h3>
+    <div class="byline">by albinstman · 105 points · 40 comments</div>
+    <p class="blurb">An interactive simulator that lets you preview tokens-per-second for different LLMs on different hardware before you drop thousands on a Mac Studio or NVIDIA rig. This is exactly the tool that was missing from the local-AI hardware decision process. Bookmark it before your next hardware purchase.</p>
+    <div class="links">
+      <a href="https://llmspeed.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/designing-efficient-quantum-circuits">Designing more efficient quantum circuits with Claude</a></h3>
+    <div class="byline">by pretext · 149 points · 32 comments</div>
+    <p class="blurb">Anthropic demonstrates Claude tackling quantum circuit optimization — a domain where even experts struggle — and getting genuinely useful results. Another data point in the case for AI as a research accelerator rather than just a code autocomplete. The gap between &quot;AI as assistant&quot; and &quot;AI as collaborator&quot; keeps narrowing.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/designing-efficient-quantum-circuits">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://starskirmish.com/bench/v0-2/">Show HN: Gemini 4 Argon plays StarCraft</a></h3>
+    <div class="byline">by __cayenne__ · 226 points · 102 comments</div>
+    <p class="blurb">A benchmark pitting Gemini 4 Argon against StarCraft — one of the historically hardest games for AI agents due to real-time strategy demands. The results are more impressive than expected and the leaderboard format makes comparisons easy. AI gaming benchmarks are becoming a surprisingly good proxy for general reasoning capability.</p>
+    <div class="links">
+      <a href="https://starskirmish.com/bench/v0-2/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://adepts.of0x.cc/eufy-homestation2-firmware/">A story of WiFi secrets, UART lockdowns and a damaged flash memory chip</a></h3>
+    <div class="byline">by michidk · 52 points · 3 comments</div>
+    <p class="blurb">A hardware hacker tears apart a Eufy home security device to extract its firmware, fighting through locked UART, damaged flash, and obfuscated WiFi credentials. A vivid reminder of what &quot;smart home&quot; devices are doing behind the scenes — and why you might not want them on your trusted network.</p>
+    <div class="links">
+      <a href="https://adepts.of0x.cc/eufy-homestation2-firmware/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/">I love software rendering</a></h3>
+    <div class="byline">by speckx · 327 points · 206 comments</div>
+    <p class="blurb">A love letter to the era of CPU-driven pixels — Quake, the demo scene, rasterizing triangles by hand. Beyond nostalgia, it&#x27;s a technical deep-dive into why software rendering teaches you things that GPU abstraction layers never will. Genuinely inspiring for anyone who&#x27;s drifted too far from the metal.</p>
+    <div class="links">
+      <a href="https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Actionable</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50089577">Tell HN: Remember to migrate away from .name domain</a></h3>
+    <div class="byline">by nikanj · 64 points · 36 comments</div>
+    <p class="blurb">The .name TLD is entering end-of-life territory and domains are at risk of being lost. If you or your projects have .name addresses — for email redirects, personal sites, or old links — act now before the registry situation gets worse. One of those &quot;glad someone mentioned it&quot; posts.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50089577">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/">Wireless magnetic millirobots that deliver medicine inside the beating heart</a></h3>
+    <div class="byline">by giuliomagnifico · 103 points · 18 comments</div>
+    <p class="blurb">Johns Hopkins researchers have built tiny robots that navigate the inside of a beating heart, steered by external magnetic fields, to deliver drugs precisely where needed. The engineering challenges of operating inside a continuously moving, blood-filled chamber are staggering. This is the kind of science that makes you feel like we&#x27;re living in the future.</p>
+    <div class="links">
+      <a href="https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://eli.thegreenplace.net/2026/monte-carlo-simulations/">Monte-Carlo Simulations</a></h3>
+    <div class="byline">by ibobev · 130 points · 25 comments</div>
+    <p class="blurb">Eli Bendersky&#x27;s trademark clear-code-plus-explanation treatment applied to Monte Carlo methods. If you&#x27;ve ever wanted to actually understand the technique rather than just invoke a library, this is the post. The implementations are clean enough to drop straight into a project.</p>
+    <div class="links">
+      <a href="https://eli.thegreenplace.net/2026/monte-carlo-simulations/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/">Nine-Inch Snails</a></h3>
+    <div class="byline">by zdw · 77 points · 38 comments</div>
+    <p class="blurb">Giant African Snails — up to nine inches long — are staging a comeback invasion in Florida despite multiple eradication campaigns. The Atlantic piece digs into the biology, the regulatory chaos, and why these particular mollusks are so fiendishly hard to eliminate. Oddly compelling reading for a Saturday.</p>
+    <div class="links">
+      <a href="https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://dfarq.homeip.net/what-was-a-token-ring-network/">What was a Token Ring network?</a></h3>
+    <div class="byline">by ibobev · 114 points · 88 comments</div>
+    <p class="blurb">A warm retrospective on IBM&#x27;s Token Ring — the deterministic, collision-free networking technology that Ethernet eventually buried for economic rather than technical reasons. A useful history lesson in how superior engineering doesn&#x27;t always win, and a reminder that the networking decisions of the 80s still echo in how we design distributed systems.</p>
+    <div class="links">
+      <a href="https://dfarq.homeip.net/what-was-a-token-ring-network/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
