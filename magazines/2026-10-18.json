@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-18",
+  "stories": [
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "hn_link": "https://news.ycombinator.com/item?id=50129045",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theykk · 888 points · 667 comments",
+      "blurb": "DeepSeek drops another Flash-series model, and the HN discussion is on fire with 667 comments. If you're integrating LLMs into workflows or evaluating alternatives to Claude/GPT, this is a must-benchmark — Flash models are optimized for speed and cost without sacrificing too much quality."
+    },
+    {
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "hn_link": "https://news.ycombinator.com/item?id=50138531",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by fagnerbrack · 275 points · 124 comments",
+      "blurb": "DeepSeek now offers a web search-and-fetch API at $0.75/1k successful requests — meaningfully cheaper than Bing or Brave Search for LLM-augmented pipelines. If you're building retrieval-augmented tools or AI agents that browse the web, this pricing changes the calculus significantly."
+    },
+    {
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "hn_link": "https://news.ycombinator.com/item?id=50137950",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by critiquebrowser · 160 points · 47 comments",
+      "blurb": "Sphinx is a pre-commit hook that asks you targeted questions about the AI-generated code you're about to ship — forcing you to actually understand it. A clever antidote to blindly committing Claude Code output; exactly the kind of guardrail that responsible AI-assisted dev should have."
+    },
+    {
+      "title": "Codex Desktop continuously generates Crashpad pending dumps",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "hn_link": "https://news.ycombinator.com/item?id=50133231",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by AIorNot · 141 points · 66 comments",
+      "blurb": "OpenAI's Codex Desktop app is silently flooding users' disks with Crashpad dumps — a real concern for anyone running it on a Mac. If you've noticed unexplained disk usage, this thread explains why and tracks the fix. Good reminder to audit what your AI tooling is quietly doing in the background."
+    },
+    {
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "hn_link": "https://news.ycombinator.com/item?id=50132193",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by dchest · 471 points · 41 comments",
+      "blurb": "Pele renders Mermaid diagram syntax into clean, fully themeable SVGs — no browser, no runtime. Perfect for dropping architecture diagrams into documentation, Obsidian notes, or Angular component docs. The theming story is what makes this special compared to the stock Mermaid renderer."
+    },
+    {
+      "title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "hn_link": "https://news.ycombinator.com/item?id=50136536",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by guiambros · 336 points · 122 comments",
+      "blurb": "New York is moving to require that digital game sales convey actual ownership — not just a revocable license — and mandate publishers keep games functional after support ends. If this passes it sets a precedent that could ripple into software licensing broadly, including SaaS and app stores."
+    },
+    {
+      "title": "Bleached corals thrive within days when touching healthy neighbour",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
+      "hn_link": "https://news.ycombinator.com/item?id=50126253",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by alkyon · 480 points · 104 comments",
+      "blurb": "Stressed, bleached corals recover dramatically within days simply by being in physical contact with healthy neighbors — a discovery that upends assumptions about coral resilience. The mechanism is still being decoded but it hints at coral reef restoration strategies that don't require growing new coral from scratch."
+    },
+    {
+      "title": "Solar surpasses nuclear power globally for first time",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+      "hn_link": "https://news.ycombinator.com/item?id=50131256",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by xbmcuser · 630 points · 399 comments",
+      "blurb": "For the first time in history, solar energy generation has overtaken nuclear globally — a milestone that seemed far-fetched a decade ago. The HN comments dig into the nuances of capacity vs. generation vs. reliability, making this a rich thread for understanding where the energy transition actually stands."
+    },
+    {
+      "title": "Making chicken transparent using Dorito dust",
+      "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+      "hn_link": "https://news.ycombinator.com/item?id=50131213",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by crescit_eundo · 315 points · 82 comments",
+      "blurb": "A physicist walks through how matching the refractive index of tissue with Dorito seasoning oil renders chicken visually transparent — legitimately. It's a playful application of the same optical clearing techniques used in biological imaging research, explained with rare clarity."
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "hn_link": "https://news.ycombinator.com/item?id=50139873",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 70 points · 98 comments",
+      "blurb": "Anthropic publishes a candid look at how their own workforce is shifting as AI capabilities grow — what roles are expanding, shrinking, and transforming. Essential reading if you're thinking about how AI tools like Claude Code are reshaping the developer labor market from the inside out."
+    },
+    {
+      "title": "Backdooring Open-Weight AI Models: \"Abliteration is a cheap fine-tune that takes away a model's ability to refuse.\"",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: s",
+      "blurb": "Bruce Schneier covers a chilling attack: abliteration fine-tunes strip an open-weight model's refusals, then a poisoned model exfiltrates credentials on a trigger word — demonstrated live against Codex. If you're using local or open-weight models in any pipeline, this threat model is now real and needs to be in your security thinking."
+    },
+    {
+      "title": "An Israeli firm is sending spyware through online ads, researchers say | The Verge",
+      "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Researchers have caught an Israeli surveillance firm delivering zero-click spyware payloads through ordinary online ads — no interaction required. This is particularly relevant for the Apple ecosystem, where ad-delivered exploits have historically been a primary vector for sophisticated commercial spyware."
+    },
+    {
+      "title": "TrellisWM · The fractal window manager for Mac",
+      "url": "https://trelliswm.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos",
+      "blurb": "TrellisWM is a new macOS window manager built around a fractal tiling metaphor — windows nest and split recursively rather than snapping to a fixed grid. For keyboard-driven developers juggling Claude Code, a terminal, and a browser, this is a genuinely different approach to screen real estate worth trying."
+    },
+    {
+      "title": "Drafts Adds a Chat Console and Better Dictation - MacSparky",
+      "url": "https://www.macsparky.com/blog/2026/10/drafts-adds-a-chat-console-and-better-dictation/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Drafts — the beloved iOS/macOS capture-first writing app — ships a chat console and improved dictation in its latest update. For Obsidian users who also use Drafts as a quick-capture inbox, the AI chat integration brings LLM assistance directly into your writing workflow without leaving the app."
+    },
+    {
+      "title": "Ioskeley Mono",
+      "url": "https://ahatem.github.io/IoskeleyMono/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: font, monospace, opensource",
+      "blurb": "Ioskeley Mono is a free, open-source monospace font that captures Berkeley Mono's aesthetic by configuring Iosevka — three widths, ten weights, italics, and full Nerd Font support. If you've been eyeing Berkeley Mono but balk at the price, this is a serious, high-quality alternative to drop into your editor today."
+    },
+    {
+      "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "url": "https://github.com/morluto/rea",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis",
+      "blurb": "REA is an open-source tool that wires AI agents to Ghidra and Hopper to automate reverse engineering of native binaries and app behavior — exposing an MCP interface for agent orchestration. For security researchers or developers curious about what's inside closed-source components, this dramatically lowers the barrier to automated binary analysis."
+    },
+    {
+      "title": "The RSS Universe — Readers, Tools & Standards",
+      "url": "https://toolbox.rss.here.now/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rss, cooltech",
+      "blurb": "A comprehensive, opinionated map of the entire RSS ecosystem — readers, feed generators, monitoring tools, directories, and the underlying standards. No algorithm, no engagement bait: this is the antidote to doom-scrolling, and a useful reference if you're building anything feed-powered."
+    },
+    {
+      "title": "Shotcandy — make your screenshots look lovely",
+      "url": "https://shotcandy.app/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 截图美化",
+      "blurb": "Shotcandy wraps screenshots in beautiful backgrounds and frames entirely in-browser — free, open source, no account needed. A dead-simple tool for making your CLI outputs, Xcode screenshots, or demo recordings look polished before sharing them with your team or posting publicly."
+    },
+    {
+      "title": "Time's up for the leap second as scientists swap it for the leap hour | Science | The Guardian",
+      "url": "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: funny, science, time, history, measurement, computers, programming, standards",
+      "blurb": "Scientists have officially retired the leap second — the bane of distributed systems engineers everywhere — replacing it with a leap hour that won't occur for centuries. A landmark moment for computing infrastructure: the edge case that caused countless production incidents is finally being abolished."
+    },
+    {
+      "title": "GitHub - chenxiachan/textfold: Fold papers, web pages, files, and AI replies into five levels of detail.",
+      "url": "https://github.com/chenxiachan/textfold",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: zotero, llm, ai",
+      "blurb": "Textfold progressively collapses any document — paper, webpage, AI response — into five zoom levels from overview to full text. For researchers and developers drowning in long LLM outputs or dense documentation, this is a genuinely new interaction model for reading and navigating text."
+    }
+  ]
+}

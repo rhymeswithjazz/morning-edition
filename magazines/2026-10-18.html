@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 18, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 18, 2026.">
+<meta property="og:title" content="Morning Edition — October 18, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-18.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · October 18, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">DeepSeek-v4.1-Flash-1017</a></li>
+      <li><a href="#s2">DeepSeek search and fetch – $0.75 per 1000 successful requests</a></li>
+      <li><a href="#s3">Show HN: Sphinx – A hook that quizzes you on your AI&#x27;s code before shipping</a></li>
+      <li><a href="#s4">Codex Desktop continuously generates Crashpad pending dumps</a></li>
+      <li><a href="#s5">Pele – Mermaid diagrams as themeable SVG</a></li>
+      <li><a href="#s6">NY announces game ownership bill requiring ownership rather than licensing</a></li>
+      <li><a href="#s7">Bleached corals thrive within days when touching healthy neighbour</a></li>
+      <li><a href="#s8">Solar surpasses nuclear power globally for first time</a></li>
+      <li><a href="#s9">Making chicken transparent using Dorito dust</a></li>
+      <li><a href="#s10">How employment is changing at Anthropic</a></li>
+      <li><a href="#s11">Backdooring Open-Weight AI Models: &quot;Abliteration is a cheap fine-tune that takes away a model&#x27;s ability to refuse.&quot;</a></li>
+      <li><a href="#s12">An Israeli firm is sending spyware through online ads, researchers say | The Verge</a></li>
+      <li><a href="#s13">TrellisWM · The fractal window manager for Mac</a></li>
+      <li><a href="#s14">Drafts Adds a Chat Console and Better Dictation - MacSparky</a></li>
+      <li><a href="#s15">Ioskeley Mono</a></li>
+      <li><a href="#s16">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</a></li>
+      <li><a href="#s17">The RSS Universe — Readers, Tools &amp; Standards</a></li>
+      <li><a href="#s18">Shotcandy — make your screenshots look lovely</a></li>
+      <li><a href="#s19">Time&#x27;s up for the leap second as scientists swap it for the leap hour | Science | The Guardian</a></li>
+      <li><a href="#s20">GitHub - chenxiachan/textfold: Fold papers, web pages, files, and AI replies into five levels of detail.</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">DeepSeek-v4.1-Flash-1017</a></h3>
+    <div class="byline">by theykk · 888 points · 667 comments</div>
+    <p class="blurb">DeepSeek drops another Flash-series model, and the HN discussion is on fire with 667 comments. If you&#x27;re integrating LLMs into workflows or evaluating alternatives to Claude/GPT, this is a must-benchmark — Flash models are optimized for speed and cost without sacrificing too much quality.</p>
+    <div class="links">
+      <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50129045">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://api-docs.deepseek.com/guides/search/">DeepSeek search and fetch – $0.75 per 1000 successful requests</a></h3>
+    <div class="byline">by fagnerbrack · 275 points · 124 comments</div>
+    <p class="blurb">DeepSeek now offers a web search-and-fetch API at $0.75/1k successful requests — meaningfully cheaper than Bing or Brave Search for LLM-augmented pipelines. If you&#x27;re building retrieval-augmented tools or AI agents that browse the web, this pricing changes the calculus significantly.</p>
+    <div class="links">
+      <a href="https://api-docs.deepseek.com/guides/search/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50138531">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://sphinx-six-theta.vercel.app/">Show HN: Sphinx – A hook that quizzes you on your AI&#x27;s code before shipping</a></h3>
+    <div class="byline">by critiquebrowser · 160 points · 47 comments</div>
+    <p class="blurb">Sphinx is a pre-commit hook that asks you targeted questions about the AI-generated code you&#x27;re about to ship — forcing you to actually understand it. A clever antidote to blindly committing Claude Code output; exactly the kind of guardrail that responsible AI-assisted dev should have.</p>
+    <div class="links">
+      <a href="https://sphinx-six-theta.vercel.app/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50137950">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/openai/codex/issues/25921">Codex Desktop continuously generates Crashpad pending dumps</a></h3>
+    <div class="byline">by AIorNot · 141 points · 66 comments</div>
+    <p class="blurb">OpenAI&#x27;s Codex Desktop app is silently flooding users&#x27; disks with Crashpad dumps — a real concern for anyone running it on a Mac. If you&#x27;ve noticed unexplained disk usage, this thread explains why and tracks the fix. Good reminder to audit what your AI tooling is quietly doing in the background.</p>
+    <div class="links">
+      <a href="https://github.com/openai/codex/issues/25921">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50133231">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://pele.run/">Pele – Mermaid diagrams as themeable SVG</a></h3>
+    <div class="byline">by dchest · 471 points · 41 comments</div>
+    <p class="blurb">Pele renders Mermaid diagram syntax into clean, fully themeable SVGs — no browser, no runtime. Perfect for dropping architecture diagrams into documentation, Obsidian notes, or Angular component docs. The theming story is what makes this special compared to the stock Mermaid renderer.</p>
+    <div class="links">
+      <a href="https://pele.run/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50132193">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends">NY announces game ownership bill requiring ownership rather than licensing</a></h3>
+    <div class="byline">by guiambros · 336 points · 122 comments</div>
+    <p class="blurb">New York is moving to require that digital game sales convey actual ownership — not just a revocable license — and mandate publishers keep games functional after support ends. If this passes it sets a precedent that could ripple into software licensing broadly, including SaaS and app stores.</p>
+    <div class="links">
+      <a href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50136536">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.nature.com/articles/d41586-026-03266-x">Bleached corals thrive within days when touching healthy neighbour</a></h3>
+    <div class="byline">by alkyon · 480 points · 104 comments</div>
+    <p class="blurb">Stressed, bleached corals recover dramatically within days simply by being in physical contact with healthy neighbors — a discovery that upends assumptions about coral resilience. The mechanism is still being decoded but it hints at coral reef restoration strategies that don&#x27;t require growing new coral from scratch.</p>
+    <div class="links">
+      <a href="https://www.nature.com/articles/d41586-026-03266-x">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50126253">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/">Solar surpasses nuclear power globally for first time</a></h3>
+    <div class="byline">by xbmcuser · 630 points · 399 comments</div>
+    <p class="blurb">For the first time in history, solar energy generation has overtaken nuclear globally — a milestone that seemed far-fetched a decade ago. The HN comments dig into the nuances of capacity vs. generation vs. reliability, making this a rich thread for understanding where the energy transition actually stands.</p>
+    <div class="links">
+      <a href="https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50131256">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using">Making chicken transparent using Dorito dust</a></h3>
+    <div class="byline">by crescit_eundo · 315 points · 82 comments</div>
+    <p class="blurb">A physicist walks through how matching the refractive index of tissue with Dorito seasoning oil renders chicken visually transparent — legitimately. It&#x27;s a playful application of the same optical clearing techniques used in biological imaging research, explained with rare clarity.</p>
+    <div class="links">
+      <a href="https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50131213">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/employment-at-anthropic">How employment is changing at Anthropic</a></h3>
+    <div class="byline">by theanonymousone · 70 points · 98 comments</div>
+    <p class="blurb">Anthropic publishes a candid look at how their own workforce is shifting as AI capabilities grow — what roles are expanding, shrinking, and transforming. Essential reading if you&#x27;re thinking about how AI tools like Claude Code are reshaping the developer labor market from the inside out.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/employment-at-anthropic">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50139873">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html">Backdooring Open-Weight AI Models: &quot;Abliteration is a cheap fine-tune that takes away a model&#x27;s ability to refuse.&quot;</a></h3>
+    <div class="byline">Pinboard Popular · tagged: s</div>
+    <p class="blurb">Bruce Schneier covers a chilling attack: abliteration fine-tunes strip an open-weight model&#x27;s refusals, then a poisoned model exfiltrates credentials on a trigger word — demonstrated live against Codex. If you&#x27;re using local or open-weight models in any pipeline, this threat model is now real and needs to be in your security thinking.</p>
+    <div class="links">
+      <a href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware">An Israeli firm is sending spyware through online ads, researchers say | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Researchers have caught an Israeli surveillance firm delivering zero-click spyware payloads through ordinary online ads — no interaction required. This is particularly relevant for the Apple ecosystem, where ad-delivered exploits have historically been a primary vector for sophisticated commercial spyware.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://trelliswm.app/">TrellisWM · The fractal window manager for Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos</div>
+    <p class="blurb">TrellisWM is a new macOS window manager built around a fractal tiling metaphor — windows nest and split recursively rather than snapping to a fixed grid. For keyboard-driven developers juggling Claude Code, a terminal, and a browser, this is a genuinely different approach to screen real estate worth trying.</p>
+    <div class="links">
+      <a href="https://trelliswm.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.macsparky.com/blog/2026/10/drafts-adds-a-chat-console-and-better-dictation/">Drafts Adds a Chat Console and Better Dictation - MacSparky</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Drafts — the beloved iOS/macOS capture-first writing app — ships a chat console and improved dictation in its latest update. For Obsidian users who also use Drafts as a quick-capture inbox, the AI chat integration brings LLM assistance directly into your writing workflow without leaving the app.</p>
+    <div class="links">
+      <a href="https://www.macsparky.com/blog/2026/10/drafts-adds-a-chat-console-and-better-dictation/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ahatem.github.io/IoskeleyMono/">Ioskeley Mono</a></h3>
+    <div class="byline">Pinboard Popular · tagged: font, monospace, opensource</div>
+    <p class="blurb">Ioskeley Mono is a free, open-source monospace font that captures Berkeley Mono&#x27;s aesthetic by configuring Iosevka — three widths, ten weights, italics, and full Nerd Font support. If you&#x27;ve been eyeing Berkeley Mono but balk at the price, this is a serious, high-quality alternative to drop into your editor today.</p>
+    <div class="links">
+      <a href="https://ahatem.github.io/IoskeleyMono/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/morluto/rea">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis</div>
+    <p class="blurb">REA is an open-source tool that wires AI agents to Ghidra and Hopper to automate reverse engineering of native binaries and app behavior — exposing an MCP interface for agent orchestration. For security researchers or developers curious about what&#x27;s inside closed-source components, this dramatically lowers the barrier to automated binary analysis.</p>
+    <div class="links">
+      <a href="https://github.com/morluto/rea">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://toolbox.rss.here.now/">The RSS Universe — Readers, Tools &amp; Standards</a></h3>
+    <div class="byline">Pinboard Popular · tagged: rss, cooltech</div>
+    <p class="blurb">A comprehensive, opinionated map of the entire RSS ecosystem — readers, feed generators, monitoring tools, directories, and the underlying standards. No algorithm, no engagement bait: this is the antidote to doom-scrolling, and a useful reference if you&#x27;re building anything feed-powered.</p>
+    <div class="links">
+      <a href="https://toolbox.rss.here.now/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://shotcandy.app/">Shotcandy — make your screenshots look lovely</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 截图美化</div>
+    <p class="blurb">Shotcandy wraps screenshots in beautiful backgrounds and frames entirely in-browser — free, open source, no account needed. A dead-simple tool for making your CLI outputs, Xcode screenshots, or demo recordings look polished before sharing them with your team or posting publicly.</p>
+    <div class="links">
+      <a href="https://shotcandy.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour">Time&#x27;s up for the leap second as scientists swap it for the leap hour | Science | The Guardian</a></h3>
+    <div class="byline">Pinboard Popular · tagged: funny, science, time, history, measurement, computers, programming, standards</div>
+    <p class="blurb">Scientists have officially retired the leap second — the bane of distributed systems engineers everywhere — replacing it with a leap hour that won&#x27;t occur for centuries. A landmark moment for computing infrastructure: the edge case that caused countless production incidents is finally being abolished.</p>
+    <div class="links">
+      <a href="https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/chenxiachan/textfold">GitHub - chenxiachan/textfold: Fold papers, web pages, files, and AI replies into five levels of detail.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: zotero, llm, ai</div>
+    <p class="blurb">Textfold progressively collapses any document — paper, webpage, AI response — into five zoom levels from overview to full text. For researchers and developers drowning in long LLM outputs or dense documentation, this is a genuinely new interaction model for reading and navigating text.</p>
+    <div class="links">
+      <a href="https://github.com/chenxiachan/textfold">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
