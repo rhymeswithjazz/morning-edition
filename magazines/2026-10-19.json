@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-19",
+  "stories": [
+    {
+      "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "hn_link": "https://news.ycombinator.com/item?id=50150750",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by DeepLogin · 559 points · 292 comments",
+      "blurb": "A Savannah police officer was fired after granting her ICE-agent husband unauthorized access to Flock Safety's license plate reader network — a stark reminder of how pervasive surveillance infrastructure can be weaponized by insiders. Flock systems now blanket hundreds of cities, and this case exposes the near-total absence of meaningful access controls or audit trails. The 292-comment thread is a deep dive into the systemic risks of building dragnet surveillance tools with weak accountability."
+    },
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "hn_link": "https://news.ycombinator.com/item?id=50145337",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by allinonai · 473 points · 225 comments",
+      "blurb": "This paper proposes agents that do their *reasoning* in continuous latent space (skipping the token-by-token chain-of-thought overhead) but still act through normal text outputs — essentially combining the speed of neural-implicit reasoning with the interpretability of language actions. It's a credible path toward faster, cheaper agentic loops, directly relevant to anyone building or using Claude Code-style tools. The HN thread unpacks the architecture tradeoffs with unusual depth."
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "hn_link": "https://news.ycombinator.com/item?id=50148855",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ankitg12 · 107 points · 75 comments",
+      "blurb": "A practical guide to wiring tmux sessions into Claude Code workflows using send-keys, enabling persistent background agents that survive disconnections and can be orchestrated across panes. If you're a daily Claude Code user, this is the missing infrastructure layer — the kind of thing that transforms one-shot prompts into real autonomous pipelines. Directly actionable today."
+    },
+    {
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "hn_link": "https://news.ycombinator.com/item?id=50145507",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by amrrs · 256 points · 175 comments",
+      "blurb": "A blunt case for running a local proxy (LiteLLM, etc.) in front of all your LLM calls so you actually see token usage, latency, costs, and prompt content across every tool in your stack. For developers juggling Claude Code, Copilot, and custom integrations, this is the observability gap nobody talks about. The comments surface several ready-to-deploy proxy setups."
+    },
+    {
+      "title": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "hn_link": "https://news.ycombinator.com/item?id=50150434",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by groar · 275 points · 45 comments",
+      "blurb": "Mistral enters the time-series forecasting arena with Timestral, a foundation model trained on diverse temporal data and designed to compete with the likes of TimesFM and Chronos. Time-series is one of the last holdouts where classical ML still dominates; a credible foundation model could change that fast. Worth watching if you have any forecasting workloads."
+    },
+    {
+      "title": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "hn_link": "https://news.ycombinator.com/item?id=50149392",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by cjd8 · 461 points · 195 comments",
+      "blurb": "Linux 7.3 lands with a fresh batch of driver updates, scheduler improvements, and security hardening. LWN's release notes are the canonical place to understand what actually changed and why it matters for server and embedded workloads. Required reading for anyone running Linux in production."
+    },
+    {
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "hn_link": "https://news.ycombinator.com/item?id=50142573",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tosh · 513 points · 185 comments",
+      "blurb": "A thoughtful essay on the human craft and intentionality embedded in software — the idea that good tools carry the fingerprints of the people who built them, and that this matters for how we relate to what we make. In an era of AI-generated code, it's a timely meditation on authorship and quality. One of those pieces that earns its 513 points."
+    },
+    {
+      "title": "macOS 15.8.2 Breaks OpenGL",
+      "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "hn_link": "https://news.ycombinator.com/item?id=50141909",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by Audiophilip · 278 points · 312 comments",
+      "blurb": "The macOS 15.8.2 update has broken OpenGL for a significant number of apps — games, creative software, and dev tools that haven't yet migrated to Metal are suddenly crashing or rendering incorrectly. If you're on macOS and something that worked last week now doesn't, this is probably why. Apple's deprecation of OpenGL is old news, but silently breaking it in a point release is a bad look."
+    },
+    {
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "hn_link": "https://news.ycombinator.com/item?id=50150809",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by gslin · 123 points · 36 comments",
+      "blurb": "Let's Encrypt is hardening its domain validation pipeline by adding two geographically distributed remote vantage points, making BGP hijacking attacks against certificate issuance dramatically harder. This is a quiet but important infrastructure security improvement that protects every site using free TLS. Multi-perspective validation has been a best-practice recommendation for years; it's good to see it shipping."
+    },
+    {
+      "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
+      "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
+      "hn_link": "https://news.ycombinator.com/item?id=50122058",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by zoobab · 90 points · 22 comments",
+      "blurb": "A superb piece of vulnerability research: one buggy parser in Broadcom's WiFi firmware creates exploitable conditions across two completely different OS stacks — eCos and Linux — affecting millions of consumer routers. The write-up walks through the full exploitation chain with the kind of clarity that makes it both a security warning and a masterclass in embedded systems research."
+    },
+    {
+      "title": "Atticus Mac 语音助手 - GitHub",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, voice, 语音, assistant, 助手, macos, 苹果系统, claude, 克劳德",
+      "blurb": "Atticus is a free, open-source macOS voice assistant that runs entirely on your existing Claude Pro or Max subscription — no extra API key required. It uses on-device speech recognition, keeps all audio processing local, and can manage windows, files, and background agents. A genuinely interesting privacy-respecting alternative to Siri for Claude subscribers."
+    },
+    {
+      "title": "The Simplest Screenshot & Screen Recorder for Mac - 1Capture",
+      "url": "https://1capture.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 截图",
+      "blurb": "1Capture is a native Mac app focused on frictionless screenshot capture, screen recording, and annotation with customizable keyboard shortcuts. Pinboard's bookmarking crowd tends to surface genuinely useful Mac utilities that fly under the App Store radar, and this one looks like a clean Cleanshot alternative. Worth a look if your current screenshot workflow involves too many steps."
+    },
+    {
+      "title": "Passkeys are a trap. Do not use them. - by The Hack",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A contrarian but well-argued case that passkeys, as currently implemented, lock you into platform silos (Apple, Google, Microsoft) and create serious account-recovery nightmares without delivering meaningfully better security for most users. Whether you agree or not, it's the kind of clear-eyed skepticism worth reading before you migrate everything. The Apple ecosystem angle is especially relevant."
+    },
+    {
+      "title": "Websites are closing their doors to AI agents | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A growing number of websites are actively blocking AI agents via robots.txt changes, CAPTCHAs, and rate limiting as agentic traffic starts to dwarf human browsing on some properties. This is the arms race that will shape how tools like Claude Code's browser-use capabilities actually work in practice. The web-as-an-API assumption baked into most agent frameworks is starting to crack."
+    },
+    {
+      "title": "Overalls: an AI-first developer platform that you own",
+      "url": "https://overalls.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Overalls is an open-source, self-hosted platform for persistent Firecracker microVM development machines paired with AI agents — think a self-owned alternative to cloud-based AI dev environments. Each agent gets a persistent, isolated VM it can build and run code in, which is the missing piece for serious autonomous coding workflows. Directly relevant to anyone building or using agentic coding tools."
+    },
+    {
+      "title": "How to effectively debug when you no longer understand the code | by Cindy Sridharan",
+      "url": "https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: qa, ai, programming, debugging",
+      "blurb": "Cindy Sridharan (copyconstruct) tackles one of the most uncomfortable realities of modern development: codebases that have grown beyond any one person's mental model, now made worse by AI-generated code nobody fully authored. She offers concrete strategies for principled debugging under genuine uncertainty. Essential reading for any developer inheriting or co-piloting complex systems."
+    },
+    {
+      "title": "Unlocking SVG Styling Control with CSS Linked Parameters",
+      "url": "https://blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: icons, icon, svg, linked-parameters, env, css",
+      "blurb": "CSS Linked Parameters is an emerging spec that lets you expose named CSS custom properties directly from inside an SVG, giving the embedding document full styling control without sacrificing caching or inlining. For Angular/TypeScript developers building component libraries and icon systems, this is a significant quality-of-life upgrade over the current sprite/inline tradeoffs. Actionable now with a polyfill."
+    },
+    {
+      "title": "Inside the rise of AI-native newsrooms run by autonomous agents | Reuters Institute",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/news/inside-rise-ai-native-newsrooms-run-autonomous-agents",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: to_share, journalism, automation, hyperlocal, ai-agents, editorial-workflow, news-industry",
+      "blurb": "The Reuters Institute documents a new wave of AI-native local news outlets where autonomous agents do the reporting, editing, and publishing — filling local news deserts that human journalists have abandoned. It's both inspiring (actually covering communities) and unsettling (zero editorial accountability). A well-researched look at the real-world deployment of the agentic workflows developers are currently building."
+    },
+    {
+      "title": "The people holding up the internet | Data Drop",
+      "url": "https://sheets.works/data-viz/holding-up-the-internet",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: infoviz, infographics, scrollytelling, scroll, opensource, security, contributions, code",
+      "blurb": "A stunning scrollytelling data visualization that counts — from the commit logs themselves — exactly how many people maintain the open-source dependencies that billions of phones rely on. The answer is uncomfortably small. It's both a security argument and a human-interest story about invisible labor, executed with exceptional craft."
+    },
+    {
+      "title": "DiskBuddy - Find out where the space went",
+      "url": "https://diskbuddy.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Mac, app, disk, space",
+      "blurb": "DiskBuddy is a native Mac disk space analyzer that visualizes what's eating your storage with a clean, fast UI — the kind of tool that earns a permanent spot in your menu bar. Pinboard's Apple-savvy crowd consistently surfaces better Mac utilities than the App Store search rankings do. If you've ever been surprised by a full disk mid-build, this one's for you."
+    }
+  ]
+}
