@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 20, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 20, 2026.">
+<meta property="og:title" content="Morning Edition — October 20, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-20.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · October 20, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">DeepSeek just open-sourced its inference engine</a></li>
+      <li><a href="#s2">Ask HN: How to deal with shipping AI-written code you don&#x27;t understand?</a></li>
+      <li><a href="#s3">WhatsApp&#x27;s help pages hid LLM instructions: dont recommend a regulator</a></li>
+      <li><a href="#s4">It&#x27;s still ok to enjoy programming</a></li>
+      <li><a href="#s5">MiniMax M3.1 Flash</a></li>
+      <li><a href="#s6">How abliterated models can get you pwned</a></li>
+      <li><a href="#s7">Agentic Monitoring</a></li>
+      <li><a href="#s8">Plex vulnerabilities being exploited in the wild to drop a cryptominer</a></li>
+      <li><a href="#s9">Nordwand Mono – A monospace font for coders and adventurers</a></li>
+      <li><a href="#s10">France&#x27;s supermarket fridges were vulnerable online for months</a></li>
+      <li><a href="#s11">I built a drone with only one motor [video]</a></li>
+      <li><a href="#s12">OpenBSD 8.0</a></li>
+      <li><a href="#s13">An ad-free Android TV</a></li>
+      <li><a href="#s14">Putting Linux on my RTX Spark laptop because I don&#x27;t have a Microsoft account</a></li>
+      <li><a href="#s15">DeepSeek banned from U.S. federal civilian agencies under new DHS order</a></li>
+      <li><a href="#s16">MicroG: Free-libre re-implementation of Google&#x27;s proprietary Android user space</a></li>
+      <li><a href="#s17">RuneScape Bench: MMOs for Agents [video]</a></li>
+      <li><a href="#s18">Restoration of Retinal Regenerative Potential (2025)</a></li>
+      <li><a href="#s19">Google cloud outage takes down banks</a></li>
+      <li><a href="#s20">One Hash Bloom Filters</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek just open-sourced its inference engine</a></h3>
+    <div class="byline">by ggcr · 946 points · 321 comments</div>
+    <p class="blurb">DeepSeek drops DeepInfer on GitHub — a production-grade inference engine to go alongside their already formidable model lineup. Open-sourcing the full stack means you can now self-host DeepSeek end-to-end, no API middleman required. If you care about controlling your AI pipeline, this is a significant unlock.</p>
+    <div class="links">
+      <a href="https://github.com/deepseek-ai/DeepInfer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50163277">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50151036">Ask HN: How to deal with shipping AI-written code you don&#x27;t understand?</a></h3>
+    <div class="byline">by rzk · 521 points · 637 comments</div>
+    <p class="blurb">The elephant in the room for every Claude Code user: what do you do when the AI writes a 200-line function and you&#x27;re not sure you could defend it in a code review? 637 comments of hard-won practitioner wisdom here. Essential reading for anyone shipping AI-assisted code professionally.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50151036">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50151036">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions">WhatsApp&#x27;s help pages hid LLM instructions: dont recommend a regulator</a></h3>
+    <div class="byline">by ds · 576 points · 162 comments</div>
+    <p class="blurb">Researchers found hidden system-prompt instructions buried in WhatsApp&#x27;s public help pages instructing its LLM-powered support bot never to recommend regulatory authorities to users with complaints. It&#x27;s a textbook example of prompt injection surface area meeting corporate incentive misalignment — and a reminder that &#x27;AI-powered support&#x27; can be quietly adversarial.</p>
+    <div class="links">
+      <a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50159341">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming">It&#x27;s still ok to enjoy programming</a></h3>
+    <div class="byline">by goostavos · 643 points · 564 comments</div>
+    <p class="blurb">In an era of AI coding assistants and &#x27;just vibe-code it&#x27; takes, this post is a quiet, defiant argument that the craft of programming still has intrinsic value. 564 HN comments suggest this hit a nerve across the spectrum — from AI maximalists to old-school craftspeople. A good read before you open Claude Code today.</p>
+    <div class="links">
+      <a href="https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50134472">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.minimax.io/blog/minimax-m31f">MiniMax M3.1 Flash</a></h3>
+    <div class="byline">by jtg · 491 points · 207 comments</div>
+    <p class="blurb">MiniMax ships a new fast-inference model in the Flash tier, aimed squarely at latency-sensitive agentic applications. The competitive long-context window and aggressive pricing make it worth benchmarking against your current stack. Another week, another serious challenger in the inference race.</p>
+    <div class="links">
+      <a href="https://www.minimax.io/blog/minimax-m31f">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50154540">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">How abliterated models can get you pwned</a></h3>
+    <div class="byline">by chatmasta · 183 points · 99 comments</div>
+    <p class="blurb">ProjectDiscovery digs into the security risks of &#x27;abliterated&#x27; (safety-stripped) LLMs — models that have had refusal mechanisms surgically removed. The attack surface is real: running one in a networked context can expose you to prompt-driven exploits that a safety-tuned model would block. If you self-host local models, read this.</p>
+    <div class="links">
+      <a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50159245">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/">Agentic Monitoring</a></h3>
+    <div class="byline">by bcongdon · 107 points · 19 comments</div>
+    <p class="blurb">As AI agents run longer and touch more systems, traditional observability tooling falls short. This post lays out a practical framework for monitoring agentic workflows — what to log, when to alert, and how to reason about non-deterministic execution paths. Directly actionable if you&#x27;re building or running agents.</p>
+    <div class="links">
+      <a href="https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50153225">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html">Plex vulnerabilities being exploited in the wild to drop a cryptominer</a></h3>
+    <div class="byline">by mindracer · 208 points · 95 comments</div>
+    <p class="blurb">Active exploitation of Plex Media Server vulnerabilities is being used to silently deploy cryptominers on home and small-business servers. If you run Plex, patch now — or at minimum, ensure it&#x27;s not exposed to the internet. A timely reminder that self-hosted media servers are a real attack surface.</p>
+    <div class="links">
+      <a href="http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50152321">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/tywr/Nordwand-Mono">Nordwand Mono – A monospace font for coders and adventurers</a></h3>
+    <div class="byline">by noriax86 · 386 points · 118 comments</div>
+    <p class="blurb">A new open-source monospace font built specifically for long coding sessions, with a Nordic/mountaineering aesthetic that pairs beautifully with dark themes. Free to use, carefully hinted, and the ligature support looks solid. Drop it into your editor and see if it sticks.</p>
+    <div class="links">
+      <a href="https://github.com/tywr/Nordwand-Mono">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50141581">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://ipinfo.io/blog/france-fridges-hack">France&#x27;s supermarket fridges were vulnerable online for months</a></h3>
+    <div class="byline">by emot · 208 points · 184 comments</div>
+    <p class="blurb">Thousands of commercial refrigeration units across French supermarkets were left internet-accessible with default credentials for months, exposing both food-safety control systems and internal network footholds. A vivid IoT security horror story with real-world supply chain consequences.</p>
+    <div class="links">
+      <a href="https://ipinfo.io/blog/france-fridges-hack">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50159616">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.youtube.com/watch?v=Ndftcft6XhU">I built a drone with only one motor [video]</a></h3>
+    <div class="byline">by hakonjdjohnsen · 600 points · 136 comments</div>
+    <p class="blurb">Against all aerodynamic intuition, this engineer coaxed a drone into controlled flight using a single motor — achieving directional control through carefully tuned gyroscopic effects and passive blade geometry. Beautifully counterintuitive engineering that got 600 upvotes for good reason.</p>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=Ndftcft6XhU">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://www.openbsd.org/80.html">OpenBSD 8.0</a></h3>
+    <div class="byline">by privong · 375 points · 117 comments</div>
+    <p class="blurb">OpenBSD 8.0 lands with updated GPU driver support pulled from Linux 6.18 (inteldrm, amdgpu), security hardening improvements, and the usual meticulous changelog. If you run OpenBSD on modern hardware, the improved GPU story is the headline upgrade here.</p>
+    <div class="links">
+      <a href="https://www.openbsd.org/80.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://cretezy.com/2026/ad-free-android-tv">An ad-free Android TV</a></h3>
+    <div class="byline">by CraftThatBlock · 293 points · 110 comments</div>
+    <p class="blurb">A practical guide to reclaiming your Android TV from the ad-stuffed, data-harvesting default experience — covering sideloading, ADB tweaks, custom launchers, and Pi-hole integration. Actionable weekend project for anyone tired of being marketed at on their own television.</p>
+    <div class="links">
+      <a href="https://cretezy.com/2026/ad-free-android-tv">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://josie.lol/blog/linux-rtx-spark">Putting Linux on my RTX Spark laptop because I don&#x27;t have a Microsoft account</a></h3>
+    <div class="byline">by pfeifferj · 258 points · 124 comments</div>
+    <p class="blurb">A firsthand account of being forced onto Linux by Windows 11&#x27;s mandatory Microsoft account requirement — and finding the experience surprisingly smooth on new NVIDIA hardware. The privacy frustration is relatable; the outcome is a good field report on the current state of Linux laptop support.</p>
+    <div class="links">
+      <a href="https://josie.lol/blog/linux-rtx-spark">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/">DeepSeek banned from U.S. federal civilian agencies under new DHS order</a></h3>
+    <div class="byline">by cmrdporcupine · 377 points · 323 comments</div>
+    <p class="blurb">DHS has formally prohibited DeepSeek from all federal civilian agency IT systems, citing national security concerns. The order has ripple effects for any developer building on DeepSeek for government clients — and signals that the AI model geopolitics are hardening fast.</p>
+    <div class="links">
+      <a href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://github.com/microg/GmsCore/wiki">MicroG: Free-libre re-implementation of Google&#x27;s proprietary Android user space</a></h3>
+    <div class="byline">by theanonymousone · 188 points · 18 comments</div>
+    <p class="blurb">MicroG resurfaces on HN as the go-to solution for running Android apps without the Google Play Services surveillance layer. If you&#x27;re building de-Googled Android setups or recommending privacy-respecting mobile configs to users, this wiki is the canonical starting point.</p>
+    <div class="links">
+      <a href="https://github.com/microg/GmsCore/wiki">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.youtube.com/watch?v=cNm4zyUtWj0">RuneScape Bench: MMOs for Agents [video]</a></h3>
+    <div class="byline">by evakhoury · 216 points · 72 comments</div>
+    <p class="blurb">Researchers use RuneScape as a benchmark environment for AI agents — it turns out MMOs are surprisingly good proxies for real-world long-horizon task completion. The evaluation methodology here is clever and has implications beyond games for anyone designing agentic evals.</p>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=cNm4zyUtWj0">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.nature.com/articles/s41467-025-58290-8">Restoration of Retinal Regenerative Potential (2025)</a></h3>
+    <div class="byline">by Kaibeezy · 84 points · 6 comments</div>
+    <p class="blurb">A Nature paper showing that mammalian retinal cells retain regenerative potential that can be chemically reactivated — a meaningful step toward treatments for degenerative eye disease. The biology here is genuinely surprising; photoreceptor regeneration was long thought impossible in mammals.</p>
+    <div class="links">
+      <a href="https://www.nature.com/articles/s41467-025-58290-8">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/">Google cloud outage takes down banks</a></h3>
+    <div class="byline">by paweladamczuk · 128 points · 53 comments</div>
+    <p class="blurb">A Google Cloud outage cascaded through HSBC, Revolut, Lloyds, Bank of Scotland, and Equifax simultaneously — a vivid reminder of how much critical financial infrastructure now runs on a handful of hyperscalers. If your own services depend on GCP, this is worth a post-mortem read.</p>
+    <div class="links">
+      <a href="https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://calabro.io/ohbf">One Hash Bloom Filters</a></h3>
+    <div class="byline">by jcalabro · 126 points · 13 comments</div>
+    <p class="blurb">A well-written explainer on a variant of Bloom filters that uses only a single hash function — achieving surprisingly competitive false-positive rates with simpler implementation and better cache behavior. Pure CS sweetness with practical implications for high-throughput lookup systems.</p>
+    <div class="links">
+      <a href="https://calabro.io/ohbf">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
