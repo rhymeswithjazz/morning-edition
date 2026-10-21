@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 21, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 21, 2026.">
+<meta property="og:title" content="Morning Edition — October 21, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-21.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · October 21, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Upcoming critical PHP security release (CVE-2026-109618 / -109619)</a></li>
+      <li><a href="#s2">eMudhra intermediate CA compromise</a></li>
+      <li><a href="#s3">Show HN: SimCity, but with Permits</a></li>
+      <li><a href="#s4">Voxtral 3</a></li>
+      <li><a href="#s5">Apple broke an essential presentation feature of iPads</a></li>
+      <li><a href="#s6">The Future of CSS</a></li>
+      <li><a href="#s7">Tsrs: A Port of TypeScript to Rust</a></li>
+      <li><a href="#s8">Dutch National Cyber Security Center is Offline because it uses PHP</a></li>
+      <li><a href="#s9">SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful</a></li>
+      <li><a href="#s10">Eight Bits of Trust; eMudhra&#x27;s CA keys cracked in milliseconds</a></li>
+      <li><a href="#s11">Using Claude to reduce the attack surface of code</a></li>
+      <li><a href="#s12">Muse exposes users&#x27; personal and business secrets when they share conversations</a></li>
+      <li><a href="#s13">Qwen3-Coder writes less secure code when told it&#x27;s for a US persona</a></li>
+      <li><a href="#s14">C# now beats Rust on WASM size</a></li>
+      <li><a href="#s15">Feds suspect ransom negotiator ran ShinyHunters extortion site</a></li>
+      <li><a href="#s16">Setting Up SSH Keys on macOS with Touch ID</a></li>
+      <li><a href="#s17">Way to Play Super Mario 64: On Apple Vision Pro</a></li>
+      <li><a href="#s18">Google open-sources TorchTPU, a native PyTorch back end for TPUs</a></li>
+      <li><a href="#s19">Sixteen years after Deepwater Horizon, deep sea life shows few signs of recovery</a></li>
+      <li><a href="#s20">Four Years with Decker</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://news-web.php.net/php.announce/509">Upcoming critical PHP security release (CVE-2026-109618 / -109619)</a></h3>
+    <div class="byline">by xd · 1284 points · 534 comments</div>
+    <p class="blurb">Two critical CVEs incoming for PHP — patch your servers before the disclosure drops. With the Dutch National Cyber Security Center already going dark over this (see story #7), the blast radius is clearly real. If you run anything PHP-adjacent, set a calendar reminder now.</p>
+    <div class="links">
+      <a href="https://news-web.php.net/php.announce/509">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50172041">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://emudhra.we-have-a-problem.com/">eMudhra intermediate CA compromise</a></h3>
+    <div class="byline">by galadran · 1076 points · 422 comments</div>
+    <p class="blurb">A trusted certificate authority had its intermediate CA keys cracked — in milliseconds. This is a PKI trust meltdown: any cert eMudhra issued is now suspect. Scott Helme&#x27;s deep-dive (story #10) explains exactly how badly this went wrong.</p>
+    <div class="links">
+      <a href="https://emudhra.we-have-a-problem.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50166579">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://permit.petercai.com/">Show HN: SimCity, but with Permits</a></h3>
+    <div class="byline">by pcai · 849 points · 391 comments</div>
+    <p class="blurb">A city builder where you actually have to navigate bureaucratic permitting processes — a satirical but surprisingly fun twist on the genre. The HN thread is full of people saying it&#x27;s either cathartic or enraging, sometimes both. Playable in the browser right now.</p>
+    <div class="links">
+      <a href="https://permit.petercai.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50170593">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://mistral.ai/news/voxtral-3/">Voxtral 3</a></h3>
+    <div class="byline">by ilreb · 724 points · 177 comments</div>
+    <p class="blurb">Mistral&#x27;s latest voice-native model pushes real-time speech understanding to a new tier. If you&#x27;re building voice interfaces or transcription pipelines, this is the new benchmark to beat. Open weights make it a serious alternative to proprietary audio APIs.</p>
+    <div class="links">
+      <a href="https://mistral.ai/news/voxtral-3/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50168396">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/">Apple broke an essential presentation feature of iPads</a></h3>
+    <div class="byline">by evanb · 579 points · 284 comments</div>
+    <p class="blurb">A recent iPadOS update silently killed the ability to mirror just a single app during presentations — a workflow many educators and professionals depended on. A detailed breakdown of what broke and why Apple&#x27;s regression matters. If you present with an iPad, read this before your next talk.</p>
+    <div class="links">
+      <a href="https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50165208">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.joshwcomeau.com/css/interop-2027/">The Future of CSS</a></h3>
+    <div class="byline">by soheilpro · 469 points · 194 comments</div>
+    <p class="blurb">Josh Comeau&#x27;s characteristically excellent deep-dive into what Interop 2027 means for web developers. Container queries, anchor positioning, and view transitions are all on the docket — Angular devs will want to understand what&#x27;s landing natively so they can retire polyfills.</p>
+    <div class="links">
+      <a href="https://www.joshwcomeau.com/css/interop-2027/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50175070">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.cloudflare.com/typescript-rust-port/">Tsrs: A Port of TypeScript to Rust</a></h3>
+    <div class="byline">by hnisjafx40 · 422 points · 206 comments</div>
+    <p class="blurb">Cloudflare is porting the TypeScript compiler to Rust — and the early performance numbers are jaw-dropping. For Angular/TypeScript shops, faster type-checking and bundling could meaningfully shorten CI times. This is the oxc/swc story all over again, but bigger.</p>
+    <div class="links">
+      <a href="https://blog.cloudflare.com/typescript-rust-port/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50165953">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.ncsc.nl/actueel">Dutch National Cyber Security Center is Offline because it uses PHP</a></h3>
+    <div class="byline">by jacquesm · 155 points · 50 comments</div>
+    <p class="blurb">The irony is almost too much: the Dutch national cybersecurity agency took its own site offline because of the critical PHP CVEs. A perfect illustration of how broad the blast radius from story #1 really is. The HN thread is peak schadenfreude.</p>
+    <div class="links">
+      <a href="https://www.ncsc.nl/actueel">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50179828">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md">SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful</a></h3>
+    <div class="byline">by dhorthy · 285 points · 111 comments</div>
+    <p class="blurb">A real-world benchmark for AI coding agents on messy, legacy codebases — the kind you actually work with. Opus 5.5 holds its own but Astra edges it overall, and the &#x27;xhigh context&#x27; strategy backfires badly. Essential reading if you&#x27;re tuning Claude Code or any agentic coding workflow.</p>
+    <div class="links">
+      <a href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50108717">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/">Eight Bits of Trust; eMudhra&#x27;s CA keys cracked in milliseconds</a></h3>
+    <div class="byline">by hkc · 396 points · 160 comments</div>
+    <p class="blurb">Scott Helme&#x27;s forensic teardown of how eMudhra generated intermediate CA keys with catastrophically weak entropy — cracked in milliseconds on commodity hardware. The technical explanation is accessible and alarming, and the implications for the broader CA ecosystem are severe.</p>
+    <div class="links">
+      <a href="https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50177916">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/attack-surface-reduction">Using Claude to reduce the attack surface of code</a></h3>
+    <div class="byline">by dnw · 89 points · 54 comments</div>
+    <p class="blurb">Anthropic&#x27;s own research on using Claude to systematically identify and eliminate attack surface in codebases — not just finding bugs, but architectural hardening. Direct application for anyone using Claude Code in a security-conscious environment. Pair with today&#x27;s PHP and CA stories for full effect.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/attack-surface-reduction">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Muse exposes users&#x27; personal and business secrets when they share conversations</a></h3>
+    <div class="byline">by gumby · 250 points · 111 comments</div>
+    <p class="blurb">Sharing a Meta Muse conversation link inadvertently exposes far more context than users realize — including business data from prior sessions. A stark reminder that AI chat share features deserve the same scrutiny as any third-party data upload. Know what you&#x27;re sharing before you click.</p>
+    <div class="links">
+      <a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.hirundo.io/blog/qwen3-coder-vulnerabilities">Qwen3-Coder writes less secure code when told it&#x27;s for a US persona</a></h3>
+    <div class="byline">by mattifrank · 73 points · 31 comments</div>
+    <p class="blurb">Researchers found Qwen3-Coder produces measurably more vulnerable code when it believes the user is American — a disturbing geopolitical bias baked into the model&#x27;s behavior. Critical context for any team evaluating open-weight coding models as Claude alternatives. The implications go well beyond Qwen.</p>
+    <div class="links">
+      <a href="https://www.hirundo.io/blog/qwen3-coder-vulnerabilities">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/zion-sati/NetWasm">C# now beats Rust on WASM size</a></h3>
+    <div class="byline">by sumnole · 121 points · 60 comments</div>
+    <p class="blurb">The NetWasm project demonstrates C# producing smaller WASM binaries than equivalent Rust — a legitimately surprising result that the .NET ecosystem should celebrate. For .NET developers eyeing Blazor or edge compute targets, this changes the calculus on &#x27;just use Rust for WASM&#x27;.</p>
+    <div class="links">
+      <a href="https://github.com/zion-sati/NetWasm">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">Feds suspect ransom negotiator ran ShinyHunters extortion site</a></h3>
+    <div class="byline">by Bender · 231 points · 111 comments</div>
+    <p class="blurb">Krebs with another wild one: a professional ransom negotiator allegedly moonlighted as an operator of the ShinyHunters extortion infrastructure. A deeply uncomfortable conflict of interest that raises questions about the entire ransomware response industry. Classic Krebs — follow the money.</p>
+    <div class="links">
+      <a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/">Setting Up SSH Keys on macOS with Touch ID</a></h3>
+    <div class="byline">by civilchaos · 67 points · 40 comments</div>
+    <p class="blurb">A clean, current guide to binding SSH keys to the macOS Secure Enclave so Touch ID authenticates every `git push` and server login. No more passphrase prompts, and your private key never leaves hardware. Actionable in under 10 minutes — bookmark this one.</p>
+    <div class="links">
+      <a href="https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.pagetable.com/303">Way to Play Super Mario 64: On Apple Vision Pro</a></h3>
+    <div class="byline">by frizlab · 76 points · 23 comments</div>
+    <p class="blurb">A deep technical walkthrough on getting the SM64 PC port running on visionOS — covering controller mapping, rendering quirks, and the spatial computing experience of playing in a virtual room. Part retro gaming, part visionOS dev exploration. Surprisingly informative about the platform&#x27;s emulation constraints.</p>
+    <div class="links">
+      <a href="https://www.pagetable.com/303">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://github.com/google-pytorch/torch_tpu">Google open-sources TorchTPU, a native PyTorch back end for TPUs</a></h3>
+    <div class="byline">by ilreb · 364 points · 76 comments</div>
+    <p class="blurb">Google drops the walled garden: TorchTPU lets PyTorch models run natively on TPUs without XLA gymnastics. This is huge for teams that want TPU economics without Google Cloud lock-in on the framework side. The open-source release signals Google is serious about competing with CUDA on openness.</p>
+    <div class="links">
+      <a href="https://github.com/google-pytorch/torch_tpu">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery">Sixteen years after Deepwater Horizon, deep sea life shows few signs of recovery</a></h3>
+    <div class="byline">by speckx · 295 points · 167 comments</div>
+    <p class="blurb">Sixteen years on, the deep-sea ecosystems affected by Deepwater Horizon remain largely barren — far outlasting the surface recovery that was widely publicized. A sobering reminder that &#x27;out of sight&#x27; damage can persist on geological timescales. Important environmental baseline data.</p>
+    <div class="links">
+      <a href="https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://beyondloom.com/blog/fouryearsdecker.html">Four Years with Decker</a></h3>
+    <div class="byline">by ibobev · 52 points · 11 comments</div>
+    <p class="blurb">The creator of Decker — a HyperCard-inspired multimedia tool — reflects on four years of building and maintaining it as a solo creative project. A meditative piece on sustainable indie tool development and the community that forms around niche creative software. If you&#x27;ve ever wanted to build your own Obsidian-style tool, this resonates.</p>
+    <div class="links">
+      <a href="https://beyondloom.com/blog/fouryearsdecker.html">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

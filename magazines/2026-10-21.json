@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-21",
+  "stories": [
+    {
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
+      "hn_link": "https://news.ycombinator.com/item?id=50172041",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by xd · 1284 points · 534 comments",
+      "blurb": "Two critical CVEs incoming for PHP — patch your servers before the disclosure drops. With the Dutch National Cyber Security Center already going dark over this (see story #7), the blast radius is clearly real. If you run anything PHP-adjacent, set a calendar reminder now."
+    },
+    {
+      "title": "eMudhra intermediate CA compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50166579",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by galadran · 1076 points · 422 comments",
+      "blurb": "A trusted certificate authority had its intermediate CA keys cracked — in milliseconds. This is a PKI trust meltdown: any cert eMudhra issued is now suspect. Scott Helme's deep-dive (story #10) explains exactly how badly this went wrong."
+    },
+    {
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50170593",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by pcai · 849 points · 391 comments",
+      "blurb": "A city builder where you actually have to navigate bureaucratic permitting processes — a satirical but surprisingly fun twist on the genre. The HN thread is full of people saying it's either cathartic or enraging, sometimes both. Playable in the browser right now."
+    },
+    {
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "hn_link": "https://news.ycombinator.com/item?id=50168396",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 724 points · 177 comments",
+      "blurb": "Mistral's latest voice-native model pushes real-time speech understanding to a new tier. If you're building voice interfaces or transcription pipelines, this is the new benchmark to beat. Open weights make it a serious alternative to proprietary audio APIs."
+    },
+    {
+      "title": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "hn_link": "https://news.ycombinator.com/item?id=50165208",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by evanb · 579 points · 284 comments",
+      "blurb": "A recent iPadOS update silently killed the ability to mirror just a single app during presentations — a workflow many educators and professionals depended on. A detailed breakdown of what broke and why Apple's regression matters. If you present with an iPad, read this before your next talk."
+    },
+    {
+      "title": "The Future of CSS",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "hn_link": "https://news.ycombinator.com/item?id=50175070",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by soheilpro · 469 points · 194 comments",
+      "blurb": "Josh Comeau's characteristically excellent deep-dive into what Interop 2027 means for web developers. Container queries, anchor positioning, and view transitions are all on the docket — Angular devs will want to understand what's landing natively so they can retire polyfills."
+    },
+    {
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "hn_link": "https://news.ycombinator.com/item?id=50165953",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by hnisjafx40 · 422 points · 206 comments",
+      "blurb": "Cloudflare is porting the TypeScript compiler to Rust — and the early performance numbers are jaw-dropping. For Angular/TypeScript shops, faster type-checking and bundling could meaningfully shorten CI times. This is the oxc/swc story all over again, but bigger."
+    },
+    {
+      "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
+      "url": "https://www.ncsc.nl/actueel",
+      "hn_link": "https://news.ycombinator.com/item?id=50179828",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jacquesm · 155 points · 50 comments",
+      "blurb": "The irony is almost too much: the Dutch national cybersecurity agency took its own site offline because of the critical PHP CVEs. A perfect illustration of how broad the blast radius from story #1 really is. The HN thread is peak schadenfreude."
+    },
+    {
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "hn_link": "https://news.ycombinator.com/item?id=50108717",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dhorthy · 285 points · 111 comments",
+      "blurb": "A real-world benchmark for AI coding agents on messy, legacy codebases — the kind you actually work with. Opus 5.5 holds its own but Astra edges it overall, and the 'xhigh context' strategy backfires badly. Essential reading if you're tuning Claude Code or any agentic coding workflow."
+    },
+    {
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "hn_link": "https://news.ycombinator.com/item?id=50177916",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hkc · 396 points · 160 comments",
+      "blurb": "Scott Helme's forensic teardown of how eMudhra generated intermediate CA keys with catastrophically weak entropy — cracked in milliseconds on commodity hardware. The technical explanation is accessible and alarming, and the implications for the broader CA ecosystem are severe."
+    },
+    {
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dnw · 89 points · 54 comments",
+      "blurb": "Anthropic's own research on using Claude to systematically identify and eliminate attack surface in codebases — not just finding bugs, but architectural hardening. Direct application for anyone using Claude Code in a security-conscious environment. Pair with today's PHP and CA stories for full effect."
+    },
+    {
+      "title": "Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gumby · 250 points · 111 comments",
+      "blurb": "Sharing a Meta Muse conversation link inadvertently exposes far more context than users realize — including business data from prior sessions. A stark reminder that AI chat share features deserve the same scrutiny as any third-party data upload. Know what you're sharing before you click."
+    },
+    {
+      "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+      "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mattifrank · 73 points · 31 comments",
+      "blurb": "Researchers found Qwen3-Coder produces measurably more vulnerable code when it believes the user is American — a disturbing geopolitical bias baked into the model's behavior. Critical context for any team evaluating open-weight coding models as Claude alternatives. The implications go well beyond Qwen."
+    },
+    {
+      "title": "C# now beats Rust on WASM size",
+      "url": "https://github.com/zion-sati/NetWasm",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by sumnole · 121 points · 60 comments",
+      "blurb": "The NetWasm project demonstrates C# producing smaller WASM binaries than equivalent Rust — a legitimately surprising result that the .NET ecosystem should celebrate. For .NET developers eyeing Blazor or edge compute targets, this changes the calculus on 'just use Rust for WASM'."
+    },
+    {
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by Bender · 231 points · 111 comments",
+      "blurb": "Krebs with another wild one: a professional ransom negotiator allegedly moonlighted as an operator of the ShinyHunters extortion infrastructure. A deeply uncomfortable conflict of interest that raises questions about the entire ransomware response industry. Classic Krebs — follow the money."
+    },
+    {
+      "title": "Setting Up SSH Keys on macOS with Touch ID",
+      "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by civilchaos · 67 points · 40 comments",
+      "blurb": "A clean, current guide to binding SSH keys to the macOS Secure Enclave so Touch ID authenticates every `git push` and server login. No more passphrase prompts, and your private key never leaves hardware. Actionable in under 10 minutes — bookmark this one."
+    },
+    {
+      "title": "Way to Play Super Mario 64: On Apple Vision Pro",
+      "url": "https://www.pagetable.com/303",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by frizlab · 76 points · 23 comments",
+      "blurb": "A deep technical walkthrough on getting the SM64 PC port running on visionOS — covering controller mapping, rendering quirks, and the spatial computing experience of playing in a virtual room. Part retro gaming, part visionOS dev exploration. Surprisingly informative about the platform's emulation constraints."
+    },
+    {
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by ilreb · 364 points · 76 comments",
+      "blurb": "Google drops the walled garden: TorchTPU lets PyTorch models run natively on TPUs without XLA gymnastics. This is huge for teams that want TPU economics without Google Cloud lock-in on the framework side. The open-source release signals Google is serious about competing with CUDA on openness."
+    },
+    {
+      "title": "Sixteen years after Deepwater Horizon, deep sea life shows few signs of recovery",
+      "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by speckx · 295 points · 167 comments",
+      "blurb": "Sixteen years on, the deep-sea ecosystems affected by Deepwater Horizon remain largely barren — far outlasting the surface recovery that was widely publicized. A sobering reminder that 'out of sight' damage can persist on geological timescales. Important environmental baseline data."
+    },
+    {
+      "title": "Four Years with Decker",
+      "url": "https://beyondloom.com/blog/fouryearsdecker.html",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ibobev · 52 points · 11 comments",
+      "blurb": "The creator of Decker — a HyperCard-inspired multimedia tool — reflects on four years of building and maintaining it as a solo creative project. A meditative piece on sustainable indie tool development and the community that forms around niche creative software. If you've ever wanted to build your own Obsidian-style tool, this resonates."
+    }
+  ]
+}
