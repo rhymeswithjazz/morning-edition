@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-22",
+  "stories": [
+    {
+      "title": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "hn_link": "https://news.ycombinator.com/item?id=50186037",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kuberwastaken · 457 points · 424 comments",
+      "blurb": "Anthropic has launched Claude Duet, a new collaborative AI mode that pairs Claude with human workflows in real time. With 424 comments lighting up HN, this is the most discussed AI product drop of the day. If you're already using Claude Code, Duet is the next thing to understand — it may reshape how agentic pair-programming works."
+    },
+    {
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "hn_link": "https://news.ycombinator.com/item?id=50181114",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by abhisek · 553 points · 180 comments",
+      "blurb": "LiteLLM — a popular Python library for routing requests across LLM providers — had a malicious version slip onto PyPI that installs a credential stealer and backdoor. If you use LiteLLM in any AI tooling or pipelines, check your installed version immediately. Supply-chain attacks on AI tooling are the new frontier, and this one is a live example."
+    },
+    {
+      "title": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "hn_link": "https://news.ycombinator.com/item?id=50180873",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by tuyuri · 1049 points · 552 comments",
+      "blurb": "The top HN story of the day is a security-driven PHP release, companion to today's broader PHP vulnerability disclosure. With over 550 comments, this is dominating the developer conversation. Patch now if you run any PHP infrastructure."
+    },
+    {
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "hn_link": "https://news.ycombinator.com/item?id=50182987",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by ejohnso49 · 766 points · 378 comments",
+      "blurb": "The PHP Foundation explains the critical vulnerability behind today's emergency 8.2.35 release and outlines new security processes to prevent recurrence. A transparent post-mortem worth reading for any team that cares about supply-chain integrity, regardless of whether you write PHP."
+    },
+    {
+      "title": "mitmproxy adds --emudhra option",
+      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "hn_link": "https://news.ycombinator.com/item?id=50189232",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ahlCVA · 540 points · 131 comments",
+      "blurb": "mitmproxy added a dedicated flag to handle the eMudhra compromised CA situation — a rare case of a dev tool shipping a direct mitigation for a live certificate-authority crisis. Directly relevant to the CVE-2026-111943 story below. If you're doing any TLS inspection or testing, this commit is worth understanding."
+    },
+    {
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "hn_link": "https://news.ycombinator.com/item?id=50192900",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by keks24 · 271 points · 83 comments",
+      "blurb": "A compromised intermediate CA has been assigned a CVE — a serious PKI-level event that affects trust chains across the web. The mitmproxy commit and the eMudhra exit from the SSL business are both downstream of this. Everyone with TLS-secured services should understand what this means for certificate validation."
+    },
+    {
+      "title": "Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "hn_link": "https://news.ycombinator.com/item?id=50188228",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by passenger · 521 points · 300 comments",
+      "blurb": "Railway disclosed a significant security incident on October 21st, drawing 300 comments on HN. If you host anything on Railway, read this immediately. The transparency of the disclosure is commendable and worth examining as a model for incident communication."
+    },
+    {
+      "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "hn_link": "https://news.ycombinator.com/item?id=50181136",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nnx · 438 points · 59 comments",
+      "blurb": "DuckDB hits 2.0.0 with its first-ever LTS release — a major milestone for the embedded analytical database that has become indispensable for data wrangling in dev workflows. LTS means you can now commit to it in production with confidence. The name 'Cinnamon Teal' is delightful."
+    },
+    {
+      "title": "GitLab critical patch release",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "hn_link": "https://news.ycombinator.com/item?id=50185869",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by artooro · 373 points · 86 comments",
+      "blurb": "GitLab 19.5.1 is a critical security patch — if your team runs a self-hosted GitLab instance, update now. Critical patches from GitLab tend to be serious; don't wait for the next maintenance window on this one."
+    },
+    {
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50184820",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by cbg0 · 610 points · 345 comments",
+      "blurb": "New Mexico hits Meta with a $25 billion penalty in the Cambridge Analytica case — the largest data-privacy fine in US history by a wide margin. This sets a dramatic new precedent for state-level privacy enforcement and will reverberate through every company that monetizes user data."
+    },
+    {
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by alphax314 · 340 points · 103 comments",
+      "blurb": "A developer trained a 360M-parameter world model to simulate a POSIX terminal — type commands and it predicts the output rather than executing them. It's a fascinating proof-of-concept at the intersection of AI and dev tooling. The implications for sandboxed testing and AI-driven CLI interfaces are genuinely interesting."
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by armcat · 309 points · 132 comments",
+      "blurb": "OpenAI is making its models available directly through Google Cloud — a striking deal between two AI rivals that signals the model layer is becoming infrastructure. For developers already on GCP, this means access to GPT-class models without leaving your existing cloud vendor."
+    },
+    {
+      "title": "Code is clay now",
+      "url": "https://www.albertodenia.com/writing/code-is-clay-now",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by albertodenia · 211 points · 137 comments",
+      "blurb": "A thoughtful essay arguing that AI coding tools have transformed code from a precise, brittle artifact into something malleable and iterative — 'clay' you shape rather than stone you carve. Required reading for anyone using Claude Code or Copilot daily. It will sharpen how you think about your own workflow."
+    },
+    {
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by armcat · 171 points · 85 comments",
+      "blurb": "OpenAI ships an official CLI tool for interacting with its models from the terminal. For developers who live in the shell, this is an immediately actionable addition to your toolkit — pipe code, query models, and script AI calls without leaving your workflow."
+    },
+    {
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jimauthors · 130 points · 78 comments",
+      "blurb": "A sharp technical post that dissects why asking an LLM to rate its own confidence is epistemically broken — the model's stated confidence and its actual calibration are largely uncorrelated. If you're building any AI pipeline that uses self-reported confidence to gate decisions, this is a must-read before you ship."
+    },
+    {
+      "title": "Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by kaycebasques · 341 points · 201 comments",
+      "blurb": "Google publishes its internal Rust style guide — a detailed, opinionated reference that fills a real gap since the official Rust book is sparse on style. Whether you're writing Rust now or just curious how a large org structures it, this is a high-quality reference to bookmark."
+    },
+    {
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ledoge · 265 points · 87 comments",
+      "blurb": "A detailed technical writeup on the first successful Switch 2 jailbreak — fascinating low-level exploit engineering on Nintendo's latest hardware. Even if you have no interest in homebrew, the vulnerability analysis is a compelling read on hardware security research."
+    },
+    {
+      "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+      "url": "https://www.bbc.com/news/articles/cp814l80pw2o",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by bryanrasmussen · 245 points · 56 comments",
+      "blurb": "Researchers discovered a tiny possum and a glider species in remote West Papua that were believed extinct for six millennia. A wonderful palate cleanser amidst today's security chaos — and a reminder that the planet still has surprises left."
+    },
+    {
+      "title": "The compiler was supposed to end programming too",
+      "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 129 points · 181 comments",
+      "blurb": "A well-argued historical essay pointing out that every layer of abstraction — compilers, 4GLs, no-code tools — was once predicted to make programmers obsolete. The AI moment is different, but the pattern is familiar. A grounding read for anyone caught up in the 'AI will replace developers' discourse."
+    },
+    {
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by kmansm27 · 93 points · 27 comments",
+      "blurb": "Omnara is an open-source framework positioning itself as a self-hostable alternative to Anthropic's managed agent infrastructure. For developers who want Claude-class agentic capabilities without vendor lock-in, this is worth evaluating today. Privacy-conscious teams will appreciate keeping agent orchestration on their own infrastructure."
+    }
+  ]
+}

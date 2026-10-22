@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 22, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 22, 2026.">
+<meta property="og:title" content="Morning Edition — October 22, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-22.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Thursday · October 22, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Claude Duet</a></li>
+      <li><a href="#s2">Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor</a></li>
+      <li><a href="#s3">PHP 8.2.35</a></li>
+      <li><a href="#s4">Today&#x27;s PHP security release, and how we&#x27;re strengthening security</a></li>
+      <li><a href="#s5">mitmproxy adds --emudhra option</a></li>
+      <li><a href="#s6">CVE-2026-111943: Compromised Intermediate Certificate Authority</a></li>
+      <li><a href="#s7">Security Disclosure</a></li>
+      <li><a href="#s8">DuckDB 2.0.0 LTS &quot;Cinnamon Teal&quot;</a></li>
+      <li><a href="#s9">GitLab critical patch release</a></li>
+      <li><a href="#s10">Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case</a></li>
+      <li><a href="#s11">WorldTUI: I trained a 360M model to pretend to be a terminal</a></li>
+      <li><a href="#s12">OpenAI models are coming to Google Cloud</a></li>
+      <li><a href="#s13">Code is clay now</a></li>
+      <li><a href="#s14">OpenAI CLI</a></li>
+      <li><a href="#s15">Using LLM for confidence scoring is a bad idea</a></li>
+      <li><a href="#s16">Rust Style Guide</a></li>
+      <li><a href="#s17">Jailbreaking the Switch 2</a></li>
+      <li><a href="#s18">Tiny possum and glider thought extinct for 6000 years found in remote West Papua</a></li>
+      <li><a href="#s19">The compiler was supposed to end programming too</a></li>
+      <li><a href="#s20">Show HN: Omnara – Open-source alternative to Claude Managed Agents</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.com/product/claude-duet">Claude Duet</a></h3>
+    <div class="byline">by kuberwastaken · 457 points · 424 comments</div>
+    <p class="blurb">Anthropic has launched Claude Duet, a new collaborative AI mode that pairs Claude with human workflows in real time. With 424 comments lighting up HN, this is the most discussed AI product drop of the day. If you&#x27;re already using Claude Code, Duet is the next thing to understand — it may reshape how agentic pair-programming works.</p>
+    <div class="links">
+      <a href="https://claude.com/product/claude-duet">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50186037">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/">Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor</a></h3>
+    <div class="byline">by abhisek · 553 points · 180 comments</div>
+    <p class="blurb">LiteLLM — a popular Python library for routing requests across LLM providers — had a malicious version slip onto PyPI that installs a credential stealer and backdoor. If you use LiteLLM in any AI tooling or pipelines, check your installed version immediately. Supply-chain attacks on AI tooling are the new frontier, and this one is a live example.</p>
+    <div class="links">
+      <a href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50181114">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://github.com/php/php-src/releases/tag/php-8.2.35">PHP 8.2.35</a></h3>
+    <div class="byline">by tuyuri · 1049 points · 552 comments</div>
+    <p class="blurb">The top HN story of the day is a security-driven PHP release, companion to today&#x27;s broader PHP vulnerability disclosure. With over 550 comments, this is dominating the developer conversation. Patch now if you run any PHP infrastructure.</p>
+    <div class="links">
+      <a href="https://github.com/php/php-src/releases/tag/php-8.2.35">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50180873">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">Today&#x27;s PHP security release, and how we&#x27;re strengthening security</a></h3>
+    <div class="byline">by ejohnso49 · 766 points · 378 comments</div>
+    <p class="blurb">The PHP Foundation explains the critical vulnerability behind today&#x27;s emergency 8.2.35 release and outlines new security processes to prevent recurrence. A transparent post-mortem worth reading for any team that cares about supply-chain integrity, regardless of whether you write PHP.</p>
+    <div class="links">
+      <a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50182987">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b">mitmproxy adds --emudhra option</a></h3>
+    <div class="byline">by ahlCVA · 540 points · 131 comments</div>
+    <p class="blurb">mitmproxy added a dedicated flag to handle the eMudhra compromised CA situation — a rare case of a dev tool shipping a direct mitigation for a live certificate-authority crisis. Directly relevant to the CVE-2026-111943 story below. If you&#x27;re doing any TLS inspection or testing, this commit is worth understanding.</p>
+    <div class="links">
+      <a href="https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50189232">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nvd.nist.gov/vuln/detail/cve-2026-111943">CVE-2026-111943: Compromised Intermediate Certificate Authority</a></h3>
+    <div class="byline">by keks24 · 271 points · 83 comments</div>
+    <p class="blurb">A compromised intermediate CA has been assigned a CVE — a serious PKI-level event that affects trust chains across the web. The mitmproxy commit and the eMudhra exit from the SSL business are both downstream of this. Everyone with TLS-secured services should understand what this means for certificate validation.</p>
+    <div class="links">
+      <a href="https://nvd.nist.gov/vuln/detail/cve-2026-111943">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50192900">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://blog.railway.com/p/security-disclosure-wednesday-october-21st">Security Disclosure</a></h3>
+    <div class="byline">by passenger · 521 points · 300 comments</div>
+    <p class="blurb">Railway disclosed a significant security incident on October 21st, drawing 300 comments on HN. If you host anything on Railway, read this immediately. The transparency of the disclosure is commendable and worth examining as a model for incident communication.</p>
+    <div class="links">
+      <a href="https://blog.railway.com/p/security-disclosure-wednesday-october-21st">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50188228">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://duckdb.org/2026/10/21/announcing-duckdb-200">DuckDB 2.0.0 LTS &quot;Cinnamon Teal&quot;</a></h3>
+    <div class="byline">by nnx · 438 points · 59 comments</div>
+    <p class="blurb">DuckDB hits 2.0.0 with its first-ever LTS release — a major milestone for the embedded analytical database that has become indispensable for data wrangling in dev workflows. LTS means you can now commit to it in production with confidence. The name &#x27;Cinnamon Teal&#x27; is delightful.</p>
+    <div class="links">
+      <a href="https://duckdb.org/2026/10/21/announcing-duckdb-200">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50181136">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/">GitLab critical patch release</a></h3>
+    <div class="byline">by artooro · 373 points · 86 comments</div>
+    <p class="blurb">GitLab 19.5.1 is a critical security patch — if your team runs a self-hosted GitLab instance, update now. Critical patches from GitLab tend to be serious; don&#x27;t wait for the next maintenance window on this one.</p>
+    <div class="links">
+      <a href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50185869">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html">Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case</a></h3>
+    <div class="byline">by cbg0 · 610 points · 345 comments</div>
+    <p class="blurb">New Mexico hits Meta with a $25 billion penalty in the Cambridge Analytica case — the largest data-privacy fine in US history by a wide margin. This sets a dramatic new precedent for state-level privacy enforcement and will reverberate through every company that monetizes user data.</p>
+    <div class="links">
+      <a href="https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50184820">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://simedw.com/2026/10/21/world-model-terminal/">WorldTUI: I trained a 360M model to pretend to be a terminal</a></h3>
+    <div class="byline">by alphax314 · 340 points · 103 comments</div>
+    <p class="blurb">A developer trained a 360M-parameter world model to simulate a POSIX terminal — type commands and it predicts the output rather than executing them. It&#x27;s a fascinating proof-of-concept at the intersection of AI and dev tooling. The implications for sandboxed testing and AI-driven CLI interfaces are genuinely interesting.</p>
+    <div class="links">
+      <a href="https://simedw.com/2026/10/21/world-model-terminal/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/openai-models-google-cloud/">OpenAI models are coming to Google Cloud</a></h3>
+    <div class="byline">by armcat · 309 points · 132 comments</div>
+    <p class="blurb">OpenAI is making its models available directly through Google Cloud — a striking deal between two AI rivals that signals the model layer is becoming infrastructure. For developers already on GCP, this means access to GPT-class models without leaving your existing cloud vendor.</p>
+    <div class="links">
+      <a href="https://openai.com/index/openai-models-google-cloud/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.albertodenia.com/writing/code-is-clay-now">Code is clay now</a></h3>
+    <div class="byline">by albertodenia · 211 points · 137 comments</div>
+    <p class="blurb">A thoughtful essay arguing that AI coding tools have transformed code from a precise, brittle artifact into something malleable and iterative — &#x27;clay&#x27; you shape rather than stone you carve. Required reading for anyone using Claude Code or Copilot daily. It will sharpen how you think about your own workflow.</p>
+    <div class="links">
+      <a href="https://www.albertodenia.com/writing/code-is-clay-now">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/openai/openai-cli">OpenAI CLI</a></h3>
+    <div class="byline">by armcat · 171 points · 85 comments</div>
+    <p class="blurb">OpenAI ships an official CLI tool for interacting with its models from the terminal. For developers who live in the shell, this is an immediately actionable addition to your toolkit — pipe code, query models, and script AI calls without leaving your workflow.</p>
+    <div class="links">
+      <a href="https://github.com/openai/openai-cli">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html">Using LLM for confidence scoring is a bad idea</a></h3>
+    <div class="byline">by jimauthors · 130 points · 78 comments</div>
+    <p class="blurb">A sharp technical post that dissects why asking an LLM to rate its own confidence is epistemically broken — the model&#x27;s stated confidence and its actual calibration are largely uncorrelated. If you&#x27;re building any AI pipeline that uses self-reported confidence to gate decisions, this is a must-read before you ship.</p>
+    <div class="links">
+      <a href="https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://google.github.io/styleguide/rustguide.html">Rust Style Guide</a></h3>
+    <div class="byline">by kaycebasques · 341 points · 201 comments</div>
+    <p class="blurb">Google publishes its internal Rust style guide — a detailed, opinionated reference that fills a real gap since the official Rust book is sparse on style. Whether you&#x27;re writing Rust now or just curious how a large org structures it, this is a high-quality reference to bookmark.</p>
+    <div class="links">
+      <a href="https://google.github.io/styleguide/rustguide.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/">Jailbreaking the Switch 2</a></h3>
+    <div class="byline">by ledoge · 265 points · 87 comments</div>
+    <p class="blurb">A detailed technical writeup on the first successful Switch 2 jailbreak — fascinating low-level exploit engineering on Nintendo&#x27;s latest hardware. Even if you have no interest in homebrew, the vulnerability analysis is a compelling read on hardware security research.</p>
+    <div class="links">
+      <a href="https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.bbc.com/news/articles/cp814l80pw2o">Tiny possum and glider thought extinct for 6000 years found in remote West Papua</a></h3>
+    <div class="byline">by bryanrasmussen · 245 points · 56 comments</div>
+    <p class="blurb">Researchers discovered a tiny possum and a glider species in remote West Papua that were believed extinct for six millennia. A wonderful palate cleanser amidst today&#x27;s security chaos — and a reminder that the planet still has surprises left.</p>
+    <div class="links">
+      <a href="https://www.bbc.com/news/articles/cp814l80pw2o">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/">The compiler was supposed to end programming too</a></h3>
+    <div class="byline">by theanonymousone · 129 points · 181 comments</div>
+    <p class="blurb">A well-argued historical essay pointing out that every layer of abstraction — compilers, 4GLs, no-code tools — was once predicted to make programmers obsolete. The AI moment is different, but the pattern is familiar. A grounding read for anyone caught up in the &#x27;AI will replace developers&#x27; discourse.</p>
+    <div class="links">
+      <a href="https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/omnara-ai/omnara">Show HN: Omnara – Open-source alternative to Claude Managed Agents</a></h3>
+    <div class="byline">by kmansm27 · 93 points · 27 comments</div>
+    <p class="blurb">Omnara is an open-source framework positioning itself as a self-hostable alternative to Anthropic&#x27;s managed agent infrastructure. For developers who want Claude-class agentic capabilities without vendor lock-in, this is worth evaluating today. Privacy-conscious teams will appreciate keeping agent orchestration on their own infrastructure.</p>
+    <div class="links">
+      <a href="https://github.com/omnara-ai/omnara">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
