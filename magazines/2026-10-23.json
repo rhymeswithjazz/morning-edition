@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-23",
+  "stories": [
+    {
+      "title": "Quad9 to exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "hn_link": "https://news.ycombinator.com/item?id=50195959",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by farrokhi · 1271 points · 428 comments",
+      "blurb": "The privacy-focused DNS resolver Quad9 is shutting down its French operations, citing an untenable legal environment after years of court battles over DNS-based blocking orders. This is a canary-in-the-coal-mine moment for the broader DNS privacy ecosystem. If you're routing sensitive queries through Quad9, it's worth understanding what this means for your resolver choices."
+    },
+    {
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "hn_link": "https://news.ycombinator.com/item?id=50195110",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by bo0tzz · 1098 points · 705 comments",
+      "blurb": "After a private key compromise of eMudhra intermediate certificates rocked the web PKI world, the Indian CA is now exiting the global TLS business entirely. The cascading fallout — browsers yanking trust, sites scrambling to reissue certs — is a live stress test of the CA ecosystem's resilience. If you manage any .NET or other services with certs from eMudhra, reissue immediately."
+    },
+    {
+      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "hn_link": "https://news.ycombinator.com/item?id=50193416",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by petecooper · 619 points · 232 comments",
+      "blurb": "A Chainguard engineer publicly confesses to accidentally breaking the coordinated disclosure embargo on the PHP2Shell vulnerability — by independently rediscovering it via AI and publishing fixes before the official window opened. The thread is a remarkably honest post-mortem on how AI-accelerated security research is collapsing traditional responsible-disclosure timelines. Required reading if you ship anything PHP-adjacent."
+    },
+    {
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "hn_link": "https://news.ycombinator.com/item?id=50202217",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by johnbender · 379 points · 228 comments",
+      "blurb": "Anthropic's research arm argues that LLMs are finally cracking the nut of formal verification — not by replacing provers, but by dramatically lowering the cost of writing specs and proof stubs. This is one of the most credible AI-productivity claims in a while, with implications for anyone writing safety-critical .NET or TypeScript. The Claude Code angle makes it directly relevant to this reader."
+    },
+    {
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "hn_link": "https://news.ycombinator.com/item?id=50197313",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rakannimer · 500 points · 499 comments",
+      "blurb": "A cross-model comparison reveals that frontier LLMs converge on nearly identical \"controversial\" positions about humanity — suggesting RLHF is homogenizing outputs in ways that go beyond safety guardrails. With 499 comments, the HN thread is a rich debate about whether this is training data contamination, emergent consensus, or just Goodhart's Law at scale. Sobering for anyone prompting Claude or GPT to be a genuine thinking partner."
+    },
+    {
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "hn_link": "https://news.ycombinator.com/item?id=50198675",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by niemandhier · 433 points · 199 comments",
+      "blurb": "NVIDIA open-sources OpenShell, a sandboxed execution runtime designed for multi-agent AI systems — giving agents safe shell access without letting them escape into host systems. Coming hot on the heels of stories about AI agents accessing bank accounts unsupervised, this feels like necessary infrastructure. Worth evaluating if you're building agentic workflows with Claude Code or similar tools."
+    },
+    {
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "hn_link": "https://news.ycombinator.com/item?id=50202681",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by psxuaw · 601 points · 256 comments",
+      "blurb": "A deeply satisfying deep-dive into Docker's genuinely odd design decisions — layered filesystems, PID 1 semantics, network namespacing quirks — explained with the clarity of someone who has hit every wall personally. The 256-comment thread is unusually signal-rich. If you're containerizing .NET or Angular apps and ever felt like Docker was fighting you, this article explains why."
+    },
+    {
+      "title": "Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "hn_link": "https://news.ycombinator.com/item?id=50196718",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "by aghuang · 468 points · 172 comments",
+      "blurb": "A wild project that ports the XNU kernel and iOS 16.5 firmware stack to run on Android hardware — not emulation, but actual kernel execution. The Apple ecosystem implications are significant: it opens questions about iOS security model assumptions when the hardware abstraction layer is foreign. Fascinating engineering regardless, and the HN thread has sharp skeptics and believers alike."
+    },
+    {
+      "title": "The foolishness of \"natural language programming\" (1978)",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50203161",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by xiaoyu2006 · 241 points · 149 comments",
+      "blurb": "Dijkstra's 1978 takedown of the idea that programming should be done in natural language reads as eerily prescient now that vibe-coding is mainstream. His core argument — that the precision of formal notation is a feature, not a bug — is exactly what gets lost when you ask Claude to \"just make it work.\" Essential context for anyone thinking critically about AI coding assistants."
+    },
+    {
+      "title": "Swedish government offices to ban ChatGPT and Claude",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "hn_link": "https://news.ycombinator.com/item?id=50207405",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by armcat · 116 points · 49 comments",
+      "blurb": "Sweden's government offices are banning both ChatGPT and Claude from official use over data sovereignty and confidentiality concerns. For Claude Code users in enterprise or regulated environments, this is a policy bellwether — expect similar mandates from other EU governments. The question of what AI tooling is permissible at work is becoming as urgent as the tooling itself."
+    },
+    {
+      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+      "url": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cybersecurity, AI_madness",
+      "blurb": "404 Media's definitive longread on 'Black October' — the confluence of AI-assisted vulnerability discovery, PHP2Shell, eMudhra, and cascading internet breakage. Jason Koebler synthesizes expert panic (Matthew Green: \"we're in the part of the movie where you throw whatever you can in the path of the zombies\") with sober analysis of what AI actually changes about offensive security. The most important single article of the week for any developer who runs servers."
+    },
+    {
+      "title": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "Cloudflare open-sources a coding-agent skill for running structured, multi-phase security audits with machine-readable, independently verifiable findings. This is exactly the kind of agentic security tooling that pairs with Claude Code or similar assistants to bring professional-grade audit workflows to solo developers. Drop it into your repo and start finding what you've been missing."
+    },
+    {
+      "title": "Graphify-Labs/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more)",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, programming",
+      "blurb": "Graphify turns any codebase — including SQL schemas, shell scripts, docs, and images — into a queryable knowledge graph for your AI coding assistant. It explicitly supports Claude Code, Cursor, Codex, and Gemini CLI, making it a force-multiplier for navigating large TypeScript/.NET monorepos. The \"app code + database schema + infrastructure in one graph\" pitch is exactly what's missing from most AI coding workflows."
+    },
+    {
+      "title": "Cloud rats and software roaches • Idle Words",
+      "url": "https://idlewords.com/2026/10/cloud_rats_and_software_roaches.htm",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rats, cockroaches, evolution, software, llm",
+      "blurb": "Maciej Cieglowski at his most Cieglowski: arguing that the real AI threat isn't sentient LLMs but small, roach-like self-replicating code that thrives in the dark corners, drainpipes, and trash heaps of the internet. The extended ecological metaphor is both entertaining and genuinely clarifying about what adversarial AI software actually looks like in practice. Idle Words is always worth stopping everything for."
+    },
+    {
+      "title": "HeaderNotes — Mac 版本地优先 Markdown 笔记",
+      "url": "https://headernotes.com/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Mac软件, markdown",
+      "blurb": "HeaderNotes is a new local-first Markdown note-taking app for Mac — notes, meetings, and research stored in plain files you own. If you're an Obsidian user who wants a native Mac feel without the plugin overhead, this beta is worth a look. Local-first and plain-file storage means your data stays yours, which matters."
+    },
+    {
+      "title": "workmux",
+      "url": "https://github.com/raine/workmux",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "Workmux is an opinionated CLI tool that orchestrates git worktrees and tmux sessions together — so switching between feature branches means switching fully-configured terminal workspaces, not just git checkouts. For developers juggling multiple Claude Code agent sessions or long-running tasks across branches, this is a genuine quality-of-life upgrade. Highly actionable."
+    },
+    {
+      "title": "No More Icons In Every Menu By Default",
+      "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Jim Nielsen reports that Apple quietly reversed one of macOS Tahoe's most controversial UI decisions — icon-in-every-menu-item is no longer the default. A small but meaningful win for macOS information density and visual clarity. Apple ecosystem watchers will want to know this landed."
+    },
+    {
+      "title": "DuoBolt — Duplicate File & Photo Finder for Mac & Windows",
+      "url": "https://duobolt.app/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Mac, app, duplicate, finder",
+      "blurb": "DuoBolt is a new native duplicate file and photo finder for Mac — the kind of utility that earns its keep when you're consolidating Obsidian vaults, photo libraries, or project archives. Native Mac apps in this category have historically been either overpriced or ugly; this one looks polished. Worth bookmarking for your next storage cleanup."
+    },
+    {
+      "title": "kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: android, apple, silicon, native, mac, app, development",
+      "blurb": "Mac.apk lets Android apps run as native macOS processes on Apple Silicon — no emulator, no VM, genuine native execution speed. This is a significant hack with real utility for developers who need to test Android apps without spinning up Android Studio. The Apple Silicon architecture's ARM base makes this possible in ways Intel never would have allowed."
+    },
+    {
+      "title": "How to be more ambitious: A tutorial for humans with models",
+      "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, advice, ambition, teaching, example, specificity",
+      "blurb": "Felix Rieseberg argues that the bottleneck with AI coding tools isn't the model — it's that developers set their sights too low when prompting. This practical tutorial reframes how to think about scope and specificity when working with Claude Code or Cursor. If you've been using AI to finish sentences when you could be using it to finish projects, this is your nudge."
+    }
+  ]
+}

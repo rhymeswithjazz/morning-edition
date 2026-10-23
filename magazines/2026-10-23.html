@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 23, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 23, 2026.">
+<meta property="og:title" content="Morning Edition — October 23, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-23.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Friday · October 23, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Quad9 to exit France</a></li>
+      <li><a href="#s2">eMudhra to exit global SSL/TLS certificate business</a></li>
+      <li><a href="#s3">Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.</a></li>
+      <li><a href="#s4">LLMs are making formal software verification feasible at a much larger scale</a></li>
+      <li><a href="#s5">Every AI model has the same &quot;controversial&quot; take on humans</a></li>
+      <li><a href="#s6">OpenShell – A safe, private runtime for fleets of autonomous AI agents</a></li>
+      <li><a href="#s7">Docker is weird</a></li>
+      <li><a href="#s8">Run full iOS 16.5 firmware on Android Devices</a></li>
+      <li><a href="#s9">The foolishness of &quot;natural language programming&quot; (1978)</a></li>
+      <li><a href="#s10">Swedish government offices to ban ChatGPT and Claude</a></li>
+      <li><a href="#s11">AI Is Changing Everything About Hacking. No One Knows What Happens Next</a></li>
+      <li><a href="#s12">security-audit-skill</a></li>
+      <li><a href="#s13">Graphify-Labs/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more)</a></li>
+      <li><a href="#s14">Cloud rats and software roaches • Idle Words</a></li>
+      <li><a href="#s15">HeaderNotes — Mac 版本地优先 Markdown 笔记</a></li>
+      <li><a href="#s16">workmux</a></li>
+      <li><a href="#s17">No More Icons In Every Menu By Default</a></li>
+      <li><a href="#s18">DuoBolt — Duplicate File &amp; Photo Finder for Mac &amp; Windows</a></li>
+      <li><a href="#s19">kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs</a></li>
+      <li><a href="#s20">How to be more ambitious: A tutorial for humans with models</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://quad9.net/news/blog/au-revoir-france/">Quad9 to exit France</a></h3>
+    <div class="byline">by farrokhi · 1271 points · 428 comments</div>
+    <p class="blurb">The privacy-focused DNS resolver Quad9 is shutting down its French operations, citing an untenable legal environment after years of court battles over DNS-based blocking orders. This is a canary-in-the-coal-mine moment for the broader DNS privacy ecosystem. If you&#x27;re routing sensitive queries through Quad9, it&#x27;s worth understanding what this means for your resolver choices.</p>
+    <div class="links">
+      <a href="https://quad9.net/news/blog/au-revoir-france/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50195959">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business">eMudhra to exit global SSL/TLS certificate business</a></h3>
+    <div class="byline">by bo0tzz · 1098 points · 705 comments</div>
+    <p class="blurb">After a private key compromise of eMudhra intermediate certificates rocked the web PKI world, the Indian CA is now exiting the global TLS business entirely. The cascading fallout — browsers yanking trust, sites scrambling to reissue certs — is a live stress test of the CA ecosystem&#x27;s resilience. If you manage any .NET or other services with certs from eMudhra, reissue immediately.</p>
+    <div class="links">
+      <a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50195110">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50193416">Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.</a></h3>
+    <div class="byline">by petecooper · 619 points · 232 comments</div>
+    <p class="blurb">A Chainguard engineer publicly confesses to accidentally breaking the coordinated disclosure embargo on the PHP2Shell vulnerability — by independently rediscovering it via AI and publishing fixes before the official window opened. The thread is a remarkably honest post-mortem on how AI-accelerated security research is collapsing traditional responsible-disclosure timelines. Required reading if you ship anything PHP-adjacent.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50193416">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50193416">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/formal-verification">LLMs are making formal software verification feasible at a much larger scale</a></h3>
+    <div class="byline">by johnbender · 379 points · 228 comments</div>
+    <p class="blurb">Anthropic&#x27;s research arm argues that LLMs are finally cracking the nut of formal verification — not by replacing provers, but by dramatically lowering the cost of writing specs and proof stubs. This is one of the most credible AI-productivity claims in a while, with implications for anyone writing safety-critical .NET or TypeScript. The Claude Code angle makes it directly relevant to this reader.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/formal-verification">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50202217">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans">Every AI model has the same &quot;controversial&quot; take on humans</a></h3>
+    <div class="byline">by rakannimer · 500 points · 499 comments</div>
+    <p class="blurb">A cross-model comparison reveals that frontier LLMs converge on nearly identical &quot;controversial&quot; positions about humanity — suggesting RLHF is homogenizing outputs in ways that go beyond safety guardrails. With 499 comments, the HN thread is a rich debate about whether this is training data contamination, emergent consensus, or just Goodhart&#x27;s Law at scale. Sobering for anyone prompting Claude or GPT to be a genuine thinking partner.</p>
+    <div class="links">
+      <a href="https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50197313">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/NVIDIA/OpenShell">OpenShell – A safe, private runtime for fleets of autonomous AI agents</a></h3>
+    <div class="byline">by niemandhier · 433 points · 199 comments</div>
+    <p class="blurb">NVIDIA open-sources OpenShell, a sandboxed execution runtime designed for multi-agent AI systems — giving agents safe shell access without letting them escape into host systems. Coming hot on the heels of stories about AI agents accessing bank accounts unsupervised, this feels like necessary infrastructure. Worth evaluating if you&#x27;re building agentic workflows with Claude Code or similar tools.</p>
+    <div class="links">
+      <a href="https://github.com/NVIDIA/OpenShell">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50198675">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://codeandcake.dev/posts/2026-10-22-docker-is-weird">Docker is weird</a></h3>
+    <div class="byline">by psxuaw · 601 points · 256 comments</div>
+    <p class="blurb">A deeply satisfying deep-dive into Docker&#x27;s genuinely odd design decisions — layered filesystems, PID 1 semantics, network namespacing quirks — explained with the clarity of someone who has hit every wall personally. The 256-comment thread is unusually signal-rich. If you&#x27;re containerizing .NET or Angular apps and ever felt like Docker was fighting you, this article explains why.</p>
+    <div class="links">
+      <a href="https://codeandcake.dev/posts/2026-10-22-docker-is-weird">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50202681">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/oosexgang/hackios-xnu-kernel">Run full iOS 16.5 firmware on Android Devices</a></h3>
+    <div class="byline">by aghuang · 468 points · 172 comments</div>
+    <p class="blurb">A wild project that ports the XNU kernel and iOS 16.5 firmware stack to run on Android hardware — not emulation, but actual kernel execution. The Apple ecosystem implications are significant: it opens questions about iOS security model assumptions when the hardware abstraction layer is foreign. Fascinating engineering regardless, and the HN thread has sharp skeptics and believers alike.</p>
+    <div class="links">
+      <a href="https://github.com/oosexgang/hackios-xnu-kernel">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50196718">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html">The foolishness of &quot;natural language programming&quot; (1978)</a></h3>
+    <div class="byline">by xiaoyu2006 · 241 points · 149 comments</div>
+    <p class="blurb">Dijkstra&#x27;s 1978 takedown of the idea that programming should be done in natural language reads as eerily prescient now that vibe-coding is mainstream. His core argument — that the precision of formal notation is a feature, not a bug — is exactly what gets lost when you ask Claude to &quot;just make it work.&quot; Essential context for anyone thinking critically about AI coding assistants.</p>
+    <div class="links">
+      <a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50203161">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet">Swedish government offices to ban ChatGPT and Claude</a></h3>
+    <div class="byline">by armcat · 116 points · 49 comments</div>
+    <p class="blurb">Sweden&#x27;s government offices are banning both ChatGPT and Claude from official use over data sovereignty and confidentiality concerns. For Claude Code users in enterprise or regulated environments, this is a policy bellwether — expect similar mandates from other EU governments. The question of what AI tooling is permissible at work is becoming as urgent as the tooling itself.</p>
+    <div class="links">
+      <a href="https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50207405">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/">AI Is Changing Everything About Hacking. No One Knows What Happens Next</a></h3>
+    <div class="byline">Pinboard Popular · tagged: cybersecurity, AI_madness</div>
+    <p class="blurb">404 Media&#x27;s definitive longread on &#x27;Black October&#x27; — the confluence of AI-assisted vulnerability discovery, PHP2Shell, eMudhra, and cascading internet breakage. Jason Koebler synthesizes expert panic (Matthew Green: &quot;we&#x27;re in the part of the movie where you throw whatever you can in the path of the zombies&quot;) with sober analysis of what AI actually changes about offensive security. The most important single article of the week for any developer who runs servers.</p>
+    <div class="links">
+      <a href="https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/cloudflare/security-audit-skill">security-audit-skill</a></h3>
+    <div class="byline">Pinboard Popular · tagged: github-starred</div>
+    <p class="blurb">Cloudflare open-sources a coding-agent skill for running structured, multi-phase security audits with machine-readable, independently verifiable findings. This is exactly the kind of agentic security tooling that pairs with Claude Code or similar assistants to bring professional-grade audit workflows to solo developers. Drop it into your repo and start finding what you&#x27;ve been missing.</p>
+    <div class="links">
+      <a href="https://github.com/cloudflare/security-audit-skill">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, programming</div>
+    <p class="blurb">Graphify turns any codebase — including SQL schemas, shell scripts, docs, and images — into a queryable knowledge graph for your AI coding assistant. It explicitly supports Claude Code, Cursor, Codex, and Gemini CLI, making it a force-multiplier for navigating large TypeScript/.NET monorepos. The &quot;app code + database schema + infrastructure in one graph&quot; pitch is exactly what&#x27;s missing from most AI coding workflows.</p>
+    <div class="links">
+      <a href="https://github.com/Graphify-Labs/graphify">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Weird science</span>
+    </div>
+    <h3><a href="https://idlewords.com/2026/10/cloud_rats_and_software_roaches.htm">Cloud rats and software roaches • Idle Words</a></h3>
+    <div class="byline">Pinboard Popular · tagged: rats, cockroaches, evolution, software, llm</div>
+    <p class="blurb">Maciej Cieglowski at his most Cieglowski: arguing that the real AI threat isn&#x27;t sentient LLMs but small, roach-like self-replicating code that thrives in the dark corners, drainpipes, and trash heaps of the internet. The extended ecological metaphor is both entertaining and genuinely clarifying about what adversarial AI software actually looks like in practice. Idle Words is always worth stopping everything for.</p>
+    <div class="links">
+      <a href="https://idlewords.com/2026/10/cloud_rats_and_software_roaches.htm">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://headernotes.com/">HeaderNotes — Mac 版本地优先 Markdown 笔记</a></h3>
+    <div class="byline">Pinboard Popular · tagged: Mac软件, markdown</div>
+    <p class="blurb">HeaderNotes is a new local-first Markdown note-taking app for Mac — notes, meetings, and research stored in plain files you own. If you&#x27;re an Obsidian user who wants a native Mac feel without the plugin overhead, this beta is worth a look. Local-first and plain-file storage means your data stays yours, which matters.</p>
+    <div class="links">
+      <a href="https://headernotes.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/raine/workmux">workmux</a></h3>
+    <div class="byline">Pinboard Popular · tagged: github-starred</div>
+    <p class="blurb">Workmux is an opinionated CLI tool that orchestrates git worktrees and tmux sessions together — so switching between feature branches means switching fully-configured terminal workspaces, not just git checkouts. For developers juggling multiple Claude Code agent sessions or long-running tasks across branches, this is a genuine quality-of-life upgrade. Highly actionable.</p>
+    <div class="links">
+      <a href="https://github.com/raine/workmux">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.jim-nielsen.com/2026/icons-in-every-menu/">No More Icons In Every Menu By Default</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Jim Nielsen reports that Apple quietly reversed one of macOS Tahoe&#x27;s most controversial UI decisions — icon-in-every-menu-item is no longer the default. A small but meaningful win for macOS information density and visual clarity. Apple ecosystem watchers will want to know this landed.</p>
+    <div class="links">
+      <a href="https://blog.jim-nielsen.com/2026/icons-in-every-menu/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://duobolt.app/">DuoBolt — Duplicate File &amp; Photo Finder for Mac &amp; Windows</a></h3>
+    <div class="byline">Pinboard Popular · tagged: Mac, app, duplicate, finder</div>
+    <p class="blurb">DuoBolt is a new native duplicate file and photo finder for Mac — the kind of utility that earns its keep when you&#x27;re consolidating Obsidian vaults, photo libraries, or project archives. Native Mac apps in this category have historically been either overpriced or ugly; this one looks polished. Worth bookmarking for your next storage cleanup.</p>
+    <div class="links">
+      <a href="https://duobolt.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/kksimp/Mac.apk">kksimp/Mac.apk: Run Android apps natively on Apple Silicon Macs</a></h3>
+    <div class="byline">Pinboard Popular · tagged: android, apple, silicon, native, mac, app, development</div>
+    <p class="blurb">Mac.apk lets Android apps run as native macOS processes on Apple Silicon — no emulator, no VM, genuine native execution speed. This is a significant hack with real utility for developers who need to test Android apps without spinning up Android Studio. The Apple Silicon architecture&#x27;s ARM base makes this possible in ways Intel never would have allowed.</p>
+    <div class="links">
+      <a href="https://github.com/kksimp/Mac.apk">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/">How to be more ambitious: A tutorial for humans with models</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, advice, ambition, teaching, example, specificity</div>
+    <p class="blurb">Felix Rieseberg argues that the bottleneck with AI coding tools isn&#x27;t the model — it&#x27;s that developers set their sights too low when prompting. This practical tutorial reframes how to think about scope and specificity when working with Claude Code or Cursor. If you&#x27;ve been using AI to finish sentences when you could be using it to finish projects, this is your nudge.</p>
+    <div class="links">
+      <a href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
