@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-24",
+  "stories": [
+    {
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "hn_link": "https://news.ycombinator.com/item?id=50211474",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by pavel_lishin · 930 points · 601 comments",
+      "blurb": "A blow-by-blow account of successfully hacking an iPhone — the kind of deep security research that's rare and fascinating in equal measure. With 601 comments, the HN thread is ablaze with discussion about iPhone security assumptions. Essential reading for anyone in the Apple ecosystem who cares about what's actually protecting their device."
+    },
+    {
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "hn_link": "https://news.ycombinator.com/item?id=50212065",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Jowsey · 949 points · 568 comments",
+      "blurb": "Moonshot AI drops two new frontier models — K3.1 Pro for quality and K3.1 Pro Highspeed for latency-sensitive workloads. The field keeps getting more competitive, which matters enormously if you're evaluating which LLM backend to wire into your coding tools. The 568-comment HN thread is a goldmine of benchmark comparisons."
+    },
+    {
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "hn_link": "https://news.ycombinator.com/item?id=50202285",
+      "category": "Actionable",
+      "applies": false,
+      "byline": "by sohkamyung · 1411 points · 237 comments",
+      "blurb": "A delightfully constrained side project: Wikipedia filtered to only show articles about things within a 30-minute walk of your current location. It's the rare geo-aware utility that's genuinely useful rather than gimmicky. Top score of the day for good reason."
+    },
+    {
+      "title": "Canadians are running out of time to oppose Bill C-22",
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "hn_link": "https://news.ycombinator.com/item?id=50202114",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hn_acker · 432 points · 228 comments",
+      "blurb": "The EFF sounds the alarm on Canada's C-22 surveillance bill, which would dramatically expand state access to communications data. Even if you're not Canadian, this is the template bills like this follow globally — and the playbook for fighting them is instructive. Time-sensitive."
+    },
+    {
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "hn_link": "https://news.ycombinator.com/item?id=50218633",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by testing22321 · 248 points · 69 comments",
+      "blurb": "A hacker reverse-engineers their Samsung TV and discovers it's running an on-board AI that was quietly sending audio data to OpenAI — whose account then got suspended for ToS violations. This is the smart-home privacy nightmare made concrete. If you own a modern Samsung TV, this is worth your attention."
+    },
+    {
+      "title": "Dessa: Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "hn_link": "https://news.ycombinator.com/item?id=50213925",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dsr12 · 410 points · 151 comments",
+      "blurb": "Block's AI lab releases Dessa, a conversational model trained exclusively on speech — no text transcripts in the loop. This is a fundamentally different architectural bet than the typical ASR→LLM pipeline and could unlock more natural voice interactions. Fascinating research with real product implications."
+    },
+    {
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "hn_link": "https://news.ycombinator.com/item?id=50217500",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by otoolep · 237 points · 36 comments",
+      "blurb": "The creator of rqlite reflects on a dozen years of building and maintaining a distributed SQLite system — what worked, what didn't, and where the project is going. A rare, honest retrospective from someone who actually shipped and maintained something for over a decade in the database trenches."
+    },
+    {
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "hn_link": "https://news.ycombinator.com/item?id=50218430",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by pentagrama · 208 points · 68 comments",
+      "blurb": "OBS Studio 33 lands with a notable set of improvements to the open-source streaming and recording staple. If you use OBS for screencasting, tutorials, or live coding sessions, the changelog is worth skimming for what's changed in your workflow. The gold standard of open-source creative tooling gets another solid release."
+    },
+    {
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "url": "https://corgi.computer/",
+      "hn_link": "https://news.ycombinator.com/item?id=50214373",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by eiopa · 95 points · 26 comments",
+      "blurb": "Corgi is a terminal multiplexer that integrates AI agents directly into your shell workflow — think tmux meets Claude Code. If you're already living in the terminal and want an agentic layer baked in rather than bolted on, this is the kind of tool worth a serious look. Very much in the spirit of how power users are building with AI today."
+    },
+    {
+      "title": "UUIDv7: Timestamps aren't time-ordered and other oddities",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "hn_link": "https://news.ycombinator.com/item?id=50211746",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ibobev · 155 points · 123 comments",
+      "blurb": "UUIDv7 promises sortable, time-ordered IDs for databases — but the reality is subtler and weirder than the spec implies. If you're using UUIDv7 in a .NET or TypeScript project expecting clean time ordering, this post will disabuse you of some dangerous assumptions. Highly practical for anyone evaluating UUID strategies."
+    },
+    {
+      "title": "Introducing Claude Duet | Claude by Anthropic",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, ML, agents",
+      "blurb": "Anthropic announces Claude Duet — a new collaborative AI mode that lets two Claude instances work in tandem on complex problems. As a Claude Code user, this is directly relevant: multi-agent coordination is where AI coding workflows are heading, and Anthropic is now formally in that game."
+    },
+    {
+      "title": "How the Claude Code team does code review / claude.dev Blog",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, claude, agentic_ai, platform_engineering, git",
+      "blurb": "An inside look at how the Claude Code team itself uses Claude Code for code review at Anthropic — eating their own dog food at scale. Practical insights into agentic review workflows, prompt patterns, and where the rough edges still are. Required reading if you're integrating Claude Code into a team git workflow."
+    },
+    {
+      "title": "Tilde - macOS 原生文件管理器",
+      "url": "https://tildeformac.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 文件管理器",
+      "blurb": "Tilde is a native macOS Finder replacement that lets you keep folders side by side, organize files with custom properties, and give every project its own workspace. For the power user who lives in their file system, this scratches the itch Finder has never managed to. Worth a download if Finder's limitations frustrate you daily."
+    },
+    {
+      "title": "Tangerine — The zero-click offline file converter for Mac",
+      "url": "https://tangerineformac.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, tools",
+      "blurb": "Hold Shift and drag a file — that's the entire UX for converting it. Tangerine is a native Mac utility that converts files with zero clicks and zero cloud upload, keeping everything offline and private. Elegantly simple and exactly the kind of Mac-first tool that Pinboard surfaces before anyone else."
+    },
+    {
+      "title": "pwn.watch · live security incidents",
+      "url": "https://pwn.watch/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "A live dashboard of active security incidents worldwide — CVEs, patch status, fixed versions, advisories, and the posts that broke each story. Think of it as a security news wire with live severity scoring. Bookmark this if you ship software and need to know when something critical lands before Twitter tells you."
+    },
+    {
+      "title": "'This Is Not a Drill': Critical PHP Vulnerabilities Are Setting the Internet on Fire | WIRED",
+      "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: security, php, sysadmin",
+      "blurb": "Two critical PHP vulnerabilities — dubbed php2shell — are causing widespread disruption across the web, with sites going down and emergency patches being rushed out. WIRED's comprehensive explainer covers the scope, the mechanism, and what to do if you have any PHP in your stack or on a NAS. This is the canonical single-link summary of a chaotic day."
+    },
+    {
+      "title": "Introducing Flint - Recursive",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: local, AI, offline, inference, macOS",
+      "blurb": "Recursive launches Flint, a MoE model under 50B parameters that leads agentic coding benchmarks including SWE-Bench Pro v2 — and runs 5× faster than comparable dense models. Tagged for macOS local inference, this could be the model that makes on-device AI coding assistance genuinely viable. Keep an eye on this one."
+    },
+    {
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs - Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: security, tls, certificates",
+      "blurb": "Eight TLS certificates have been discovered compromised, putting the certificate authority trust model under fresh scrutiny. On a week already full of PHP chaos, this is another reminder that the infrastructure underpinning the web has more fragile assumptions than most developers realize. Ars has the cleanest explainer."
+    },
+    {
+      "title": "Uberblok, an interactive museum of ZFS",
+      "url": "https://uberblok.storagebits.workers.dev/en/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: zfs, history, it, computing, solaris, disk, storage, backup, sysadmin, visualization",
+      "blurb": "An interactive, room-by-room museum of how ZFS works — built directly from the source code, with beautiful diagrams and visualizations. This is the explainer that should exist for every complex system: patient, deep, and gorgeous. Even if you never touch ZFS, this is a masterclass in how to document a technology."
+    },
+    {
+      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ml-history, epistemology",
+      "blurb": "A historian uses Claude Opus 5.5 to comb through historical archives and surfaces a previously unknown eyewitness account of the dodo. This is one of those \"AI as research accelerant\" stories that's genuinely exciting rather than hype — demonstrating real scholarly value from LLM-assisted archival work. Delightful and instructive."
+    }
+  ]
+}
