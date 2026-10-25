@@ -1,0 +1,1247 @@
+{
+  "date": "2026-10-25",
+  "fetched_at": "2026-10-25T13:04:05",
+  "candidates": {
+    "hn": [
+      {
+        "source": "hn",
+        "title": "Show HN: Steal My Bitcoin",
+        "url": "https://stealmybitcoin.com/",
+        "hn_id": 50224916,
+        "hn_link": "https://news.ycombinator.com/item?id=50224916",
+        "score": 522,
+        "author": "cloudlandsdev",
+        "comments": 318,
+        "byline_hint": "by cloudlandsdev · 522 points · 318 comments"
+      },
+      {
+        "source": "hn",
+        "title": "We should be more ambitious with the software we build",
+        "url": "https://danluu.com/ambitious/",
+        "hn_id": 50225695,
+        "hn_link": "https://news.ycombinator.com/item?id=50225695",
+        "score": 505,
+        "author": "ltratt",
+        "comments": 438,
+        "byline_hint": "by ltratt · 505 points · 438 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Goose Programming Language",
+        "url": "https://aardappel.github.io/goose/",
+        "hn_id": 50224100,
+        "hn_link": "https://news.ycombinator.com/item?id=50224100",
+        "score": 453,
+        "author": "bobbydigitales",
+        "comments": 276,
+        "byline_hint": "by bobbydigitales · 453 points · 276 comments"
+      },
+      {
+        "source": "hn",
+        "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "hn_id": 50226419,
+        "hn_link": "https://news.ycombinator.com/item?id=50226419",
+        "score": 399,
+        "author": "gnabgib",
+        "comments": 409,
+        "byline_hint": "by gnabgib · 399 points · 409 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+        "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+        "hn_id": 50219177,
+        "hn_link": "https://news.ycombinator.com/item?id=50219177",
+        "score": 341,
+        "author": "theanonymousone",
+        "comments": 164,
+        "byline_hint": "by theanonymousone · 341 points · 164 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+        "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+        "hn_id": 50229587,
+        "hn_link": "https://news.ycombinator.com/item?id=50229587",
+        "score": 333,
+        "author": "vrganj",
+        "comments": 202,
+        "byline_hint": "by vrganj · 333 points · 202 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I don't understand quantum physics (2018)",
+        "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+        "hn_id": 50219666,
+        "hn_link": "https://news.ycombinator.com/item?id=50219666",
+        "score": 330,
+        "author": "rramadass",
+        "comments": 259,
+        "byline_hint": "by rramadass · 330 points · 259 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Physicists trap a single antimatter particle for a month",
+        "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+        "hn_id": 50186450,
+        "hn_link": "https://news.ycombinator.com/item?id=50186450",
+        "score": 317,
+        "author": "mooreds",
+        "comments": 91,
+        "byline_hint": "by mooreds · 317 points · 91 comments"
+      },
+      {
+        "source": "hn",
+        "title": "FreeDNS",
+        "url": "https://freedns.afraid.org/",
+        "hn_id": 50222133,
+        "hn_link": "https://news.ycombinator.com/item?id=50222133",
+        "score": 309,
+        "author": "esher",
+        "comments": 83,
+        "byline_hint": "by esher · 309 points · 83 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Roku developer repositories moved from GitHub to GitLab",
+        "url": "https://blog.roku.com/developer/gitlab-move",
+        "hn_id": 50222622,
+        "hn_link": "https://news.ycombinator.com/item?id=50222622",
+        "score": 291,
+        "author": "cxr",
+        "comments": 205,
+        "byline_hint": "by cxr · 291 points · 205 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A practical guide to AI image generation, from diffusion to agents",
+        "url": "https://danielball.com/notes/ai_image_generation.html",
+        "hn_id": 50171379,
+        "hn_link": "https://news.ycombinator.com/item?id=50171379",
+        "score": 276,
+        "author": "westsmith",
+        "comments": 90,
+        "byline_hint": "by westsmith · 276 points · 90 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How close can pure functional programming get to C?",
+        "url": "https://rtfeldman.com/fp-vs-c",
+        "hn_id": 50218195,
+        "hn_link": "https://news.ycombinator.com/item?id=50218195",
+        "score": 273,
+        "author": "stmonty",
+        "comments": 98,
+        "byline_hint": "by stmonty · 273 points · 98 comments"
+      },
+      {
+        "source": "hn",
+        "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+        "url": "https://github.com/Zagitta/gpu-unlock",
+        "hn_id": 50219700,
+        "hn_link": "https://news.ycombinator.com/item?id=50219700",
+        "score": 272,
+        "author": "fragebogen",
+        "comments": 73,
+        "byline_hint": "by fragebogen · 272 points · 73 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Cerebras Deploys Trillion-Parameter AI Models",
+        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+        "hn_id": 50227356,
+        "hn_link": "https://news.ycombinator.com/item?id=50227356",
+        "score": 218,
+        "author": "gmays",
+        "comments": 69,
+        "byline_hint": "by gmays · 218 points · 69 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why is AI generated language so hard to understand?",
+        "url": "https://arxiv.org/abs/2610.29162",
+        "hn_id": 50223647,
+        "hn_link": "https://news.ycombinator.com/item?id=50223647",
+        "score": 210,
+        "author": "canjobear",
+        "comments": 175,
+        "byline_hint": "by canjobear · 210 points · 175 comments"
+      },
+      {
+        "source": "hn",
+        "title": "SpeedCrunch 1.1",
+        "url": "https://www.speedcrunch.org/",
+        "hn_id": 50224210,
+        "hn_link": "https://news.ycombinator.com/item?id=50224210",
+        "score": 171,
+        "author": "LordNibbler",
+        "comments": 35,
+        "byline_hint": "by LordNibbler · 171 points · 35 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Small Programs and Languages",
+        "url": "https://ratfactor.com/cards/pl-small",
+        "hn_id": 50225674,
+        "hn_link": "https://news.ycombinator.com/item?id=50225674",
+        "score": 132,
+        "author": "andsoitis",
+        "comments": 19,
+        "byline_hint": "by andsoitis · 132 points · 19 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Bbtree: Fastest Ordered Map",
+        "url": "https://bbtree.xiangpeng.systems/post/",
+        "hn_id": 50223777,
+        "hn_link": "https://news.ycombinator.com/item?id=50223777",
+        "score": 128,
+        "author": "aoli-al",
+        "comments": 15,
+        "byline_hint": "by aoli-al · 128 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+        "url": "https://de.numista.com/9866",
+        "hn_id": 50222927,
+        "hn_link": "https://news.ycombinator.com/item?id=50222927",
+        "score": 126,
+        "author": "schleck8",
+        "comments": 39,
+        "byline_hint": "by schleck8 · 126 points · 39 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Neural chip decodes interactions between brain regions",
+        "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+        "hn_id": 50222525,
+        "hn_link": "https://news.ycombinator.com/item?id=50222525",
+        "score": 112,
+        "author": "giuliomagnifico",
+        "comments": 45,
+        "byline_hint": "by giuliomagnifico · 112 points · 45 comments"
+      },
+      {
+        "source": "hn",
+        "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+        "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+        "hn_id": 50229861,
+        "hn_link": "https://news.ycombinator.com/item?id=50229861",
+        "score": 104,
+        "author": "noplay",
+        "comments": 97,
+        "byline_hint": "by noplay · 104 points · 97 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+        "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+        "hn_id": 50230181,
+        "hn_link": "https://news.ycombinator.com/item?id=50230181",
+        "score": 97,
+        "author": "mashally",
+        "comments": 45,
+        "byline_hint": "by mashally · 97 points · 45 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Online censorship is crushing indie webcomics",
+        "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+        "hn_id": 50229599,
+        "hn_link": "https://news.ycombinator.com/item?id=50229599",
+        "score": 97,
+        "author": "Tomte",
+        "comments": 73,
+        "byline_hint": "by Tomte · 97 points · 73 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Why Gopher in 2026?",
+        "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+        "hn_id": 50226577,
+        "hn_link": "https://news.ycombinator.com/item?id=50226577",
+        "score": 94,
+        "author": "andsoitis",
+        "comments": 44,
+        "byline_hint": "by andsoitis · 94 points · 44 comments"
+      },
+      {
+        "source": "hn",
+        "title": "I Built a Stereo Vision Board for Hardware Hackers",
+        "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+        "hn_id": 50172432,
+        "hn_link": "https://news.ycombinator.com/item?id=50172432",
+        "score": 91,
+        "author": "machinehum",
+        "comments": 17,
+        "byline_hint": "by machinehum · 91 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "The Importance of Limitations for Creativity and Learning (2023)",
+        "url": "https://ratfactor.com/cards/limitations",
+        "hn_id": 50225663,
+        "hn_link": "https://news.ycombinator.com/item?id=50225663",
+        "score": 88,
+        "author": "andsoitis",
+        "comments": 26,
+        "byline_hint": "by andsoitis · 88 points · 26 comments"
+      },
+      {
+        "source": "hn",
+        "title": "How Japanese Dried Bonito Is Made",
+        "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
+        "hn_id": 50193936,
+        "hn_link": "https://news.ycombinator.com/item?id=50193936",
+        "score": 81,
+        "author": "bookofjoe",
+        "comments": 21,
+        "byline_hint": "by bookofjoe · 81 points · 21 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Social dynamics of toxic metal industry in medieval Europe",
+        "url": "https://www.cambridge.org/core/journals/antiquity/article/social-dynamics-of-toxic-metal-industry-in-medieval-europe-peak-district-lead-production-ad-6001500/34A2A16AC99B1B12E3EB99CEA1DDB829",
+        "hn_id": 50169450,
+        "hn_link": "https://news.ycombinator.com/item?id=50169450",
+        "score": 60,
+        "author": "XzetaU8",
+        "comments": 30,
+        "byline_hint": "by XzetaU8 · 60 points · 30 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+        "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+        "hn_id": 50222283,
+        "hn_link": "https://news.ycombinator.com/item?id=50222283",
+        "score": 48,
+        "author": "tokepi",
+        "comments": 36,
+        "byline_hint": "by tokepi · 48 points · 36 comments"
+      },
+      {
+        "source": "hn",
+        "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+        "url": "https://github.com/ihhub/fheroes2",
+        "hn_id": 50230384,
+        "hn_link": "https://news.ycombinator.com/item?id=50230384",
+        "score": 46,
+        "author": "tosh",
+        "comments": 15,
+        "byline_hint": "by tosh · 46 points · 15 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Rewriting a Commercial Engine in Jai",
+        "url": "https://polygonjs.com/blog/why-i-rewrote-polygon-from-scratch",
+        "hn_id": 50194645,
+        "hn_link": "https://news.ycombinator.com/item?id=50194645",
+        "score": 45,
+        "author": "frading",
+        "comments": 32,
+        "byline_hint": "by frading · 45 points · 32 comments"
+      },
+      {
+        "source": "hn",
+        "title": "A story of a Figma bug that wasn't a bug at all (2021)",
+        "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
+        "hn_id": 50186289,
+        "hn_link": "https://news.ycombinator.com/item?id=50186289",
+        "score": 43,
+        "author": "jllyhill",
+        "comments": 3,
+        "byline_hint": "by jllyhill · 43 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+        "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+        "hn_id": 50229827,
+        "hn_link": "https://news.ycombinator.com/item?id=50229827",
+        "score": 34,
+        "author": "thunderbong",
+        "comments": 4,
+        "byline_hint": "by thunderbong · 34 points · 4 comments"
+      },
+      {
+        "source": "hn",
+        "title": "In Rainbows",
+        "url": "https://hitogata.neocities.org/Rainbows",
+        "hn_id": 50194935,
+        "hn_link": "https://news.ycombinator.com/item?id=50194935",
+        "score": 28,
+        "author": "surprisetalk",
+        "comments": 8,
+        "byline_hint": "by surprisetalk · 28 points · 8 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Pragtical v3.14 Lua-based text editor adds menus, floating views, and sessions",
+        "url": "https://pragtical.dev/blog/pragtical-v3140-release",
+        "hn_id": 50176674,
+        "hn_link": "https://news.ycombinator.com/item?id=50176674",
+        "score": 21,
+        "author": "rd07",
+        "comments": 3,
+        "byline_hint": "by rd07 · 21 points · 3 comments"
+      },
+      {
+        "source": "hn",
+        "title": "Reverse engineer of PC-98 Touhou games retires",
+        "url": "https://rec98.nmlgc.net/blog/2026-10-05",
+        "hn_id": 50197434,
+        "hn_link": "https://news.ycombinator.com/item?id=50197434",
+        "score": 19,
+        "author": "mimasama",
+        "comments": 17,
+        "byline_hint": "by mimasama · 19 points · 17 comments"
+      },
+      {
+        "source": "hn",
+        "title": "XPS 16 Creator Edition Laptop",
+        "url": "https://www.dell.com/en-us/shop/laptop-computers/spd/xps16dx16263",
+        "hn_id": 50169939,
+        "hn_link": "https://news.ycombinator.com/item?id=50169939",
+        "score": 12,
+        "author": "mudil",
+        "comments": 23,
+        "byline_hint": "by mudil · 12 points · 23 comments"
+      }
+    ],
+    "pinboard": [
+      {
+        "source": "pinboard",
+        "title": "There isn't an easy exploit for this PHP vulnerability · Elias Taylor",
+        "url": "https://eliastaylor.com/noexploit/",
+        "description": "A bit of pushback on the \"sky is falling\" php2shell vulnerability that has everyone patching PHP right now -- this guy reckons it's not actually exploitable on vanilla PHP?",
+        "tags": [
+          "php",
+          "vulnerabilities",
+          "exploits",
+          "security",
+          "infosec",
+          "php2shell",
+          "panic"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: php, vulnerabilities, exploits, security, infosec, php2shell, panic"
+      },
+      {
+        "source": "pinboard",
+        "title": "Create New Canarytoken",
+        "url": "https://canarytokens.org/nest/",
+        "description": "",
+        "tags": [
+          "canary",
+          "tokens"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: canary, tokens"
+      },
+      {
+        "source": "pinboard",
+        "title": "The iPhone Duo (via IFTTT)",
+        "url": "https://daringfireball.net/2026/10/the_iphone_duo",
+        "description": "The iPhone Duo https://ift.tt/KbpJMCS",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Scoop: unvetted AI agents are accessing US bank accounts • Axios",
+        "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+        "description": "Madison Mills: <blockquote><p>Major U.S. banks are detecting unauthorized third-party AI agents operating inside customer accounts, with some agents attempting to take actions that appear to be independent of user instructions, sources tell Axios.\n\nAI agents are becoming a nightmare for America's banks, making their way into banking systems faster than financial institutions can respond.\n\nThe difficulty in distinguishing between a human and an unauthorized bot is forcing banks to block the technology and rapidly rewrite their terms of service.\n\nBanks including Morgan Stanley, Bank of America, JPMorgan, Wells Fargo and others are racing to contain agent risks. Some are aware of unauthorized access, people familiar with the issue said.\n\nThese are generally situations when an agent or AI assistant accesses a human's account with the user's permission and login credentials. Even if permitted by the user, this goes against the guidelines of most banks requiring that humans log in to their own accounts.\n\nThis presents significant security risks: Banking executives fear the steps agents with login access might take, especially if a user has granted purchase authority or the ability to shift funds.\n\nIn other instances, some banks have tracked activity when agents — programmed to fulfill requests or complete tasks on a user's behalf — contact call centers or appear to take actions independent of user instructions, the people said.\n\nBank executives described the situation as horrifying, with one official saying the industry has grave concerns about agents gaining access to customer accounts and taking steps that could impact user finances.</p></blockquote>\n\nMorgan Stanley, JP Morgan, BoA and Citibank are all blocking or restricting agents as of now. But you have to think that some people have more money than sense, or that the latter has been wiped away by the excitement of running an agent. Has nobody <a href=\"https://www.youtube.com/watch?v=RbxzYcU3Jsg\" target=\"_blank\">watched Silicon Valley</a>?",
+        "tags": [
+          "bank",
+          "agent",
+          "ai",
+          "money"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: bank, agent, ai, money"
+      },
+      {
+        "source": "pinboard",
+        "title": "The RSS Universe — Readers, Tools & Standards",
+        "url": "https://toolbox.rss.here.now/",
+        "description": "No algorithm, no timeline, no engagement bait. Just feeds you chose. Here's the whole ecosystem — readers, feed generators, monitoring, directories, and the standards that hold it together.",
+        "tags": [
+          "rss",
+          "cooltech"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: rss, cooltech"
+      },
+      {
+        "source": "pinboard",
+        "title": "Somewhere in France — Railpass",
+        "url": "https://train.samismith.com/",
+        "description": "view from train windows in an app - via matt muir",
+        "tags": [
+          "video",
+          "travel"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: video, travel"
+      },
+      {
+        "source": "pinboard",
+        "title": "The art of the deal: Jared Kushner’s hacked phone revealed his secret negotiations— including more than $700m in transfers • Vanity Fair",
+        "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+        "description": "Matthew Cole: <blockquote><p>In late spring 2020, a source I knew to be reliable called me with a story. The Dutch government had hacked into Jared Kushner’s phone and monitored him as he accessed a Dubai-based bank account. What was odd, the source said, was that the money in the account—hundreds of millions of dollars—had come from a bank in Azerbaijan. Most importantly, Kushner appeared to have transferred significant amounts of money from the Dubai account to other individuals, including a warlord, a mercenary and a one-time hit man. The story sounded preposterous, I told my source. And yet.\n\nSix months later, I found myself speaking with someone else about the UAE government and their use of mercenaries in conflicts around the Middle East and Africa when I asked, on a whim, whether they knew anything about Kushner and bank transfers from a UAE account. My acquaintance grew quiet. Then they replied, “Yes.”\n\nOver the next four years, I came to learn that, sometime in late 2017, the Netherlands Defense Intelligence and Security Service (MIVD) made a startling discovery. A General Staff of the Armed Forces of the Russian Federation (GRU) operative, a dark web hacker specializing in stolen bank data, was traveling to the UK for an espionage mission. They reached out to the British government for permission to apprehend him when he arrived. The British agreed.\n\n…Later that year, the Russian operative gave the Dutch spies access to one of the GRU’s most sensitive assets. Located in Rostov, Russia, the GRU’s hacking and cyber team operated a remote server on which they stored some of their bounty. During their search through these secret files, the Dutch found something astonishing: screenshots of Jared Kushner’s iPhone.\n\nIn The Hague, the MIVD hacking team tried to reverse engineer the Russian penetration of Kushner’s iPhone. Kushner owned what was then the latest model, the iPhone X. …By early 2018, the MIVD had found a vulnerability in the iPhone that gave them access. The security exploit wasn’t perfect, however. Some malware allows a hacker to turn a victim’s phone into a microphone and video camera, turn the phone on or off, and pull and add files. The Dutch solution did not provide that level of access. Instead, when Kushner used the phone, they could see his screen. Almost as soon as they got inside, the intelligence service began capturing every image of Kushner’s screen as he used it, filing their own cache of surveillance on their internal computer servers.</p></blockquote>\n\nShould be fun after the midterms when a Democratic Congress asks Cousin Greg to come and testify. (Kushner denies it all.)",
+        "tags": [
+          "kushneer",
+          "phone",
+          "hacking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: kushneer, phone, hacking"
+      },
+      {
+        "source": "pinboard",
+        "title": "How does Fable 5.1 hide messages in images? — LessWrong",
+        "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+        "description": "",
+        "tags": [
+          "ai",
+          "media",
+          "crypto",
+          "security",
+          "anonymous"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, media, crypto, security, anonymous"
+      },
+      {
+        "source": "pinboard",
+        "title": "?If Anything Happens to This Guy ? Everyone Is Screwed?",
+        "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/?gift=nwn-guseqS6cY1kVeEKZAV4eM30ZQanhnWOnf22yy-c",
+        "description": "On Tuesday, the world found out about two massive security vulnerabilities in PHP, a programming language that is used by roughly 70 percent of websites. The?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre | Environment | The Guardian",
+        "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
+        "description": "Company ordered to stop work at two sites in country, which has found itself at forefront of tech firms’ latest push\nMiranda Bryant in Muhos and Otanmäki\nThu 22 Oct 2026 13.22 CEST\nShare\n\nBehind a wire fence lies a vast gaping wound of earth. Before Google’s arrival a few months ago, an estimated quarter of a million trees occupied the 330 hectares (815 acres) of forest near the town of Muhos in rural northern Finland. Now they are all gone.\n\nAfter the tech company illegally stripped the entire area to build a datacentre – taking even the top soil with it – all that remains is a vast expanse of mud indented with the trail marks of machinery, puddles and mounds of earth, roots and branches. Residents say that brown water flowing off the site is going into a stream that feeds the Oulujoki River.\n\n“It doesn’t end. It goes on and on,” says Mari Annala, an ecologist from the Finnish Association for Nature Conservation (SLL), looking at drone footage of the former forest from the perimeter.\nEnvironmental expert Mari Annala crouches by muddy water near stacked logs, testing a sample\nView image in fullscreen\nMari Annala is a Finnish environmental expert, researcher and board member of the Oulu region district of the Finnish Association for Nature Conservation. Photograph: Jarno Artika/The Guardian\n\nWith 145 new datacentres at various stages of planning, Finland has found itself at the forefront of the tech companies’ latest push. As well as its relative geopolitical and geological stability and abundance of land, the cool climate makes it especially attractive for saving on energy costs.\n\nEarlier this month, Google was ordered by the Finnish Licensing and Supervision Authority (LVV) to temporarily stop work on Muhos and another site about 100km south-east in the village of Otanmäki after it failed to complete the necessary environmental impact assessments before clearcutting the land. The news has prompted widespread outcry and a national reckoning over what role, if any, the country should play in the global rush to build datacentres to keep up with rapid AI development.",
+        "tags": [
+          "XDN",
+          "Ecology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Ecology"
+      },
+      {
+        "source": "pinboard",
+        "title": "This I Believe, by Robert A. Heinlein",
+        "url": "https://www.awakin.org/v2/read/view.php?tid=468",
+        "description": "I am not going to talk about religious beliefs but about matters so obvious that it has gone out of style to mention them. I believe in my neighbors. I know their faults, and I know that their virtues far outweigh their faults.",
+        "tags": [
+          "writing",
+          "scifi",
+          "philosophy",
+          "religion",
+          "author:robert_heinlein",
+          "inspiration"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: writing, scifi, philosophy, religion, author:robert_heinlein, inspiration"
+      },
+      {
+        "source": "pinboard",
+        "title": "Pele · Mermaid diagrams as themeable SVG",
+        "url": "https://pele.run/",
+        "description": "Pele · Mermaid diagrams as themeable SVG https://pele.run/ tools, obsidian, diagrams",
+        "tags": [
+          "tools",
+          "obsidian",
+          "diagrams"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: tools, obsidian, diagrams"
+      },
+      {
+        "source": "pinboard",
+        "title": "cve.now",
+        "url": "https://cve.now/",
+        "description": "A free CVE feed for agents: a public vulnerability feed as RSS, Atom, JSON Feed and MCP.",
+        "tags": [
+          "security",
+          "feed"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security, feed"
+      },
+      {
+        "source": "pinboard",
+        "title": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "url": "https://github.com/Gathin23/cleanyourtv",
+        "description": "",
+        "tags": [
+          "tv"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: tv"
+      },
+      {
+        "source": "pinboard",
+        "title": "How to Design Flowers — Nick Desnoyer",
+        "url": "https://www.asimov.press/p/flowers",
+        "description": "",
+        "tags": [
+          "flower",
+          "design"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: flower, design"
+      },
+      {
+        "source": "pinboard",
+        "title": "Why No AI?",
+        "url": "https://whynoai.info/",
+        "description": "",
+        "tags": [
+          "single_serving_sites",
+          "ai",
+          "via:johnmastodon"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: single_serving_sites, ai, via:johnmastodon"
+      },
+      {
+        "source": "pinboard",
+        "title": "PHP 8.5.12????????pixiv???????? - pixiv inside",
+        "url": "https://inside.pixiv.blog/2026/10/22/193321",
+        "description": "22:41????????????23:16?????????????????30? pixiv???????????????30???????????????????????????????????????????????????????????",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Flaw in PHP computer language leads to shutdown of websites around world | Internet | The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/21/flaw-in-php-computer-language-leads-to-shutdown-of-websites-around-world",
+        "description": "",
+        "tags": [
+          "PHP",
+          "security",
+          "vulnerability",
+          "hacking",
+          "Web"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: PHP, security, vulnerability, hacking, Web"
+      },
+      {
+        "source": "pinboard",
+        "title": "Color Names — 31,912 colors, named by people",
+        "url": "https://names.color.pizza/",
+        "description": "",
+        "tags": [
+          "color",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: color, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "How employment is changing at Anthropic Anthropic",
+        "url": "https://www.anthropic.com/research/employment-at-anthropic",
+        "description": "",
+        "tags": [
+          "anthropic",
+          "labor"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: anthropic, labor"
+      },
+      {
+        "source": "pinboard",
+        "title": "stencil-hq/dquickts: QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings.",
+        "url": "https://github.com/stencil-hq/dquickts",
+        "description": "QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings. - stencil-hq/dquickts",
+        "tags": [
+          "sandbox"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sandbox"
+      },
+      {
+        "source": "pinboard",
+        "title": "The first broken iPhone Duos are here | The Verge",
+        "url": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen",
+        "description": "via Daring Fireball https://ift.tt/aonDHdb",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tiny Little Office",
+        "url": "https://tinylittleoffice.com/",
+        "description": "",
+        "tags": [
+          "office",
+          "documents",
+          "spreadsheets",
+          "drawing",
+          "paint",
+          "calendar",
+          "web-based"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: office, documents, spreadsheets, drawing, paint, calendar, web-based"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Ringer bets on Substack’s network over its own website | Nieman Journalism Lab",
+        "url": "https://www.niemanlab.org/2026/10/the-ringer-bets-on-substacks-network-over-its-own-website/",
+        "description": "Explore how The Ringer is leveraging Substack’s network effects and seamless monetization to evolve beyond the traditional publisher website model.",
+        "tags": [
+          "to_share",
+          "substack",
+          "spotify",
+          "newsletters",
+          "media-strategy",
+          "sports-journalism",
+          "subscription-model"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, substack, spotify, newsletters, media-strategy, sports-journalism, subscription-model"
+      },
+      {
+        "source": "pinboard",
+        "title": "In the AI age, publishers who understand what readers want will do best, a new report argues | Nieman Journalism Lab",
+        "url": "https://www.niemanlab.org/2026/10/in-the-ai-age-publishers-who-understand-what-readers-want-will-do-best-a-new-report-argues/",
+        "description": "Explore how AI shifts journalism from broadcasting to interaction. Learn to leverage specialized reporting to survive the decline of commodity news.",
+        "tags": [
+          "to_share",
+          "journalism",
+          "synthesis",
+          "cuny",
+          "news-strategy",
+          "information-commons",
+          "tow-knight"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: to_share, journalism, synthesis, cuny, news-strategy, information-commons, tow-knight"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Decoherence Trap: When AI slop drowns out the signal in an endless sea of noise",
+        "url": "https://maevyn.codes/decoherence",
+        "description": "TL;DR This essay introduces the concept of decoherence: the accumulation of locally valid but mutually incompatible or redundant models within a system, such?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Chain of Thought For Humans – BorisTheBrave.Com",
+        "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
+        "description": "",
+        "tags": [
+          "article",
+          "thinking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: article, thinking"
+      },
+      {
+        "source": "pinboard",
+        "title": "Local Mode — Firefox Source Docs documentation",
+        "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html",
+        "description": "Browsers have restricted what file:/// urls can do, which is annoying for local development. Firefox has a way to map a local domain name to a file:/// path so that you don't have to run a web server",
+        "tags": [
+          "web"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: web"
+      },
+      {
+        "source": "pinboard",
+        "title": "Some final words on Foursquare. - by Dennis Crowley",
+        "url": "https://teendrama.substack.com/p/some-final-words-on-foursquare",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "This hue shall pass",
+        "url": "https://thishueshallpass.clearleft.com/?colors=23202c%2Cdae1e2%2Cffffff%2Ce1673e%2C4d3e74",
+        "description": "Check every colour combination in your palette against WCAG contrast ratios. See what passes AA and AAA at a glance, and fix failures in one click.",
+        "tags": [
+          "colour",
+          "webdev",
+          "accessibility",
+          "wcag",
+          "contrast",
+          "tools"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: colour, webdev, accessibility, wcag, contrast, tools"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Gospel according to Peter (Thiel) | The Verge",
+        "url": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis",
+        "description": "via The Verge https://ift.tt/wUPt0rO",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "How the Consulting Class Is Eating the Democratic Party | The New Republic",
+        "url": "https://newrepublic.com/article/216304/consulting-class-eating-democratic-party",
+        "description": "",
+        "tags": [
+          "politics",
+          "money"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: politics, money"
+      },
+      {
+        "source": "pinboard",
+        "title": "The fall of “Scientific American” • The Nation",
+        "url": "https://www.thenation.com/article/society/scientific-american-springer-nature-trump/",
+        "description": "Emmet Fraizer: <blockquote><p>In March of 2026, in a nondescript, 46th-floor office overlooking lower Manhattan, about two dozen members of Scientific American’s editorial staff had gathered in person and online to talk openly about their approach to political coverage.\n\nDavid Ewalt, the editor in chief, wanted them all to understand something: The magazine was not “kowtowing” to the Trump administration. In fact, according to a recording of the meeting obtained by The Nation, he asked staff present to “raise your hand if you’ve ever heard me say not to cover a political story.”\n\nTwo people raised their hands.\n\nFor well over a year, rumours had been circulating among the staff about top-level editors’ rejecting pitches they saw as too political, controversial articles triggering angry phone calls from Scientific American’s corporate owner, and even, on at least one occasion, ownership forcing editors to blunt language critical of the Trump administration.\n\nThen there was what happened to the opinion department. In the first months of the new administration, it had been publishing about 15 pieces a month, many of which criticized Trump’s attacks on scientific research. But after the department published a particularly provocative column in May 2025—“<a href=\"https://www.scientificamerican.com/article/science-tells-us-the-u-s-is-heading-toward-a-dictatorship/\" target=\"_blank\">Science Tells Us the U.S. Is Heading toward a Dictatorship</a>”—management, in what one staffer would later call an “unprecedented” move, had told the department to “pause” publishing new articles until the new editor in chief started.</p></blockquote>\n\nFraizer gets into the nitty-gritty inside the magazine, and its sale by Springer Nature (apparently exasperated by articles like that May 2025 one; which, honestly, would be fine as a general politics article, but to pretend it's science (\"but it's pOLiTiCaL science!\") is daft) to a little-known publisher.\n\nBut what is omitted is the wider picture: that the market for a science <em>magazine</em> had been dying for years, so what was Scientific American's USP? In the UK, New Scientist is hard science, feature and news article length. Why would you buy or subscribe to Scientific American, though?",
+        "tags": [
+          "scientificamerican",
+          "magazine",
+          "science",
+          "publishing"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: scientificamerican, magazine, science, publishing"
+      },
+      {
+        "source": "pinboard",
+        "title": "https://music.apple.com/404",
+        "url": "https://music.apple.com/404",
+        "description": "via Daring Fireball https://ift.tt/aonDHdb",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "My obituary for programming ? dumbmatter.com",
+        "url": "https://dumbmatter.com/2026/10/programming-obituary/",
+        "description": "My obituary for programming Oct 08 2026 October 8, 2026 Tags: AI, Programming I know, I'm late to this. I was very slow to use AI coding agents. It seems like a?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Cap – Open-source, self-hosted CAPTCHA alternative to reCAPTCHA",
+        "url": "https://trycap.dev/",
+        "description": "",
+        "tags": [
+          "selfhosted",
+          "captcha"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: selfhosted, captcha"
+      },
+      {
+        "source": "pinboard",
+        "title": "ArtCraft. AI Video and Images. Fast and Open Desktop App.",
+        "url": "https://getartcraft.com/",
+        "description": "",
+        "tags": [
+          "3d",
+          "ai",
+          "tools",
+          "generation",
+          "awesome"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: 3d, ai, tools, generation, awesome"
+      },
+      {
+        "source": "pinboard",
+        "title": "rqlite",
+        "url": "https://rqlite.io/",
+        "description": "",
+        "tags": [
+          "sqlite",
+          "rqlite",
+          "kubernetes"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: sqlite, rqlite, kubernetes"
+      },
+      {
+        "source": "pinboard",
+        "title": "No Signs of AI Payoff Outside the Tech Sector | The Daily Spark",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "[untitled]",
+        "url": "https://mitsfs.mit.edu/",
+        "description": "",
+        "tags": [
+          "boston",
+          "sff",
+          "library"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: boston, sff, library"
+      },
+      {
+        "source": "pinboard",
+        "title": "CleanYourTV: remove ads and bloat from Android TV and Google TV",
+        "url": "https://cleanyour.tv/",
+        "description": "via https://www.reddit.com/r/ClaudeAI/comments/1xbj7jr/i_used_claude_to_fix_my_samsung_tv/",
+        "tags": [
+          "vibe",
+          "code",
+          "vibecode",
+          "smarttv",
+          "smart",
+          "tv",
+          "reddit",
+          "debloat",
+          "claude"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: vibe, code, vibecode, smarttv, smart, tv, reddit, debloat, claude"
+      },
+      {
+        "source": "pinboard",
+        "title": "UW protein institute led by Nobel winner unveils its first AI model co-developed with Nvidia | GeekWire",
+        "url": "https://www.geekwire.com/2026/uw-protein-institute-led-by-nobel-winner-unveils-its-first-ai-model-co-developed-with-nvidia/",
+        "description": "The UW Medicine Institute for Protein Design today released a new open-source model for creating proteins with specific functions, called RFD4-Proteina. It is the first AI protein model the UW has co-developed with semiconductor giant Nvidia. David Baker, professor of biochemistry in the UW School of Medicine and director of the UW Institute for Protein Design; and Seth Woodbury, a UW doctoral student, are quoted. Nathaniel Corley, Maxwell Kazman and Rafi Brent, all UW doctoral students, are mentioned.",
+        "tags": [
+          "Department:Biochemistry",
+          "GeekWire",
+          "Institute.Protein.Design",
+          "regl",
+          "UW:Medicine",
+          "Baker.David",
+          "Woodbury.Seth",
+          "Corley.Nathaniel",
+          "Kazman.Maxwell",
+          "Brent.Rafi",
+          "!10-21-2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: Department:Biochemistry, GeekWire, Institute.Protein.Design, regl, UW:Medicine, Baker.David, Woodbury.Seth, Corley.Nathaniel, Kazman.Maxwell, Brent.Rafi, !10-21-2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "Flock camera map: Find the Flock cameras watching you | Proton",
+        "url": "https://proton.me/flock-camera-map",
+        "description": "",
+        "tags": [
+          "flock",
+          "camera",
+          "privacy",
+          "track",
+          "tracking"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: flock, camera, privacy, track, tracking"
+      },
+      {
+        "source": "pinboard",
+        "title": "Not All Forests Are Equal: Mapping the World’s Forests — Google DeepMind",
+        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+        "description": "A new 10-meter resolution map shows which of the world's forests are natural, planted, or farmed, and how they are changing over time\n\nProtecting the planet's forests starts with a simple question: what type of forest are we looking at? From space, an old-growth rainforest, a eucalyptus plantation, and an oil palm estate can look like the same patch of green. But they hold very different amounts of carbon and biodiversity. Telling them apart, and knowing how each patch has changed over time, shows us where conservation is working and where natural forests are being converted into plantations and farms.\n\nToday, Google DeepMind and Google Research, together with the World Resources Institute (WRI) and the International Institute for Applied Systems Analysis (IIASA), are releasing Forest Typology (ForTy) 2020, a global map that categorizes every 10-by-10-meter patch of land on Earth into six distinct forest and land-use types, a key baseline for the EU's deforestation regulation. Alongside it, we're sharing an early time series that tracks how these forests changed each year from 2017 to 2025, including where natural forests were replaced by plantations or farms. For the first time, users can see at 10-meter detail worldwide, year by year, not just where forest was lost, but what replaced it: a timber plantation, a tree-crop farm or other land.\nWhy \"tree cover\" isn't enough\n\nAll forests store carbon and, together, forests are home to most of the world's land-based plant and animal species. But a forest’s ecological value also depends on its history: a primary forest that has never been cleared holds far more carbon and biodiversity than a single-species timber plantation that is harvested every decade or two.\n\nMost global maps only indicate whether trees are present. That's a challenge for those trying to protect natural forests. The European Union's regulation on deforestation-free products (EUDR), for example, requires that products like coffee, cocoa or palm oil do not originate from land that was forest in 2020 and has since been converted to agriculture. Similarly, wood products, such as furniture, must also be free of forest degradation: they can't come from primary forests that have since been converted into plantation or planted forests, or from naturally regenerating forests that have since been converted into plantation forests. As a result, companies and regulators need to know not just where trees are, but what kind of forest they form (primary or regrowing, planted or plantation, forest or farm) and what replaces that forest after a harvest.\n\nLast year, we jointly released Natural Forests of the World 2020, a 10-meter resolution global map that separated natural forests from all other tree cover. It offered a starting point to help companies and regulators implement the EU Deforestation Regulation, and to support commodity producers in meeting their commitments not to convert natural forest. That map answered one question for every patch of land: was it natural forest in 2020 or not? ForTy goes further, showing what kind of forest is there, from primary forest to timber plantation to tree crops, and, with the new time series, how that changes each year.\nHow ForTy classifies the world's forests\n\nSpecifically, ForTy sorts land into six categories based on definitions from the UN Food and Agriculture Organization (FAO):\n\n    Primary forest: native forest with no visible signs of human disturbance.\n    Naturally regenerating forest: forest that grew back on its own, for example after logging or fire.\n    Planted forest: forest that people planted or seeded, and managed over long cycles.\n    Plantation forest: fast-growing, intensively managed tree farms, often of one species.\n    Tree crops and agroforestry: farms that grow things other than wood, like oil palm, rubber, cocoa, or fruit.\n    Other land: everything else, from grassland and cropland to cities and water.",
+        "tags": [
+          "XDN",
+          "Ecology"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: XDN, Ecology"
+      },
+      {
+        "source": "pinboard",
+        "title": "Design System — Intent",
+        "url": "https://intentapp.dev/design-system",
+        "description": "",
+        "tags": [
+          "design",
+          "agent"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: design, agent"
+      },
+      {
+        "source": "pinboard",
+        "title": "Apple Music. Made by Sound: Behind the new brand identity - YouTube",
+        "url": "https://www.youtube.com/watch?v=1XxNXkOHKZw",
+        "description": "Go behind the scenes of Made by Sound.\nA story of music, collaboration and craft with Fred again.. and NEST Acoustics. Discover how sound brought the Apple Music logo to life, captured entirely in camera. Just music, made visible.",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "OpenSpec — A lightweight spec‑driven framework",
+        "url": "https://openspec.dev/",
+        "description": "",
+        "tags": [
+          "ai",
+          "llm",
+          "specification",
+          "spec",
+          "planning",
+          "development"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, llm, specification, spec, planning, development"
+      },
+      {
+        "source": "pinboard",
+        "title": "The rise and fall of Jev",
+        "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+        "description": "This is a quick note on how the industry?s reaction to Jev reveals the desperate state of AI. I?ll dissect: What is Jev, how was it hyped and why Jev spread?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=bxDTWuL9GxY",
+        "description": "via Daring Fireball https://ift.tt/dbgky64",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50181136",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "tinyjs — desktop apps for macOS, Windows, and Linux in ~6 MB",
+        "url": "https://tinyjs.app/",
+        "description": "<blockquote>Build macOS, Windows, and Linux desktop apps in JavaScript: txiki.js backend, native WebKit / WebView2 / WebKitGTK window, ~6 MB shipped. No Electron. No ports.</blockquote>",
+        "tags": [
+          "js",
+          "electron",
+          "tauri",
+          "elecrobun",
+          "desktop",
+          "app",
+          "html",
+          "webapp",
+          "PWA",
+          "small"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: js, electron, tauri, elecrobun, desktop, app, html, webapp, PWA, small"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Creativity Con Ate the Middle Class",
+        "url": "https://jacobin.com/2026/10/frank-creativity-class-inequality-neoliberalism",
+        "description": "Thomas Frank\n\n> The disassembly of the old liberal state has been a decades-long project, and at every step in the demolition, these ideas were what got the job done. Creativity and innovation were, persistently and comprehensively, the cover story for the neoliberal revolution.",
+        "tags": [
+          "US",
+          "economics",
+          "policy",
+          "Politics",
+          "technology",
+          "business",
+          "labor",
+          "essay",
+          "article",
+          "2026"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: US, economics, policy, Politics, technology, business, labor, essay, article, 2026"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Last Museum",
+        "url": "https://lastmuseum.com/",
+        "description": "via matt muir - meta museum search index with date filter",
+        "tags": [
+          "art",
+          "museums",
+          "publicdomain",
+          "search",
+          "awesome"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: art, museums, publicdomain, search, awesome"
+      },
+      {
+        "source": "pinboard",
+        "title": "Digital hygiene | karpathy",
+        "url": "https://karpathy.bearblog.dev/digital-hygiene/",
+        "description": "A guide to basic digital hygiene.\n\nPassword managers, VPN, Singal, etc",
+        "tags": [
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security"
+      },
+      {
+        "source": "pinboard",
+        "title": "The internet is having a very bad cybersecurity day – TechCrunch",
+        "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+        "description": "But the PHP update wasn’t the only headache cybersecurity folks were facing on Wednesday. Node.js, the open source JavaScript runtime environment, also dropped a security surprise of its own when it shared that four high-severity vulnerabilities were just patched in its latest release. One allowed remote code execution, and two others would have permitted a TLS validation bypass, potentially allowing attackers to bypass checks intended to verify a server’s identity. In addition, LiteLLM, a popular open source proxy for routing requests to multiple LLM providers, was compromised by an attacker who injected malicious code, the company shared in a post on X on Wednesday afternoon.",
+        "tags": [
+          "technology",
+          "computing",
+          "internet",
+          "cyber-security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: technology, computing, internet, cyber-security"
+      },
+      {
+        "source": "pinboard",
+        "title": "Tre organoidi cerebrali umani classificano il Braille con l’83% di accuratezza",
+        "url": "https://www.404media.co/computers-made-of-human-brain-tissue-identify-braille-letters-in-breakthrough/",
+        "description": "Uno studio guidato da Tianyi Liu a Bristol, pubblicato il 16 ottobre su Frontiers in Artificial Intelligence, mostra che organoidi cerebrali umani da staminali classificano le 26 lettere Braille: uno solo, con circa 10.000 neuroni, arriva al 61% di accuratezza, tre insieme all’83%. L’esperimento è a ciclo aperto, quindi non prova che abbiano imparato il Braille; il passo successivo è collegarli a sensori tattili robotici.",
+        "tags": [
+          "N8N",
+          "s:ai",
+          "TW2026-42",
+          "BF"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: N8N, s:ai, TW2026-42, BF"
+      },
+      {
+        "source": "pinboard",
+        "title": "eMudhra Intermediate CA Compromise",
+        "url": "https://emudhra.we-have-a-problem.com/#check",
+        "description": "",
+        "tags": [
+          "CA",
+          "eMudhra",
+          "internet",
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: CA, eMudhra, internet, security"
+      },
+      {
+        "source": "pinboard",
+        "title": "Introducing talkie: a 13B vintage language model from 1930",
+        "url": "https://talkie-lm.com/introducing-talkie",
+        "description": "",
+        "tags": [
+          "ai_madness",
+          "cultural_technologies"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai_madness, cultural_technologies"
+      },
+      {
+        "source": "pinboard",
+        "title": "I Did This Without Your Knowledge — LessWrong",
+        "url": "https://www.lesswrong.com/posts/3375SZNGA5dKHQMie/i-did-this-without-your-knowledge",
+        "description": "",
+        "tags": [
+          "ai",
+          "story",
+          "fiction"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ai, story, fiction"
+      },
+      {
+        "source": "pinboard",
+        "title": "Trademarks & Symbols Vol. 2, Kuwayama: 1,504 Marks · symbools",
+        "url": "https://www.symbools.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Legibility of Effort · eieio.games",
+        "url": "https://eieio.games/blog/legibility-of-effort/",
+        "description": "",
+        "tags": [
+          "effort",
+          "slop",
+          "legibility"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: effort, slop, legibility"
+      },
+      {
+        "source": "pinboard",
+        "title": "eMudhraの中間CA証明書の秘密鍵の危殆化についてまとめてみた - piyolog",
+        "url": "https://piyolog.hatenadiary.jp/entry/2026/10/23/021328",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "What the eMudhra CA Compromise Means for Elixir Developers",
+        "url": "https://paraxial.io/blog/emudhra-ca",
+        "description": "",
+        "tags": [
+          "elixir",
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: elixir, security"
+      },
+      {
+        "source": "pinboard",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=8pCccpKjjos",
+        "description": "via Daring Fireball https://ift.tt/aonDHdb",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "The Secret Playbook That Made the Elizabeth Holmes Movie a Smash Hit",
+        "url": "https://www.wsj.com/arts-culture/film/a24-you-can-see-everything-0c2f5b4a?mod=hp_lead_pos7",
+        "description": "A24?s strategy for its ?You Can See Everything? documentary catapulted the film to wild popularity Oct. 23, 2026 at 7:00 pm ET A24 For nearly three years, fewer?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Neural Networks Are Already Clean",
+        "url": "https://already-clean.goodfire.com/",
+        "description": "",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "https://appleinsider.com/articles/26/10/22/critical-php-vulnerabilities-threaten-your-nas-not-every-vendor-has-a-fix?utm_source=rss",
+        "url": "https://appleinsider.com/articles/26/10/22/critical-php-vulnerabilities-threaten-your-nas-not-every-vendor-has-a-fix",
+        "description": "via AppleInsider News https://appleinsider.com/rss/news",
+        "tags": [
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: security"
+      },
+      {
+        "source": "pinboard",
+        "title": "OpenTelemetry | Effective observability requires high-quality telemetry",
+        "url": "https://opentelemetry.io/",
+        "description": "",
+        "tags": [
+          "telemetry",
+          "metrics",
+          "monitoring"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: telemetry, metrics, monitoring"
+      },
+      {
+        "source": "pinboard",
+        "title": "Three reasons why AI is not conscious and perhaps never will be",
+        "url": "https://www.nature.com/articles/d41586-026-03313-7",
+        "description": "Artificial-intelligence systems such as large language models (LLMs) can exhibit behaviour that seems strikingly intelligent. This has led many people,?",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "TV OS frustrations are leading people to vibe-code | The Verge",
+        "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+        "description": "via The Verge https://ift.tt/uUkNXrY",
+        "tags": [],
+        "byline_hint": "Pinboard Popular · tagged: untagged"
+      },
+      {
+        "source": "pinboard",
+        "title": "Are.na",
+        "url": "https://www.are.na/",
+        "description": "",
+        "tags": [
+          "ideas",
+          "apps",
+          "webdesign",
+          "inspiration"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: ideas, apps, webdesign, inspiration"
+      },
+      {
+        "source": "pinboard",
+        "title": "Chainguard Broke the php2shell Embargo - PHP News",
+        "url": "https://phpnews.net/chainguard-php2shell-embargo",
+        "description": "",
+        "tags": [
+          "php",
+          "chainguard",
+          "security"
+        ],
+        "byline_hint": "Pinboard Popular · tagged: php, chainguard, security"
+      }
+    ]
+  },
+  "stats": {
+    "hn_fetched": 40,
+    "hn_after_dedup": 37,
+    "pinboard_fetched": 100,
+    "pinboard_after_dedup": 72
+  }
+}

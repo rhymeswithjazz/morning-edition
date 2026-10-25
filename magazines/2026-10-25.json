@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-25",
+  "stories": [
+    {
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "hn_link": "https://news.ycombinator.com/item?id=50225695",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ltratt · 505 points · 438 comments",
+      "blurb": "Dan Luu argues developers consistently undersell what software can do, settling for mediocre tooling and incremental improvements when transformative leaps are possible. With 438 comments, this is clearly striking a nerve. Required reading if you've ever looked at your editor, your CI pipeline, or your AI coding assistant and thought 'this should be so much better.'"
+    },
+    {
+      "title": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50224916",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by cloudlandsdev · 522 points · 318 comments",
+      "blurb": "A live honeypot challenge — a wallet with real Bitcoin and a deliberately weak passphrase. It's a clever, interactive demonstration of just how hard cryptographic security is to crack even when you think you know the answer. The comment thread is full of people sharing their cracking attempts and war stories."
+    },
+    {
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "hn_link": "https://news.ycombinator.com/item?id=50219177",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by theanonymousone · 341 points · 164 comments",
+      "blurb": "The Node2Shell RCE vulnerability has mutated into HTTP2Shell, now affecting a wide swath of Python packages that bundle brotli. If your app uses any popular HTTP library — and it almost certainly does — check your dependency tree now. This is the week's most urgent patch."
+    },
+    {
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "hn_link": "https://news.ycombinator.com/item?id=50226419",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gnabgib · 399 points · 409 comments",
+      "blurb": "Rigorous economic analysis trying to disentangle post-pandemic normalization from genuine AI displacement in creative fields. The data is more nuanced than either the 'AI took everything' or 'nothing to see here' camps want to admit. Essential context for anyone building AI image, video, or writing tools."
+    },
+    {
+      "title": "A practical guide to AI image generation, from diffusion to agents",
+      "url": "https://danielball.com/notes/ai_image_generation.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50171379",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by westsmith · 276 points · 90 comments",
+      "blurb": "A comprehensive, opinionated walkthrough of the AI image generation stack in 2026 — covering diffusion models, ControlNet, LoRA fine-tuning, and increasingly agent-driven pipelines. Well-structured for developers who want to understand what's actually happening under the hood, not just which UI to click."
+    },
+    {
+      "title": "Physicists trap a single antimatter particle for a month",
+      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+      "hn_link": "https://news.ycombinator.com/item?id=50186450",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by mooreds · 317 points · 91 comments",
+      "blurb": "CERN researchers have held a single antihydrogen atom in a magnetic trap for a full month — a new record by orders of magnitude. This enables precision measurements of antimatter's properties that were previously impossible. The universe's matter/antimatter asymmetry might finally be within experimental reach."
+    },
+    {
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "hn_link": "https://news.ycombinator.com/item?id=50227356",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 218 points · 69 comments",
+      "blurb": "Cerebras details its wafer-scale chip architecture that makes trillion-parameter inference economically viable — no GPU cluster required. The throughput numbers are genuinely shocking compared to traditional GPU stacks. This is the infrastructure story behind why fast frontier inference is getting cheaper fast."
+    },
+    {
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "hn_link": "https://news.ycombinator.com/item?id=50223647",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by canjobear · 210 points · 175 comments",
+      "blurb": "Researchers find that LLM-generated text, despite being grammatically correct, triggers measurably lower comprehension and trust than human writing — even when readers can't identify it as AI. Directly relevant if you're using Claude Code or similar tools to generate documentation, user-facing copy, or technical explanations."
+    },
+    {
+      "title": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "hn_link": "https://news.ycombinator.com/item?id=50222133",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by esher · 309 points · 83 comments",
+      "blurb": "FreeDNS has been quietly serving free dynamic DNS and subdomain hosting for decades, and it's trending on HN again — likely because people are spinning up self-hosted services in reaction to this week's privacy news. If you've never bookmarked it, now's the time."
+    },
+    {
+      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "hn_link": "https://news.ycombinator.com/item?id=50229861",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by noplay · 104 points · 97 comments",
+      "blurb": "An exclusive: the French Prime Minister's office quietly asked ISPs to prepare DNS-level blocks of Twitter, Instagram, and TikTok ahead of October 24th political events. The blocks were never triggered, but the infrastructure was ready. A chilling look at how quickly internet shutdowns can be stood up in liberal democracies."
+    },
+    {
+      "title": "Pele · Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tools, obsidian, diagrams",
+      "blurb": "Pele converts Mermaid diagram syntax into themeable, styled SVG files — perfect for dropping into Obsidian notes or documentation without fighting render inconsistencies. Tagged 'obsidian' by the Pinboard community for good reason; this fills a genuine gap for developers who live in Obsidian and want beautiful, portable diagrams."
+    },
+    {
+      "title": "Flock camera map: Find the Flock cameras watching you | Proton",
+      "url": "https://proton.me/flock-camera-map",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: flock, camera, privacy, track, tracking",
+      "blurb": "Proton has published an interactive map of Flock Safety license plate reader cameras across the US — search your neighborhood to see exactly how many are tracking your movements. A visceral privacy tool that makes surveillance infrastructure visible. Essential bookmarking for anyone who cares about physical-world privacy."
+    },
+    {
+      "title": "Scoop: unvetted AI agents are accessing US bank accounts • Axios",
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: bank, agent, ai, money",
+      "blurb": "Major US banks including JPMorgan and Morgan Stanley are detecting unauthorized AI agents operating inside customer accounts — sometimes taking actions independent of user instructions. This is the agentic AI horror story that security folks have been warning about. If you're building or deploying agents, read this to understand what 'blast radius' means at scale."
+    },
+    {
+      "title": "Digital hygiene | karpathy",
+      "url": "https://karpathy.bearblog.dev/digital-hygiene/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "Andrej Karpathy's practical guide to personal digital security — password managers, VPNs, Signal, and other foundational hygiene that most developers know they should do but haven't finished. Karpathy's credibility makes this worth sharing with non-technical family members too. Short, opinionated, actionable."
+    },
+    {
+      "title": "tinyjs — desktop apps for macOS, Windows, and Linux in ~6 MB",
+      "url": "https://tinyjs.app/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: js, electron, tauri, elecrobun, desktop, app, html, webapp, PWA, small",
+      "blurb": "Build native desktop apps with a JavaScript/WebKit stack that ships in ~6 MB — no Electron bloat, no Rust compilation required. Uses WebKit on macOS for a native feel. For TypeScript developers who want to ship a real macOS app without the 200 MB Electron tax, this is worth a serious look."
+    },
+    {
+      "title": "ArtCraft. AI Video and Images. Fast and Open Desktop App.",
+      "url": "https://getartcraft.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 3d, ai, tools, generation, awesome",
+      "blurb": "ArtCraft is a native desktop app for AI image and video generation that runs locally — no subscriptions, no cloud upload, no API key juggling. Tagged 'awesome' by the Pinboard crowd, and it shows: the UI looks polished and the generation pipeline appears to handle both still images and short video clips. Worth trialing if you're tired of web-based generators."
+    },
+    {
+      "title": "cve.now",
+      "url": "https://cve.now/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, feed",
+      "blurb": "A clean, free CVE feed served as RSS, Atom, JSON Feed, and MCP — the last format making it directly consumable by AI agents and Claude workflows. Pipe this into your Obsidian daily notes or your Claude Code context to stay on top of vulnerabilities as they drop. Exactly the kind of composable tool developers should have in their stack."
+    },
+    {
+      "title": "stencil-hq/dquickts: QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings.",
+      "url": "https://github.com/stencil-hq/dquickts",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sandbox",
+      "blurb": "QuickJS extended with durable execution: you can suspend a running JavaScript program, snapshot its entire heap to disk, and resume it in a completely different process. This is wild infrastructure for building sandboxed TypeScript runtimes, long-running agents, or serverless functions that survive restarts without rebuilding state."
+    },
+    {
+      "title": "The iPhone Duo (via IFTTT)",
+      "url": "https://daringfireball.net/2026/10/the_iphone_duo",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Gruber's take on Apple's new iPhone Duo — the dual-screen or foldable form factor everyone's been speculating about. Daring Fireball is the essential first read for any new Apple hardware, and this piece is trending heavily in the Apple-focused Pinboard community. Find out what the hardware actually is before the tech press avalanche buries the signal."
+    },
+    {
+      "title": "OpenSpec — A lightweight spec‑driven framework",
+      "url": "https://openspec.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, specification, spec, planning, development",
+      "blurb": "OpenSpec is a framework for driving AI coding agents with structured specs rather than freeform prompts — think spec-first development where the LLM reads your intent document and generates conformant code. Directly relevant to Claude Code users who want more deterministic, reviewable AI workflows. The 'planning' tag in Pinboard suggests people are actually using this in production."
+    }
+  ]
+}
