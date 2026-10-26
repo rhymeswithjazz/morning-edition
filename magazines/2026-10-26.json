@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-26",
+  "stories": [
+    {
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "hn_link": "https://news.ycombinator.com/item?id=50242939",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by SiNTEx · 567 points · 508 comments",
+      "blurb": "Anthropic has filed its S-1, giving the world the first detailed look inside the company behind Claude. Revenue, risk factors, compute costs, and strategic priorities are all now public record. If you build on Claude Code or the API, this document will shape your understanding of the platform you depend on."
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "hn_link": "https://news.ycombinator.com/item?id=50236102",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by minimaxir · 386 points · 389 comments",
+      "blurb": "Max Woolf digs into the economics behind the dramatic pricing collapse — inference efficiency gains, competition from open-weight models, and the race for market share. For anyone budgeting AI API usage in production, this is essential reading with real numbers."
+    },
+    {
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50235780",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pchristensen · 234 points · 58 comments",
+      "blurb": "\"Prompt engineering\" is dead — context engineering is where the real leverage lives now. This piece surveys how practitioners are structuring, compressing, and routing context to get reliable behavior from LLMs. Directly applicable if you're building agentic workflows or Claude Code integrations."
+    },
+    {
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "hn_link": "https://news.ycombinator.com/item?id=50233779",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by sungam · 630 points · 261 comments",
+      "blurb": "A purpose-built 2015-era convolutional neural network still beats GPT-4-class models on dermatology benchmarks, raising pointed questions about whether general intelligence is the right tool for specialized medical tasks. The thread is a sharp debate about benchmark design and what \"outperform\" actually means."
+    },
+    {
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "hn_link": "https://news.ycombinator.com/item?id=50238088",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Betelbuddy · 372 points · 280 comments",
+      "blurb": "Arvind Krishna is saying the quiet part loud: enterprises no longer need to send data to the cloud to get frontier-quality results. The combination of quantization advances and commodity hardware means on-prem LLM deployment is now a real privacy-preserving option for .NET shops and regulated industries alike."
+    },
+    {
+      "title": "Active incident at Dreamhost forcing password reset",
+      "url": "https://www.dreamhoststatus.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50231166",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by greenchair · 164 points · 65 comments",
+      "blurb": "Dreamhost is in the middle of an active security incident and forcing customer password resets. If you or any clients host there, check the status page now. The HN thread has details on the scope and what's been compromised."
+    },
+    {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "hn_link": "https://news.ycombinator.com/item?id=50238739",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by vardhan1237 · 199 points · 73 comments",
+      "blurb": "A Rust PDF engine that compiles to WASM and exposes an MCP interface — meaning your AI coding assistant can read and manipulate PDFs without shipping them to any cloud service. Zero-cloud is the headline, and for privacy-conscious builders it's the whole pitch."
+    },
+    {
+      "title": "Overgrown, when plants invade your abandoned tabs",
+      "url": "https://charliegerard.dev/blog/overgrown-extension/",
+      "hn_link": "https://news.ycombinator.com/item?id=50197108",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by speckx · 360 points · 122 comments",
+      "blurb": "A delightful browser extension that renders moss, vines, and fungi growing over your neglected tabs the longer they sit unvisited. Charlie Gerard writes up the creative coding behind the generative plant simulation — a charming intersection of browser APIs and procedural art."
+    },
+    {
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=50238708",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by davidbarker · 324 points · 61 comments",
+      "blurb": "A web tool that recreates the chunky beveled WordArt typography of the late-90s Microsoft Office era, rendered faithfully in the browser. Genuinely fun to play with, and the comments dive into the surprisingly tricky CSS/canvas work required to nail the gradient extrusion effects."
+    },
+    {
+      "title": "Attention Is Not What You Need (2025)",
+      "url": "https://arxiv.org/abs/2512.19428",
+      "hn_link": "https://news.ycombinator.com/item?id=50237224",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by westurner · 160 points · 55 comments",
+      "blurb": "A resurfaced paper challenging the assumption that transformer attention is the only path to powerful sequence models. The timing — as inference costs finally start mattering — makes this more relevant than when it first dropped. Good thread for understanding where architecture research is headed post-transformer."
+    },
+    {
+      "title": "ImageFlow: A native, node-based, image editor for macOS.",
+      "url": "https://imageflowapp.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macOS, Images, Photography",
+      "blurb": "ImageFlow is a native macOS image editor built around a non-destructive node graph workflow — think Pixelmator meets Blender's shader editor. For developers who also do design work or photo editing, it's a compelling alternative to Lightroom without the subscription. macOS-native means it actually feels right."
+    },
+    {
+      "title": "Opie – Your favorite Mac actions, right where you are",
+      "url": "https://opies.io/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 径向菜单",
+      "blurb": "Opie is a radial menu launcher for macOS 26 that pops up around your cursor when you hold a key — flick toward an action and release. It's the kind of spatial shortcut system power users have wanted since BetterTouchTool, but built natively for the new macOS. Immediately useful for anyone who lives in the keyboard."
+    },
+    {
+      "title": "Planning with agents: Divided worlds, boundary objects, and thicker interfaces",
+      "url": "https://maggieappleton.com/planning-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, agents",
+      "blurb": "Maggie Appleton's characteristically thoughtful essay on why AI agents fail at planning tasks — and what better human-AI interfaces might look like. She introduces \"boundary objects\" as the key concept for where agent and human worlds need to meet. Essential reading for anyone designing agentic workflows."
+    },
+    {
+      "title": "iPhone Duo review: Apple's folding phone is a messy, expensive good time • The Verge",
+      "url": "https://www.theverge.com/tech/1015028/iphone-duo-review",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: iphone, duo",
+      "blurb": "Nilay Patel and Allison Johnson's full review of Apple's first foldable iPhone is a nuanced take: the hardware is gorgeous but the app ecosystem is a mess of unoptimized layouts and \"weird middle zones.\" If you're in the Apple ecosystem, this is the gadget news of the year — read it before anyone asks you whether to buy one."
+    },
+    {
+      "title": "ivarvong/lantern: Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.",
+      "url": "https://github.com/ivarvong/lantern",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, devpro, 2try",
+      "blurb": "Lantern is a zero-dependency TypeScript library for building animated, step-through code diagrams that output SVG — ideal for documentation, blog posts, or interactive tutorials. No build toolchain required and it runs on Cloudflare Workers. The kind of thing you'll want to drop into an Angular/TypeScript project immediately."
+    },
+    {
+      "title": "Cap – Open-source, self-hosted CAPTCHA alternative to reCAPTCHA",
+      "url": "https://trycap.dev/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: selfhosted, captcha",
+      "blurb": "Cap is a self-hosted, open-source CAPTCHA that removes the Google reCAPTCHA dependency from your stack entirely. No fingerprinting, no third-party tracking, and it's drop-in compatible. For privacy-minded developers tired of forcing users through Google's surveillance gateway, this is worth five minutes of your afternoon."
+    },
+    {
+      "title": "There isn't an easy exploit for this PHP vulnerability · Elias Taylor",
+      "url": "https://eliastaylor.com/noexploit/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: php, vulnerabilities, exploits, security, infosec, php2shell, panic",
+      "blurb": "The php2shell vulnerability set the security world on fire this week, but this post argues the \"sky is falling\" narrative is overblown — the exploit requires non-default configurations that most vanilla PHP deployments don't have. A useful counterweight before you spend your weekend emergency-patching."
+    },
+    {
+      "title": "The RSS Universe — Readers, Tools & Standards",
+      "url": "https://toolbox.rss.here.now/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rss, cooltech",
+      "blurb": "A comprehensive, curated directory of the entire RSS ecosystem — readers, feed generators, monitoring tools, directories, and the underlying standards. No algorithm, no engagement bait. A surprisingly complete reference for anyone building with or consuming feeds in 2026."
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing | TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI.agent",
+      "blurb": "Researchers gave AI agents an embodied environment and no task — and they spontaneously started climbing hills, building towers, and running physics experiments. The companion arxiv paper (\"Is this machine playing?\") argues this satisfies classical criteria for play. Fascinating and a little unsettling."
+    },
+    {
+      "title": "Can we replace a $150k Looker with a bucket of HTML files? · David Lequin",
+      "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: datadecisions, dataviz, dataquality, datagovernance, programming, productmanagement",
+      "blurb": "A .NET/web developer's detailed argument for replacing expensive BI platforms with static HTML + JavaScript dashboards generated at build time. The cost savings are real and the maintenance burden is often lower. Practical and immediately actionable for anyone who's ever stared at a Looker invoice in disbelief."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 26, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 26, 2026.">
+<meta property="og:title" content="Morning Edition — October 26, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-26.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Monday · October 26, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Anthropic S-1</a></li>
+      <li><a href="#s2">OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</a></li>
+      <li><a href="#s3">The State of Context Engineering</a></li>
+      <li><a href="#s4">A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</a></li>
+      <li><a href="#s5">IBM CEO says open weight models are now good and cheap on-prem</a></li>
+      <li><a href="#s6">Active incident at Dreamhost forcing password reset</a></li>
+      <li><a href="#s7">PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP</a></li>
+      <li><a href="#s8">Overgrown, when plants invade your abandoned tabs</a></li>
+      <li><a href="#s9">Show HN: TitleArt – Make text like it&#x27;s 1997</a></li>
+      <li><a href="#s10">Attention Is Not What You Need (2025)</a></li>
+      <li><a href="#s11">ImageFlow: A native, node-based, image editor for macOS.</a></li>
+      <li><a href="#s12">Opie – Your favorite Mac actions, right where you are</a></li>
+      <li><a href="#s13">Planning with agents: Divided worlds, boundary objects, and thicker interfaces</a></li>
+      <li><a href="#s14">iPhone Duo review: Apple&#x27;s folding phone is a messy, expensive good time • The Verge</a></li>
+      <li><a href="#s15">ivarvong/lantern: Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.</a></li>
+      <li><a href="#s16">Cap – Open-source, self-hosted CAPTCHA alternative to reCAPTCHA</a></li>
+      <li><a href="#s17">There isn&#x27;t an easy exploit for this PHP vulnerability · Elias Taylor</a></li>
+      <li><a href="#s18">The RSS Universe — Readers, Tools &amp; Standards</a></li>
+      <li><a href="#s19">Left alone with nothing to do, AI agents started playing | TechCrunch</a></li>
+      <li><a href="#s20">Can we replace a $150k Looker with a bucket of HTML files? · David Lequin</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">Anthropic S-1</a></h3>
+    <div class="byline">by SiNTEx · 567 points · 508 comments</div>
+    <p class="blurb">Anthropic has filed its S-1, giving the world the first detailed look inside the company behind Claude. Revenue, risk factors, compute costs, and strategic priorities are all now public record. If you build on Claude Code or the API, this document will shape your understanding of the platform you depend on.</p>
+    <div class="links">
+      <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50242939">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://minimaxir.com/2026/10/cheap-llms/">OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</a></h3>
+    <div class="byline">by minimaxir · 386 points · 389 comments</div>
+    <p class="blurb">Max Woolf digs into the economics behind the dramatic pricing collapse — inference efficiency gains, competition from open-weight models, and the race for market share. For anyone budgeting AI API usage in production, this is essential reading with real numbers.</p>
+    <div class="links">
+      <a href="https://minimaxir.com/2026/10/cheap-llms/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50236102">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html">The State of Context Engineering</a></h3>
+    <div class="byline">by pchristensen · 234 points · 58 comments</div>
+    <p class="blurb">&quot;Prompt engineering&quot; is dead — context engineering is where the real leverage lives now. This piece surveys how practitioners are structuring, compressing, and routing context to get reliable behavior from LLMs. Directly applicable if you&#x27;re building agentic workflows or Claude Code integrations.</p>
+    <div class="links">
+      <a href="https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50235780">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://lynchlab.net/llm-skin-cancer">A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</a></h3>
+    <div class="byline">by sungam · 630 points · 261 comments</div>
+    <p class="blurb">A purpose-built 2015-era convolutional neural network still beats GPT-4-class models on dermatology benchmarks, raising pointed questions about whether general intelligence is the right tool for specialized medical tasks. The thread is a sharp debate about benchmark design and what &quot;outperform&quot; actually means.</p>
+    <div class="links">
+      <a href="https://lynchlab.net/llm-skin-cancer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50233779">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640">IBM CEO says open weight models are now good and cheap on-prem</a></h3>
+    <div class="byline">by Betelbuddy · 372 points · 280 comments</div>
+    <p class="blurb">Arvind Krishna is saying the quiet part loud: enterprises no longer need to send data to the cloud to get frontier-quality results. The combination of quantization advances and commodity hardware means on-prem LLM deployment is now a real privacy-preserving option for .NET shops and regulated industries alike.</p>
+    <div class="links">
+      <a href="https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50238088">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.dreamhoststatus.com/">Active incident at Dreamhost forcing password reset</a></h3>
+    <div class="byline">by greenchair · 164 points · 65 comments</div>
+    <p class="blurb">Dreamhost is in the middle of an active security incident and forcing customer password resets. If you or any clients host there, check the status page now. The HN thread has details on the scope and what&#x27;s been compromised.</p>
+    <div class="links">
+      <a href="https://www.dreamhoststatus.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50231166">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/KrushnaVardhanReddy/PaperPilot">PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP</a></h3>
+    <div class="byline">by vardhan1237 · 199 points · 73 comments</div>
+    <p class="blurb">A Rust PDF engine that compiles to WASM and exposes an MCP interface — meaning your AI coding assistant can read and manipulate PDFs without shipping them to any cloud service. Zero-cloud is the headline, and for privacy-conscious builders it&#x27;s the whole pitch.</p>
+    <div class="links">
+      <a href="https://github.com/KrushnaVardhanReddy/PaperPilot">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50238739">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://charliegerard.dev/blog/overgrown-extension/">Overgrown, when plants invade your abandoned tabs</a></h3>
+    <div class="byline">by speckx · 360 points · 122 comments</div>
+    <p class="blurb">A delightful browser extension that renders moss, vines, and fungi growing over your neglected tabs the longer they sit unvisited. Charlie Gerard writes up the creative coding behind the generative plant simulation — a charming intersection of browser APIs and procedural art.</p>
+    <div class="links">
+      <a href="https://charliegerard.dev/blog/overgrown-extension/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50197108">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://titleart.dvy.io/">Show HN: TitleArt – Make text like it&#x27;s 1997</a></h3>
+    <div class="byline">by davidbarker · 324 points · 61 comments</div>
+    <p class="blurb">A web tool that recreates the chunky beveled WordArt typography of the late-90s Microsoft Office era, rendered faithfully in the browser. Genuinely fun to play with, and the comments dive into the surprisingly tricky CSS/canvas work required to nail the gradient extrusion effects.</p>
+    <div class="links">
+      <a href="https://titleart.dvy.io/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50238708">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arxiv.org/abs/2512.19428">Attention Is Not What You Need (2025)</a></h3>
+    <div class="byline">by westurner · 160 points · 55 comments</div>
+    <p class="blurb">A resurfaced paper challenging the assumption that transformer attention is the only path to powerful sequence models. The timing — as inference costs finally start mattering — makes this more relevant than when it first dropped. Good thread for understanding where architecture research is headed post-transformer.</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2512.19428">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50237224">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://imageflowapp.com/">ImageFlow: A native, node-based, image editor for macOS.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macOS, Images, Photography</div>
+    <p class="blurb">ImageFlow is a native macOS image editor built around a non-destructive node graph workflow — think Pixelmator meets Blender&#x27;s shader editor. For developers who also do design work or photo editing, it&#x27;s a compelling alternative to Lightroom without the subscription. macOS-native means it actually feels right.</p>
+    <div class="links">
+      <a href="https://imageflowapp.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://opies.io/">Opie – Your favorite Mac actions, right where you are</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 径向菜单</div>
+    <p class="blurb">Opie is a radial menu launcher for macOS 26 that pops up around your cursor when you hold a key — flick toward an action and release. It&#x27;s the kind of spatial shortcut system power users have wanted since BetterTouchTool, but built natively for the new macOS. Immediately useful for anyone who lives in the keyboard.</p>
+    <div class="links">
+      <a href="https://opies.io/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://maggieappleton.com/planning-agents">Planning with agents: Divided worlds, boundary objects, and thicker interfaces</a></h3>
+    <div class="byline">Pinboard Popular · tagged: artificial-intelligence, agents</div>
+    <p class="blurb">Maggie Appleton&#x27;s characteristically thoughtful essay on why AI agents fail at planning tasks — and what better human-AI interfaces might look like. She introduces &quot;boundary objects&quot; as the key concept for where agent and human worlds need to meet. Essential reading for anyone designing agentic workflows.</p>
+    <div class="links">
+      <a href="https://maggieappleton.com/planning-agents">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/tech/1015028/iphone-duo-review">iPhone Duo review: Apple&#x27;s folding phone is a messy, expensive good time • The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: iphone, duo</div>
+    <p class="blurb">Nilay Patel and Allison Johnson&#x27;s full review of Apple&#x27;s first foldable iPhone is a nuanced take: the hardware is gorgeous but the app ecosystem is a mess of unoptimized layouts and &quot;weird middle zones.&quot; If you&#x27;re in the Apple ecosystem, this is the gadget news of the year — read it before anyone asks you whether to buy one.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/tech/1015028/iphone-duo-review">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/ivarvong/lantern">ivarvong/lantern: Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, devpro, 2try</div>
+    <p class="blurb">Lantern is a zero-dependency TypeScript library for building animated, step-through code diagrams that output SVG — ideal for documentation, blog posts, or interactive tutorials. No build toolchain required and it runs on Cloudflare Workers. The kind of thing you&#x27;ll want to drop into an Angular/TypeScript project immediately.</p>
+    <div class="links">
+      <a href="https://github.com/ivarvong/lantern">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://trycap.dev/">Cap – Open-source, self-hosted CAPTCHA alternative to reCAPTCHA</a></h3>
+    <div class="byline">Pinboard Popular · tagged: selfhosted, captcha</div>
+    <p class="blurb">Cap is a self-hosted, open-source CAPTCHA that removes the Google reCAPTCHA dependency from your stack entirely. No fingerprinting, no third-party tracking, and it&#x27;s drop-in compatible. For privacy-minded developers tired of forcing users through Google&#x27;s surveillance gateway, this is worth five minutes of your afternoon.</p>
+    <div class="links">
+      <a href="https://trycap.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://eliastaylor.com/noexploit/">There isn&#x27;t an easy exploit for this PHP vulnerability · Elias Taylor</a></h3>
+    <div class="byline">Pinboard Popular · tagged: php, vulnerabilities, exploits, security, infosec, php2shell, panic</div>
+    <p class="blurb">The php2shell vulnerability set the security world on fire this week, but this post argues the &quot;sky is falling&quot; narrative is overblown — the exploit requires non-default configurations that most vanilla PHP deployments don&#x27;t have. A useful counterweight before you spend your weekend emergency-patching.</p>
+    <div class="links">
+      <a href="https://eliastaylor.com/noexploit/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://toolbox.rss.here.now/">The RSS Universe — Readers, Tools &amp; Standards</a></h3>
+    <div class="byline">Pinboard Popular · tagged: rss, cooltech</div>
+    <p class="blurb">A comprehensive, curated directory of the entire RSS ecosystem — readers, feed generators, monitoring tools, directories, and the underlying standards. No algorithm, no engagement bait. A surprisingly complete reference for anyone building with or consuming feeds in 2026.</p>
+    <div class="links">
+      <a href="https://toolbox.rss.here.now/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/">Left alone with nothing to do, AI agents started playing | TechCrunch</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI.agent</div>
+    <p class="blurb">Researchers gave AI agents an embodied environment and no task — and they spontaneously started climbing hills, building towers, and running physics experiments. The companion arxiv paper (&quot;Is this machine playing?&quot;) argues this satisfies classical criteria for play. Fascinating and a little unsettling.</p>
+    <div class="links">
+      <a href="https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Actionable</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://david.lequin.dev/blog/bi-software-is-dead/">Can we replace a $150k Looker with a bucket of HTML files? · David Lequin</a></h3>
+    <div class="byline">Pinboard Popular · tagged: datadecisions, dataviz, dataquality, datagovernance, programming, productmanagement</div>
+    <p class="blurb">A .NET/web developer&#x27;s detailed argument for replacing expensive BI platforms with static HTML + JavaScript dashboards generated at build time. The cost savings are real and the maintenance burden is often lower. Practical and immediately actionable for anyone who&#x27;s ever stared at a Looker invoice in disbelief.</p>
+    <div class="links">
+      <a href="https://david.lequin.dev/blog/bi-software-is-dead/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
