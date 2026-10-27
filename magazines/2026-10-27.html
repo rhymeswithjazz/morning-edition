@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 27, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 27, 2026.">
+<meta property="og:title" content="Morning Edition — October 27, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-27.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · October 27, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Three new discoveries in mathematics, computer science, and physics</a></li>
+      <li><a href="#s2">Sebastian Raschka&#x27;s from-scratch video course on building reasoning models</a></li>
+      <li><a href="#s3">The Exponential Time Hypothesis Is False [pdf]</a></li>
+      <li><a href="#s4">GPT-6.1 Terra</a></li>
+      <li><a href="#s5">Microsoft offers mass buyouts for roughly a quarter of its workforce</a></li>
+      <li><a href="#s6">Roblox downloaded 145GB models from us (including adult content) without asking</a></li>
+      <li><a href="#s7">The Mythical Man-Month in the Age of AI</a></li>
+      <li><a href="#s8">Type Server Protocol</a></li>
+      <li><a href="#s9">AI promised less work. I&#x27;ve never worked more</a></li>
+      <li><a href="#s10">New iPad mini</a></li>
+      <li><a href="#s11">Apple Announces New A20 Pro iPad Mini (via IFTTT)</a></li>
+      <li><a href="#s12">About the compromised eMudhra intermediate CAs - Apple Support</a></li>
+      <li><a href="#s13">Five weird details from Anthropic&#x27;s IPO filing | The Verge</a></li>
+      <li><a href="#s14">photocraft: An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust</a></li>
+      <li><a href="#s15">Survival LLM: an AI that still works when the internet doesn&#x27;t</a></li>
+      <li><a href="#s16">CLoaKY233/siltop: Terminal system monitor for Apple Silicon Macs: CPU, GPU, power, temperatures, processes.</a></li>
+      <li><a href="#s17">rqlite</a></li>
+      <li><a href="#s18">Explore SwiftUI - Visual Library for SwiftUI Components | Explore SwiftUI</a></li>
+      <li><a href="#s19">Kibernetyk Mono</a></li>
+      <li><a href="#s20">Is this machine playing?</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/">Three new discoveries in mathematics, computer science, and physics</a></h3>
+    <div class="byline">by jonluca · 1019 points · 562 comments</div>
+    <p class="blurb">OpenAI is claiming genuine novel scientific discoveries across three disciplines — not just paper summaries, but original results. If credible, this is a landmark moment for AI as a research tool rather than just a coding assistant. The HN thread has 562 comments of healthy skepticism and wonder.</p>
+    <div class="links">
+      <a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50251344">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://magazine.sebastianraschka.com/p/building-reasoning-models">Sebastian Raschka&#x27;s from-scratch video course on building reasoning models</a></h3>
+    <div class="byline">by sgiannopoulos · 772 points · 104 comments</div>
+    <p class="blurb">Raschka is one of the clearest ML educators alive, and this course goes deep on how reasoning models actually work — not just how to call them. Essential viewing for anyone building AI-powered tools who wants to understand what&#x27;s happening under the hood.</p>
+    <div class="links">
+      <a href="https://magazine.sebastianraschka.com/p/building-reasoning-models">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50245138">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf">The Exponential Time Hypothesis Is False [pdf]</a></h3>
+    <div class="byline">by vok · 698 points · 256 comments</div>
+    <p class="blurb">The ETH has been a bedrock assumption of computational complexity theory for decades — if this proof holds, it reshapes our understanding of what&#x27;s efficiently solvable. An OpenAI-authored preprint that&#x27;s already sending complexity theorists into a frenzy.</p>
+    <div class="links">
+      <a href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50251661">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/introducing-gpt-6-1-terra/">GPT-6.1 Terra</a></h3>
+    <div class="byline">by meetpateltech · 606 points · 386 comments</div>
+    <p class="blurb">A new frontier model from OpenAI drops today, and the name &#x27;Terra&#x27; suggests grounded, real-world capability rather than pure reasoning chains. If you use AI coding assistants daily, you&#x27;ll want to benchmark this immediately against your current workflow.</p>
+    <div class="links">
+      <a href="https://openai.com/index/introducing-gpt-6-1-terra/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50248124">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/">Microsoft offers mass buyouts for roughly a quarter of its workforce</a></h3>
+    <div class="byline">by doctorzook · 986 points · 997 comments</div>
+    <p class="blurb">A quarter of Microsoft&#x27;s workforce is a staggering number — this isn&#x27;t routine trimming, it&#x27;s a structural bet that AI tooling replaces whole swaths of human effort. The implications for .NET, Azure, and developer tooling teams are worth watching closely.</p>
+    <div class="links">
+      <a href="https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50245524">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/">Roblox downloaded 145GB models from us (including adult content) without asking</a></h3>
+    <div class="byline">by choult · 321 points · 197 comments</div>
+    <p class="blurb">Open3DLab caught Roblox&#x27;s crawlers silently bulk-downloading 145GB of user-uploaded 3D models — including adult content — with no notice or consent. It&#x27;s a fresh case study in how large platforms treat open-content sites as training data buffets.</p>
+    <div class="links">
+      <a href="https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50256985">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://j11g.com/the-mythical-man-month-in-the-age-of-ai">The Mythical Man-Month in the Age of AI</a></h3>
+    <div class="byline">by ilreb · 285 points · 187 comments</div>
+    <p class="blurb">Brooks&#x27; 1975 thesis was that adding people to a late project makes it later — does AI change that equation? This essay argues thoughtfully that AI assistance reshapes coordination costs but doesn&#x27;t eliminate them. Required reading for any team rethinking how they build software.</p>
+    <div class="links">
+      <a href="https://j11g.com/the-mythical-man-month-in-the-age-of-ai">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50255298">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md">Type Server Protocol</a></h3>
+    <div class="byline">by adamnemecek · 254 points · 172 comments</div>
+    <p class="blurb">Microsoft is proposing a Language Server Protocol equivalent specifically for type information — TSP. For TypeScript/.NET developers, this could mean richer, faster IDE experiences decoupled from language server performance bottlenecks. One to watch if you live in VS Code.</p>
+    <div class="links">
+      <a href="https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50248371">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://oioannou.com/blog/ai-promised-less-work/">AI promised less work. I&#x27;ve never worked more</a></h3>
+    <div class="byline">by oorestisime · 252 points · 226 comments</div>
+    <p class="blurb">An honest developer account of how AI tools expanded scope and raised expectations rather than reducing workload. The productivity paradox is real and resonates deeply with anyone who&#x27;s noticed their backlog growing despite Claude Code open in the background.</p>
+    <div class="links">
+      <a href="https://oioannou.com/blog/ai-promised-less-work/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50257325">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/">New iPad mini</a></h3>
+    <div class="byline">by soheilpro · 241 points · 560 comments</div>
+    <p class="blurb">Apple is calling this the biggest iPad mini update ever — new chip, new display, same beloved form factor. For developers in the Apple ecosystem, this is the portable testing device to watch, and the 560-comment HN thread is buzzing with reaction.</p>
+    <div class="links">
+      <a href="https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50243061">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://daringfireball.net/2026/10/apple_announces_new_a20_pro_ipad_mini">Apple Announces New A20 Pro iPad Mini (via IFTTT)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Gruber&#x27;s take on the A20 Pro iPad mini is the essential Apple-ecosystem read alongside the Apple newsroom announcement. The A20 Pro chip in a mini-tablet form factor is a genuinely surprising configuration — Daring Fireball cuts through the marketing to what matters.</p>
+    <div class="links">
+      <a href="https://daringfireball.net/2026/10/apple_announces_new_a20_pro_ipad_mini">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://support.apple.com/en-us/149555">About the compromised eMudhra intermediate CAs - Apple Support</a></h3>
+    <div class="byline">Pinboard Popular · tagged: apple, browser, security, casestudy, india</div>
+    <p class="blurb">Apple has pulled trust from eMudhra intermediate certificate authorities after compromise — this is an active security event affecting TLS trust chains in Safari and iOS. If you maintain any systems that verify certificates, this is actionable today.</p>
+    <div class="links">
+      <a href="https://support.apple.com/en-us/149555">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details">Five weird details from Anthropic&#x27;s IPO filing | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Anthropic filed its S-1 and The Verge dug out the genuinely strange parts. For anyone building on Claude or Claude Code, understanding Anthropic&#x27;s financial structure and risk disclosures is now more than just curiosity — it&#x27;s vendor due diligence.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://github.com/storytold/photocraft">photocraft: An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust</a></h3>
+    <div class="byline">Pinboard Popular · tagged: lup</div>
+    <p class="blurb">A clean-room Photoshop reimplementation in Rust is an audacious project — and if it gets even 30% of the way there, it becomes a compelling open-source alternative for developers who hate Adobe&#x27;s subscription churn. Early days but worth starring and watching.</p>
+    <div class="links">
+      <a href="https://github.com/storytold/photocraft">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.brangus.io/survival-llm">Survival LLM: an AI that still works when the internet doesn&#x27;t</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A free, fully offline AI assistant and emergency reference library that runs entirely on your local machine — no cloud, no connectivity required. For privacy-conscious developers or anyone who&#x27;s ever lost internet mid-debugging, this is a practical download.</p>
+    <div class="links">
+      <a href="https://www.brangus.io/survival-llm">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/CLoaKY233/siltop">CLoaKY233/siltop: Terminal system monitor for Apple Silicon Macs: CPU, GPU, power, temperatures, processes.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A terminal-based system monitor built specifically for Apple Silicon — showing CPU, GPU, power draw, and thermal data that macOS Activity Monitor buries. If you run heavy AI workloads locally on an M-series Mac, this goes straight in your toolkit.</p>
+    <div class="links">
+      <a href="https://github.com/CLoaKY233/siltop">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rqlite.io/">rqlite</a></h3>
+    <div class="byline">Pinboard Popular · tagged: sqlite, rqlite, kubernetes</div>
+    <p class="blurb">rqlite is a distributed relational database built on SQLite, now with solid Kubernetes support — giving you the simplicity of SQLite with the durability of a replicated cluster. A great fit for lightweight microservices where Postgres feels like overkill.</p>
+    <div class="links">
+      <a href="https://rqlite.io/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://exploreswiftui.com/">Explore SwiftUI - Visual Library for SwiftUI Components | Explore SwiftUI</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A visual reference library of SwiftUI components and modifiers with copy-paste-ready code samples. If you&#x27;re an Apple ecosystem developer who occasionally dips into Swift, this is the reference you&#x27;ll bookmark and actually use.</p>
+    <div class="links">
+      <a href="https://exploreswiftui.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://pavlokilko.github.io/KibernetykMono/">Kibernetyk Mono</a></h3>
+    <div class="byline">Pinboard Popular · tagged: font, fonts, download, typeface, monospace</div>
+    <p class="blurb">A free downloadable monospace typeface with a distinctive Eastern European aesthetic — clean enough for code, characterful enough to stand out in a terminal or editor. Worth a look if you&#x27;ve grown tired of the usual Fira/JetBrains monoculture.</p>
+    <div class="links">
+      <a href="https://pavlokilko.github.io/KibernetykMono/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://arxiv.org/abs/2610.07130">Is this machine playing?</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI, openendedness, curiosity, research, paper, evolutionary, games</div>
+    <p class="blurb">Researchers placed AI coding agents in an unstructured virtual environment with no task or reward — and they spontaneously climbed hills, built towers, ran physics experiments, and drew mandalas across 30-hour sessions. A genuinely eerie paper about emergent AI behavior and what &#x27;play&#x27; might mean for machines.</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2610.07130">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
