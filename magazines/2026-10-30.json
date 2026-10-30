@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-30",
+  "stories": [
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "hn_link": "https://news.ycombinator.com/item?id=50300683",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by _chall · 99 points · 295 comments",
+      "blurb": "A malicious actor published a trojanized Claude Code extension on the Cursor Marketplace — directly targeting developers who use Claude Code daily. The 295-comment thread is essential reading: understand exactly what was exfiltrated, how the backdoor was inserted, and whether you may have been affected."
+    },
+    {
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50290177",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ibobev · 539 points · 288 comments",
+      "blurb": "Martin Fowler weighs in on the emerging pattern of voice-driven LLM interaction — not just dictation, but full conversational loops with coding assistants. For anyone building or using AI workflows, this is a crisp conceptual primer on where the modality is headed."
+    },
+    {
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50296486",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by sandslash · 344 points · 141 comments",
+      "blurb": "YC Labs unleashed multi-agent swarms inside game environments as a research platform for emergent coordination. The insights on agent communication protocols and task decomposition are directly applicable to anyone building agentic AI workflows."
+    },
+    {
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "hn_link": "https://news.ycombinator.com/item?id=50301854",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by swq115 · 130 points · 11 comments",
+      "blurb": "Binary Security documents five separate attack chains that each achieved full cross-tenant compromise in Azure — a nightmare scenario for any cloud workload. If your .NET services live in Azure, this is mandatory reading before your next deployment."
+    },
+    {
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "hn_link": "https://news.ycombinator.com/item?id=50295450",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by airinei · 253 points · 16 comments",
+      "blurb": "A transformer-based world model squeezed onto a microcontroller so cheap it practically comes free with cereal. The engineering constraints are fascinating — quantization tricks and inference optimizations that apply far beyond embedded hardware."
+    },
+    {
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "hn_link": "https://news.ycombinator.com/item?id=50291054",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ea016 · 480 points · 155 comments",
+      "blurb": "A perennial classic making the rounds again: a beautiful deep-dive into the perceptual tricks and math that make H.264 absurdly efficient. Essential background for anyone working with video pipelines or trying to understand why modern codecs behave the way they do."
+    },
+    {
+      "title": "Astroterm: A Planetarium for Your Terminal",
+      "url": "https://github.com/da-luce/astroterm",
+      "hn_link": "https://news.ycombinator.com/item?id=50270651",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by nvmdbljstm · 192 points · 22 comments",
+      "blurb": "A TUI planetarium that renders real-time star maps, planet positions, and constellation overlays right in your terminal. Charming, genuinely useful for stargazers, and a showcase of what modern terminal UIs can do."
+    },
+    {
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "hn_link": "https://news.ycombinator.com/item?id=50298436",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by cherioo · 289 points · 187 comments",
+      "blurb": "Herdr — the terminal-centric task and agent orchestration tool — just dropped a native desktop client. Worth tracking if you're managing multiple Claude Code sessions or AI agent runs across projects."
+    },
+    {
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "hn_link": "https://news.ycombinator.com/item?id=50297697",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by falperc · 118 points · 35 comments",
+      "blurb": "A generative transformer trained to predict DOOM frames as a world model — running playable game sessions purely from learned priors. Sits right next to the TinyWorldFormer in the 'ML-as-game-engine' zeitgeist and is a fun technical read."
+    },
+    {
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "hn_link": "https://news.ycombinator.com/item?id=50273340",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by 6thbit · 45 points · 32 comments",
+      "blurb": "A sharp critique of how AI benchmarks get gamed and what Artificial Analysis v5 is trying to do about it. Indispensable context for anyone choosing between models for coding assistant use-cases — numbers lie, and this post explains how."
+    },
+    {
+      "title": "Anthropic single agent loop kit",
+      "url": "https://github.com/anthropics/single-agent-loop-kit",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, agent",
+      "blurb": "Anthropic's official reference implementation for a single-agent loop — the scaffold that underpins Claude Code and similar tools. If you're building custom AI agents, starting here instead of reinventing the wheel is the obvious move."
+    },
+    {
+      "title": "NVIDIA/OpenShell: OpenShell is the safe, private runtime for autonomous AI agents.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: nvidia, openshell, sandbox, deep-learning, security, ai-engineer, ai-engineering",
+      "blurb": "NVIDIA open-sources the sandboxed shell runtime they use to safely execute autonomous AI agents — think isolated process environments with audit trails and capability restrictions. Critical infrastructure for anyone running AI agents against real systems."
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: process, programming, work, software, games, ai, llm",
+      "blurb": "Simon Willison covers a first-hand account of building an entirely LLM-driven multiplayer game world using autonomous agents. The engineering decisions around persistence, coherence, and agent coordination are the most concrete AI workflow case study you'll read this week."
+    },
+    {
+      "title": "Reforging the Workflow: Where the Human Goes When Agents Ship | Martin Gratzer",
+      "url": "https://mgratzer.com/posts/reforging-the-workflow/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agentic, workflow, humanintheloop",
+      "blurb": "A thoughtful post on redesigning developer workflows around agentic AI — specifically, how human review and intervention checkpoints change when agents are doing the heavy lifting. Essential reading for Claude Code power users rethinking their development loop."
+    },
+    {
+      "title": "Proton fa scrivere all'AI il 90% del codice e riesamina i dipendenti, rivela 404 Media",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: N8N, s:persone, TW2026-44, BF",
+      "blurb": "A 404 Media exposé on Proton's internal AI reckoning: 90% of code is now written by AI (mostly Claude), engineers are being re-interviewed with their jobs on the line, and the CEO dismissed testing code before release as 'loser thinking.' A must-read cautionary tale about AI adoption velocity outpacing engineering culture."
+    },
+    {
+      "title": "Police Are Using AI to Pull Over Drivers for 'Suspicious' Behavior",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: law, police, ai, camera, auto, news",
+      "blurb": "Law enforcement agencies are deploying AI camera systems that flag drivers for behavioral patterns — without a specific traffic violation — as justification for stops. The civil liberties implications are enormous, and the lack of algorithmic transparency is alarming."
+    },
+    {
+      "title": "Bias in Qwen3-Coder Model - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security",
+      "blurb": "Bruce Schneier breaks down documented bias in the Qwen3-Coder model with security implications. If you're evaluating coding models for your workflow, this is exactly the kind of rigorous third-party analysis you need before committing."
+    },
+    {
+      "title": "Apple Expected to Announce MacBook Pro With Touchscreen Tomorrow - MacRumors",
+      "url": "https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacRumors reports that Apple is set to unveil a touchscreen MacBook Pro — a first for the product line and a significant departure from years of resistance to touch on macOS. For any Mac-centric developer, this changes the hardware calculus considerably."
+    },
+    {
+      "title": "brushedpixel — Musebox",
+      "url": "https://brushedpixel.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, archive, file-management, photography, graphics, apple, macos",
+      "blurb": "Musebox is a native macOS app for archiving, browsing, and organizing creative assets — images, graphics, and photography — with a clean, file-system-first approach. A polished Apple-ecosystem tool for creatives who live in Finder and want a smart visual inbox."
+    },
+    {
+      "title": "Crafting Apps: open-source creative tools — ArtCraft",
+      "url": "https://getartcraft.com/apps",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: craft, apps, video, vector, image, photography, animation",
+      "blurb": "ArtCraft ships seven native, open-source creative apps — image editing, vector illustration, video, photography, PDFs, motion graphics, and page layout — all built in Rust and free to use. A potential Affinity-killer suite worth bookmarking for your next project."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 30, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 30, 2026.">
+<meta property="og:title" content="Morning Edition — October 30, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-30.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Friday · October 30, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Backdoor in Claude Code for VS Code extension on the Cursor Marketplace</a></li>
+      <li><a href="#s2">LLM Voice</a></li>
+      <li><a href="#s3">We ran AI agent swarms in Minecraft and Mindustry</a></li>
+      <li><a href="#s4">Azure&#x27;s Weakest Link – Five Full Cross-Tenant Compromises</a></li>
+      <li><a href="#s5">A tiny world model running games on a Raspberry Pi Pico 2 W</a></li>
+      <li><a href="#s6">H.264 Is Magic (2016)</a></li>
+      <li><a href="#s7">Astroterm: A Planetarium for Your Terminal</a></li>
+      <li><a href="#s8">Herdr has released native app</a></li>
+      <li><a href="#s9">Show HN: I Turned DOOM into a Transformer</a></li>
+      <li><a href="#s10">Artificial Analysis v5 and the benchmarker&#x27;s dilemma</a></li>
+      <li><a href="#s11">Anthropic single agent loop kit</a></li>
+      <li><a href="#s12">NVIDIA/OpenShell: OpenShell is the safe, private runtime for autonomous AI agents.</a></li>
+      <li><a href="#s13">Building a multiplayer game world with autonomous Fable-class models</a></li>
+      <li><a href="#s14">Reforging the Workflow: Where the Human Goes When Agents Ship | Martin Gratzer</a></li>
+      <li><a href="#s15">Proton fa scrivere all&#x27;AI il 90% del codice e riesamina i dipendenti, rivela 404 Media</a></li>
+      <li><a href="#s16">Police Are Using AI to Pull Over Drivers for &#x27;Suspicious&#x27; Behavior</a></li>
+      <li><a href="#s17">Bias in Qwen3-Coder Model - Schneier on Security</a></li>
+      <li><a href="#s18">Apple Expected to Announce MacBook Pro With Touchscreen Tomorrow - MacRumors</a></li>
+      <li><a href="#s19">brushedpixel — Musebox</a></li>
+      <li><a href="#s20">Crafting Apps: open-source creative tools — ArtCraft</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">Backdoor in Claude Code for VS Code extension on the Cursor Marketplace</a></h3>
+    <div class="byline">by _chall · 99 points · 295 comments</div>
+    <p class="blurb">A malicious actor published a trojanized Claude Code extension on the Cursor Marketplace — directly targeting developers who use Claude Code daily. The 295-comment thread is essential reading: understand exactly what was exfiltrated, how the backdoor was inserted, and whether you may have been affected.</p>
+    <div class="links">
+      <a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50300683">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://martinfowler.com/bliki/LLM-Voice.html">LLM Voice</a></h3>
+    <div class="byline">by ibobev · 539 points · 288 comments</div>
+    <p class="blurb">Martin Fowler weighs in on the emerging pattern of voice-driven LLM interaction — not just dictation, but full conversational loops with coding assistants. For anyone building or using AI workflows, this is a crisp conceptual primer on where the modality is headed.</p>
+    <div class="links">
+      <a href="https://martinfowler.com/bliki/LLM-Voice.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50290177">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://labs.ycombinator.com/projects/games/index.html">We ran AI agent swarms in Minecraft and Mindustry</a></h3>
+    <div class="byline">by sandslash · 344 points · 141 comments</div>
+    <p class="blurb">YC Labs unleashed multi-agent swarms inside game environments as a research platform for emergent coordination. The insights on agent communication protocols and task decomposition are directly applicable to anyone building agentic AI workflows.</p>
+    <div class="links">
+      <a href="https://labs.ycombinator.com/projects/games/index.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50296486">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.binarysecurity.no/posts/2026/10/one-root-case">Azure&#x27;s Weakest Link – Five Full Cross-Tenant Compromises</a></h3>
+    <div class="byline">by swq115 · 130 points · 11 comments</div>
+    <p class="blurb">Binary Security documents five separate attack chains that each achieved full cross-tenant compromise in Azure — a nightmare scenario for any cloud workload. If your .NET services live in Azure, this is mandatory reading before your next deployment.</p>
+    <div class="links">
+      <a href="https://www.binarysecurity.no/posts/2026/10/one-root-case">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50301854">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://github.com/SheepSeb/tinyworldformer">A tiny world model running games on a Raspberry Pi Pico 2 W</a></h3>
+    <div class="byline">by airinei · 253 points · 16 comments</div>
+    <p class="blurb">A transformer-based world model squeezed onto a microcontroller so cheap it practically comes free with cereal. The engineering constraints are fascinating — quantization tricks and inference optimizations that apply far beyond embedded hardware.</p>
+    <div class="links">
+      <a href="https://github.com/SheepSeb/tinyworldformer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50295450">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://sidbala.com/h-264-is-magic/">H.264 Is Magic (2016)</a></h3>
+    <div class="byline">by ea016 · 480 points · 155 comments</div>
+    <p class="blurb">A perennial classic making the rounds again: a beautiful deep-dive into the perceptual tricks and math that make H.264 absurdly efficient. Essential background for anyone working with video pipelines or trying to understand why modern codecs behave the way they do.</p>
+    <div class="links">
+      <a href="https://sidbala.com/h-264-is-magic/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50291054">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/da-luce/astroterm">Astroterm: A Planetarium for Your Terminal</a></h3>
+    <div class="byline">by nvmdbljstm · 192 points · 22 comments</div>
+    <p class="blurb">A TUI planetarium that renders real-time star maps, planet positions, and constellation overlays right in your terminal. Charming, genuinely useful for stargazers, and a showcase of what modern terminal UIs can do.</p>
+    <div class="links">
+      <a href="https://github.com/da-luce/astroterm">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50270651">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/herdrdev/herdr-app">Herdr has released native app</a></h3>
+    <div class="byline">by cherioo · 289 points · 187 comments</div>
+    <p class="blurb">Herdr — the terminal-centric task and agent orchestration tool — just dropped a native desktop client. Worth tracking if you&#x27;re managing multiple Claude Code sessions or AI agent runs across projects.</p>
+    <div class="links">
+      <a href="https://github.com/herdrdev/herdr-app">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50298436">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://github.com/mottopanikeiku/doomformer">Show HN: I Turned DOOM into a Transformer</a></h3>
+    <div class="byline">by falperc · 118 points · 35 comments</div>
+    <p class="blurb">A generative transformer trained to predict DOOM frames as a world model — running playable game sessions purely from learned priors. Sits right next to the TinyWorldFormer in the &#x27;ML-as-game-engine&#x27; zeitgeist and is a fun technical read.</p>
+    <div class="links">
+      <a href="https://github.com/mottopanikeiku/doomformer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50297697">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers">Artificial Analysis v5 and the benchmarker&#x27;s dilemma</a></h3>
+    <div class="byline">by 6thbit · 45 points · 32 comments</div>
+    <p class="blurb">A sharp critique of how AI benchmarks get gamed and what Artificial Analysis v5 is trying to do about it. Indispensable context for anyone choosing between models for coding assistant use-cases — numbers lie, and this post explains how.</p>
+    <div class="links">
+      <a href="https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50273340">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/anthropics/single-agent-loop-kit">Anthropic single agent loop kit</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm, agent</div>
+    <p class="blurb">Anthropic&#x27;s official reference implementation for a single-agent loop — the scaffold that underpins Claude Code and similar tools. If you&#x27;re building custom AI agents, starting here instead of reinventing the wheel is the obvious move.</p>
+    <div class="links">
+      <a href="https://github.com/anthropics/single-agent-loop-kit">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/NVIDIA/OpenShell">NVIDIA/OpenShell: OpenShell is the safe, private runtime for autonomous AI agents.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: nvidia, openshell, sandbox, deep-learning, security, ai-engineer, ai-engineering</div>
+    <p class="blurb">NVIDIA open-sources the sandboxed shell runtime they use to safely execute autonomous AI agents — think isolated process environments with audit trails and capability restrictions. Critical infrastructure for anyone running AI agents against real systems.</p>
+    <div class="links">
+      <a href="https://github.com/NVIDIA/OpenShell">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Building a multiplayer game world with autonomous Fable-class models</a></h3>
+    <div class="byline">Pinboard Popular · tagged: process, programming, work, software, games, ai, llm</div>
+    <p class="blurb">Simon Willison covers a first-hand account of building an entirely LLM-driven multiplayer game world using autonomous agents. The engineering decisions around persistence, coherence, and agent coordination are the most concrete AI workflow case study you&#x27;ll read this week.</p>
+    <div class="links">
+      <a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://mgratzer.com/posts/reforging-the-workflow/">Reforging the Workflow: Where the Human Goes When Agents Ship | Martin Gratzer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: agentic, workflow, humanintheloop</div>
+    <p class="blurb">A thoughtful post on redesigning developer workflows around agentic AI — specifically, how human review and intervention checkpoints change when agents are doing the heavy lifting. Essential reading for Claude Code power users rethinking their development loop.</p>
+    <div class="links">
+      <a href="https://mgratzer.com/posts/reforging-the-workflow/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/">Proton fa scrivere all&#x27;AI il 90% del codice e riesamina i dipendenti, rivela 404 Media</a></h3>
+    <div class="byline">Pinboard Popular · tagged: N8N, s:persone, TW2026-44, BF</div>
+    <p class="blurb">A 404 Media exposé on Proton&#x27;s internal AI reckoning: 90% of code is now written by AI (mostly Claude), engineers are being re-interviewed with their jobs on the line, and the CEO dismissed testing code before release as &#x27;loser thinking.&#x27; A must-read cautionary tale about AI adoption velocity outpacing engineering culture.</p>
+    <div class="links">
+      <a href="https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220">Police Are Using AI to Pull Over Drivers for &#x27;Suspicious&#x27; Behavior</a></h3>
+    <div class="byline">Pinboard Popular · tagged: law, police, ai, camera, auto, news</div>
+    <p class="blurb">Law enforcement agencies are deploying AI camera systems that flag drivers for behavioral patterns — without a specific traffic violation — as justification for stops. The civil liberties implications are enormous, and the lack of algorithmic transparency is alarming.</p>
+    <div class="links">
+      <a href="https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html">Bias in Qwen3-Coder Model - Schneier on Security</a></h3>
+    <div class="byline">Pinboard Popular · tagged: security</div>
+    <p class="blurb">Bruce Schneier breaks down documented bias in the Qwen3-Coder model with security implications. If you&#x27;re evaluating coding models for your workflow, this is exactly the kind of rigorous third-party analysis you need before committing.</p>
+    <div class="links">
+      <a href="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/">Apple Expected to Announce MacBook Pro With Touchscreen Tomorrow - MacRumors</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">MacRumors reports that Apple is set to unveil a touchscreen MacBook Pro — a first for the product line and a significant departure from years of resistance to touch on macOS. For any Mac-centric developer, this changes the hardware calculus considerably.</p>
+    <div class="links">
+      <a href="https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://brushedpixel.com/">brushedpixel — Musebox</a></h3>
+    <div class="byline">Pinboard Popular · tagged: software, archive, file-management, photography, graphics, apple, macos</div>
+    <p class="blurb">Musebox is a native macOS app for archiving, browsing, and organizing creative assets — images, graphics, and photography — with a clean, file-system-first approach. A polished Apple-ecosystem tool for creatives who live in Finder and want a smart visual inbox.</p>
+    <div class="links">
+      <a href="https://brushedpixel.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://getartcraft.com/apps">Crafting Apps: open-source creative tools — ArtCraft</a></h3>
+    <div class="byline">Pinboard Popular · tagged: craft, apps, video, vector, image, photography, animation</div>
+    <p class="blurb">ArtCraft ships seven native, open-source creative apps — image editing, vector illustration, video, photography, PDFs, motion graphics, and page layout — all built in Rust and free to use. A potential Affinity-killer suite worth bookmarking for your next project.</p>
+    <div class="links">
+      <a href="https://getartcraft.com/apps">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
