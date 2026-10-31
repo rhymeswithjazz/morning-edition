@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — October 31, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for October 31, 2026.">
+<meta property="og:title" content="Morning Edition — October 31, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-10-31.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Saturday · October 31, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">The $6.3B Binance hack was pulled off in just 20 minutes</a></li>
+      <li><a href="#s2">Northflank Breached</a></li>
+      <li><a href="#s3">Tell HN: Scribd Breached</a></li>
+      <li><a href="#s4">Show HN: A working Nintendo in ~1GB of Qwen weights</a></li>
+      <li><a href="#s5">My favourite PowerMac is a Nintendo Wii</a></li>
+      <li><a href="#s6">The federated code forge</a></li>
+      <li><a href="#s7">Breaking the open web won&#x27;t stop the bad bots</a></li>
+      <li><a href="#s8">Cisco gives engineer unlimited AI tokens to rewrite legacy code</a></li>
+      <li><a href="#s9">We Took over ChatGPT Accounts</a></li>
+      <li><a href="#s10">Florilegium: Procedural Flowers in LaTeX</a></li>
+      <li><a href="#s11">MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max (via IFTTT)</a></li>
+      <li><a href="#s12">MacBook Studio? - MacRumors</a></li>
+      <li><a href="#s13">claude-plugins-official/plugins at main · anthropics/claude-plugins-official</a></li>
+      <li><a href="#s14">daveebbelaar/bama: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.</a></li>
+      <li><a href="#s15">GM to pay $220m to settle allegations it violated drivers&#x27; privacy • Reuters</a></li>
+      <li><a href="#s16">Firefox now has a &quot;Copy Clean Link&quot; option, to strip tracking from urls.</a></li>
+      <li><a href="#s17">DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI</a></li>
+      <li><a href="#s18">Building fine-grained version control for agents with Rust and Durable Objects — Delta Blog</a></li>
+      <li><a href="#s19">Git for the US Code | Lexifina</a></li>
+      <li><a href="#s20">Neuron Persona Library</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/">The $6.3B Binance hack was pulled off in just 20 minutes</a></h3>
+    <div class="byline">by domhudson · 509 points · 357 comments</div>
+    <p class="blurb">A forensic breakdown of how attackers drained $6.3 billion from Binance in under half an hour — the fastest major crypto heist on record. The Wired deep-dive covers the exploit chain, the laundering path, and what it reveals about the structural fragility of centralized exchanges. A sobering reminder that custody risk is security risk.</p>
+    <div class="links">
+      <a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50303172">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://status.northflank.com">Northflank Breached</a></h3>
+    <div class="byline">by js4ever · 456 points · 331 comments</div>
+    <p class="blurb">Developer cloud platform Northflank confirmed a breach, sending the HN thread into a heated post-mortem. If you host workloads there, check the status page and rotate credentials now. A good reminder that even niche devops platforms are high-value targets.</p>
+    <div class="links">
+      <a href="https://status.northflank.com">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50305025">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50312756">Tell HN: Scribd Breached</a></h3>
+    <div class="byline">by x______________ · 273 points · 103 comments</div>
+    <p class="blurb">Scribd joins the breach parade — user data exposed, details still emerging in the thread. Two major breaches in one day (Northflank + Scribd) underscores how relentless the attack surface has become in 2026. If you have a Scribd account, treat it as compromised.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50312756">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50312756">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/dbreunig/nesformer">Show HN: A working Nintendo in ~1GB of Qwen weights</a></h3>
+    <div class="byline">by dbreunig · 269 points · 132 comments</div>
+    <p class="blurb">A transformer trained on NES game states that can actually play Nintendo games — squeezed into ~1GB of Qwen weights. It&#x27;s a wild proof-of-concept that world-models can encode interactive game logic, not just text. The implications for AI simulation and game-world modeling are genuinely interesting.</p>
+    <div class="links">
+      <a href="https://github.com/dbreunig/nesformer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50306442">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/">My favourite PowerMac is a Nintendo Wii</a></h3>
+    <div class="byline">by DHowett · 338 points · 100 comments</div>
+    <p class="blurb">A delightful hardware archaeology post on running classic Mac OS on a Wii — which shares the PowerPC architecture Apple used before the Intel transition. The author coaxes real productivity software out of a game console, making it the weirdest Mac you&#x27;ll read about today.</p>
+    <div class="links">
+      <a href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50307190">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://tangled.org/blog/forge/">The federated code forge</a></h3>
+    <div class="byline">by zlliang · 306 points · 89 comments</div>
+    <p class="blurb">Tangled is building a federated git forge on top of the AT Protocol (Bluesky&#x27;s stack) — PRs, issues, and code reviews that live across instances rather than a single silo. GitHub lock-in has been a known problem for years; this is the most credible decentralized attempt yet. Worth watching closely if you care about code infrastructure ownership.</p>
+    <div class="links">
+      <a href="https://tangled.org/blog/forge/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50305573">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/">Breaking the open web won&#x27;t stop the bad bots</a></h3>
+    <div class="byline">by raybb · 289 points · 128 comments</div>
+    <p class="blurb">A sharp policy essay arguing that CAPTCHA-heavy, verification-gated approaches to bot defense end up punishing legitimate users while sophisticated scrapers route around them anyway. The analysis applies directly to the AI training data wars playing out right now. Required reading for anyone building web-accessible services.</p>
+    <div class="links">
+      <a href="https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50263837">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/">Cisco gives engineer unlimited AI tokens to rewrite legacy code</a></h3>
+    <div class="byline">by taubek · 231 points · 281 comments</div>
+    <p class="blurb">Cisco&#x27;s president handed a 27-year-old engineer a blank AI-token budget to modernize legacy code — and the HN thread explodes with debate about what this means for entry-level jobs. It&#x27;s a concrete case study in AI-augmented engineering org structure, not just hype. If you&#x27;re thinking about how to structure AI tooling budgets, this is the real-world data point.</p>
+    <div class="links">
+      <a href="https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50304122">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">We Took over ChatGPT Accounts</a></h3>
+    <div class="byline">by armcat · 106 points · 47 comments</div>
+    <p class="blurb">Security researchers at parameter.ai found an account-takeover vulnerability in ChatGPT and documented the full exploit chain. Given how many developers use ChatGPT for sensitive work, this is a direct personal risk. The write-up is technical and worth reading for the OAuth/session handling lessons alone.</p>
+    <div class="links">
+      <a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50314699">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://github.com/kevinraymond/florilegium">Florilegium: Procedural Flowers in LaTeX</a></h3>
+    <div class="byline">by nanna · 328 points · 49 comments</div>
+    <p class="blurb">Someone built a LaTeX package that procedurally generates botanical illustrations — actual flowers, rendered entirely in TeX macros. It&#x27;s completely impractical and completely wonderful, sitting at the intersection of creative coding and typographic obsession. The HN comments are predictably delighted.</p>
+    <div class="links">
+      <a href="https://github.com/kevinraymond/florilegium">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50305637">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max">MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max (via IFTTT)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Gruber&#x27;s breakdown of the new MacBook Pro lineup — M6 at the base tier, M5 Pro and M5 Max stepping up. This is the practical buying guide you need if you&#x27;re due for an upgrade. The configuration choices and price jumps are where the real decisions live, and Daring Fireball cuts through the noise.</p>
+    <div class="links">
+      <a href="https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.macrumors.com/2026/10/28/macbook-studio/">MacBook Studio? - MacRumors</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Rumors of a new &quot;MacBook Studio&quot; form factor are circulating — a laptop-sized device positioned between MacBook Pro and Mac Studio in Apple&#x27;s lineup. If real, it would be the most significant Mac category addition in years. Worth tracking if you&#x27;re in the market for maximum portable performance.</p>
+    <div class="links">
+      <a href="https://www.macrumors.com/2026/10/28/macbook-studio/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/anthropics/claude-plugins-official/tree/main/plugins">claude-plugins-official/plugins at main · anthropics/claude-plugins-official</a></h3>
+    <div class="byline">Pinboard Popular · tagged: plugins, claude_code, llm, claude, agenticEngineering</div>
+    <p class="blurb">Anthropic&#x27;s official Claude Code plugin repository — the canonical source for extending Claude&#x27;s agentic capabilities. If you&#x27;re building with Claude Code, this is the reference implementation for integrations and the starting point for custom tooling. Directly applicable to your workflow today.</p>
+    <div class="links">
+      <a href="https://github.com/anthropics/claude-plugins-official/tree/main/plugins">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/daveebbelaar/bama">daveebbelaar/bama: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: reverse-engineer</div>
+    <p class="blurb">BAMA is an AI agent framework specifically designed to build native macOS apps with Swift and SwiftUI — it handles research, prototyping, design, and testing. For a developer in the Apple ecosystem who also uses AI tools, this is a direct productivity multiplier. Could dramatically lower the barrier to shipping macOS utilities.</p>
+    <div class="links">
+      <a href="https://github.com/daveebbelaar/bama">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/">GM to pay $220m to settle allegations it violated drivers&#x27; privacy • Reuters</a></h3>
+    <div class="byline">Pinboard Popular · tagged: cars, data</div>
+    <p class="blurb">GM&#x27;s Smart Driver program secretly sold location and driving behavior data to insurance companies — and now 35 state AGs have extracted a $220M settlement. The fine is a rounding error against GM&#x27;s revenue, but the consent requirements going forward set a precedent. &quot;People bought a car, not a tracking device&quot; is the quote of the week.</p>
+    <div class="links">
+      <a href="https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_copy-clean-link">Firefox now has a &quot;Copy Clean Link&quot; option, to strip tracking from urls.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: firefox, surveillance, browser, web</div>
+    <p class="blurb">Firefox quietly shipped a &quot;Copy Clean Link&quot; context menu option that strips UTM parameters and other tracking cruft before you paste a URL anywhere. Small feature, big daily impact for anyone privacy-conscious. Actionable right now — no extension needed.</p>
+    <div class="links">
+      <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_copy-clean-link">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://surgehq.ai/blog/dayjob-tax">DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, benchmarks, testsets, howto</div>
+    <p class="blurb">Surge AI built a rigorous benchmark testing AI agents on professional-grade tax work — actual CPA-level questions, not toy problems. The methodology for evaluating AI on domain expertise is as interesting as the results. A template for how to honestly benchmark AI coding and knowledge-work agents.</p>
+    <div class="links">
+      <a href="https://surgehq.ai/blog/dayjob-tax">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://delta.dev/blog/fine-grained-version-control-for-agents">Building fine-grained version control for agents with Rust and Durable Objects — Delta Blog</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Delta&#x27;s engineering blog describes building row-level version history for AI agents using Rust and Cloudflare Durable Objects — so agents can branch, diff, and roll back their own state changes. As agentic workflows get more complex, version control for agent memory is going to be a critical infrastructure problem. Early thinking on a genuinely hard problem.</p>
+    <div class="links">
+      <a href="https://delta.dev/blog/fine-grained-version-control-for-agents">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://lexifina.com/blog/git-for-the-us-code">Git for the US Code | Lexifina</a></h3>
+    <div class="byline">Pinboard Popular · tagged: git, law, legal, blogs, year:2026</div>
+    <p class="blurb">A compelling argument for applying git-style version control to statutory law — so you can `blame` any line of a federal statute, see its full change history, and give LLMs proper legislative lineage to work with. The intersection of developer tooling and civic infrastructure that nobody expected to be this interesting.</p>
+    <div class="links">
+      <a href="https://lexifina.com/blog/git-for-the-us-code">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://neuronpersonas.com/">Neuron Persona Library</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, wierdness</div>
+    <p class="blurb">A library cataloguing &quot;neuron personas&quot; — the emergent behavioral patterns found in individual MLP neurons across large language models. It&#x27;s interpretability research made browsable, letting you explore what specific neurons appear to encode. Weird, fascinating, and directly relevant if you&#x27;re trying to understand how models like Claude actually behave.</p>
+    <div class="links">
+      <a href="https://neuronpersonas.com/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

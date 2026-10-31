@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-31",
+  "stories": [
+    {
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "hn_link": "https://news.ycombinator.com/item?id=50303172",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by domhudson · 509 points · 357 comments",
+      "blurb": "A forensic breakdown of how attackers drained $6.3 billion from Binance in under half an hour — the fastest major crypto heist on record. The Wired deep-dive covers the exploit chain, the laundering path, and what it reveals about the structural fragility of centralized exchanges. A sobering reminder that custody risk is security risk."
+    },
+    {
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "hn_link": "https://news.ycombinator.com/item?id=50305025",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by js4ever · 456 points · 331 comments",
+      "blurb": "Developer cloud platform Northflank confirmed a breach, sending the HN thread into a heated post-mortem. If you host workloads there, check the status page and rotate credentials now. A good reminder that even niche devops platforms are high-value targets."
+    },
+    {
+      "title": "Tell HN: Scribd Breached",
+      "url": "https://news.ycombinator.com/item?id=50312756",
+      "hn_link": "https://news.ycombinator.com/item?id=50312756",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by x______________ · 273 points · 103 comments",
+      "blurb": "Scribd joins the breach parade — user data exposed, details still emerging in the thread. Two major breaches in one day (Northflank + Scribd) underscores how relentless the attack surface has become in 2026. If you have a Scribd account, treat it as compromised."
+    },
+    {
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "hn_link": "https://news.ycombinator.com/item?id=50306442",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dbreunig · 269 points · 132 comments",
+      "blurb": "A transformer trained on NES game states that can actually play Nintendo games — squeezed into ~1GB of Qwen weights. It's a wild proof-of-concept that world-models can encode interactive game logic, not just text. The implications for AI simulation and game-world modeling are genuinely interesting."
+    },
+    {
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "hn_link": "https://news.ycombinator.com/item?id=50307190",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by DHowett · 338 points · 100 comments",
+      "blurb": "A delightful hardware archaeology post on running classic Mac OS on a Wii — which shares the PowerPC architecture Apple used before the Intel transition. The author coaxes real productivity software out of a game console, making it the weirdest Mac you'll read about today."
+    },
+    {
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "hn_link": "https://news.ycombinator.com/item?id=50305573",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by zlliang · 306 points · 89 comments",
+      "blurb": "Tangled is building a federated git forge on top of the AT Protocol (Bluesky's stack) — PRs, issues, and code reviews that live across instances rather than a single silo. GitHub lock-in has been a known problem for years; this is the most credible decentralized attempt yet. Worth watching closely if you care about code infrastructure ownership."
+    },
+    {
+      "title": "Breaking the open web won't stop the bad bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "hn_link": "https://news.ycombinator.com/item?id=50263837",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by raybb · 289 points · 128 comments",
+      "blurb": "A sharp policy essay arguing that CAPTCHA-heavy, verification-gated approaches to bot defense end up punishing legitimate users while sophisticated scrapers route around them anyway. The analysis applies directly to the AI training data wars playing out right now. Required reading for anyone building web-accessible services."
+    },
+    {
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "hn_link": "https://news.ycombinator.com/item?id=50304122",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by taubek · 231 points · 281 comments",
+      "blurb": "Cisco's president handed a 27-year-old engineer a blank AI-token budget to modernize legacy code — and the HN thread explodes with debate about what this means for entry-level jobs. It's a concrete case study in AI-augmented engineering org structure, not just hype. If you're thinking about how to structure AI tooling budgets, this is the real-world data point."
+    },
+    {
+      "title": "We Took over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "hn_link": "https://news.ycombinator.com/item?id=50314699",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by armcat · 106 points · 47 comments",
+      "blurb": "Security researchers at parameter.ai found an account-takeover vulnerability in ChatGPT and documented the full exploit chain. Given how many developers use ChatGPT for sensitive work, this is a direct personal risk. The write-up is technical and worth reading for the OAuth/session handling lessons alone."
+    },
+    {
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "hn_link": "https://news.ycombinator.com/item?id=50305637",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by nanna · 328 points · 49 comments",
+      "blurb": "Someone built a LaTeX package that procedurally generates botanical illustrations — actual flowers, rendered entirely in TeX macros. It's completely impractical and completely wonderful, sitting at the intersection of creative coding and typographic obsession. The HN comments are predictably delighted."
+    },
+    {
+      "title": "MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max (via IFTTT)",
+      "url": "https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Gruber's breakdown of the new MacBook Pro lineup — M6 at the base tier, M5 Pro and M5 Max stepping up. This is the practical buying guide you need if you're due for an upgrade. The configuration choices and price jumps are where the real decisions live, and Daring Fireball cuts through the noise."
+    },
+    {
+      "title": "MacBook Studio? - MacRumors",
+      "url": "https://www.macrumors.com/2026/10/28/macbook-studio/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Rumors of a new \"MacBook Studio\" form factor are circulating — a laptop-sized device positioned between MacBook Pro and Mac Studio in Apple's lineup. If real, it would be the most significant Mac category addition in years. Worth tracking if you're in the market for maximum portable performance."
+    },
+    {
+      "title": "claude-plugins-official/plugins at main · anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: plugins, claude_code, llm, claude, agenticEngineering",
+      "blurb": "Anthropic's official Claude Code plugin repository — the canonical source for extending Claude's agentic capabilities. If you're building with Claude Code, this is the reference implementation for integrations and the starting point for custom tooling. Directly applicable to your workflow today."
+    },
+    {
+      "title": "daveebbelaar/bama: BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+      "url": "https://github.com/daveebbelaar/bama",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: reverse-engineer",
+      "blurb": "BAMA is an AI agent framework specifically designed to build native macOS apps with Swift and SwiftUI — it handles research, prototyping, design, and testing. For a developer in the Apple ecosystem who also uses AI tools, this is a direct productivity multiplier. Could dramatically lower the barrier to shipping macOS utilities."
+    },
+    {
+      "title": "GM to pay $220m to settle allegations it violated drivers' privacy • Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: cars, data",
+      "blurb": "GM's Smart Driver program secretly sold location and driving behavior data to insurance companies — and now 35 state AGs have extracted a $220M settlement. The fine is a rounding error against GM's revenue, but the consent requirements going forward set a precedent. \"People bought a car, not a tracking device\" is the quote of the week."
+    },
+    {
+      "title": "Firefox now has a \"Copy Clean Link\" option, to strip tracking from urls.",
+      "url": "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_copy-clean-link",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: firefox, surveillance, browser, web",
+      "blurb": "Firefox quietly shipped a \"Copy Clean Link\" context menu option that strips UTM parameters and other tracking cruft before you paste a URL anywhere. Small feature, big daily impact for anyone privacy-conscious. Actionable right now — no extension needed."
+    },
+    {
+      "title": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, benchmarks, testsets, howto",
+      "blurb": "Surge AI built a rigorous benchmark testing AI agents on professional-grade tax work — actual CPA-level questions, not toy problems. The methodology for evaluating AI on domain expertise is as interesting as the results. A template for how to honestly benchmark AI coding and knowledge-work agents."
+    },
+    {
+      "title": "Building fine-grained version control for agents with Rust and Durable Objects — Delta Blog",
+      "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Delta's engineering blog describes building row-level version history for AI agents using Rust and Cloudflare Durable Objects — so agents can branch, diff, and roll back their own state changes. As agentic workflows get more complex, version control for agent memory is going to be a critical infrastructure problem. Early thinking on a genuinely hard problem."
+    },
+    {
+      "title": "Git for the US Code | Lexifina",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: git, law, legal, blogs, year:2026",
+      "blurb": "A compelling argument for applying git-style version control to statutory law — so you can `blame` any line of a federal statute, see its full change history, and give LLMs proper legislative lineage to work with. The intersection of developer tooling and civic infrastructure that nobody expected to be this interesting."
+    },
+    {
+      "title": "Neuron Persona Library",
+      "url": "https://neuronpersonas.com/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, wierdness",
+      "blurb": "A library cataloguing \"neuron personas\" — the emergent behavioral patterns found in individual MLP neurons across large language models. It's interpretability research made browsable, letting you explore what specific neurons appear to encode. Weird, fascinating, and directly relevant if you're trying to understand how models like Claude actually behave."
+    }
+  ]
+}
