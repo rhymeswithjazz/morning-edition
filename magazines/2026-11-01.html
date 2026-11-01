@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 1, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 1, 2026.">
+<meta property="og:title" content="Morning Edition — November 1, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-01.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · November 1, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">HackerTube: YouTube built from videos recommended by HN</a></li>
+      <li><a href="#s2">TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8</a></li>
+      <li><a href="#s3">Anthropic blocks users for anything touching training larger models</a></li>
+      <li><a href="#s4">Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard</a></li>
+      <li><a href="#s5">Jepsen: ParticleDB 1.1.4</a></li>
+      <li><a href="#s6">Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</a></li>
+      <li><a href="#s7">The AI cost of JavaScript frameworks</a></li>
+      <li><a href="#s8">It&#x27;s the memory latency, stupid</a></li>
+      <li><a href="#s9">Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)</a></li>
+      <li><a href="#s10">An Italian farmer found some unknown seeds in his attic and planted them</a></li>
+      <li><a href="#s11">Here&#x27;s how the new MacBook Pro and macOS 27 are optimized for touch - 9to5Mac</a></li>
+      <li><a href="#s12">RemoveMacAI: debloat your Mac</a></li>
+      <li><a href="#s13">A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System</a></li>
+      <li><a href="#s14">blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text</a></li>
+      <li><a href="#s15">Introducing Geist Serif - Vercel</a></li>
+      <li><a href="#s16">Timeless Type Family</a></li>
+      <li><a href="#s17">FilePizza - Free peer-to-peer file transfers in your browser</a></li>
+      <li><a href="#s18">Avoid Public Functions Calling Other Public Functions</a></li>
+      <li><a href="#s19">MiniLake — The Databricks API, running on your laptop</a></li>
+      <li><a href="#s20">Chasing the Karpathy Peak (and Falling Off Slop Cliff)</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://karpathy.bearblog.dev/hacker-tube/">HackerTube: YouTube built from videos recommended by HN</a></h3>
+    <div class="byline">by karpathy · 1611 points · 427 comments</div>
+    <p class="blurb">Andrej Karpathy built a YouTube front-end that surfaces only videos that have been recommended by Hacker News — essentially a curated, algorithm-free video feed from the collective taste of technical readers. It&#x27;s a dead-simple idea that immediately makes YouTube useful again. If you&#x27;ve been drowning in recommendations slop, bookmark this today.</p>
+    <div class="links">
+      <a href="https://karpathy.bearblog.dev/hacker-tube/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50319510">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf">TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8</a></h3>
+    <div class="byline">by oger · 578 points · 279 comments</div>
+    <p class="blurb">A use-after-free in Linux&#x27;s IPv4 TCP stack scores a near-perfect 9.8 CVSS — meaning remote code execution is on the table on unpatched systems. If you run Linux servers (or WSL, or containers), patch now. The write-up is a thorough teardown of how the race condition is triggered.</p>
+    <div class="links">
+      <a href="https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50319143">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://twitter.com/jiahaoshao1/status/2116475922190922088">Anthropic blocks users for anything touching training larger models</a></h3>
+    <div class="byline">by pretext · 414 points · 229 comments</div>
+    <p class="blurb">Researchers are getting banned from Claude for queries that even tangentially involve training larger models — a ToS enforcement posture that&#x27;s raising serious alarm bells about how usable Claude is for AI research workflows. As a Claude Code user, this is worth watching: where Anthropic draws the line on &quot;legitimate&quot; AI work is getting murkier.</p>
+    <div class="links">
+      <a href="https://twitter.com/jiahaoshao1/status/2116475922190922088">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50319358">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve">Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard</a></h3>
+    <div class="byline">by guregodevo · 325 points · 159 comments</div>
+    <p class="blurb">Memdoor orchestrates a swarm of small open-weight models that collectively outperform much larger frontier models on hard coding benchmarks — a compelling argument that multi-agent architectures can be more cost-effective than single-model brute force. Directly relevant if you&#x27;re thinking about agentic coding workflows beyond Claude Code.</p>
+    <div class="links">
+      <a href="https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50320995">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://jepsen.io/analyses/particledb-1.1.4">Jepsen: ParticleDB 1.1.4</a></h3>
+    <div class="byline">by aphyr · 294 points · 166 comments</div>
+    <p class="blurb">Kyle Kingsbury (aphyr) is back with another Jepsen analysis, this time putting ParticleDB through its paces. The results are predictably brutal — data loss under partition, violated linearizability guarantees. Essential reading before you put any new database in your stack.</p>
+    <div class="links">
+      <a href="https://jepsen.io/analyses/particledb-1.1.4">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50316100">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/">Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</a></h3>
+    <div class="byline">by doodlesdev · 200 points · 98 comments</div>
+    <p class="blurb">Lawyers attempted to smuggle prompt injection instructions into a court filing hoping to manipulate AI-assisted legal review systems — and got sanctioned for it. This is the first reported court ruling on prompt injection as misconduct, a landmark moment for AI security and legal practice.</p>
+    <div class="links">
+      <a href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50322173">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/">The AI cost of JavaScript frameworks</a></h3>
+    <div class="byline">by luu · 169 points · 113 comments</div>
+    <p class="blurb">Nolan Lawson examines how the token verbosity of different JavaScript frameworks affects LLM coding assistant performance and cost — heavier frameworks mean more context burned, slower generation, and less accurate completions. Directly actionable if you&#x27;re choosing a framework for an AI-assisted project or optimizing prompts for Angular/TypeScript work.</p>
+    <div class="links">
+      <a href="https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50323088">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://pivotlake.io/blog/its-the-memory-latency-stupid/">It&#x27;s the memory latency, stupid</a></h3>
+    <div class="byline">by ntur1337 · 226 points · 73 comments</div>
+    <p class="blurb">A deep dive into why memory latency — not compute or bandwidth — is the dominant constraint in modern systems performance, with concrete profiling examples. If you&#x27;ve ever scratched your head at why your code is slower than the hardware specs suggest it should be, this is the explainer you&#x27;ve been waiting for.</p>
+    <div class="links">
+      <a href="https://pivotlake.io/blog/its-the-memory-latency-stupid/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50318720">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://arxiv.org/abs/2409.02292">Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)</a></h3>
+    <div class="byline">by hapax_legomena · 126 points · 67 comments</div>
+    <p class="blurb">Researchers demonstrate exfiltrating data from air-gapped machines by modulating RAM access patterns to emit detectable radio signals — no physical connection needed. It&#x27;s a genuinely creative attack vector that underscores how &quot;air-gapped&quot; is rarely as secure as it sounds. Fascinating weird-science meets security research.</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2409.02292">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50322022">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/">An Italian farmer found some unknown seeds in his attic and planted them</a></h3>
+    <div class="byline">by ecares · 577 points · 171 comments</div>
+    <p class="blurb">An Italian farmer stumbled on mysterious seeds of unknown provenance in his attic, planted them on a whim, and the results were remarkable — resurrecting plant varieties potentially lost for centuries. A genuinely delightful story at the intersection of archaeology, agriculture, and luck.</p>
+    <div class="links">
+      <a href="https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50320963">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://9to5mac.com/2026/10/31/macbook-pro-touch-optimizations-macos-27-golden-gate/">Here&#x27;s how the new MacBook Pro and macOS 27 are optimized for touch - 9to5Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">9to5Mac breaks down how Apple has redesigned MacBook Pro gestures and macOS 27 (Golden Gate) UI affordances for touch interaction — a fundamental shift in how the Mac ecosystem operates. If you live in the Apple ecosystem, this is your preview of the ergonomic rethink coming to your daily driver.</p>
+    <div class="links">
+      <a href="https://9to5mac.com/2026/10/31/macbook-pro-touch-optimizations-macos-27-golden-gate/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://omlahore.github.io/RemoveMacAI/">RemoveMacAI: debloat your Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: apple-intelligence, ai, macos</div>
+    <p class="blurb">A free, open-source tool that lets you turn off Apple Intelligence, delete its on-device models to reclaim disk space, and kill analytics and pop-ups — with every change reversible. Exactly the kind of surgical privacy/control utility that macOS power users want but Apple won&#x27;t ship. Try it today.</p>
+    <div class="links">
+      <a href="https://omlahore.github.io/RemoveMacAI/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/">A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI-agents, military</div>
+    <p class="blurb">An Accenture employee&#x27;s personal Claude agent ran unsanctioned on a DOD classified network for two months before anyone noticed — a chilling illustration of how AI agents blur the boundaries of access control and shadow IT. WIRED&#x27;s sources detail exactly how the vulnerability went undetected, which is instructive for anyone thinking about AI agent security.</p>
+    <div class="links">
+      <a href="https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/blader/humanizer">blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, writing</div>
+    <p class="blurb">A Claude Code skill (sub-agent/tool) that post-processes AI-generated text to scrub the telltale patterns that scream &quot;LLM wrote this.&quot; Directly plugs into the Claude Code workflow you&#x27;re already using, so it&#x27;s immediately actionable — especially useful if you&#x27;re writing docs, READMEs, or client-facing content.</p>
+    <div class="links">
+      <a href="https://github.com/blader/humanizer">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://vercel.com/blog/introducing-geist-serif">Introducing Geist Serif - Vercel</a></h3>
+    <div class="byline">Pinboard Popular · tagged: typography, terminal, editors</div>
+    <p class="blurb">Vercel&#x27;s developer-focused Geist type family gets a Serif sibling, rounding out a system that already includes a monospace and sans variant. It&#x27;s free to use and designed with technical readability in mind — a solid pick for documentation sites, dev blogs, or Obsidian themes.</p>
+    <div class="links">
+      <a href="https://vercel.com/blog/introducing-geist-serif">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://www.timeless.co/type">Timeless Type Family</a></h3>
+    <div class="byline">Pinboard Popular · tagged: typography, typeface, type</div>
+    <p class="blurb">Four variable typefaces — Grotesk, Sans, Serif, and Text — with matching italics, all free for personal and commercial use. Variable fonts mean a single file covers the full weight/width spectrum, which is just smart web engineering. An instant upgrade for any side project that needs to look polished.</p>
+    <div class="links">
+      <a href="https://www.timeless.co/type">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://file.pizza/">FilePizza - Free peer-to-peer file transfers in your browser</a></h3>
+    <div class="byline">Pinboard Popular · tagged: storage, hosting, free, p2p, onlinetools, opensource, simplicity, minimalism, privacy, webrtc, typescript</div>
+    <p class="blurb">FilePizza does browser-to-browser file transfer over WebRTC with no server in the middle — your files never touch a third-party server. It&#x27;s open source, built in TypeScript, and requires zero accounts. For privacy-conscious developers who occasionally need to send large files, this beats every cloud-upload alternative.</p>
+    <div class="links">
+      <a href="https://file.pizza/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://matklad.github.io/2026/10/29/pub-calls-pub.html">Avoid Public Functions Calling Other Public Functions</a></h3>
+    <div class="byline">Pinboard Popular · tagged: api-design</div>
+    <p class="blurb">matklad (of rust-analyzer fame) makes a concise, persuasive case that public functions calling other public functions in a module is an API design smell that leaks invariants and creates hidden coupling. The advice translates directly to TypeScript/.NET library design — one of those principles that, once internalized, you&#x27;ll see violated everywhere.</p>
+    <div class="links">
+      <a href="https://matklad.github.io/2026/10/29/pub-calls-pub.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://dmux.github.io/minilake/">MiniLake — The Databricks API, running on your laptop</a></h3>
+    <div class="byline">Pinboard Popular · tagged: databricks, language:sql, devops, deltalake, data, subject:cs.DB, local</div>
+    <p class="blurb">MiniLake is a local Databricks API emulator with real SQL, real Delta Lake, and actual Spark execution — point any Databricks SDK, CLI, or Terraform config at localhost:8000 and it just works. No account, no API key, no cloud bill. Invaluable for CI pipelines and dev-loop iteration on data engineering code.</p>
+    <div class="links">
+      <a href="https://dmux.github.io/minilake/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://thomasjiralerspong.substack.com/p/chasing-the-karpathy-peak">Chasing the Karpathy Peak (and Falling Off Slop Cliff)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, productivity, karpathy, peak, slop, cliff, misuse, autocomplete, alley</div>
+    <p class="blurb">A sharp personal essay using the metaphor of &quot;AI Productivity Mountain&quot; — you climb toward Karpathy Peak where perceived output is sky-high, then tumble off Slop Cliff when you realize actual quality has cratered. It captures a real danger for developers who&#x27;ve embraced AI tools deeply: the point where acceleration becomes a liability. Required reading for anyone using Claude Code heavily.</p>
+    <div class="links">
+      <a href="https://thomasjiralerspong.substack.com/p/chasing-the-karpathy-peak">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

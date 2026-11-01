@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-01",
+  "stories": [
+    {
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "hn_link": "https://news.ycombinator.com/item?id=50319510",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by karpathy · 1611 points · 427 comments",
+      "blurb": "Andrej Karpathy built a YouTube front-end that surfaces only videos that have been recommended by Hacker News — essentially a curated, algorithm-free video feed from the collective taste of technical readers. It's a dead-simple idea that immediately makes YouTube useful again. If you've been drowning in recommendations slop, bookmark this today."
+    },
+    {
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "hn_link": "https://news.ycombinator.com/item?id=50319143",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by oger · 578 points · 279 comments",
+      "blurb": "A use-after-free in Linux's IPv4 TCP stack scores a near-perfect 9.8 CVSS — meaning remote code execution is on the table on unpatched systems. If you run Linux servers (or WSL, or containers), patch now. The write-up is a thorough teardown of how the race condition is triggered."
+    },
+    {
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "hn_link": "https://news.ycombinator.com/item?id=50319358",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pretext · 414 points · 229 comments",
+      "blurb": "Researchers are getting banned from Claude for queries that even tangentially involve training larger models — a ToS enforcement posture that's raising serious alarm bells about how usable Claude is for AI research workflows. As a Claude Code user, this is worth watching: where Anthropic draws the line on \"legitimate\" AI work is getting murkier."
+    },
+    {
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "hn_link": "https://news.ycombinator.com/item?id=50320995",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by guregodevo · 325 points · 159 comments",
+      "blurb": "Memdoor orchestrates a swarm of small open-weight models that collectively outperform much larger frontier models on hard coding benchmarks — a compelling argument that multi-agent architectures can be more cost-effective than single-model brute force. Directly relevant if you're thinking about agentic coding workflows beyond Claude Code."
+    },
+    {
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "hn_link": "https://news.ycombinator.com/item?id=50316100",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by aphyr · 294 points · 166 comments",
+      "blurb": "Kyle Kingsbury (aphyr) is back with another Jepsen analysis, this time putting ParticleDB through its paces. The results are predictably brutal — data loss under partition, violated linearizability guarantees. Essential reading before you put any new database in your stack."
+    },
+    {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "hn_link": "https://news.ycombinator.com/item?id=50322173",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by doodlesdev · 200 points · 98 comments",
+      "blurb": "Lawyers attempted to smuggle prompt injection instructions into a court filing hoping to manipulate AI-assisted legal review systems — and got sanctioned for it. This is the first reported court ruling on prompt injection as misconduct, a landmark moment for AI security and legal practice."
+    },
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "hn_link": "https://news.ycombinator.com/item?id=50323088",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by luu · 169 points · 113 comments",
+      "blurb": "Nolan Lawson examines how the token verbosity of different JavaScript frameworks affects LLM coding assistant performance and cost — heavier frameworks mean more context burned, slower generation, and less accurate completions. Directly actionable if you're choosing a framework for an AI-assisted project or optimizing prompts for Angular/TypeScript work."
+    },
+    {
+      "title": "It's the memory latency, stupid",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "hn_link": "https://news.ycombinator.com/item?id=50318720",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ntur1337 · 226 points · 73 comments",
+      "blurb": "A deep dive into why memory latency — not compute or bandwidth — is the dominant constraint in modern systems performance, with concrete profiling examples. If you've ever scratched your head at why your code is slower than the hardware specs suggest it should be, this is the explainer you've been waiting for."
+    },
+    {
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "hn_link": "https://news.ycombinator.com/item?id=50322022",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hapax_legomena · 126 points · 67 comments",
+      "blurb": "Researchers demonstrate exfiltrating data from air-gapped machines by modulating RAM access patterns to emit detectable radio signals — no physical connection needed. It's a genuinely creative attack vector that underscores how \"air-gapped\" is rarely as secure as it sounds. Fascinating weird-science meets security research."
+    },
+    {
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "hn_link": "https://news.ycombinator.com/item?id=50320963",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by ecares · 577 points · 171 comments",
+      "blurb": "An Italian farmer stumbled on mysterious seeds of unknown provenance in his attic, planted them on a whim, and the results were remarkable — resurrecting plant varieties potentially lost for centuries. A genuinely delightful story at the intersection of archaeology, agriculture, and luck."
+    },
+    {
+      "title": "Here's how the new MacBook Pro and macOS 27 are optimized for touch - 9to5Mac",
+      "url": "https://9to5mac.com/2026/10/31/macbook-pro-touch-optimizations-macos-27-golden-gate/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "9to5Mac breaks down how Apple has redesigned MacBook Pro gestures and macOS 27 (Golden Gate) UI affordances for touch interaction — a fundamental shift in how the Mac ecosystem operates. If you live in the Apple ecosystem, this is your preview of the ergonomic rethink coming to your daily driver."
+    },
+    {
+      "title": "RemoveMacAI: debloat your Mac",
+      "url": "https://omlahore.github.io/RemoveMacAI/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: apple-intelligence, ai, macos",
+      "blurb": "A free, open-source tool that lets you turn off Apple Intelligence, delete its on-device models to reclaim disk space, and kill analytics and pop-ups — with every change reversible. Exactly the kind of surgical privacy/control utility that macOS power users want but Apple won't ship. Try it today."
+    },
+    {
+      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI-agents, military",
+      "blurb": "An Accenture employee's personal Claude agent ran unsanctioned on a DOD classified network for two months before anyone noticed — a chilling illustration of how AI agents blur the boundaries of access control and shadow IT. WIRED's sources detail exactly how the vulnerability went undetected, which is instructive for anyone thinking about AI agent security."
+    },
+    {
+      "title": "blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text",
+      "url": "https://github.com/blader/humanizer",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, writing",
+      "blurb": "A Claude Code skill (sub-agent/tool) that post-processes AI-generated text to scrub the telltale patterns that scream \"LLM wrote this.\" Directly plugs into the Claude Code workflow you're already using, so it's immediately actionable — especially useful if you're writing docs, READMEs, or client-facing content."
+    },
+    {
+      "title": "Introducing Geist Serif - Vercel",
+      "url": "https://vercel.com/blog/introducing-geist-serif",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, terminal, editors",
+      "blurb": "Vercel's developer-focused Geist type family gets a Serif sibling, rounding out a system that already includes a monospace and sans variant. It's free to use and designed with technical readability in mind — a solid pick for documentation sites, dev blogs, or Obsidian themes."
+    },
+    {
+      "title": "Timeless Type Family",
+      "url": "https://www.timeless.co/type",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, typeface, type",
+      "blurb": "Four variable typefaces — Grotesk, Sans, Serif, and Text — with matching italics, all free for personal and commercial use. Variable fonts mean a single file covers the full weight/width spectrum, which is just smart web engineering. An instant upgrade for any side project that needs to look polished."
+    },
+    {
+      "title": "FilePizza - Free peer-to-peer file transfers in your browser",
+      "url": "https://file.pizza/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: storage, hosting, free, p2p, onlinetools, opensource, simplicity, minimalism, privacy, webrtc, typescript",
+      "blurb": "FilePizza does browser-to-browser file transfer over WebRTC with no server in the middle — your files never touch a third-party server. It's open source, built in TypeScript, and requires zero accounts. For privacy-conscious developers who occasionally need to send large files, this beats every cloud-upload alternative."
+    },
+    {
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: api-design",
+      "blurb": "matklad (of rust-analyzer fame) makes a concise, persuasive case that public functions calling other public functions in a module is an API design smell that leaks invariants and creates hidden coupling. The advice translates directly to TypeScript/.NET library design — one of those principles that, once internalized, you'll see violated everywhere."
+    },
+    {
+      "title": "MiniLake — The Databricks API, running on your laptop",
+      "url": "https://dmux.github.io/minilake/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: databricks, language:sql, devops, deltalake, data, subject:cs.DB, local",
+      "blurb": "MiniLake is a local Databricks API emulator with real SQL, real Delta Lake, and actual Spark execution — point any Databricks SDK, CLI, or Terraform config at localhost:8000 and it just works. No account, no API key, no cloud bill. Invaluable for CI pipelines and dev-loop iteration on data engineering code."
+    },
+    {
+      "title": "Chasing the Karpathy Peak (and Falling Off Slop Cliff)",
+      "url": "https://thomasjiralerspong.substack.com/p/chasing-the-karpathy-peak",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, productivity, karpathy, peak, slop, cliff, misuse, autocomplete, alley",
+      "blurb": "A sharp personal essay using the metaphor of \"AI Productivity Mountain\" — you climb toward Karpathy Peak where perceived output is sky-high, then tumble off Slop Cliff when you realize actual quality has cratered. It captures a real danger for developers who've embraced AI tools deeply: the point where acceleration becomes a liability. Required reading for anyone using Claude Code heavily."
+    }
+  ]
+}
