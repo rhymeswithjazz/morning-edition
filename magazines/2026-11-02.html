@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 2, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 2, 2026.">
+<meta property="og:title" content="Morning Edition — November 2, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-02.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Monday · November 2, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Show HN: HackerBooks – HackerTube, but for books mentioned on HN</a></li>
+      <li><a href="#s2">Postgres 19 is late because so many more bugs are being found now</a></li>
+      <li><a href="#s3">Ask HN: Which TV do you recommend for privacy?</a></li>
+      <li><a href="#s4">Trigger.dev customer environment variables exposed</a></li>
+      <li><a href="#s5">Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1</a></li>
+      <li><a href="#s6">Bones may release proteins that slow aging and extend life span</a></li>
+      <li><a href="#s7">Supermarket freezers across Europe hit by second suspected cyber-attack</a></li>
+      <li><a href="#s8">Nibnib: Image compression with extreme decompression speed</a></li>
+      <li><a href="#s9">Last night an AI agent performed brain surgery on a mouse</a></li>
+      <li><a href="#s10">Moving our warehouse off DuckDB</a></li>
+      <li><a href="#s11">Hex: voice dictation for Mac, Windows, and Linux</a></li>
+      <li><a href="#s12">ivankovic/omnidiff: Fast, robust, accurate diffing</a></li>
+      <li><a href="#s13">Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer</a></li>
+      <li><a href="#s14">How abliterated models can get you pwned | ProjectDiscovery Research</a></li>
+      <li><a href="#s15">The Year Math Changed Forever | The New Yorker</a></li>
+      <li><a href="#s16">vercel-labs/agent-desktop: Agent Desktop gives any agent reliable computer use on the desktop.</a></li>
+      <li><a href="#s17">Instant · Find files by what&#x27;s in them</a></li>
+      <li><a href="#s18">AI-Generated Articles Are Flooding Academic Journals - The Atlantic</a></li>
+      <li><a href="#s19">An Ancient Virus Explains Why the Human Brain Is Special</a></li>
+      <li><a href="#s20">SolidCraft: free, open-source parametric 3D CAD</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://hackerbooks.org">Show HN: HackerBooks – HackerTube, but for books mentioned on HN</a></h3>
+    <div class="byline">by roansh · 1773 points · 290 comments</div>
+    <p class="blurb">A searchable index of every book mentioned in HN comments, ranked by how often they come up. If you&#x27;ve ever wanted to extract the HN reading list without trawling thousands of threads, this is it. Practically actionable for anyone building a technical reading queue.</p>
+    <div class="links">
+      <a href="https://hackerbooks.org">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50326821">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">Postgres 19 is late because so many more bugs are being found now</a></h3>
+    <div class="byline">by soheilpro · 771 points · 456 comments</div>
+    <p class="blurb">Robert Haas, a core Postgres committer, argues that AI-assisted fuzz testing is surfacing bugs at a rate the project&#x27;s review bandwidth can&#x27;t match — and that&#x27;s why Postgres 19 is slipping. A fascinating real-world data point on how AI tools are changing open-source QA pipelines, for better and worse.</p>
+    <div class="links">
+      <a href="http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50312408">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50328896">Ask HN: Which TV do you recommend for privacy?</a></h3>
+    <div class="byline">by LecroJS · 637 points · 758 comments</div>
+    <p class="blurb">758 comments of hard-won wisdom on which TVs are least hostile to your privacy — covering ACR, dumb TV alternatives, Pi-hole setups, and HDMI-CEC blocking tricks. An essential thread for anyone who wants a big screen without the surveillance.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50328896">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50328896">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://trigger.dev/blog/security-incident-nov-2026">Trigger.dev customer environment variables exposed</a></h3>
+    <div class="byline">by anurag · 156 points · 83 comments</div>
+    <p class="blurb">Trigger.dev disclosed that customer environment variables — think API keys and secrets — were exposed in a security incident. If you use Trigger.dev in any of your pipelines, rotate credentials now. A good reminder to audit secret scoping in third-party dev tooling.</p>
+    <div class="links">
+      <a href="https://trigger.dev/blog/security-incident-nov-2026">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50331784">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html">Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1</a></h3>
+    <div class="byline">by rebel · 194 points · 205 comments</div>
+    <p class="blurb">Anthropic&#x27;s S-1 numbers are staggering — $17B in quarterly revenue and nearly $1 trillion in contracted commitments. For users of Claude Code and Claude API, this signals the company is firmly in &quot;infrastructure&quot; territory and not going anywhere. Worth understanding the business behind your daily driver.</p>
+    <div class="links">
+      <a href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50337439">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span">Bones may release proteins that slow aging and extend life span</a></h3>
+    <div class="byline">by EA-3167 · 266 points · 99 comments</div>
+    <p class="blurb">Researchers have identified proteins secreted by bone tissue that appear to modulate systemic aging in animal models. It reframes the skeleton from passive scaffolding to an active endocrine organ — a genuinely surprising finding that could reshape longevity research.</p>
+    <div class="links">
+      <a href="https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50331957">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack">Supermarket freezers across Europe hit by second suspected cyber-attack</a></h3>
+    <div class="byline">by fergie · 240 points · 315 comments</div>
+    <p class="blurb">Critical infrastructure attacks are escalating: industrial refrigeration systems in supermarkets across multiple European countries were disrupted in what appears to be a coordinated campaign. OT/ICS security is having its reckoning moment, and this won&#x27;t be the last.</p>
+    <div class="links">
+      <a href="https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50335615">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/raphlinus/nibnib">Nibnib: Image compression with extreme decompression speed</a></h3>
+    <div class="byline">by raphlinus · 183 points · 31 comments</div>
+    <p class="blurb">Raph Levien (of Linebender/Vello fame) drops a new image codec optimized for blazing-fast decompression — useful in game engines, streaming pipelines, and anywhere decode throughput matters more than compression ratio. The README is a great intro to the design tradeoffs.</p>
+    <div class="links">
+      <a href="https://github.com/raphlinus/nibnib">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50299811">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://twitter.com/OcanaSantero/status/2115442964574908902">Last night an AI agent performed brain surgery on a mouse</a></h3>
+    <div class="byline">by FacZap · 87 points · 85 comments</div>
+    <p class="blurb">A robotics team demonstrated an AI agent autonomously performing a stereotaxic brain surgery procedure on a live mouse with sub-millimeter precision. The video is striking. Agentic AI crossing into physical-world surgery is a meaningful capability threshold.</p>
+    <div class="links">
+      <a href="https://twitter.com/OcanaSantero/status/2115442964574908902">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50336138">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://posthog.com/blog/moving-off-duckdb">Moving our warehouse off DuckDB</a></h3>
+    <div class="byline">by emschwartz · 89 points · 42 comments</div>
+    <p class="blurb">PostHog walks through the real-world scaling limits they hit with DuckDB as their analytics warehouse and what they migrated to instead. A useful, honest postmortem for anyone building on DuckDB beyond the hobby scale — the tradeoffs are spelled out clearly.</p>
+    <div class="links">
+      <a href="https://posthog.com/blog/moving-off-duckdb">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50338747">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://anoma.ly/hex/">Hex: voice dictation for Mac, Windows, and Linux</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, linux, windows, dictate, voice</div>
+    <p class="blurb">Hex is a local-first voice dictation tool: hold Option, speak, and it pastes transcribed text wherever your cursor is. No cloud, no subscription — just fast on-device speech-to-text. A natural companion to Claude Code or any flow where you want to narrate instead of type.</p>
+    <div class="links">
+      <a href="https://anoma.ly/hex/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/ivankovic/omnidiff">ivankovic/omnidiff: Fast, robust, accurate diffing</a></h3>
+    <div class="byline">Pinboard Popular · tagged: diff, git, jj, tools</div>
+    <p class="blurb">OmniDiff is a new diffing library built for correctness and speed, with explicit support for jj (Jujutsu) workflows alongside standard git. If you find unified diffs often produce confusing output on large refactors, this is worth benchmarking against your current tooling.</p>
+    <div class="links">
+      <a href="https://github.com/ivankovic/omnidiff">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/">Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: security, ai</div>
+    <p class="blurb">Cisco Talos dissects VOLTA, an infostealer that uses an embedded AI model to rank stolen credentials by victim value before exfiltration. Attackers are now using LLMs operationally inside malware — a genuine escalation in threat sophistication that defenders need to understand.</p>
+    <div class="links">
+      <a href="https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">How abliterated models can get you pwned | ProjectDiscovery Research</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, security</div>
+    <p class="blurb">&quot;Abliterated&quot; models — LLMs with safety guardrails surgically removed via representation engineering — are being used to generate working exploit code and phishing content at scale. ProjectDiscovery&#x27;s research is a must-read for anyone shipping AI features, since the attack surface extends to your APIs.</p>
+    <div class="links">
+      <a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever">The Year Math Changed Forever | The New Yorker</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI, math, SNR</div>
+    <p class="blurb">The New Yorker&#x27;s long-form take on AI&#x27;s assault on open mathematical problems, framed through Terence Tao&#x27;s evolving views on the field. If you want to understand how LLMs and formal-proof systems are reshaping pure mathematics, this is the best narrative account yet written.</p>
+    <div class="links">
+      <a href="https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop: Agent Desktop gives any agent reliable computer use on the desktop.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: agent, automation</div>
+    <p class="blurb">Vercel Labs open-sources a Rust-based agent desktop layer that navigates GUIs via OS accessibility trees rather than screen pixels — making computer-use agents far more stable across app updates. A foundational primitive for anyone building Claude-powered desktop automation workflows.</p>
+    <div class="links">
+      <a href="https://github.com/vercel-labs/agent-desktop">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://useinstantsearch.com/">Instant · Find files by what&#x27;s in them</a></h3>
+    <div class="byline">Pinboard Popular · tagged: file, search, local, Mac, app, favorite</div>
+    <p class="blurb">Instant is a Mac app that indexes file contents locally and lets you search across documents, code, PDFs, and notes in milliseconds. Think Spotlight but actually fast and content-aware — a direct upgrade for anyone drowning in Obsidian vaults and project folders.</p>
+    <div class="links">
+      <a href="https://useinstantsearch.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.theatlantic.com/ideas/2026/10/ai-journal-articles-writing/689186/">AI-Generated Articles Are Flooding Academic Journals - The Atlantic</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, llms, academia</div>
+    <p class="blurb">Academic editors report being overwhelmed with AI-assisted submissions that pass superficial review but collapse under scrutiny. The piece raises hard questions about how peer review survives when LLM output is indistinguishable from rushed human writing — and what it means for research you rely on.</p>
+    <div class="links">
+      <a href="https://www.theatlantic.com/ideas/2026/10/ai-journal-articles-writing/689186/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.404media.co/an-ancient-virus-explains-why-the-human-brain-is-special/">An Ancient Virus Explains Why the Human Brain Is Special</a></h3>
+    <div class="byline">Pinboard Popular · tagged: brain, science, history, virus, genetics, evolution</div>
+    <p class="blurb">A retrovirus called PTERV1 infected chimps and gorillas millions of years ago, silencing a gene (LINC00662) critical to brain development — but early humans either escaped or were immune. Your cognitive complexity may be partly the result of a prehistoric lucky dodge. Genuinely strange evolutionary biology.</p>
+    <div class="links">
+      <a href="https://www.404media.co/an-ancient-virus-explains-why-the-human-brain-is-special/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://solidcraft.io/">SolidCraft: free, open-source parametric 3D CAD</a></h3>
+    <div class="byline">Pinboard Popular · tagged: cad, parametric, webapp, macos, apps, 3d, editor</div>
+    <p class="blurb">SolidCraft is a free, browser-based parametric CAD tool positioning itself as an open alternative to Fusion 360. It runs on macOS and supports constraint-based modeling — worth bookmarking if you do any hardware prototyping or want to experiment with 3D design without the Autodesk subscription.</p>
+    <div class="links">
+      <a href="https://solidcraft.io/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

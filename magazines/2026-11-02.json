@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-02",
+  "stories": [
+    {
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "hn_link": "https://news.ycombinator.com/item?id=50326821",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by roansh · 1773 points · 290 comments",
+      "blurb": "A searchable index of every book mentioned in HN comments, ranked by how often they come up. If you've ever wanted to extract the HN reading list without trawling thousands of threads, this is it. Practically actionable for anyone building a technical reading queue."
+    },
+    {
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50312408",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by soheilpro · 771 points · 456 comments",
+      "blurb": "Robert Haas, a core Postgres committer, argues that AI-assisted fuzz testing is surfacing bugs at a rate the project's review bandwidth can't match — and that's why Postgres 19 is slipping. A fascinating real-world data point on how AI tools are changing open-source QA pipelines, for better and worse."
+    },
+    {
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "hn_link": "https://news.ycombinator.com/item?id=50328896",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by LecroJS · 637 points · 758 comments",
+      "blurb": "758 comments of hard-won wisdom on which TVs are least hostile to your privacy — covering ACR, dumb TV alternatives, Pi-hole setups, and HDMI-CEC blocking tricks. An essential thread for anyone who wants a big screen without the surveillance."
+    },
+    {
+      "title": "Trigger.dev customer environment variables exposed",
+      "url": "https://trigger.dev/blog/security-incident-nov-2026",
+      "hn_link": "https://news.ycombinator.com/item?id=50331784",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by anurag · 156 points · 83 comments",
+      "blurb": "Trigger.dev disclosed that customer environment variables — think API keys and secrets — were exposed in a security incident. If you use Trigger.dev in any of your pipelines, rotate credentials now. A good reminder to audit secret scoping in third-party dev tooling."
+    },
+    {
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50337439",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by rebel · 194 points · 205 comments",
+      "blurb": "Anthropic's S-1 numbers are staggering — $17B in quarterly revenue and nearly $1 trillion in contracted commitments. For users of Claude Code and Claude API, this signals the company is firmly in \"infrastructure\" territory and not going anywhere. Worth understanding the business behind your daily driver."
+    },
+    {
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+      "hn_link": "https://news.ycombinator.com/item?id=50331957",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by EA-3167 · 266 points · 99 comments",
+      "blurb": "Researchers have identified proteins secreted by bone tissue that appear to modulate systemic aging in animal models. It reframes the skeleton from passive scaffolding to an active endocrine organ — a genuinely surprising finding that could reshape longevity research."
+    },
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "hn_link": "https://news.ycombinator.com/item?id=50335615",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by fergie · 240 points · 315 comments",
+      "blurb": "Critical infrastructure attacks are escalating: industrial refrigeration systems in supermarkets across multiple European countries were disrupted in what appears to be a coordinated campaign. OT/ICS security is having its reckoning moment, and this won't be the last."
+    },
+    {
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "url": "https://github.com/raphlinus/nibnib",
+      "hn_link": "https://news.ycombinator.com/item?id=50299811",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by raphlinus · 183 points · 31 comments",
+      "blurb": "Raph Levien (of Linebender/Vello fame) drops a new image codec optimized for blazing-fast decompression — useful in game engines, streaming pipelines, and anywhere decode throughput matters more than compression ratio. The README is a great intro to the design tradeoffs."
+    },
+    {
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "hn_link": "https://news.ycombinator.com/item?id=50336138",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by FacZap · 87 points · 85 comments",
+      "blurb": "A robotics team demonstrated an AI agent autonomously performing a stereotaxic brain surgery procedure on a live mouse with sub-millimeter precision. The video is striking. Agentic AI crossing into physical-world surgery is a meaningful capability threshold."
+    },
+    {
+      "title": "Moving our warehouse off DuckDB",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "hn_link": "https://news.ycombinator.com/item?id=50338747",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by emschwartz · 89 points · 42 comments",
+      "blurb": "PostHog walks through the real-world scaling limits they hit with DuckDB as their analytics warehouse and what they migrated to instead. A useful, honest postmortem for anyone building on DuckDB beyond the hobby scale — the tradeoffs are spelled out clearly."
+    },
+    {
+      "title": "Hex: voice dictation for Mac, Windows, and Linux",
+      "url": "https://anoma.ly/hex/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, linux, windows, dictate, voice",
+      "blurb": "Hex is a local-first voice dictation tool: hold Option, speak, and it pastes transcribed text wherever your cursor is. No cloud, no subscription — just fast on-device speech-to-text. A natural companion to Claude Code or any flow where you want to narrate instead of type."
+    },
+    {
+      "title": "ivankovic/omnidiff: Fast, robust, accurate diffing",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: diff, git, jj, tools",
+      "blurb": "OmniDiff is a new diffing library built for correctness and speed, with explicit support for jj (Jujutsu) workflows alongside standard git. If you find unified diffs often produce confusing output on large refactors, this is worth benchmarking against your current tooling."
+    },
+    {
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, ai",
+      "blurb": "Cisco Talos dissects VOLTA, an infostealer that uses an embedded AI model to rank stolen credentials by victim value before exfiltration. Attackers are now using LLMs operationally inside malware — a genuine escalation in threat sophistication that defenders need to understand."
+    },
+    {
+      "title": "How abliterated models can get you pwned | ProjectDiscovery Research",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, security",
+      "blurb": "\"Abliterated\" models — LLMs with safety guardrails surgically removed via representation engineering — are being used to generate working exploit code and phishing content at scale. ProjectDiscovery's research is a must-read for anyone shipping AI features, since the attack surface extends to your APIs."
+    },
+    {
+      "title": "The Year Math Changed Forever | The New Yorker",
+      "url": "https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI, math, SNR",
+      "blurb": "The New Yorker's long-form take on AI's assault on open mathematical problems, framed through Terence Tao's evolving views on the field. If you want to understand how LLMs and formal-proof systems are reshaping pure mathematics, this is the best narrative account yet written."
+    },
+    {
+      "title": "vercel-labs/agent-desktop: Agent Desktop gives any agent reliable computer use on the desktop.",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agent, automation",
+      "blurb": "Vercel Labs open-sources a Rust-based agent desktop layer that navigates GUIs via OS accessibility trees rather than screen pixels — making computer-use agents far more stable across app updates. A foundational primitive for anyone building Claude-powered desktop automation workflows."
+    },
+    {
+      "title": "Instant · Find files by what's in them",
+      "url": "https://useinstantsearch.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: file, search, local, Mac, app, favorite",
+      "blurb": "Instant is a Mac app that indexes file contents locally and lets you search across documents, code, PDFs, and notes in milliseconds. Think Spotlight but actually fast and content-aware — a direct upgrade for anyone drowning in Obsidian vaults and project folders."
+    },
+    {
+      "title": "AI-Generated Articles Are Flooding Academic Journals - The Atlantic",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-journal-articles-writing/689186/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, llms, academia",
+      "blurb": "Academic editors report being overwhelmed with AI-assisted submissions that pass superficial review but collapse under scrutiny. The piece raises hard questions about how peer review survives when LLM output is indistinguishable from rushed human writing — and what it means for research you rely on."
+    },
+    {
+      "title": "An Ancient Virus Explains Why the Human Brain Is Special",
+      "url": "https://www.404media.co/an-ancient-virus-explains-why-the-human-brain-is-special/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: brain, science, history, virus, genetics, evolution",
+      "blurb": "A retrovirus called PTERV1 infected chimps and gorillas millions of years ago, silencing a gene (LINC00662) critical to brain development — but early humans either escaped or were immune. Your cognitive complexity may be partly the result of a prehistoric lucky dodge. Genuinely strange evolutionary biology."
+    },
+    {
+      "title": "SolidCraft: free, open-source parametric 3D CAD",
+      "url": "https://solidcraft.io/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: cad, parametric, webapp, macos, apps, 3d, editor",
+      "blurb": "SolidCraft is a free, browser-based parametric CAD tool positioning itself as an open alternative to Fusion 360. It runs on macOS and supports constraint-based modeling — worth bookmarking if you do any hardware prototyping or want to experiment with 3D design without the Autodesk subscription."
+    }
+  ]
+}
