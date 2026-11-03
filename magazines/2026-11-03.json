@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-03",
+  "stories": [
+    {
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "hn_link": "https://news.ycombinator.com/item?id=50341174",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by dbreunig · 2884 points · 869 comments",
+      "blurb": "The top HN story of the day by a mile: the claim that Google's Astra can directly read and write model weights to improve Qwen — a potential leap from prompting to literal weight-space programming. Whether it holds up or not, this is the conversation the field is having right now. See story #3 for the immediate pushback."
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "hn_link": "https://news.ycombinator.com/item?id=50340088",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aarushyadav · 787 points · 364 comments",
+      "blurb": "Subvocal speech recognition lets you dictate commands silently — no audible noise, just muscle movements captured at the throat. For developers who use voice coding or AI dictation tools in open offices or late nights, this is a compelling alternative to Whisper-based setups. 364 comments means the community has a lot to say about whether it actually works."
+    },
+    {
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "hn_link": "https://news.ycombinator.com/item?id=50351111",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by syllogism · 538 points · 120 comments",
+      "blurb": "The inevitable correction arrives fast: Matthew Honnibal (spaCy creator) argues the viral Astra/Qwen weight-writing claim is technically misleading. Read this alongside story #1 — the back-and-forth is a masterclass in how AI hype propagates and gets corrected on HN in real time."
+    },
+    {
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "hn_link": "https://news.ycombinator.com/item?id=50346981",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by polpenn · 408 points · 128 comments",
+      "blurb": "A clean, beautifully typeset NYT-style front page built from live HN data. It's a fun creative coding project and a genuinely nicer way to browse HN stories — especially for anyone who prefers editorial layout over ranked lists."
+    },
+    {
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "hn_link": "https://news.ycombinator.com/item?id=50346849",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by bpierre · 316 points · 71 comments",
+      "blurb": "Disc Label Print technology lets you burn actual graphics into the data surface of optical media — no inkjet required. This open-source tool surfaces that obscure capability for DIY archivists and physical media fans. Genuinely cool creative/hardware crossover."
+    },
+    {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "hn_link": "https://news.ycombinator.com/item?id=50340619",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by tomrod · 311 points · 86 comments",
+      "blurb": "NIST has finally published a cybersecurity framework aimed at solo operators and freelance developers — no enterprise IT team required. Actionable checklists covering passwords, backups, phishing, and device hygiene. Bookmark this and actually work through it."
+    },
+    {
+      "title": "Resisting Cognitive Surrender",
+      "url": "https://knlb.dev/essays/surrender",
+      "hn_link": "https://news.ycombinator.com/item?id=50323123",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by knlb · 265 points · 130 comments",
+      "blurb": "A thoughtful essay on what happens to thinking skills when we delegate too much to AI assistants — directly relevant for anyone who uses Claude Code or Copilot daily. The argument isn't 'don't use AI' but rather 'be deliberate about what you still choose to do yourself.' Essential reading for the AI-tools-heavy developer."
+    },
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "hn_link": "https://news.ycombinator.com/item?id=50348962",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by campervans · 227 points · 83 comments",
+      "blurb": "Nvidia open-sources a toolkit for automatically building structured ontologies from unstructured data — think automatic knowledge graphs from your docs or codebases. Potentially powerful for RAG pipelines and AI workflows where domain structure matters. Worth digging into if you're building context-heavy AI tooling."
+    },
+    {
+      "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50349276",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by markusw · 220 points · 109 comments",
+      "blurb": "Nicholas Carlini runs the numbers on algorithmic vs. hardware improvements in chess engines since Deep Blue. The answer is surprising and illuminates how much of AI progress is algorithms versus raw compute — a question that maps perfectly onto today's LLM debates."
+    },
+    {
+      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "hn_link": "https://news.ycombinator.com/item?id=50352757",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by user052919 · 26 points · 11 comments",
+      "blurb": "A developer noticed that OpenAI appears to have quietly flipped a setting to allow Codex conversation data to be used for model training — without explicit re-consent. For anyone using Codex with proprietary or client code, this is an urgent privacy heads-up. Check your account settings now."
+    },
+    {
+      "title": "Orca — The most powerful Agent Development Environment (ADE)",
+      "url": "https://www.onorca.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, ai, editor",
+      "blurb": "Orca is a purpose-built environment for running Claude Code, Codex, Gemini CLI, and other coding agents in parallel across isolated git worktrees. If you're already using Claude Code, this is the missing orchestration layer — free, open source, and cross-platform. Could dramatically change your multi-agent workflow."
+    },
+    {
+      "title": "Survival LLM: an AI that still works when the internet doesn't",
+      "url": "https://www.brangus.io/survival-llm",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A free, fully offline AI assistant and emergency reference library that runs entirely on-device — no cloud, no API key, no connectivity required. Think of it as a local LLM with curated survival/reference knowledge baked in. Useful for privacy-conscious developers who want a Claude-free fallback or an air-gapped assistant."
+    },
+    {
+      "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case — AI-assisted follow-up finds a backdoor and hardcoded keys in other 'secure' USB products",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, lenovo",
+      "blurb": "Devastating hardware security story: a 'secure' Lenovo fingerprint USB drive turns out to be unencrypted inside, and the follow-up investigation (AI-assisted reverse engineering!) found hardcoded keys and backdoors in multiple competing products. A must-read cautionary tale about trusting security theater."
+    },
+    {
+      "title": "Proton's CTO wrote a manifesto for the AI coding age. It struck a nerve with engineers.",
+      "url": "https://www.businessinsider.com/protons-cto-ai-manifesto-software-engineers-coding-2026-10",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: code, CSS, javascript, HTML, dev, ai, culture",
+      "blurb": "Proton's CTO argues that software engineering has fundamentally changed with AI — and engineers who adapt will thrive while those who don't will be left behind. Coming from a privacy-first company's technical leader, this carries extra weight. The widespread resonance among engineers suggests it's hitting something real."
+    },
+    {
+      "title": "When Modernization Breaks Working Code: A Single-File Study of LLMs on Legacy PHP",
+      "url": "https://arxiv.org/abs/2610.40269",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 2026, research, software-craft, artificial-stupidity, llm",
+      "blurb": "Researchers tested five LLMs on modernizing 100 legacy PHP files and found that LLMs frequently broke behavioral correctness while appearing to modernize — often performing worse than the rule-based tool Rector. Critical empirical data for anyone evaluating AI-assisted refactoring in .NET or other legacy stacks."
+    },
+    {
+      "title": "Apple @ Work: Next to a growing token bill, Macs might start looking like a bargain",
+      "url": "https://9to5mac.com/2026/10/31/apple-work-next-to-a-token-bill-macs-might-start-looking-like-a-bargain/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "As AI API token costs balloon, running local models on Apple Silicon becomes increasingly attractive by comparison. This 9to5Mac piece runs the business math and makes a compelling case that the Mac's on-device ML capabilities are undervalued relative to cloud API spend. Directly relevant for developers weighing local vs. cloud AI."
+    },
+    {
+      "title": "Plainsay——一款免费开源的Mac语音输入软件。",
+      "url": "https://plainsay.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 语音输入法",
+      "blurb": "Plainsay is a free, MIT-licensed, open-source dictation app for Mac that works in Local mode with no account or subscription. Pairs naturally with the Subvocal story above (HN #2) — if silent input isn't your thing, this is the privacy-respecting on-device alternative for voice dictation on macOS."
+    },
+    {
+      "title": "OurCal | Shared Calendar App | Family, Couple, Team, Group | iPhone, iPad, Mac, Vision Pro, & Android",
+      "url": "https://ourcal.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "OurCal is a shared calendar app built for Apple ecosystem first — iPhone, iPad, Mac, and Vision Pro — with cross-platform Android support. Via Daring Fireball, so it's been vetted by the Apple faithful. Worth a look if you're tired of Google Calendar's privacy tradeoffs for shared scheduling."
+    },
+    {
+      "title": "A visual, interactive guide to bloom filters",
+      "url": "https://samwho.dev/bloom-filters",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: .lobste.rs/upvoted, compsci, visualization",
+      "blurb": "Sam Who's interactive explainer series strikes again — this one on bloom filters with beautiful animated visualizations that make probabilistic data structures genuinely intuitive. If you ever need to explain or implement a bloom filter for a .NET or TypeScript project, start here."
+    },
+    {
+      "title": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agent",
+      "blurb": "DeepSeek releases a prototype 'superagent' system aimed at more autonomous multi-step task completion — direct competition to Claude Code's agentic capabilities. The architecture details in the repo are worth studying for anyone building or evaluating AI agent systems. DeepSeek continues to punch above its weight in open AI research."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 3, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 3, 2026.">
+<meta property="og:title" content="Morning Edition — November 3, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-03.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · November 3, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Astra can read and write weights to improve Qwen</a></li>
+      <li><a href="#s2">Show HN: Subvocal – Talk to your computer without making noise</a></li>
+      <li><a href="#s3">The &#x27;Astra can read and write weights to improve Qwen&#x27; post is misleading</a></li>
+      <li><a href="#s4">Show HN: Hacker Times, a New York Times-inspired version of Hacker News</a></li>
+      <li><a href="#s5">DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs</a></li>
+      <li><a href="#s6">Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You</a></li>
+      <li><a href="#s7">Resisting Cognitive Surrender</a></li>
+      <li><a href="#s8">Nvidia – open-source auto-ontology</a></li>
+      <li><a href="#s9">Could a modern chess engine on a Pentium have defeated Kasparov in 1996?</a></li>
+      <li><a href="#s10">OpenAI seems to be silently re-enabling model training on Codex chats</a></li>
+      <li><a href="#s11">Orca — The most powerful Agent Development Environment (ADE)</a></li>
+      <li><a href="#s12">Survival LLM: an AI that still works when the internet doesn&#x27;t</a></li>
+      <li><a href="#s13">Lenovo&#x27;s &#x27;encrypted&#x27; fingerprint USB drive is just an unencrypted SD card in a fancy case — AI-assisted follow-up finds a backdoor and hardcoded keys in other &#x27;secure&#x27; USB products</a></li>
+      <li><a href="#s14">Proton&#x27;s CTO wrote a manifesto for the AI coding age. It struck a nerve with engineers.</a></li>
+      <li><a href="#s15">When Modernization Breaks Working Code: A Single-File Study of LLMs on Legacy PHP</a></li>
+      <li><a href="#s16">Apple @ Work: Next to a growing token bill, Macs might start looking like a bargain</a></li>
+      <li><a href="#s17">Plainsay——一款免费开源的Mac语音输入软件。</a></li>
+      <li><a href="#s18">OurCal | Shared Calendar App | Family, Couple, Team, Group | iPhone, iPad, Mac, Vision Pro, &amp; Android</a></li>
+      <li><a href="#s19">A visual, interactive guide to bloom filters</a></li>
+      <li><a href="#s20">deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rikiyat.github.io/blog/weight-space-programming/">Astra can read and write weights to improve Qwen</a></h3>
+    <div class="byline">by dbreunig · 2884 points · 869 comments</div>
+    <p class="blurb">The top HN story of the day by a mile: the claim that Google&#x27;s Astra can directly read and write model weights to improve Qwen — a potential leap from prompting to literal weight-space programming. Whether it holds up or not, this is the conversation the field is having right now. See story #3 for the immediate pushback.</p>
+    <div class="links">
+      <a href="https://rikiyat.github.io/blog/weight-space-programming/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50341174">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50340088">Show HN: Subvocal – Talk to your computer without making noise</a></h3>
+    <div class="byline">by aarushyadav · 787 points · 364 comments</div>
+    <p class="blurb">Subvocal speech recognition lets you dictate commands silently — no audible noise, just muscle movements captured at the throat. For developers who use voice coding or AI dictation tools in open offices or late nights, this is a compelling alternative to Whisper-based setups. 364 comments means the community has a lot to say about whether it actually works.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50340088">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50340088">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://honnibal.dev/blog/astra-read-write-misleading">The &#x27;Astra can read and write weights to improve Qwen&#x27; post is misleading</a></h3>
+    <div class="byline">by syllogism · 538 points · 120 comments</div>
+    <p class="blurb">The inevitable correction arrives fast: Matthew Honnibal (spaCy creator) argues the viral Astra/Qwen weight-writing claim is technically misleading. Read this alongside story #1 — the back-and-forth is a masterclass in how AI hype propagates and gets corrected on HN in real time.</p>
+    <div class="links">
+      <a href="https://honnibal.dev/blog/astra-read-write-misleading">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50351111">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://hackertimes.ca/">Show HN: Hacker Times, a New York Times-inspired version of Hacker News</a></h3>
+    <div class="byline">by polpenn · 408 points · 128 comments</div>
+    <p class="blurb">A clean, beautifully typeset NYT-style front page built from live HN data. It&#x27;s a fun creative coding project and a genuinely nicer way to browse HN stories — especially for anyone who prefers editorial layout over ranked lists.</p>
+    <div class="links">
+      <a href="https://hackertimes.ca/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50346981">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio">DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs</a></h3>
+    <div class="byline">by bpierre · 316 points · 71 comments</div>
+    <p class="blurb">Disc Label Print technology lets you burn actual graphics into the data surface of optical media — no inkjet required. This open-source tool surfaces that obscure capability for DIY archivists and physical media fans. Genuinely cool creative/hardware crossover.</p>
+    <div class="links">
+      <a href="https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50346849">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you">Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You</a></h3>
+    <div class="byline">by tomrod · 311 points · 86 comments</div>
+    <p class="blurb">NIST has finally published a cybersecurity framework aimed at solo operators and freelance developers — no enterprise IT team required. Actionable checklists covering passwords, backups, phishing, and device hygiene. Bookmark this and actually work through it.</p>
+    <div class="links">
+      <a href="https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50340619">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://knlb.dev/essays/surrender">Resisting Cognitive Surrender</a></h3>
+    <div class="byline">by knlb · 265 points · 130 comments</div>
+    <p class="blurb">A thoughtful essay on what happens to thinking skills when we delegate too much to AI assistants — directly relevant for anyone who uses Claude Code or Copilot daily. The argument isn&#x27;t &#x27;don&#x27;t use AI&#x27; but rather &#x27;be deliberate about what you still choose to do yourself.&#x27; Essential reading for the AI-tools-heavy developer.</p>
+    <div class="links">
+      <a href="https://knlb.dev/essays/surrender">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50323123">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/NVIDIA/auto-ontology">Nvidia – open-source auto-ontology</a></h3>
+    <div class="byline">by campervans · 227 points · 83 comments</div>
+    <p class="blurb">Nvidia open-sources a toolkit for automatically building structured ontologies from unstructured data — think automatic knowledge graphs from your docs or codebases. Potentially powerful for RAG pipelines and AI workflows where domain structure matters. Worth digging into if you&#x27;re building context-heavy AI tooling.</p>
+    <div class="links">
+      <a href="https://github.com/NVIDIA/auto-ontology">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50348962">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html">Could a modern chess engine on a Pentium have defeated Kasparov in 1996?</a></h3>
+    <div class="byline">by markusw · 220 points · 109 comments</div>
+    <p class="blurb">Nicholas Carlini runs the numbers on algorithmic vs. hardware improvements in chess engines since Deep Blue. The answer is surprising and illuminates how much of AI progress is algorithms versus raw compute — a question that maps perfectly onto today&#x27;s LLM debates.</p>
+    <div class="links">
+      <a href="https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50349276">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50352757">OpenAI seems to be silently re-enabling model training on Codex chats</a></h3>
+    <div class="byline">by user052919 · 26 points · 11 comments</div>
+    <p class="blurb">A developer noticed that OpenAI appears to have quietly flipped a setting to allow Codex conversation data to be used for model training — without explicit re-consent. For anyone using Codex with proprietary or client code, this is an urgent privacy heads-up. Check your account settings now.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50352757">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50352757">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.onorca.dev/">Orca — The most powerful Agent Development Environment (ADE)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: development, ai, editor</div>
+    <p class="blurb">Orca is a purpose-built environment for running Claude Code, Codex, Gemini CLI, and other coding agents in parallel across isolated git worktrees. If you&#x27;re already using Claude Code, this is the missing orchestration layer — free, open source, and cross-platform. Could dramatically change your multi-agent workflow.</p>
+    <div class="links">
+      <a href="https://www.onorca.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.brangus.io/survival-llm">Survival LLM: an AI that still works when the internet doesn&#x27;t</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A free, fully offline AI assistant and emergency reference library that runs entirely on-device — no cloud, no API key, no connectivity required. Think of it as a local LLM with curated survival/reference knowledge baked in. Useful for privacy-conscious developers who want a Claude-free fallback or an air-gapped assistant.</p>
+    <div class="links">
+      <a href="https://www.brangus.io/survival-llm">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/">Lenovo&#x27;s &#x27;encrypted&#x27; fingerprint USB drive is just an unencrypted SD card in a fancy case — AI-assisted follow-up finds a backdoor and hardcoded keys in other &#x27;secure&#x27; USB products</a></h3>
+    <div class="byline">Pinboard Popular · tagged: security, lenovo</div>
+    <p class="blurb">Devastating hardware security story: a &#x27;secure&#x27; Lenovo fingerprint USB drive turns out to be unencrypted inside, and the follow-up investigation (AI-assisted reverse engineering!) found hardcoded keys and backdoors in multiple competing products. A must-read cautionary tale about trusting security theater.</p>
+    <div class="links">
+      <a href="https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.businessinsider.com/protons-cto-ai-manifesto-software-engineers-coding-2026-10">Proton&#x27;s CTO wrote a manifesto for the AI coding age. It struck a nerve with engineers.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: code, CSS, javascript, HTML, dev, ai, culture</div>
+    <p class="blurb">Proton&#x27;s CTO argues that software engineering has fundamentally changed with AI — and engineers who adapt will thrive while those who don&#x27;t will be left behind. Coming from a privacy-first company&#x27;s technical leader, this carries extra weight. The widespread resonance among engineers suggests it&#x27;s hitting something real.</p>
+    <div class="links">
+      <a href="https://www.businessinsider.com/protons-cto-ai-manifesto-software-engineers-coding-2026-10">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arxiv.org/abs/2610.40269">When Modernization Breaks Working Code: A Single-File Study of LLMs on Legacy PHP</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 2026, research, software-craft, artificial-stupidity, llm</div>
+    <p class="blurb">Researchers tested five LLMs on modernizing 100 legacy PHP files and found that LLMs frequently broke behavioral correctness while appearing to modernize — often performing worse than the rule-based tool Rector. Critical empirical data for anyone evaluating AI-assisted refactoring in .NET or other legacy stacks.</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2610.40269">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://9to5mac.com/2026/10/31/apple-work-next-to-a-token-bill-macs-might-start-looking-like-a-bargain/">Apple @ Work: Next to a growing token bill, Macs might start looking like a bargain</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">As AI API token costs balloon, running local models on Apple Silicon becomes increasingly attractive by comparison. This 9to5Mac piece runs the business math and makes a compelling case that the Mac&#x27;s on-device ML capabilities are undervalued relative to cloud API spend. Directly relevant for developers weighing local vs. cloud AI.</p>
+    <div class="links">
+      <a href="https://9to5mac.com/2026/10/31/apple-work-next-to-a-token-bill-macs-might-start-looking-like-a-bargain/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://plainsay.app/">Plainsay——一款免费开源的Mac语音输入软件。</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 语音输入法</div>
+    <p class="blurb">Plainsay is a free, MIT-licensed, open-source dictation app for Mac that works in Local mode with no account or subscription. Pairs naturally with the Subvocal story above (HN #2) — if silent input isn&#x27;t your thing, this is the privacy-respecting on-device alternative for voice dictation on macOS.</p>
+    <div class="links">
+      <a href="https://plainsay.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ourcal.com/">OurCal | Shared Calendar App | Family, Couple, Team, Group | iPhone, iPad, Mac, Vision Pro, &amp; Android</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">OurCal is a shared calendar app built for Apple ecosystem first — iPhone, iPad, Mac, and Vision Pro — with cross-platform Android support. Via Daring Fireball, so it&#x27;s been vetted by the Apple faithful. Worth a look if you&#x27;re tired of Google Calendar&#x27;s privacy tradeoffs for shared scheduling.</p>
+    <div class="links">
+      <a href="https://ourcal.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://samwho.dev/bloom-filters">A visual, interactive guide to bloom filters</a></h3>
+    <div class="byline">Pinboard Popular · tagged: .lobste.rs/upvoted, compsci, visualization</div>
+    <p class="blurb">Sam Who&#x27;s interactive explainer series strikes again — this one on bloom filters with beautiful animated visualizations that make probabilistic data structures genuinely intuitive. If you ever need to explain or implement a bloom filter for a .NET or TypeScript project, start here.</p>
+    <div class="links">
+      <a href="https://samwho.dev/bloom-filters">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/deepseek-ai/dsh-superagent-prototype">deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System</a></h3>
+    <div class="byline">Pinboard Popular · tagged: agent</div>
+    <p class="blurb">DeepSeek releases a prototype &#x27;superagent&#x27; system aimed at more autonomous multi-step task completion — direct competition to Claude Code&#x27;s agentic capabilities. The architecture details in the repo are worth studying for anyone building or evaluating AI agent systems. DeepSeek continues to punch above its weight in open AI research.</p>
+    <div class="links">
+      <a href="https://github.com/deepseek-ai/dsh-superagent-prototype">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
