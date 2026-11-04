@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-04",
+  "stories": [
+    {
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "hn_link": "https://news.ycombinator.com/item?id=50354960",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by sidgarimella · 1434 points · 467 comments",
+      "blurb": "Postman quietly bundled AI plugins without consent and started exfiltrating API request data — including tokens and secrets — to external servers. This is a massive trust violation for anyone who uses Postman to test authenticated APIs. If you haven't already migrated to Bruno or curl-based workflows, this is your sign."
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "hn_link": "https://news.ycombinator.com/item?id=50355251",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanonymousone · 692 points · 201 comments",
+      "blurb": "Simon Willison shows that Qwen 3.8 27B, running entirely on a consumer laptop, can meaningfully interpret model weights — a capability previously requiring frontier-scale models. Local LLM inference keeps leveling up at a dizzying pace. This is directly actionable if you're running llama.cpp or Ollama."
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "hn_link": "https://news.ycombinator.com/item?id=50363461",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by jameslk · 360 points · 103 comments",
+      "blurb": "Even paid Gemini subscribers on personal Google accounts have their conversations used for training — a fact buried deep in settings. If you're comparing AI tools and care about data hygiene, this is a critical differentiator. Worth auditing your team's AI tool policies today."
+    },
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "hn_link": "https://news.ycombinator.com/item?id=50364336",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by pseudolus · 485 points · 336 comments",
+      "blurb": "IEEE Spectrum digs into how AI-assisted attack tooling is finally making ancient PHP-to-shell vulnerabilities trivially exploitable at scale, forcing a reckoning with decades of ignored legacy code. The AI coding assistant era cuts both ways: it accelerates defenders and attackers equally. Essential reading for anyone shipping prod software."
+    },
+    {
+      "title": "The Internals of PostgreSQL",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50358702",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ibobev · 331 points · 24 comments",
+      "blurb": "A free, exhaustive online book covering PostgreSQL's storage, process architecture, WAL, and query execution internals. This resurfaces periodically for good reason — there's nothing else like it for understanding what Postgres is actually doing under the hood. Bookmark and read slowly."
+    },
+    {
+      "title": "Kitty 0.50",
+      "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+      "hn_link": "https://news.ycombinator.com/item?id=50362980",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by porridgeraisin · 276 points · 179 comments",
+      "blurb": "Kitty 0.50 is a landmark release for the GPU-accelerated terminal emulator — changelog is packed with performance wins, new layout features, and macOS improvements. If you're a Kitty user this is a must-upgrade; if you're still on iTerm2, this release is a fresh reason to reconsider."
+    },
+    {
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=50355767",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by citelao · 232 points · 264 comments",
+      "blurb": "A candid, opinionated look at how a working developer actually integrates AI into their daily workflow as of late 2026 — what sticks, what doesn't, and where the hype diverges from reality. The 264-comment thread is equally worth reading for the community's contrasting experiences."
+    },
+    {
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "hn_link": "https://news.ycombinator.com/item?id=50362905",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by novaRom · 373 points · 185 comments",
+      "blurb": "Nvidia's RTX Spark laptop GPU ships with encrypted firmware that throttles inference to just 35% of rated speed on Linux — a stunning penalty for local AI workloads. This is a significant gotcha if you're evaluating hardware for on-device model inference, and raises serious questions about Nvidia's commitment to open platforms."
+    },
+    {
+      "title": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
+      "url": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
+      "hn_link": "https://news.ycombinator.com/item?id=50363968",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by snvzz · 101 points · 37 comments",
+      "blurb": "Synaptics is allegedly threatening legal action to suppress an open-source DisplayLink driver, locking users into proprietary software for multi-monitor setups. This matters for anyone using USB-C docks — and it's a worrying precedent for hardware interoperability rights."
+    },
+    {
+      "title": "North Korean fake job interview led to $6.3B Binance heist",
+      "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+      "hn_link": "https://news.ycombinator.com/item?id=50365755",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by smalltech · 186 points · 109 comments",
+      "blurb": "North Korean operatives used a fake job interview pretext to plant malware, eventually leading to a $6.3 billion Binance breach. The social engineering playbook here — fake recruiter, trojanized coding challenge — is increasingly targeting mainstream tech companies, not just crypto. Know the patterns."
+    },
+    {
+      "title": "New iPad mini hands-on: Refreshed design, OLED display, more - 9to5Mac",
+      "url": "https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The new iPad mini gets an OLED display and A20 Pro chip — a significant generational leap for the compact iPad that's beloved by developers for its portability. If you've been holding out for a worthwhile upgrade, this appears to be it."
+    },
+    {
+      "title": "Siri AI is now open to all developers - Latest News - Apple Developer",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple has opened Siri AI integration APIs to all third-party developers, a potentially transformative move for the iOS/macOS ecosystem. Building Siri actions and on-device AI features into your apps just got dramatically more accessible."
+    },
+    {
+      "title": "Introducing Flint - Recursive",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: local, AI, offline, inference, macOS",
+      "blurb": "Recursive's Flint is a new MoE coding model under 50B parameters that tops SWE-Bench Pro v2 and runs more than 5x faster than comparable dense models — with explicit macOS/offline inference support. For developers who want Claude Code-level coding assistance running locally, this is worth serious attention."
+    },
+    {
+      "title": "Robert Haas: Postgres 19 is late, and it's AI's fault",
+      "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: postgres, llm, programming",
+      "blurb": "A PostgreSQL core contributor argues that the flood of AI-generated patch submissions is overwhelming the review pipeline and delaying Postgres 19. It's a candid insider account of how LLM-assisted development creates new bottlenecks in open-source governance — and a cautionary tale for maintainers everywhere."
+    },
+    {
+      "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation — city takes matters into its own hands amid privacy controversies | Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A police chief had to physically yank Flock Safety license-plate cameras from their mounts after the vendor refused to honor a contract cancellation — revealing alarming vendor lock-in in public surveillance infrastructure. A striking illustration of why surveillance tech procurement deserves much more public scrutiny."
+    },
+    {
+      "title": "The shelf life of LLM findings",
+      "url": "https://zou-group.github.io/llm-claims-shelf-life/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "Researchers track how quickly published findings about LLM capabilities become obsolete as models are updated — the answer is: very fast, often within months. This has huge implications for how we evaluate AI tools and trust benchmark comparisons. Essential epistemics for anyone building on top of LLMs."
+    },
+    {
+      "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries. · GitHub",
+      "url": "https://github.com/morluto/rea",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis",
+      "blurb": "REA is an open-source agentic framework that connects AI to reverse-engineering tools like Ghidra and Hopper via MCP, automating feature reconstruction from native binaries. If you ever need to understand undocumented APIs or legacy binaries, this dramatically lowers the barrier."
+    },
+    {
+      "title": "boat: Cheapest, Most Powerful Sandboxes for Agents",
+      "url": "https://boat.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cloud",
+      "blurb": "Boat offers lightweight, cheap cloud sandboxes purpose-built for running AI agents safely — think Claude Code or similar agentic workflows without the overhead of full VMs. If you're building or running agentic pipelines, this is worth evaluating as infrastructure."
+    },
+    {
+      "title": "tmux cheat sheet — every keybinding, searchable & copy-ready",
+      "url": "https://tmuxcheatsheet.dev/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tmux",
+      "blurb": "A beautifully designed, fully searchable tmux keybinding reference — every prefix command, pane/window operation, and copy-mode shortcut in one place. Instant-bookmark for anyone who drops into tmux daily and still can't remember the resize-pane syntax."
+    },
+    {
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: youtube, osint, planes, sound",
+      "blurb": "A researcher demonstrates how inaudible background sounds in audio recordings carry enough location signal — via the Doppler effect from passing aircraft — to pinpoint where a recording was made within ~100 meters from under a minute of audio. Deeply unsettling OSINT capability with real implications for anyone publishing voice or video content."
+    }
+  ]
+}

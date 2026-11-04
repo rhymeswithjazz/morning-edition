@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 4, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 4, 2026.">
+<meta property="og:title" content="Morning Edition — November 4, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-04.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · November 4, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Postman silently auto-installs AI plugins and attempts to share all API data</a></li>
+      <li><a href="#s2">Qwen 3.8 27B on my laptop can interpret model weights, too</a></li>
+      <li><a href="#s3">Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)</a></li>
+      <li><a href="#s4">AI is forcing us to pay off 40 years of technical debt</a></li>
+      <li><a href="#s5">The Internals of PostgreSQL</a></li>
+      <li><a href="#s6">Kitty 0.50</a></li>
+      <li><a href="#s7">How I use AI (Oct 2026)</a></li>
+      <li><a href="#s8">Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux</a></li>
+      <li><a href="#s9">Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver</a></li>
+      <li><a href="#s10">North Korean fake job interview led to $6.3B Binance heist</a></li>
+      <li><a href="#s11">New iPad mini hands-on: Refreshed design, OLED display, more - 9to5Mac</a></li>
+      <li><a href="#s12">Siri AI is now open to all developers - Latest News - Apple Developer</a></li>
+      <li><a href="#s13">Introducing Flint - Recursive</a></li>
+      <li><a href="#s14">Robert Haas: Postgres 19 is late, and it&#x27;s AI&#x27;s fault</a></li>
+      <li><a href="#s15">Police Chief physically unplugs Flock cameras after the company ignores contract cancellation — city takes matters into its own hands amid privacy controversies | Tom&#x27;s Hardware</a></li>
+      <li><a href="#s16">The shelf life of LLM findings</a></li>
+      <li><a href="#s17">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries. · GitHub</a></li>
+      <li><a href="#s18">boat: Cheapest, Most Powerful Sandboxes for Agents</a></li>
+      <li><a href="#s19">tmux cheat sheet — every keybinding, searchable &amp; copy-ready</a></li>
+      <li><a href="#s20">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/postmanlabs/postman-app-support/issues/14370">Postman silently auto-installs AI plugins and attempts to share all API data</a></h3>
+    <div class="byline">by sidgarimella · 1434 points · 467 comments</div>
+    <p class="blurb">Postman quietly bundled AI plugins without consent and started exfiltrating API request data — including tokens and secrets — to external servers. This is a massive trust violation for anyone who uses Postman to test authenticated APIs. If you haven&#x27;t already migrated to Bruno or curl-based workflows, this is your sign.</p>
+    <div class="links">
+      <a href="https://github.com/postmanlabs/postman-app-support/issues/14370">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50354960">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Qwen 3.8 27B on my laptop can interpret model weights, too</a></h3>
+    <div class="byline">by theanonymousone · 692 points · 201 comments</div>
+    <p class="blurb">Simon Willison shows that Qwen 3.8 27B, running entirely on a consumer laptop, can meaningfully interpret model weights — a capability previously requiring frontier-scale models. Local LLM inference keeps leveling up at a dizzying pace. This is directly actionable if you&#x27;re running llama.cpp or Ollama.</p>
+    <div class="links">
+      <a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50355251">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50363461">Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)</a></h3>
+    <div class="byline">by jameslk · 360 points · 103 comments</div>
+    <p class="blurb">Even paid Gemini subscribers on personal Google accounts have their conversations used for training — a fact buried deep in settings. If you&#x27;re comparing AI tools and care about data hygiene, this is a critical differentiator. Worth auditing your team&#x27;s AI tool policies today.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50363461">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50363461">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability">AI is forcing us to pay off 40 years of technical debt</a></h3>
+    <div class="byline">by pseudolus · 485 points · 336 comments</div>
+    <p class="blurb">IEEE Spectrum digs into how AI-assisted attack tooling is finally making ancient PHP-to-shell vulnerabilities trivially exploitable at scale, forcing a reckoning with decades of ignored legacy code. The AI coding assistant era cuts both ways: it accelerates defenders and attackers equally. Essential reading for anyone shipping prod software.</p>
+    <div class="links">
+      <a href="https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50364336">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.interdb.jp/pg/index.html">The Internals of PostgreSQL</a></h3>
+    <div class="byline">by ibobev · 331 points · 24 comments</div>
+    <p class="blurb">A free, exhaustive online book covering PostgreSQL&#x27;s storage, process architecture, WAL, and query execution internals. This resurfaces periodically for good reason — there&#x27;s nothing else like it for understanding what Postgres is actually doing under the hood. Bookmark and read slowly.</p>
+    <div class="links">
+      <a href="https://www.interdb.jp/pg/index.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50358702">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://sw.kovidgoyal.net/kitty/changelog/#">Kitty 0.50</a></h3>
+    <div class="byline">by porridgeraisin · 276 points · 179 comments</div>
+    <p class="blurb">Kitty 0.50 is a landmark release for the GPU-accelerated terminal emulator — changelog is packed with performance wins, new layout features, and macOS improvements. If you&#x27;re a Kitty user this is a must-upgrade; if you&#x27;re still on iTerm2, this release is a fresh reason to reconsider.</p>
+    <div class="links">
+      <a href="https://sw.kovidgoyal.net/kitty/changelog/#">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50362980">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ben.stolovitz.com/posts/how-use-ai-oct-2026/">How I use AI (Oct 2026)</a></h3>
+    <div class="byline">by citelao · 232 points · 264 comments</div>
+    <p class="blurb">A candid, opinionated look at how a working developer actually integrates AI into their daily workflow as of late 2026 — what sticks, what doesn&#x27;t, and where the hype diverges from reality. The 264-comment thread is equally worth reading for the community&#x27;s contrasting experiences.</p>
+    <div class="links">
+      <a href="https://ben.stolovitz.com/posts/how-use-ai-oct-2026/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50355767">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop">Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux</a></h3>
+    <div class="byline">by novaRom · 373 points · 185 comments</div>
+    <p class="blurb">Nvidia&#x27;s RTX Spark laptop GPU ships with encrypted firmware that throttles inference to just 35% of rated speed on Linux — a stunning penalty for local AI workloads. This is a significant gotcha if you&#x27;re evaluating hardware for on-device model inference, and raises serious questions about Nvidia&#x27;s commitment to open platforms.</p>
+    <div class="links">
+      <a href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50362905">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver">Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver</a></h3>
+    <div class="byline">by snvzz · 101 points · 37 comments</div>
+    <p class="blurb">Synaptics is allegedly threatening legal action to suppress an open-source DisplayLink driver, locking users into proprietary software for multi-monitor setups. This matters for anyone using USB-C docks — and it&#x27;s a worrying precedent for hardware interoperability rights.</p>
+    <div class="links">
+      <a href="https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50363968">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398">North Korean fake job interview led to $6.3B Binance heist</a></h3>
+    <div class="byline">by smalltech · 186 points · 109 comments</div>
+    <p class="blurb">North Korean operatives used a fake job interview pretext to plant malware, eventually leading to a $6.3 billion Binance breach. The social engineering playbook here — fake recruiter, trojanized coding challenge — is increasingly targeting mainstream tech companies, not just crypto. Know the patterns.</p>
+    <div class="links">
+      <a href="https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50365755">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/">New iPad mini hands-on: Refreshed design, OLED display, more - 9to5Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">The new iPad mini gets an OLED display and A20 Pro chip — a significant generational leap for the compact iPad that&#x27;s beloved by developers for its portability. If you&#x27;ve been holding out for a worthwhile upgrade, this appears to be it.</p>
+    <div class="links">
+      <a href="https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://developer.apple.com/news/?id=gdk2umrf">Siri AI is now open to all developers - Latest News - Apple Developer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Apple has opened Siri AI integration APIs to all third-party developers, a potentially transformative move for the iOS/macOS ecosystem. Building Siri actions and on-device AI features into your apps just got dramatically more accessible.</p>
+    <div class="links">
+      <a href="https://developer.apple.com/news/?id=gdk2umrf">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://recursive.com/updates/introducing-recursive-flint">Introducing Flint - Recursive</a></h3>
+    <div class="byline">Pinboard Popular · tagged: local, AI, offline, inference, macOS</div>
+    <p class="blurb">Recursive&#x27;s Flint is a new MoE coding model under 50B parameters that tops SWE-Bench Pro v2 and runs more than 5x faster than comparable dense models — with explicit macOS/offline inference support. For developers who want Claude Code-level coding assistance running locally, this is worth serious attention.</p>
+    <div class="links">
+      <a href="https://recursive.com/updates/introducing-recursive-flint">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">Robert Haas: Postgres 19 is late, and it&#x27;s AI&#x27;s fault</a></h3>
+    <div class="byline">Pinboard Popular · tagged: postgres, llm, programming</div>
+    <p class="blurb">A PostgreSQL core contributor argues that the flood of AI-generated patch submissions is overwhelming the review pipeline and delaying Postgres 19. It&#x27;s a candid insider account of how LLM-assisted development creates new bottlenecks in open-source governance — and a cautionary tale for maintainers everywhere.</p>
+    <div class="links">
+      <a href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies">Police Chief physically unplugs Flock cameras after the company ignores contract cancellation — city takes matters into its own hands amid privacy controversies | Tom&#x27;s Hardware</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A police chief had to physically yank Flock Safety license-plate cameras from their mounts after the vendor refused to honor a contract cancellation — revealing alarming vendor lock-in in public surveillance infrastructure. A striking illustration of why surveillance tech procurement deserves much more public scrutiny.</p>
+    <div class="links">
+      <a href="https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://zou-group.github.io/llm-claims-shelf-life/">The shelf life of LLM findings</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm</div>
+    <p class="blurb">Researchers track how quickly published findings about LLM capabilities become obsolete as models are updated — the answer is: very fast, often within months. This has huge implications for how we evaluate AI tools and trust benchmark comparisons. Essential epistemics for anyone building on top of LLMs.</p>
+    <div class="links">
+      <a href="https://zou-group.github.io/llm-claims-shelf-life/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/morluto/rea">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries. · GitHub</a></h3>
+    <div class="byline">Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis</div>
+    <p class="blurb">REA is an open-source agentic framework that connects AI to reverse-engineering tools like Ghidra and Hopper via MCP, automating feature reconstruction from native binaries. If you ever need to understand undocumented APIs or legacy binaries, this dramatically lowers the barrier.</p>
+    <div class="links">
+      <a href="https://github.com/morluto/rea">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://boat.dev/">boat: Cheapest, Most Powerful Sandboxes for Agents</a></h3>
+    <div class="byline">Pinboard Popular · tagged: cloud</div>
+    <p class="blurb">Boat offers lightweight, cheap cloud sandboxes purpose-built for running AI agents safely — think Claude Code or similar agentic workflows without the overhead of full VMs. If you&#x27;re building or running agentic pipelines, this is worth evaluating as infrastructure.</p>
+    <div class="links">
+      <a href="https://boat.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://tmuxcheatsheet.dev/">tmux cheat sheet — every keybinding, searchable &amp; copy-ready</a></h3>
+    <div class="byline">Pinboard Popular · tagged: tmux</div>
+    <p class="blurb">A beautifully designed, fully searchable tmux keybinding reference — every prefix command, pane/window operation, and copy-mode shortcut in one place. Instant-bookmark for anyone who drops into tmux daily and still can&#x27;t remember the resize-pane syntax.</p>
+    <div class="links">
+      <a href="https://tmuxcheatsheet.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.youtube.com/watch?v=UytYrhYLOKI">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></h3>
+    <div class="byline">Pinboard Popular · tagged: youtube, osint, planes, sound</div>
+    <p class="blurb">A researcher demonstrates how inaudible background sounds in audio recordings carry enough location signal — via the Doppler effect from passing aircraft — to pinpoint where a recording was made within ~100 meters from under a minute of audio. Deeply unsettling OSINT capability with real implications for anyone publishing voice or video content.</p>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=UytYrhYLOKI">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
