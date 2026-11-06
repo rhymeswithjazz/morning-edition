@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-06",
+  "stories": [
+    {
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "hn_link": "https://news.ycombinator.com/item?id=50385272",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by motoroco · 1409 points · 441 comments",
+      "blurb": "A bombshell for anyone using Claude Code: the tool has been silently leaking your Anthropic account email address to websites you visit during sessions. This is a significant privacy violation that directly affects our readers who rely on Claude Code daily. The issue has 441 comments and counting — patch or workaround expected imminently, but read this now."
+    },
+    {
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "hn_link": "https://news.ycombinator.com/item?id=50384233",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by kuberwastaken · 643 points · 242 comments",
+      "blurb": "MS Paint — yes, the iconic Windows sketch app — has an RCE vulnerability in 2026. The sheer absurdity of this earned 643 upvotes and a lively thread. A good reminder that attack surface lurks in the most unlikely places, and that legacy code never truly retires."
+    },
+    {
+      "title": "Motorola Signature 27 with GrapheneOS support",
+      "url": "https://motorolanews.com/motorola-signature-27-2/",
+      "hn_link": "https://news.ycombinator.com/item?id=50380810",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by monneyboi · 549 points · 389 comments",
+      "blurb": "First-party GrapheneOS support on a mainstream OEM device is a genuinely big deal for the privacy-phone market. Motorola officially blessing the most hardened Android fork could normalize privacy-first hardware in ways the Pixel-only ecosystem never could. Watch this space."
+    },
+    {
+      "title": "I wish tech companies knew more about me",
+      "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+      "hn_link": "https://news.ycombinator.com/item?id=50378942",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by freetonik · 518 points · 396 comments",
+      "blurb": "A counter-intuitive take that cuts through privacy absolutism: the author argues that the real problem isn't data collection, it's that collected data is used for ads rather than genuine personalization. It's a nuanced provocation that sparked nearly 400 comments and is worth reading alongside the Claude Code leak story above."
+    },
+    {
+      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "hn_link": "https://news.ycombinator.com/item?id=50390124",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by microtonal · 450 points · 266 comments",
+      "blurb": "A bank that markets itself on ethics is locking out privacy-conscious users running hardened Android — the irony writes itself. This is the core tension of mobile banking security theater: banks conflate Google's attestation APIs with actual security, punishing exactly the users who care most about their data. Pairs perfectly with today's GrapheneOS Motorola story."
+    },
+    {
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "hn_link": "https://news.ycombinator.com/item?id=50389333",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by ppmpreetham · 462 points · 188 comments",
+      "blurb": "BUI is a standalone Rust-based UI toolkit inspired by Blender's internal rendering pipeline, benchmarking significantly faster than Zed's GPUI. If you're building desktop apps and are tired of Electron bloat or React Native compromises, this is a compelling new entrant. The source is clean and the benchmarks are audacious."
+    },
+    {
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50385870",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by randycupertino · 456 points · 211 comments",
+      "blurb": "Internal documents allegedly show Meta knew its platform was hosting AI-generated deepfake scam ads generating billions in fraudulent revenue. This is a defining story about how AI misuse gets industrialized at platform scale — and what it means when moderation is a cost center, not a value."
+    },
+    {
+      "title": "Window Sweaters",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "hn_link": "https://news.ycombinator.com/item?id=50381383",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by nickswalker · 409 points · 121 comments",
+      "blurb": "A delightful creative coding project that wraps your desktop windows in cozy knitted-sweater textures — purely for aesthetic joy. 409 points says the HN crowd needed this. Sometimes the best dev tools are the ones that make you smile."
+    },
+    {
+      "title": "Download your favourite YouTube videos",
+      "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+      "hn_link": "https://news.ycombinator.com/item?id=50378571",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by surprisetalk · 382 points · 184 comments",
+      "blurb": "A practical, well-argued case for why you should be archiving the YouTube content you care about — before it disappears. The author walks through tools and workflows (yt-dlp prominently featured) with enough urgency to actually get you to do it today. Pairs with the Pinboard 'back up websites you love' story."
+    },
+    {
+      "title": "The Hackintosh Reborn",
+      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+      "hn_link": "https://news.ycombinator.com/item?id=50383057",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by rubatuga · 371 points · 212 comments",
+      "blurb": "The classic Hackintosh scene is experiencing a renaissance — this time with AI-assisted driver patching and configuration. The author details how modern LLMs have dramatically lowered the barrier to running macOS on non-Apple hardware. A fascinating read for anyone in the Apple ecosystem who wants to understand where the community is heading."
+    },
+    {
+      "title": "*sshole · sshhole.com",
+      "url": "https://sshhole.com/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: linux, funny, security, 2026",
+      "blurb": "Since 2016, OpenSSH on musl-based Linux (Alpine, OpenWRT, many Docker images) has silently accepted any password longer than 256 characters for accounts that should never accept passwords at all — including root and key-only deploy users. If you run Alpine-based containers in any capacity, stop and check this immediately. Funny name, terrifying bug."
+    },
+    {
+      "title": "Crafting Apps: open-source creative tools — ArtCraft",
+      "url": "https://getartcraft.com/apps",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: craft, apps, video, vector, image, photography, animation",
+      "blurb": "Seven native, open-source creative apps — image editing, vector illustration, video, photography, PDFs, motion graphics, and page layout — built in Rust and free to use. This is the kind of suite that could genuinely challenge Adobe's stranglehold on the creative stack. Worth bookmarking even if you only need one of them."
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Tech, AI-Art-Research",
+      "blurb": "OpenAI's Images 2.6 brings faster generation, GIF animation, more precise editing, and new API controls to ChatGPT, Codex, and the API. At 4 billion images per week, the scale is staggering — and the GIF support is a genuinely useful new primitive for anyone building AI-assisted creative workflows."
+    },
+    {
+      "title": "Planning with agents: Divided worlds, boundary objects, and thicker interfaces",
+      "url": "https://maggieappleton.com/planning-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, agents",
+      "blurb": "Maggie Appleton's characteristically thoughtful essay on how AI agents struggle with the messy, context-dependent nature of real planning. She introduces the concept of 'thicker interfaces' — richer human-agent communication layers that could make agentic tools actually useful. Essential reading for anyone building or evaluating agent workflows."
+    },
+    {
+      "title": "How software engineering is changing: a tale of two eras",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llms",
+      "blurb": "Gergely Orosz maps the fault line between pre- and post-LLM software engineering with his usual rigor and data. If you're trying to understand what skills still matter, what's being automated away, and how to position yourself, this is the clearest-eyed take available right now."
+    },
+    {
+      "title": "Cloudflare Zero Wire",
+      "url": "https://radar.cloudflare.com/security/zero-wire",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: cloudflare, cve, security, feed",
+      "blurb": "Cloudflare's new Zero Wire is a curated security briefing feed that separates confirmed facts, open questions, remediation steps, and operational context for urgent vulnerabilities. Think of it as a signal-to-noise filter for CVE chaos — bookmark this alongside your usual security feeds."
+    },
+    {
+      "title": "Passkeys are a trap. Do not use them.",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A sharp contrarian argument that passkeys, as currently implemented, create dangerous vendor lock-in and silent failure modes that make them worse than strong password managers for most users. Whether you agree or not, the specific failure scenarios described are real and worth understanding before you migrate your credentials."
+    },
+    {
+      "title": "Arkivism: search millions of public-domain images",
+      "url": "https://arkivism.com/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: search, archive, images, art",
+      "blurb": "A beautifully designed search engine over millions of public-domain images from museums, libraries, and archives worldwide. For developers doing creative work, building AI training sets, or just needing rights-free visuals, this is an instant bookmark. The interface alone is worth the visit."
+    },
+    {
+      "title": "Fortune Telling and Speculative Design",
+      "url": "https://maggieappleton.com/fortune-telling",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: uxp-save, uxp-review, speculative-design, design-leadership, ai-workflows",
+      "blurb": "A practitioner account of GitHub Next's speculative-design process — sharing rough prototypes, collecting weak signals, building theories, and making possible futures (including failure states) tangible. Useful for anyone doing hypothesis-led exploration with AI tools, and a rare honest account that skips the productivity-outcome hype."
+    },
+    {
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: web-archiving",
+      "blurb": "A timely manifesto on digital preservation: the web is fragile, services disappear, and the content you love most is often the least likely to survive. The author covers practical tools and habits for archiving the corners of the internet that matter to you — resonates hard alongside Salon's farewell today."
+    }
+  ]
+}
