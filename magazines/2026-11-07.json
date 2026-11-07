@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-07",
+  "stories": [
+    {
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "hn_link": "https://news.ycombinator.com/item?id=50399933",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by mfiguiere · 816 points · 130 comments",
+      "blurb": "Mitchell Hashimoto ships libghostty 1.0, a stable C library that lets any app embed the Ghostty terminal. This is a landmark moment: Ghostty goes from a great standalone terminal to an embeddable primitive, the same way libgit2 did for Git. If you're building dev tooling or an IDE-adjacent app, this is now a serious option."
+    },
+    {
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "hn_link": "https://news.ycombinator.com/item?id=50397429",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by theanomaly · 527 points · 125 comments",
+      "blurb": "Hightouch's engineering post shows how a small LLM-as-judge (\"Jev\") that can escalate to Claude Opus only when uncertain matches full-Opus accuracy at a quarter of the cost. A concrete, production-tested pattern for anyone building AI classification pipelines. The routing-on-uncertainty insight is immediately applicable to Claude Code workflows."
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "hn_link": "https://news.ycombinator.com/item?id=50392118",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by thisisauserid · 350 points · 240 comments",
+      "blurb": "Google's latest Gemini Flash variant brings multimodal \"Omni\" capabilities to their fast, cheap tier — real competition to GPT-4o Mini and Claude Haiku. Worth benchmarking in your AI tool stack, especially for high-volume tasks where cost per token matters."
+    },
+    {
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "hn_link": "https://news.ycombinator.com/item?id=50397994",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yurivish · 338 points · 309 comments",
+      "blurb": "A well-argued essay documenting the feedback loop: AI tools are now meaningfully speeding up AI research itself, compressing what used to be years of iteration into months. Essential reading for anyone trying to calibrate how fast the landscape is actually shifting under their feet."
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "hn_link": "https://news.ycombinator.com/item?id=50403097",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by infwhispers · 285 points · 144 comments",
+      "blurb": "Researchers discovered that Apple Intelligence's on-device personal knowledge graph silently classifies contacts into family relationship categories — undocumented, unexplained, and running locally on every modern Mac. A fascinating privacy deep-dive into what Apple's on-device AI actually knows about you."
+    },
+    {
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "hn_link": "https://news.ycombinator.com/item?id=50397219",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by SerCe · 260 points · 110 comments",
+      "blurb": "A detailed writeup of a successful escape from AWS Firecracker, the micro-VM technology underpinning Lambda and Fargate. The exploit chain is clever and the implications for serverless security assumptions are significant. Required reading if you run workloads on AWS managed compute."
+    },
+    {
+      "title": "Kugelblitz – Mac-Native Google Earth Alternative",
+      "url": "https://apps.metaebene.me/en/kugelblitz",
+      "hn_link": "https://news.ycombinator.com/item?id=50389370",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by luoc · 255 points · 65 comments",
+      "blurb": "Kugelblitz is a genuinely Mac-native globe and mapping app — no Electron, no web wrapper — with offline map support and a clean AppKit UI. If you've missed having a great Google Earth on the Mac, this looks like the best native alternative yet."
+    },
+    {
+      "title": "The Components of Agent Memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "hn_link": "https://news.ycombinator.com/item?id=50402212",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by geoffbp · 85 points · 49 comments",
+      "blurb": "Anthropic's research team publishes a taxonomy of how AI agents can store and retrieve information — in-context, external, parametric, and cached. A conceptual framework that's immediately useful when designing agents with Claude Code or any LLM orchestration layer."
+    },
+    {
+      "title": "GitHub's new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "hn_link": "https://news.ycombinator.com/item?id=50397099",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by DAlperin · 174 points · 43 comments",
+      "blurb": "GitHub's engineering team pulls back the curtain on how they redesigned Git object storage at scale, moving away from the original Spokes architecture. A rare, detailed look at the distributed systems tradeoffs behind the world's largest Git host — genuinely illuminating for anyone who works with Git internals or large repos."
+    },
+    {
+      "title": "Can GROUP BY still be optimized after all these years?",
+      "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
+      "hn_link": "https://news.ycombinator.com/item?id=50354097",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by ntur1337 · 97 points · 16 comments",
+      "blurb": "PivotLake digs into top-K aggregation and shows that yes, there are still meaningful algorithmic wins left in GROUP BY queries — specifically by exploiting LIMIT to prune the aggregation early. Practical for .NET devs hitting performance ceilings with EF Core or Dapper on large datasets."
+    },
+    {
+      "title": "Discord is ditching Electron and its new app uses less RAM | The Verge",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Discord is replacing its Electron shell with a custom web-based stack that reportedly cuts RAM usage significantly. A major signal for the Electron-vs-native debate — and interesting timing given libghostty's release above. Worth watching what tech they land on."
+    },
+    {
+      "title": "OpenAI says GPT-6 Cyber is better at finding vulnerabilities without going out of bounds | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "OpenAI launches GPT-6 Cyber, a security-focused model variant tuned to find code vulnerabilities while staying within safe usage boundaries. Direct competition to Anthropic's Claude in the security-research space — and a tool worth evaluating alongside your existing code-review workflows."
+    },
+    {
+      "title": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github-starred",
+      "blurb": "Cloudflare open-sources a coding-agent \"skill\" for running multi-phase security audits, producing independently verified, machine-readable findings. A plug-and-play module for LLM agent pipelines — drop it into Claude Code or any agent framework to get structured security analysis out of the box."
+    },
+    {
+      "title": "M6 MacBook Pro review: Solid as usual | The Verge",
+      "url": "https://www.theverge.com/tech/1027250/m6-macbook-pro-review",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge's full review of the M6 MacBook Pro is in. If you're on the upgrade fence, this is the definitive benchmark rundown — especially relevant if you're running heavy AI inference, compilation, or Xcode workloads locally."
+    },
+    {
+      "title": "The Ultimate MoE Training Handbook - a Hugging Face Space by huggingface",
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm-train",
+      "blurb": "Hugging Face publishes a comprehensive, hands-on guide to training Mixture-of-Experts models — covering architecture choices, routing strategies, and training stability tricks. The best single reference if you want to understand why MoE is dominating frontier model design right now."
+    },
+    {
+      "title": "What is Codemode | Armin Ronacher's Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: pi, codemode",
+      "blurb": "Flask creator Armin Ronacher coins \"codemode\" to describe the altered cognitive state developers enter when working with AI coding assistants — faster but shallower, productive but prone to brittle output. A sharp, honest reflection that resonates immediately if you use Claude Code daily."
+    },
+    {
+      "title": "PDD Kit",
+      "url": "https://githubnext.com/projects/pdd-kit/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "GitHub Next's PDD Kit (Proof-Driven Development) is a toolkit for building trust in agent-written code — generating and checking formal assertions about what AI-authored code actually does. If you're shipping code produced by Claude Code or Copilot to production, this is exactly the kind of verification layer you've been waiting for."
+    },
+    {
+      "title": "Evergreen — Provably Safe Systems Code",
+      "url": "https://evergreenlang.net/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: dev, programming, languages",
+      "blurb": "Evergreen is a new systems language that bakes explicit contracts, checked invariants, and memory control into the language itself — the compiler verifies that all stated conditions hold. A serious Rust alternative for teams that want formal safety guarantees without dependent type theory PhDs on staff."
+    },
+    {
+      "title": "What are vector embeddings? An interactive guide - Isaacus",
+      "url": "https://isaacus.com/blog/what-are-vector-embeddings",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "An interactive, visual guide to vector embeddings that covers cosine similarity, semantic search, clustering, and deduplication — all explorable in-browser. The best explainer I've seen for sharing with teammates who keep asking \"but what IS an embedding, actually?\""
+    },
+    {
+      "title": "When fonts fall",
+      "url": "https://www.figma.com/blog/when-fonts-fall/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Figma's typography team digs into font fallback rendering — what actually happens when a glyph is missing, how browsers and apps chain through fallback stacks, and why \"it looks fine on my machine\" is a font issue waiting to happen. Essential reading for anyone doing serious UI work with international text."
+    }
+  ]
+}

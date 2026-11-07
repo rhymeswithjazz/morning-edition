@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 7, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 7, 2026.">
+<meta property="og:title" content="Morning Edition — November 7, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-07.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Saturday · November 7, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Libghostty 1.0</a></li>
+      <li><a href="#s2">A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</a></li>
+      <li><a href="#s3">Gemini Omni 1.2 Flash</a></li>
+      <li><a href="#s4">AI is dramatically accelerating AI research</a></li>
+      <li><a href="#s5">Every Mac comes with an (undocumented) family member classifier</a></li>
+      <li><a href="#s6">Firecracker VM Escape: PwnEscape Part 2</a></li>
+      <li><a href="#s7">Kugelblitz – Mac-Native Google Earth Alternative</a></li>
+      <li><a href="#s8">The Components of Agent Memory</a></li>
+      <li><a href="#s9">GitHub&#x27;s new Git storage architecture</a></li>
+      <li><a href="#s10">Can GROUP BY still be optimized after all these years?</a></li>
+      <li><a href="#s11">Discord is ditching Electron and its new app uses less RAM | The Verge</a></li>
+      <li><a href="#s12">OpenAI says GPT-6 Cyber is better at finding vulnerabilities without going out of bounds | The Verge</a></li>
+      <li><a href="#s13">security-audit-skill</a></li>
+      <li><a href="#s14">M6 MacBook Pro review: Solid as usual | The Verge</a></li>
+      <li><a href="#s15">The Ultimate MoE Training Handbook - a Hugging Face Space by huggingface</a></li>
+      <li><a href="#s16">What is Codemode | Armin Ronacher&#x27;s Thoughts and Writings</a></li>
+      <li><a href="#s17">PDD Kit</a></li>
+      <li><a href="#s18">Evergreen — Provably Safe Systems Code</a></li>
+      <li><a href="#s19">What are vector embeddings? An interactive guide - Isaacus</a></li>
+      <li><a href="#s20">When fonts fall</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://mitchellh.com/writing/libghostty-1-0">Libghostty 1.0</a></h3>
+    <div class="byline">by mfiguiere · 816 points · 130 comments</div>
+    <p class="blurb">Mitchell Hashimoto ships libghostty 1.0, a stable C library that lets any app embed the Ghostty terminal. This is a landmark moment: Ghostty goes from a great standalone terminal to an embeddable primitive, the same way libgit2 did for Git. If you&#x27;re building dev tooling or an IDE-adjacent app, this is now a serious option.</p>
+    <div class="links">
+      <a href="https://mitchellh.com/writing/libghostty-1-0">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50399933">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://hightouch.com/blog/llm-judges-identity-resolution">A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</a></h3>
+    <div class="byline">by theanomaly · 527 points · 125 comments</div>
+    <p class="blurb">Hightouch&#x27;s engineering post shows how a small LLM-as-judge (&quot;Jev&quot;) that can escalate to Claude Opus only when uncertain matches full-Opus accuracy at a quarter of the cost. A concrete, production-tested pattern for anyone building AI classification pipelines. The routing-on-uncertainty insight is immediately applicable to Claude Code workflows.</p>
+    <div class="links">
+      <a href="https://hightouch.com/blog/llm-judges-identity-resolution">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50397429">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Gemini Omni 1.2 Flash</a></h3>
+    <div class="byline">by thisisauserid · 350 points · 240 comments</div>
+    <p class="blurb">Google&#x27;s latest Gemini Flash variant brings multimodal &quot;Omni&quot; capabilities to their fast, cheap tier — real competition to GPT-4o Mini and Claude Haiku. Worth benchmarking in your AI tool stack, especially for high-volume tasks where cost per token matters.</p>
+    <div class="links">
+      <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50392118">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">AI is dramatically accelerating AI research</a></h3>
+    <div class="byline">by yurivish · 338 points · 309 comments</div>
+    <p class="blurb">A well-argued essay documenting the feedback loop: AI tools are now meaningfully speeding up AI research itself, compressing what used to be years of iteration into months. Essential reading for anyone trying to calibrate how fast the landscape is actually shifting under their feet.</p>
+    <div class="links">
+      <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50397994">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://8rank.ai/game/apple-intelligence-personal-knowledge-graph">Every Mac comes with an (undocumented) family member classifier</a></h3>
+    <div class="byline">by infwhispers · 285 points · 144 comments</div>
+    <p class="blurb">Researchers discovered that Apple Intelligence&#x27;s on-device personal knowledge graph silently classifies contacts into family relationship categories — undocumented, unexplained, and running locally on every modern Mac. A fascinating privacy deep-dive into what Apple&#x27;s on-device AI actually knows about you.</p>
+    <div class="links">
+      <a href="https://8rank.ai/game/apple-intelligence-personal-knowledge-graph">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50403097">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://pwn.ai/blog/firecracker-escape">Firecracker VM Escape: PwnEscape Part 2</a></h3>
+    <div class="byline">by SerCe · 260 points · 110 comments</div>
+    <p class="blurb">A detailed writeup of a successful escape from AWS Firecracker, the micro-VM technology underpinning Lambda and Fargate. The exploit chain is clever and the implications for serverless security assumptions are significant. Required reading if you run workloads on AWS managed compute.</p>
+    <div class="links">
+      <a href="https://pwn.ai/blog/firecracker-escape">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50397219">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://apps.metaebene.me/en/kugelblitz">Kugelblitz – Mac-Native Google Earth Alternative</a></h3>
+    <div class="byline">by luoc · 255 points · 65 comments</div>
+    <p class="blurb">Kugelblitz is a genuinely Mac-native globe and mapping app — no Electron, no web wrapper — with offline map support and a clean AppKit UI. If you&#x27;ve missed having a great Google Earth on the Mac, this looks like the best native alternative yet.</p>
+    <div class="links">
+      <a href="https://apps.metaebene.me/en/kugelblitz">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50389370">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/components-of-agent-memory">The Components of Agent Memory</a></h3>
+    <div class="byline">by geoffbp · 85 points · 49 comments</div>
+    <p class="blurb">Anthropic&#x27;s research team publishes a taxonomy of how AI agents can store and retrieve information — in-context, external, parametric, and cached. A conceptual framework that&#x27;s immediately useful when designing agents with Claude Code or any LLM orchestration layer.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/components-of-agent-memory">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50402212">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">GitHub&#x27;s new Git storage architecture</a></h3>
+    <div class="byline">by DAlperin · 174 points · 43 comments</div>
+    <p class="blurb">GitHub&#x27;s engineering team pulls back the curtain on how they redesigned Git object storage at scale, moving away from the original Spokes architecture. A rare, detailed look at the distributed systems tradeoffs behind the world&#x27;s largest Git host — genuinely illuminating for anyone who works with Git internals or large repos.</p>
+    <div class="links">
+      <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50397099">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/">Can GROUP BY still be optimized after all these years?</a></h3>
+    <div class="byline">by ntur1337 · 97 points · 16 comments</div>
+    <p class="blurb">PivotLake digs into top-K aggregation and shows that yes, there are still meaningful algorithmic wins left in GROUP BY queries — specifically by exploiting LIMIT to prune the aggregation early. Practical for .NET devs hitting performance ceilings with EF Core or Dapper on large datasets.</p>
+    <div class="links">
+      <a href="https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50354097">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://www.theverge.com/news/1027379/discord-ditching-electron-web-app">Discord is ditching Electron and its new app uses less RAM | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Discord is replacing its Electron shell with a custom web-based stack that reportedly cuts RAM usage significantly. A major signal for the Electron-vs-native debate — and interesting timing given libghostty&#x27;s release above. Worth watching what tech they land on.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/news/1027379/discord-ditching-electron-web-app">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch">OpenAI says GPT-6 Cyber is better at finding vulnerabilities without going out of bounds | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">OpenAI launches GPT-6 Cyber, a security-focused model variant tuned to find code vulnerabilities while staying within safe usage boundaries. Direct competition to Anthropic&#x27;s Claude in the security-research space — and a tool worth evaluating alongside your existing code-review workflows.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/cloudflare/security-audit-skill">security-audit-skill</a></h3>
+    <div class="byline">Pinboard Popular · tagged: github-starred</div>
+    <p class="blurb">Cloudflare open-sources a coding-agent &quot;skill&quot; for running multi-phase security audits, producing independently verified, machine-readable findings. A plug-and-play module for LLM agent pipelines — drop it into Claude Code or any agent framework to get structured security analysis out of the box.</p>
+    <div class="links">
+      <a href="https://github.com/cloudflare/security-audit-skill">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/tech/1027250/m6-macbook-pro-review">M6 MacBook Pro review: Solid as usual | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">The Verge&#x27;s full review of the M6 MacBook Pro is in. If you&#x27;re on the upgrade fence, this is the definitive benchmark rundown — especially relevant if you&#x27;re running heavy AI inference, compilation, or Xcode workloads locally.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/tech/1027250/m6-macbook-pro-review">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://huggingface.co/spaces/huggingface/moe-blogpost">The Ultimate MoE Training Handbook - a Hugging Face Space by huggingface</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm-train</div>
+    <p class="blurb">Hugging Face publishes a comprehensive, hands-on guide to training Mixture-of-Experts models — covering architecture choices, routing strategies, and training stability tricks. The best single reference if you want to understand why MoE is dominating frontier model design right now.</p>
+    <div class="links">
+      <a href="https://huggingface.co/spaces/huggingface/moe-blogpost">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://lucumr.pocoo.org/2026/10/6/codemode/">What is Codemode | Armin Ronacher&#x27;s Thoughts and Writings</a></h3>
+    <div class="byline">Pinboard Popular · tagged: pi, codemode</div>
+    <p class="blurb">Flask creator Armin Ronacher coins &quot;codemode&quot; to describe the altered cognitive state developers enter when working with AI coding assistants — faster but shallower, productive but prone to brittle output. A sharp, honest reflection that resonates immediately if you use Claude Code daily.</p>
+    <div class="links">
+      <a href="https://lucumr.pocoo.org/2026/10/6/codemode/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://githubnext.com/projects/pdd-kit/">PDD Kit</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">GitHub Next&#x27;s PDD Kit (Proof-Driven Development) is a toolkit for building trust in agent-written code — generating and checking formal assertions about what AI-authored code actually does. If you&#x27;re shipping code produced by Claude Code or Copilot to production, this is exactly the kind of verification layer you&#x27;ve been waiting for.</p>
+    <div class="links">
+      <a href="https://githubnext.com/projects/pdd-kit/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://evergreenlang.net/">Evergreen — Provably Safe Systems Code</a></h3>
+    <div class="byline">Pinboard Popular · tagged: dev, programming, languages</div>
+    <p class="blurb">Evergreen is a new systems language that bakes explicit contracts, checked invariants, and memory control into the language itself — the compiler verifies that all stated conditions hold. A serious Rust alternative for teams that want formal safety guarantees without dependent type theory PhDs on staff.</p>
+    <div class="links">
+      <a href="https://evergreenlang.net/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://isaacus.com/blog/what-are-vector-embeddings">What are vector embeddings? An interactive guide - Isaacus</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">An interactive, visual guide to vector embeddings that covers cosine similarity, semantic search, clustering, and deduplication — all explorable in-browser. The best explainer I&#x27;ve seen for sharing with teammates who keep asking &quot;but what IS an embedding, actually?&quot;</p>
+    <div class="links">
+      <a href="https://isaacus.com/blog/what-are-vector-embeddings">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://www.figma.com/blog/when-fonts-fall/">When fonts fall</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Figma&#x27;s typography team digs into font fallback rendering — what actually happens when a glyph is missing, how browsers and apps chain through fallback stacks, and why &quot;it looks fine on my machine&quot; is a font issue waiting to happen. Essential reading for anyone doing serious UI work with international text.</p>
+    <div class="links">
+      <a href="https://www.figma.com/blog/when-fonts-fall/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
