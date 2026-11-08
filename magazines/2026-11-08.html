@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 8, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 8, 2026.">
+<meta property="og:title" content="Morning Edition — November 8, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-08.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · November 8, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</a></li>
+      <li><a href="#s2">Need for Speed Underground 2 online in the browser</a></li>
+      <li><a href="#s3">MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;</a></li>
+      <li><a href="#s4">Goodbye Claude, Hello Pi</a></li>
+      <li><a href="#s5">Apple&#x27;s grey list: Words and phrases your iPhone won&#x27;t help you spell</a></li>
+      <li><a href="#s6">The end of Microsoft Research&#x27;s AI Frontiers group</a></li>
+      <li><a href="#s7">GitHub New pull request overview page in public preview</a></li>
+      <li><a href="#s8">What I run on my $10 USD OpenStick homelab</a></li>
+      <li><a href="#s9">Agent memory needs its OpenTelemetry moment</a></li>
+      <li><a href="#s10">We know 15k websites are infected. how do we tell them?</a></li>
+      <li><a href="#s11">Passkeys are a trap. Do not use them. - by The Hack</a></li>
+      <li><a href="#s12">Frontier quality at 1% of the cost: a production benchmark of LLM classifiers | Airbnb Engineering &amp; Data Science</a></li>
+      <li><a href="#s13">OpenCode | Browse, your real browser for coding agents</a></li>
+      <li><a href="#s14">About the illuminated Apple logo on MacBook Pro with PROLED XDR Display - Apple Support</a></li>
+      <li><a href="#s15">Entire · The Git forge for agents</a></li>
+      <li><a href="#s16">FastBCP 1.6: Export Tables from SQL Server Backups | Ingestion Blog - ARPEIO</a></li>
+      <li><a href="#s17">GitHub - Unleash/unleash: Unleash is an enterprise ready feature toggles service.</a></li>
+      <li><a href="#s18">Simon Willison crea quattro videogiochi con Claude Opus 5.5 senza mai guardare il codice</a></li>
+      <li><a href="#s19">PhobosLab</a></li>
+      <li><a href="#s20">Nyquist Limit - the frequency of changes in tech is invalidating our understanding</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again">Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</a></h3>
+    <div class="byline">by shmulc · 470 points · 330 comments</div>
+    <p class="blurb">If you use Claude Code — and our reader does — this is a must-read today. Apiiro found that the &quot;Don&#x27;t Ask Again&quot; permission flow silently writes secrets into project files that then get committed to public repos. 1,122 GitHub files and counting. Check your repos now.</p>
+    <div class="links">
+      <a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50407882">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://nfsu2.xyz/">Need for Speed Underground 2 online in the browser</a></h3>
+    <div class="byline">by fluxusars · 1052 points · 266 comments</div>
+    <p class="blurb">Someone got the full NFS:U2 running multiplayer in-browser and the HN crowd is losing it. A stunning bit of reverse engineering and WebAssembly work — the kind of project that makes you remember why the web is magical.</p>
+    <div class="links">
+      <a href="https://nfsu2.xyz/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50403052">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://maxxbench.unlap.ai/research/why-maxxbench/">MaxxBench – &quot;Nice DeepSWE score. But is it true?&quot;</a></h3>
+    <div class="byline">by antiuniverse · 342 points · 95 comments</div>
+    <p class="blurb">AI coding benchmarks are increasingly gamed, and MaxxBench is pushing back with harder, contamination-resistant evals. Essential context for anyone deciding which model to trust in their coding workflow. Skepticism is a feature, not a bug.</p>
+    <div class="links">
+      <a href="https://maxxbench.unlap.ai/research/why-maxxbench/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50406222">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://caleb.software/posts/claude-to-pi.html">Goodbye Claude, Hello Pi</a></h3>
+    <div class="byline">by karagenit · 465 points · 310 comments</div>
+    <p class="blurb">A developer documents switching their daily AI assistant from Claude to Pi, covering what drove the switch and what they miss. Worth reading alongside the Claude Code secrets story — a timely dual perspective on the Claude ecosystem from multiple angles.</p>
+    <div class="links">
+      <a href="https://caleb.software/posts/claude-to-pi.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50410107">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you">Apple&#x27;s grey list: Words and phrases your iPhone won&#x27;t help you spell</a></h3>
+    <div class="byline">by user_7832 · 499 points · 315 comments</div>
+    <p class="blurb">The Guardian obtained Apple&#x27;s internal autocorrect suppression list and it&#x27;s a fascinating — and sometimes baffling — window into how Apple quietly shapes language on a billion devices. Classic Apple opacity with real-world effects on users.</p>
+    <div class="links">
+      <a href="https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50406111">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://hunch.net/?p=13764006">The end of Microsoft Research&#x27;s AI Frontiers group</a></h3>
+    <div class="byline">by srean · 477 points · 290 comments</div>
+    <p class="blurb">An insider account of the disbanding of one of Microsoft&#x27;s premier AI research groups. The post reads as a quiet eulogy for a certain style of deep, long-horizon AI research that&#x27;s being squeezed out by product-driven timelines.</p>
+    <div class="links">
+      <a href="https://hunch.net/?p=13764006">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50406563">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/">GitHub New pull request overview page in public preview</a></h3>
+    <div class="byline">by xiaoyu2006 · 159 points · 108 comments</div>
+    <p class="blurb">GitHub redesigned the PR overview page and it&#x27;s in public preview now — opt in today and kick the tires. For teams doing code review at scale, the new layout promises faster context-switching. Directly actionable.</p>
+    <div class="links">
+      <a href="https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50408931">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://blog.bosscher.ch/posts/openstick/">What I run on my $10 USD OpenStick homelab</a></h3>
+    <div class="byline">by LaurensBER · 663 points · 121 comments</div>
+    <p class="blurb">A $10 USB 4G modem running full Debian Linux — this post catalogs a surprisingly capable homelab stack on pocket change. Great companion to the OpenStick Pinboard item below, and a genuinely fun rabbit hole for tinkerers.</p>
+    <div class="links">
+      <a href="https://blog.bosscher.ch/posts/openstick/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50406670">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.lorekit.io/blog/open-agent-memory-format">Agent memory needs its OpenTelemetry moment</a></h3>
+    <div class="byline">by mthines · 91 points · 74 comments</div>
+    <p class="blurb">AI agents are proliferating but their memory formats are siloed and incompatible — this post argues we need an open standard the way OTel standardized observability. If you&#x27;re building agentic workflows, this framing is worth internalizing now before your stack locks you in.</p>
+    <div class="links">
+      <a href="https://www.lorekit.io/blog/open-agent-memory-format">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50411467">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/">We know 15k websites are infected. how do we tell them?</a></h3>
+    <div class="byline">by speckx · 213 points · 173 comments</div>
+    <p class="blurb">Scott Helme discovers 15,579 compromised websites through passive scanning and wrestles with the ethical and practical problem of disclosure at scale. A thoughtful piece on the gap between knowing about a security crisis and being able to act on it.</p>
+    <div class="links">
+      <a href="https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50396064">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them?triedRedirect=true">Passkeys are a trap. Do not use them. - by The Hack</a></h3>
+    <div class="byline">Pinboard Popular · tagged: sec, passkey</div>
+    <p class="blurb">A sharp contrarian take arguing that passkeys create dangerous vendor lock-in and that the UX promises are oversold. Whether you agree or not, the critique of ecosystem capture — especially relevant for Apple users — is worth seriously engaging with before you migrate your accounts.</p>
+    <div class="links">
+      <a href="https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them?triedRedirect=true">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/">Frontier quality at 1% of the cost: a production benchmark of LLM classifiers | Airbnb Engineering &amp; Data Science</a></h3>
+    <div class="byline">Pinboard Popular · tagged: jev</div>
+    <p class="blurb">Airbnb&#x27;s engineering team benchmarked LLM classifiers in production and found they can hit frontier-level accuracy at a fraction of the cost by being smart about model selection and prompt design. Concrete, practical results with real cost numbers — directly applicable to anyone shipping AI features.</p>
+    <div class="links">
+      <a href="https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://opencode.ai/product/browse">OpenCode | Browse, your real browser for coding agents</a></h3>
+    <div class="byline">Pinboard Popular · tagged: web, tools, ai, agents</div>
+    <p class="blurb">OpenCode ships a real Chromium browser purpose-built for coding agents — giving AI tools actual web browsing capabilities rather than simulated scraping. If you&#x27;re orchestrating agents that need to interact with live web pages, this fills a genuine gap in the current toolchain.</p>
+    <div class="links">
+      <a href="https://opencode.ai/product/browse">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://support.apple.com/en-us/149248">About the illuminated Apple logo on MacBook Pro with PROLED XDR Display - Apple Support</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Apple quietly published support docs for a new MacBook Pro featuring a backlit Apple logo on a PROLED XDR display — strongly suggesting new hardware is imminent. The classic Daring Fireball tea-leaf read: Apple only publishes support pages when shipping is near.</p>
+    <div class="links">
+      <a href="https://support.apple.com/en-us/149248">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://entire.com/">Entire · The Git forge for agents</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 2026, git</div>
+    <p class="blurb">Entire is a Git forge designed from the ground up to work with AI coding agents rather than bolt them on. With Claude Code and similar tools reshaping developer workflows, a forge that natively understands agentic PRs and reviews is a compelling category bet.</p>
+    <div class="links">
+      <a href="https://entire.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.arpe.io/fastbcp-1-6-export-sql-server-backup-to-parquet">FastBCP 1.6: Export Tables from SQL Server Backups | Ingestion Blog - ARPEIO</a></h3>
+    <div class="byline">Pinboard Popular · tagged: sqlserver, backups, parquet, tools</div>
+    <p class="blurb">FastBCP 1.6 lets you read tables directly out of SQL Server .bak files and export to Parquet — no restore, no running SQL instance required. For .NET developers working with SQL Server data pipelines, this is a genuinely useful operational trick.</p>
+    <div class="links">
+      <a href="https://blog.arpe.io/fastbcp-1-6-export-sql-server-backup-to-parquet">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/Unleash/unleash">GitHub - Unleash/unleash: Unleash is an enterprise ready feature toggles service.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: feature, flag, toggle, manager, opensource, floss, software</div>
+    <p class="blurb">Unleash is a mature, self-hostable feature flag platform that keeps surfacing in Pinboard for good reason. If you&#x27;re shipping Angular/.NET apps and want feature toggles without handing your flag state to a third-party SaaS, this is the open-source answer.</p>
+    <div class="links">
+      <a href="https://github.com/Unleash/unleash">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://simonwillison.net/2026/Oct/28/vibe-game-development/">Simon Willison crea quattro videogiochi con Claude Opus 5.5 senza mai guardare il codice</a></h3>
+    <div class="byline">Pinboard Popular · tagged: N8N, s:ai, TW2026-44, BF</div>
+    <p class="blurb">Simon Willison built four browser games with Claude Opus 5.5 — including a multiplayer strategy game — spending under four hours per project and never looking at the generated code. The key insight: the bottleneck is now game design intuition, not coding. A vivid demonstration of where AI-assisted development is heading.</p>
+    <div class="links">
+      <a href="https://simonwillison.net/2026/Oct/28/vibe-game-development/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://phoboslab.org/log/2026/11/n64-ulc-codec">PhobosLab</a></h3>
+    <div class="byline">Pinboard Popular · tagged: audio, codec, simple</div>
+    <p class="blurb">Phoboslab (creator of jsmpeg) has built a new ultra-low-complexity audio codec targeting N64 constraints — the write-up is a masterclass in creative constraint-driven engineering. The kind of deep-dive that reminds you why codec design is an art form.</p>
+    <div class="links">
+      <a href="https://phoboslab.org/log/2026/11/n64-ulc-codec">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/">Nyquist Limit - the frequency of changes in tech is invalidating our understanding</a></h3>
+    <div class="byline">Pinboard Popular · tagged: programming</div>
+    <p class="blurb">Ryan Prior applies the Nyquist sampling theorem as a metaphor: LLMs are increasing the rate of change in software faster than human decision-makers can evaluate it, so teams are mistaking noise for signal. A sobering and well-argued piece for anyone managing an AI-augmented dev team.</p>
+    <div class="links">
+      <a href="https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

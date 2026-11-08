@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-08",
+  "stories": [
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "hn_link": "https://news.ycombinator.com/item?id=50407882",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shmulc · 470 points · 330 comments",
+      "blurb": "If you use Claude Code — and our reader does — this is a must-read today. Apiiro found that the \"Don't Ask Again\" permission flow silently writes secrets into project files that then get committed to public repos. 1,122 GitHub files and counting. Check your repos now."
+    },
+    {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "hn_link": "https://news.ycombinator.com/item?id=50403052",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by fluxusars · 1052 points · 266 comments",
+      "blurb": "Someone got the full NFS:U2 running multiplayer in-browser and the HN crowd is losing it. A stunning bit of reverse engineering and WebAssembly work — the kind of project that makes you remember why the web is magical."
+    },
+    {
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "hn_link": "https://news.ycombinator.com/item?id=50406222",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by antiuniverse · 342 points · 95 comments",
+      "blurb": "AI coding benchmarks are increasingly gamed, and MaxxBench is pushing back with harder, contamination-resistant evals. Essential context for anyone deciding which model to trust in their coding workflow. Skepticism is a feature, not a bug."
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50410107",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by karagenit · 465 points · 310 comments",
+      "blurb": "A developer documents switching their daily AI assistant from Claude to Pi, covering what drove the switch and what they miss. Worth reading alongside the Claude Code secrets story — a timely dual perspective on the Claude ecosystem from multiple angles."
+    },
+    {
+      "title": "Apple's grey list: Words and phrases your iPhone won't help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "hn_link": "https://news.ycombinator.com/item?id=50406111",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by user_7832 · 499 points · 315 comments",
+      "blurb": "The Guardian obtained Apple's internal autocorrect suppression list and it's a fascinating — and sometimes baffling — window into how Apple quietly shapes language on a billion devices. Classic Apple opacity with real-world effects on users."
+    },
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "hn_link": "https://news.ycombinator.com/item?id=50406563",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by srean · 477 points · 290 comments",
+      "blurb": "An insider account of the disbanding of one of Microsoft's premier AI research groups. The post reads as a quiet eulogy for a certain style of deep, long-horizon AI research that's being squeezed out by product-driven timelines."
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "hn_link": "https://news.ycombinator.com/item?id=50408931",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by xiaoyu2006 · 159 points · 108 comments",
+      "blurb": "GitHub redesigned the PR overview page and it's in public preview now — opt in today and kick the tires. For teams doing code review at scale, the new layout promises faster context-switching. Directly actionable."
+    },
+    {
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "hn_link": "https://news.ycombinator.com/item?id=50406670",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by LaurensBER · 663 points · 121 comments",
+      "blurb": "A $10 USB 4G modem running full Debian Linux — this post catalogs a surprisingly capable homelab stack on pocket change. Great companion to the OpenStick Pinboard item below, and a genuinely fun rabbit hole for tinkerers."
+    },
+    {
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "hn_link": "https://news.ycombinator.com/item?id=50411467",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mthines · 91 points · 74 comments",
+      "blurb": "AI agents are proliferating but their memory formats are siloed and incompatible — this post argues we need an open standard the way OTel standardized observability. If you're building agentic workflows, this framing is worth internalizing now before your stack locks you in."
+    },
+    {
+      "title": "We know 15k websites are infected. how do we tell them?",
+      "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+      "hn_link": "https://news.ycombinator.com/item?id=50396064",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by speckx · 213 points · 173 comments",
+      "blurb": "Scott Helme discovers 15,579 compromised websites through passive scanning and wrestles with the ethical and practical problem of disclosure at scale. A thoughtful piece on the gap between knowing about a security crisis and being able to act on it."
+    },
+    {
+      "title": "Passkeys are a trap. Do not use them. - by The Hack",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them?triedRedirect=true",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sec, passkey",
+      "blurb": "A sharp contrarian take arguing that passkeys create dangerous vendor lock-in and that the UX promises are oversold. Whether you agree or not, the critique of ecosystem capture — especially relevant for Apple users — is worth seriously engaging with before you migrate your accounts."
+    },
+    {
+      "title": "Frontier quality at 1% of the cost: a production benchmark of LLM classifiers | Airbnb Engineering & Data Science",
+      "url": "https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: jev",
+      "blurb": "Airbnb's engineering team benchmarked LLM classifiers in production and found they can hit frontier-level accuracy at a fraction of the cost by being smart about model selection and prompt design. Concrete, practical results with real cost numbers — directly applicable to anyone shipping AI features."
+    },
+    {
+      "title": "OpenCode | Browse, your real browser for coding agents",
+      "url": "https://opencode.ai/product/browse",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: web, tools, ai, agents",
+      "blurb": "OpenCode ships a real Chromium browser purpose-built for coding agents — giving AI tools actual web browsing capabilities rather than simulated scraping. If you're orchestrating agents that need to interact with live web pages, this fills a genuine gap in the current toolchain."
+    },
+    {
+      "title": "About the illuminated Apple logo on MacBook Pro with PROLED XDR Display - Apple Support",
+      "url": "https://support.apple.com/en-us/149248",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple quietly published support docs for a new MacBook Pro featuring a backlit Apple logo on a PROLED XDR display — strongly suggesting new hardware is imminent. The classic Daring Fireball tea-leaf read: Apple only publishes support pages when shipping is near."
+    },
+    {
+      "title": "Entire · The Git forge for agents",
+      "url": "https://entire.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 2026, git",
+      "blurb": "Entire is a Git forge designed from the ground up to work with AI coding agents rather than bolt them on. With Claude Code and similar tools reshaping developer workflows, a forge that natively understands agentic PRs and reviews is a compelling category bet."
+    },
+    {
+      "title": "FastBCP 1.6: Export Tables from SQL Server Backups | Ingestion Blog - ARPEIO",
+      "url": "https://blog.arpe.io/fastbcp-1-6-export-sql-server-backup-to-parquet",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sqlserver, backups, parquet, tools",
+      "blurb": "FastBCP 1.6 lets you read tables directly out of SQL Server .bak files and export to Parquet — no restore, no running SQL instance required. For .NET developers working with SQL Server data pipelines, this is a genuinely useful operational trick."
+    },
+    {
+      "title": "GitHub - Unleash/unleash: Unleash is an enterprise ready feature toggles service.",
+      "url": "https://github.com/Unleash/unleash",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: feature, flag, toggle, manager, opensource, floss, software",
+      "blurb": "Unleash is a mature, self-hostable feature flag platform that keeps surfacing in Pinboard for good reason. If you're shipping Angular/.NET apps and want feature toggles without handing your flag state to a third-party SaaS, this is the open-source answer."
+    },
+    {
+      "title": "Simon Willison crea quattro videogiochi con Claude Opus 5.5 senza mai guardare il codice",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: N8N, s:ai, TW2026-44, BF",
+      "blurb": "Simon Willison built four browser games with Claude Opus 5.5 — including a multiplayer strategy game — spending under four hours per project and never looking at the generated code. The key insight: the bottleneck is now game design intuition, not coding. A vivid demonstration of where AI-assisted development is heading."
+    },
+    {
+      "title": "PhobosLab",
+      "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: audio, codec, simple",
+      "blurb": "Phoboslab (creator of jsmpeg) has built a new ultra-low-complexity audio codec targeting N64 constraints — the write-up is a masterclass in creative constraint-driven engineering. The kind of deep-dive that reminds you why codec design is an art form."
+    },
+    {
+      "title": "Nyquist Limit - the frequency of changes in tech is invalidating our understanding",
+      "url": "https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: programming",
+      "blurb": "Ryan Prior applies the Nyquist sampling theorem as a metaphor: LLMs are increasing the rate of change in software faster than human decision-makers can evaluate it, so teams are mistaking noise for signal. A sobering and well-argued piece for anyone managing an AI-augmented dev team."
+    }
+  ]
+}
