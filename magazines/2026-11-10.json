@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-10",
+  "stories": [
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "hn_link": "https://news.ycombinator.com/item?id=50429068",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lairv · 792 points · 927 comments",
+      "blurb": "Anthropic drops two new flagship models simultaneously — Fable 5.2 for reasoning-heavy tasks and Mythos 5.2 for creative/long-context work. With 927 comments, this is the biggest AI release discussion of the week. If you use Claude Code, expect noticeable capability jumps on both coding and architectural reasoning."
+    },
+    {
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "hn_link": "https://news.ycombinator.com/item?id=50436640",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by aloukissas · 552 points · 195 comments",
+      "blurb": "Amazon's internal teams replaced Claude Sonnet 4.6 with a smaller, task-specific 'Decider' model for routing and orchestration work, slashing LLM costs dramatically. A concrete, real-world blueprint for anyone building multi-agent pipelines who wants to optimize spend. The HN thread digs into whether this generalizes or is Amazon-specific."
+    },
+    {
+      "title": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "hn_link": "https://news.ycombinator.com/item?id=50439193",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 367 points · 126 comments",
+      "blurb": "DeepMind extends AlphaProof into the software engineering domain, using formal verification to prove code correctness. This is the clearest signal yet that AI coding assistants are moving beyond autocomplete toward actual proof-carrying code. Directly relevant to anyone who cares about the future of AI-assisted development."
+    },
+    {
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "url": "https://postalpro.usps.com/zcb",
+      "hn_link": "https://news.ycombinator.com/item?id=50431058",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by munro · 699 points · 361 comments",
+      "blurb": "The USPS is finally publishing authoritative ZIP Code boundary polygons directly — no more relying on Census ZCTA approximations or third-party data vendors. A quiet but significant data quality win for anyone building address validation, mapping, or logistics features."
+    },
+    {
+      "title": "E-means: Outperforming k-means in one-tenth the epochs",
+      "url": "https://e-means.github.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=50429734",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by porridgeraisin · 466 points · 68 comments",
+      "blurb": "A new clustering algorithm claims to converge 10x faster than k-means while matching or beating its quality. The interactive demo is excellent. If you work with embeddings or vector search, this is worth benchmarking against your existing pipelines."
+    },
+    {
+      "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "url": "https://www.watched.earth",
+      "hn_link": "https://news.ycombinator.com/item?id=50428907",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by a585gupt · 428 points · 79 comments",
+      "blurb": "Drop a pin anywhere on Earth and see every satellite that imaged it in the past seven days, along with the actual imagery. It's simultaneously a gorgeous geospatial demo and a quietly unnerving surveillance transparency tool. The kind of project that makes you rethink what 'being outdoors' means in 2026."
+    },
+    {
+      "title": "Your TV can see through walls (2025)",
+      "url": "https://maurycyz.com/projects/fading/",
+      "hn_link": "https://news.ycombinator.com/item?id=50436410",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Curiositry · 229 points · 100 comments",
+      "blurb": "A researcher demonstrates using a modern OLED TV's RF emissions to infer movement in adjacent rooms — essentially passive radar from your living room display. This is a genuinely novel attack surface that most privacy threat models don't account for. Worth reading alongside your smart home setup."
+    },
+    {
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "hn_link": "https://news.ycombinator.com/item?id=50437106",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by werrett · 130 points · 43 comments",
+      "blurb": "Fireworks AI, a backend inference provider used by Notion, suffered a breach exposing customer data. This is the third-party AI supply chain risk made concrete: your SaaS tools may be routing your data through inference providers you've never heard of. A strong argument for auditing what AI vendors your tools actually use."
+    },
+    {
+      "title": "What's new in the .NET 11 runtime",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+      "hn_link": "https://news.ycombinator.com/item?id=50439284",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by stevefan1999 · 87 points · 25 comments",
+      "blurb": "The official .NET 11 runtime changelog covers GC improvements, AVX-512 codegen gains, and a revamped thread pool. For .NET developers, this is essential reading before upgrading production services. Pairs with the main .NET 11 announcement post also on HN today."
+    },
+    {
+      "title": "Ableton Live 13",
+      "url": "https://www.ableton.com/en/live/",
+      "hn_link": "https://news.ycombinator.com/item?id=50439695",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by phaser · 136 points · 166 comments",
+      "blurb": "Ableton Live 13 is out, bringing new MIDI tools, an upgraded Max for Live integration, and a redesigned clip view. The HN thread has substantive discussion from producers about what actually changed versus the marketing. If you do any audio work alongside your dev life, this is the flagship DAU update of the year."
+    },
+    {
+      "title": "Orca — The most powerful Agent Development Environment (ADE)",
+      "url": "https://www.onorca.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, ai, editor",
+      "blurb": "Orca lets you run Claude Code, Codex, Gemini CLI, and other coding agents in parallel across isolated git worktrees — think of it as a task manager for AI coding agents. For heavy Claude Code users, this addresses the biggest pain point: context switching between multiple agent sessions. Free and open source."
+    },
+    {
+      "title": "How I'm fighting the AI Brain Fry — Sergey Kuhne",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, claude, llm, agentic-ai",
+      "blurb": "A developer's honest account of cognitive fatigue from over-relying on agentic AI tools, and the practical habits they developed to stay sharp. Directly relevant if you use Claude Code or Cursor daily — the author's techniques for 'staying in the loop' without micromanaging agents are genuinely actionable."
+    },
+    {
+      "title": "A year after the 100% AI mandate nobody understands our code : r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, fatigue, programming, development",
+      "blurb": "A brutally candid Reddit thread from a team that went all-in on AI-generated code and is now dealing with an unmaintainable, incomprehensible codebase a year later. The concrete failure modes described here are a must-read counterweight to AI coding hype. If you're setting team policies around Claude Code, read this first."
+    },
+    {
+      "title": "Fable 5.2 and Jagged AGI - by Ethan Mollick",
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai",
+      "blurb": "Mollick's sharp analysis of the Fable 5.2 release and what he calls 'jagged AGI' — the uneven capability profile where models are superhuman in some areas and weirdly poor in others. Essential context for anyone trying to calibrate how much to trust their AI coding assistant on any given task."
+    },
+    {
+      "title": "leaf : Terminal Markdown previewer — GUI-like experience.",
+      "url": "https://leaf.rivolink.mg/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: markdown, commandline, cli",
+      "blurb": "Leaf is a terminal-based Markdown previewer with rich rendering, interactive navigation, and editor integration — all without leaving your shell. For Obsidian users who also live in the terminal, this bridges the gap between your notes and your CLI workflow nicely. Worth a quick install."
+    },
+    {
+      "title": "GitHub - synchopate/llama-modchip: Run 284B DeepSeek-V4-Flash on pure CPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm",
+      "blurb": "An impressive engineering project running a 284B-parameter model on 64GB of CPU RAM with no GPU, achieving 9–14 tok/s generation speed. The repo includes a 13ms Claude Code context restore trick that's worth stealing regardless of whether you run local models. Pushes the boundary of what's possible on commodity hardware."
+    },
+    {
+      "title": "Apple is racing to make Siri more agentic | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge reports Apple is fast-tracking agentic capabilities for Siri, including cross-app automation and on-device action execution. This is Apple's direct competitive answer to Claude Computer Use and similar tools. For the Apple/macOS ecosystem watcher, this is the roadmap story of the quarter."
+    },
+    {
+      "title": "Let's Talk About Why all This OT Stuff is Connected – Lesley Carhart's Cybersecurity Blog",
+      "url": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: iot, security, ot, hacks4pancakes, infrastructure",
+      "blurb": "Lesley Carhart (hacks4pancakes) explains the tangled web connecting IoT devices, operational technology networks, and enterprise IT — and why the attack surface is ballooning. Clear, authoritative writing from one of the best security communicators in the field. Required reading after this week's library ransomware story."
+    },
+    {
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50416158",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: outlook, email, microsoft, dmarc, deliverability",
+      "blurb": "Microsoft has started silently dropping email from domains missing DMARC records, with no bounce or error — messages just vanish. If you run any transactional email or self-host, check your DNS today. The HN thread has the exact records you need to add."
+    },
+    {
+      "title": "How to take notes that actually help you learn | Psyche Guides",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: notetaking",
+      "blurb": "A research-backed Psyche guide covering retrieval practice, interleaving, and the specific note formats that stick versus those that just feel productive. Directly applicable to Obsidian workflows — the section on linking concepts over transcribing content maps well to the Zettelkasten approach. Concise enough to act on immediately."
+    }
+  ]
+}

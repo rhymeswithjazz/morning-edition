@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 10, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 10, 2026.">
+<meta property="og:title" content="Morning Edition — November 10, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-10.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · November 10, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Claude Fable 5.2 and Mythos 5.2</a></li>
+      <li><a href="#s2">Amazon saves millions by replacing Sonnet 4.6 with Strands Decider</a></li>
+      <li><a href="#s3">AlphaProof Code</a></li>
+      <li><a href="#s4">USPS now offers official ZIP Code boundary polygons</a></li>
+      <li><a href="#s5">E-means: Outperforming k-means in one-tenth the epochs</a></li>
+      <li><a href="#s6">Show HN: Every satellite that passed over any place this week, and its photos</a></li>
+      <li><a href="#s7">Your TV can see through walls (2025)</a></li>
+      <li><a href="#s8">Fireworks AI security breach impacts Notion and their customers</a></li>
+      <li><a href="#s9">What&#x27;s new in the .NET 11 runtime</a></li>
+      <li><a href="#s10">Ableton Live 13</a></li>
+      <li><a href="#s11">Orca — The most powerful Agent Development Environment (ADE)</a></li>
+      <li><a href="#s12">How I&#x27;m fighting the AI Brain Fry — Sergey Kuhne</a></li>
+      <li><a href="#s13">A year after the 100% AI mandate nobody understands our code : r/ClaudeCode</a></li>
+      <li><a href="#s14">Fable 5.2 and Jagged AGI - by Ethan Mollick</a></li>
+      <li><a href="#s15">leaf : Terminal Markdown previewer — GUI-like experience.</a></li>
+      <li><a href="#s16">GitHub - synchopate/llama-modchip: Run 284B DeepSeek-V4-Flash on pure CPU</a></li>
+      <li><a href="#s17">Apple is racing to make Siri more agentic | The Verge</a></li>
+      <li><a href="#s18">Let&#x27;s Talk About Why all This OT Stuff is Connected – Lesley Carhart&#x27;s Cybersecurity Blog</a></li>
+      <li><a href="#s19">Outlook.com Is Quietly Rejecting Email from Domains Without DMARC | Hacker News</a></li>
+      <li><a href="#s20">How to take notes that actually help you learn | Psyche Guides</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2">Claude Fable 5.2 and Mythos 5.2</a></h3>
+    <div class="byline">by lairv · 792 points · 927 comments</div>
+    <p class="blurb">Anthropic drops two new flagship models simultaneously — Fable 5.2 for reasoning-heavy tasks and Mythos 5.2 for creative/long-context work. With 927 comments, this is the biggest AI release discussion of the week. If you use Claude Code, expect noticeable capability jumps on both coding and architectural reasoning.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/claude-fable-and-mythos-5-2">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50429068">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/">Amazon saves millions by replacing Sonnet 4.6 with Strands Decider</a></h3>
+    <div class="byline">by aloukissas · 552 points · 195 comments</div>
+    <p class="blurb">Amazon&#x27;s internal teams replaced Claude Sonnet 4.6 with a smaller, task-specific &#x27;Decider&#x27; model for routing and orchestration work, slashing LLM costs dramatically. A concrete, real-world blueprint for anyone building multi-agent pipelines who wants to optimize spend. The HN thread digs into whether this generalizes or is Amazon-specific.</p>
+    <div class="links">
+      <a href="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50436640">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://deepmind.google/blog/introducing-alphaproof-code/">AlphaProof Code</a></h3>
+    <div class="byline">by ilreb · 367 points · 126 comments</div>
+    <p class="blurb">DeepMind extends AlphaProof into the software engineering domain, using formal verification to prove code correctness. This is the clearest signal yet that AI coding assistants are moving beyond autocomplete toward actual proof-carrying code. Directly relevant to anyone who cares about the future of AI-assisted development.</p>
+    <div class="links">
+      <a href="https://deepmind.google/blog/introducing-alphaproof-code/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50439193">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://postalpro.usps.com/zcb">USPS now offers official ZIP Code boundary polygons</a></h3>
+    <div class="byline">by munro · 699 points · 361 comments</div>
+    <p class="blurb">The USPS is finally publishing authoritative ZIP Code boundary polygons directly — no more relying on Census ZCTA approximations or third-party data vendors. A quiet but significant data quality win for anyone building address validation, mapping, or logistics features.</p>
+    <div class="links">
+      <a href="https://postalpro.usps.com/zcb">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50431058">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://e-means.github.io/">E-means: Outperforming k-means in one-tenth the epochs</a></h3>
+    <div class="byline">by porridgeraisin · 466 points · 68 comments</div>
+    <p class="blurb">A new clustering algorithm claims to converge 10x faster than k-means while matching or beating its quality. The interactive demo is excellent. If you work with embeddings or vector search, this is worth benchmarking against your existing pipelines.</p>
+    <div class="links">
+      <a href="https://e-means.github.io/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50429734">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.watched.earth">Show HN: Every satellite that passed over any place this week, and its photos</a></h3>
+    <div class="byline">by a585gupt · 428 points · 79 comments</div>
+    <p class="blurb">Drop a pin anywhere on Earth and see every satellite that imaged it in the past seven days, along with the actual imagery. It&#x27;s simultaneously a gorgeous geospatial demo and a quietly unnerving surveillance transparency tool. The kind of project that makes you rethink what &#x27;being outdoors&#x27; means in 2026.</p>
+    <div class="links">
+      <a href="https://www.watched.earth">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50428907">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://maurycyz.com/projects/fading/">Your TV can see through walls (2025)</a></h3>
+    <div class="byline">by Curiositry · 229 points · 100 comments</div>
+    <p class="blurb">A researcher demonstrates using a modern OLED TV&#x27;s RF emissions to infer movement in adjacent rooms — essentially passive radar from your living room display. This is a genuinely novel attack surface that most privacy threat models don&#x27;t account for. Worth reading alongside your smart home setup.</p>
+    <div class="links">
+      <a href="https://maurycyz.com/projects/fading/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50436410">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor">Fireworks AI security breach impacts Notion and their customers</a></h3>
+    <div class="byline">by werrett · 130 points · 43 comments</div>
+    <p class="blurb">Fireworks AI, a backend inference provider used by Notion, suffered a breach exposing customer data. This is the third-party AI supply chain risk made concrete: your SaaS tools may be routing your data through inference providers you&#x27;ve never heard of. A strong argument for auditing what AI vendors your tools actually use.</p>
+    <div class="links">
+      <a href="https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50437106">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime">What&#x27;s new in the .NET 11 runtime</a></h3>
+    <div class="byline">by stevefan1999 · 87 points · 25 comments</div>
+    <p class="blurb">The official .NET 11 runtime changelog covers GC improvements, AVX-512 codegen gains, and a revamped thread pool. For .NET developers, this is essential reading before upgrading production services. Pairs with the main .NET 11 announcement post also on HN today.</p>
+    <div class="links">
+      <a href="https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50439284">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://www.ableton.com/en/live/">Ableton Live 13</a></h3>
+    <div class="byline">by phaser · 136 points · 166 comments</div>
+    <p class="blurb">Ableton Live 13 is out, bringing new MIDI tools, an upgraded Max for Live integration, and a redesigned clip view. The HN thread has substantive discussion from producers about what actually changed versus the marketing. If you do any audio work alongside your dev life, this is the flagship DAU update of the year.</p>
+    <div class="links">
+      <a href="https://www.ableton.com/en/live/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50439695">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.onorca.dev/">Orca — The most powerful Agent Development Environment (ADE)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: development, ai, editor</div>
+    <p class="blurb">Orca lets you run Claude Code, Codex, Gemini CLI, and other coding agents in parallel across isolated git worktrees — think of it as a task manager for AI coding agents. For heavy Claude Code users, this addresses the biggest pain point: context switching between multiple agent sessions. Free and open source.</p>
+    <div class="links">
+      <a href="https://www.onorca.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://sergeykuhne.com/blog/fighting-ai-brain-fry">How I&#x27;m fighting the AI Brain Fry — Sergey Kuhne</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, claude, llm, agentic-ai</div>
+    <p class="blurb">A developer&#x27;s honest account of cognitive fatigue from over-relying on agentic AI tools, and the practical habits they developed to stay sharp. Directly relevant if you use Claude Code or Cursor daily — the author&#x27;s techniques for &#x27;staying in the loop&#x27; without micromanaging agents are genuinely actionable.</p>
+    <div class="links">
+      <a href="https://sergeykuhne.com/blog/fighting-ai-brain-fry">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/">A year after the 100% AI mandate nobody understands our code : r/ClaudeCode</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, fatigue, programming, development</div>
+    <p class="blurb">A brutally candid Reddit thread from a team that went all-in on AI-generated code and is now dealing with an unmaintainable, incomprehensible codebase a year later. The concrete failure modes described here are a must-read counterweight to AI coding hype. If you&#x27;re setting team policies around Claude Code, read this first.</p>
+    <div class="links">
+      <a href="https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi">Fable 5.2 and Jagged AGI - by Ethan Mollick</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai</div>
+    <p class="blurb">Mollick&#x27;s sharp analysis of the Fable 5.2 release and what he calls &#x27;jagged AGI&#x27; — the uneven capability profile where models are superhuman in some areas and weirdly poor in others. Essential context for anyone trying to calibrate how much to trust their AI coding assistant on any given task.</p>
+    <div class="links">
+      <a href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://leaf.rivolink.mg/">leaf : Terminal Markdown previewer — GUI-like experience.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: markdown, commandline, cli</div>
+    <p class="blurb">Leaf is a terminal-based Markdown previewer with rich rendering, interactive navigation, and editor integration — all without leaving your shell. For Obsidian users who also live in the terminal, this bridges the gap between your notes and your CLI workflow nicely. Worth a quick install.</p>
+    <div class="links">
+      <a href="https://leaf.rivolink.mg/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/synchopate/llama-modchip">GitHub - synchopate/llama-modchip: Run 284B DeepSeek-V4-Flash on pure CPU</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm</div>
+    <p class="blurb">An impressive engineering project running a 284B-parameter model on 64GB of CPU RAM with no GPU, achieving 9–14 tok/s generation speed. The repo includes a 13ms Claude Code context restore trick that&#x27;s worth stealing regardless of whether you run local models. Pushes the boundary of what&#x27;s possible on commodity hardware.</p>
+    <div class="links">
+      <a href="https://github.com/synchopate/llama-modchip">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">Apple is racing to make Siri more agentic | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">The Verge reports Apple is fast-tracking agentic capabilities for Siri, including cross-app automation and on-device action execution. This is Apple&#x27;s direct competitive answer to Claude Computer Use and similar tools. For the Apple/macOS ecosystem watcher, this is the roadmap story of the quarter.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/">Let&#x27;s Talk About Why all This OT Stuff is Connected – Lesley Carhart&#x27;s Cybersecurity Blog</a></h3>
+    <div class="byline">Pinboard Popular · tagged: iot, security, ot, hacks4pancakes, infrastructure</div>
+    <p class="blurb">Lesley Carhart (hacks4pancakes) explains the tangled web connecting IoT devices, operational technology networks, and enterprise IT — and why the attack surface is ballooning. Clear, authoritative writing from one of the best security communicators in the field. Required reading after this week&#x27;s library ransomware story.</p>
+    <div class="links">
+      <a href="https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50416158">Outlook.com Is Quietly Rejecting Email from Domains Without DMARC | Hacker News</a></h3>
+    <div class="byline">Pinboard Popular · tagged: outlook, email, microsoft, dmarc, deliverability</div>
+    <p class="blurb">Microsoft has started silently dropping email from domains missing DMARC records, with no bounce or error — messages just vanish. If you run any transactional email or self-host, check your DNS today. The HN thread has the exact records you need to add.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50416158">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Actionable</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn">How to take notes that actually help you learn | Psyche Guides</a></h3>
+    <div class="byline">Pinboard Popular · tagged: notetaking</div>
+    <p class="blurb">A research-backed Psyche guide covering retrieval practice, interleaving, and the specific note formats that stick versus those that just feel productive. Directly applicable to Obsidian workflows — the section on linking concepts over transcribing content maps well to the Zettelkasten approach. Concise enough to act on immediately.</p>
+    <div class="links">
+      <a href="https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
