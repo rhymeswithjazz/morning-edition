@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 11, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 11, 2026.">
+<meta property="og:title" content="Morning Edition — November 11, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-11.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · November 11, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Smart home devices should work without the internet</a></li>
+      <li><a href="#s2">Apple has new Mac app coming to make running local AI models easy</a></li>
+      <li><a href="#s3">Claude Whiteboards, Claude Sheets, and Claude Data</a></li>
+      <li><a href="#s4">Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives</a></li>
+      <li><a href="#s5">Tracking Anthropic-discovered vulnerabilities</a></li>
+      <li><a href="#s6">Synaptics patent claims stop work on DisplayLink drivers</a></li>
+      <li><a href="#s7">Protecting SSH Keys with macOS Secure Enclave</a></li>
+      <li><a href="#s8">Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h</a></li>
+      <li><a href="#s9">Val Town is winding down</a></li>
+      <li><a href="#s10">I asked every TV manufacturer 17 questions about how they spy on you</a></li>
+      <li><a href="#s11">Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders | State of AI</a></li>
+      <li><a href="#s12">AI usage generates a fragile codebase</a></li>
+      <li><a href="#s13">GitHub - t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex.</a></li>
+      <li><a href="#s14">Safari 27.3 Adds Support for Global Privacy Control – Pixel Envy</a></li>
+      <li><a href="#s15">I deleted all my SSH keys</a></li>
+      <li><a href="#s16">Safely scaling multi-agent teams with Claude Fable 5.2 / claude.dev Blog</a></li>
+      <li><a href="#s17">5 Token-Saving Strategies to Keep Claude Pro Users Off the Max Plan</a></li>
+      <li><a href="#s18">Atuin Threads: All your agent sessions on every machine</a></li>
+      <li><a href="#s19">Locating the source of a mysterious beep with Claude</a></li>
+      <li><a href="#s20">Apple is killing its Support Community forum next week</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://docodethatmatters.com/home-automation-overnight-success/">Smart home devices should work without the internet</a></h3>
+    <div class="byline">by skittleson · 1107 points · 402 comments</div>
+    <p class="blurb">The runaway HN story of the day: a developer&#x27;s argument that smart home gear should function locally, without phoning home. With cloud shutdowns killing perfectly good hardware regularly, local-first home automation isn&#x27;t just a privacy win — it&#x27;s basic product integrity. 402 comments of war stories and Home Assistant evangelism await.</p>
+    <div class="links">
+      <a href="https://docodethatmatters.com/home-automation-overnight-success/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50441707">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/">Apple has new Mac app coming to make running local AI models easy</a></h3>
+    <div class="byline">by linolevan · 419 points · 437 comments</div>
+    <p class="blurb">Apple is building a first-party Mac app to run local AI models — which could be a game-changer for privacy-conscious developers who want LLM power without cloud dependencies. If Apple bakes this into the OS with Silicon optimization, it undercuts Ollama and LM Studio on the platform where it matters most. Watch this space.</p>
+    <div class="links">
+      <a href="https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50446520">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.com/resources/articles/sheets-whiteboards-data">Claude Whiteboards, Claude Sheets, and Claude Data</a></h3>
+    <div class="byline">by Yorothegoat · 266 points · 202 comments</div>
+    <p class="blurb">Anthropic launches a full office suite: whiteboards, spreadsheets, and data tools — all AI-native. If you&#x27;re a Claude Code user, this is Anthropic&#x27;s bid to make Claude the center of your entire workflow, not just your terminal. The 202-comment thread is a lively debate on whether this is brilliant product expansion or dangerous scope creep.</p>
+    <div class="links">
+      <a href="https://claude.com/resources/articles/sheets-whiteboards-data">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50443716">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/GoogleChrome/modern-web-guidance">Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives</a></h3>
+    <div class="byline">by paulirish · 414 points · 138 comments</div>
+    <p class="blurb">Paul Irish (Google Chrome) drops a repo of AGENTS.md-style guidance to steer coding agents away from outdated JavaScript patterns toward modern web platform APIs. If you use Claude Code or similar agents for frontend work, this is a direct actionable fix for a real problem: agents confidently reaching for polyfills and workarounds that haven&#x27;t been needed for years.</p>
+    <div class="links">
+      <a href="https://github.com/GoogleChrome/modern-web-guidance">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50443812">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Tracking Anthropic-discovered vulnerabilities</a></h3>
+    <div class="byline">by panic · 437 points · 209 comments</div>
+    <p class="blurb">VulnCheck tracks the &quot;Glasswing&quot; program where Anthropic uses AI to discover real-world CVEs — and the November update is substantial. This is a fascinating look at AI-assisted security research at scale, and a reminder that your dependencies have bugs your tools might find before you do.</p>
+    <div class="links">
+      <a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50447074">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/">Synaptics patent claims stop work on DisplayLink drivers</a></h3>
+    <div class="byline">by speckx · 453 points · 256 comments</div>
+    <p class="blurb">Synaptics sent a legal threat that has frozen open-source DisplayLink driver development — bad news if you rely on USB docks with macOS or Linux. DisplayLink is quietly essential for anyone running a multi-monitor Mac setup via a hub, making this patent spat a real practical threat to your desk configuration.</p>
+    <div class="links">
+      <a href="https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50443824">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://gatezh.com/posts/macos-secure-enclave-ssh-keys/">Protecting SSH Keys with macOS Secure Enclave</a></h3>
+    <div class="byline">by js2 · 326 points · 119 comments</div>
+    <p class="blurb">A practical walkthrough for storing SSH keys in the macOS Secure Enclave, making them hardware-bound and impossible to export. For Apple-ecosystem developers who SSH into servers all day, this is an immediately actionable security upgrade that costs nothing and raises your key security to YubiKey levels.</p>
+    <div class="links">
+      <a href="https://gatezh.com/posts/macos-secure-enclave-ssh-keys/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50449748">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://pietromiotti.com/latest/maya-site/?maya">Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h</a></h3>
+    <div class="byline">by eyvindn · 554 points · 213 comments</div>
+    <p class="blurb">A Google engineer orchestrated 48 AI agents to process NASA LiDAR datasets and surfaced an unmapped Maya pyramid in just 72 hours — work that would have taken a team of archaeologists years. It&#x27;s a stunning demonstration of agentic AI applied to scientific discovery rather than code, and raises urgent questions about who gets to find (and claim) these sites.</p>
+    <div class="links">
+      <a href="https://pietromiotti.com/latest/maya-site/?maya">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50452455">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://blog.val.town/winding-down">Val Town is winding down</a></h3>
+    <div class="byline">by tosh · 412 points · 100 comments</div>
+    <p class="blurb">Val Town — the beloved social, serverless JavaScript playground — is shutting down. It was a genuinely novel product that made sharing runnable code as easy as sharing a tweet. A moment of silence, and a reminder to export your vals while you still can.</p>
+    <div class="links">
+      <a href="https://blog.val.town/winding-down">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50443427">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/tech/1012372/tv-privacy-acr-questions">I asked every TV manufacturer 17 questions about how they spy on you</a></h3>
+    <div class="byline">by Brajeshwar · 127 points · 67 comments</div>
+    <p class="blurb">The Verge sent a 17-question privacy survey to every major TV brand and tallied who answered, who dodged, and who stonewalled. ACR (automatic content recognition) is the surveillance feature baked into virtually every smart TV, and this is the most comprehensive public accounting of who&#x27;s doing what with your viewing habits.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/tech/1012372/tv-privacy-acr-questions">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50453474">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers">Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders | State of AI</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Goldman Sachs gave Claude Code to traders, watched them build things, and then took it back — restricting it to engineers only. The key insight: a trader who can&#x27;t read the code an agent wrote is a risk, not a productivity win. Essential reading if you&#x27;re thinking about where AI coding agents belong in your org.</p>
+    <div class="links">
+      <a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/">AI usage generates a fragile codebase</a></h3>
+    <div class="byline">Pinboard Popular · tagged: XDN, Observations, Tech</div>
+    <p class="blurb">An ex-Meta engineer&#x27;s honest account of watching AI-generated code accumulate subtle tech debt at scale: shallow tests, unnecessary complexity, and blind spots beyond the context window. Not a doomer piece — a practical warning from someone generating 100% of their code with AI who still sees the cracks forming.</p>
+    <div class="links">
+      <a href="https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/t3dotgg/tstack">GitHub - t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: from:ifttt, github</div>
+    <p class="blurb">Theo (t3dotgg) open-sources his personal stack of agent skills — the AGENTS.md files and tool configs he uses daily with Claude Code and Codex. If you&#x27;re refining your own AI coding workflow, this is a rare peek at a production-grade setup from someone who ships constantly.</p>
+    <div class="links">
+      <a href="https://github.com/t3dotgg/tstack">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://pxlnv.com/linklog/safari-global-privacy-control/">Safari 27.3 Adds Support for Global Privacy Control – Pixel Envy</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Safari 27.3 now sends the Global Privacy Control signal, telling sites &quot;do not sell my data&quot; automatically — no extension required. This is a quiet but meaningful privacy win baked directly into the Apple ecosystem, and it arrives just as GPC gains legal teeth in more jurisdictions.</p>
+    <div class="links">
+      <a href="https://pxlnv.com/linklog/safari-global-privacy-control/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/">I deleted all my SSH keys</a></h3>
+    <div class="byline">Pinboard Popular · tagged: yubikey, ssh</div>
+    <p class="blurb">A developer nuked all their traditional SSH keys and migrated entirely to hardware-backed FIDO2 authentication via YubiKey. Pairs perfectly with today&#x27;s HN story on macOS Secure Enclave SSH keys — together they make a compelling case that file-based SSH keys are legacy tech you should stop using.</p>
+    <div class="links">
+      <a href="https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/">Safely scaling multi-agent teams with Claude Fable 5.2 / claude.dev Blog</a></h3>
+    <div class="byline">Pinboard Popular · tagged: XDN, Applied-AI, Foundation-Models</div>
+    <p class="blurb">Anthropic&#x27;s engineering blog details a 1,000-agent Claude Fable 5.2 experiment that reproduced the formal proof of Fermat&#x27;s Last Theorem in 28.7 hours without human steering. It&#x27;s a vivid benchmark for what multi-agent coordination looks like at scale, and the safety architecture described — per-command classifiers, offline monitors — is worth stealing for your own agent setups.</p>
+    <div class="links">
+      <a href="https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.geeky-gadgets.com/sub-agents/">5 Token-Saving Strategies to Keep Claude Pro Users Off the Max Plan</a></h3>
+    <div class="byline">Pinboard Popular · tagged: GPT, GPTOptimize, context, Claude, bestPractices</div>
+    <p class="blurb">Practical tactics for Claude Pro users hitting rate limits: managing context window bloat, caching strategies, and smarter sub-agent use. If you&#x27;re running Claude Code all day and bumping into usage walls, these are concrete things to try before upgrading your plan.</p>
+    <div class="links">
+      <a href="https://www.geeky-gadgets.com/sub-agents/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.atuin.sh/threads-agent-sessions/">Atuin Threads: All your agent sessions on every machine</a></h3>
+    <div class="byline">by linsomniac · 42 points · 17 comments</div>
+    <p class="blurb">Atuin — the shell history sync tool — adds &quot;Threads&quot;: persistent, synced agent session logs across all your machines. If you run Claude Code or other agents in the terminal, having a searchable, synced record of every agent session is exactly the kind of observability that separates professional setups from chaos.</p>
+    <div class="links">
+      <a href="https://blog.atuin.sh/threads-agent-sessions/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Locating the source of a mysterious beep with Claude</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Simon Willison used Claude to reason through the diagnostic problem of an unidentified beep in his house — a delightful real-world example of AI as a systematic troubleshooting partner. It&#x27;s a small story, but it illustrates exactly the kind of ambient, conversational AI use that changes how you think about everyday problem-solving.</p>
+    <div class="links">
+      <a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down">Apple is killing its Support Community forum next week</a></h3>
+    <div class="byline">by saikatsg · 89 points · 47 comments</div>
+    <p class="blurb">Apple is shuttering its decades-old Support Community forums, destroying a vast archive of troubleshooting wisdom that countless users have relied on. For Apple power users, this is a genuine loss — and a reminder that Google searches for Mac fixes are about to get a lot worse.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

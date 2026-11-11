@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-11",
+  "stories": [
+    {
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "hn_link": "https://news.ycombinator.com/item?id=50441707",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by skittleson · 1107 points · 402 comments",
+      "blurb": "The runaway HN story of the day: a developer's argument that smart home gear should function locally, without phoning home. With cloud shutdowns killing perfectly good hardware regularly, local-first home automation isn't just a privacy win — it's basic product integrity. 402 comments of war stories and Home Assistant evangelism await."
+    },
+    {
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "hn_link": "https://news.ycombinator.com/item?id=50446520",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by linolevan · 419 points · 437 comments",
+      "blurb": "Apple is building a first-party Mac app to run local AI models — which could be a game-changer for privacy-conscious developers who want LLM power without cloud dependencies. If Apple bakes this into the OS with Silicon optimization, it undercuts Ollama and LM Studio on the platform where it matters most. Watch this space."
+    },
+    {
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "hn_link": "https://news.ycombinator.com/item?id=50443716",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Yorothegoat · 266 points · 202 comments",
+      "blurb": "Anthropic launches a full office suite: whiteboards, spreadsheets, and data tools — all AI-native. If you're a Claude Code user, this is Anthropic's bid to make Claude the center of your entire workflow, not just your terminal. The 202-comment thread is a lively debate on whether this is brilliant product expansion or dangerous scope creep."
+    },
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "hn_link": "https://news.ycombinator.com/item?id=50443812",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by paulirish · 414 points · 138 comments",
+      "blurb": "Paul Irish (Google Chrome) drops a repo of AGENTS.md-style guidance to steer coding agents away from outdated JavaScript patterns toward modern web platform APIs. If you use Claude Code or similar agents for frontend work, this is a direct actionable fix for a real problem: agents confidently reaching for polyfills and workarounds that haven't been needed for years."
+    },
+    {
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "hn_link": "https://news.ycombinator.com/item?id=50447074",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by panic · 437 points · 209 comments",
+      "blurb": "VulnCheck tracks the \"Glasswing\" program where Anthropic uses AI to discover real-world CVEs — and the November update is substantial. This is a fascinating look at AI-assisted security research at scale, and a reminder that your dependencies have bugs your tools might find before you do."
+    },
+    {
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "hn_link": "https://news.ycombinator.com/item?id=50443824",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by speckx · 453 points · 256 comments",
+      "blurb": "Synaptics sent a legal threat that has frozen open-source DisplayLink driver development — bad news if you rely on USB docks with macOS or Linux. DisplayLink is quietly essential for anyone running a multi-monitor Mac setup via a hub, making this patent spat a real practical threat to your desk configuration."
+    },
+    {
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "hn_link": "https://news.ycombinator.com/item?id=50449748",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by js2 · 326 points · 119 comments",
+      "blurb": "A practical walkthrough for storing SSH keys in the macOS Secure Enclave, making them hardware-bound and impossible to export. For Apple-ecosystem developers who SSH into servers all day, this is an immediately actionable security upgrade that costs nothing and raises your key security to YubiKey levels."
+    },
+    {
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "hn_link": "https://news.ycombinator.com/item?id=50452455",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by eyvindn · 554 points · 213 comments",
+      "blurb": "A Google engineer orchestrated 48 AI agents to process NASA LiDAR datasets and surfaced an unmapped Maya pyramid in just 72 hours — work that would have taken a team of archaeologists years. It's a stunning demonstration of agentic AI applied to scientific discovery rather than code, and raises urgent questions about who gets to find (and claim) these sites."
+    },
+    {
+      "title": "Val Town is winding down",
+      "url": "https://blog.val.town/winding-down",
+      "hn_link": "https://news.ycombinator.com/item?id=50443427",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by tosh · 412 points · 100 comments",
+      "blurb": "Val Town — the beloved social, serverless JavaScript playground — is shutting down. It was a genuinely novel product that made sharing runnable code as easy as sharing a tweet. A moment of silence, and a reminder to export your vals while you still can."
+    },
+    {
+      "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "hn_link": "https://news.ycombinator.com/item?id=50453474",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Brajeshwar · 127 points · 67 comments",
+      "blurb": "The Verge sent a 17-question privacy survey to every major TV brand and tallied who answered, who dodged, and who stonewalled. ACR (automatic content recognition) is the surveillance feature baked into virtually every smart TV, and this is the most comprehensive public accounting of who's doing what with your viewing habits."
+    },
+    {
+      "title": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders | State of AI",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Goldman Sachs gave Claude Code to traders, watched them build things, and then took it back — restricting it to engineers only. The key insight: a trader who can't read the code an agent wrote is a risk, not a productivity win. Essential reading if you're thinking about where AI coding agents belong in your org."
+    },
+    {
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Observations, Tech",
+      "blurb": "An ex-Meta engineer's honest account of watching AI-generated code accumulate subtle tech debt at scale: shallow tests, unnecessary complexity, and blind spots beyond the context window. Not a doomer piece — a practical warning from someone generating 100% of their code with AI who still sees the cracks forming."
+    },
+    {
+      "title": "GitHub - t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex.",
+      "url": "https://github.com/t3dotgg/tstack",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: from:ifttt, github",
+      "blurb": "Theo (t3dotgg) open-sources his personal stack of agent skills — the AGENTS.md files and tool configs he uses daily with Claude Code and Codex. If you're refining your own AI coding workflow, this is a rare peek at a production-grade setup from someone who ships constantly."
+    },
+    {
+      "title": "Safari 27.3 Adds Support for Global Privacy Control – Pixel Envy",
+      "url": "https://pxlnv.com/linklog/safari-global-privacy-control/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Safari 27.3 now sends the Global Privacy Control signal, telling sites \"do not sell my data\" automatically — no extension required. This is a quiet but meaningful privacy win baked directly into the Apple ecosystem, and it arrives just as GPC gains legal teeth in more jurisdictions."
+    },
+    {
+      "title": "I deleted all my SSH keys",
+      "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: yubikey, ssh",
+      "blurb": "A developer nuked all their traditional SSH keys and migrated entirely to hardware-backed FIDO2 authentication via YubiKey. Pairs perfectly with today's HN story on macOS Secure Enclave SSH keys — together they make a compelling case that file-based SSH keys are legacy tech you should stop using."
+    },
+    {
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2 / claude.dev Blog",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Applied-AI, Foundation-Models",
+      "blurb": "Anthropic's engineering blog details a 1,000-agent Claude Fable 5.2 experiment that reproduced the formal proof of Fermat's Last Theorem in 28.7 hours without human steering. It's a vivid benchmark for what multi-agent coordination looks like at scale, and the safety architecture described — per-command classifiers, offline monitors — is worth stealing for your own agent setups."
+    },
+    {
+      "title": "5 Token-Saving Strategies to Keep Claude Pro Users Off the Max Plan",
+      "url": "https://www.geeky-gadgets.com/sub-agents/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: GPT, GPTOptimize, context, Claude, bestPractices",
+      "blurb": "Practical tactics for Claude Pro users hitting rate limits: managing context window bloat, caching strategies, and smarter sub-agent use. If you're running Claude Code all day and bumping into usage walls, these are concrete things to try before upgrading your plan."
+    },
+    {
+      "title": "Atuin Threads: All your agent sessions on every machine",
+      "url": "https://blog.atuin.sh/threads-agent-sessions/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by linsomniac · 42 points · 17 comments",
+      "blurb": "Atuin — the shell history sync tool — adds \"Threads\": persistent, synced agent session logs across all your machines. If you run Claude Code or other agents in the terminal, having a searchable, synced record of every agent session is exactly the kind of observability that separates professional setups from chaos."
+    },
+    {
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Simon Willison used Claude to reason through the diagnostic problem of an unidentified beep in his house — a delightful real-world example of AI as a systematic troubleshooting partner. It's a small story, but it illustrates exactly the kind of ambient, conversational AI use that changes how you think about everyday problem-solving."
+    },
+    {
+      "title": "Apple is killing its Support Community forum next week",
+      "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by saikatsg · 89 points · 47 comments",
+      "blurb": "Apple is shuttering its decades-old Support Community forums, destroying a vast archive of troubleshooting wisdom that countless users have relied on. For Apple power users, this is a genuine loss — and a reminder that Google searches for Mac fixes are about to get a lot worse."
+    }
+  ]
+}
