@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-12",
+  "stories": [
+    {
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "hn_link": "https://news.ycombinator.com/item?id=50450488",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ayhanfuat · 1359 points · 165 comments",
+      "blurb": "Tim Peters, creator of Timsort and author of the Zen of Python, has passed away at 74. His contributions are baked into virtually every Python runtime in production today — if you've ever sorted a list in Python, you've used his work. A profound loss for the entire programming community."
+    },
+    {
+      "title": "NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "hn_link": "https://news.ycombinator.com/item?id=50467087",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by lldb · 1267 points · 1062 comments",
+      "blurb": "Jensen Huang is stepping down as NVIDIA CEO following a personal scandal that also triggered a board-led national security investigation. The company behind the hardware that runs essentially all serious AI workloads is about to enter a new era of leadership — the implications for the AI chip market are enormous."
+    },
+    {
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "hn_link": "https://news.ycombinator.com/item?id=50456631",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by super_linear · 932 points · 255 comments",
+      "blurb": "AWS is officially open-sourcing a local emulator for AWS services, letting developers test cloud integrations without hitting real endpoints or accumulating bills. This is the kind of tool that dramatically shortens the feedback loop when building serverless or cloud-native apps — think LocalStack but from AWS itself."
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "hn_link": "https://news.ycombinator.com/item?id=50458900",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by herpderperator · 636 points · 660 comments",
+      "blurb": "United Airlines has explicitly banned AI agents from autonomously purchasing tickets on travelers' behalf, raising the first major corporate policy front in the agentic AI era. This signals a coming wave of legal and contractual friction as AI coding assistants and workflow agents start touching real-world services — a critical issue for anyone building with Claude Code or similar tools."
+    },
+    {
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "hn_link": "https://news.ycombinator.com/item?id=50455394",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mbac32768 · 547 points · 259 comments",
+      "blurb": "A false smoke alarm triggered the fire suppression system and nearly flooded Jane Street's sole NYC datacenter with water — a visceral reminder that physical infrastructure remains the achilles heel of even the most sophisticated software shops. The postmortem details are a masterclass in cascading failure analysis."
+    },
+    {
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "hn_link": "https://news.ycombinator.com/item?id=50459745",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by zenincognito · 536 points · 69 comments",
+      "blurb": "A delightful piece of SIGBOVIK-style computational absurdism: by analyzing Perl's famously permissive grammar, the author shows that random paint splatters — when mapped to ASCII — have a surprisingly high probability of being syntactically valid Perl. A perfect reminder that language design has real and sometimes hilarious consequences."
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "hn_link": "https://news.ycombinator.com/item?id=50456791",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by iamdelirium · 529 points · 151 comments",
+      "blurb": "Google is launching a Decisions API for Gemini that lets AI agents make structured choices with explicit reasoning traces — a direct answer to the \"black box\" criticism of agentic AI. For developers building multi-step AI workflows, this could meaningfully improve reliability and debuggability."
+    },
+    {
+      "title": "Socratic Tutor",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "hn_link": "https://news.ycombinator.com/item?id=50438261",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by tosh · 524 points · 124 comments",
+      "blurb": "Jane Street has open-sourced a \"Socratic Tutor\" agent skill that turns any LLM into a rigorous personal tutor: diagnostic assessment, a leveled skill map, one question at a time, spaced review, and a final exam. If you're trying to deeply learn something new — TypeScript internals, .NET CLR, whatever — this is a ready-to-use system prompt you can drop into Claude today."
+    },
+    {
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "hn_link": "https://news.ycombinator.com/item?id=50465829",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by josephljohnston · 448 points · 465 comments",
+      "blurb": "Anthropic has filed for its IPO, bringing the maker of Claude into the public markets. For anyone building on Claude Code or the Anthropic API, this transition has real implications for pricing, roadmap transparency, and long-term platform stability — it's worth reading the S-1 carefully."
+    },
+    {
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "hn_link": "https://news.ycombinator.com/item?id=50462177",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by soheilpro · 318 points · 162 comments",
+      "blurb": "A critical remote code execution vulnerability in Apache HTTP Server is actively being analyzed and potentially exploited. If you have any Apache-fronted services — including .NET apps behind a reverse proxy — patch now. Wiz's write-up has clear technical detail on the attack surface."
+    },
+    {
+      "title": "What Constant Surveillance Is Doing to Children",
+      "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Atlantic digs into how pervasive location-tracking apps are reshaping childhood, autonomy, and trust — with real psychological data to back it up. A must-read for anyone thinking critically about the downstream effects of privacy erosion, even when the intentions are benign."
+    },
+    {
+      "title": "Large-Scale Measurement and Real-World Mitigation of Web Browser Fingerprinting in the Wild",
+      "url": "https://fingerprinting.study/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: browsers, fingerprinting, privacy",
+      "blurb": "An academic study measuring browser fingerprinting across the real web at scale — and testing actual mitigations. If you care about user privacy in your apps, or your own browsing footprint, the findings on which defenses actually work are genuinely actionable."
+    },
+    {
+      "title": "SlopShape: Identifying AI-Generated Commercial Web Content",
+      "url": "https://arxiv.org/html/2609.15369v3",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: slop, llms",
+      "blurb": "Researchers have built a classifier that identifies AI-generated commercial web content (\"slop\") at scale, revealing how extensively LLM output has saturated the web. For developers building with LLMs, understanding the slop detection landscape matters for both quality and discoverability."
+    },
+    {
+      "title": "Horible public key tricks:",
+      "url": "https://maurycyz.com/projects/badcert/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, cyber-security, certificates, SSL, web-development, blogs, year:2026, cryptography",
+      "blurb": "A hands-on deep dive into abusing X.509 certificate structures with clever (and alarming) public key manipulations. The kind of low-level cryptographic trickery that security-conscious developers should understand — especially anyone managing TLS infrastructure."
+    },
+    {
+      "title": "GitHub - tobi/wrapvm: A desktop VM for agents: wrap's base image + XFCE, shared Chrome, agent-browser and agent-desktop. Containerfile + Smolfile.",
+      "url": "https://github.com/tobi/wrapvm",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, agentic-ai, ai-sandbox",
+      "blurb": "WrapVM is a containerized desktop VM designed specifically for AI agents — it gives agents a sandboxed XFCE desktop with a shared Chrome instance and agent-ready browser/desktop interfaces. Perfect for anyone building or testing computer-use agents with Claude or similar."
+    },
+    {
+      "title": "Anthropic has its own AI-powered office suite now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic is launching an AI-powered productivity suite — docs, spreadsheets, and more — built natively around Claude. For users of Obsidian and other personal knowledge tools, this is a direct competitive entry that's worth evaluating as a potential replacement or complement."
+    },
+    {
+      "title": "meta/astryx: An open source design system that's fully customizable and agent ready",
+      "url": "https://github.com/meta/astryx",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: design",
+      "blurb": "Meta has open-sourced Astryx, a design system built to be fully customizable and explicitly \"agent ready\" — meaning its components and tokens are structured for AI coding assistants to consume and modify reliably. For Angular/TypeScript devs building component libraries, this is a compelling reference architecture."
+    },
+    {
+      "title": "Medium is launching a new note-taking app called TK",
+      "url": "https://www.theverge.com/tech/1029676/medium-tk-notes-app",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Medium is entering the note-taking space with TK, a new app that integrates writing and publishing in one place. For heavy Obsidian users, it's worth watching as a potential alternative — especially if the publishing workflow is smoother than current Obsidian-to-web pipelines."
+    },
+    {
+      "title": "Paperwall: design without the paywall",
+      "url": "https://manoharys.github.io/paperwall/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: design, editor, graphics, slides, invitations, free",
+      "blurb": "Paperwall is a free, open-source, no-account design tool for posters, slides, and social graphics that runs entirely in the browser with no watermarks. A genuinely useful Canva alternative for developers who need quick visuals without surrendering their data or paying a subscription."
+    },
+    {
+      "title": "Researchers discover rare star system that emits radio signals every 8 minutes",
+      "url": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by giuliomagnifico · 74 points · 36 comments",
+      "blurb": "Astronomers have found a binary star system emitting highly regular radio pulses every 8 minutes — a timing pattern that doesn't fit neatly into any known pulsar or magnetar category. The mystery of what's actually powering this precise cosmic metronome has the radio astronomy community genuinely puzzled."
+    }
+  ]
+}
