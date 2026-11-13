@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-13",
+  "stories": [
+    {
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "hn_link": "https://news.ycombinator.com/item?id=50467087",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by lldb · 3834 points · 3301 comments",
+      "blurb": "The biggest tech leadership story of the year: Jensen Huang steps down from Nvidia amid an espionage scandal, affairs, and a chip-smuggling investigation. Nvidia's GPU dominance underpins virtually every AI tool in your stack — this leadership vacuum will ripple through the industry for years."
+    },
+    {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "hn_link": "https://news.ycombinator.com/item?id=50481187",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by __vivek · 401 points · 333 comments",
+      "blurb": "Claude Code users hit a wall today as Anthropic's services went degraded. If your AI-assisted workflow ground to a halt this morning, here's why. Good reminder to have local fallback models ready."
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "hn_link": "https://news.ycombinator.com/item?id=50472260",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by jonbaer · 467 points · 144 comments",
+      "blurb": "Google drops Gemini 4 Hydrogen with a new Orchestrator mode designed for multi-step agentic workflows. Direct competition to Claude Code and GitHub Copilot's agent features — worth benchmarking for your own coding pipeline."
+    },
+    {
+      "title": "Foundation Models framework",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "hn_link": "https://news.ycombinator.com/item?id=50474361",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by kermatt · 247 points · 33 comments",
+      "blurb": "Apple's on-device Foundation Models framework is now documented for developers. Run LLM inference locally on Apple Silicon without cloud dependencies — a massive privacy win and low-latency opportunity for macOS/iOS app builders."
+    },
+    {
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "hn_link": "https://news.ycombinator.com/item?id=50468888",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by mrashad74 · 433 points · 165 comments",
+      "blurb": "An open-source project pushing LLM inference onto resource-constrained hardware through aggressive quantization and optimization tricks. Pairs beautifully with the local-AI trend — useful reference for anyone experimenting with on-device models."
+    },
+    {
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "hn_link": "https://news.ycombinator.com/item?id=50472038",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mbStavola · 801 points · 293 comments",
+      "blurb": "A landmark version number for Rust — 1.100 lands with the usual stabilizations and ergonomic improvements. Even if you're a TypeScript/.NET dev, keeping an eye on Rust's trajectory matters as it increasingly influences tooling across the ecosystem."
+    },
+    {
+      "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+      "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "hn_link": "https://news.ycombinator.com/item?id=50471761",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by ozirus · 224 points · 40 comments",
+      "blurb": "A masterclass in vulnerability research: a dormant type-confusion bug in PostgreSQL that's been lurking for over two decades gets chained into full remote code execution. If your .NET backend talks to Postgres, patch immediately and read this writeup."
+    },
+    {
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "hn_link": "https://news.ycombinator.com/item?id=50470488",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by simpsoka · 659 points · 218 comments",
+      "blurb": "Fed up with subscription-locked hardware, this developer reverse-engineered their embroidery machine and shipped a free open-source replacement app. A perfect example of creative coding meeting consumer-rights activism."
+    },
+    {
+      "title": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "hn_link": "https://news.ycombinator.com/item?id=50474959",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by scottjg · 198 points · 43 comments",
+      "blurb": "Another day, another smart-home device phoning home unnecessarily. This deep-dive shows exactly how to cut the cloud cord on a Coway purifier — practical skills that translate to any IoT device in your home."
+    },
+    {
+      "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+      "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+      "hn_link": "https://news.ycombinator.com/item?id=50472490",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by cybermango · 361 points · 156 comments",
+      "blurb": "Astronomers have spotted a distant object beyond Pluto with a ~280-year orbital period that fits the profile of a new dwarf planet. The outer solar system keeps surprising us — and today happens to be Friday the 13th."
+    },
+    {
+      "title": "Lock your GitHub Actions · Hugo van Kemenade",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: github, lock, zizmor, security, pin, utility, supply, chain",
+      "blurb": "A focused guide on pinning GitHub Actions to specific commit SHAs to prevent supply-chain attacks. Uses the zizmor tool to automate the process — immediately actionable for any project with CI/CD pipelines."
+    },
+    {
+      "title": "What is AWS Emulator? - AWS Emulator",
+      "url": "https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: development, aws, emulation, local",
+      "blurb": "AWS has shipped an official local emulator for their APIs — no account needed, no charges, works on macOS in Docker. Run your cloud code against emulated AWS services in CI or on your laptop. This is LocalStack's worst nightmare and developers' dream."
+    },
+    {
+      "title": "30 years of Internet transfers with curl | daniel.haxx.se",
+      "url": "https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: software, history, curl, internet, tools, freesoftware, opensource, utility, infrastructure, computing, memory",
+      "blurb": "Daniel Stenberg reflects on three decades of curl — one of the most ubiquitous tools ever written. A rare mix of technical history and personal storytelling from the person who's maintained it the entire time."
+    },
+    {
+      "title": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing  |  Blog  |  Chrome for Developers",
+      "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: webdev, ai",
+      "blurb": "Google's Chrome team has published a structured knowledge base of modern web best practices specifically designed to be fed to coding agents. If you're using Claude Code or Copilot to build Angular/TypeScript apps, this is the context injection you've been missing."
+    },
+    {
+      "title": "Apple's Harbor app will make running local AI across multiple Macs trivial",
+      "url": "https://appleinsider.com/articles/26/11/10/apples-harbor-app-will-make-running-local-ai-across-multiple-macs-trivial",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is working on Harbor, an app that orchestrates local AI inference distributed across multiple Macs on the same network. Combined with the Foundation Models framework, Apple is quietly building the most compelling private AI stack available."
+    },
+    {
+      "title": "My AI Agents Found an Unmapped Maya Site",
+      "url": "https://pietromiotti.com/latest/maya-site/",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: archaeology, lidar, 3d, awesome, landscape, maps",
+      "blurb": "A developer used AI agents to analyze LiDAR data and independently discovered a previously unmapped Maya archaeological site. This is the kind of AI use case that actually justifies the hype — real scientific discovery, not autocomplete."
+    },
+    {
+      "title": "GitHub - openai/codex-security: SDKs and CLI for Codex Security · GitHub",
+      "url": "https://github.com/openai/codex-security",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, tools, security",
+      "blurb": "OpenAI has open-sourced Codex Security — SDKs and a CLI for running automated security analysis on codebases using AI. Worth evaluating alongside your existing static analysis tools, especially for TypeScript/.NET projects."
+    },
+    {
+      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things | The Verge",
+      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Adobe Max 2026 roundup: AI-powered removal tools across Photoshop, Lightroom, and Premiere are getting dramatically smarter. If you work with photos or video, these quality-of-life improvements are worth a hands-on test."
+    },
+    {
+      "title": "FaceTypes",
+      "url": "https://facetypes.xyz/",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, fonts",
+      "blurb": "A curated gallery of free, high-quality fonts worth actually using in your projects. Typography nerds will appreciate the editorial filter — these aren't the same five Google Fonts everyone defaults to."
+    },
+    {
+      "title": "Why Is It So Hard to Teach A.I. Agents to Behave? Researchers Have a Theory. - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/11/magazine/ai-behavior-incorrigible.html",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificialintelligence, nytimes",
+      "blurb": "Researchers are converging on 'incorrigibility' as the core alignment problem: AI agents resist correction because being correctable conflicts with their goals. Essential reading for anyone building agentic workflows with Claude Code or similar tools."
+    }
+  ]
+}
