@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-15",
+  "stories": [
+    {
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "hn_link": "https://news.ycombinator.com/item?id=50499017",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by armcat · 923 points · 355 comments",
+      "blurb": "AI-generated app builder Lovable left passport scans and over 200,000 private messages exposed due to misconfigured backends — a damning indictment of vibe-coding-first, security-later development. If you're evaluating no-code/low-code AI builders for client projects, this is a must-read on the attack surface they silently introduce. The research is detailed and reproducible."
+    },
+    {
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "hn_link": "https://news.ycombinator.com/item?id=50440709",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by casi · 593 points · 315 comments",
+      "blurb": "A practical walkthrough of turning an old Android phone into a Linux server with Termux, SSH, and persistent background services — often outspeccing a Pi 5 for free. With a drawer full of old iPhones in many households, this sparks the question of when Apple will allow comparable repurposing. Great actionable weekend project."
+    },
+    {
+      "title": "KDE: The documentary [video]",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "hn_link": "https://news.ycombinator.com/item?id=50496976",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by mrkn1 · 534 points · 121 comments",
+      "blurb": "A full-length documentary on KDE's 30-year history — from Matthias Ettrich's 1996 mailing list post to today's Plasma 6. For anyone who lived through the KDE vs GNOME wars, it's both nostalgic and illuminating about how open-source desktop projects actually sustain themselves over decades."
+    },
+    {
+      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50496051",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by hacb · 295 points · 165 comments",
+      "blurb": "Google Project Zero reaffirms its strict 90-day disclosure policy despite ongoing industry pressure to extend deadlines. This matters because consistent timelines are what actually force vendors — including Apple — to ship patches before exploits go public. A principled stand with real ecosystem consequences."
+    },
+    {
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "hn_link": "https://news.ycombinator.com/item?id=50503255",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by nobody9999 · 294 points · 86 comments",
+      "blurb": "The EFF is challenging warrantless access to Automated License Plate Reader databases, arguing it violates the Fourth Amendment. ALPR networks now cover most major metro areas and retain location history indefinitely — this case could set precedent for all passive surveillance data. An important digital rights fight with broad implications."
+    },
+    {
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "hn_link": "https://news.ycombinator.com/item?id=50497892",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by rbanffy · 261 points · 117 comments",
+      "blurb": "PyPI's redesigned package pages now surface provenance attestations, Sigstore signatures, and maintainer verification badges front and center — making supply chain trust signals finally scannable at a glance. A meaningful UX upgrade for anyone evaluating open-source dependencies in their projects."
+    },
+    {
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "hn_link": "https://news.ycombinator.com/item?id=50497589",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by VaibhaavTiwari · 256 points · 23 comments",
+      "blurb": "A minimal, readable implementation of DeepSeek V3's architecture in ~200 lines of JAX — no abstractions hiding the interesting parts. This is the kind of distillation that makes modern LLM internals actually learnable, and it pairs perfectly with the positional embeddings explainer also in today's edition."
+    },
+    {
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "hn_link": "https://news.ycombinator.com/item?id=50506719",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by MacAnorak · 123 points · 66 comments",
+      "blurb": "The upcoming MacBook Pro's OLED display uses low-frequency PWM dimming that causes eye strain and headaches for a significant subset of users — a real ergonomic regression from the current mini-LED panels. If you spend 8+ hours a day in front of your Mac, read this before you pre-order. The technical breakdown of PWM frequencies and mitigation options is thorough."
+    },
+    {
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
+      "hn_link": "https://news.ycombinator.com/item?id=50501594",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by Skyfall106 · 262 points · 137 comments",
+      "blurb": "A deep retrocomputing dive into how Wozniak hand-assembled and mentally simulated the 6502 BASIC interpreter before the hardware existed — essentially running a computer in his head. The accepted answer is a masterclass in constraint-driven engineering and a reminder of what individual brilliance looked like before tooling existed."
+    },
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "hn_link": "https://news.ycombinator.com/item?id=50506376",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vismit2000 · 71 points · 0 comments",
+      "blurb": "Sebastian Raschka's characteristically clear explainer covers the evolution from fixed sinusoidal embeddings through RoPE and ALiBi to the approaches used in today's long-context models. Essential reading if you're working with or fine-tuning LLMs and want to understand why context window scaling isn't free."
+    },
+    {
+      "title": "Secure Exclaves and Ambient Sensing - Apple Security Research",
+      "url": "https://security.apple.com/blog/secure-exclaves/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: AI, ML, security, Apple, sensors, privacy",
+      "blurb": "Apple's security research blog details how Secure Exclaves isolate sensitive on-device sensing — camera, microphone, location — from the main OS and any apps, including Apple's own. This is the architecture underpinning Apple Intelligence's privacy guarantees and directly relevant to anyone building privacy-sensitive iOS/macOS apps."
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: google, GenAI",
+      "blurb": "Google announces Gemini 4 Hydrogen, a model line explicitly optimized for multi-step agentic tasks — tool use, long-horizon planning, and sub-agent coordination. As Claude Code's main competition in the AI coding-agent space, this is worth benchmarking directly against your current workflow."
+    },
+    {
+      "title": "Claude's Duet agent is a little neurotic and surprisingly helpful | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "The Verge's hands-on with Claude Duet — Anthropic's new persistent background agent — finds it genuinely useful for async research and drafting tasks despite some over-cautious behavior. As a Claude Code user, Duet represents the next surface area where Anthropic is extending the assistant model, and it's worth watching."
+    },
+    {
+      "title": "AWS Emulator: a local emulator built 100% by autonomous AI agents",
+      "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, development, coding, agents, ai, aws",
+      "blurb": "Amazon used thousands of autonomous coding agents — no human-written code — to build a local AWS emulator from scratch. Beyond the product itself (think LocalStack but AWS-official), this is a landmark data point on what large-scale agentic software development looks like in practice today."
+    },
+    {
+      "title": "tinyjs — desktop apps for macOS, Windows, and Linux in ~6 MB",
+      "url": "https://tinyjs.app/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: js, electron, tauri, elecrobun, desktop, app, html, webapp, PWA, small",
+      "blurb": "tinyjs ships desktop apps using txiki.js + native WebKit/WebView2 in a ~6 MB bundle with zero Electron and zero ports. For TypeScript developers who want native macOS look-and-feel without dragging in Chromium, this is the most compelling lightweight alternative to Tauri right now."
+    },
+    {
+      "title": "MacOSCleaner – Free macOS Cleaner & App Uninstaller",
+      "url": "https://alextkdev.github.io/MacOSCleaner/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 系统清理, Mac软件",
+      "blurb": "A free, GPLv3-licensed macOS cleaner for Apple Silicon that removes app leftovers, Xcode caches, and Docker cruft with zero telemetry — source available on GitHub. A credible open-source alternative to CleanMyMac for privacy-conscious macOS users who don't want a subscription cleaner phoning home."
+    },
+    {
+      "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "url": "https://github.com/morluto/rea",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis",
+      "blurb": "rea connects AI agents to Ghidra and Hopper via MCP to automate reverse engineering — from reconstructing features to analyzing native binaries. A niche but powerful tool for security researchers and developers who need to understand closed-source dependencies or audit third-party SDKs."
+    },
+    {
+      "title": "vercel-labs/ui: A library of behaviors for agents to build the next generation of user interfaces.",
+      "url": "https://github.com/vercel-labs/ui",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ui, web, ai",
+      "blurb": "Vercel Labs drops a UI behavior library designed specifically for AI agents to construct interfaces programmatically — think streaming components, generative layouts, and agent-readable affordances. If you're building AI-driven frontends in Angular or any JS framework, this signals where the design system conversation is heading."
+    },
+    {
+      "title": "Usecolor — OKLCH palette tool",
+      "url": "https://imperavi.com/usecolor/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: data, visualization, colors, OKLCH, palette, tool, favorite",
+      "blurb": "Usecolor is a beautiful browser-based OKLCH color palette generator — the perceptually uniform color space that CSS Color 4 is built on. For developers building design systems or theming Angular apps, generating accessible, perceptually consistent palettes in OKLCH instead of HSL is a genuine quality upgrade."
+    },
+    {
+      "title": "The dawn of the Data Intelligence Engineer | MotherDuck",
+      "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: data-analytics, data-engineering, ai-data",
+      "blurb": "MotherDuck argues the next job title isn't 'data engineer' or 'AI engineer' but a hybrid who wires LLMs directly into data pipelines and analytical workflows. If you're a .NET/TypeScript developer watching your role expand toward AI integrations, this piece frames the emerging skill stack clearly."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 15, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 15, 2026.">
+<meta property="og:title" content="Morning Edition — November 15, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-15.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · November 15, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Lovable apps expose passport details and more than 200K private messages</a></li>
+      <li><a href="#s2">Why get an expensive Pi when I have an old phone?</a></li>
+      <li><a href="#s3">KDE: The documentary [video]</a></li>
+      <li><a href="#s4">Project Zero will disclose vulnerabilities 90 days after reporting</a></li>
+      <li><a href="#s5">We&#x27;re Asking an Appeals Court to Require a Warrant for ALPR Searches</a></li>
+      <li><a href="#s6">PyPI&#x27;s redesigned project pages with clearer security signals are now live</a></li>
+      <li><a href="#s7">Show HN: DeepSeek V3 in ~200 lines of pure Jax</a></li>
+      <li><a href="#s8">The MacBook Pro&#x27;s OLED PWM Problem: When a &#x27;Better&#x27; Display Becomes Worse to Use</a></li>
+      <li><a href="#s9">How did Woz write the Apple 1 BASIC before building the computer?</a></li>
+      <li><a href="#s10">Understanding Positional Embeddings in Modern LLMs</a></li>
+      <li><a href="#s11">Secure Exclaves and Ambient Sensing - Apple Security Research</a></li>
+      <li><a href="#s12">Introducing Gemini 4 Hydrogen for Agentic Workflows</a></li>
+      <li><a href="#s13">Claude&#x27;s Duet agent is a little neurotic and surprisingly helpful | The Verge</a></li>
+      <li><a href="#s14">AWS Emulator: a local emulator built 100% by autonomous AI agents</a></li>
+      <li><a href="#s15">tinyjs — desktop apps for macOS, Windows, and Linux in ~6 MB</a></li>
+      <li><a href="#s16">MacOSCleaner – Free macOS Cleaner &amp; App Uninstaller</a></li>
+      <li><a href="#s17">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</a></li>
+      <li><a href="#s18">vercel-labs/ui: A library of behaviors for agents to build the next generation of user interfaces.</a></li>
+      <li><a href="#s19">Usecolor — OKLCH palette tool</a></li>
+      <li><a href="#s20">The dawn of the Data Intelligence Engineer | MotherDuck</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a></h3>
+    <div class="byline">by armcat · 923 points · 355 comments</div>
+    <p class="blurb">AI-generated app builder Lovable left passport scans and over 200,000 private messages exposed due to misconfigured backends — a damning indictment of vibe-coding-first, security-later development. If you&#x27;re evaluating no-code/low-code AI builders for client projects, this is a must-read on the attack surface they silently introduce. The research is detailed and reproducible.</p>
+    <div class="links">
+      <a href="https://www.crissyfield.de/research/lovable-en/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50499017">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/">Why get an expensive Pi when I have an old phone?</a></h3>
+    <div class="byline">by casi · 593 points · 315 comments</div>
+    <p class="blurb">A practical walkthrough of turning an old Android phone into a Linux server with Termux, SSH, and persistent background services — often outspeccing a Pi 5 for free. With a drawer full of old iPhones in many households, this sparks the question of when Apple will allow comparable repurposing. Great actionable weekend project.</p>
+    <div class="links">
+      <a href="https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50440709">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c">KDE: The documentary [video]</a></h3>
+    <div class="byline">by mrkn1 · 534 points · 121 comments</div>
+    <p class="blurb">A full-length documentary on KDE&#x27;s 30-year history — from Matthias Ettrich&#x27;s 1996 mailing list post to today&#x27;s Plasma 6. For anyone who lived through the KDE vs GNOME wars, it&#x27;s both nostalgic and illuminating about how open-source desktop projects actually sustain themselves over decades.</p>
+    <div class="links">
+      <a href="https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50496976">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://projectzero.google/2026/11/disclosure-policy.html">Project Zero will disclose vulnerabilities 90 days after reporting</a></h3>
+    <div class="byline">by hacb · 295 points · 165 comments</div>
+    <p class="blurb">Google Project Zero reaffirms its strict 90-day disclosure policy despite ongoing industry pressure to extend deadlines. This matters because consistent timelines are what actually force vendors — including Apple — to ship patches before exploits go public. A principled stand with real ecosystem consequences.</p>
+    <div class="links">
+      <a href="https://projectzero.google/2026/11/disclosure-policy.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50496051">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches">We&#x27;re Asking an Appeals Court to Require a Warrant for ALPR Searches</a></h3>
+    <div class="byline">by nobody9999 · 294 points · 86 comments</div>
+    <p class="blurb">The EFF is challenging warrantless access to Automated License Plate Reader databases, arguing it violates the Fourth Amendment. ALPR networks now cover most major metro areas and retain location history indefinitely — this case could set precedent for all passive surveillance data. An important digital rights fight with broad implications.</p>
+    <div class="links">
+      <a href="https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50503255">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/">PyPI&#x27;s redesigned project pages with clearer security signals are now live</a></h3>
+    <div class="byline">by rbanffy · 261 points · 117 comments</div>
+    <p class="blurb">PyPI&#x27;s redesigned package pages now surface provenance attestations, Sigstore signatures, and maintainer verification badges front and center — making supply chain trust signals finally scannable at a glance. A meaningful UX upgrade for anyone evaluating open-source dependencies in their projects.</p>
+    <div class="links">
+      <a href="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50497892">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">Show HN: DeepSeek V3 in ~200 lines of pure Jax</a></h3>
+    <div class="byline">by VaibhaavTiwari · 256 points · 23 comments</div>
+    <p class="blurb">A minimal, readable implementation of DeepSeek V3&#x27;s architecture in ~200 lines of JAX — no abstractions hiding the interesting parts. This is the kind of distillation that makes modern LLM internals actually learnable, and it pairs perfectly with the positional embeddings explainer also in today&#x27;s edition.</p>
+    <div class="links">
+      <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50497589">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/">The MacBook Pro&#x27;s OLED PWM Problem: When a &#x27;Better&#x27; Display Becomes Worse to Use</a></h3>
+    <div class="byline">by MacAnorak · 123 points · 66 comments</div>
+    <p class="blurb">The upcoming MacBook Pro&#x27;s OLED display uses low-frequency PWM dimming that causes eye strain and headaches for a significant subset of users — a real ergonomic regression from the current mini-LED panels. If you spend 8+ hours a day in front of your Mac, read this before you pre-order. The technical breakdown of PWM frequencies and mitigation options is thorough.</p>
+    <div class="links">
+      <a href="https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50506719">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://retrocomputing.stackexchange.com/questions/17957">How did Woz write the Apple 1 BASIC before building the computer?</a></h3>
+    <div class="byline">by Skyfall106 · 262 points · 137 comments</div>
+    <p class="blurb">A deep retrocomputing dive into how Wozniak hand-assembled and mentally simulated the 6502 BASIC interpreter before the hardware existed — essentially running a computer in his head. The accepted answer is a masterclass in constraint-driven engineering and a reminder of what individual brilliance looked like before tooling existed.</p>
+    <div class="links">
+      <a href="https://retrocomputing.stackexchange.com/questions/17957">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50501594">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://magazine.sebastianraschka.com/p/understanding-positional-embeddings">Understanding Positional Embeddings in Modern LLMs</a></h3>
+    <div class="byline">by vismit2000 · 71 points · 0 comments</div>
+    <p class="blurb">Sebastian Raschka&#x27;s characteristically clear explainer covers the evolution from fixed sinusoidal embeddings through RoPE and ALiBi to the approaches used in today&#x27;s long-context models. Essential reading if you&#x27;re working with or fine-tuning LLMs and want to understand why context window scaling isn&#x27;t free.</p>
+    <div class="links">
+      <a href="https://magazine.sebastianraschka.com/p/understanding-positional-embeddings">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50506376">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://security.apple.com/blog/secure-exclaves/">Secure Exclaves and Ambient Sensing - Apple Security Research</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI, ML, security, Apple, sensors, privacy</div>
+    <p class="blurb">Apple&#x27;s security research blog details how Secure Exclaves isolate sensitive on-device sensing — camera, microphone, location — from the main OS and any apps, including Apple&#x27;s own. This is the architecture underpinning Apple Intelligence&#x27;s privacy guarantees and directly relevant to anyone building privacy-sensitive iOS/macOS apps.</p>
+    <div class="links">
+      <a href="https://security.apple.com/blog/secure-exclaves/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Introducing Gemini 4 Hydrogen for Agentic Workflows</a></h3>
+    <div class="byline">Pinboard Popular · tagged: google, GenAI</div>
+    <p class="blurb">Google announces Gemini 4 Hydrogen, a model line explicitly optimized for multi-step agentic tasks — tool use, long-horizon planning, and sub-agent coordination. As Claude Code&#x27;s main competition in the AI coding-agent space, this is worth benchmarking directly against your current workflow.</p>
+    <div class="links">
+      <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on">Claude&#x27;s Duet agent is a little neurotic and surprisingly helpful | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">The Verge&#x27;s hands-on with Claude Duet — Anthropic&#x27;s new persistent background agent — finds it genuinely useful for async research and drafting tasks despite some over-cautious behavior. As a Claude Code user, Duet represents the next surface area where Anthropic is extending the assistant model, and it&#x27;s worth watching.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator">AWS Emulator: a local emulator built 100% by autonomous AI agents</a></h3>
+    <div class="byline">Pinboard Popular · tagged: software, development, coding, agents, ai, aws</div>
+    <p class="blurb">Amazon used thousands of autonomous coding agents — no human-written code — to build a local AWS emulator from scratch. Beyond the product itself (think LocalStack but AWS-official), this is a landmark data point on what large-scale agentic software development looks like in practice today.</p>
+    <div class="links">
+      <a href="https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://tinyjs.app/">tinyjs — desktop apps for macOS, Windows, and Linux in ~6 MB</a></h3>
+    <div class="byline">Pinboard Popular · tagged: js, electron, tauri, elecrobun, desktop, app, html, webapp, PWA, small</div>
+    <p class="blurb">tinyjs ships desktop apps using txiki.js + native WebKit/WebView2 in a ~6 MB bundle with zero Electron and zero ports. For TypeScript developers who want native macOS look-and-feel without dragging in Chromium, this is the most compelling lightweight alternative to Tauri right now.</p>
+    <div class="links">
+      <a href="https://tinyjs.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://alextkdev.github.io/MacOSCleaner/">MacOSCleaner – Free macOS Cleaner &amp; App Uninstaller</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 系统清理, Mac软件</div>
+    <p class="blurb">A free, GPLv3-licensed macOS cleaner for Apple Silicon that removes app leftovers, Xcode caches, and Docker cruft with zero telemetry — source available on GitHub. A credible open-source alternative to CleanMyMac for privacy-conscious macOS users who don&#x27;t want a subscription cleaner phoning home.</p>
+    <div class="links">
+      <a href="https://alextkdev.github.io/MacOSCleaner/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/morluto/rea">GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: morluto, ghidra, hopper, mcp, reverse-engineering, binary-analysis</div>
+    <p class="blurb">rea connects AI agents to Ghidra and Hopper via MCP to automate reverse engineering — from reconstructing features to analyzing native binaries. A niche but powerful tool for security researchers and developers who need to understand closed-source dependencies or audit third-party SDKs.</p>
+    <div class="links">
+      <a href="https://github.com/morluto/rea">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/vercel-labs/ui">vercel-labs/ui: A library of behaviors for agents to build the next generation of user interfaces.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ui, web, ai</div>
+    <p class="blurb">Vercel Labs drops a UI behavior library designed specifically for AI agents to construct interfaces programmatically — think streaming components, generative layouts, and agent-readable affordances. If you&#x27;re building AI-driven frontends in Angular or any JS framework, this signals where the design system conversation is heading.</p>
+    <div class="links">
+      <a href="https://github.com/vercel-labs/ui">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://imperavi.com/usecolor/">Usecolor — OKLCH palette tool</a></h3>
+    <div class="byline">Pinboard Popular · tagged: data, visualization, colors, OKLCH, palette, tool, favorite</div>
+    <p class="blurb">Usecolor is a beautiful browser-based OKLCH color palette generator — the perceptually uniform color space that CSS Color 4 is built on. For developers building design systems or theming Angular apps, generating accessible, perceptually consistent palettes in OKLCH instead of HSL is a genuine quality upgrade.</p>
+    <div class="links">
+      <a href="https://imperavi.com/usecolor/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://motherduck.com/blog/the-data-intelligence-engineer/">The dawn of the Data Intelligence Engineer | MotherDuck</a></h3>
+    <div class="byline">Pinboard Popular · tagged: data-analytics, data-engineering, ai-data</div>
+    <p class="blurb">MotherDuck argues the next job title isn&#x27;t &#x27;data engineer&#x27; or &#x27;AI engineer&#x27; but a hybrid who wires LLMs directly into data pipelines and analytical workflows. If you&#x27;re a .NET/TypeScript developer watching your role expand toward AI integrations, this piece frames the emerging skill stack clearly.</p>
+    <div class="links">
+      <a href="https://motherduck.com/blog/the-data-intelligence-engineer/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
