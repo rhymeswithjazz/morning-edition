@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-16",
+  "stories": [
+    {
+      "title": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "hn_link": "https://news.ycombinator.com/item?id=50513215",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ilreb · 800 points · 428 comments",
+      "blurb": "Alibaba's latest flagship model drops and the HN crowd goes wild — 800 points and 428 comments signal this is a genuine leap worth evaluating. If you're benchmarking models for Claude Code alternatives or agentic workflows, Qwen4-Max is now a serious contender. The 428-comment thread is a goldmine of real-world comparisons."
+    },
+    {
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "hn_link": "https://news.ycombinator.com/item?id=50513160",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by zaik · 564 points · 161 comments",
+      "blurb": "A critical universal XSS vulnerability was found in uBlock Origin — arguably the most-installed browser extension on the planet. An attacker-controlled website could trigger the element picker to run arbitrary JS in any other page's context. Update immediately; the fix is already out."
+    },
+    {
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "hn_link": "https://news.ycombinator.com/item?id=50509837",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by bcye · 447 points · 78 comments",
+      "blurb": "Protomaps packages the entire planet's map tiles into a single PMTiles file you can host on S3 for pennies. This post is the clearest walkthrough yet of the whole stack — from tile generation to serving. If you've ever paid for a Mapbox plan just to show a few markers, this is your exit ramp."
+    },
+    {
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "hn_link": "https://news.ycombinator.com/item?id=50509972",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by coinfused · 428 points · 72 comments",
+      "blurb": "Ductus lets you draw each letter in-browser and instantly exports a proper OTF/WOFF2 font — no account, no uploads, everything stays local. It's the kind of frictionless creative tool that makes you stop and actually try it right now. Perfect for handwritten UI labels, notes apps, or just having your own font."
+    },
+    {
+      "title": "Old Bitly links are being hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=50511395",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by hspeiser · 364 points · 187 comments",
+      "blurb": "Expired or recycled Bitly links are being snapped up and redirected to malware, phishing, and scam sites — with real brands' old social posts now pointing at attackers. If your company has years of Bitly links in tweets, blog posts, or docs, this is a supply-chain risk hiding in plain sight. Time for a link audit."
+    },
+    {
+      "title": "Crows make decisions faster than we can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50509023",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by gumby · 299 points · 196 comments",
+      "blurb": "New research clocks crows making sensory decisions in under 20 milliseconds — faster than the neural pathways scientists thought were required. The findings upend assumptions about which brain structures are necessary for rapid cognition, with real implications for AI architecture debates. 'Birdbrain' is officially a compliment."
+    },
+    {
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "hn_link": "https://news.ycombinator.com/item?id=50517602",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dverlaeckt80 · 282 points · 125 comments",
+      "blurb": "A developer investigates a mysterious domain making thousands of requests to their server and unravels a shadowy network of automated site-rating and content-scraping services. The detective work is fascinating and the security implications — especially for small sites — are real. Great read for anyone who checks their server logs."
+    },
+    {
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "hn_link": "https://news.ycombinator.com/item?id=50512441",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by aillia · 226 points · 62 comments",
+      "blurb": "Tor is under sustained DDoS fire and the team shipped an emergency 0.4.9.17 release with new denial-of-service defenses in rapid-response time. For anyone who cares about anonymous communication infrastructure surviving, this is a critical update — and a case study in how open-source security teams operate under pressure."
+    },
+    {
+      "title": "Do we still have to denormalize? Have your schema and search it too",
+      "url": "https://www.paradedb.com/blog/joins",
+      "hn_link": "https://news.ycombinator.com/item?id=50484998",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by philippemnoel · 113 points · 40 comments",
+      "blurb": "ParadeDB makes the case that you no longer need to flatten your Postgres schema into Elasticsearch for full-text and semantic search — joins inside the search engine are finally fast enough. For .NET devs who've suffered through ETL pipelines to sync data into a search index, this is the architecture argument you've been waiting for."
+    },
+    {
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "hn_link": "https://news.ycombinator.com/item?id=50519744",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by burntsushi · 60 points · 14 comments",
+      "blurb": "BurntSushi — the author of ripgrep and regex — hits 1.0 on Jiff, a datetime library that actually handles time zones correctly and without footguns. The write-up is a masterclass in API design philosophy. If you've ever wrestled with chrono's quirks, Jiff is worth a serious look."
+    },
+    {
+      "title": "Building always-on agents | Claude by Anthropic",
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, devpro",
+      "blurb": "Anthropic's official guide to building persistent, always-on Claude agents — covering architecture patterns, tool use, memory strategies, and reliability considerations. If you're using Claude Code or building AI workflows, this is the reference doc you should read before your next agentic project. Straight from the source."
+    },
+    {
+      "title": "opencode",
+      "url": "https://opencode.ai/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: TOOLS, editors, coding, tui, terminal, cli, subject:cs.CL",
+      "blurb": "opencode is an open-source, terminal-first AI coding assistant with a TUI — think Claude Code vibes but fully open and hackable. It runs in your terminal, supports multiple LLM backends, and is built for developers who live in the CLI. A strong contender for Claude Code users who want more control over the stack."
+    },
+    {
+      "title": "AI Doesn't Have to Go Rogue to Break the World - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: artificial-intelligence, Security, katherine",
+      "blurb": "Schneier's most provocative argument yet: the real AI danger isn't rogue AGI, it's AIs hacking systems incidentally — not out of malice, but as a byproduct of optimization. He distinguishes three threat vectors and argues the third (autonomous, unintentional exploitation) is the most destabilizing and least discussed. Essential reading."
+    },
+    {
+      "title": "Watch a Brain Learn",
+      "url": "https://aatishb.com/myriad/how-brains-learn/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: rl, tolearn",
+      "blurb": "A stunning interactive visual explanation of reinforcement learning that shows, step by step, how a neural network's weights shift as it learns. Beautifully rendered and genuinely illuminating — the kind of explainer that makes abstract ML concepts click. Bookmark this for the next time you need to explain RL to anyone."
+    },
+    {
+      "title": "Kiri: a fast Docker Desktop alternative for Mac, Windows, Linux",
+      "url": "https://runkiri.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: docker, runtime",
+      "blurb": "Kiri positions itself as a leaner, faster Docker Desktop replacement that doesn't hog RAM or require a commercial license for large teams. Mac-native feel, works across platforms — exactly what developers frustrated by Docker Desktop's performance have been asking for. Worth a weekend trial."
+    },
+    {
+      "title": "The Home Repo Pattern",
+      "url": "https://www.aihero.dev/the-home-repo-pattern",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A practical pattern for organizing your AI agent workflows: one 'home repo' containing your AGENTS.md, shared prompts, skills, and pointers to all your other repos. If you use Claude Code across multiple projects, this is a lightweight convention that could save serious context-switching pain. Includes a copy-paste setup prompt."
+    },
+    {
+      "title": "What thousands of conversations look like inside a language model | Operator_0x",
+      "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: A-I, modeling, visualization, LLM",
+      "blurb": "A deep dive into visualizing the internal state space of a large language model across thousands of real conversations. The PCA/UMAP plots of conversation trajectories are genuinely revelatory — you can see topic clusters, emotional arcs, and instruction-following behaviors emerge geometrically. Essential for anyone reasoning about how LLMs actually process context."
+    },
+    {
+      "title": "Volume Mixer for Mac: Per-App Volume Control | Earmix",
+      "url": "https://earmix.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: mac, 调音",
+      "blurb": "Earmix brings Windows-style per-app volume mixing to macOS — including per-tab control in browsers, per-app audio output routing, EQ, and call ducking. One-time purchase, no subscription. If you've ever wanted to mute a specific tab or quietly dial down Spotify during a video call without touching the app, this is the tool."
+    },
+    {
+      "title": "Apple's Smart Glasses Strategy Hinges on Siri and iPhone Apps - MacRumors",
+      "url": "https://www.macrumors.com/2026/11/15/apple-smart-glasses-hinge-on-siri/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "MacRumors reports that Apple's smart glasses differentiation will live or die on Siri's ability to surface existing iPhone apps contextually — a very different bet than Meta's approach. The strategy leans on the app ecosystem Apple already owns rather than building new hardware-native experiences from scratch. Big implications for iOS developers."
+    },
+    {
+      "title": "iPhone Duo for Creative Pros — Austin Mann",
+      "url": "https://www.austinmann.com/trek/iphone-duo",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Austin Mann — the definitive iPhone camera reviewer — explores using two iPhones simultaneously as a creative dual-camera rig for professional photography and video. The workflow is more practical than it sounds, and the sample images are jaw-dropping. If you care about the iPhone as a serious creative tool, this is the deep-dive you want."
+    }
+  ]
+}
