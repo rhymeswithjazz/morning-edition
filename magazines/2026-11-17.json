@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-17",
+  "stories": [
+    {
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "hn_link": "https://news.ycombinator.com/item?id=50529612",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by craigmart · 158 points · 144 comments",
+      "blurb": "Direct from the Claude Code team, this post unpacks how they approach verifying AI-generated code — a core anxiety for anyone using it in production. If you're already running Claude Code, this is essential reading for calibrating how much trust to extend to your AI pair. The verification framing has real implications for agentic workflows and test coverage philosophy."
+    },
+    {
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "hn_link": "https://news.ycombinator.com/item?id=50524767",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by kristjansson · 572 points · 225 comments",
+      "blurb": "A supply-chain attack through Optimizely's CDN silently distributed malware to visitors of Zoom, GitLab, and other major sites — the kind of invisible compromise that most users never see. This is a canonical example of why third-party script hygiene and Content Security Policies matter. If your app loads any third-party JS, this thread is a wake-up call."
+    },
+    {
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "hn_link": "https://news.ycombinator.com/item?id=50522980",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "by pcompeau · 2097 points · 281 comments",
+      "blurb": "CMU is publishing full lecture videos for courses spanning algorithms, systems, ML, and more — no paywall, no account. This is a rare instance of a top-tier CS program treating education as a public good. Bookmark the index and mine it for the foundational concepts that AI tools can't yet replace."
+    },
+    {
+      "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+      "url": "https://support.apple.com/en-us/149699",
+      "hn_link": "https://news.ycombinator.com/item?id=50526560",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by jshier · 206 points · 111 comments",
+      "blurb": "Apple quietly published guidance on two of the most dangerous permissions a macOS app can request, and the timing — coinciding with the macOS 27.3 AI-app warnings — is no accident. If you install agentic AI tools on your Mac, understanding what Full Disk Access and System Protection Override actually unlock is non-negotiable security hygiene."
+    },
+    {
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50523601",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by lode · 683 points · 312 comments",
+      "blurb": "The 20-year-old shared-login service that helped millions dodge registration walls has quietly shut down, sparking a nostalgic HN thread about the early open web. Its closure is a marker of how much more aggressive tracking and authentication have become. A small piece of privacy infrastructure, gone."
+    },
+    {
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "hn_link": "https://news.ycombinator.com/item?id=50517321",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by Bender · 425 points · 315 comments",
+      "blurb": "A latent defect from a July patch sat dormant for months before triggering a massive Microsoft 365 email outage — a textbook complex-systems failure. The post-mortem is a useful case study in how regression bugs hide in large codebases. Relevant reading for anyone shipping .NET or Azure-dependent services."
+    },
+    {
+      "title": "What is the best harness for each model?",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "hn_link": "https://news.ycombinator.com/item?id=50532191",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Edward40 · 139 points · 63 comments",
+      "blurb": "FrontierHarness v1.1 benchmarks leading LLMs across coding, reasoning, and instruction-following tasks using standardized eval harnesses — and the results challenge some popular assumptions about which model wins in practice. If you're picking a model for Claude Code alternatives or backend AI integrations, this gives you data to work from. The methodology section is worth scrutinizing."
+    },
+    {
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "hn_link": "https://news.ycombinator.com/item?id=50519354",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by geerlingguy · 508 points · 375 comments",
+      "blurb": "TRMNL's new 31.5-inch color e-ink display is a wall-mounted dashboard for developers — slow refresh, ambient info, and an API for custom content. The HN thread goes deep on use cases from home automation dashboards to Obsidian-linked knowledge displays. E-ink at this scale is finally interesting."
+    },
+    {
+      "title": "Chemistry is Actually Geometry",
+      "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+      "hn_link": "https://news.ycombinator.com/item?id=50522643",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "by sebg · 309 points · 130 comments",
+      "blurb": "A beautifully argued post making the case that molecular chemistry is better understood as topology and geometry than as symbol-pushing — with implications for how we teach and model it computationally. The connection to geometric deep learning at the end ties this directly to current AI-for-science debates. Required reading if you think chemistry is just memorized tables."
+    },
+    {
+      "title": "Do Repeat Yourself",
+      "url": "https://arcentry.com/blog/do-repeat-yourself/",
+      "hn_link": "https://news.ycombinator.com/item?id=50516689",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by max_sendfeld · 141 points · 50 comments",
+      "blurb": "A sharp counter-argument to DRY orthodoxy: the author shows specific scenarios in Angular and TypeScript-style codebases where aggressive abstraction creates more coupling than the duplication it eliminates. The 'wrong abstraction is worse than duplication' thesis is well-argued with concrete examples. This will resonate if you've ever inherited a 12-layer abstract factory."
+    },
+    {
+      "title": "Ziggity is a Helpful Tool for Power Users Who Still Use Git Manually",
+      "url": "https://itsfoss.com/ziggity-git-client/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: TUI, git, ziggity, cli, versioncontrol, client, poweruser",
+      "blurb": "Ziggity is a TUI Git client that sits between raw CLI and GUI clients — keyboard-driven, fast, and aimed at developers who know Git well but want visual diff and staging without leaving the terminal. For a Claude Code + terminal workflow, this fills the gap nicely. Worth a 10-minute trial install."
+    },
+    {
+      "title": "macOS 27.3 Warns Against Giving AI Apps Full Mac Control - MacRumors",
+      "url": "https://www.macrumors.com/2026/11/16/macos-27-3-full-desk-access/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "macOS 27.3 ships a new system-level warning specifically targeting AI apps that request broad control permissions — a direct response to agentic tools like Claude Code and Cursor requesting elevated access. Apple is drawing a line in the sand around what automation can touch. This pairs directly with the Apple support document in today's issue."
+    },
+    {
+      "title": "iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades - MacRumors",
+      "url": "https://www.macrumors.com/2026/11/16/apple-icloud-paid-siri-ai-upgrade/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Apple is testing usage caps on free-tier Siri AI features while bundling more capabilities into iCloud+ — a freemium AI pivot that mirrors what Google and Microsoft have already done. The implications for Apple Intelligence's rollout strategy are significant. If you're in the Apple ecosystem, expect your AI usage to start appearing on your subscription bill."
+    },
+    {
+      "title": "Indie App Spotlight: 'Milton' lets you turn your old iPad into a home dashboard - 9to5Mac",
+      "url": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Milton is an indie iPad app that transforms any spare tablet into a customizable home dashboard — clocks, calendars, weather, and smart home widgets in a clean interface. Great repurposing story for old iPads collecting dust. Niche but genuinely useful, and the kind of thoughtful indie app the App Store still occasionally surfaces."
+    },
+    {
+      "title": "Kanso — A calm desktop task app",
+      "url": "https://kansotasks.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 任务管理",
+      "blurb": "Kanso is a local-first, distraction-free task manager built for desktop — no cloud sync required, no accounts, just a quiet place to keep your work. For Obsidian users who want a companion task tool that respects their data-ownership preferences, this is worth a look. The minimalist design philosophy is a deliberate contrast to Notion/Linear-style maximalism."
+    },
+    {
+      "title": "Italy fines Meta €805mn over photo privacy: authority",
+      "url": "https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: facebook, socialmedia, articles, italy, law, praiv",
+      "blurb": "Italy's data protection authority hit Meta with an €805M fine for accessing users' photos, videos, and metadata via the Android Facebook app without proper consent — one of the largest GDPR penalties yet. The technical detail here is key: it was metadata extraction, not just content access, that triggered the ruling. A precedent that will shape how apps handle device permissions."
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, nn, transformer, attention",
+      "blurb": "A from-first-principles reconstruction of the transformer architecture using the lens of associative memory — the argument is that every attention layer is fundamentally a memory lookup, not a novel mechanism. This kind of bottom-up derivation builds the intuition that makes debugging LLM behavior and prompt engineering feel less like magic. Genuinely clarifying."
+    },
+    {
+      "title": "Probabilistic data structures in Go",
+      "url": "https://antonz.org/probabilistic-data-structures/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: dataStructures, golang",
+      "blurb": "A practical, illustrated tour of Bloom filters, Count-Min sketches, HyperLogLog, and friends — with runnable Go examples throughout. Even if you don't write Go, the conceptual explanations are among the best concise treatments of these structures available. Directly applicable to any backend where you need fast approximate answers at scale."
+    },
+    {
+      "title": "How an AI Content Mill Put a Real Musician Through Copyright Hell",
+      "url": "https://www.404media.co/how-an-ai-content-mill-put-a-real-musician-through-copyright-hell/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A musician's cover of a public-domain Bulgarian folk song got hit with an automated copyright strike traced back to an AI content farm — and fighting it took months. This is a concrete, documented case of how AI-generated content ecosystems create real legal and economic harm for human creators. The systemic issue is bigger than any single case."
+    },
+    {
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites | The Verge",
+      "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "category": "Weird science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "ULA's Vulcan rocket suffered a catastrophic failure, destroying 40 Amazon Project Kuiper satellites and dealing a serious blow to Amazon's broadband constellation ambitions. The failure highlights the brutal economics of launch risk and sets back Amazon's attempt to compete with Starlink by years. The implications for satellite internet competition are significant."
+    }
+  ]
+}
