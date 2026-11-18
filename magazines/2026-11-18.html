@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 18, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 18, 2026.">
+<meta property="og:title" content="Morning Edition — November 18, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-18.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · November 18, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Java4Shell: RCE in OpenJDK when processing Base64</a></li>
+      <li><a href="#s2">Quad9&#x27;s withdrawal from France: A canary in the coal mine</a></li>
+      <li><a href="#s3">AI is killing All About Berlin</a></li>
+      <li><a href="#s4">Google&#x27;s AI answers reducing search traffic by 40%</a></li>
+      <li><a href="#s5">ID.me terms required for IRS sign-in</a></li>
+      <li><a href="#s6">Energy-Based Reasoners: 385x more efficient inference</a></li>
+      <li><a href="#s7">Pre-auth RCE in Nginx HTTP/2 handling</a></li>
+      <li><a href="#s8">Why is Gemini 4 Carbon taking so long?</a></li>
+      <li><a href="#s9">A Perfect SimCity</a></li>
+      <li><a href="#s10">Claude was trained on protein sequences at scale</a></li>
+      <li><a href="#s11">Building agents: When to fold subagents into your main agent loop | Claude by Anthropic</a></li>
+      <li><a href="#s12">I fix vibe-coded apps for a living, and they all have the same problems</a></li>
+      <li><a href="#s13">The nature of my job has completely changed</a></li>
+      <li><a href="#s14">Catching AI&#x27;s mistakes is a mental burden – and a drag on productivity</a></li>
+      <li><a href="#s15">OpenCode | Browse, your real browser for coding agents</a></li>
+      <li><a href="#s16">Clipen – Clipboard Manager for Mac with Clipboard History</a></li>
+      <li><a href="#s17">Search Browser — a fast, light web browser for the Mac</a></li>
+      <li><a href="#s18">Ductus · Your handwriting, as a font</a></li>
+      <li><a href="#s19">CutWire Drift — Free CapCut Alternative</a></li>
+      <li><a href="#s20">How Rust Changed Me As A Developer</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://calif.io/java4shell/">Java4Shell: RCE in OpenJDK when processing Base64</a></h3>
+    <div class="byline">by werrett · 1120 points · 308 comments</div>
+    <p class="blurb">AI-assisted security research firm Calif has uncovered a remote code execution vulnerability in OpenJDK triggered during Base64 processing — the second major language-runtime RCE they&#x27;ve found in weeks. With Java underpinning huge swathes of enterprise infrastructure, this is patch-now territory. The 308-comment HN thread is worth reading for scope and mitigation details.</p>
+    <div class="links">
+      <a href="https://calif.io/java4shell/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50538240">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.cloudflare.com/quad9-withdrawal-from-france/">Quad9&#x27;s withdrawal from France: A canary in the coal mine</a></h3>
+    <div class="byline">by subset · 844 points · 400 comments</div>
+    <p class="blurb">Cloudflare&#x27;s analysis of Quad9 being forced out of France by DNS-level piracy blocking legislation is a sharp warning about how privacy-respecting DNS resolvers are being weaponised as censorship chokepoints. The implications for privacy infrastructure globally are significant — and the 400-comment debate is one of the liveliest on HN today.</p>
+    <div class="links">
+      <a href="https://blog.cloudflare.com/quad9-withdrawal-from-france/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50538994">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://nicolasbouliane.com/blog/death-by-ai">AI is killing All About Berlin</a></h3>
+    <div class="byline">by grey-area · 677 points · 623 comments</div>
+    <p class="blurb">The creator of a beloved Berlin expat resource documents how AI-generated summaries and answer engines have gutted his traffic and, with it, his ability to maintain the site. A raw, first-person account of the information-ecosystem damage done when LLMs consume niche human expertise without attribution or compensation. The most-commented story on HN today.</p>
+    <div class="links">
+      <a href="https://nicolasbouliane.com/blog/death-by-ai">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50542705">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://revscope.co/blog/search-seo-geo-2026/">Google&#x27;s AI answers reducing search traffic by 40%</a></h3>
+    <div class="byline">by slashdev · 650 points · 496 comments</div>
+    <p class="blurb">Data-backed analysis showing Google&#x27;s AI Overviews have clawed back roughly 40% of outbound search clicks — confirming what many webmasters feared. If you run any kind of content property or rely on search-driven discovery, this is the new baseline to plan around.</p>
+    <div class="links">
+      <a href="https://revscope.co/blog/search-seo-geo-2026/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50540178">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in">ID.me terms required for IRS sign-in</a></h3>
+    <div class="byline">by DeepLogin · 459 points · 243 comments</div>
+    <p class="blurb">The IRS now funnels taxpayers through ID.me&#x27;s facial-recognition and data-brokering terms as a mandatory step for account access. Consumer-rights advocates have documented the specific problematic clauses — this is a privacy red flag that affects every American filing taxes online.</p>
+    <div class="links">
+      <a href="https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50540437">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://energy-based-reasoners.github.io/">Energy-Based Reasoners: 385x more efficient inference</a></h3>
+    <div class="byline">by frenchmajesty · 242 points · 36 comments</div>
+    <p class="blurb">Researchers propose a fundamentally different inference architecture that replaces autoregressive token prediction with energy minimisation, claiming 385× efficiency gains on reasoning tasks. If the numbers hold up under scrutiny, this could reshape the economics of running reasoning models locally — very relevant for anyone building AI-assisted workflows.</p>
+    <div class="links">
+      <a href="https://energy-based-reasoners.github.io/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50543989">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Pre-auth RCE in Nginx HTTP/2 handling</a></h3>
+    <div class="byline">by speedping · 237 points · 78 comments</div>
+    <p class="blurb">Wiz&#x27;s security team has detailed a pre-authentication remote code execution vulnerability in Nginx&#x27;s HTTP/2 stack — no credentials needed to compromise a server. Nginx powers a huge fraction of the web; check your versions and patch immediately.</p>
+    <div class="links">
+      <a href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50547374">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/">Why is Gemini 4 Carbon taking so long?</a></h3>
+    <div class="byline">by deenadz · 234 points · 122 comments</div>
+    <p class="blurb">A well-sourced technical post unpacking the engineering and supply-chain bottlenecks delaying Google&#x27;s next flagship model. Understanding the competitive dynamics here matters if you&#x27;re making tooling bets — Anthropic and OpenAI are benefiting from every month of delay.</p>
+    <div class="links">
+      <a href="https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50541790">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Creative software</span>
+    </div>
+    <h3><a href="https://www.jeffquast.com/post/a-perfect-simcity/">A Perfect SimCity</a></h3>
+    <div class="byline">by mariuz · 191 points · 82 comments</div>
+    <p class="blurb">An obsessive deep dive into achieving a mathematically optimal SimCity 1 city — complete with algorithmic analysis and tool-assisted play. It&#x27;s part retrocomputing love letter, part constraint-satisfaction puzzle, and entirely delightful.</p>
+    <div class="links">
+      <a href="https://www.jeffquast.com/post/a-perfect-simcity/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50504373">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/">Claude was trained on protein sequences at scale</a></h3>
+    <div class="byline">by gmays · 138 points · 62 comments</div>
+    <p class="blurb">A researcher&#x27;s findings that Claude Opus was trained on large-scale protein sequence data, surfacing unexpected cross-domain reasoning capabilities. This has real implications for how we think about emergent skills in large language models — and for anyone using Claude in scientific or biotech contexts.</p>
+    <div class="links">
+      <a href="http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50541619">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop">Building agents: When to fold subagents into your main agent loop | Claude by Anthropic</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Anthropic&#x27;s official guidance on agent architecture decisions — specifically when a subagent abstraction adds value versus when it creates unnecessary complexity. Essential reading for Claude Code users building multi-step agentic workflows.</p>
+    <div class="links">
+      <a href="https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.makeuseof.com/fix-vibe-coded-apps-for-a-living-and-these-mistakes-keep-coming-back/">I fix vibe-coded apps for a living, and they all have the same problems</a></h3>
+    <div class="byline">Pinboard Popular · tagged: vibe-coding, ai</div>
+    <p class="blurb">A developer who professionally debugs AI-generated codebases identifies four recurring failure patterns. If you&#x27;re using Claude Code or any coding assistant to ship production software, this is the checklist you need before you hand off.</p>
+    <div class="links">
+      <a href="https://www.makeuseof.com/fix-vibe-coded-apps-for-a-living-and-these-mistakes-keep-coming-back/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rachsmith.com/my-job-has-changed">The nature of my job has completely changed</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A developer&#x27;s candid reflection on how agentic coding tools have shifted their role from writer of code to reviewer and director of AI output. It&#x27;s a nuanced take — neither utopian nor dismissive — on what day-to-day work actually feels like now.</p>
+    <div class="links">
+      <a href="https://rachsmith.com/my-job-has-changed">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://theconversation.com/catching-ais-mistakes-is-a-mental-burden-and-a-drag-on-productivity-291748">Catching AI&#x27;s mistakes is a mental burden – and a drag on productivity</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, verification, burden, skill-swap</div>
+    <p class="blurb">Cognitive scientists put a name to the hidden cost of AI tools: the &#x27;verification burden&#x27; — the mental overhead of double-checking outputs that partially offsets productivity gains. The 1985 &#x27;responsibility-authority double bind&#x27; framing is sharp and directly applicable to anyone using AI coding assistants.</p>
+    <div class="links">
+      <a href="https://theconversation.com/catching-ais-mistakes-is-a-mental-burden-and-a-drag-on-productivity-291748">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://opencode.ai/product/browse">OpenCode | Browse, your real browser for coding agents</a></h3>
+    <div class="byline">Pinboard Popular · tagged: web, tools, ai, agents</div>
+    <p class="blurb">OpenCode&#x27;s Browse product gives coding agents an actual browser with full JS execution rather than a headless scraper — meaning agents can interact with SPAs, auth flows, and dynamic pages like a real user would. A meaningful upgrade for any agentic workflow that needs to navigate the modern web.</p>
+    <div class="links">
+      <a href="https://opencode.ai/product/browse">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://clipen.lovable.app/">Clipen – Clipboard Manager for Mac with Clipboard History</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, clipboard, manager, app</div>
+    <p class="blurb">A new macOS clipboard manager focused on a clean UI and persistent clipboard history. For heavy Obsidian and coding workflows where you&#x27;re constantly juggling snippets, a solid clipboard manager is table-stakes productivity infrastructure.</p>
+    <div class="links">
+      <a href="https://clipen.lovable.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">New Apple apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://searchbrowser.app/">Search Browser — a fast, light web browser for the Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, web, browser</div>
+    <p class="blurb">A purpose-built macOS browser optimised for search and research workflows rather than general browsing — think keyboard-first navigation and fast retrieval. Worth a look for developers who live in documentation and want something lighter than Chrome or Firefox.</p>
+    <div class="links">
+      <a href="https://searchbrowser.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Creative software</span>
+    </div>
+    <h3><a href="https://ductus.sorenblank.com/">Ductus · Your handwriting, as a font</a></h3>
+    <div class="byline">Pinboard Popular · tagged: font, handwriting</div>
+    <p class="blurb">Draw your letters directly in the browser and download a fully-formed OTF/WOFF2 font — no account, no upload, everything processed locally on your device. Privacy-respecting and genuinely fun; great for personalising Obsidian notes or creative projects.</p>
+    <div class="links">
+      <a href="https://ductus.sorenblank.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative software</span>
+    </div>
+    <h3><a href="https://cutwire.org/drift/">CutWire Drift — Free CapCut Alternative</a></h3>
+    <div class="byline">Pinboard Popular · tagged: video, editing, app, editor</div>
+    <p class="blurb">An open-source, cross-platform video editor with a multi-track timeline, auto-captions, effects, and cutouts — no subscription, no watermark, no account required. A timely CapCut replacement for anyone who wants full creative control without the data-harvesting baggage.</p>
+    <div class="links">
+      <a href="https://cutwire.org/drift/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://blog.startifact.com/posts/how-rust-changed-me/">How Rust Changed Me As A Developer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: rust, programming, architecture, bestpractices</div>
+    <p class="blurb">A thoughtful essay on how writing Rust rewires your instincts about ownership, error handling, and API design — lessons that transfer back into any language you pick up afterwards. The architecture and best-practices angle makes it relevant even if you never ship a Rust crate.</p>
+    <div class="links">
+      <a href="https://blog.startifact.com/posts/how-rust-changed-me/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

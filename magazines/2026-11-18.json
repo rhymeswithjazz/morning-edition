@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-18",
+  "stories": [
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "hn_link": "https://news.ycombinator.com/item?id=50538240",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by werrett · 1120 points · 308 comments",
+      "blurb": "AI-assisted security research firm Calif has uncovered a remote code execution vulnerability in OpenJDK triggered during Base64 processing — the second major language-runtime RCE they've found in weeks. With Java underpinning huge swathes of enterprise infrastructure, this is patch-now territory. The 308-comment HN thread is worth reading for scope and mitigation details."
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "hn_link": "https://news.ycombinator.com/item?id=50538994",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by subset · 844 points · 400 comments",
+      "blurb": "Cloudflare's analysis of Quad9 being forced out of France by DNS-level piracy blocking legislation is a sharp warning about how privacy-respecting DNS resolvers are being weaponised as censorship chokepoints. The implications for privacy infrastructure globally are significant — and the 400-comment debate is one of the liveliest on HN today."
+    },
+    {
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "hn_link": "https://news.ycombinator.com/item?id=50542705",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by grey-area · 677 points · 623 comments",
+      "blurb": "The creator of a beloved Berlin expat resource documents how AI-generated summaries and answer engines have gutted his traffic and, with it, his ability to maintain the site. A raw, first-person account of the information-ecosystem damage done when LLMs consume niche human expertise without attribution or compensation. The most-commented story on HN today."
+    },
+    {
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=50540178",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by slashdev · 650 points · 496 comments",
+      "blurb": "Data-backed analysis showing Google's AI Overviews have clawed back roughly 40% of outbound search clicks — confirming what many webmasters feared. If you run any kind of content property or rely on search-driven discovery, this is the new baseline to plan around."
+    },
+    {
+      "title": "ID.me terms required for IRS sign-in",
+      "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+      "hn_link": "https://news.ycombinator.com/item?id=50540437",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by DeepLogin · 459 points · 243 comments",
+      "blurb": "The IRS now funnels taxpayers through ID.me's facial-recognition and data-brokering terms as a mandatory step for account access. Consumer-rights advocates have documented the specific problematic clauses — this is a privacy red flag that affects every American filing taxes online."
+    },
+    {
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "url": "https://energy-based-reasoners.github.io/",
+      "hn_link": "https://news.ycombinator.com/item?id=50543989",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by frenchmajesty · 242 points · 36 comments",
+      "blurb": "Researchers propose a fundamentally different inference architecture that replaces autoregressive token prediction with energy minimisation, claiming 385× efficiency gains on reasoning tasks. If the numbers hold up under scrutiny, this could reshape the economics of running reasoning models locally — very relevant for anyone building AI-assisted workflows."
+    },
+    {
+      "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "hn_link": "https://news.ycombinator.com/item?id=50547374",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by speedping · 237 points · 78 comments",
+      "blurb": "Wiz's security team has detailed a pre-authentication remote code execution vulnerability in Nginx's HTTP/2 stack — no credentials needed to compromise a server. Nginx powers a huge fraction of the web; check your versions and patch immediately."
+    },
+    {
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "hn_link": "https://news.ycombinator.com/item?id=50541790",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by deenadz · 234 points · 122 comments",
+      "blurb": "A well-sourced technical post unpacking the engineering and supply-chain bottlenecks delaying Google's next flagship model. Understanding the competitive dynamics here matters if you're making tooling bets — Anthropic and OpenAI are benefiting from every month of delay."
+    },
+    {
+      "title": "A Perfect SimCity",
+      "url": "https://www.jeffquast.com/post/a-perfect-simcity/",
+      "hn_link": "https://news.ycombinator.com/item?id=50504373",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "by mariuz · 191 points · 82 comments",
+      "blurb": "An obsessive deep dive into achieving a mathematically optimal SimCity 1 city — complete with algorithmic analysis and tool-assisted play. It's part retrocomputing love letter, part constraint-satisfaction puzzle, and entirely delightful."
+    },
+    {
+      "title": "Claude was trained on protein sequences at scale",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "hn_link": "https://news.ycombinator.com/item?id=50541619",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 138 points · 62 comments",
+      "blurb": "A researcher's findings that Claude Opus was trained on large-scale protein sequence data, surfacing unexpected cross-domain reasoning capabilities. This has real implications for how we think about emergent skills in large language models — and for anyone using Claude in scientific or biotech contexts."
+    },
+    {
+      "title": "Building agents: When to fold subagents into your main agent loop | Claude by Anthropic",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Anthropic's official guidance on agent architecture decisions — specifically when a subagent abstraction adds value versus when it creates unnecessary complexity. Essential reading for Claude Code users building multi-step agentic workflows."
+    },
+    {
+      "title": "I fix vibe-coded apps for a living, and they all have the same problems",
+      "url": "https://www.makeuseof.com/fix-vibe-coded-apps-for-a-living-and-these-mistakes-keep-coming-back/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: vibe-coding, ai",
+      "blurb": "A developer who professionally debugs AI-generated codebases identifies four recurring failure patterns. If you're using Claude Code or any coding assistant to ship production software, this is the checklist you need before you hand off."
+    },
+    {
+      "title": "The nature of my job has completely changed",
+      "url": "https://rachsmith.com/my-job-has-changed",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A developer's candid reflection on how agentic coding tools have shifted their role from writer of code to reviewer and director of AI output. It's a nuanced take — neither utopian nor dismissive — on what day-to-day work actually feels like now."
+    },
+    {
+      "title": "Catching AI's mistakes is a mental burden – and a drag on productivity",
+      "url": "https://theconversation.com/catching-ais-mistakes-is-a-mental-burden-and-a-drag-on-productivity-291748",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, verification, burden, skill-swap",
+      "blurb": "Cognitive scientists put a name to the hidden cost of AI tools: the 'verification burden' — the mental overhead of double-checking outputs that partially offsets productivity gains. The 1985 'responsibility-authority double bind' framing is sharp and directly applicable to anyone using AI coding assistants."
+    },
+    {
+      "title": "OpenCode | Browse, your real browser for coding agents",
+      "url": "https://opencode.ai/product/browse",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: web, tools, ai, agents",
+      "blurb": "OpenCode's Browse product gives coding agents an actual browser with full JS execution rather than a headless scraper — meaning agents can interact with SPAs, auth flows, and dynamic pages like a real user would. A meaningful upgrade for any agentic workflow that needs to navigate the modern web."
+    },
+    {
+      "title": "Clipen – Clipboard Manager for Mac with Clipboard History",
+      "url": "https://clipen.lovable.app/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, clipboard, manager, app",
+      "blurb": "A new macOS clipboard manager focused on a clean UI and persistent clipboard history. For heavy Obsidian and coding workflows where you're constantly juggling snippets, a solid clipboard manager is table-stakes productivity infrastructure."
+    },
+    {
+      "title": "Search Browser — a fast, light web browser for the Mac",
+      "url": "https://searchbrowser.app/",
+      "category": "New Apple apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, web, browser",
+      "blurb": "A purpose-built macOS browser optimised for search and research workflows rather than general browsing — think keyboard-first navigation and fast retrieval. Worth a look for developers who live in documentation and want something lighter than Chrome or Firefox."
+    },
+    {
+      "title": "Ductus · Your handwriting, as a font",
+      "url": "https://ductus.sorenblank.com/",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: font, handwriting",
+      "blurb": "Draw your letters directly in the browser and download a fully-formed OTF/WOFF2 font — no account, no upload, everything processed locally on your device. Privacy-respecting and genuinely fun; great for personalising Obsidian notes or creative projects."
+    },
+    {
+      "title": "CutWire Drift — Free CapCut Alternative",
+      "url": "https://cutwire.org/drift/",
+      "category": "Creative software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: video, editing, app, editor",
+      "blurb": "An open-source, cross-platform video editor with a multi-track timeline, auto-captions, effects, and cutouts — no subscription, no watermark, no account required. A timely CapCut replacement for anyone who wants full creative control without the data-harvesting baggage."
+    },
+    {
+      "title": "How Rust Changed Me As A Developer",
+      "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rust, programming, architecture, bestpractices",
+      "blurb": "A thoughtful essay on how writing Rust rewires your instincts about ownership, error handling, and API design — lessons that transfer back into any language you pick up afterwards. The architecture and best-practices angle makes it relevant even if you never ship a Rust crate."
+    }
+  ]
+}
