@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-19",
+  "stories": [
+    {
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "hn_link": "https://news.ycombinator.com/item?id=50552424",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by yigitdemirag · 975 points · 740 comments",
+      "blurb": "Google's latest Gemini model lands with 975 points and 740 comments on HN — clearly the AI story of the day. Neon appears to be a faster, leaner variant tuned for real-time and agentic use cases, which makes it directly relevant to anyone building with coding assistants or AI workflows. Worth benchmarking against whatever you're currently running in Claude Code."
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "hn_link": "https://news.ycombinator.com/item?id=50553843",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 382 points · 722 comments",
+      "blurb": "The company behind Claude — and Claude Code — is going public. This is a watershed moment for the AI tools industry, with 722 comments worth of debate about what it means for pricing, safety priorities, and competitive dynamics. If you depend on Anthropic's APIs, now is the time to pay close attention."
+    },
+    {
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "hn_link": "https://news.ycombinator.com/item?id=50548021",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by gmays · 587 points · 368 comments",
+      "blurb": "Microsoft Ignite 2026 brings seven new AI models across the price-performance spectrum — big news for .NET developers already embedded in the Azure ecosystem. If you're building AI features in TypeScript or C#, the new tiered options could meaningfully change your cost-to-capability calculus. 368 comments means the developer community has a lot to say."
+    },
+    {
+      "title": "How the European Commission rolled out Matrix to more than 40k staff",
+      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+      "hn_link": "https://news.ycombinator.com/item?id=50558533",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by liotier · 508 points · 263 comments",
+      "blurb": "A detailed post-mortem on deploying an open, federated messaging protocol at massive government scale — a genuine privacy-and-sovereignty win. The engineering lessons here (identity, federation, change management) apply to any team tired of surrendering chat data to closed silos. A model for how large institutions can reclaim comms infrastructure."
+    },
+    {
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "url": "https://verialabs.com/ruby2shell/",
+      "hn_link": "https://news.ycombinator.com/item?id=50556287",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by jdns · 300 points · 124 comments",
+      "blurb": "A pre-authentication remote code execution exploit against stock Rails installations — no login required. Pairs with the GitLab 19.6.0 story below; if you're running any Ruby/Rails services, patch now. The technical writeup is thorough and the attack surface is surprisingly broad."
+    },
+    {
+      "title": "LLM assisted reverse engineering",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "hn_link": "https://news.ycombinator.com/item?id=50553225",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ioma8 · 289 points · 72 comments",
+      "blurb": "A practical walkthrough of using LLMs to decompile, annotate, and reason about binary code — the kind of AI-augmented workflow that's quietly transforming security research. The techniques translate directly to any situation where you're spelunking unfamiliar codebases. Essential reading for developers curious about the outer edge of what coding assistants can do."
+    },
+    {
+      "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+      "url": "https://kapteko.com/15-million-webservers/",
+      "hn_link": "https://news.ycombinator.com/item?id=50556533",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by fessguid · 298 points · 32 comments",
+      "blurb": "An audacious networking experiment: 15 million HTTP servers running concurrently on a single VM using userspace networking stacks. The write-up dives into smoltcp, DPDK, and AF_XDP in ways that illuminate how modern kernels handle packet I/O at scale. Even if you never need this, the systems thinking here is exhilarating."
+    },
+    {
+      "title": "Distributed, high-performance blob storage on SQLite",
+      "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "hn_link": "https://news.ycombinator.com/item?id=50557537",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by ghostfoxgod · 182 points · 49 comments",
+      "blurb": "Zerodha's engineering team built a distributed blob store on top of SQLite — an increasingly popular architectural pattern that keeps surprising people with how far it can scale. If you're wrestling with storage costs or complexity, this is a refreshingly pragmatic alternative to spinning up dedicated object storage. Great technical detail on replication and consistency."
+    },
+    {
+      "title": "UK Government Forced to Admit It Issued Apple a Secret Encryption Order",
+      "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "hn_link": "https://news.ycombinator.com/item?id=50562113",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by Terretta · 41 points · 8 comments",
+      "blurb": "The UK government has been compelled to publicly acknowledge it demanded backdoor access to Apple's encrypted data — a demand Apple reportedly refused. For anyone in the Apple/macOS ecosystem who relies on iCloud Advanced Data Protection, this is exactly the scenario those features were designed against. The legal precedent here will reverberate globally."
+    },
+    {
+      "title": "Garage Door Spam",
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "hn_link": "https://news.ycombinator.com/item?id=50519231",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by harrisonpage · 441 points · 198 comments",
+      "blurb": "A delightful deep-dive into spam arriving via smart garage door openers — a window into the surprisingly fragile security of IoT devices attached to your home. The author traces the full attack chain with wit and rigor. If you've got any smart home gear, the threat model here will make you think twice."
+    },
+    {
+      "title": "Java4Shell: Write once, RCE everywhere",
+      "url": "https://calif.io/java4shell",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: java, security, cve, ai",
+      "blurb": "The full technical writeup on Java4Shell — an AI-assisted discovery of a critical remote code execution vulnerability in Java, the platform underlying a huge swath of enterprise software. This is the companion piece to the NYT story on AI finding security bugs; the technical depth here is what matters. Any .NET or Java-adjacent developer should understand this exploit chain."
+    },
+    {
+      "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Google's Threat Intelligence Group reports that adversarial use of AI agents has crossed a meaningful threshold — attackers are now using agentic workflows, not just chatbots, to conduct reconnaissance and intrusions. If you're building agentic tools yourself (hello, Claude Code users), understanding how they're being weaponized is table stakes. Sobering and essential."
+    },
+    {
+      "title": "Introducing spatial CSS: A developer preview",
+      "url": "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: safari, css",
+      "blurb": "WebKit ships a developer preview of spatial CSS — a new API for working with 3D objects via the `<model>` element in Safari on visionOS. This is Apple laying the CSS groundwork for spatial computing, and Angular/TypeScript developers building for the web should start paying attention now before it goes stable. Early movers will have a real advantage."
+    },
+    {
+      "title": "AI Skills for UI by Emil Kowalski",
+      "url": "https://aiforui.dev/skills",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, skills, design",
+      "blurb": "A free, open-source collection of skills that teach AI agents to build better UIs — covering animation, gestures, and mobile polish. This is exactly the kind of prompt-engineering-meets-UI-craft resource that Angular/TypeScript developers working with AI coding tools need. Think of it as a skills library you can drop into any AI coding workflow."
+    },
+    {
+      "title": "Actual curl rewrites in rust",
+      "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rust, curl, foss, security",
+      "blurb": "Daniel Stenberg — curl's creator — weighs in on real-world Rust rewrites of curl, separating hype from practice. This is not a theoretical discussion; it's the person who knows the codebase best assessing what a memory-safe rewrite actually looks like in 2026. Essential context for any developer following the Rust-in-systems-software story."
+    },
+    {
+      "title": "On Leaving Swift for Rust | Marc Prud'hommeaux",
+      "url": "https://www.prux.org/posts/goodbye-swift-hello-rust/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: rust, swift, programming, languages, via:lobsters",
+      "blurb": "A Swift contributor who worked on cross-platform Swift tooling is switching to Rust — citing two damning reasons: LLMs are dramatically better at Rust, and Apple actively obstructs Swift's cross-platform story. For macOS developers watching the language ecosystem, this is a candid insider perspective worth reading before picking your next systems project."
+    },
+    {
+      "title": "Software is breaking down at a systemic level | Jimmy Breck-McKye",
+      "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: tech, true_dat",
+      "blurb": "A sharp, opinionated essay arguing that software reliability is degrading not just incrementally but systemically — supply chain complexity, AI-generated code, and dependency sprawl compounding into a fragility crisis. The timing, alongside the Java4Shell and Ruby2Shell stories today, makes this feel urgent. Required reading for any developer who cares about craft."
+    },
+    {
+      "title": "rows vs columns: how different are they, really? | spiral",
+      "url": "https://spiraldb.com/blog/rows-vs-columns",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: db, vectors",
+      "blurb": "A rigorous, benchmark-driven comparison of row-oriented vs. column-oriented storage that goes beyond the usual hand-wavy explanations. The post quantifies exactly when columnar formats win and by how much — actionable knowledge for anyone designing data pipelines or picking a storage backend. Surprisingly readable for a database internals post."
+    },
+    {
+      "title": "Free Font Alternatives to 202 Paid Typefaces, Measured",
+      "url": "https://fontsight.xyz/font-alternatives",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: tools, fonts",
+      "blurb": "An empirically measured guide to free alternatives for 202 commercial typefaces — not just vibes-based recommendations, but actual similarity scores. Invaluable for developers and designers who want to drop font licensing costs without sacrificing fidelity. Bookmark this before your next project kicks off."
+    },
+    {
+      "title": "How to Mock API Responses in Chrome DevTools",
+      "url": "https://chromeweekly.substack.com/p/how-to-mock-api-responses-in-chrome",
+      "category": "Actionable",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: chrome-devtools, debugging, JavaScript",
+      "blurb": "A concise walkthrough of Chrome DevTools' built-in API mocking capabilities — no extra tooling required. For Angular/TypeScript developers who normally reach for a mock server or proxy, this is a faster in-browser alternative you can use today. The kind of practical tip that immediately improves your daily debugging flow."
+    }
+  ]
+}
