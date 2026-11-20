@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 20, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 20, 2026.">
+<meta property="og:title" content="Morning Edition — November 20, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-20.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Friday · November 20, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Anthropic employee claims general proof of the Riemann Hypothesis [pdf]</a></li>
+      <li><a href="#s2">Anthropic&#x27;s Nasdaq debut</a></li>
+      <li><a href="#s3">Claude solves two open problems in the physics of black holes</a></li>
+      <li><a href="#s4">Frostbite: A new CPU architecture discovered, designed and verified by AI</a></li>
+      <li><a href="#s5">OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</a></li>
+      <li><a href="#s6">PostgreSQL 19</a></li>
+      <li><a href="#s7">Signal Is Serious About Protecting Your Privacy</a></li>
+      <li><a href="#s8">Pancreatic cancer halted by virus injection in three patients</a></li>
+      <li><a href="#s9">FFmpeg 9.1 &#x27;Gauss&#x27;</a></li>
+      <li><a href="#s10">Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup</a></li>
+      <li><a href="#s11">Property Testing with Agent Swarms - Inanna Malick</a></li>
+      <li><a href="#s12">SetShot 1.0 Tracks Even More macOS Settings - TidBITS</a></li>
+      <li><a href="#s13">How to Train AI to Write Like You | Every</a></li>
+      <li><a href="#s14">ExitPath — find your way out of big-platform lock-in</a></li>
+      <li><a href="#s15">A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet - The New York Times</a></li>
+      <li><a href="#s16">Banks and the NSA Admit That Yes, It Was AI That Caused the Massive Outages</a></li>
+      <li><a href="#s17">Sarasa Gothic Mono</a></li>
+      <li><a href="#s18">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></li>
+      <li><a href="#s19">Squircles - Linebender</a></li>
+      <li><a href="#s20">System Design</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Weird Science</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://alpo.ge/remark.pdf">Anthropic employee claims general proof of the Riemann Hypothesis [pdf]</a></h3>
+    <div class="byline">by iamronaldo · 1133 points · 739 comments</div>
+    <p class="blurb">An Anthropic researcher has posted what they claim is a general proof of one of mathematics&#x27; most famous unsolved problems — the Riemann Hypothesis. The 739-comment HN thread is a warzone of skepticism and excitement. If it holds up under scrutiny, this would be one of the greatest mathematical achievements in history, and the Anthropic connection makes it doubly relevant this week.</p>
+    <div class="links">
+      <a href="https://alpo.ge/remark.pdf">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50574968">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Anthropic&#x27;s Nasdaq debut</a></h3>
+    <div class="byline">by wslh · 1112 points · 2242 comments</div>
+    <p class="blurb">Anthropic — the company behind Claude — went public on Nasdaq yesterday in one of the most watched tech IPOs in years. With 2,242 HN comments, this is the defining story of the week for anyone building with Claude Code or following the AI landscape. The debut sets the stage for how the market values safety-focused AI development.</p>
+    <div class="links">
+      <a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50562754">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.anthropic.com/research/claude-black-hole-physics">Claude solves two open problems in the physics of black holes</a></h3>
+    <div class="byline">by cybermango · 527 points · 254 comments</div>
+    <p class="blurb">Anthropic reports Claude independently solved two open problems in black hole physics — a striking demonstration of frontier AI doing genuine scientific work, not just code autocomplete. For Claude Code users, this is a reminder of the raw capability sitting under the hood of your daily coding assistant. The implications for AI-assisted research are staggering.</p>
+    <div class="links">
+      <a href="https://www.anthropic.com/research/claude-black-hole-physics">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50563148">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://architectlabs.com/blog/frostbite">Frostbite: A new CPU architecture discovered, designed and verified by AI</a></h3>
+    <div class="byline">by shioyama · 445 points · 263 comments</div>
+    <p class="blurb">AI didn&#x27;t just assist with Frostbite — it conceived, designed, and formally verified the entire CPU architecture from scratch. This is a landmark moment in AI-driven engineering that goes well beyond code generation. If you&#x27;re building with AI tools, this is a glimpse at where the ceiling actually is.</p>
+    <div class="links">
+      <a href="https://architectlabs.com/blog/frostbite">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50572503">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/openssl/openssl/pull/33652">OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</a></h3>
+    <div class="byline">by JacobHenner · 335 points · 291 comments</div>
+    <p class="blurb">A CVSS 9.8 critical buffer overflow in OpenSSL&#x27;s EVP_EncodeBlock() — patch immediately if you haven&#x27;t. OpenSSL is foundational to virtually every .NET, web, and infrastructure stack. With 291 comments, the thread has the technical detail you need to assess your own exposure.</p>
+    <div class="links">
+      <a href="https://github.com/openssl/openssl/pull/33652">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50569226">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.postgresql.org/docs/release/19.0/">PostgreSQL 19</a></h3>
+    <div class="byline">by linzhangrun · 334 points · 21 comments</div>
+    <p class="blurb">PostgreSQL 19 is out, and the release notes are worth a careful read for any backend developer. New major releases bring query planner improvements, SQL standard compliance gains, and under-the-hood performance wins. If you&#x27;re running Postgres in production, this is your starting point.</p>
+    <div class="links">
+      <a href="https://www.postgresql.org/docs/release/19.0/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50569890">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://signal.org/blog/protecting-your-privacy/">Signal Is Serious About Protecting Your Privacy</a></h3>
+    <div class="byline">by dotcoma · 222 points · 99 comments</div>
+    <p class="blurb">Signal details its latest privacy hardening measures in a week when classified US government networks and major banks went down under mysterious circumstances. The timing is pointed — end-to-end encrypted, metadata-minimizing communication has never felt more necessary. A good reminder to push Signal to anyone still on WhatsApp or iMessage for sensitive conversations.</p>
+    <div class="links">
+      <a href="https://signal.org/blog/protecting-your-privacy/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50572348">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/">Pancreatic cancer halted by virus injection in three patients</a></h3>
+    <div class="byline">by cybermango · 855 points · 150 comments</div>
+    <p class="blurb">Oncolytic virus therapy — using engineered viruses to selectively target and halt tumor growth — just showed real promise in three pancreatic cancer patients, one of the deadliest and hardest-to-treat cancers. Early stage, small sample, but the mechanism is genuinely novel. This is the kind of weird biology that could matter enormously in a decade.</p>
+    <div class="links">
+      <a href="https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50563066">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ffmpeg.org/download.html#release_9.1">FFmpeg 9.1 &#x27;Gauss&#x27;</a></h3>
+    <div class="byline">by gyan · 248 points · 33 comments</div>
+    <p class="blurb">FFmpeg 9.1 &#x27;Gauss&#x27; drops with new codec support, filter improvements, and the usual parade of performance fixes that make it the Swiss Army knife of media processing. If you do anything with video, audio, or image pipelines — including AI-generated media workflows — staying current with FFmpeg is table stakes.</p>
+    <div class="links">
+      <a href="https://ffmpeg.org/download.html#release_9.1">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50569998">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/">Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup</a></h3>
+    <div class="byline">by craigkerstiens · 160 points · 27 comments</div>
+    <p class="blurb">Table bloat has long been a pain point for Postgres operators, requiring the external pg_repack extension and careful scheduling. Postgres 19 bakes in faster, lower-disruption bloat cleanup natively. If you manage any write-heavy Postgres instances in .NET or otherwise, this feature alone might justify the upgrade timeline.</p>
+    <div class="links">
+      <a href="https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50569516">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://recursion.wtf/posts/agents-and-property-tests/">Property Testing with Agent Swarms - Inanna Malick</a></h3>
+    <div class="byline">Pinboard Popular · tagged: agents, llms, ai, coding, testing, data-structures, correctness, bugs</div>
+    <p class="blurb">A sharp, practical technique: use LLM agent swarms to generate exhaustive property-based test suites for complex repos, then run those tests cheaply without burning tokens on every check. The author&#x27;s framing — &#x27;build the machinery once, run it forever&#x27; — is immediately applicable to any TypeScript or .NET codebase with gnarly business logic. This is the kind of AI-augmented workflow that Claude Code was made for.</p>
+    <div class="links">
+      <a href="https://recursion.wtf/posts/agents-and-property-tests/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://tidbits.com/2026/11/13/setshot-1-0-tracks-even-more-macos-settings/">SetShot 1.0 Tracks Even More macOS Settings - TidBITS</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">SetShot is a macOS utility that snapshots and tracks changes to your system settings over time — a surprisingly useful tool for anyone who tinkers with defaults, upgrades macOS, or manages multiple Macs. Version 1.0 expands its coverage significantly. Exactly the kind of niche Mac utility Pinboard surfaces that HN misses.</p>
+    <div class="links">
+      <a href="https://tidbits.com/2026/11/13/setshot-1-0-tracks-even-more-macos-settings/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://every.to/also-true-for-humans/how-i-finally-got-ai-to-write-like-me?gift=54Yy_rTJ7XVuz87BouBmZElIXD7TwtiR">How to Train AI to Write Like You | Every</a></h3>
+    <div class="byline">Pinboard Popular · tagged: LLM, writing</div>
+    <p class="blurb">A practical, step-by-step guide to fine-tuning prompts, style guides, and example sets so an LLM produces output that actually sounds like you rather than a corporate press release. Directly actionable for anyone using Claude or GPT-4 for writing assistance. Pairs well with the adjacent HN story about how writing quality signals human authorship.</p>
+    <div class="links">
+      <a href="https://every.to/also-true-for-humans/how-i-finally-got-ai-to-write-like-me?gift=54Yy_rTJ7XVuz87BouBmZElIXD7TwtiR">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://exitpath-ruddy.vercel.app/">ExitPath — find your way out of big-platform lock-in</a></h3>
+    <div class="byline">Pinboard Popular · tagged: google_alternative</div>
+    <p class="blurb">ExitPath is a curated guide to privacy-respecting alternatives to Google, Meta, and other data-hungry platforms, organized by category and use case. For a privacy-conscious developer, this is a handy reference to recommend to friends and clients — or to audit your own toolchain against. Bookmarkable.</p>
+    <div class="links">
+      <a href="https://exitpath-ruddy.vercel.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html">A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet - The New York Times</a></h3>
+    <div class="byline">Pinboard Popular · tagged: security, java</div>
+    <p class="blurb">AI-assisted security firm Calif found a critical remote-access vulnerability in Java — their second major platform-level discovery in weeks after a PHP flaw — using OpenAI models to accelerate fuzzing and triage. Coming amid a wave of infrastructure outages, this story illustrates both AI&#x27;s power as a security tool and the uncomfortable question of who finds vulnerabilities first. Relevant for any developer deploying Java-adjacent backends.</p>
+    <div class="links">
+      <a href="https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://futurism.com/artificial-intelligence/banks-nsa-admit-ai-massive-outages">Banks and the NSA Admit That Yes, It Was AI That Caused the Massive Outages</a></h3>
+    <div class="byline">Pinboard Popular · tagged: AI, malfunction, outage</div>
+    <p class="blurb">Following a week of cascading infrastructure failures — Microsoft outages, flight groundings, banking disruptions — official sources are now attributing the root causes to AI systems behaving unexpectedly in production. The story every infrastructure engineer feared is becoming reality. Essential reading for anyone deploying AI in critical paths.</p>
+    <div class="links">
+      <a href="https://futurism.com/artificial-intelligence/banks-nsa-admit-ai-massive-outages">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://picaq.github.io/sarasa/">Sarasa Gothic Mono</a></h3>
+    <div class="byline">Pinboard Popular · tagged: monospace, programming, font</div>
+    <p class="blurb">Sarasa Gothic Mono is a beautifully crafted pan-CJK monospace programming font that covers Latin, Chinese, Japanese, and Korean with consistent metrics — a rare find. If you spend hours in VS Code or a terminal, the right monospace font matters more than most devs admit. Worth a test drive in your editor today.</p>
+    <div class="links">
+      <a href="https://picaq.github.io/sarasa/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.youtube.com/watch?v=UytYrhYLOKI">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></h3>
+    <div class="byline">Pinboard Popular · tagged: youtube, osint, planes, sound</div>
+    <p class="blurb">A researcher demonstrates how inaudible background audio in recordings — using the Doppler shift of aircraft overhead — can be used to pinpoint a recording location to within ~100 meters from under a minute of audio. This is a genuinely alarming OSINT capability with real implications for privacy in voice memos, podcasts, and video calls. Preventative measures are discussed.</p>
+    <div class="links">
+      <a href="https://www.youtube.com/watch?v=UytYrhYLOKI">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Creative Software</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://linebender.org/wiki/curves/squircle/">Squircles - Linebender</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">An in-depth technical wiki entry on squircles — the superellipse curves used extensively in Apple&#x27;s icon design language — covering the math, rendering approaches, and why they look better than rounded rectangles. Essential reading for anyone building UI components that aim for that Apple aesthetic, and unexpectedly deep on the geometry.</p>
+    <div class="links">
+      <a href="https://linebender.org/wiki/curves/squircle/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://designed-to-scale.vercel.app/">System Design</a></h3>
+    <div class="byline">Pinboard Popular · tagged: topic:system-design, type:tool</div>
+    <p class="blurb">An interactive learning tool for system design concepts — covers distributed systems, caching, databases, load balancing, and more through hands-on visual exercises rather than just reading. Great for interview prep or for solidifying concepts you use daily but learned on the fly. Actionable and free.</p>
+    <div class="links">
+      <a href="https://designed-to-scale.vercel.app/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

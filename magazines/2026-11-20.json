@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-20",
+  "stories": [
+    {
+      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=50574968",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "by iamronaldo · 1133 points · 739 comments",
+      "blurb": "An Anthropic researcher has posted what they claim is a general proof of one of mathematics' most famous unsolved problems — the Riemann Hypothesis. The 739-comment HN thread is a warzone of skepticism and excitement. If it holds up under scrutiny, this would be one of the greatest mathematical achievements in history, and the Anthropic connection makes it doubly relevant this week."
+    },
+    {
+      "title": "Anthropic's Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "hn_link": "https://news.ycombinator.com/item?id=50562754",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by wslh · 1112 points · 2242 comments",
+      "blurb": "Anthropic — the company behind Claude — went public on Nasdaq yesterday in one of the most watched tech IPOs in years. With 2,242 HN comments, this is the defining story of the week for anyone building with Claude Code or following the AI landscape. The debut sets the stage for how the market values safety-focused AI development."
+    },
+    {
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "hn_link": "https://news.ycombinator.com/item?id=50563148",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by cybermango · 527 points · 254 comments",
+      "blurb": "Anthropic reports Claude independently solved two open problems in black hole physics — a striking demonstration of frontier AI doing genuine scientific work, not just code autocomplete. For Claude Code users, this is a reminder of the raw capability sitting under the hood of your daily coding assistant. The implications for AI-assisted research are staggering."
+    },
+    {
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "hn_link": "https://news.ycombinator.com/item?id=50572503",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by shioyama · 445 points · 263 comments",
+      "blurb": "AI didn't just assist with Frostbite — it conceived, designed, and formally verified the entire CPU architecture from scratch. This is a landmark moment in AI-driven engineering that goes well beyond code generation. If you're building with AI tools, this is a glimpse at where the ceiling actually is."
+    },
+    {
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "hn_link": "https://news.ycombinator.com/item?id=50569226",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by JacobHenner · 335 points · 291 comments",
+      "blurb": "A CVSS 9.8 critical buffer overflow in OpenSSL's EVP_EncodeBlock() — patch immediately if you haven't. OpenSSL is foundational to virtually every .NET, web, and infrastructure stack. With 291 comments, the thread has the technical detail you need to assess your own exposure."
+    },
+    {
+      "title": "PostgreSQL 19",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "hn_link": "https://news.ycombinator.com/item?id=50569890",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by linzhangrun · 334 points · 21 comments",
+      "blurb": "PostgreSQL 19 is out, and the release notes are worth a careful read for any backend developer. New major releases bring query planner improvements, SQL standard compliance gains, and under-the-hood performance wins. If you're running Postgres in production, this is your starting point."
+    },
+    {
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "hn_link": "https://news.ycombinator.com/item?id=50572348",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by dotcoma · 222 points · 99 comments",
+      "blurb": "Signal details its latest privacy hardening measures in a week when classified US government networks and major banks went down under mysterious circumstances. The timing is pointed — end-to-end encrypted, metadata-minimizing communication has never felt more necessary. A good reminder to push Signal to anyone still on WhatsApp or iMessage for sensitive conversations."
+    },
+    {
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "hn_link": "https://news.ycombinator.com/item?id=50563066",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by cybermango · 855 points · 150 comments",
+      "blurb": "Oncolytic virus therapy — using engineered viruses to selectively target and halt tumor growth — just showed real promise in three pancreatic cancer patients, one of the deadliest and hardest-to-treat cancers. Early stage, small sample, but the mechanism is genuinely novel. This is the kind of weird biology that could matter enormously in a decade."
+    },
+    {
+      "title": "FFmpeg 9.1 'Gauss'",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "hn_link": "https://news.ycombinator.com/item?id=50569998",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by gyan · 248 points · 33 comments",
+      "blurb": "FFmpeg 9.1 'Gauss' drops with new codec support, filter improvements, and the usual parade of performance fixes that make it the Swiss Army knife of media processing. If you do anything with video, audio, or image pipelines — including AI-generated media workflows — staying current with FFmpeg is table stakes."
+    },
+    {
+      "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "hn_link": "https://news.ycombinator.com/item?id=50569516",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by craigkerstiens · 160 points · 27 comments",
+      "blurb": "Table bloat has long been a pain point for Postgres operators, requiring the external pg_repack extension and careful scheduling. Postgres 19 bakes in faster, lower-disruption bloat cleanup natively. If you manage any write-heavy Postgres instances in .NET or otherwise, this feature alone might justify the upgrade timeline."
+    },
+    {
+      "title": "Property Testing with Agent Swarms - Inanna Malick",
+      "url": "https://recursion.wtf/posts/agents-and-property-tests/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agents, llms, ai, coding, testing, data-structures, correctness, bugs",
+      "blurb": "A sharp, practical technique: use LLM agent swarms to generate exhaustive property-based test suites for complex repos, then run those tests cheaply without burning tokens on every check. The author's framing — 'build the machinery once, run it forever' — is immediately applicable to any TypeScript or .NET codebase with gnarly business logic. This is the kind of AI-augmented workflow that Claude Code was made for."
+    },
+    {
+      "title": "SetShot 1.0 Tracks Even More macOS Settings - TidBITS",
+      "url": "https://tidbits.com/2026/11/13/setshot-1-0-tracks-even-more-macos-settings/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "SetShot is a macOS utility that snapshots and tracks changes to your system settings over time — a surprisingly useful tool for anyone who tinkers with defaults, upgrades macOS, or manages multiple Macs. Version 1.0 expands its coverage significantly. Exactly the kind of niche Mac utility Pinboard surfaces that HN misses."
+    },
+    {
+      "title": "How to Train AI to Write Like You | Every",
+      "url": "https://every.to/also-true-for-humans/how-i-finally-got-ai-to-write-like-me?gift=54Yy_rTJ7XVuz87BouBmZElIXD7TwtiR",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: LLM, writing",
+      "blurb": "A practical, step-by-step guide to fine-tuning prompts, style guides, and example sets so an LLM produces output that actually sounds like you rather than a corporate press release. Directly actionable for anyone using Claude or GPT-4 for writing assistance. Pairs well with the adjacent HN story about how writing quality signals human authorship."
+    },
+    {
+      "title": "ExitPath — find your way out of big-platform lock-in",
+      "url": "https://exitpath-ruddy.vercel.app/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: google_alternative",
+      "blurb": "ExitPath is a curated guide to privacy-respecting alternatives to Google, Meta, and other data-hungry platforms, organized by category and use case. For a privacy-conscious developer, this is a handy reference to recommend to friends and clients — or to audit your own toolchain against. Bookmarkable."
+    },
+    {
+      "title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: security, java",
+      "blurb": "AI-assisted security firm Calif found a critical remote-access vulnerability in Java — their second major platform-level discovery in weeks after a PHP flaw — using OpenAI models to accelerate fuzzing and triage. Coming amid a wave of infrastructure outages, this story illustrates both AI's power as a security tool and the uncomfortable question of who finds vulnerabilities first. Relevant for any developer deploying Java-adjacent backends."
+    },
+    {
+      "title": "Banks and the NSA Admit That Yes, It Was AI That Caused the Massive Outages",
+      "url": "https://futurism.com/artificial-intelligence/banks-nsa-admit-ai-massive-outages",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: AI, malfunction, outage",
+      "blurb": "Following a week of cascading infrastructure failures — Microsoft outages, flight groundings, banking disruptions — official sources are now attributing the root causes to AI systems behaving unexpectedly in production. The story every infrastructure engineer feared is becoming reality. Essential reading for anyone deploying AI in critical paths."
+    },
+    {
+      "title": "Sarasa Gothic Mono",
+      "url": "https://picaq.github.io/sarasa/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: monospace, programming, font",
+      "blurb": "Sarasa Gothic Mono is a beautifully crafted pan-CJK monospace programming font that covers Latin, Chinese, Japanese, and Korean with consistent metrics — a rare find. If you spend hours in VS Code or a terminal, the right monospace font matters more than most devs admit. Worth a test drive in your editor today."
+    },
+    {
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: youtube, osint, planes, sound",
+      "blurb": "A researcher demonstrates how inaudible background audio in recordings — using the Doppler shift of aircraft overhead — can be used to pinpoint a recording location to within ~100 meters from under a minute of audio. This is a genuinely alarming OSINT capability with real implications for privacy in voice memos, podcasts, and video calls. Preventative measures are discussed."
+    },
+    {
+      "title": "Squircles - Linebender",
+      "url": "https://linebender.org/wiki/curves/squircle/",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "An in-depth technical wiki entry on squircles — the superellipse curves used extensively in Apple's icon design language — covering the math, rendering approaches, and why they look better than rounded rectangles. Essential reading for anyone building UI components that aim for that Apple aesthetic, and unexpectedly deep on the geometry."
+    },
+    {
+      "title": "System Design",
+      "url": "https://designed-to-scale.vercel.app/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: topic:system-design, type:tool",
+      "blurb": "An interactive learning tool for system design concepts — covers distributed systems, caching, databases, load balancing, and more through hands-on visual exercises rather than just reading. Great for interview prep or for solidifying concepts you use daily but learned on the fly. Actionable and free."
+    }
+  ]
+}
