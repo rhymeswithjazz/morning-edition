@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-21",
+  "stories": [
+    {
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "hn_link": "https://news.ycombinator.com/item?id=50579568",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by jasondavies · 2272 points · 1076 comments",
+      "blurb": "The top HN story of the day: a mathematician named Alessandro Masullo claims a proof of the Generalized Riemann Hypothesis, one of the most coveted prizes in all of mathematics. With 2272 points and over 1000 comments, the community is in full scrutiny mode. Pair with Scott Aaronson's skeptical take and the Lean verification thread for the full picture."
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "hn_link": "https://news.ycombinator.com/item?id=50577265",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by lwhsiao · 450 points · 132 comments",
+      "blurb": "A new paper proposes that LLMs can directly modify their own parameters — not just their context — opening a genuinely new frontier in self-improving AI. This is the kind of research that makes AI safety researchers nervous and AI builders excited. Essential reading if you're thinking about where coding assistants like Claude Code are headed."
+    },
+    {
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "hn_link": "https://news.ycombinator.com/item?id=50581084",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by stratos123 · 323 points · 291 comments",
+      "blurb": "Scott Aaronson weighs in on the Masullo/AI-assisted Riemann Hypothesis claim with his trademark blend of rigor and wit. His post cuts through the hype to ask the real question: did AI actually contribute to mathematics here, or is this a human proof with AI scaffolding? Required reading alongside the primary announcement."
+    },
+    {
+      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "hn_link": "https://news.ycombinator.com/item?id=50581110",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by facundo_olano · 254 points · 102 comments",
+      "blurb": "The author of the definitive Emacs guide is back with DreamCoder, a new coding harness and IDE concept built around deep editor integration. If you're the kind of developer who thinks carefully about your tools — and you use Claude Code — this is worth a close look. Could influence how agentic coding environments evolve."
+    },
+    {
+      "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "url": "https://kobi.music/research/dettato",
+      "hn_link": "https://news.ycombinator.com/item?id=50526023",
+      "category": "Creative Software",
+      "applies": true,
+      "byline": "by hidude562 · 288 points · 65 comments",
+      "blurb": "A solo developer slashed the compute cost of audio-to-MIDI transcription by 60x without sacrificing quality — a massive win for musicians and creative coders who want to work with AI-driven music tools locally. This is the kind of efficiency breakthrough that moves a capability from cloud-only to run-on-your-Mac. Very actionable for music+code experimenters."
+    },
+    {
+      "title": "Slopstrap – Make your site look hastily vibecoded",
+      "url": "https://slopstrap.mikelacher.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50576012",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by mlacher · 437 points · 74 comments",
+      "blurb": "A satirical CSS framework that makes your polished website look like it was thrown together by an AI in 20 minutes. It's funny, it's sharp, and it perfectly captures the cultural anxiety around vibe-coding. Drop it on your next side project and watch the knowing laughs roll in."
+    },
+    {
+      "title": "RCE in Gnupg",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50587208",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gdgghhhhh · 137 points · 46 comments",
+      "blurb": "A remote code execution vulnerability in GnuPG — the backbone of encrypted email, signed commits, and package verification for millions of developers. If you sign git commits or use GPG anywhere in your toolchain, patch immediately. This is not a drill."
+    },
+    {
+      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+      "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+      "hn_link": "https://news.ycombinator.com/item?id=50534387",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by reconditerose · 170 points · 60 comments",
+      "blurb": "The Redis fork Valkey just replaced its sorted set skiplist implementation with a B+ tree, cutting memory overhead by up to 43% and improving cache locality. A deep, well-written engineering post that explains exactly why the data structure swap pays off. If you use Redis/Valkey for leaderboards, rate limiting, or time-series data, this matters."
+    },
+    {
+      "title": "My Monitor Was Cutting My Download Speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "hn_link": "https://news.ycombinator.com/item?id=50587875",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by soheilpro · 188 points · 75 comments",
+      "blurb": "A developer discovers that routing ethernet through an Apple Studio Display's USB-C hub was mysteriously capping their connection at 25% of full speed. This is exactly the kind of surprising Mac hardware quirk that affects real workflows — the investigation and fix are both satisfying and immediately actionable for Studio Display owners."
+    },
+    {
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "hn_link": "https://news.ycombinator.com/item?id=50579297",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by ankitvgupta · 165 points · 67 comments",
+      "blurb": "An engineer uses AI-assisted coding to design a custom inference accelerator chip — hardware, not software. It's a vivid demonstration of how far vibe-coding has extended beyond web apps into domains that used to require deep specialist expertise. Wild, instructive, and a little terrifying."
+    },
+    {
+      "title": "How the Claude Code team does code review / claude.dev Blog",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, llm, claude, agentic_ai, platform_engineering, git",
+      "blurb": "Straight from the source: how the team that builds Claude Code uses Claude Code for their own code review workflow. Meta and practical at the same time — you'll find concrete patterns here you can steal for your own git workflow today. Essential reading if Claude Code is already part of your stack."
+    },
+    {
+      "title": "interfere-inc/landmines: Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
+      "url": "https://github.com/interfere-inc/landmines",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, effect, testing, linting, 2try",
+      "blurb": "A set of Oxlint rules specifically designed to catch the bad habits AI coding assistants introduce — fake implementations, masked failures, and flaky test patterns. If you're using Claude Code or any AI coding assistant on a TypeScript codebase, this is a defensive layer you should evaluate now. Add it to your CI and see what shakes out."
+    },
+    {
+      "title": "Fotilo — Mac screenshots ready to send, recordings ready to post",
+      "url": "https://fotilo.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 截图",
+      "blurb": "A polished macOS screenshot and screen recording app that leans heavily on on-device AI: instant markup, text redaction, auto-captions, and voice dubbing — all without leaving your Mac. The \"everything stays on your Mac\" privacy angle is a genuine differentiator in a category dominated by cloud-upload tools. Worth a look if you do any screencasting or documentation."
+    },
+    {
+      "title": "NotiVacation",
+      "url": "https://lexfriedman.com/notivacation/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A tiny macOS utility that solves the annoying problem of notification banners covering your browser tabs and toolbar buttons in the top-right corner of the screen. It's a micro-app with a very specific job, and it does it well — exactly the kind of niche quality-of-life tool the Mac ecosystem excels at."
+    },
+    {
+      "title": "WiCi Infer: Run large local LLMs on your computer",
+      "url": "https://wici.ai/wici-infer",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A free desktop app claiming up to 17x faster local LLM inference than llama.cpp, supporting models like DeepSeek V4.1 and Qwen3.6 — no login required. For developers who care about privacy and don't want their code or prompts leaving their machine, this is an immediately actionable alternative to cloud APIs. Worth benchmarking on Apple Silicon."
+    },
+    {
+      "title": "Un tribunale conferma l'ordine segreto di Londra ad Apple sulla cifratura di iCloud",
+      "url": "https://therecord.media/apple-uk-encryption-notice",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: N8N, s:potere, TW2026-47, BF",
+      "blurb": "A UK tribunal has confirmed that the British government secretly ordered Apple to provide backdoor access to iCloud data — the order that led Apple to pull Advanced Data Protection for UK users. This is a landmark moment for encryption and digital rights, and sets a precedent that every iCloud user outside the UK should be watching. The full hearing on legality is set for early 2027."
+    },
+    {
+      "title": "Jujutsu Primer — Ethan Lowman",
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Jujutsu",
+      "blurb": "A clear, well-structured introduction to Jujutsu (jj), the version control system that's quietly winning over Git power users with its cleaner mental model and first-class conflict handling. If you haven't tried it yet, this primer is the right starting point — written by someone who clearly uses it daily."
+    },
+    {
+      "title": "The Magic of Partial Evaluation — Jimmy Miller",
+      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: programming, dev, compiler, interpreter, partial_evaluation, jimmy_miller",
+      "blurb": "A deep dive into partial evaluation — the technique of specializing a program for some of its inputs at compile time, producing faster code without manual optimization. Jimmy Miller writes some of the best PL theory-meets-practice content around, and this one is no exception. Mind-expanding for anyone who works with TypeScript compilers or .NET AOT."
+    },
+    {
+      "title": "Lighting That Feels Just Right: An Exploration of Real-Time Global Illumination - The Blog of Maxime Heckel",
+      "url": "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: lighting, GI",
+      "blurb": "A beautifully illustrated deep-dive into real-time global illumination techniques — how modern games and creative tools make light feel physically plausible without melting your GPU. Maxime Heckel's blog consistently delivers the best visual explainers on graphics programming on the web. Essential for anyone doing creative coding or WebGL work."
+    },
+    {
+      "title": "Allo, your friendly neighborhood font",
+      "url": "https://allo.joshpuckett.me/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: Fonts",
+      "blurb": "Allo is a free, open-source variable font with full weight range, a roundness axis, optical sizing, real obliques, icons, and support for 50+ languages. It's genuinely charming and immediately usable for UI projects, documentation sites, or side projects. Free and no-strings-attached makes it easy to just grab it."
+    }
+  ]
+}
