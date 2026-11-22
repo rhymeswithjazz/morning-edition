@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-22",
+  "stories": [
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "hn_link": "https://news.ycombinator.com/item?id=50589618",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by g-b-r · 1146 points · 953 comments",
+      "blurb": "The Riemann Hypothesis — arguably the most famous unsolved problem in mathematics — has been formally verified in Lean, the proof assistant. This is a seismic event: a human-readable proof checked mechanically end-to-end. The 953-comment HN thread is a goldmine of mathematicians and engineers processing their disbelief in real time."
+    },
+    {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "hn_link": "https://news.ycombinator.com/item?id=50582069",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by rafaelc · 1206 points · 263 comments",
+      "blurb": "Daraxonrasib, a once-daily pill, is showing tumour-shrinking results — and in some cases apparent elimination — in one of the deadliest cancers known. With a 5-year survival rate historically under 12%, a targeted oral therapy is exactly the kind of leap that changes everything. Hard not to follow this one."
+    },
+    {
+      "title": "LLMs can read and write executables byte by byte from a hex dump",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "hn_link": "https://news.ycombinator.com/item?id=50546587",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by fortran77 · 292 points · 171 comments",
+      "blurb": "A researcher demonstrates that modern LLMs can parse, reason about, and even generate raw binary executables from hex dumps — no source code needed. This has wild implications for reverse engineering, vulnerability research, and the ceiling of what AI coding assistants can eventually do. A must-read for anyone building with LLMs."
+    },
+    {
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "hn_link": "https://news.ycombinator.com/item?id=50595554",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by sdko · 234 points · 84 comments",
+      "blurb": "OpenRouter discloses that some inference providers in its network have been leaking user data — a serious supply-chain privacy issue for anyone routing prompts through third-party APIs. If you're using OpenRouter (or any multi-provider LLM gateway) in production, this warrants immediate review of what data you're sending and to whom."
+    },
+    {
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "hn_link": "https://news.ycombinator.com/item?id=50597612",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by happosai · 409 points · 512 comments",
+      "blurb": "A detailed breakdown of how AI hyperscalers are actually powering their data centers — and the numbers for Anthropic's planned 2028 capacity are sobering. Direct relevance for Claude Code users who care about the environmental footprint of their AI-assisted workflows. The 512-comment debate is fierce."
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "hn_link": "https://news.ycombinator.com/item?id=50591853",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by k__ · 523 points · 127 comments",
+      "blurb": "A community project showing how to run Thinking Machines Lab's Inkling 2 Mini — a top-tier open-weights coding model — in just 5.4 GB of RAM via aggressive quantization. If you want a local coding assistant that rivals Claude on a MacBook Pro, this is the practical guide you've been waiting for."
+    },
+    {
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "url": "https://pwn.ai/upload2shell",
+      "hn_link": "https://news.ycombinator.com/item?id=50592097",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by f311a · 145 points · 72 comments",
+      "blurb": "A new critical CVE enabling remote code execution via file upload vulnerabilities — apparently broad enough to affect multiple popular frameworks. The writeup walks through the exploit chain step by step. Patch and audit your upload endpoints now."
+    },
+    {
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "hn_link": "https://news.ycombinator.com/item?id=50594132",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by sebaandrada · 141 points · 19 comments",
+      "blurb": "A self-hosted network packet analyzer that ships with 27 built-in detectors for common network pathologies — from misconfigured DNS to suspicious traffic patterns. Run it locally on your own captures without sending data to a third-party SaaS. Practical and privacy-respecting."
+    },
+    {
+      "title": "A real Linux kernel, compiled to WebAssembly",
+      "url": "https://github.com/pithings/unkernel",
+      "hn_link": "https://news.ycombinator.com/item?id=50533945",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by DonAtimator · 196 points · 62 comments",
+      "blurb": "unkernel compiles a full Linux kernel to WebAssembly, letting you run real Linux environments in the browser or any WASM runtime. The implications for sandboxing, testing, and edge compute are significant. It's also just a genuinely impressive technical achievement worth understanding."
+    },
+    {
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "hn_link": "https://news.ycombinator.com/item?id=50593481",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by vasie · 123 points · 29 comments",
+      "blurb": "Pandex exposes EU AI Act compliance rules as an MCP (Model Context Protocol) server, letting AI agents query legal obligations directly. For developers building agentic systems that need to operate in Europe, this is a clever and immediately useful tool that bridges regulation and runtime."
+    },
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A security researcher seeded two million canary tokens throughout the AI training and inference supply chain and tracked where they ended up — the results expose alarming data leakage at multiple points. If you're building with AI APIs, this is the scariest privacy story of the week and directly relevant to your threat model."
+    },
+    {
+      "title": "Introducing Inkling 2 Mini - Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: XDN, Tech, Foundation-Models, Economy",
+      "blurb": "The official announcement of Inkling 2 Mini: a 26.4B MoE model with a looped transformer architecture that leads all sub-100B open-weights models on agentic coding benchmarks. It ran offline on a MacBook Pro and built a flight simulator mid-flight. This is the local AI coding assistant story of the month."
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen | The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Signal is now actively preventing on-device AI assistants — including Apple's Siri and Google's Gemini — from capturing screenshots of its interface. It's a meaningful privacy stance as AI agents gain ambient screen-reading capabilities. Apple ecosystem users should pay close attention to what Siri can and can't see."
+    },
+    {
+      "title": "IconMCP · icon library",
+      "url": "https://iconmcp.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: icons, AI, MCP, free",
+      "blurb": "6,248 original MIT-licensed icons (outline and solid) with an MCP server that lets your coding agent search them by semantic meaning. Plug this into Claude Code or any MCP-compatible agent and stop copy-pasting icon names by hand. Exactly the kind of practical tooling the agentic dev workflow needs."
+    },
+    {
+      "title": "Friday Links #48: JavaScript, AI and Developer Tools",
+      "url": "https://jsdevspace.substack.com/p/friday-links-48-javascript-ai-and",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: JavaScript, typescript, ai",
+      "blurb": "A well-curated roundup at the intersection of JavaScript, TypeScript, and AI tooling — squarely in this reader's stack. Good for catching library announcements and community blog posts that don't always surface on HN. Worth a quick scan on a Sunday morning."
+    },
+    {
+      "title": "If you stop writing code, you also get worse at reviewing it · cekrem.github.io",
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: llm, programming",
+      "blurb": "A sharp short essay arguing that as AI coding assistants do more of the writing, developers who stop coding atrophy their code-review instincts too — a double loss. The author's point about 2022 as an inflection point is particularly pointed. Relevant and uncomfortable reading for anyone leaning heavily on Claude Code."
+    },
+    {
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, devpro",
+      "blurb": "A candid post about how engineers get quietly elevated into architecture roles with no training, mentorship, or even explicit acknowledgment that the job has changed. With AI tools increasingly handling implementation, the architect/developer distinction is becoming more critical than ever. Actionable advice for navigating the transition."
+    },
+    {
+      "title": "AI Training is Copyright Infringement: What Publishers Need to Know about Thomson Reuters v ROSS Intelligence - The Scholarly Kitchen",
+      "url": "https://scholarlykitchen.sspnet.org/2026/11/20/ai-training-is-copyright-infringement-what-publishers-need-to-know-about-thomson-reuters-v-ross-intelligence/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: ai, copyright",
+      "blurb": "The Thomson Reuters v. ROSS Intelligence ruling is now being analyzed as the clearest precedent yet that AI training on copyrighted content constitutes infringement. This piece breaks down what the decision actually says and what it means for every company training models on web data. Foundational reading for anyone in the AI space."
+    },
+    {
+      "title": "gopgext — PostgreSQL extensions in Go",
+      "url": "https://jespino.github.io/gopgext/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: golang, postgresql",
+      "blurb": "A new library that lets you write PostgreSQL extensions in Go rather than C — dramatically lowering the barrier to custom Postgres functionality. If you're on a .NET/TypeScript stack but use Postgres as your database, this opens up powerful extension authoring without diving into unsafe C territory."
+    },
+    {
+      "title": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC",
+      "url": "https://github.com/simplexai-labs/linger",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: agent",
+      "blurb": "Linger is a fully local, open-source personal AI agent designed to run on consumer hardware — no cloud dependency, no data leaving your machine. With privacy as a core design constraint and agentic workflows as the goal, this is a compelling alternative for developers who want Claude Code-style capability without the API calls."
+    }
+  ]
+}

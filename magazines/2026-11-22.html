@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 22, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 22, 2026.">
+<meta property="og:title" content="Morning Edition — November 22, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-22.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Sunday · November 22, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Lean verification of the Riemann Hypothesis</a></li>
+      <li><a href="#s2">Pill to treat pancreatic cancer hailed as &#x27;biggest breakthrough in decades&#x27;</a></li>
+      <li><a href="#s3">LLMs can read and write executables byte by byte from a hex dump</a></li>
+      <li><a href="#s4">Data Processing Incidents on Inference Providers</a></li>
+      <li><a href="#s5">87% of the Anthropic power will come from gas and 11% from coal in 2028</a></li>
+      <li><a href="#s6">Inkling-2-Mini in 5.4 GB Memory</a></li>
+      <li><a href="#s7">Upload2Shell (CVE-2026-125396)</a></li>
+      <li><a href="#s8">PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors</a></li>
+      <li><a href="#s9">A real Linux kernel, compiled to WebAssembly</a></li>
+      <li><a href="#s10">Pandex – Official European Law for AI Agents, over MCP</a></li>
+      <li><a href="#s11">Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.</a></li>
+      <li><a href="#s12">Introducing Inkling 2 Mini - Thinking Machines Lab</a></li>
+      <li><a href="#s13">Signal is blocking Gemini and Siri AI from reading your screen | The Verge</a></li>
+      <li><a href="#s14">IconMCP · icon library</a></li>
+      <li><a href="#s15">Friday Links #48: JavaScript, AI and Developer Tools</a></li>
+      <li><a href="#s16">If you stop writing code, you also get worse at reviewing it · cekrem.github.io</a></li>
+      <li><a href="#s17">We promoted developers into architects without informing them</a></li>
+      <li><a href="#s18">AI Training is Copyright Infringement: What Publishers Need to Know about Thomson Reuters v ROSS Intelligence - The Scholarly Kitchen</a></li>
+      <li><a href="#s19">gopgext — PostgreSQL extensions in Go</a></li>
+      <li><a href="#s20">simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">Lean verification of the Riemann Hypothesis</a></h3>
+    <div class="byline">by g-b-r · 1146 points · 953 comments</div>
+    <p class="blurb">The Riemann Hypothesis — arguably the most famous unsolved problem in mathematics — has been formally verified in Lean, the proof assistant. This is a seismic event: a human-readable proof checked mechanically end-to-end. The 953-comment HN thread is a goldmine of mathematicians and engineers processing their disbelief in real time.</p>
+    <div class="links">
+      <a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50589618">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib">Pill to treat pancreatic cancer hailed as &#x27;biggest breakthrough in decades&#x27;</a></h3>
+    <div class="byline">by rafaelc · 1206 points · 263 comments</div>
+    <p class="blurb">Daraxonrasib, a once-daily pill, is showing tumour-shrinking results — and in some cases apparent elimination — in one of the deadliest cancers known. With a 5-year survival rate historically under 12%, a targeted oral therapy is exactly the kind of leap that changes everything. Hard not to follow this one.</p>
+    <div class="links">
+      <a href="https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50582069">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://sgiannopoulos.github.io/blog/machine-code-programming/">LLMs can read and write executables byte by byte from a hex dump</a></h3>
+    <div class="byline">by fortran77 · 292 points · 171 comments</div>
+    <p class="blurb">A researcher demonstrates that modern LLMs can parse, reason about, and even generate raw binary executables from hex dumps — no source code needed. This has wild implications for reverse engineering, vulnerability research, and the ceiling of what AI coding assistants can eventually do. A must-read for anyone building with LLMs.</p>
+    <div class="links">
+      <a href="https://sgiannopoulos.github.io/blog/machine-code-programming/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50546587">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">Data Processing Incidents on Inference Providers</a></h3>
+    <div class="byline">by sdko · 234 points · 84 comments</div>
+    <p class="blurb">OpenRouter discloses that some inference providers in its network have been leaking user data — a serious supply-chain privacy issue for anyone routing prompts through third-party APIs. If you&#x27;re using OpenRouter (or any multi-provider LLM gateway) in production, this warrants immediate review of what data you&#x27;re sending and to whom.</p>
+    <div class="links">
+      <a href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50595554">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/">87% of the Anthropic power will come from gas and 11% from coal in 2028</a></h3>
+    <div class="byline">by happosai · 409 points · 512 comments</div>
+    <p class="blurb">A detailed breakdown of how AI hyperscalers are actually powering their data centers — and the numbers for Anthropic&#x27;s planned 2028 capacity are sobering. Direct relevance for Claude Code users who care about the environmental footprint of their AI-assisted workflows. The 512-comment debate is fierce.</p>
+    <div class="links">
+      <a href="https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50597612">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/ShinMegamiBoson/lookatmyquant">Inkling-2-Mini in 5.4 GB Memory</a></h3>
+    <div class="byline">by k__ · 523 points · 127 comments</div>
+    <p class="blurb">A community project showing how to run Thinking Machines Lab&#x27;s Inkling 2 Mini — a top-tier open-weights coding model — in just 5.4 GB of RAM via aggressive quantization. If you want a local coding assistant that rivals Claude on a MacBook Pro, this is the practical guide you&#x27;ve been waiting for.</p>
+    <div class="links">
+      <a href="https://github.com/ShinMegamiBoson/lookatmyquant">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50591853">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://pwn.ai/upload2shell">Upload2Shell (CVE-2026-125396)</a></h3>
+    <div class="byline">by f311a · 145 points · 72 comments</div>
+    <p class="blurb">A new critical CVE enabling remote code execution via file upload vulnerabilities — apparently broad enough to affect multiple popular frameworks. The writeup walks through the exploit chain step by step. Patch and audit your upload endpoints now.</p>
+    <div class="links">
+      <a href="https://pwn.ai/upload2shell">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50592097">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/sebaandrada-cell/PcapAnalyzer">PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors</a></h3>
+    <div class="byline">by sebaandrada · 141 points · 19 comments</div>
+    <p class="blurb">A self-hosted network packet analyzer that ships with 27 built-in detectors for common network pathologies — from misconfigured DNS to suspicious traffic patterns. Run it locally on your own captures without sending data to a third-party SaaS. Practical and privacy-respecting.</p>
+    <div class="links">
+      <a href="https://github.com/sebaandrada-cell/PcapAnalyzer">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50594132">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/pithings/unkernel">A real Linux kernel, compiled to WebAssembly</a></h3>
+    <div class="byline">by DonAtimator · 196 points · 62 comments</div>
+    <p class="blurb">unkernel compiles a full Linux kernel to WebAssembly, letting you run real Linux environments in the browser or any WASM runtime. The implications for sandboxing, testing, and edge compute are significant. It&#x27;s also just a genuinely impressive technical achievement worth understanding.</p>
+    <div class="links">
+      <a href="https://github.com/pithings/unkernel">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50533945">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.pandex.io">Pandex – Official European Law for AI Agents, over MCP</a></h3>
+    <div class="byline">by vasie · 123 points · 29 comments</div>
+    <p class="blurb">Pandex exposes EU AI Act compliance rules as an MCP (Model Context Protocol) server, letting AI agents query legal obligations directly. For developers building agentic systems that need to operate in Europe, this is a clever and immediately useful tool that bridges regulation and runtime.</p>
+    <div class="links">
+      <a href="https://www.pandex.io">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50593481">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A security researcher seeded two million canary tokens throughout the AI training and inference supply chain and tracked where they ended up — the results expose alarming data leakage at multiple points. If you&#x27;re building with AI APIs, this is the scariest privacy story of the week and directly relevant to your threat model.</p>
+    <div class="links">
+      <a href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://thinkingmachines.ai/news/inkling-2-mini/">Introducing Inkling 2 Mini - Thinking Machines Lab</a></h3>
+    <div class="byline">Pinboard Popular · tagged: XDN, Tech, Foundation-Models, Economy</div>
+    <p class="blurb">The official announcement of Inkling 2 Mini: a 26.4B MoE model with a looped transformer architecture that leads all sub-100B open-weights models on agentic coding benchmarks. It ran offline on a MacBook Pro and built a flight simulator mid-flight. This is the local AI coding assistant story of the month.</p>
+    <div class="links">
+      <a href="https://thinkingmachines.ai/news/inkling-2-mini/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app">Signal is blocking Gemini and Siri AI from reading your screen | The Verge</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Signal is now actively preventing on-device AI assistants — including Apple&#x27;s Siri and Google&#x27;s Gemini — from capturing screenshots of its interface. It&#x27;s a meaningful privacy stance as AI agents gain ambient screen-reading capabilities. Apple ecosystem users should pay close attention to what Siri can and can&#x27;t see.</p>
+    <div class="links">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://iconmcp.com/">IconMCP · icon library</a></h3>
+    <div class="byline">Pinboard Popular · tagged: icons, AI, MCP, free</div>
+    <p class="blurb">6,248 original MIT-licensed icons (outline and solid) with an MCP server that lets your coding agent search them by semantic meaning. Plug this into Claude Code or any MCP-compatible agent and stop copy-pasting icon names by hand. Exactly the kind of practical tooling the agentic dev workflow needs.</p>
+    <div class="links">
+      <a href="https://iconmcp.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://jsdevspace.substack.com/p/friday-links-48-javascript-ai-and">Friday Links #48: JavaScript, AI and Developer Tools</a></h3>
+    <div class="byline">Pinboard Popular · tagged: JavaScript, typescript, ai</div>
+    <p class="blurb">A well-curated roundup at the intersection of JavaScript, TypeScript, and AI tooling — squarely in this reader&#x27;s stack. Good for catching library announcements and community blog posts that don&#x27;t always surface on HN. Worth a quick scan on a Sunday morning.</p>
+    <div class="links">
+      <a href="https://jsdevspace.substack.com/p/friday-links-48-javascript-ai-and">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/">If you stop writing code, you also get worse at reviewing it · cekrem.github.io</a></h3>
+    <div class="byline">Pinboard Popular · tagged: llm, programming</div>
+    <p class="blurb">A sharp short essay arguing that as AI coding assistants do more of the writing, developers who stop coding atrophy their code-review instincts too — a double loss. The author&#x27;s point about 2022 as an inflection point is particularly pointed. Relevant and uncomfortable reading for anyone leaning heavily on Claude Code.</p>
+    <div class="links">
+      <a href="https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://manidoraisamy.com/developer-to-architect.html">We promoted developers into architects without informing them</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, devpro</div>
+    <p class="blurb">A candid post about how engineers get quietly elevated into architecture roles with no training, mentorship, or even explicit acknowledgment that the job has changed. With AI tools increasingly handling implementation, the architect/developer distinction is becoming more critical than ever. Actionable advice for navigating the transition.</p>
+    <div class="links">
+      <a href="https://manidoraisamy.com/developer-to-architect.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://scholarlykitchen.sspnet.org/2026/11/20/ai-training-is-copyright-infringement-what-publishers-need-to-know-about-thomson-reuters-v-ross-intelligence/">AI Training is Copyright Infringement: What Publishers Need to Know about Thomson Reuters v ROSS Intelligence - The Scholarly Kitchen</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, copyright</div>
+    <p class="blurb">The Thomson Reuters v. ROSS Intelligence ruling is now being analyzed as the clearest precedent yet that AI training on copyrighted content constitutes infringement. This piece breaks down what the decision actually says and what it means for every company training models on web data. Foundational reading for anyone in the AI space.</p>
+    <div class="links">
+      <a href="https://scholarlykitchen.sspnet.org/2026/11/20/ai-training-is-copyright-infringement-what-publishers-need-to-know-about-thomson-reuters-v-ross-intelligence/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://jespino.github.io/gopgext/">gopgext — PostgreSQL extensions in Go</a></h3>
+    <div class="byline">Pinboard Popular · tagged: golang, postgresql</div>
+    <p class="blurb">A new library that lets you write PostgreSQL extensions in Go rather than C — dramatically lowering the barrier to custom Postgres functionality. If you&#x27;re on a .NET/TypeScript stack but use Postgres as your database, this opens up powerful extension authoring without diving into unsafe C territory.</p>
+    <div class="links">
+      <a href="https://jespino.github.io/gopgext/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/simplexai-labs/linger">simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC</a></h3>
+    <div class="byline">Pinboard Popular · tagged: agent</div>
+    <p class="blurb">Linger is a fully local, open-source personal AI agent designed to run on consumer hardware — no cloud dependency, no data leaving your machine. With privacy as a core design constraint and agentic workflows as the goal, this is a compelling alternative for developers who want Claude Code-style capability without the API calls.</p>
+    <div class="links">
+      <a href="https://github.com/simplexai-labs/linger">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
