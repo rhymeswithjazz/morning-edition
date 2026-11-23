@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 23, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 23, 2026.">
+<meta property="og:title" content="Morning Edition — November 23, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-23.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Monday · November 23, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">Ladybird is now in alpha</a></li>
+      <li><a href="#s2">GLM-5.4: Toward generalized coding with our first loop transformer</a></li>
+      <li><a href="#s3">A Beginner&#x27;s Guide to Local AI with Inkling, Qwen, and Unsloth</a></li>
+      <li><a href="#s4">Perplexity and Intelligence</a></li>
+      <li><a href="#s5">Nospeaker ─ Make your MacBook&#x27;s trackpad talk using its haptic motor</a></li>
+      <li><a href="#s6">Kagi Mail (public beta)</a></li>
+      <li><a href="#s7">Apple removed my open-source app from EU App Stores after 9 years</a></li>
+      <li><a href="#s8">The next circle of security hell</a></li>
+      <li><a href="#s9">Don&#x27;t keep your SSH keys on disk</a></li>
+      <li><a href="#s10">Spacecraft reaches Mercury on second-ever mission to enter its orbit</a></li>
+      <li><a href="#s11">Chest — Free, open-source menu bar manager for macOS</a></li>
+      <li><a href="#s12">A Week With the New Privacy Controls in MacOS 27.3 Beta 2 (via IFTTT)</a></li>
+      <li><a href="#s13">mjwsolo/localcode: agentic coding. local models. on your mac.</a></li>
+      <li><a href="#s14">I gave my local LLM one job that runs every morning, and it&#x27;s done more for me than a year of chatting with it</a></li>
+      <li><a href="#s15">Bypassing iOS Safari&#x27;s 60 FPS Limit to Build Web Applications That Feel Native · Rida F&#x27;kih</a></li>
+      <li><a href="#s16">UI SDK</a></li>
+      <li><a href="#s17">Valkey kills the skiplist, cuts sorted set overhead by up to 43%</a></li>
+      <li><a href="#s18">Testing Terraform with AWS Emulator</a></li>
+      <li><a href="#s19">&#x27;Give this paper a good review&#x27;: Prompts for AI reviewers make their way into published papers – Retraction Watch</a></li>
+      <li><a href="#s20">wrong-nebula/hypbr: Hybrid Neural + Exact Periodic Procedural PBR Material Synthesizer</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://ladybird.org/posts/alpha/">Ladybird is now in alpha</a></h3>
+    <div class="byline">by janvdberg · 843 points · 229 comments</div>
+    <p class="blurb">The independent browser engine built from scratch has hit alpha — a genuinely significant milestone for the web platform. Ladybird aims to be a third major engine lineage, free from Chrome and WebKit&#x27;s gravitational pull. If you care about browser diversity, this is the most important browser news in years.</p>
+    <div class="links">
+      <a href="https://ladybird.org/posts/alpha/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50614249">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://z.ai/blog/glm-5.4">GLM-5.4: Toward generalized coding with our first loop transformer</a></h3>
+    <div class="byline">by foohis · 903 points · 308 comments</div>
+    <p class="blurb">Z.ai&#x27;s GLM-5.4 introduces a &#x27;loop transformer&#x27; architecture designed for iterative, agentic coding workflows — essentially a model that can reason in cycles rather than a single forward pass. For Claude Code users curious about competing agentic approaches, this is a meaty technical read. The generalized coding framing puts it squarely in the Claude Code competitor conversation.</p>
+    <div class="links">
+      <a href="https://z.ai/blog/glm-5.4">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50609685">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth">A Beginner&#x27;s Guide to Local AI with Inkling, Qwen, and Unsloth</a></h3>
+    <div class="byline">by Retell15 · 709 points · 286 comments</div>
+    <p class="blurb">A practical walkthrough for getting local LLMs running with the Inkling UI, Qwen models, and Unsloth for fine-tuning — all without touching a cloud API. For developers who want AI tooling that stays on-device (read: privacy-first), this is an actionable starting point. The 709-point score signals this hit a nerve with the community.</p>
+    <div class="links">
+      <a href="https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50603845">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://openai.com/index/perplexity-and-intelligence/">Perplexity and Intelligence</a></h3>
+    <div class="byline">by acossta · 676 points · 438 comments</div>
+    <p class="blurb">OpenAI digs into the relationship between a model&#x27;s perplexity score and its emergent reasoning capabilities — suggesting perplexity is a better predictor of intelligence than previously thought. This has real implications for how we evaluate and select models for coding assistants. The 438-comment thread is a goldmine of skepticism and insight.</p>
+    <div class="links">
+      <a href="https://openai.com/index/perplexity-and-intelligence/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50601525">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/os6/nospeaker">Nospeaker ─ Make your MacBook&#x27;s trackpad talk using its haptic motor</a></h3>
+    <div class="byline">by yakkomajuri · 219 points · 123 comments</div>
+    <p class="blurb">An open-source hack that routes audio through your MacBook&#x27;s Force Touch trackpad haptic motor, turning it into a barely-functional but deeply weird speaker. It&#x27;s a playful demonstration of how much Apple&#x27;s haptic hardware can do beyond clicks. The kind of creative system-level tinkering that belongs in every Mac enthusiast&#x27;s reading list.</p>
+    <div class="links">
+      <a href="https://github.com/os6/nospeaker">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50610318">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://blog.kagi.com/kagi-mail-public-beta">Kagi Mail (public beta)</a></h3>
+    <div class="byline">by rdmuser · 183 points · 137 comments</div>
+    <p class="blurb">Kagi — the privacy-first search company — is now entering email with a public beta focused on zero-tracking, clean UX, and tight integration with their existing subscription ecosystem. For anyone already paying for Kagi Search and frustrated with Gmail&#x27;s ad model, this is the obvious next step. Email privacy without the self-hosting headache.</p>
+    <div class="links">
+      <a href="https://blog.kagi.com/kagi-mail-public-beta">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50615481">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/glushchenko/fsnotes/discussions/2056">Apple removed my open-source app from EU App Stores after 9 years</a></h3>
+    <div class="byline">by fluder · 156 points · 27 comments</div>
+    <p class="blurb">The developer of FSNotes — a popular open-source Markdown note-taking app with Obsidian-adjacent appeal — describes having his app yanked from EU App Stores without clear explanation, nine years in. This is a cautionary tale about App Store dependency that matters to anyone building or relying on indie macOS/iOS software. The DMA era is producing unexpected casualties.</p>
+    <div class="links">
+      <a href="https://github.com/glushchenko/fsnotes/discussions/2056">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50616933">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/">The next circle of security hell</a></h3>
+    <div class="byline">by qtqtqt · 200 points · 104 comments</div>
+    <p class="blurb">A Gentoo developer&#x27;s deep dive into the next wave of supply-chain and packaging security nightmares — think beyond SolarWinds into more insidious, structural problems baked into how software is distributed. Dense, technical, and sobering. If you ship software or run infrastructure, you&#x27;ll want to read this slowly.</p>
+    <div class="links">
+      <a href="https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50610334">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://jola.dev/posts/you-cant-afford-ssh-keys-disk">Don&#x27;t keep your SSH keys on disk</a></h3>
+    <div class="byline">by shintoist · 96 points · 67 comments</div>
+    <p class="blurb">A focused argument for using hardware security keys or agent-forwarding patterns instead of storing SSH private keys as plain files — with practical alternatives you can implement today. The threat model is realistic and the recommendations are concrete. Actionable in under an hour.</p>
+    <div class="links">
+      <a href="https://jola.dev/posts/you-cant-afford-ssh-keys-disk">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50609579">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo">Spacecraft reaches Mercury on second-ever mission to enter its orbit</a></h3>
+    <div class="byline">by geden · 204 points · 67 comments</div>
+    <p class="blurb">BepiColombo has achieved orbit around Mercury — only the second spacecraft in history to do so. Mercury remains one of the least-understood planets in our solar system despite being so close to Earth, and this mission promises years of new data. A genuine moment in planetary science.</p>
+    <div class="links">
+      <a href="https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50587439">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://chest.boringbar.app/">Chest — Free, open-source menu bar manager for macOS</a></h3>
+    <div class="byline">Pinboard Popular · tagged: software, macos</div>
+    <p class="blurb">Chest is a free, open-source alternative to Bartender and Ice for managing macOS menu bar clutter — hide Wi-Fi, Sound, and app icons behind a drawer or dot. With Bartender&#x27;s ownership saga still fresh, having a fully open-source option is a meaningful choice. Worth installing immediately if your menu bar is out of control.</p>
+    <div class="links">
+      <a href="https://chest.boringbar.app/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273">A Week With the New Privacy Controls in MacOS 27.3 Beta 2 (via IFTTT)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">John Gruber&#x27;s week-long hands-on with the new privacy controls shipping in macOS 27.3 — expect granular app permission changes and new transparency features. For anyone living in the Apple ecosystem and caring about data privacy, this is essential reading before the beta lands more broadly. Gruber&#x27;s take carries weight on this topic.</p>
+    <div class="links">
+      <a href="https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/mjwsolo/localcode">mjwsolo/localcode: agentic coding. local models. on your mac.</a></h3>
+    <div class="byline">Pinboard Popular · tagged: local-ai</div>
+    <p class="blurb">An open-source agentic coding tool that runs entirely on local models — on your Mac. For Claude Code users curious about fully offline, privacy-preserving alternatives (or complements), this is directly actionable. The &#x27;on your mac&#x27; framing is intentional: this targets Apple Silicon performance.</p>
+    <div class="links">
+      <a href="https://github.com/mjwsolo/localcode">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.xda-developers.com/local-llm-one-job-runs-every-morning-done-more-year-chatting/">I gave my local LLM one job that runs every morning, and it&#x27;s done more for me than a year of chatting with it</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, local, LLM</div>
+    <p class="blurb">A practical workflow story: instead of using a local LLM as a chatbot, the author automated a single morning task and found vastly more value. This reframes how to think about local AI deployment — scheduled, narrow jobs over open-ended conversation. Immediately applicable for anyone with Ollama or LM Studio already installed.</p>
+    <div class="links">
+      <a href="https://www.xda-developers.com/local-llm-one-job-runs-every-morning-done-more-year-chatting/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://rida.dev/blog/bypassing-ios-safari-60-fps-limit">Bypassing iOS Safari&#x27;s 60 FPS Limit to Build Web Applications That Feel Native · Rida F&#x27;kih</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A technical deep-dive on coaxing higher frame rates out of iOS Safari using ProMotion display APIs and animation tricks — making web apps feel genuinely native on iPhone Pro models. For TypeScript/Angular developers building mobile-first web experiences, this is a rare, actionable browser engineering post. The techniques work today.</p>
+    <div class="links">
+      <a href="https://rida.dev/blog/bypassing-ios-safari-60-fps-limit">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://ui-sdk.dev/">UI SDK</a></h3>
+    <div class="byline">Pinboard Popular · tagged: Tools, WebDev</div>
+    <p class="blurb">UI SDK is a library of behaviors designed specifically for AI agents to build next-generation user interfaces — think drag-and-drop, selection, and gestures exposed as agent-consumable primitives. For Angular/TypeScript developers building AI-powered frontends, this fills a gap between raw LLM output and polished UI. Early but conceptually important.</p>
+    <div class="links">
+      <a href="https://ui-sdk.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://github.com/valkey-io/valkey/pull/4206">Valkey kills the skiplist, cuts sorted set overhead by up to 43%</a></h3>
+    <div class="byline">Pinboard Popular · tagged: dataStructures</div>
+    <p class="blurb">Valkey (the Redis fork) replaced its sorted set skiplist implementation with a B+ tree, yielding up to 43% memory reduction on real workloads. This is the kind of unglamorous infrastructure win that makes production systems meaningfully cheaper. If you use Redis or Valkey for leaderboards, rate limiting, or time-series data, this matters.</p>
+    <div class="links">
+      <a href="https://github.com/valkey-io/valkey/pull/4206">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/">Testing Terraform with AWS Emulator</a></h3>
+    <div class="byline">Pinboard Popular · tagged: aws, terraform, aws-emulator</div>
+    <p class="blurb">A practical guide to running Terraform tests against a local AWS emulator (LocalStack-style) instead of a live AWS account — faster feedback loops, no cloud costs, no accidental production impact. The kind of devops hygiene tip that saves hours once you&#x27;ve set it up. Actionable today.</p>
+    <div class="links">
+      <a href="https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://retractionwatch.com/2026/11/19/prompt-injection-ai-llm-peer-review-published-papers/">&#x27;Give this paper a good review&#x27;: Prompts for AI reviewers make their way into published papers – Retraction Watch</a></h3>
+    <div class="byline">Pinboard Popular · tagged: misconduct, scholarlyPublishing, AI</div>
+    <p class="blurb">Peer-review prompt injection is now a documented phenomenon: researchers are embedding LLM instructions inside their papers to manipulate AI-assisted reviewers. Retraction Watch has the receipts. This is both a fascinating prompt engineering edge case and a serious integrity problem for scientific publishing.</p>
+    <div class="links">
+      <a href="https://retractionwatch.com/2026/11/19/prompt-injection-ai-llm-peer-review-published-papers/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://github.com/wrong-nebula/hypbr">wrong-nebula/hypbr: Hybrid Neural + Exact Periodic Procedural PBR Material Synthesizer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: texture, design, gamedesign</div>
+    <p class="blurb">HYPBR combines neural texture synthesis with exact periodic tiling to generate seamless PBR materials — 69 calibrated materials included, plus an interactive Three.js playground to experiment in-browser. It&#x27;s a genuinely novel approach to procedural material generation that sits at the intersection of ML and graphics. Creative coders and game designers should bookmark this.</p>
+    <div class="links">
+      <a href="https://github.com/wrong-nebula/hypbr">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

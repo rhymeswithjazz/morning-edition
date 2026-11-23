@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-23",
+  "stories": [
+    {
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "hn_link": "https://news.ycombinator.com/item?id=50614249",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by janvdberg · 843 points · 229 comments",
+      "blurb": "The independent browser engine built from scratch has hit alpha — a genuinely significant milestone for the web platform. Ladybird aims to be a third major engine lineage, free from Chrome and WebKit's gravitational pull. If you care about browser diversity, this is the most important browser news in years."
+    },
+    {
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "hn_link": "https://news.ycombinator.com/item?id=50609685",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by foohis · 903 points · 308 comments",
+      "blurb": "Z.ai's GLM-5.4 introduces a 'loop transformer' architecture designed for iterative, agentic coding workflows — essentially a model that can reason in cycles rather than a single forward pass. For Claude Code users curious about competing agentic approaches, this is a meaty technical read. The generalized coding framing puts it squarely in the Claude Code competitor conversation."
+    },
+    {
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "hn_link": "https://news.ycombinator.com/item?id=50603845",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by Retell15 · 709 points · 286 comments",
+      "blurb": "A practical walkthrough for getting local LLMs running with the Inkling UI, Qwen models, and Unsloth for fine-tuning — all without touching a cloud API. For developers who want AI tooling that stays on-device (read: privacy-first), this is an actionable starting point. The 709-point score signals this hit a nerve with the community."
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "hn_link": "https://news.ycombinator.com/item?id=50601525",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by acossta · 676 points · 438 comments",
+      "blurb": "OpenAI digs into the relationship between a model's perplexity score and its emergent reasoning capabilities — suggesting perplexity is a better predictor of intelligence than previously thought. This has real implications for how we evaluate and select models for coding assistants. The 438-comment thread is a goldmine of skepticism and insight."
+    },
+    {
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "hn_link": "https://news.ycombinator.com/item?id=50610318",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by yakkomajuri · 219 points · 123 comments",
+      "blurb": "An open-source hack that routes audio through your MacBook's Force Touch trackpad haptic motor, turning it into a barely-functional but deeply weird speaker. It's a playful demonstration of how much Apple's haptic hardware can do beyond clicks. The kind of creative system-level tinkering that belongs in every Mac enthusiast's reading list."
+    },
+    {
+      "title": "Kagi Mail (public beta)",
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "hn_link": "https://news.ycombinator.com/item?id=50615481",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by rdmuser · 183 points · 137 comments",
+      "blurb": "Kagi — the privacy-first search company — is now entering email with a public beta focused on zero-tracking, clean UX, and tight integration with their existing subscription ecosystem. For anyone already paying for Kagi Search and frustrated with Gmail's ad model, this is the obvious next step. Email privacy without the self-hosting headache."
+    },
+    {
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "hn_link": "https://news.ycombinator.com/item?id=50616933",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by fluder · 156 points · 27 comments",
+      "blurb": "The developer of FSNotes — a popular open-source Markdown note-taking app with Obsidian-adjacent appeal — describes having his app yanked from EU App Stores without clear explanation, nine years in. This is a cautionary tale about App Store dependency that matters to anyone building or relying on indie macOS/iOS software. The DMA era is producing unexpected casualties."
+    },
+    {
+      "title": "The next circle of security hell",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "hn_link": "https://news.ycombinator.com/item?id=50610334",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by qtqtqt · 200 points · 104 comments",
+      "blurb": "A Gentoo developer's deep dive into the next wave of supply-chain and packaging security nightmares — think beyond SolarWinds into more insidious, structural problems baked into how software is distributed. Dense, technical, and sobering. If you ship software or run infrastructure, you'll want to read this slowly."
+    },
+    {
+      "title": "Don't keep your SSH keys on disk",
+      "url": "https://jola.dev/posts/you-cant-afford-ssh-keys-disk",
+      "hn_link": "https://news.ycombinator.com/item?id=50609579",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by shintoist · 96 points · 67 comments",
+      "blurb": "A focused argument for using hardware security keys or agent-forwarding patterns instead of storing SSH private keys as plain files — with practical alternatives you can implement today. The threat model is realistic and the recommendations are concrete. Actionable in under an hour."
+    },
+    {
+      "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+      "hn_link": "https://news.ycombinator.com/item?id=50587439",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by geden · 204 points · 67 comments",
+      "blurb": "BepiColombo has achieved orbit around Mercury — only the second spacecraft in history to do so. Mercury remains one of the least-understood planets in our solar system despite being so close to Earth, and this mission promises years of new data. A genuine moment in planetary science."
+    },
+    {
+      "title": "Chest — Free, open-source menu bar manager for macOS",
+      "url": "https://chest.boringbar.app/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: software, macos",
+      "blurb": "Chest is a free, open-source alternative to Bartender and Ice for managing macOS menu bar clutter — hide Wi-Fi, Sound, and app icons behind a drawer or dot. With Bartender's ownership saga still fresh, having a fully open-source option is a meaningful choice. Worth installing immediately if your menu bar is out of control."
+    },
+    {
+      "title": "A Week With the New Privacy Controls in MacOS 27.3 Beta 2 (via IFTTT)",
+      "url": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "John Gruber's week-long hands-on with the new privacy controls shipping in macOS 27.3 — expect granular app permission changes and new transparency features. For anyone living in the Apple ecosystem and caring about data privacy, this is essential reading before the beta lands more broadly. Gruber's take carries weight on this topic."
+    },
+    {
+      "title": "mjwsolo/localcode: agentic coding. local models. on your mac.",
+      "url": "https://github.com/mjwsolo/localcode",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: local-ai",
+      "blurb": "An open-source agentic coding tool that runs entirely on local models — on your Mac. For Claude Code users curious about fully offline, privacy-preserving alternatives (or complements), this is directly actionable. The 'on your mac' framing is intentional: this targets Apple Silicon performance."
+    },
+    {
+      "title": "I gave my local LLM one job that runs every morning, and it's done more for me than a year of chatting with it",
+      "url": "https://www.xda-developers.com/local-llm-one-job-runs-every-morning-done-more-year-chatting/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, local, LLM",
+      "blurb": "A practical workflow story: instead of using a local LLM as a chatbot, the author automated a single morning task and found vastly more value. This reframes how to think about local AI deployment — scheduled, narrow jobs over open-ended conversation. Immediately applicable for anyone with Ollama or LM Studio already installed."
+    },
+    {
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native · Rida F'kih",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A technical deep-dive on coaxing higher frame rates out of iOS Safari using ProMotion display APIs and animation tricks — making web apps feel genuinely native on iPhone Pro models. For TypeScript/Angular developers building mobile-first web experiences, this is a rare, actionable browser engineering post. The techniques work today."
+    },
+    {
+      "title": "UI SDK",
+      "url": "https://ui-sdk.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: Tools, WebDev",
+      "blurb": "UI SDK is a library of behaviors designed specifically for AI agents to build next-generation user interfaces — think drag-and-drop, selection, and gestures exposed as agent-consumable primitives. For Angular/TypeScript developers building AI-powered frontends, this fills a gap between raw LLM output and polished UI. Early but conceptually important."
+    },
+    {
+      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+      "url": "https://github.com/valkey-io/valkey/pull/4206",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: dataStructures",
+      "blurb": "Valkey (the Redis fork) replaced its sorted set skiplist implementation with a B+ tree, yielding up to 43% memory reduction on real workloads. This is the kind of unglamorous infrastructure win that makes production systems meaningfully cheaper. If you use Redis or Valkey for leaderboards, rate limiting, or time-series data, this matters."
+    },
+    {
+      "title": "Testing Terraform with AWS Emulator",
+      "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: aws, terraform, aws-emulator",
+      "blurb": "A practical guide to running Terraform tests against a local AWS emulator (LocalStack-style) instead of a live AWS account — faster feedback loops, no cloud costs, no accidental production impact. The kind of devops hygiene tip that saves hours once you've set it up. Actionable today."
+    },
+    {
+      "title": "'Give this paper a good review': Prompts for AI reviewers make their way into published papers – Retraction Watch",
+      "url": "https://retractionwatch.com/2026/11/19/prompt-injection-ai-llm-peer-review-published-papers/",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: misconduct, scholarlyPublishing, AI",
+      "blurb": "Peer-review prompt injection is now a documented phenomenon: researchers are embedding LLM instructions inside their papers to manipulate AI-assisted reviewers. Retraction Watch has the receipts. This is both a fascinating prompt engineering edge case and a serious integrity problem for scientific publishing."
+    },
+    {
+      "title": "wrong-nebula/hypbr: Hybrid Neural + Exact Periodic Procedural PBR Material Synthesizer",
+      "url": "https://github.com/wrong-nebula/hypbr",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: texture, design, gamedesign",
+      "blurb": "HYPBR combines neural texture synthesis with exact periodic tiling to generate seamless PBR materials — 69 calibrated materials included, plus an interactive Three.js playground to experiment in-browser. It's a genuinely novel approach to procedural material generation that sits at the intersection of ML and graphics. Creative coders and game designers should bookmark this."
+    }
+  ]
+}
