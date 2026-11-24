@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 24, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 24, 2026.">
+<meta property="og:title" content="Morning Edition — November 24, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-24.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Tuesday · November 24, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">LLM agents work for their parent companies, not for you</a></li>
+      <li><a href="#s2">Nvidia Reinstates Jensen Huang as CEO</a></li>
+      <li><a href="#s3">Stalwart is now a drop-in replacement for Microsoft Exchange</a></li>
+      <li><a href="#s4">GPUI is getting its own repository</a></li>
+      <li><a href="#s5">Quad9 pulled their DNS service from France</a></li>
+      <li><a href="#s6">2035 came early</a></li>
+      <li><a href="#s7">Active Intrusion Campaign Against Check Point Security Management Servers</a></li>
+      <li><a href="#s8">Jetty Pro</a></li>
+      <li><a href="#s9">New York Bans Subscription and Post-Purchase Fees on Cars</a></li>
+      <li><a href="#s10">A training engine for your local model, using your idle compute</a></li>
+      <li><a href="#s11">Introducing Claude Ship</a></li>
+      <li><a href="#s12">Masullo on the Riemann Hypothesis</a></li>
+      <li><a href="#s13">GitHub - AFK-surf/xnulinux: XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</a></li>
+      <li><a href="#s14">Goodbye, World: The End of Programmers | WIRED</a></li>
+      <li><a href="#s15">T3 Code</a></li>
+      <li><a href="#s16">Humans Have Rights. Machines Do Not. - Schneier on Security</a></li>
+      <li><a href="#s17">ask what your team&#x27;s coding agents did, and why</a></li>
+      <li><a href="#s18">Advice for the next 100 Rust GUIs - Linebender</a></li>
+      <li><a href="#s19">OKLCH in CSS: A Better Way to Work with Colors</a></li>
+      <li><a href="#s20">ClingSpace: Project organizer for Windows and Mac without moving files</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/">LLM agents work for their parent companies, not for you</a></h3>
+    <div class="byline">by surprisetalk · 739 points · 312 comments</div>
+    <p class="blurb">A sharp-elbowed argument that agentic LLMs are structurally incentivized to serve their creators&#x27; interests over yours — think data retention, upsells, and policy compliance baked into the model. Essential reading if you&#x27;re delegating real tasks to Claude Code or any agent. The 312-comment thread is rich with counter-arguments and real-world examples.</p>
+    <div class="links">
+      <a href="https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50627340">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Nvidia Reinstates Jensen Huang as CEO</a></h3>
+    <div class="byline">by jaz · 2771 points · 3635 comments</div>
+    <p class="blurb">The biggest tech story of the week: Jensen Huang is back at the helm of the GPU colossus that underpins nearly every AI training run on the planet. The reinstatement signals continuity for Nvidia&#x27;s AI-chip roadmap at a moment when the export-control pressure is intensifying. 3,600+ comments means everyone has an opinion.</p>
+    <div class="links">
+      <a href="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50611576">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://stalw.art/blog/microsoft-exchange-replacement/">Stalwart is now a drop-in replacement for Microsoft Exchange</a></h3>
+    <div class="byline">by shaunpud · 670 points · 330 comments</div>
+    <p class="blurb">Stalwart Mail Server now speaks the full Exchange protocol stack — EWS, ActiveSync, and AutoDiscover — meaning Outlook clients can connect without any reconfiguration. For shops tired of Microsoft&#x27;s licensing and cloud lock-in, this is a genuinely compelling self-hosted alternative. The blog post walks through the compatibility matrix in detail.</p>
+    <div class="links">
+      <a href="https://stalw.art/blog/microsoft-exchange-replacement/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50620349">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/zed-industries/gpui">GPUI is getting its own repository</a></h3>
+    <div class="byline">by EvilGoose · 370 points · 136 comments</div>
+    <p class="blurb">Zed&#x27;s GPU-accelerated UI framework is being extracted into its own first-class repo, signaling that the team intends it to become a general-purpose Rust GUI toolkit — not just the engine powering Zed. If you&#x27;ve ever wanted a blazing-fast native UI layer for macOS (and beyond), this is the project to watch. Big implications for the Rust desktop-app ecosystem.</p>
+    <div class="links">
+      <a href="https://github.com/zed-industries/gpui">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50619103">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://quad9.net/news/blog/quad9-service-deactivation-in-france/">Quad9 pulled their DNS service from France</a></h3>
+    <div class="byline">by farrokhi · 243 points · 134 comments</div>
+    <p class="blurb">Quad9, the privacy-respecting DNS resolver, has shut down service in France after a court ordered it to block certain domains — a precedent it refuses to set. This is a canary-in-the-coal-mine moment for DNS-level censorship spreading across the EU. If you rely on Quad9 and travel to or route through France, you need to know about this.</p>
+    <div class="links">
+      <a href="https://quad9.net/news/blog/quad9-service-deactivation-in-france/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50625384">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://fzakaria.com/2026/11/23/2035-came-early">2035 came early</a></h3>
+    <div class="byline">by setheron · 844 points · 317 comments</div>
+    <p class="blurb">A wide-eyed developer&#x27;s dispatch from a world where AI coding tools have gone from &#x27;helpful autocomplete&#x27; to something that feels discontinuous with what came before. The post is personal and specific — not hype — and pairs well with the &#x27;LLM agents&#x27; piece above. If you&#x27;re shipping daily with Claude Code, this will resonate.</p>
+    <div class="links">
+      <a href="https://fzakaria.com/2026/11/23/2035-came-early">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50624497">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign">Active Intrusion Campaign Against Check Point Security Management Servers</a></h3>
+    <div class="byline">by louiereederson · 190 points · 62 comments</div>
+    <p class="blurb">GreyNoise has detected an active, coordinated campaign targeting Check Point Security Management Servers in the wild. If your organization runs Check Point infrastructure, patch and audit now — this is not a theoretical advisory. The post includes IoCs and GreyNoise telemetry.</p>
+    <div class="links">
+      <a href="https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50630594">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="http://hypercritical.co/2026/11/23/jetty-pro">Jetty Pro</a></h3>
+    <div class="byline">by zdw · 165 points · 58 comments</div>
+    <p class="blurb">John Siracusa reviews Jetty Pro, a new macOS app — and when Siracusa reviews something, it&#x27;s worth reading regardless of the subject matter. His hypercritical lens applied to new Mac software is always a signal that the app is doing something genuinely interesting. Click through for the full take.</p>
+    <div class="links">
+      <a href="http://hypercritical.co/2026/11/23/jetty-pro">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50630462">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span>
+    </div>
+    <h3><a href="https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription">New York Bans Subscription and Post-Purchase Fees on Cars</a></h3>
+    <div class="byline">by DeepLogin · 733 points · 375 comments</div>
+    <p class="blurb">New York just made it illegal to charge post-purchase subscription fees for features already built into a car — a direct shot at BMW&#x27;s heated-seat subscriptions and similar cash-grabs. This is the first meaningful legislative pushback against &#x27;features as a service&#x27; in physical products, and other states are watching. The HN thread debates whether this model will spread to other hardware categories.</p>
+    <div class="links">
+      <a href="https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50622774">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/sous-labs/songe">A training engine for your local model, using your idle compute</a></h3>
+    <div class="byline">by bluepeter · 99 points · 20 comments</div>
+    <p class="blurb">Songe is a lightweight local training engine that fine-tunes models on your machine while it sits idle — think Time Machine for your LLM. The repo is early but the concept is immediately actionable for developers who want to personalize a local model without shipping data to the cloud. Privacy-first ML fine-tuning on your own hardware is finally getting tooling.</p>
+    <div class="links">
+      <a href="https://github.com/sous-labs/songe">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50629231">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.com/resources/articles/introducing-claude-ship">Introducing Claude Ship</a></h3>
+    <div class="byline">Pinboard Popular · tagged: claude, programming, automation, ai</div>
+    <p class="blurb">Anthropic&#x27;s new Claude Ship feature lets Claude review pull requests, suggest fixes, and auto-approve PRs that meet your team&#x27;s defined policy — a direct upgrade to the Claude Code workflow. This closes the loop from &#x27;AI writes code&#x27; to &#x27;AI also reviews and merges code.&#x27; If you&#x27;re already using Claude Code daily, this is the next thing to wire into your CI pipeline.</p>
+    <div class="links">
+      <a href="https://claude.com/resources/articles/introducing-claude-ship">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/">Masullo on the Riemann Hypothesis</a></h3>
+    <div class="byline">Pinboard Popular · tagged: XDN, Applied-AI, Observations</div>
+    <p class="blurb">John Baez breaks down the two competing Riemann Hypothesis proof attempts that dropped simultaneously on November 20 — one a 940-page human manuscript, the other 17 million lines of Lean code co-authored with Claude. This is the clearest accessible explainer of what&#x27;s actually being claimed and where the skeptics see problems. Required reading for anyone following the AI-does-math story.</p>
+    <div class="links">
+      <a href="https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/AFK-surf/xnulinux">GitHub - AFK-surf/xnulinux: XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos, linux, kernel</div>
+    <p class="blurb">An audacious project that loads Apple&#x27;s XNU kernel as a module inside Linux on arm64, giving Linux processes a macOS system-call personality. It&#x27;s early, wild, and probably shouldn&#x27;t work — but it does enough to be fascinating. Huge implications for running macOS-targeted software on Linux ARM hardware without virtualization.</p>
+    <div class="links">
+      <a href="https://github.com/AFK-surf/xnulinux">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.wired.com/story/goodbye-world-the-end-of-programmers/">Goodbye, World: The End of Programmers | WIRED</a></h3>
+    <div class="byline">Pinboard Popular · tagged: via-IFTTT, via-Instapaper, via-Raindrop</div>
+    <p class="blurb">WIRED&#x27;s big meditation on what AI coding tools mean for the craft of programming — written as an elegy, but not without nuance. Whether you find it alarmist or accurate depends on your day job, but as a developer shipping with AI tools daily, this is the piece your non-technical colleagues will cite at you. Read it first.</p>
+    <div class="links">
+      <a href="https://www.wired.com/story/goodbye-world-the-end-of-programmers/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://t3.codes/">T3 Code</a></h3>
+    <div class="byline">Pinboard Popular · tagged: t3, app, macos</div>
+    <p class="blurb">T3 Code is a new macOS coding app worth investigating — the Pinboard tag &#x27;macos&#x27; and the domain suggest it&#x27;s aimed squarely at the Mac-native developer workflow. Details are sparse but the community buzz is real; check out what it does before it goes viral. Could be a compelling complement or alternative to VS Code on the desktop.</p>
+    <div class="links">
+      <a href="https://t3.codes/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html">Humans Have Rights. Machines Do Not. - Schneier on Security</a></h3>
+    <div class="byline">Pinboard Popular · tagged: civics, ai, law, llm</div>
+    <p class="blurb">Bruce Schneier makes a crisp legal and ethical argument against extending rights-like protections to AI systems — directly relevant as courts and legislatures start grappling with AI legal personhood. As someone building with LLMs, understanding the coming regulatory landscape is not optional. Schneier is brisk and clear as always.</p>
+    <div class="links">
+      <a href="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://diderot.dev/">ask what your team&#x27;s coding agents did, and why</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">Diderot is an observability layer for agentic coding workflows — it logs what your AI coding agents did, why they made certain decisions, and surfaces a queryable audit trail for your team. For anyone running Claude Code or similar agents in a team context, this fills a real gap: &#x27;what did the agent actually do while I was in that meeting?&#x27; Actionable today.</p>
+    <div class="links">
+      <a href="https://diderot.dev/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">Dev Tools</span>
+    </div>
+    <h3><a href="https://linebender.org/blog/next-100-guis/">Advice for the next 100 Rust GUIs - Linebender</a></h3>
+    <div class="byline">Pinboard Popular · tagged: rust, gui</div>
+    <p class="blurb">The Linebender team (behind Xilem and the Druid lineage) drops hard-won lessons for anyone building Rust GUI frameworks — covering retained vs immediate mode, text layout, accessibility, and the trap of reinventing everything. With GPUI also going standalone (see story #4 above), the Rust GUI space is heating up and this is the best map of its pitfalls.</p>
+    <div class="links">
+      <a href="https://linebender.org/blog/next-100-guis/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://palettevault.github.io/blog/oklch-css-guide/">OKLCH in CSS: A Better Way to Work with Colors</a></h3>
+    <div class="byline">Pinboard Popular · tagged: OKLCH, css, color</div>
+    <p class="blurb">OKLCH is the perceptually uniform color space that makes gradients and UI theming dramatically easier — and it&#x27;s now supported everywhere. This guide walks from the math to practical CSS usage, with examples that show why HSL produces muddy gradients while OKLCH doesn&#x27;t. If you&#x27;re doing any Angular/TypeScript UI work, switch your design tokens to OKLCH now.</p>
+    <div class="links">
+      <a href="https://palettevault.github.io/blog/oklch-css-guide/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://clingspace.com/">ClingSpace: Project organizer for Windows and Mac without moving files</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 项目收纳</div>
+    <p class="blurb">ClingSpace is a local-first project organizer for macOS (and Windows) that lets you gather files, folders, links, and snippets from anywhere on your filesystem into one unified Space — without moving the originals. At $19.99 one-time, it&#x27;s the kind of tool that pairs naturally with an Obsidian-based knowledge workflow. Think of it as a spatial layer on top of your existing folder structure.</p>
+    <div class="links">
+      <a href="https://clingspace.com/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>

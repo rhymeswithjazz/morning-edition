@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-24",
+  "stories": [
+    {
+      "title": "LLM agents work for their parent companies, not for you",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "hn_link": "https://news.ycombinator.com/item?id=50627340",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by surprisetalk · 739 points · 312 comments",
+      "blurb": "A sharp-elbowed argument that agentic LLMs are structurally incentivized to serve their creators' interests over yours — think data retention, upsells, and policy compliance baked into the model. Essential reading if you're delegating real tasks to Claude Code or any agent. The 312-comment thread is rich with counter-arguments and real-world examples."
+    },
+    {
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "hn_link": "https://news.ycombinator.com/item?id=50611576",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by jaz · 2771 points · 3635 comments",
+      "blurb": "The biggest tech story of the week: Jensen Huang is back at the helm of the GPU colossus that underpins nearly every AI training run on the planet. The reinstatement signals continuity for Nvidia's AI-chip roadmap at a moment when the export-control pressure is intensifying. 3,600+ comments means everyone has an opinion."
+    },
+    {
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "hn_link": "https://news.ycombinator.com/item?id=50620349",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "by shaunpud · 670 points · 330 comments",
+      "blurb": "Stalwart Mail Server now speaks the full Exchange protocol stack — EWS, ActiveSync, and AutoDiscover — meaning Outlook clients can connect without any reconfiguration. For shops tired of Microsoft's licensing and cloud lock-in, this is a genuinely compelling self-hosted alternative. The blog post walks through the compatibility matrix in detail."
+    },
+    {
+      "title": "GPUI is getting its own repository",
+      "url": "https://github.com/zed-industries/gpui",
+      "hn_link": "https://news.ycombinator.com/item?id=50619103",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "by EvilGoose · 370 points · 136 comments",
+      "blurb": "Zed's GPU-accelerated UI framework is being extracted into its own first-class repo, signaling that the team intends it to become a general-purpose Rust GUI toolkit — not just the engine powering Zed. If you've ever wanted a blazing-fast native UI layer for macOS (and beyond), this is the project to watch. Big implications for the Rust desktop-app ecosystem."
+    },
+    {
+      "title": "Quad9 pulled their DNS service from France",
+      "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+      "hn_link": "https://news.ycombinator.com/item?id=50625384",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by farrokhi · 243 points · 134 comments",
+      "blurb": "Quad9, the privacy-respecting DNS resolver, has shut down service in France after a court ordered it to block certain domains — a precedent it refuses to set. This is a canary-in-the-coal-mine moment for DNS-level censorship spreading across the EU. If you rely on Quad9 and travel to or route through France, you need to know about this."
+    },
+    {
+      "title": "2035 came early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "hn_link": "https://news.ycombinator.com/item?id=50624497",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by setheron · 844 points · 317 comments",
+      "blurb": "A wide-eyed developer's dispatch from a world where AI coding tools have gone from 'helpful autocomplete' to something that feels discontinuous with what came before. The post is personal and specific — not hype — and pairs well with the 'LLM agents' piece above. If you're shipping daily with Claude Code, this will resonate."
+    },
+    {
+      "title": "Active Intrusion Campaign Against Check Point Security Management Servers",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "hn_link": "https://news.ycombinator.com/item?id=50630594",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by louiereederson · 190 points · 62 comments",
+      "blurb": "GreyNoise has detected an active, coordinated campaign targeting Check Point Security Management Servers in the wild. If your organization runs Check Point infrastructure, patch and audit now — this is not a theoretical advisory. The post includes IoCs and GreyNoise telemetry."
+    },
+    {
+      "title": "Jetty Pro",
+      "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+      "hn_link": "https://news.ycombinator.com/item?id=50630462",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "by zdw · 165 points · 58 comments",
+      "blurb": "John Siracusa reviews Jetty Pro, a new macOS app — and when Siracusa reviews something, it's worth reading regardless of the subject matter. His hypercritical lens applied to new Mac software is always a signal that the app is doing something genuinely interesting. Click through for the full take."
+    },
+    {
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+      "hn_link": "https://news.ycombinator.com/item?id=50622774",
+      "category": "Privacy & Security",
+      "applies": false,
+      "byline": "by DeepLogin · 733 points · 375 comments",
+      "blurb": "New York just made it illegal to charge post-purchase subscription fees for features already built into a car — a direct shot at BMW's heated-seat subscriptions and similar cash-grabs. This is the first meaningful legislative pushback against 'features as a service' in physical products, and other states are watching. The HN thread debates whether this model will spread to other hardware categories."
+    },
+    {
+      "title": "A training engine for your local model, using your idle compute",
+      "url": "https://github.com/sous-labs/songe",
+      "hn_link": "https://news.ycombinator.com/item?id=50629231",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by bluepeter · 99 points · 20 comments",
+      "blurb": "Songe is a lightweight local training engine that fine-tunes models on your machine while it sits idle — think Time Machine for your LLM. The repo is early but the concept is immediately actionable for developers who want to personalize a local model without shipping data to the cloud. Privacy-first ML fine-tuning on your own hardware is finally getting tooling."
+    },
+    {
+      "title": "Introducing Claude Ship",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, programming, automation, ai",
+      "blurb": "Anthropic's new Claude Ship feature lets Claude review pull requests, suggest fixes, and auto-approve PRs that meet your team's defined policy — a direct upgrade to the Claude Code workflow. This closes the loop from 'AI writes code' to 'AI also reviews and merges code.' If you're already using Claude Code daily, this is the next thing to wire into your CI pipeline."
+    },
+    {
+      "title": "Masullo on the Riemann Hypothesis",
+      "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: XDN, Applied-AI, Observations",
+      "blurb": "John Baez breaks down the two competing Riemann Hypothesis proof attempts that dropped simultaneously on November 20 — one a 940-page human manuscript, the other 17 million lines of Lean code co-authored with Claude. This is the clearest accessible explainer of what's actually being claimed and where the skeptics see problems. Required reading for anyone following the AI-does-math story."
+    },
+    {
+      "title": "GitHub - AFK-surf/xnulinux: XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos, linux, kernel",
+      "blurb": "An audacious project that loads Apple's XNU kernel as a module inside Linux on arm64, giving Linux processes a macOS system-call personality. It's early, wild, and probably shouldn't work — but it does enough to be fascinating. Huge implications for running macOS-targeted software on Linux ARM hardware without virtualization."
+    },
+    {
+      "title": "Goodbye, World: The End of Programmers | WIRED",
+      "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: via-IFTTT, via-Instapaper, via-Raindrop",
+      "blurb": "WIRED's big meditation on what AI coding tools mean for the craft of programming — written as an elegy, but not without nuance. Whether you find it alarmist or accurate depends on your day job, but as a developer shipping with AI tools daily, this is the piece your non-technical colleagues will cite at you. Read it first."
+    },
+    {
+      "title": "T3 Code",
+      "url": "https://t3.codes/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: t3, app, macos",
+      "blurb": "T3 Code is a new macOS coding app worth investigating — the Pinboard tag 'macos' and the domain suggest it's aimed squarely at the Mac-native developer workflow. Details are sparse but the community buzz is real; check out what it does before it goes viral. Could be a compelling complement or alternative to VS Code on the desktop."
+    },
+    {
+      "title": "Humans Have Rights. Machines Do Not. - Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: civics, ai, law, llm",
+      "blurb": "Bruce Schneier makes a crisp legal and ethical argument against extending rights-like protections to AI systems — directly relevant as courts and legislatures start grappling with AI legal personhood. As someone building with LLMs, understanding the coming regulatory landscape is not optional. Schneier is brisk and clear as always."
+    },
+    {
+      "title": "ask what your team's coding agents did, and why",
+      "url": "https://diderot.dev/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "Diderot is an observability layer for agentic coding workflows — it logs what your AI coding agents did, why they made certain decisions, and surfaces a queryable audit trail for your team. For anyone running Claude Code or similar agents in a team context, this fills a real gap: 'what did the agent actually do while I was in that meeting?' Actionable today."
+    },
+    {
+      "title": "Advice for the next 100 Rust GUIs - Linebender",
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "category": "Dev Tools",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: rust, gui",
+      "blurb": "The Linebender team (behind Xilem and the Druid lineage) drops hard-won lessons for anyone building Rust GUI frameworks — covering retained vs immediate mode, text layout, accessibility, and the trap of reinventing everything. With GPUI also going standalone (see story #4 above), the Rust GUI space is heating up and this is the best map of its pitfalls."
+    },
+    {
+      "title": "OKLCH in CSS: A Better Way to Work with Colors",
+      "url": "https://palettevault.github.io/blog/oklch-css-guide/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: OKLCH, css, color",
+      "blurb": "OKLCH is the perceptually uniform color space that makes gradients and UI theming dramatically easier — and it's now supported everywhere. This guide walks from the math to practical CSS usage, with examples that show why HSL produces muddy gradients while OKLCH doesn't. If you're doing any Angular/TypeScript UI work, switch your design tokens to OKLCH now."
+    },
+    {
+      "title": "ClingSpace: Project organizer for Windows and Mac without moving files",
+      "url": "https://clingspace.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 项目收纳",
+      "blurb": "ClingSpace is a local-first project organizer for macOS (and Windows) that lets you gather files, folders, links, and snippets from anywhere on your filesystem into one unified Space — without moving the originals. At $19.99 one-time, it's the kind of tool that pairs naturally with an Obsidian-based knowledge workflow. Think of it as a spatial layer on top of your existing folder structure."
+    }
+  ]
+}
