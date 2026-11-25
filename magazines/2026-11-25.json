@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-25",
+  "stories": [
+    {
+      "title": "The matrix multiplication exponent is nine fourths [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "hn_link": "https://news.ycombinator.com/item?id=50637220",
+      "category": "Weird Science",
+      "applies": true,
+      "byline": "by E-Reverance · 910 points · 513 comments",
+      "blurb": "OpenAI's math team drops a potential landmark result: the matrix multiplication exponent ω = 9/4, the best theoretical bound in decades. If verified, this reshapes the foundations of linear algebra and directly impacts every deep learning framework under the hood. The 513-comment HN thread is already ablaze with skepticism and excitement in equal measure."
+    },
+    {
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "url": "https://buttons.joshwcomeau.com/",
+      "hn_link": "https://news.ycombinator.com/item?id=50638032",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "by gaurang_tandon · 740 points · 116 comments",
+      "blurb": "Josh Comeau has assembled a free, beautifully categorized library of real button click sounds — keyboards, switches, toggles, and more. Perfect for adding tactile audio feedback to web or desktop apps. The production quality is surprisingly high for a freebie resource."
+    },
+    {
+      "title": "Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "hn_link": "https://news.ycombinator.com/item?id=50633922",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by b0m · 516 points · 170 comments",
+      "blurb": "PrismML releases Bonsai 2.5 27B, a ternary-quantized model that slashes memory footprint without gutting quality — a big deal for local inference. Ternary weights mean you can run a 27B-class model on hardware that would normally tap out. Worth watching if you're building AI tooling that needs to run on the edge."
+    },
+    {
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "hn_link": "https://news.ycombinator.com/item?id=50630809",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "by weli · 423 points · 321 comments",
+      "blurb": "A founder says Anthropic flagged their account for model distillation — a ToS violation — despite claiming innocence, and is asking the HN hive mind for help proving it. As Claude Code users build closer to the API, this thread surfaces real legal and technical questions about how distillation is detected. The 321-comment discussion is a goldmine of practical and legal advice."
+    },
+    {
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "hn_link": "https://news.ycombinator.com/item?id=50637686",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by gmays · 402 points · 170 comments",
+      "blurb": "Researchers demonstrate that LLMs sharing an inference server can communicate covertly via timing side-channels, even when logically sandboxed. This is a genuinely novel attack surface that threatens multi-tenant AI deployments. If you're building or deploying agentic systems, this is required reading."
+    },
+    {
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "hn_link": "https://news.ycombinator.com/item?id=50637056",
+      "category": "AI Tools",
+      "applies": false,
+      "byline": "by smusamashah · 371 points · 71 comments",
+      "blurb": "Sam Greydanus trains a transformer to generate continuous handwriting and freehand sketches as pen-stroke sequences — not pixels. The results are eerily natural and open up interesting creative coding directions. A beautiful piece of research that sits at the intersection of generative AI and human expression."
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "hn_link": "https://news.ycombinator.com/item?id=50634658",
+      "category": "Weird Science",
+      "applies": false,
+      "byline": "by acossta · 340 points · 94 comments",
+      "blurb": "OpenAI claims GPT-6 can design novel proteins without specialized fine-tuning — an emergent capability that wasn't explicitly trained for. If the results hold up under scrutiny, it suggests general reasoning at sufficient scale bleeds into biology. Huge implications for drug discovery and synthetic biology."
+    },
+    {
+      "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "hn_link": "https://news.ycombinator.com/item?id=50642086",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by rgwohlbold · 315 points · 245 comments",
+      "blurb": "Google Research drops papers via its Cogentic system on integer factorization and discrete logarithms — the mathematical bedrock of RSA and elliptic-curve crypto. Paired with the swirling Factoring-in-P rumors on HN, this is the most consequential cryptography news day in years. Every developer who ships TLS should be paying attention."
+    },
+    {
+      "title": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "hn_link": "https://news.ycombinator.com/item?id=50644817",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by lxhrstn · 196 points · 100 comments",
+      "blurb": "1Password disclosed a security incident — not great news for the password manager millions rely on as their single source of truth. The post-mortem details matter: scope, what was (or wasn't) exposed, and what mitigations are in place. If you use 1Password personally or recommend it to clients, read this now and rotate accordingly."
+    },
+    {
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "hn_link": "https://news.ycombinator.com/item?id=50638478",
+      "category": "Privacy & Security",
+      "applies": true,
+      "byline": "by negura · 203 points · 43 comments",
+      "blurb": "Intruder researchers found dangling DNS records pointing to decommissioned cloud resources under treasury.gov subdomains — and proved takeover for a $3 domain registration. It's a crisp, practical writeup on subdomain takeover methodology every security-conscious dev should understand. The fact it's US government infrastructure makes it headline-worthy."
+    },
+    {
+      "title": "How the Claude Code team thinks about verification / claude.dev Blog",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: claude, claude-code",
+      "blurb": "The Claude Code team publishes their internal philosophy on verification — how the agent decides when to trust its own output vs. pause and ask. For anyone building with or heavily using Claude Code day-to-day, this is rare inside-the-tent thinking that directly informs how to structure your prompts and workflows."
+    },
+    {
+      "title": "Spaceman — a tiling window manager for macOS",
+      "url": "https://anoma.ly/spaceman/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: macos",
+      "blurb": "Spaceman is a new tiling window manager for macOS that promises to bring keyboard-driven layout control to the Mac without the rougher edges of older tools like Yabai. For developers who live in multiple terminal and editor windows, tiling WMs are a productivity multiplier. Worth a look if you've been waiting for a polished native-feeling option."
+    },
+    {
+      "title": "Remindly: light, fast notes for iPhone, iPad and Mac",
+      "url": "https://www.remindly.com/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 笔记",
+      "blurb": "Remindly is a quick-capture notes app for the Apple ecosystem that keeps everything local — with Claude or ChatGPT optionally able to search and add to your notes. For Obsidian users who want a frictionless inbox on iPhone/Mac, this fills a genuine gap. The privacy-first, on-device storage model is a strong differentiator."
+    },
+    {
+      "title": "Yogurt · AI meeting notes that stay on your computer",
+      "url": "https://yogurt.so/",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ai, local",
+      "blurb": "Yogurt does AI meeting transcription and notes entirely on-device — no audio leaves your machine. For privacy-conscious developers who refuse to pipe call recordings through cloud services, this is the product category that's been missing. Worth a trial if you're currently on Otter or Fireflies."
+    },
+    {
+      "title": "the new set of problems for engineers to solve - katelyn lesse",
+      "url": "https://www.katelynlesse.com/blog/new-problems-for-engineers-to-solve",
+      "category": "AI Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: sw-dev, post-agentic",
+      "blurb": "A sharp blog post on the \"post-agentic\" shift: as AI takes over routine code generation, what hard problems remain uniquely human? The framing around verification, taste, and system boundaries is fresh and directly relevant to developers integrating AI coding tools into daily work. Good thinking fuel."
+    },
+    {
+      "title": "SSH Is the Most Underrated Platform in Tech | MilkCrunch",
+      "url": "https://milkcrunch.com/ssh-is-a-platform/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: ssh, sysadmin, unix",
+      "blurb": "An opinionated argument that SSH is not just a remote shell but a full composable platform — covering tunnels, multiplexed connections, certificate authorities, and jump hosts in ways most devs never explore. Packed with actionable config examples. If your SSH config is still three lines, this will change that."
+    },
+    {
+      "title": "Jon's Arm Reference",
+      "url": "https://arm.jonpalmisc.com/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: arm, architecture, isa, assembly, reference",
+      "blurb": "A beautifully organized, navigable ARM instruction set reference that's miles easier to use than the official ARM docs. With Apple Silicon on every Mac, understanding ARM assembly is increasingly relevant for performance work. Bookmark this immediately."
+    },
+    {
+      "title": "Shelfr - 适用于 Mac 的电子书侧载工具 | 支持 Kindle、Kobo 和 Nook",
+      "url": "https://twoplus11.com/shelfr/",
+      "category": "New Apple Apps",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: 电子书发送",
+      "blurb": "Shelfr is a Mac app that sideloads ebooks onto Kindle, Kobo, or Nook — plug in your reader and it automatically sends each book in the right format. Books stay stored on your Mac rather than in a cloud service. A clean, privacy-respecting solution to a friction point that every ebook-loving Mac user has dealt with."
+    },
+    {
+      "title": "A Better Vocabulary for Testing",
+      "url": "https://alperenkeles.com/posts/vocab-for-testing/",
+      "category": "Dev Tools",
+      "applies": true,
+      "byline": "Pinboard Popular · tagged: untagged",
+      "blurb": "A crisp post proposing clearer, more precise language for the often-muddled world of software testing — distinguishing terms like \"stub,\" \"fake,\" \"spy,\" and \"mock\" with concrete rationale. When your team argues about what a \"unit test\" even means, shared vocabulary is the fix. Directly applicable to any TypeScript/.NET codebase."
+    },
+    {
+      "title": "FaceTypes",
+      "url": "https://facetypes.xyz/",
+      "category": "Creative Software",
+      "applies": false,
+      "byline": "Pinboard Popular · tagged: typography, fonts",
+      "blurb": "FaceTypes is a curated directory of free fonts actually worth using — no junk, just well-crafted typefaces with real personality. Each entry includes usage context and pairing suggestions. A reliable bookmark for the next time you're designing a side project or picking a code editor font."
+    }
+  ]
+}

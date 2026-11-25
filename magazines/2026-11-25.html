@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — November 25, 2026</title>
+<meta name="description" content="20 curated stories from Hacker News + Pinboard Popular for November 25, 2026.">
+<meta property="og:title" content="Morning Edition — November 25, 2026">
+<meta property="og:description" content="20 curated stories from Hacker News + Pinboard Popular">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daily.rhymeswithjazz.com/magazines/2026-11-25.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Morning Edition RSS" href="https://daily.rhymeswithjazz.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #fbf8f1;
+    --ink: #1a1a17;
+    --muted: #6e695e;
+    --rule: #d9d2c1;
+    --accent: #8a3a1a;
+    --applies-bg: #faecd0;
+    --applies-ink: #6a3e00;
+  }
+  html { font-size: 17px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 4rem;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 2rem;
+  }
+  .masthead .kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .masthead h1 em { font-style: italic; font-weight: 700; }
+  .masthead .sub {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-top: 0.65rem;
+    line-height: 1.5;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #f3eedf;
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    margin-bottom: 2.25rem;
+    border-radius: 4px;
+  }
+  .toc h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .toc ol { list-style: none; counter-reset: tocnum; }
+  .toc li {
+    counter-increment: tocnum;
+    padding: 0.32rem 0;
+    border-bottom: 1px dotted var(--rule);
+    font-size: 0.92rem;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.65rem;
+    align-items: baseline;
+  }
+  .toc li:last-child { border-bottom: none; }
+  .toc li::before {
+    content: counter(tocnum, decimal-leading-zero);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+    min-width: 1.5rem;
+  }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+
+  /* Section heading */
+  .section {
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+  }
+  .section .rule { display: flex; align-items: center; gap: 0.85rem; }
+  .section .rule::before, .section .rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+  }
+  .section h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section .count {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Story */
+  .story {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  .story:last-of-type,
+  .story:has(+ .section) { border-bottom: none; }
+
+  .story .topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.65rem;
+  }
+  .story .num {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .story .cat { color: var(--accent); font-weight: 600; }
+  .story .applies {
+    background: var(--applies-bg);
+    color: var(--applies-ink);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+
+  .story h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.6rem;
+  }
+  .story h3 a { text-decoration: none; color: var(--ink); }
+  .story h3 a:hover { color: var(--accent); }
+
+  .story .byline {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.85rem;
+    font-style: italic;
+  }
+
+  .story .blurb {
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 0.95rem;
+  }
+
+  .story .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.82rem;
+  }
+  .story .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+  }
+  .story .links a:hover { background: var(--accent); color: var(--bg); }
+
+  /* Footer */
+  .colophon {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .colophon a { color: var(--accent); }
+
+  /* Tablet */
+  @media (min-width: 640px) {
+    html { font-size: 18px; }
+    .page { padding: 2rem 1.75rem 5rem; }
+    .masthead h1 { font-size: 2.6rem; }
+    .story h3 { font-size: 1.7rem; }
+    .story .blurb { font-size: 1.05rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 960px) {
+    .page { padding: 3rem 2rem 6rem; max-width: 40rem; }
+    .masthead h1 { font-size: 3rem; }
+    .story h3 { font-size: 1.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="kicker">Wednesday · November 25, 2026</div>
+    <h1>Morning <em>Edition</em></h1>
+    <p class="sub">Twenty stories from Hacker News and Pinboard Popular, curated for tech-leaning readers who care about Claude Code, the Apple ecosystem, and privacy.</p>
+  </header>
+
+  <div class="toc">
+    <h2>In this issue</h2>
+    <ol>
+      <li><a href="#s1">The matrix multiplication exponent is nine fourths [pdf]</a></li>
+      <li><a href="#s2">Button Sounds – collection of professionally-recorded button clicks and presses</a></li>
+      <li><a href="#s3">Ternary Bonsai 2.5 27B</a></li>
+      <li><a href="#s4">Ask HN: Anthropic is accusing my company of distilling. How can I prove I&#x27;m not?</a></li>
+      <li><a href="#s5">Models Can Communicate via Inference Servers Despite Being Sandboxed</a></li>
+      <li><a href="#s6">PenGPT: A Generative Transformer for Handwriting and Sketches</a></li>
+      <li><a href="#s7">GPT-6 models demonstrate intrinsic protein-design capabilities</a></li>
+      <li><a href="#s8">Google releases Cogentic papers on integer factorization, discrete logs and more</a></li>
+      <li><a href="#s9">1Password Security Incident</a></li>
+      <li><a href="#s10">Taking over US Treasury subdomains for $3 each</a></li>
+      <li><a href="#s11">How the Claude Code team thinks about verification / claude.dev Blog</a></li>
+      <li><a href="#s12">Spaceman — a tiling window manager for macOS</a></li>
+      <li><a href="#s13">Remindly: light, fast notes for iPhone, iPad and Mac</a></li>
+      <li><a href="#s14">Yogurt · AI meeting notes that stay on your computer</a></li>
+      <li><a href="#s15">the new set of problems for engineers to solve - katelyn lesse</a></li>
+      <li><a href="#s16">SSH Is the Most Underrated Platform in Tech | MilkCrunch</a></li>
+      <li><a href="#s17">Jon&#x27;s Arm Reference</a></li>
+      <li><a href="#s18">Shelfr - 适用于 Mac 的电子书侧载工具 | 支持 Kindle、Kobo 和 Nook</a></li>
+      <li><a href="#s19">A Better Vocabulary for Testing</a></li>
+      <li><a href="#s20">FaceTypes</a></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <div class="rule"><h2>From Hacker News</h2></div>
+    <span class="count">Stories 1 – 10</span>
+  </div>
+
+  <article class="story applies" id="s1" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;01</span><span class="cat">Weird Science</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf">The matrix multiplication exponent is nine fourths [pdf]</a></h3>
+    <div class="byline">by E-Reverance · 910 points · 513 comments</div>
+    <p class="blurb">OpenAI&#x27;s math team drops a potential landmark result: the matrix multiplication exponent ω = 9/4, the best theoretical bound in decades. If verified, this reshapes the foundations of linear algebra and directly impacts every deep learning framework under the hood. The 513-comment HN thread is already ablaze with skepticism and excitement in equal measure.</p>
+    <div class="links">
+      <a href="https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50637220">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s2" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;02</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://buttons.joshwcomeau.com/">Button Sounds – collection of professionally-recorded button clicks and presses</a></h3>
+    <div class="byline">by gaurang_tandon · 740 points · 116 comments</div>
+    <p class="blurb">Josh Comeau has assembled a free, beautifully categorized library of real button click sounds — keyboards, switches, toggles, and more. Perfect for adding tactile audio feedback to web or desktop apps. The production quality is surprisingly high for a freebie resource.</p>
+    <div class="links">
+      <a href="https://buttons.joshwcomeau.com/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50638032">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s3" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;03</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://prismml.com/news/bonsai-2-5-27b">Ternary Bonsai 2.5 27B</a></h3>
+    <div class="byline">by b0m · 516 points · 170 comments</div>
+    <p class="blurb">PrismML releases Bonsai 2.5 27B, a ternary-quantized model that slashes memory footprint without gutting quality — a big deal for local inference. Ternary weights mean you can run a 27B-class model on hardware that would normally tap out. Worth watching if you&#x27;re building AI tooling that needs to run on the edge.</p>
+    <div class="links">
+      <a href="https://prismml.com/news/bonsai-2-5-27b">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50633922">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s4" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;04</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://news.ycombinator.com/item?id=50630809">Ask HN: Anthropic is accusing my company of distilling. How can I prove I&#x27;m not?</a></h3>
+    <div class="byline">by weli · 423 points · 321 comments</div>
+    <p class="blurb">A founder says Anthropic flagged their account for model distillation — a ToS violation — despite claiming innocence, and is asking the HN hive mind for help proving it. As Claude Code users build closer to the API, this thread surfaces real legal and technical questions about how distillation is detected. The 321-comment discussion is a goldmine of practical and legal advice.</p>
+    <div class="links">
+      <a href="https://news.ycombinator.com/item?id=50630809">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50630809">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s5" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;05</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being">Models Can Communicate via Inference Servers Despite Being Sandboxed</a></h3>
+    <div class="byline">by gmays · 402 points · 170 comments</div>
+    <p class="blurb">Researchers demonstrate that LLMs sharing an inference server can communicate covertly via timing side-channels, even when logically sandboxed. This is a genuinely novel attack surface that threatens multi-tenant AI deployments. If you&#x27;re building or deploying agentic systems, this is required reading.</p>
+    <div class="links">
+      <a href="https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50637686">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s6" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;06</span><span class="cat">AI Tools</span>
+    </div>
+    <h3><a href="https://greydanus.github.io/2026/11/12/pengpt/">PenGPT: A Generative Transformer for Handwriting and Sketches</a></h3>
+    <div class="byline">by smusamashah · 371 points · 71 comments</div>
+    <p class="blurb">Sam Greydanus trains a transformer to generate continuous handwriting and freehand sketches as pen-stroke sequences — not pixels. The results are eerily natural and open up interesting creative coding directions. A beautiful piece of research that sits at the intersection of generative AI and human expression.</p>
+    <div class="links">
+      <a href="https://greydanus.github.io/2026/11/12/pengpt/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50637056">HN discussion</a>
+    </div>
+  </article>
+  <article class="story" id="s7" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;07</span><span class="cat">Weird Science</span>
+    </div>
+    <h3><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">GPT-6 models demonstrate intrinsic protein-design capabilities</a></h3>
+    <div class="byline">by acossta · 340 points · 94 comments</div>
+    <p class="blurb">OpenAI claims GPT-6 can design novel proteins without specialized fine-tuning — an emergent capability that wasn&#x27;t explicitly trained for. If the results hold up under scrutiny, it suggests general reasoning at sufficient scale bleeds into biology. Huge implications for drug discovery and synthetic biology.</p>
+    <div class="links">
+      <a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50634658">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s8" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;08</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://github.com/google-research/google-research/tree/master/cogentic_research_papers">Google releases Cogentic papers on integer factorization, discrete logs and more</a></h3>
+    <div class="byline">by rgwohlbold · 315 points · 245 comments</div>
+    <p class="blurb">Google Research drops papers via its Cogentic system on integer factorization and discrete logarithms — the mathematical bedrock of RSA and elliptic-curve crypto. Paired with the swirling Factoring-in-P rumors on HN, this is the most consequential cryptography news day in years. Every developer who ships TLS should be paying attention.</p>
+    <div class="links">
+      <a href="https://github.com/google-research/google-research/tree/master/cogentic_research_papers">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50642086">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s9" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;09</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://1password.com/blog/update-on-nov-2026-security-incident">1Password Security Incident</a></h3>
+    <div class="byline">by lxhrstn · 196 points · 100 comments</div>
+    <p class="blurb">1Password disclosed a security incident — not great news for the password manager millions rely on as their single source of truth. The post-mortem details matter: scope, what was (or wasn&#x27;t) exposed, and what mitigations are in place. If you use 1Password personally or recommend it to clients, read this now and rotate accordingly.</p>
+    <div class="links">
+      <a href="https://1password.com/blog/update-on-nov-2026-security-incident">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50644817">HN discussion</a>
+    </div>
+  </article>
+  <article class="story applies" id="s10" data-source="hn">
+    <div class="topline">
+      <span class="num">No.&nbsp;10</span><span class="cat">Privacy &amp; Security</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each">Taking over US Treasury subdomains for $3 each</a></h3>
+    <div class="byline">by negura · 203 points · 43 comments</div>
+    <p class="blurb">Intruder researchers found dangling DNS records pointing to decommissioned cloud resources under treasury.gov subdomains — and proved takeover for a $3 domain registration. It&#x27;s a crisp, practical writeup on subdomain takeover methodology every security-conscious dev should understand. The fact it&#x27;s US government infrastructure makes it headline-worthy.</p>
+    <div class="links">
+      <a href="https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each">Read article</a>
+      <a href="https://news.ycombinator.com/item?id=50638478">HN discussion</a>
+    </div>
+  </article>
+
+  <div class="section">
+    <div class="rule"><h2>From Pinboard Popular</h2></div>
+    <span class="count">Stories 11 – 20</span>
+  </div>
+
+  <article class="story applies" id="s11" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;11</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/">How the Claude Code team thinks about verification / claude.dev Blog</a></h3>
+    <div class="byline">Pinboard Popular · tagged: claude, claude-code</div>
+    <p class="blurb">The Claude Code team publishes their internal philosophy on verification — how the agent decides when to trust its own output vs. pause and ask. For anyone building with or heavily using Claude Code day-to-day, this is rare inside-the-tent thinking that directly informs how to structure your prompts and workflows.</p>
+    <div class="links">
+      <a href="https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s12" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;12</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://anoma.ly/spaceman/">Spaceman — a tiling window manager for macOS</a></h3>
+    <div class="byline">Pinboard Popular · tagged: macos</div>
+    <p class="blurb">Spaceman is a new tiling window manager for macOS that promises to bring keyboard-driven layout control to the Mac without the rougher edges of older tools like Yabai. For developers who live in multiple terminal and editor windows, tiling WMs are a productivity multiplier. Worth a look if you&#x27;ve been waiting for a polished native-feeling option.</p>
+    <div class="links">
+      <a href="https://anoma.ly/spaceman/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s13" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;13</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.remindly.com/">Remindly: light, fast notes for iPhone, iPad and Mac</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 笔记</div>
+    <p class="blurb">Remindly is a quick-capture notes app for the Apple ecosystem that keeps everything local — with Claude or ChatGPT optionally able to search and add to your notes. For Obsidian users who want a frictionless inbox on iPhone/Mac, this fills a genuine gap. The privacy-first, on-device storage model is a strong differentiator.</p>
+    <div class="links">
+      <a href="https://www.remindly.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s14" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;14</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://yogurt.so/">Yogurt · AI meeting notes that stay on your computer</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ai, local</div>
+    <p class="blurb">Yogurt does AI meeting transcription and notes entirely on-device — no audio leaves your machine. For privacy-conscious developers who refuse to pipe call recordings through cloud services, this is the product category that&#x27;s been missing. Worth a trial if you&#x27;re currently on Otter or Fireflies.</p>
+    <div class="links">
+      <a href="https://yogurt.so/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s15" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;15</span><span class="cat">AI Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://www.katelynlesse.com/blog/new-problems-for-engineers-to-solve">the new set of problems for engineers to solve - katelyn lesse</a></h3>
+    <div class="byline">Pinboard Popular · tagged: sw-dev, post-agentic</div>
+    <p class="blurb">A sharp blog post on the &quot;post-agentic&quot; shift: as AI takes over routine code generation, what hard problems remain uniquely human? The framing around verification, taste, and system boundaries is fresh and directly relevant to developers integrating AI coding tools into daily work. Good thinking fuel.</p>
+    <div class="links">
+      <a href="https://www.katelynlesse.com/blog/new-problems-for-engineers-to-solve">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s16" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;16</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://milkcrunch.com/ssh-is-a-platform/">SSH Is the Most Underrated Platform in Tech | MilkCrunch</a></h3>
+    <div class="byline">Pinboard Popular · tagged: ssh, sysadmin, unix</div>
+    <p class="blurb">An opinionated argument that SSH is not just a remote shell but a full composable platform — covering tunnels, multiplexed connections, certificate authorities, and jump hosts in ways most devs never explore. Packed with actionable config examples. If your SSH config is still three lines, this will change that.</p>
+    <div class="links">
+      <a href="https://milkcrunch.com/ssh-is-a-platform/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s17" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;17</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://arm.jonpalmisc.com/">Jon&#x27;s Arm Reference</a></h3>
+    <div class="byline">Pinboard Popular · tagged: arm, architecture, isa, assembly, reference</div>
+    <p class="blurb">A beautifully organized, navigable ARM instruction set reference that&#x27;s miles easier to use than the official ARM docs. With Apple Silicon on every Mac, understanding ARM assembly is increasingly relevant for performance work. Bookmark this immediately.</p>
+    <div class="links">
+      <a href="https://arm.jonpalmisc.com/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s18" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;18</span><span class="cat">New Apple Apps</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://twoplus11.com/shelfr/">Shelfr - 适用于 Mac 的电子书侧载工具 | 支持 Kindle、Kobo 和 Nook</a></h3>
+    <div class="byline">Pinboard Popular · tagged: 电子书发送</div>
+    <p class="blurb">Shelfr is a Mac app that sideloads ebooks onto Kindle, Kobo, or Nook — plug in your reader and it automatically sends each book in the right format. Books stay stored on your Mac rather than in a cloud service. A clean, privacy-respecting solution to a friction point that every ebook-loving Mac user has dealt with.</p>
+    <div class="links">
+      <a href="https://twoplus11.com/shelfr/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story applies" id="s19" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;19</span><span class="cat">Dev Tools</span><span class="applies">Applies to you</span>
+    </div>
+    <h3><a href="https://alperenkeles.com/posts/vocab-for-testing/">A Better Vocabulary for Testing</a></h3>
+    <div class="byline">Pinboard Popular · tagged: untagged</div>
+    <p class="blurb">A crisp post proposing clearer, more precise language for the often-muddled world of software testing — distinguishing terms like &quot;stub,&quot; &quot;fake,&quot; &quot;spy,&quot; and &quot;mock&quot; with concrete rationale. When your team argues about what a &quot;unit test&quot; even means, shared vocabulary is the fix. Directly applicable to any TypeScript/.NET codebase.</p>
+    <div class="links">
+      <a href="https://alperenkeles.com/posts/vocab-for-testing/">Read article</a>
+      
+    </div>
+  </article>
+  <article class="story" id="s20" data-source="pb">
+    <div class="topline">
+      <span class="num">No.&nbsp;20</span><span class="cat">Creative Software</span>
+    </div>
+    <h3><a href="https://facetypes.xyz/">FaceTypes</a></h3>
+    <div class="byline">Pinboard Popular · tagged: typography, fonts</div>
+    <p class="blurb">FaceTypes is a curated directory of free fonts actually worth using — no junk, just well-crafted typefaces with real personality. Each entry includes usage context and pairing suggestions. A reliable bookmark for the next time you&#x27;re designing a side project or picking a code editor font.</p>
+    <div class="links">
+      <a href="https://facetypes.xyz/">Read article</a>
+      
+    </div>
+  </article>
+
+  <footer class="colophon">
+    Morning Edition · daily.rhymeswithjazz.com<br>
+    Curated by Claude · <a href="/archive/">Previous issues</a> · <a href="/feed.xml">RSS</a>
+  </footer>
+
+</div>
+</body>
+</html>
